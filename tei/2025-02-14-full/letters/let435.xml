@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Anthon van Rappard. Nuenen, on or about Saturday, 8 March 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let435"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b8374 a-b V/2006 (sheets 1, 2); Paris, Fondation Custodia, Collection Frits Lugt, inv. no. 1977-A-1715 (sheet 3); whereabouts of the greater part of sheet 4 unknown.</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>435</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>R42</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>439</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-03-08">on or about Saturday, 8 March 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anthon van Rappard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 8374 a" xml:id="surf-pb-1r">
+<graphic url="VGM001001631_01_n"/>
+<zone xml:id="zone-pb-1r-1" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001631_01_n"/></zone></surface>
+<surface n="b 8374 a" xml:id="surf-pb-1v">
+<graphic url="VGM001001631_02_n"/>
+<zone xml:id="zone-pb-1v-2" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001001631_02_n"/></zone>
+<zone xml:id="zone-pb-1v-3" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001631_02_n"/></zone></surface>
+<surface n="b 8374 b" xml:id="surf-pb-2r">
+<graphic url="VGM001001632_02_n"/>
+<zone xml:id="zone-pb-2r-4" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001632_02_n"/></zone>
+<zone xml:id="zone-pb-2r-7" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001001632_02_n"/></zone></surface>
+<surface n="b 8374 b" xml:id="surf-pb-2v">
+<graphic url="VGM001001632_01_n"/>
+<zone xml:id="zone-pb-2v-5" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001001632_01_n"/></zone>
+<zone xml:id="zone-pb-2v-6" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001632_01_n"/></zone></surface>
+<surface n="van elders" xml:id="surf-pb-3r">
+<graphic url="435_3r"/>
+<zone xml:id="zone-pb-3r-8" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="435_3r"/></zone></surface>
+<surface n="van elders" xml:id="surf-pb-3v">
+<graphic url="435_3v"/>
+<zone xml:id="zone-pb-3v-9">
+<graphic url="435_3v"/></zone></surface>
+<surface n="van elders" xml:id="surf-pb-4r">
+<graphic url="435_4r"/>
+<zone xml:id="zone-pb-4r-11" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="435_4r"/></zone></surface>
+<surface n="van elders" xml:id="surf-pb-4v">
+<graphic url="435_4v"/>
+<zone xml:id="zone-pb-4v-10">
+<graphic url="435_4v"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">Amice Rappard,</p><lb n="2" xml:id="l-2"/>
+
+<p xml:id="p.orig.2" n="2">Ziehier nog eenigen der gedichten van Jules Breton<c type="kk">,</c> <lb n="3" xml:id="l-3"/>als gij ze niet hebt weet ik zeker ze U bijzonder treffen <lb n="4" xml:id="l-4"/>zullen. Vandaag<c type="kk">,</c> of liever sedert een paar dagen heb ik een studie geschilderd van <lb n="5" xml:id="l-5"/>het weefgetouw waar ge de teekening van hebt<c type="kp">.</c>–<ptr target="#note-t-1"/> Ben <lb n="6" xml:id="l-6"/>ook zoekende naar de kleur van den wintertuin<c type="kp">.</c> <lb n="7" xml:id="l-7"/>Doch die is reeds een <hi rend="italics">lente</hi> tuin – nu<c type="kp">.</c>– En <lb n="8" xml:id="l-8"/>is iets heel anders geworden<c type="kp">.</c><ptr target="#note-t-2"/></p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/><lb n="9" xml:id="l-9"/>
+
+<p xml:id="p.orig.3" n="3">Gegroet<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/><lb n="10" xml:id="l-10"/>
+
+<p xml:id="p.orig.4" n="4">b. à t<c type="kp">.</c></p><lb n="11" xml:id="l-11"/>
+
+<p xml:id="p.orig.5" n="5">Vincent</p>
+<space unit="lines" quantity="1"/><lb n="12" xml:id="l-12"/>
+
+<p xml:lang="fr" xml:id="p.orig.6" n="6"><hi rend="italics">Seule</hi><ptr target="#note-t-3"/></p>
+<space unit="lines" quantity="1"/><lb n="13" xml:id="l-13"/>
+
+<p xml:lang="fr" xml:id="p.orig.7" n="7">Les chaumes de velours, sous une poudre d’or</p><lb n="14" xml:id="l-14"/>
+
+<p xml:lang="fr" xml:id="p.orig.8" n="8">Bordés d’un trait de feu, nagent dans l’ombre grise</p><lb n="15" xml:id="l-15"/>
+
+<p xml:lang="fr" xml:id="p.orig.9" n="9">Par délà les toits noirs que sa lumière frise</p><lb n="16" xml:id="l-16"/>
+
+<p xml:lang="fr" xml:id="p.orig.10" n="10">S’incline radieux l’astre de messidor<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/><lb n="17" xml:id="l-17"/>
+
+<p xml:lang="fr" xml:id="p.orig.11" n="11">Immense gerbe, il tombe épanchant son trésor</p><lb n="18" xml:id="l-18"/>
+
+<p xml:lang="fr" xml:id="p.orig.12" n="12">Et le zenith bleu verse une lumière exquise</p><lb n="19" xml:id="l-19"/>
+
+<p xml:lang="fr" xml:id="p.orig.13" n="13">Sur la route où – parmi les senteurs de la brise</p><lb n="20" xml:id="l-20"/>
+
+<p xml:lang="fr" xml:id="p.orig.14" n="14">Chante et bondit la ronde au tournoyant essor<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="21" xml:id="l-21"/>
+
+<p xml:lang="fr" xml:id="p.orig.15" n="15">Dans la poussière ardente et les rayons de flammes,</p><lb n="22" xml:id="l-22"/>
+
+<p xml:lang="fr" xml:id="p.orig.16" n="16">Joyeusement, les mains aux mains, dansent les femmes.</p><lb n="23" xml:id="l-23"/>
+
+<p xml:lang="fr" xml:id="p.orig.17" n="17">Mais la plus bèlle rêve, assise un peu plus loin;</p>
+<space unit="lines" quantity="1"/><lb n="24" xml:id="l-24"/>
+
+<p xml:lang="fr" xml:id="p.orig.18" n="18">Elle est là – Seule – et mord sa lèvre maladive,</p><lb n="25" xml:id="l-25"/>
+
+<p xml:lang="fr" xml:id="p.orig.19" n="19">Et telle qu’on verrait dans un champ de sainfoin</p><lb n="26" xml:id="l-26"/>
+
+<p xml:lang="fr" xml:id="p.orig.20" n="20">Se crisper et languir la pâle sensitive<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/><lb n="27" xml:id="l-27"/>
+
+<p xml:lang="fr" xml:id="p.orig.21" n="21"><hi rend="italics">Le chant du soir</hi><ptr target="#note-t-4"/></p>
+<space unit="lines" quantity="1"/><lb n="28" xml:id="l-28"/>
+
+<p xml:lang="fr" xml:id="p.orig.22" n="22">Quand le nuage</p><lb n="29" xml:id="l-29"/>
+
+<p xml:lang="fr" xml:id="p.orig.23" n="23">Surnage</p><lb n="30" xml:id="l-30"/>
+
+<p xml:lang="fr" xml:id="p.orig.24" n="24">Laissant flotter des lambeaux d’or</p><lb n="31" xml:id="l-31"/>
+
+<p xml:lang="fr" xml:id="p.orig.25" n="25">Qu’ouvrant sa gerbe</p><lb n="32" xml:id="l-32"/>
+
+<p xml:lang="fr" xml:id="p.orig.26" n="26">Superbe</p><lb n="33" xml:id="l-33"/>
+
+<p xml:lang="fr" xml:id="p.orig.27" n="27">Le soleil verse son tresor;</p>
+<space unit="lines" quantity="1"/><lb n="34" xml:id="l-34"/>
+
+<p xml:lang="fr" xml:id="p.orig.28" n="28">Pauvres glaneuses</p><lb n="35" xml:id="l-35"/>
+
+<p xml:lang="fr" xml:id="p.orig.29" n="29">Faneuses</p><lb n="36" xml:id="l-36"/>
+
+<p xml:lang="fr" xml:id="p.orig.30" n="30">Une riche gloire de feu</p><lb n="37" xml:id="l-37"/>
+
+<p xml:lang="fr" xml:id="p.orig.31" n="31">Vibre et caresse</p><lb n="38" xml:id="l-38"/>
+
+<p xml:lang="fr" xml:id="p.orig.32" n="32">la tresse</p><lb n="40" xml:id="l-40"/>
+
+<p xml:lang="fr" xml:id="p.orig.33" n="33">Ondoyante de vos cheveux<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="41" xml:id="l-41"/>
+
+<p xml:lang="fr" xml:id="p.orig.34" n="34">Le rayon rose</p><lb n="42" xml:id="l-42"/>
+
+<p xml:lang="fr" xml:id="p.orig.35" n="35">Arrose</p><lb n="43" xml:id="l-43"/>
+
+<p xml:lang="fr" xml:id="p.orig.36" n="36">Vos vieux haillons trainant leurs fils</p><lb n="44" xml:id="l-44"/>
+
+<p xml:lang="fr" xml:id="p.orig.37" n="37">Glisse – flamboie</p><lb n="45" xml:id="l-45"/>
+
+<p xml:lang="fr" xml:id="p.orig.38" n="38">et noie</p><lb n="46" xml:id="l-46"/>
+
+<p xml:lang="fr" xml:id="p.orig.39" n="39">dans la flamme vos beaux profils<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="47" xml:id="l-47"/>
+
+<p xml:lang="fr" xml:id="p.orig.40" n="40">Puis le mystère</p><lb n="48" xml:id="l-48"/>
+
+<p xml:lang="fr" xml:id="p.orig.41" n="41">Austère</p><lb n="49" xml:id="l-49"/>
+
+<p xml:lang="fr" xml:id="p.orig.42" n="42">Tombe et se répand lentement;</p><lb n="50" xml:id="l-50"/>
+
+<p xml:lang="fr" xml:id="p.orig.43" n="43">Au crépuscule</p><lb n="51" xml:id="l-51"/>
+
+<p xml:lang="fr" xml:id="p.orig.44" n="44">Circule</p><lb n="52" xml:id="l-52"/>
+
+<p xml:lang="fr" xml:id="p.orig.45" n="45">La saine odeur du froment<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="53" xml:id="l-53"/>
+
+<p xml:lang="fr" xml:id="p.orig.46" n="46">Le massif d’ormes</p><lb n="54" xml:id="l-54"/>
+
+<p xml:lang="fr" xml:id="p.orig.47" n="47">Enormes</p><lb n="55" xml:id="l-55"/>
+
+<p xml:lang="fr" xml:id="p.orig.48" n="48">Brunit ses rameaux emmêlés</p><lb n="56" xml:id="l-56"/>
+
+<p xml:lang="fr" xml:id="p.orig.49" n="49">Et d’un trait ferme</p><lb n="57" xml:id="l-57"/>
+
+<p xml:lang="fr" xml:id="p.orig.50" n="50">La ferme</p><lb n="58" xml:id="l-58"/>
+
+<p xml:lang="fr" xml:id="p.orig.51" n="51">S’accuse au sein vague des blés<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="59" xml:id="l-59"/>
+
+<p xml:lang="fr" xml:id="p.orig.52" n="52">Le feu fait trêve</p><lb n="60" xml:id="l-60"/>
+
+<p xml:lang="fr" xml:id="p.orig.53" n="53">Le rêve</p><lb n="61" xml:id="l-61"/>
+
+<p xml:lang="fr" xml:id="p.orig.54" n="54">Se mêle aux effluves du soir;</p><lb n="62" xml:id="l-62"/>
+
+<p xml:lang="fr" xml:id="p.orig.55" n="55">Le tout s’embrume</p><lb n="63" xml:id="l-63"/>
+
+<p xml:lang="fr" xml:id="p.orig.56" n="56">Et fume</p><lb n="64" xml:id="l-64"/>
+
+<p xml:lang="fr" xml:id="p.orig.57" n="57">Ainsi qu’un immense encensoir<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="65" xml:id="l-65"/>
+
+<p xml:lang="fr" xml:id="p.orig.58" n="58">Le troupeau grêle</p><lb n="66" xml:id="l-66"/>
+
+<p xml:lang="fr" xml:id="p.orig.59" n="59">Qui bêle</p><lb n="67" xml:id="l-67"/>
+
+<p xml:lang="fr" xml:id="p.orig.60" n="60">S’achemine vers le repos;</p><lb n="68" xml:id="l-68"/>
+
+<p xml:lang="fr" xml:id="p.orig.61" n="61">Tandis que chante</p><lb n="69" xml:id="l-69"/>
+
+<p xml:lang="fr" xml:id="p.orig.62" n="62">Touchante</p><lb n="70" xml:id="l-70"/>
+
+<p xml:lang="fr" xml:id="p.orig.63" n="63">La douce flûte des crapauds.</p>
+<space unit="lines" quantity="1"/><lb n="71" xml:id="l-71"/>
+
+<p xml:lang="fr" xml:id="p.orig.64" n="64">Puis monotone</p><lb n="72" xml:id="l-72"/>
+
+<p xml:lang="fr" xml:id="p.orig.65" n="65">Résonne</p><lb n="73" xml:id="l-73"/>
+
+<p xml:lang="fr" xml:id="p.orig.66" n="66">Tout au loin la cloche à la tour</p><lb n="74" xml:id="l-74"/>
+
+<p xml:lang="fr" xml:id="p.orig.67" n="67">Et sa volée</p><lb n="75" xml:id="l-75"/>
+
+<p xml:lang="fr" xml:id="p.orig.68" n="68">Ailée</p><lb n="76" xml:id="l-76"/>
+
+<p xml:lang="fr" xml:id="p.orig.69" n="69">S’élève et décroît alentour<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="77" xml:id="l-77"/>
+
+<p xml:lang="fr" xml:id="p.orig.70" n="70">La note tinte</p><lb n="78" xml:id="l-78"/>
+
+<p xml:lang="fr" xml:id="p.orig.71" n="71">Eteinte</p><lb n="79" xml:id="l-79"/>
+
+<p xml:lang="fr" xml:id="p.orig.72" n="72">Plus pure qu’aux bois lorsqu’encor,</p><lb n="80" xml:id="l-80"/>
+
+<p xml:lang="fr" xml:id="p.orig.73" n="73">Dans l’ecarlate</p><lb n="81" xml:id="l-81"/>
+
+<p xml:lang="fr" xml:id="p.orig.74" n="74">Eclate</p><lb n="82" xml:id="l-82"/>
+
+<p xml:lang="fr" xml:id="p.orig.75" n="75">Au soir le son vibrant du cor.</p>
+<space unit="lines" quantity="1"/><lb n="83" xml:id="l-83"/>
+
+<p xml:lang="fr" xml:id="p.orig.76" n="76">Aux hautes cimes</p><lb n="84" xml:id="l-84"/>
+
+<p xml:lang="fr" xml:id="p.orig.77" n="77">Sublimes</p><lb n="85" xml:id="l-85"/>
+
+<p xml:lang="fr" xml:id="p.orig.78" n="78">Combien je préfère ce lieu,</p><lb n="86" xml:id="l-86"/>
+
+<p xml:lang="fr" xml:id="p.orig.79" n="79">Cette humble plaine</p><lb n="87" xml:id="l-87"/>
+
+<p xml:lang="fr" xml:id="p.orig.80" n="80">Si pleine</p><lb n="88" xml:id="l-88"/>
+
+<p xml:lang="fr" xml:id="p.orig.81" n="81">De l’immense bonté de Dieu!</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/><lb n="89" xml:id="l-89"/>
+
+<p xml:id="p.orig.82" n="82">Nu krijgt ge nog een klein standje – <lb n="90" xml:id="l-90"/>en wel dit – toen ik bij U was dezen <lb n="91" xml:id="l-91"/>winter,<ptr target="#note-t-5"/> waart gij tegen <lb n="92" xml:id="l-92"/>“enthousiasme” – ik bedoel<c type="kk">,</c> zeidet iets <lb n="93" xml:id="l-93"/>dat Jaap Maris zeide dat enthousiasme <lb n="94" xml:id="l-94"/>‘’k weet niet wat was – ’t geen <hi rend="italics">hij</hi><c type="kk">,</c> n.l. Jaap<c type="kk">,</c> <lb n="95" xml:id="l-95"/>goddank zelf niet precies in toepassing heeft <lb n="96" xml:id="l-96"/>gebragt in zijn leven – <lb n="96a" xml:id="l-96a"/>al moge hij zoo iets gezegd hebben slaande op een of ander <lb n="96b" xml:id="l-96b"/>speciaal geval – <lb n="97" xml:id="l-97"/>hebbende hij in <lb n="98" xml:id="l-98"/><hi rend="italics">alle</hi> omstandigheden doorgeschilderd<c type="kp">.</c> <lb n="99" xml:id="l-99"/>Dan moesten de vogels ook maar <lb n="100" xml:id="l-100"/>niet zingen en schilders niet schilderen <lb n="101" xml:id="l-101"/>als zij behoorden na te denken of ze niet <lb n="102" xml:id="l-102"/>te vurig waren<c type="kp">.</c>–</p><lb n="103" xml:id="l-103"/>
+
+<p rend="indent" xml:id="p.orig.83" n="83">Lees nu <hi rend="italics">Les Cigales</hi> – en – <lb n="104" xml:id="l-104"/>’k zal er maar niets meer bij zeggen<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="4" xml:id="pb-orig-2r-4" facs="#zone-pb-2r-4"/><lb n="105" xml:id="l-105"/>
+
+<p xml:lang="fr" xml:id="p.orig.84" n="84"><hi rend="italics">L’aube</hi> – (à Corot)<ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/><lb n="106" xml:id="l-106"/>
+
+<p xml:lang="fr" xml:id="p.orig.85" n="85">Je suivais un sentier, à l’aube, dans les blés,</p><lb n="107" xml:id="l-107"/>
+
+<p xml:lang="fr" xml:id="p.orig.86" n="86">Etroit, où l’on se mouille aux gouttes qui s’épanchent</p><lb n="108" xml:id="l-108"/>
+
+<p xml:lang="fr" xml:id="p.orig.87" n="87">En frôlant les épis alourdis qui se penchent;</p><lb n="109" xml:id="l-109"/>
+
+<p xml:lang="fr" xml:id="p.orig.88" n="88">Et j’errais évoquant mes rêves envolés.</p>
+<space unit="lines" quantity="1"/><lb n="110" xml:id="l-110"/>
+
+<p xml:lang="fr" xml:id="p.orig.89" n="89">Ah! qui n’a pas perdu des rameaux étoilés</p><lb n="111" xml:id="l-111"/>
+
+<p xml:lang="fr" xml:id="p.orig.90" n="90">Comme les saules gris, que les hommes ébranchent</p><lb n="112" xml:id="l-112"/>
+
+<p xml:lang="fr" xml:id="p.orig.91" n="91">Qui font un bruit si doux quand leurs larmes étanchent</p><lb n="113" xml:id="l-113"/>
+
+<p xml:lang="fr" xml:id="p.orig.92" n="92">La soif des liserons à leurs pieds enroulés!</p>
+<space unit="lines" quantity="1"/><lb n="114" xml:id="l-114"/>
+
+<p xml:lang="fr" xml:id="p.orig.93" n="93">Et je sentais mon coeur, d’où je chassais la prose</p><lb n="115" xml:id="l-115"/>
+
+<p xml:lang="fr" xml:id="p.orig.94" n="94">S’attendrir au rayon discret, pâle &amp; changeant</p><lb n="116" xml:id="l-116"/>
+
+<p xml:lang="fr" xml:id="p.orig.95" n="95">Comme un arbre souffrant et que la pluie arrose.</p>
+<space unit="lines" quantity="1"/><lb n="117" xml:id="l-117"/>
+
+<p xml:lang="fr" xml:id="p.orig.96" n="96">Et voilà que<c type="kk">,</c> joyeuse – éclate au ciel d’argent</p><lb n="118" xml:id="l-118"/>
+
+<p xml:lang="fr" xml:id="p.orig.97" n="97">L’alouette qui voit, des brumes émergeant</p><lb n="119" xml:id="l-119"/>
+
+<p xml:lang="fr" xml:id="p.orig.98" n="98">A l’orient monter le premier flocon rose<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="5" xml:id="pb-orig-2v-5" facs="#zone-pb-2v-5"/><lb n="129" xml:id="l-129"/>
+
+<p xml:lang="fr" xml:id="p.orig.99" n="99"><hi rend="italics">Automne</hi> (à Jules Dupré)<ptr target="#note-t-7"/></p>
+<space unit="lines" quantity="1"/><lb n="130" xml:id="l-130"/>
+
+<p xml:lang="fr" xml:id="p.orig.100" n="100">La rivière s’écoule avec lenteur. Ses eaux</p><lb n="131" xml:id="l-131"/>
+
+<p xml:lang="fr" xml:id="p.orig.101" n="101">Murmurent, près du bord, aux souches des vieux aulnes</p><lb n="132" xml:id="l-132"/>
+
+<p xml:lang="fr" xml:id="p.orig.102" n="102">Qui se teignent de sang; de hauts peupliers jaunes</p><lb n="133" xml:id="l-133"/>
+
+<p xml:lang="fr" xml:id="p.orig.103" n="103">Sèment leurs feuilles d’or parmi les blonds roseaux.</p>
+<space unit="lines" quantity="1"/><lb n="134" xml:id="l-134"/>
+
+<p xml:lang="fr" xml:id="p.orig.104" n="104">Le vent leger<c type="kk">,</c> qui croise en mobiles réseaux</p><lb n="135" xml:id="l-135"/>
+
+<p xml:lang="fr" xml:id="p.orig.105" n="105">Ses rides d’argent clair, laisse de sombres zones</p><lb n="136" xml:id="l-136"/>
+
+<p xml:lang="fr" xml:id="p.orig.106" n="106">Où les arbres plongeant leurs dômes et leurs cônes</p><lb n="137" xml:id="l-137"/>
+
+<p xml:lang="fr" xml:id="p.orig.107" n="107">Tremblent, comme agités par des miliers d’oiseaux.</p>
+<space unit="lines" quantity="1"/><lb n="138" xml:id="l-138"/>
+
+<p xml:lang="fr" xml:id="p.orig.108" n="108">Par instants se répète un cri grêle de grive,</p><lb n="139" xml:id="l-139"/>
+
+<p xml:lang="fr" xml:id="p.orig.109" n="109">Et, lancé brusquement des herbes de la rive,</p><lb n="140" xml:id="l-140"/>
+
+<p xml:lang="fr" xml:id="p.orig.110" n="110">Etincelle un joyau dans l’air subtil et bleu;</p>
+<space unit="lines" quantity="1"/><lb n="141" xml:id="l-141"/>
+
+<p xml:lang="fr" xml:id="p.orig.111" n="111">Un chant aigu prolonge une note stridente;</p><lb n="142" xml:id="l-142"/>
+
+<p xml:lang="fr" xml:id="p.orig.112" n="112">C’est le martin-pêcheur qui fuit d’une aile ardente</p><lb n="143" xml:id="l-143"/>
+
+<p xml:lang="fr" xml:id="p.orig.113" n="113">Dans un furtif rayon d’éméraude et de feu.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/><lb n="155" xml:id="l-155"/>
+
+<p xml:lang="fr" xml:id="p.orig.114" n="114"><hi rend="italics">Soleil couchant</hi> (à Emile Breton)<ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/><lb n="156" xml:id="l-156"/>
+
+<p xml:lang="fr" xml:id="p.orig.115" n="115">Des vapeurs aux remous infinis – mer de brume</p><lb n="157" xml:id="l-157"/>
+
+<p xml:lang="fr" xml:id="p.orig.116" n="116">Où les coteaux voilés ondulent – larges flots</p><lb n="158" xml:id="l-158"/>
+
+<p xml:lang="fr" xml:id="p.orig.117" n="117">Les villages, perdus comme de noirs îlots,</p><lb n="159" xml:id="l-159"/>
+
+<p xml:lang="fr" xml:id="p.orig.118" n="118">Emergent, enfonçant leurs pieds bruns dans l’écume.</p>
+<space unit="lines" quantity="1"/><lb n="160" xml:id="l-160"/>
+
+<p xml:lang="fr" xml:id="p.orig.119" n="119">Tandis que tout se tait, s’agrandit, nage et fume,</p><lb n="161" xml:id="l-161"/>
+
+<p xml:lang="fr" xml:id="p.orig.120" n="120">Qu’au fond des ravins, seuls, tintent de lents grelots,</p><lb n="162" xml:id="l-162"/>
+
+<p xml:lang="fr" xml:id="p.orig.121" n="121">Que de rares lueurs, ainsi que des falots</p><lb n="163" xml:id="l-163"/>
+
+<p xml:lang="fr" xml:id="p.orig.122" n="122">Palpitent, le ciel vibre et tout entier s’allume.</p>
+<space unit="lines" quantity="1"/><lb n="164" xml:id="l-164"/>
+
+<p xml:lang="fr" xml:id="p.orig.123" n="123">Notre globe muet, sous le dôme vermeil</p><lb n="165" xml:id="l-165"/>
+
+<p xml:lang="fr" xml:id="p.orig.124" n="124">Prie et rêve ébloui par la magnificence</p><lb n="166" xml:id="l-166"/>
+
+<p xml:lang="fr" xml:id="p.orig.125" n="125">De l’astre fécondant que le nuage encense;</p>
+<space unit="lines" quantity="1"/><lb n="167" xml:id="l-167"/>
+
+<p xml:lang="fr" xml:id="p.orig.126" n="126">Et dans ce grand respect, pris d’un divin sommeil</p><lb n="168" xml:id="l-168"/>
+
+<p xml:lang="fr" xml:id="p.orig.127" n="127">Orbe rouge au milieu de l’aureole immense</p><lb n="169" xml:id="l-169"/>
+
+<p xml:lang="fr" xml:id="p.orig.128" n="128">Gravement<c type="kk">,</c> lentement se couche le soleil.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="7" xml:id="pb-orig-2r-7" facs="#zone-pb-2r-7"/><lb n="181" xml:id="l-181"/>
+
+<p xml:lang="fr" xml:id="p.orig.129" n="129"><hi rend="italics">Yvonne</hi><ptr target="#note-t-9"/></p>
+<space unit="lines" quantity="1"/><lb n="182" xml:id="l-182"/>
+
+<p xml:lang="fr" xml:id="p.orig.130" n="130">Je regardais souvent, le coude à la fenêtre</p><lb n="183" xml:id="l-183"/>
+
+<p xml:lang="fr" xml:id="p.orig.131" n="131">Les filles revenir de la source à midi.</p><lb n="184" xml:id="l-184"/>
+
+<p xml:lang="fr" xml:id="p.orig.132" n="132">Yvonne apparaisait, et son geste hardi,</p><lb n="185" xml:id="l-185"/>
+
+<p xml:lang="fr" xml:id="p.orig.133" n="133">Son haut galbe de loin la faisait reconnaître.</p>
+<space unit="lines" quantity="1"/><lb n="186" xml:id="l-186"/>
+
+<p xml:lang="fr" xml:id="p.orig.134" n="134">C’était pour le regard une fête, parbleu!</p><lb n="187" xml:id="l-187"/>
+
+<p xml:lang="fr" xml:id="p.orig.135" n="135">Que de la suivre alors, si droite sous sa cruche,</p><lb n="188" xml:id="l-188"/>
+
+<p xml:lang="fr" xml:id="p.orig.136" n="136">Quand<c type="kk">,</c> relevant sa coiffe en huppe de perruche,</p><lb n="189" xml:id="l-189"/>
+
+<p xml:lang="fr" xml:id="p.orig.137" n="137">Le vent faisait flotter son souple jupon bleu.</p>
+<space unit="lines" quantity="1"/><lb n="190" xml:id="l-190"/>
+
+<p xml:lang="fr" xml:id="p.orig.138" n="138">Avec quelle beauté, laissant son humble châle</p><lb n="191" xml:id="l-191"/>
+
+<p xml:lang="fr" xml:id="p.orig.139" n="139">Tomber en nobles plis que la brise inclinait</p><lb n="192" xml:id="l-192"/>
+
+<p xml:lang="fr" xml:id="p.orig.140" n="140">Elle étendait le bras, en l’air, et retenait</p><lb n="193" xml:id="l-193"/>
+
+<p xml:lang="fr" xml:id="p.orig.141" n="141">Son amphore de grès rouge sur son front pâle!</p>
+<space unit="lines" quantity="1"/><lb n="194" xml:id="l-194"/>
+
+<p xml:lang="fr" xml:id="p.orig.142" n="142">Que ses traits étaient purs! Je ne sais quoi d’amer</p><lb n="195" xml:id="l-195"/>
+
+<p xml:lang="fr" xml:id="p.orig.143" n="143">Et de charmant errait sur sa lèvre sauvage;</p><lb n="196" xml:id="l-196"/>
+
+<p xml:lang="fr" xml:id="p.orig.144" n="144">Et comme elle était bien la fille du rivage,</p><lb n="197" xml:id="l-197"/>
+
+<p xml:lang="fr" xml:id="p.orig.145" n="145">Forte et comme trempée aux souffles de la mer!</p>
+<space unit="lines" quantity="1"/><lb n="198" xml:id="l-198"/>
+
+<p xml:lang="fr" xml:id="p.orig.146" n="146">Par la rue aux rumeurs banales et narquoises,</p><lb n="199" xml:id="l-199"/>
+
+<p xml:lang="fr" xml:id="p.orig.147" n="147">Où quelques maigres chiens, craintifs, se font la cour,</p><lb n="200" xml:id="l-200"/>
+
+<p xml:lang="fr" xml:id="p.orig.148" n="148">Parmi de vils ramas poussés de mainte cour</p><lb n="201" xml:id="l-201"/>
+
+<p xml:lang="fr" xml:id="p.orig.149" n="149">Au ruisseaux où le ciel reflète ses turquoises,</p>
+<space unit="lines" quantity="1"/><lb n="202" xml:id="l-202"/>
+
+<p xml:lang="fr" xml:id="p.orig.150" n="150">De la ville rasant les murs gris ou crayeux,</p><lb n="203" xml:id="l-203"/>
+
+<p xml:lang="fr" xml:id="p.orig.151" n="151">Je crois la voir encore, une main sur la hanche</p><lb n="204" xml:id="l-204"/>
+
+<p xml:lang="fr" xml:id="p.orig.152" n="152">Sans que de l’urne pleine une goutte s’épanche</p><lb n="205" xml:id="l-205"/>
+
+<p xml:lang="fr" xml:id="p.orig.153" n="153">Grande et grave passer sans détourner les yeux.</p>
+<space unit="lines" quantity="1"/><lb n="120" xml:id="l-120"/>
+
+<p xml:lang="fr" xml:id="p.orig.154" n="154"><hi rend="italics">Les cigales</hi><ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/><lb n="121" xml:id="l-121"/>
+
+<p xml:lang="fr" xml:id="p.orig.155" n="155">Lorsque dans l’herbe mûre aucun épi ne bouge</p><lb n="122" xml:id="l-122"/>
+
+<p xml:lang="fr" xml:id="p.orig.156" n="156">Qu’à l’ardeur des rayons crépite le froment,</p><lb n="123" xml:id="l-123"/>
+
+<p xml:lang="fr" xml:id="p.orig.157" n="157">Que le coquelicot tombe languissamment</p><lb n="124" xml:id="l-124"/>
+
+<p xml:lang="fr" xml:id="p.orig.158" n="158">Sous le faible fardeau de sa corolle rouge;</p>
+<space unit="lines" quantity="1"/><lb n="125" xml:id="l-125"/>
+
+<p xml:lang="fr" xml:id="p.orig.159" n="159">Tous les oiseaux de l’air ont fait taire leurs chants;</p><lb n="126" xml:id="l-126"/>
+
+<p xml:lang="fr" xml:id="p.orig.160" n="160">Les ramiers paresseux, au plus noir des ramures,</p><lb n="127" xml:id="l-127"/>
+
+<p xml:lang="fr" xml:id="p.orig.161" n="161">Somnolents, dans les bois, ont cessé leurs murmures</p><lb n="128" xml:id="l-128"/>
+
+<p xml:lang="fr" xml:id="p.orig.162" n="162">Loin du soleil muet incendiant les champs.</p>
+<space unit="lines" quantity="1"/><lb n="145" xml:id="l-145"/>
+
+<p xml:lang="fr" xml:id="p.orig.163" n="163">Dans les blés<c type="kk">,</c> cependant – d’intrepides cigales</p><lb n="146" xml:id="l-146"/>
+
+<p xml:lang="fr" xml:id="p.orig.164" n="164">Jettent leurs mille bruits, fanfare de l’été</p><lb n="147" xml:id="l-147"/>
+
+<p xml:lang="fr" xml:id="p.orig.165" n="165">Ont frénétiquement et sans trêve agité</p><lb n="148" xml:id="l-148"/>
+
+<p xml:lang="fr" xml:id="p.orig.166" n="166">Leurs ailes sur l’airain de leurs folles cymbales.</p>
+<space unit="lines" quantity="1"/><lb n="149" xml:id="l-149"/>
+
+<p xml:lang="fr" xml:id="p.orig.167" n="167">Frémissantes, debout sur les longs épis d’or</p><lb n="150" xml:id="l-150"/>
+
+<p xml:lang="fr" xml:id="p.orig.168" n="168">Virtuoses qui vont s’éteindre avant l’automne,</p><lb n="151" xml:id="l-151"/>
+
+<p xml:lang="fr" xml:id="p.orig.169" n="169">Elles poussaient au ciel leur hymne monotone</p><lb n="152" xml:id="l-152"/>
+
+<p xml:lang="fr" xml:id="p.orig.170" n="170">Qui dans l’ombre des nuits retentissait encor<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/><lb n="153" xml:id="l-153"/>
+
+<p xml:lang="fr" xml:id="p.orig.171" n="171">Et rien n’arrêtera leurs cris intarissables</p><lb n="154" xml:id="l-154"/>
+
+<p xml:lang="fr" xml:id="p.orig.172" n="172">Quand on les chassera des avoines et des blés<c type="kp">.</c></p><lb n="171" xml:id="l-171"/>
+
+<p xml:lang="fr" xml:id="p.orig.173" n="173">Elles emigreront sur les buissons brûlés</p><lb n="172" xml:id="l-172"/>
+
+<p xml:lang="fr" xml:id="p.orig.174" n="174">Qui se meurent de soif dans les déserts de sables.</p>
+<space unit="lines" quantity="1"/><lb n="173" xml:id="l-173"/>
+
+<p xml:lang="fr" xml:id="p.orig.175" n="175">Sur l’arbuste effeuillé, sur les chardons flétris</p><lb n="174" xml:id="l-174"/>
+
+<p xml:lang="fr" xml:id="p.orig.176" n="176">Qui laissent s’envoler leur blanche chevelure</p><lb n="175" xml:id="l-175"/>
+
+<p xml:lang="fr" xml:id="p.orig.177" n="177"><hi rend="italics">On reverra l’insecte à la forte encolure</hi></p><lb n="176" xml:id="l-176"/>
+
+<p xml:lang="fr" xml:id="p.orig.178" n="178">Plein d’ivresse – toujours s’exalter dans ses cris;</p>
+<space unit="lines" quantity="1"/><lb n="177" xml:id="l-177"/>
+
+<p xml:lang="fr" xml:id="p.orig.179" n="179"><hi rend="italics">Jusqu’à ce qu’ouvrant l’aile en lambeaux arrachée</hi></p><lb n="178" xml:id="l-178"/>
+
+<p xml:lang="fr" xml:id="p.orig.180" n="180"><hi rend="italics">Exaspéré, brûlant d’un feu toujours plus pur</hi></p><lb n="179" xml:id="l-179"/>
+
+<p xml:lang="fr" xml:id="p.orig.181" n="181"><hi rend="italics">Son oeil de bronze fixe et tendu vers l’azur</hi></p><lb n="180" xml:id="l-180"/>
+
+<p xml:lang="fr" xml:id="p.orig.182" n="182"><hi rend="italics">Il expire en chantant sur la tige séchée</hi><c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="8" xml:id="pb-orig-3r-8" facs="#zone-pb-3r-8"/><lb n="206" xml:id="l-206"/>
+
+<p xml:lang="fr" xml:id="p.orig.183" n="183"><hi rend="italics">Le soir – (à Louis Cabat)</hi><ptr target="#note-t-11"/></p> <space unit="lines" quantity="1"/><lb n="207" xml:id="l-207"/>
+
+<p xml:lang="fr" xml:id="p.orig.184" n="184">C’est un humble fossé perdu sous le feuillage;</p><lb n="208" xml:id="l-208"/>
+
+<p xml:lang="fr" xml:id="p.orig.185" n="185">Les aunes du bosquet le couvrent à demi;</p><lb n="209" xml:id="l-209"/>
+
+<p xml:lang="fr" xml:id="p.orig.186" n="186">L’insecte, en l’effleurant, trace un leger sillage</p><lb n="210" xml:id="l-210"/>
+
+<p xml:lang="fr" xml:id="p.orig.187" n="187">Et s’en vient seul rayer le miroir endormi<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="211" xml:id="l-211"/>
+
+<p xml:lang="fr" xml:id="p.orig.188" n="188">Le soir tombe, et c’est l’heure où se fait le miracle,</p><lb n="212" xml:id="l-212"/>
+
+<p xml:lang="fr" xml:id="p.orig.189" n="189">Transfiguration qui change tout en or;</p><lb n="213" xml:id="l-213"/>
+
+<p xml:lang="fr" xml:id="p.orig.190" n="190">Aux yeux charmés tout offre un ravissant spectacle;</p><lb n="214" xml:id="l-214"/>
+
+<p xml:lang="fr" xml:id="p.orig.191" n="191">Le modeste fossé brille plus qu’un trésor<c type="kp">.</c><space unit="lines" quantity="1"/></p> <space unit="lines" quantity="1"/><lb n="215" xml:id="l-215"/>
+
+<p xml:lang="fr" xml:id="p.orig.192" n="192">Le ciel éblouissant, tamisé par les branches</p><lb n="216" xml:id="l-216"/>
+
+<p xml:lang="fr" xml:id="p.orig.193" n="193">A plongé dans l’eau noire un lumineux rayon;</p><lb n="217" xml:id="l-217"/>
+
+<p xml:lang="fr" xml:id="p.orig.194" n="194">Tombant de tous côtés, des étincelles blanches</p><lb n="218" xml:id="l-218"/>
+
+<p xml:lang="fr" xml:id="p.orig.195" n="195">Entourent un foyer d’or pâle en fusion.</p> <space unit="lines" quantity="1"/><lb n="219" xml:id="l-219"/>
+
+<p xml:lang="fr" xml:id="p.orig.196" n="196">Aux bords tout est mystère et douceur infinie.</p><lb n="220" xml:id="l-220"/>
+
+<p xml:lang="fr" xml:id="p.orig.197" n="197">On y voit s’assoupir quelques fleurs aux tons froids</p><lb n="221" xml:id="l-221"/>
+
+<p xml:lang="fr" xml:id="p.orig.198" n="198">Et les reflets confus de verdure brunie</p><lb n="222" xml:id="l-222"/>
+
+<p xml:lang="fr" xml:id="p.orig.199" n="199">Et d’arbres violets qui descendent tout droits.</p> <space unit="lines" quantity="1"/><lb n="223" xml:id="l-223"/>
+
+<p xml:lang="fr" xml:id="p.orig.200" n="200">Dans la lumière, au loin, des touffes d’émeraude</p><lb n="224" xml:id="l-224"/>
+
+<p xml:lang="fr" xml:id="p.orig.201" n="201">Vous laissent deviner la ligne des champs blonds</p><lb n="225" xml:id="l-225"/>
+
+<p xml:lang="fr" xml:id="p.orig.202" n="202">Et le ciel enflammé d’une teinte si chaude</p><lb n="226" xml:id="l-226"/>
+
+<p xml:lang="fr" xml:id="p.orig.203" n="203">Et le soleil tombé qui tremble dans les joncs<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="227" xml:id="l-227"/>
+
+<p xml:lang="fr" xml:id="p.orig.204" n="204">Et dans mon âme emue – alors quand je compare</p><lb n="228" xml:id="l-228"/>
+
+<p xml:lang="fr" xml:id="p.orig.205" n="205">L’humilité du site à sa sublimité</p><lb n="229" xml:id="l-229"/>
+
+<p xml:lang="fr" xml:id="p.orig.206" n="206">un délire sacré de mon esprit s’empare</p><lb n="230" xml:id="l-230"/>
+
+<p xml:lang="fr" xml:id="p.orig.207" n="207">Et j’entrevois la main de la divinité<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="231" xml:id="l-231"/>
+
+<p xml:lang="fr" xml:id="p.orig.208" n="208">Ce n’est rien – et c’est tout. En créant la nature</p><lb n="232" xml:id="l-232"/>
+
+<p xml:lang="fr" xml:id="p.orig.209" n="209">Dieu répandit partout la splendeur de l’effet;</p><lb n="233" xml:id="l-233"/>
+
+<p xml:lang="fr" xml:id="p.orig.210" n="210">Aux petits des oiseaux s’il donne la pâture</p><lb n="234" xml:id="l-234"/>
+
+<p xml:lang="fr" xml:id="p.orig.211" n="211">Il prodigue le beau – ce suprême bienfait<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/><lb n="235" xml:id="l-235"/>
+
+<p xml:lang="fr" xml:id="p.orig.212" n="212">Ce n’est rien – et c’est tout. En le voyant j’oublie,</p><lb n="236" xml:id="l-236"/>
+
+<p xml:lang="fr" xml:id="p.orig.213" n="213">Pauvre petit fossé qui me troubles si fort,</p><lb n="237" xml:id="l-237"/>
+
+<p xml:lang="fr" xml:id="p.orig.214" n="214">Mes angoisses de coeur – mes rêves d’Italie</p><lb n="238" xml:id="l-238"/>
+
+<p xml:lang="fr" xml:id="p.orig.215" n="215">Et je me sens meilleur – et je benis le sort.</p>
+<space unit="lines" quantity="1"/>
+<pb f="3v" n="9" xml:id="pb-orig-3v-9" facs="#zone-pb-3v-9"/><lb n="239" xml:id="l-239"/>
+
+<p xml:lang="fr" xml:id="p.orig.216" n="216"><hi rend="italics">Les deux croix</hi><ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/><lb n="240" xml:id="l-240"/>
+
+<p xml:lang="fr" xml:id="p.orig.217" n="217">On voit, sur une route au pays de Pontcroix,</p><lb n="241" xml:id="l-241"/>
+
+<p xml:lang="fr" xml:id="p.orig.218" n="218">En plein ciel, toute neuve, une pompeuse croix</p><lb n="242" xml:id="l-242"/>
+
+<p xml:lang="fr" xml:id="p.orig.219" n="219">Où resplendit un Christ badigeonné de rose.</p><lb n="243" xml:id="l-243"/>
+
+<p xml:lang="fr" xml:id="p.orig.220" n="220">Deux ou trois pas plus loin, se tord, navrante chose,</p><lb n="244" xml:id="l-244"/>
+
+<p xml:lang="fr" xml:id="p.orig.221" n="221">Piteux et relégué sous les buissons d’un mur,</p><lb n="245" xml:id="l-245"/>
+
+<p xml:lang="fr" xml:id="p.orig.222" n="222">Laissant saillir de l’ombre un horrible fémur,</p><lb n="246" xml:id="l-246"/>
+
+<p xml:lang="fr" xml:id="p.orig.223" n="223">Penchant affreusement sa tête mutilée</p><lb n="247" xml:id="l-247"/>
+
+<p xml:lang="fr" xml:id="p.orig.224" n="224">Au milieu de l’ortie à la ronce mêlée</p><lb n="248" xml:id="l-248"/>
+
+<p xml:lang="fr" xml:id="p.orig.225" n="225">Oublié, l’ancien Christ informe et sans couleur.</p><lb n="249" xml:id="l-249"/>
+
+<p xml:lang="fr" xml:id="p.orig.226" n="226">Et l’éternel Souffrant, qui calme la douleur,</p><lb n="250" xml:id="l-250"/>
+
+<p xml:lang="fr" xml:id="p.orig.227" n="227">Rappelle, en cet état, les âpres agonies</p><lb n="251" xml:id="l-251"/>
+
+<p xml:lang="fr" xml:id="p.orig.228" n="228">De tant de nobles coeurs jetés aux gémonies;</p><lb n="252" xml:id="l-252"/>
+
+<p xml:lang="fr" xml:id="p.orig.229" n="229">Et le lépreux qui fuit le jour injurieux,</p><lb n="253" xml:id="l-253"/>
+
+<p xml:lang="fr" xml:id="p.orig.230" n="230">Le mendiant lui-même en detourne les yeux;</p><lb n="254" xml:id="l-254"/>
+
+<p xml:lang="fr" xml:id="p.orig.231" n="231">Et le poète l’aime.... et la foule qui passe</p><lb n="255" xml:id="l-255"/>
+
+<p xml:lang="fr" xml:id="p.orig.232" n="232">N’a de regards que pour celui qui dans l’espace</p><lb n="256" xml:id="l-256"/>
+
+<p xml:lang="fr" xml:id="p.orig.233" n="233">Etend ses bras en croix dans une gloire d’or.</p><lb n="257" xml:id="l-257"/>
+
+<p xml:lang="fr" xml:id="p.orig.234" n="234">Au crucifié même il faut un beau decor;</p><lb n="258" xml:id="l-258"/>
+
+<p xml:lang="fr" xml:id="p.orig.235" n="235">A celui-ci l’encens, les voeux et la prière;</p><lb n="259" xml:id="l-259"/>
+
+<p xml:lang="fr" xml:id="p.orig.236" n="236">L’autre – dans les cailloux, n’est qu’une vaine pierre.</p><lb n="260" xml:id="l-260"/>
+
+<p xml:lang="fr" xml:id="p.orig.237" n="237">Et cependant quel coeur ne serait pas touché!</p><lb n="261" xml:id="l-261"/>
+
+<p xml:lang="fr" xml:id="p.orig.238" n="238">Un trou s’ouvrait au mur, et le Christ l’a bouché!</p><lb n="262" xml:id="l-262"/>
+
+<p xml:lang="fr" xml:id="p.orig.239" n="239">Et l’égout du chemin, de sa fétide haleine</p><lb n="263" xml:id="l-263"/>
+
+<p xml:lang="fr" xml:id="p.orig.240" n="240">Baigne ses pieds aimés qu’arrosa Madeleine.</p> <lb n="264" xml:id="l-264"/>
+
+<p xml:lang="fr" xml:id="p.orig.241" n="241">Toi dont le crime fut de répandre l’amour,</p><lb n="265" xml:id="l-265"/>
+
+<p xml:lang="fr" xml:id="p.orig.242" n="242">Lorsque – pour t’en punir, Ponce et Caïphe, un jour,</p><lb n="266" xml:id="l-266"/>
+
+<p xml:lang="fr" xml:id="p.orig.243" n="243">Sur ta tête eurent mis la couronne d’épines,</p><lb n="267" xml:id="l-267"/>
+
+<p xml:lang="fr" xml:id="p.orig.244" n="244">o Christ! qu’un paysan de ses mains enfantines,</p><lb n="268" xml:id="l-268"/>
+
+<p xml:lang="fr" xml:id="p.orig.245" n="245">D’un barbare ciseau par l’amour ennobli,</p><lb n="269" xml:id="l-269"/>
+
+<p xml:lang="fr" xml:id="p.orig.246" n="246">Tailla dans ce bloc dur; croyais-tu que l’oubli</p><lb n="270" xml:id="l-270"/>
+
+<p xml:lang="fr" xml:id="p.orig.247" n="247">Oserait te jeter dans un trou de muraille,</p><lb n="271" xml:id="l-271"/>
+
+<p xml:lang="fr" xml:id="p.orig.248" n="248">Et qu’outrage dernier, l’insultante broussaille</p><lb n="272" xml:id="l-272"/>
+
+<p xml:lang="fr" xml:id="p.orig.249" n="249">Mêlerait sur ton front, qui saigne et qui bénit,</p><lb n="273" xml:id="l-273"/>
+
+<p xml:lang="fr" xml:id="p.orig.250" n="250">L’épine de la ronce à celle du granit?</p>
+<space unit="lines" quantity="1"/>
+<pb f="4v" n="10" xml:id="pb-orig-4v-10" facs="#zone-pb-4v-10"/><lb n="274" xml:id="l-274"/>
+
+<p xml:lang="fr" xml:id="p.orig.251" n="251"><hi rend="italics">Crépuscule (à Charles Daubigny)</hi><ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/><lb n="275" xml:id="l-275"/>
+
+<p xml:lang="fr" xml:id="p.orig.252" n="252">L’anémone et la renoncule</p><lb n="276" xml:id="l-276"/>
+
+<p xml:lang="fr" xml:id="p.orig.253" n="253">Ont fermé leurs fleurs de satin</p><lb n="277" xml:id="l-277"/>
+
+<p xml:lang="fr" xml:id="p.orig.254" n="254">Voici le soir; le crépuscule</p><lb n="278" xml:id="l-278"/>
+
+<p xml:lang="fr" xml:id="p.orig.255" n="255">Idéalise le jardin.–</p>
+<space unit="lines" quantity="1"/><lb n="279" xml:id="l-279"/>
+
+<p xml:lang="fr" xml:id="p.orig.256" n="256">Tout sommeille – même la brise</p><lb n="280" xml:id="l-280"/>
+
+<p xml:lang="fr" xml:id="p.orig.257" n="257">Dans l’enivrement des parfums</p><lb n="281" xml:id="l-281"/>
+
+<p xml:lang="fr" xml:id="p.orig.258" n="258">Et la couleur devient exquise</p><lb n="282" xml:id="l-282"/>
+
+<p xml:lang="fr" xml:id="p.orig.259" n="259">Dans la puissance des tons bruns<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="283" xml:id="l-283"/>
+
+<p xml:lang="fr" xml:id="p.orig.260" n="260">Quand la nature se repose</p><lb n="284" xml:id="l-284"/>
+
+<p xml:lang="fr" xml:id="p.orig.261" n="261">Lasse de jour et de splendeur</p><lb n="285" xml:id="l-285"/>
+
+<p xml:lang="fr" xml:id="p.orig.262" n="262">Elle ouvre son âme et la rose</p><lb n="286" xml:id="l-286"/>
+
+<p xml:lang="fr" xml:id="p.orig.263" n="263">Dormant dans l’ombre a plus d’odeur<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="287" xml:id="l-287"/>
+
+<p xml:lang="fr" xml:id="p.orig.264" n="264">Ainsi notre âme se reveille,</p><lb n="288" xml:id="l-288"/>
+
+<p xml:lang="fr" xml:id="p.orig.265" n="265">Lorsque nos sens sont assouvis</p><lb n="289" xml:id="l-289"/>
+
+<p xml:lang="fr" xml:id="p.orig.266" n="266">Que des vains bruits frappant l’oreille</p><lb n="290" xml:id="l-290"/>
+
+<p xml:lang="fr" xml:id="p.orig.267" n="267">Nous ne sommes plus poursuivis<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="291" xml:id="l-291"/>
+
+<p xml:lang="fr" xml:id="p.orig.268" n="268">Le Dieu devient discret et voile</p><lb n="292" xml:id="l-292"/>
+
+<p xml:lang="fr" xml:id="p.orig.269" n="269">Les inutiles ornements;</p><lb n="293" xml:id="l-293"/>
+
+<p xml:lang="fr" xml:id="p.orig.270" n="270">Tout s’agrandit voici l’étoile</p><lb n="294" xml:id="l-294"/>
+
+<p xml:lang="fr" xml:id="p.orig.271" n="271">Le ciel s’emplit de diamants<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="295" xml:id="l-295"/>
+
+<p xml:lang="fr" xml:id="p.orig.272" n="272">La lumière pâle et diffuse</p><lb n="296" xml:id="l-296"/>
+
+<p xml:lang="fr" xml:id="p.orig.273" n="273">Baigne d’un charme tous les corps</p><lb n="297" xml:id="l-297"/>
+
+<p xml:lang="fr" xml:id="p.orig.274" n="274">Et la silhouette s’accuse</p><lb n="298" xml:id="l-298"/>
+
+<p xml:lang="fr" xml:id="p.orig.275" n="275">Par un fil doré sur les bords.</p>
+<space unit="lines" quantity="1"/><lb n="299" xml:id="l-299"/>
+
+<p xml:lang="fr" xml:id="p.orig.276" n="276">Le mystère à chassé la prose;</p><lb n="300" xml:id="l-300"/>
+
+<p xml:lang="fr" xml:id="p.orig.277" n="277">Tout nage dans l’air savoureux</p><lb n="301" xml:id="l-301"/>
+
+<p xml:lang="fr" xml:id="p.orig.278" n="278">Et les lueurs d’apothéose</p><lb n="302" xml:id="l-302"/>
+
+<p xml:lang="fr" xml:id="p.orig.279" n="279">Emanent des fronts amoureux<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="303" xml:id="l-303"/>
+
+<p xml:lang="fr" xml:id="p.orig.280" n="280">Et quelle fraicheur ineffable</p><lb n="304" xml:id="l-304"/>
+
+<p xml:lang="fr" xml:id="p.orig.281" n="281">D’amethyste et de gris perlé,</p><lb n="305" xml:id="l-305"/>
+
+<p xml:lang="fr" xml:id="p.orig.282" n="282">Le zénith verse sur le sable,</p><lb n="306" xml:id="l-306"/>
+
+<p xml:lang="fr" xml:id="p.orig.283" n="283">A côté du gazon brûlé<c type="kp">.</c>–</p> <space unit="lines" quantity="1"/><lb n="307" xml:id="l-307"/>
+
+<p xml:lang="fr" xml:id="p.orig.284" n="284">Un rayon court dans l’ombre grise</p><lb n="308" xml:id="l-308"/>
+
+<p xml:lang="fr" xml:id="p.orig.285" n="285">Plonge et meurt dans les profondeurs,</p><lb n="309" xml:id="l-309"/>
+
+<p xml:lang="fr" xml:id="p.orig.286" n="286">Faisant encore, lorsqu’il se brise</p><lb n="310" xml:id="l-310"/>
+
+<p xml:lang="fr" xml:id="p.orig.287" n="287">Rejaillir de vives ardeurs<c type="kp">.</c></p><space unit="lines" quantity="1"/> <lb n="311" xml:id="l-311"/>
+
+<p xml:lang="fr" xml:id="p.orig.288" n="288">Et les fleurs chuchotent discrètes</p><lb n="312" xml:id="l-312"/>
+
+<p xml:lang="fr" xml:id="p.orig.289" n="289">Dans l’insaisissable flottant,</p><lb n="313" xml:id="l-313"/>
+
+<p xml:lang="fr" xml:id="p.orig.290" n="290">Dressant quelques rouges aigrettes,</p><lb n="314" xml:id="l-314"/>
+
+<p xml:lang="fr" xml:id="p.orig.291" n="291">Dernier effort du feu luttant<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="315" xml:id="l-315"/>
+
+<p xml:lang="fr" xml:id="p.orig.292" n="292">Sur les buissons les éméraudes</p><lb n="316" xml:id="l-316"/>
+
+<p xml:lang="fr" xml:id="p.orig.293" n="293">Ont une sourde intensité</p><lb n="317" xml:id="l-317"/>
+
+<p xml:lang="fr" xml:id="p.orig.294" n="294">Les fonds sont bruns; des vapeurs chaudes</p><lb n="318" xml:id="l-318"/>
+
+<p xml:lang="fr" xml:id="p.orig.295" n="295">Se traînent dans l’immensité.</p> <space unit="lines" quantity="1"/><lb n="319" xml:id="l-319"/>
+
+<p xml:lang="fr" xml:id="p.orig.296" n="296">Par dela les touffes d’érables</p><lb n="320" xml:id="l-320"/>
+
+<p xml:lang="fr" xml:id="p.orig.297" n="297">Au ciel d’opale et d’or bruni</p><lb n="321" xml:id="l-321"/>
+
+<p xml:lang="fr" xml:id="p.orig.298" n="298">Plein d’une tendresse adorable</p><lb n="322" xml:id="l-322"/>
+
+<p xml:lang="fr" xml:id="p.orig.299" n="299">Palpite et tremble l’infini<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="323" xml:id="l-323"/>
+
+<p xml:lang="fr" xml:id="p.orig.300" n="300">oh ferme ta fleur renoncule</p><lb n="324" xml:id="l-324"/>
+
+<p xml:lang="fr" xml:id="p.orig.301" n="301">Amante du grand jour qui luit</p><lb n="325" xml:id="l-325"/>
+
+<p xml:lang="fr" xml:id="p.orig.302" n="302">Pour ne pas voir au crepuscule</p><lb n="326" xml:id="l-326"/>
+
+<p xml:lang="fr" xml:id="p.orig.303" n="303">Le jour s’accoupler à la nuit<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="327" xml:id="l-327"/>
+
+<p xml:lang="fr" xml:id="p.orig.304" n="304"><hi rend="italics">Dans la plaine</hi><ptr target="#note-t-14"/></p> <space unit="lines" quantity="1"/><lb n="328" xml:id="l-328"/>
+
+<p xml:lang="fr" xml:id="p.orig.305" n="305">A moi les champs, à moi les blés</p><lb n="329" xml:id="l-329"/>
+
+<p xml:lang="fr" xml:id="p.orig.306" n="306">A moi les coteaux qui s’embrument</p><lb n="330" xml:id="l-330"/>
+
+<p xml:lang="fr" xml:id="p.orig.307" n="307">Les faucheuses aux fronts hâlés</p><lb n="331" xml:id="l-331"/>
+
+<p xml:lang="fr" xml:id="p.orig.308" n="308">Le soir près des feux qu’ils allument!</p>
+<space unit="lines" quantity="1"/><lb n="332" xml:id="l-332"/>
+
+<p xml:lang="fr" xml:id="p.orig.309" n="309">A moi l’incendescant sillon</p><lb n="333" xml:id="l-333"/>
+
+<p xml:lang="fr" xml:id="p.orig.310" n="310">Où midi brule le grillon,</p><lb n="334" xml:id="l-334"/>
+
+<p xml:lang="fr" xml:id="p.orig.311" n="311">A moi, tandis que l’oiseau chante</p><lb n="335" xml:id="l-335"/>
+
+<p xml:lang="fr" xml:id="p.orig.312" n="312">Dans des flots verts, le vermillon</p><lb n="336" xml:id="l-336"/>
+
+<p xml:lang="fr" xml:id="p.orig.313" n="313">Du pavot à la fleur penchante<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="337" xml:id="l-337"/>
+
+<p xml:lang="fr" xml:id="p.orig.314" n="314">A moi – loin de vos coeurs oisifs</p><lb n="338" xml:id="l-338"/>
+
+<p xml:lang="fr" xml:id="p.orig.315" n="315">Pédants – à moi la plaine immense</p><lb n="339" xml:id="l-339"/>
+
+<p xml:lang="fr" xml:id="p.orig.316" n="316">Quand, la mordant, des feux lascifs</p><lb n="340" xml:id="l-340"/>
+
+<p xml:lang="fr" xml:id="p.orig.317" n="317">La font ondoyer en demence<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="4r" n="11" xml:id="pb-orig-4r-11" facs="#zone-pb-4r-11"/><lb n="341" xml:id="l-341"/>
+
+<p xml:lang="fr" xml:id="p.orig.318" n="318"><hi rend="italics">Le retour des champs (à François Millet)</hi><ptr target="#note-t-15"/></p>
+<space unit="lines" quantity="1"/><lb n="342" xml:id="l-342"/>
+
+<p xml:lang="fr" xml:id="p.orig.319" n="319">C’est l’heure indécise où l’étoile</p><lb n="343" xml:id="l-343"/>
+
+<p xml:lang="fr" xml:id="p.orig.320" n="320">Pâle encor dans la pâle nuit,</p><lb n="344" xml:id="l-344"/>
+
+<p xml:lang="fr" xml:id="p.orig.321" n="321">Apparaît, scintille, se voile</p><lb n="345" xml:id="l-345"/>
+
+<p xml:lang="fr" xml:id="p.orig.322" n="322">Et fatigue l’oeil qui la suit<c type="kp">.</c>–</p>
+<space unit="lines" quantity="1"/><lb n="346" xml:id="l-346"/>
+
+<p xml:lang="fr" xml:id="p.orig.323" n="323">Entre les blés et la luzerne</p><lb n="347" xml:id="l-347"/>
+
+<p xml:lang="fr" xml:id="p.orig.324" n="324">Bordé par les chardons poudreux</p><lb n="348" xml:id="l-348"/>
+
+<p xml:lang="fr" xml:id="p.orig.325" n="325">Le chemin fauve se discerne</p><lb n="349" xml:id="l-349"/>
+
+<p xml:lang="fr" xml:id="p.orig.326" n="326">Encor dans les champs plantureux<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="350" xml:id="l-350"/>
+
+<p xml:lang="fr" xml:id="p.orig.327" n="327">Le zénith couleur d’améthyste</p><lb n="351" xml:id="l-351"/>
+
+<p xml:lang="fr" xml:id="p.orig.328" n="328">Le caresse de son reflet</p><lb n="352" xml:id="l-352"/>
+
+<p xml:lang="fr" xml:id="p.orig.329" n="329">Inexprimable, que l’artiste</p><lb n="353" xml:id="l-353"/>
+
+<p xml:lang="fr" xml:id="p.orig.330" n="330">Ne peut qu’appeler violet<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="354" xml:id="l-354"/>
+
+<p xml:lang="fr" xml:id="p.orig.331" n="331">Par la glèbe plane ou penchante</p><lb n="355" xml:id="l-355"/>
+
+<p xml:lang="fr" xml:id="p.orig.332" n="332">Perdant, retrouvant ses sillons,</p><lb n="356" xml:id="l-356"/>
+
+<p xml:lang="fr" xml:id="p.orig.333" n="333">Il serpente dans l’herbe où chante</p><lb n="357" xml:id="l-357"/>
+
+<p xml:lang="fr" xml:id="p.orig.334" n="334">La note grêle des grillons.</p> <space unit="lines" quantity="1"/><lb n="358" xml:id="l-358"/>
+
+<p xml:lang="fr" xml:id="p.orig.335" n="335">Par les talus que le soir dore</p><lb n="359" xml:id="l-359"/>
+
+<p xml:lang="fr" xml:id="p.orig.336" n="336">Il va sous la clarté des cieux</p><lb n="360" xml:id="l-360"/>
+
+<p xml:lang="fr" xml:id="p.orig.337" n="337">Ou tinte la cloche sonore</p><lb n="361" xml:id="l-361"/>
+
+<p xml:lang="fr" xml:id="p.orig.338" n="338">Au village silencieux.</p> <space unit="lines" quantity="1"/><lb n="362" xml:id="l-362"/>
+
+<p xml:lang="fr" xml:id="p.orig.339" n="339">Sous le crepuscule et le hâle</p><lb n="363" xml:id="l-363"/>
+
+<p xml:lang="fr" xml:id="p.orig.340" n="340">Le paysan deux fois bruni,</p><lb n="364" xml:id="l-364"/>
+
+<p xml:lang="fr" xml:id="p.orig.341" n="341">Baignant son front dans le ciel pâle</p><lb n="365" xml:id="l-365"/>
+
+<p xml:lang="fr" xml:id="p.orig.342" n="342">S’en revient – le travail fini<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="366" xml:id="l-366"/>
+
+<p xml:lang="fr" xml:id="p.orig.343" n="343">Il porte la faux ou la bêche</p><lb n="367" xml:id="l-367"/>
+
+<p xml:lang="fr" xml:id="p.orig.344" n="344">A l’épaule; il va lentement,</p><lb n="368" xml:id="l-368"/>
+
+<p xml:lang="fr" xml:id="p.orig.345" n="345">Humectant sa poitrine sèche</p><lb n="369" xml:id="l-369"/>
+
+<p xml:lang="fr" xml:id="p.orig.346" n="346">De brume et d’odeur de froment<c type="kp">.</c>–</p> <space unit="lines" quantity="1"/><lb n="370" xml:id="l-370"/>
+
+<p xml:lang="fr" xml:id="p.orig.347" n="347">Il va lentement, à son aise</p><lb n="371" xml:id="l-371"/>
+
+<p xml:lang="fr" xml:id="p.orig.348" n="348">D’un pas tranquille en sa lourdeur;</p><lb n="372" xml:id="l-372"/>
+
+<p xml:lang="fr" xml:id="p.orig.349" n="349">Et l’occident, sourde fournaise</p><lb n="373" xml:id="l-373"/>
+
+<p xml:lang="fr" xml:id="p.orig.350" n="350">Le bronze d’une sombre ardeur.</p> <space unit="lines" quantity="1"/><lb n="374" xml:id="l-374"/>
+
+<p xml:lang="fr" xml:id="p.orig.351" n="351">Sous le toit noir de sa chaumière</p><lb n="375" xml:id="l-375"/>
+
+<p xml:lang="fr" xml:id="p.orig.352" n="352">Où fume un vague ruban bleu,</p><lb n="376" xml:id="l-376"/>
+
+<p xml:lang="fr" xml:id="p.orig.353" n="353">Brille un point de rouge lumière</p><lb n="377" xml:id="l-377"/>
+
+<p xml:lang="fr" xml:id="p.orig.354" n="354">La soupe chante sur le feu<c type="kp">.</c></p> <space unit="lines" quantity="1"/><lb n="378" xml:id="l-378"/>
+
+<p xml:lang="fr" xml:id="p.orig.355" n="355">Sa compagne est robuste et sûre</p><lb n="379" xml:id="l-379"/>
+
+<p xml:lang="fr" xml:id="p.orig.356" n="356">Et les enfants sont bien portants</p><lb n="380" xml:id="l-380"/>
+
+<p xml:lang="fr" xml:id="p.orig.357" n="357">L’age vient: que peut sa morsure</p><lb n="381" xml:id="l-381"/>
+
+<p xml:lang="fr" xml:id="p.orig.358" n="358">Près de l’enfance – gai printemps?</p>
+<space unit="lines" quantity="1"/><lb n="382" xml:id="l-382"/>
+
+<p xml:lang="fr" xml:id="p.orig.359" n="359">Tel il marche par habitude</p><lb n="383" xml:id="l-383"/>
+
+<p xml:lang="fr" xml:id="p.orig.360" n="360">Tel il ira jusqu’au tombeau:</p><lb n="384" xml:id="l-384"/>
+
+<p xml:lang="fr" xml:id="p.orig.361" n="361">Content si par son labeur rude,</p><lb n="385" xml:id="l-385"/>
+
+<p xml:lang="fr" xml:id="p.orig.362" n="362">Les blés sont lourds et l’orge beau<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1">My dear friend <rs type="person" ref="bio.xml#_1306">Rappard</rs>,</p>
+<p xml:id="p.trans.2" n="2">Here, too, are some of the poems by <rs type="person" ref="bio.xml#_899">Jules Breton</rs>, if you don’t have them I’m sure they’ll really touch you. Today, or rather in the last few days, I’ve painted a study of the loom of which you have the drawing.<ptr target="#note-t-1"/> Am also searching for the colour of the winter garden. But it’s already a <hi rend="italics">spring</hi> garden — by now. And it’s changed a lot.<ptr target="#note-t-2"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.3" n="3"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.4" n="4">Regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.5" n="5">Yours truly,</p>
+<p xml:id="p.trans.6" n="6">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.7" n="7"><hi rend="italics">Alone</hi><ptr target="#note-t-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.8" n="8">Velvety, dusted with gold, the stubble fields</p>
+<p xml:id="p.trans.9" n="9">Rimmed by fire, float within the gloom;</p>
+<p xml:id="p.trans.10" n="10">Beyond the black roofs skimmed by its light</p>
+<p xml:id="p.trans.11" n="11"> Sinks, radiant, high summer’s dazzling star.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.12" n="12">In a great burst it falls, pouring its treasure forth:</p>
+<p xml:id="p.trans.13" n="13">And the blue zenith casts a wondrous light</p>
+<p xml:id="p.trans.14" n="14">Upon the road, where, in the fragrant breeze,</p>
+<p xml:id="p.trans.15" n="15"> With leaping, whirling step they sing a roundelay. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.16" n="16">Lit by the flames and in the burning dust,</p>
+<p xml:id="p.trans.17" n="17">The women dance, hand in joyful hand,</p>
+<p xml:id="p.trans.18" n="18"> But seated apart, the fairest of them dreams;</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.19" n="19">She sits alone... and bites her morbid lip,</p>
+<p xml:id="p.trans.20" n="20">As one might see, pale, among a field of vetch,</p>
+<p xml:id="p.trans.21" n="21"> The sensitive mimosa shrink and pine.</p><space unit="lines" quantity="1"/><pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+<p xml:id="p.trans.22" n="22"><hi rend="italics">Evening song</hi><ptr target="#note-t-4"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.23" n="23">When the cloud</p>
+<p xml:id="p.trans.24" n="24"> Drifts</p>
+<p xml:id="p.trans.25" n="25">Trails tattered wisps of gold</p>
+<p xml:id="p.trans.26" n="26">And spreading all at once</p>
+<p xml:id="p.trans.27" n="27">Its splendid rays</p>
+<p xml:id="p.trans.28" n="28">The sun pours down its benison;</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.29" n="29">Poor gleaners</p>
+<p xml:id="p.trans.30" n="30">Haymakers</p>
+<p xml:id="p.trans.31" n="31">A fiery nimbus</p>
+<p xml:id="p.trans.32" n="32">Plays about your hair</p>
+<p xml:id="p.trans.33" n="33">Caresses</p>
+<p xml:id="p.trans.34" n="34">Your softly curling braids.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.35" n="35">The rose-pink ray</p>
+<p xml:id="p.trans.36" n="36">Bathes</p>
+<p xml:id="p.trans.37" n="37">Your fraying, ragged dress,</p>
+<p xml:id="p.trans.38" n="38">Glides — blazes,</p>
+<p xml:id="p.trans.39" n="39">Drowns</p>
+<p xml:id="p.trans.40" n="40">Your noble beauty in its flame.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.41" n="41">Then austere</p>
+<p xml:id="p.trans.42" n="42">The mystery</p>
+<p xml:id="p.trans.43" n="43">Descends, slowly expands;</p>
+<p xml:id="p.trans.44" n="44">At dusk</p>
+<p xml:id="p.trans.45" n="45">The air gives off</p>
+<p xml:id="p.trans.46" n="46">The wholesome scent of wheat.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.47" n="47">The clump of elms</p>
+<p xml:id="p.trans.48" n="48">Immense</p>
+<p xml:id="p.trans.49" n="49">Redden their mingled boughs</p>
+<p xml:id="p.trans.50" n="50">And with its hard outline</p>
+<p xml:id="p.trans.51" n="51">The farm</p>
+<p xml:id="p.trans.52" n="52">Stands out against the softness of the corn.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.53" n="53">The fire burns lower now</p>
+<p xml:id="p.trans.54" n="54">The dream</p>
+<p xml:id="p.trans.55" n="55">Suffuses evening’s balm;</p>
+<p xml:id="p.trans.56" n="56">And all grows hazy</p>
+<p xml:id="p.trans.57" n="57">Full of smoke</p>
+<p xml:id="p.trans.58" n="58">Like a great thurible.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.59" n="59">The meagre flock</p>
+<p xml:id="p.trans.60" n="60">Bleats</p>
+<p xml:id="p.trans.61" n="61">Its homeward way to rest</p>
+<p xml:id="p.trans.62" n="62">And the toads</p>
+<p xml:id="p.trans.63" n="63">Flute</p>
+<p xml:id="p.trans.64" n="64">Their gentle, touching song.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.65" n="65">Then far away</p>
+<p xml:id="p.trans.66" n="66">The church bell tolls</p>
+<p xml:id="p.trans.67" n="67">Its single steady note</p>
+<p xml:id="p.trans.68" n="68">And its winged</p>
+<p xml:id="p.trans.69" n="69">Flight</p>
+<p xml:id="p.trans.70" n="70">Rises and falls on every side.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.71" n="71">The note strikes</p>
+<p xml:id="p.trans.72" n="72">Is stilled</p>
+<p xml:id="p.trans.73" n="73">Purer than when in evening woods</p>
+<p xml:id="p.trans.74" n="74">We hear the huntsman</p>
+<p xml:id="p.trans.75" n="75"> Scarlet-clad</p>
+<p xml:id="p.trans.76" n="76">Blow on his rousing horn.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.77" n="77">How much more Love I this place</p>
+<p xml:id="p.trans.78" n="78">Than the high peaks,</p>
+<p xml:id="p.trans.79" n="79">This plain so humble</p>
+<p xml:id="p.trans.80" n="80">Yet so full</p>
+<p xml:id="p.trans.81" n="81">Of God’s abounding love!</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.82" n="82">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.trans.83" n="83">Now you get a little rebuke — which is — when I was with you this winter,<ptr target="#note-t-5"/> you were against ‘enthusiasm’ — I mean, said something that Jaap Maris said, I don’t know what, about enthusiasm — which <hi rend="italics">he</hi>, that is Jaap, didn’t exactly apply in his life, thank God — even though he may have said something of the sort relating to some special case or other — he having carried on painting in <hi rend="italics">all</hi> circumstances. Then the birds simply shouldn’t sing and the painters not paint if they were supposed to think about whether they weren’t too passionate.</p>
+<p rend="indent" xml:id="p.trans.84" n="84">Now read <hi rend="italics">Les Cigales </hi>— and — I’ll simply say nothing more.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.85" n="85">
+<pb f="2r" n="4" xml:id="pb-trans-2r-4" facs="#zone-pb-2r-4"/></p>
+<p xml:id="p.trans.86" n="86"><hi rend="italics">Dawn</hi> (To <rs type="person" ref="bio.xml#_971">Corot</rs>)<ptr target="#note-t-6"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.87" n="87">I took a narrow path, at dawn, among the wheat,</p>
+<p xml:id="p.trans.88" n="88">Where droplets falling from its heavy-hanging ears</p>
+<p xml:id="p.trans.89" n="89">Drench him who brushes past;</p>
+<p xml:id="p.trans.90" n="90">And as I wandered, called back long-lost dreams.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.91" n="91">Ah! Who has not bemoaned a splintered bough,</p>
+<p xml:id="p.trans.92" n="92">Like the grey willows when men cut them down,</p>
+<p xml:id="p.trans.93" n="93">That make so soft a sound, quenching with their tears</p>
+<p xml:id="p.trans.94" n="94"> The thirst of bindweed twined about their feet!</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.95" n="95">And then I felt my heart, from which I banished words,</p>
+<p xml:id="p.trans.96" n="96">Turn tender in the subtle, pale and changing light,</p>
+<p xml:id="p.trans.97" n="97">Just like a sickly tree that’s watered by the rain.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.98" n="98">And now behold, bursting upon the silver sky</p>
+<p xml:id="p.trans.99" n="99">The joyful lark, that sees, emerging</p>
+<p xml:id="p.trans.100" n="100">From the misty east, the first pink fleck.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.101" n="101">
+<pb f="2v" n="5" xml:id="pb-trans-2v-5" facs="#zone-pb-2v-5"/></p>
+<p xml:id="p.trans.102" n="102"><hi rend="italics">Autumn</hi> (To <rs type="person" ref="bio.xml#_986">Jules Dupré</rs>)<ptr target="#note-t-7"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.103" n="103">The river slowly flows. Beside the bank,</p>
+<p xml:id="p.trans.104" n="104"> Its waters murmur round old alder stumps,</p>
+<p xml:id="p.trans.105" n="105">Tinted blood-red; tall yellow poplars</p>
+<p xml:id="p.trans.106" n="106"> Cast their golden leaves among the paler reeds.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.107" n="107">The light wind weaves its moving net —</p>
+<p xml:id="p.trans.108" n="108">Bright silver wrinkles, leaving those dark spots</p>
+<p xml:id="p.trans.109" n="109">In which the trees droop cones and canopies,</p>
+<p xml:id="p.trans.110" n="110">Trembling as if shaken by a host of birds.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.111" n="111">From time to time, a thrush’s thin repeated cry,</p>
+<p xml:id="p.trans.112" n="112">And plunging from an overhanging bough,</p>
+<p xml:id="p.trans.113" n="113">A jewel sparkles in the clear blue air;</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.114" n="114">A sharp call draws out its strident note;</p>
+<p xml:id="p.trans.115" n="115">The kingfisher, speeding on burning wing,</p>
+<p xml:id="p.trans.116" n="116">A furtive streak of emerald and fire.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.117" n="117">
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p xml:id="p.trans.118" n="118"><hi rend="italics">Setting sun</hi> (To <rs type="person" ref="bio.xml#_905">Emile Breton</rs>)<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.119" n="119">Vaporous, ceaselessly shifting sea of mist,</p>
+<p xml:id="p.trans.120" n="120">Where shrouded slopes, broad billows, undulate,</p>
+<p xml:id="p.trans.121" n="121">Villages, like lost black isles,</p>
+<p xml:id="p.trans.122" n="122">Emerge, their brown feet sunk in the foam.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.123" n="123">As all falls quiet, expands, floats, smokes,</p>
+<p xml:id="p.trans.124" n="124">As only the slow cowbells sound, deep in the ravines,</p>
+<p xml:id="p.trans.125" n="125">As scattered points of light, lantern-like,</p>
+<p xml:id="p.trans.126" n="126">Flicker, the sky shimmers and lights up all as one.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.127" n="127">Our silent globe, under the crimson dome,</p>
+<p xml:id="p.trans.128" n="128">Prays and dreams, dazzled by the glory</p>
+<p xml:id="p.trans.129" n="129">Of the fruitful star, censed by the clouds.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.130" n="130">Encompassed by this awe, o’ercome by god-like sleep,</p>
+<p xml:id="p.trans.131" n="131">A red orb set in a great aureole,</p>
+<p xml:id="p.trans.132" n="132">Gravely, slowly, sets the sun.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.133" n="133">
+<pb f="2r" n="7" xml:id="pb-trans-2r-7" facs="#zone-pb-2r-7"/></p>
+<p xml:id="p.trans.134" n="134"><hi rend="italics">Yvonne</hi><ptr target="#note-t-9"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.135" n="135">Oft would I watch, my elbows on the sill,</p>
+<p xml:id="p.trans.136" n="136">The girls returning from the spring at noon.</p>
+<p xml:id="p.trans.137" n="137">Yvonne would come in view, distinguished from afar</p>
+<p xml:id="p.trans.138" n="138">By her proud bearing and tall shapeliness.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.139" n="139">And what a pleasing sight it was, by Jove!</p>
+<p xml:id="p.trans.140" n="140">To see her, pitcher on her head,</p>
+<p xml:id="p.trans.141" n="141">Her coif flying like a lovebird’s crest,</p>
+<p xml:id="p.trans.142" n="142">And soft blue petticoat flutt’ring in the wind.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.143" n="143">And with what grace, letting her humble shawl</p>
+<p xml:id="p.trans.144" n="144">Fall in brave folds that floated in the breeze,</p>
+<p xml:id="p.trans.145" n="145"> Would she stretch out her arm to hold, russet</p>
+<p xml:id="p.trans.146" n="146">Against her pale-skinned brow, her earthen amphora!</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.147" n="147">How pure her features! Something sour</p>
+<p xml:id="p.trans.148" n="148">Yet charming played about her untamed lip;</p>
+<p xml:id="p.trans.149" n="149">She was indeed the daughter of the shore,</p>
+<p xml:id="p.trans.150" n="150">Strong, as if drenched by the exhalations of the sea.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.151" n="151">In the streets, loud with coarse taunts and cries,</p>
+<p xml:id="p.trans.152" n="152"> Where cringing, scrawny dogs pay court to one another,</p>
+<p xml:id="p.trans.153" n="153">Among the litter swept from many a yard,</p>
+<p xml:id="p.trans.154" n="154">In gutters, with their turquoise sky-reflecting pools,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.155" n="155">About this town, hugging its grey and chalky walls,</p>
+<p xml:id="p.trans.156" n="156">I think I see her still — tall, one hand on her hip,</p>
+<p xml:id="p.trans.157" n="157">Letting no single drop fall from her brimming urn —</p>
+<p xml:id="p.trans.158" n="158">Pass gravely by, without a backward glance.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.159" n="159"><hi rend="italics">Cicadas</hi><ptr target="#note-t-10"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.160" n="160">When in the ripened field the ears of corn are still,</p>
+<p xml:id="p.trans.161" n="161">When under the sun’s blaze the wheat makes crackling sounds,</p>
+<p xml:id="p.trans.162" n="162">And the poppy droops languidly</p>
+<p xml:id="p.trans.163" n="163">Under the slight burden of its scarlet crown,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.164" n="164">And all the birds have ceased to sing;</p>
+<p xml:id="p.trans.165" n="165">The lazy ringdoves, sleepy on the blackest branch,</p>
+<p xml:id="p.trans.166" n="166">Deep in the woods’ heart, murmur no more,</p>
+<p xml:id="p.trans.167" n="167">Far from the silent sun that sets the fields on fire.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.168" n="168">And meanwhile in the corn, the brave cicadas</p>
+<p xml:id="p.trans.169" n="169">A chorus thousands strong, summer’s marching brass,</p>
+<p xml:id="p.trans.170" n="170">Madly and with never a pause have chafed</p>
+<p xml:id="p.trans.171" n="171">Their wings against their wild cymbals’ bronze.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.172" n="172">Vibrating, upright on the long wheat-ears,</p>
+<p xml:id="p.trans.173" n="173">Virtuosi, doomed ere summer’s season ends,</p>
+<p xml:id="p.trans.174" n="174">Heavenward raise their thrumming hymn</p>
+<p xml:id="p.trans.175" n="175">That echoes down the darkness of the nights.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.176" n="176">But nothing now will still their tireless cries;</p>
+<p xml:id="p.trans.177" n="177">Banished from the oats or from the wheat</p>
+<p xml:id="p.trans.178" n="178">They’ll find a new home in the burnt-out bush</p>
+<p xml:id="p.trans.179" n="179">That dies of thirst in parched and sandy wastes.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.180" n="180">On leafless shrubs and withered thistle-flowers</p>
+<p xml:id="p.trans.181" n="181">That let their white and silky tresses fly away,</p>
+<p xml:id="p.trans.182" n="182"><hi rend="italics">You’ll see the insect, with its powerful head,</hi></p>
+<p xml:id="p.trans.183" n="183">Still drunkenly exulting as it sings.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.184" n="184"><hi rend="italics">Until that moment when, spreading out its ragged wing,</hi></p>
+<p xml:id="p.trans.185" n="185"><hi rend="italics">Frustrated, burning with an ever purer flame,</hi></p>
+<p xml:id="p.trans.186" n="186"><hi rend="italics">Its bronze eye fixed upon the distant blue,</hi></p>
+<p xml:id="p.trans.187" n="187"><hi rend="italics">It expires, singing, on the dried-out stem.</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.188" n="188">
+<pb f="3r" n="8" xml:id="pb-trans-3r-8" facs="#zone-pb-3r-8"/></p>
+<p xml:id="p.trans.189" n="189"><hi rend="italics">Evening (To <rs type="person" ref="bio.xml#_919">Louis Cabat</rs>)</hi><ptr target="#note-t-11"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.190" n="190">A simple ditch, lost beneath the leaves</p>
+<p xml:id="p.trans.191" n="191">And in an alder thicket almost hid away;</p>
+<p xml:id="p.trans.192" n="192">A passing insect scribes a little wake,</p>
+<p xml:id="p.trans.193" n="193">Traced lightly on the sleeping mirror’s face.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.194" n="194">Eventide, the hour when miracles are wrought,</p>
+<p xml:id="p.trans.195" n="195">Transfiguration turns everything to gold,</p>
+<p xml:id="p.trans.196" n="196">Offering a wondrous vision to enraptured eyes,</p>
+<p xml:id="p.trans.197" n="197">The humble ditch gleams brighter than a hoard.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.198" n="198">The dazzling sky, filtered through the boughs,</p>
+<p xml:id="p.trans.199" n="199">Has plunged a ray deep into the waters black;</p>
+<p xml:id="p.trans.200" n="200">Falling on every side, white sparks</p>
+<p xml:id="p.trans.201" n="201">Surround a crucible of pale and liquid gold.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.202" n="202">Mysterious, peaceful beyond words, on its banks we see</p>
+<p xml:id="p.trans.203" n="203">The pallid flowers with their sleepy heads,</p>
+<p xml:id="p.trans.204" n="204"> Reflected foliage, a dark and mingled mass,</p>
+<p xml:id="p.trans.205" n="205">And purple trees that seem to grow straight down.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.206" n="206">Far off, lit from on high, patches of emerald</p>
+<p xml:id="p.trans.207" n="207">Suggest the shapes of brightly coloured fields,</p>
+<p xml:id="p.trans.208" n="208">And the sky, blazing with a hue so fiery,</p>
+<p xml:id="p.trans.209" n="209"> And the low sun, flickering through the reeds.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.210" n="210">And in my swelling breast – when I compare</p>
+<p xml:id="p.trans.211" n="211">The spot’s simplicity and its sublime aspect –</p>
+<p xml:id="p.trans.212" n="212">A holy rapture steals upon my soul,</p>
+<p xml:id="p.trans.213" n="213">And I glimpse something of the Maker’s work.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.214" n="214">’Tis naught – and yet ’tis all. Creating nature,</p>
+<p xml:id="p.trans.215" n="215">God spreads abroad all its superb effects;</p>
+<p xml:id="p.trans.216" n="216">He feeds the fledgling and pours beauty forth</p>
+<p xml:id="p.trans.217" n="217">– blessing supreme – with an unstinting hand.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.218" n="218">’Tis naught – and yet ’tis all. Seeing it, I forget –</p>
+<p xml:id="p.trans.219" n="219">Poor little ditch that thus affects me so –</p>
+<p xml:id="p.trans.220" n="220">My heart’s distress, my dreams of Italy,</p>
+<p xml:id="p.trans.221" n="221">And I feel better – and I bless my fate.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.222" n="222">
+<pb f="3v" n="9" xml:id="pb-trans-3v-9" facs="#zone-pb-3v-9"/></p>
+<p xml:id="p.trans.223" n="223"><hi rend="italics">The two crosses</hi><ptr target="#note-t-12"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.224" n="224">Beside a road somewhere in Pontcroix we see,</p>
+<p xml:id="p.trans.225" n="225">Open to the sky, brand new, a pretentious cross</p>
+<p xml:id="p.trans.226" n="226">On which there gleams a Christ, daubed all in pink.</p>
+<p xml:id="p.trans.227" n="227">A few steps farther on – distorted, painful to behold,</p>
+<p xml:id="p.trans.228" n="228">Pitiful, discarded near a wall that’s overgrown with weeds,</p>
+<p xml:id="p.trans.229" n="229">A grotesque thigh-bone showing through the shade,</p>
+<p xml:id="p.trans.230" n="230">Its mutilated head hideously inclined,</p>
+<p xml:id="p.trans.231" n="231">Forgot among the nettles and the tangled briars –</p>
+<p xml:id="p.trans.232" n="232">The old Christ, faded, twisted out of shape.</p>
+<p xml:id="p.trans.233" n="233">The eternal Sufferer, he who soothes our pain,</p>
+<p xml:id="p.trans.234" n="234">His present state recalls the bitter agonies</p>
+<p xml:id="p.trans.235" n="235">Of all those noble hearts cast into obloquy;</p>
+<p xml:id="p.trans.236" n="236">And the leper, fleeing daylight’s curse,</p>
+<p xml:id="p.trans.237" n="237">The very beggar turns away his glance;</p>
+<p xml:id="p.trans.238" n="238">The poet loves him.... but the crowd that passes by</p>
+<p xml:id="p.trans.239" n="239">Has eyes for none but him who</p>
+<p xml:id="p.trans.240" n="240"> Spreads wide aloft his arms, haloed in gold.</p>
+<p xml:id="p.trans.241" n="241">Though crucified, his setting must be fine;</p>
+<p xml:id="p.trans.242" n="242">To him be incense, holy vows, and prayers.</p>
+<p xml:id="p.trans.243" n="243">The other, on the pebbly ground, naught but a piece of stone.</p>
+<p xml:id="p.trans.244" n="244">And yet what heart would not be moved!</p>
+<p xml:id="p.trans.245" n="245">The wall was broken, and Christ filled up the rift!</p>
+<p xml:id="p.trans.246" n="246">The drain beside the road exhales its foetid breath</p>
+<p xml:id="p.trans.247" n="247">On his beloved feet, those the Magdalen bathed.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.248" n="248">Thou whose crime was but in spreading love,</p>
+<p xml:id="p.trans.249" n="249">When, to punish thee, Pilate and Caiaphas one day</p>
+<p xml:id="p.trans.250" n="250">Placed on thy head the crown of thorns,</p>
+<p xml:id="p.trans.251" n="251">O Christ, whom with his child-like hands –</p>
+<p xml:id="p.trans.252" n="252">His rude and clumsy chisel by his love refined –</p>
+<p xml:id="p.trans.253" n="253">A peasant carved from this hard block,</p>
+<p xml:id="p.trans.254" n="254"> Did’st thou believe oblivion Would dare to throw thee into a wall’s dark cleft,</p>
+<p xml:id="p.trans.255" n="255">Or, final insult, that the disrespectful scrub</p>
+<p xml:id="p.trans.256" n="256">Would mix upon thy brow that blesses and that bleeds</p>
+<p xml:id="p.trans.257" n="257">The bramble’s prickle with the granite spine?</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.258" n="258">
+<pb f="4v" n="10" xml:id="pb-trans-4v-10" facs="#zone-pb-4v-10"/></p>
+<p xml:id="p.trans.259" n="259"><hi rend="italics">Twilight (To <rs type="person" ref="bio.xml#_976">Charles Daubigny</rs>)</hi><ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.260" n="260">The anemone and the buttercup</p>
+<p xml:id="p.trans.261" n="261">Have closed their satin flowers;</p>
+<p xml:id="p.trans.262" n="262">Lo, evening comes; twilight</p>
+<p xml:id="p.trans.263" n="263">Reveals the garden in its ideal form.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.264" n="264">All is drowsy – the very breeze</p>
+<p xml:id="p.trans.265" n="265">Is drunk with scents,</p>
+<p xml:id="p.trans.266" n="266">And colours are rendered exquisite</p>
+<p xml:id="p.trans.267" n="267">In evening’s rich and dusky tones.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.268" n="268">When nature rests,</p>
+<p xml:id="p.trans.269" n="269">Weary of daylight’s brilliance,</p>
+<p xml:id="p.trans.270" n="270">It opens up its soul, and then the rose,</p>
+<p xml:id="p.trans.271" n="271">Sleeping in the shade, becomes more fragrant still.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.272" n="272">And our soul, too, awakens,</p>
+<p xml:id="p.trans.273" n="273">Our senses are appeased;</p>
+<p xml:id="p.trans.274" n="274">When empty noises reach the ear</p>
+<p xml:id="p.trans.275" n="275">They harass us no more.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.276" n="276">God grows discreet, and casts a veil</p>
+<p xml:id="p.trans.277" n="277">Over superfluous ornament;</p>
+<p xml:id="p.trans.278" n="278">Things grow larger – there’s the evening star –</p>
+<p xml:id="p.trans.279" n="279">Diamonds fill the sky.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.280" n="280">The pale and diffuse light</p>
+<p xml:id="p.trans.281" n="281">Makes magical each solid form,</p>
+<p xml:id="p.trans.282" n="282">Outlines appear, Traced with a thread of gold.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.283" n="283">Mystery drives away the commonplace,</p>
+<p xml:id="p.trans.284" n="284">All hangs suspended on the odorous air,</p>
+<p xml:id="p.trans.285" n="285">And the gleam of an apotheosis</p>
+<p xml:id="p.trans.286" n="286">Glows from lovers’ brows.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.287" n="287">What coolness indescribable,</p>
+<p xml:id="p.trans.288" n="288">Pearly-grey and amethyst,</p>
+<p xml:id="p.trans.289" n="289">Falls from on high upon the sand,</p>
+<p xml:id="p.trans.290" n="290">Beside the scorched and withered grass.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.291" n="291">A ray runs across the murky shade,</p>
+<p xml:id="p.trans.292" n="292">Plunges, and expires within the depths,</p>
+<p xml:id="p.trans.293" n="293">Fragmenting, sending up once more</p>
+<p xml:id="p.trans.294" n="294">Its living heat.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.295" n="295">The flowers whisper quietly to themselves,</p>
+<p xml:id="p.trans.296" n="296">Floating in air intangible;</p>
+<p xml:id="p.trans.297" n="297">Show here and there a feathery tip of red,</p>
+<p xml:id="p.trans.298" n="298">The final struggle of the waning fire.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.299" n="299">On bushes, emerald greens</p>
+<p xml:id="p.trans.300" n="300">Have a subdued intensity.</p>
+<p xml:id="p.trans.301" n="301">The farther depths are dim; warm vapours</p>
+<p xml:id="p.trans.302" n="302">Float through a vast emptiness.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.303" n="303">Beyond, the tops of maple trees,</p>
+<p xml:id="p.trans.304" n="304">In sky suffused with opal and with gold;</p>
+<p xml:id="p.trans.305" n="305">Full of a gorgeous tenderness,</p>
+<p xml:id="p.trans.306" n="306">The infinite trembles, palpitates.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.307" n="307">O, close your flower, buttercup,</p>
+<p xml:id="p.trans.308" n="308">Lover of noontime’s brilliant light,</p>
+<p xml:id="p.trans.309" n="309">So that you cannot see, at eventide,</p>
+<p xml:id="p.trans.310" n="310">The day becoming one with night.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.311" n="311"><hi rend="italics">On the plain</hi><ptr target="#note-t-14"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.312" n="312">For me the fields, for me the rows of corn,</p>
+<p xml:id="p.trans.313" n="313">For me the hillsides shrouded all in mist,</p>
+<p xml:id="p.trans.314" n="314">The reaper-women’s weather-beaten heads</p>
+<p xml:id="p.trans.315" n="315"> At evening, gathered round their lighted fires!</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.316" n="316">For me the white-hot furrow,</p>
+<p xml:id="p.trans.317" n="317"> Where noonday scorches the cricket’s wing</p>
+<p xml:id="p.trans.318" n="318">For me – when birds are singing</p>
+<p xml:id="p.trans.319" n="319">In a sea of green – the poppies</p>
+<p xml:id="p.trans.320" n="320">With their drooping heads, vermilion.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.321" n="321">For me – far from your idle, self-important hearts,</p>
+<p xml:id="p.trans.322" n="322">– for me the vast and boundless plain</p>
+<p xml:id="p.trans.323" n="323">When fire’s lascivious tongue licks round its rim,</p>
+<p xml:id="p.trans.324" n="324">Making it writhe in a demented dance.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.325" n="325">
+<pb f="4r" n="11" xml:id="pb-trans-4r-11" facs="#zone-pb-4r-11"/></p>
+<p xml:id="p.trans.326" n="326"><hi rend="italics">Return from the fields (To <rs type="person" ref="bio.xml#_1226">François Millet</rs>)</hi><ptr target="#note-t-15"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.327" n="327">’Tis that uncertain hour in which the evening star,</p>
+<p xml:id="p.trans.328" n="328">Still pale against the pale night sky,</p>
+<p xml:id="p.trans.329" n="329">Appears, twinkles, slips behind a veil,</p>
+<p xml:id="p.trans.330" n="330">Tiring the watcher’s searching gaze.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.331" n="331">’Twixt wheat and vetch,</p>
+<p xml:id="p.trans.332" n="332">With dusty thistles lined,</p>
+<p xml:id="p.trans.333" n="333">The tawny path still can be descried</p>
+<p xml:id="p.trans.334" n="334">Among the fertile fields.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.335" n="335">From high above, ineffable,</p>
+<p xml:id="p.trans.336" n="336">Amethyst-coloured light caresses it</p>
+<p xml:id="p.trans.337" n="337">And the artist, for want of other word,</p>
+<p xml:id="p.trans.338" n="338">Can only call it purple.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.339" n="339">Across the flat or gently sloping mead,</p>
+<p xml:id="p.trans.340" n="340"> Losing their furrows, finding them again,</p>
+<p xml:id="p.trans.341" n="341">It winds among the grass, where sounds</p>
+<p xml:id="p.trans.342" n="342">The cricket’s shrill and reedy song.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.343" n="343">By banks gilded by eventide it goes</p>
+<p xml:id="p.trans.344" n="344">Under the clear air</p>
+<p xml:id="p.trans.345" n="345">Through which is heard the church bell’s sonorous note,</p>
+<p xml:id="p.trans.346" n="346">Tolling in silent village streets.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.347" n="347">The peasant twice browned</p>
+<p xml:id="p.trans.348" n="348"> By the twilight and suntan,</p>
+<p xml:id="p.trans.349" n="349">Forehead bathed in the pale light,</p>
+<p xml:id="p.trans.350" n="350">Makes his way home, his labour done.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.351" n="351">Bearing on his shoulder scythe or spade,</p>
+<p xml:id="p.trans.352" n="352">Slowly he goes,</p>
+<p xml:id="p.trans.353" n="353">Moistening his dry chest</p>
+<p xml:id="p.trans.354" n="354">With mist, and with the scent of wheat.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.355" n="355">Slowly he goes, at his unhurried pace,</p>
+<p xml:id="p.trans.356" n="356">With calm and heavy tread;</p>
+<p xml:id="p.trans.357" n="357">The west, like a furnace smouldering,</p>
+<p xml:id="p.trans.358" n="358">Turns him a deep and fiery bronze.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.359" n="359">Beneath his cottage’s black roof,</p>
+<p xml:id="p.trans.360" n="360">Where rises a faint blue strand of smoke,</p>
+<p xml:id="p.trans.361" n="361">There glows a spot of red;</p>
+<p xml:id="p.trans.362" n="362">The soup is singing on the fire.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.363" n="363">His partner’s strong and firm,</p>
+<p xml:id="p.trans.364" n="364">The children thrive,</p>
+<p xml:id="p.trans.365" n="365">Old age approaches – what is its sting,</p>
+<p xml:id="p.trans.366" n="366">Set beside childhood’s gay springtime?</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.367" n="367">Thus he plods from habit long ingrained,</p>
+<p xml:id="p.trans.368" n="368">Thus will he plod until his dying day;</p>
+<p xml:id="p.trans.369" n="369">Content if through his humble toil</p>
+<p xml:id="p.trans.370" n="370">The wheat is heavy and the barley fair.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>
+  <ref target="let435.xml">Letters 435</ref>, <ref target="let437.xml">437</ref> and <ref target="let439.xml">439</ref> to Van Rappard were probably all written in March 1884. There are no points of reference from which to date them exactly. The sequence is also problematic. <ref target="let435.xml">Letter 435</ref> stands alone in that there are no references to other letters. On the basis of the poems copied out in it and the remark in the first sentence that he was sending some of Breton’s poems ‘too’, however, we assume that it is a follow-up to the previous batch of poems sent on or about 2 March (<ref target="let433.xml">letter 433</ref>). We therefore regard this letter as the first of the three.</p>
+<p rend="indent">The order of the other two letters is determined by what Van Gogh writes about sending his drawings to Van Rappard: in the first he says that he will send them, and in the second he thanks Van Rappard for his reply. Van Gogh must have received this reply by 20 March at the latest, because he told Theo about it on that date (<ref target="let440.xml">letter 440</ref>). Since these three letters to Van Rappard cannot be dated more accurately, we have spaced them evenly through the period 3-19 March. We therefore date the present letter on or about Saturday, 8 March, <ref target="let437.xml">letter 437</ref> on or about Thursday, 13 March and <ref target="let439.xml">letter 439</ref> on or about Tuesday, 18 March 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p>In <hi rend="italics">De brieven</hi> 1990 five extra poems by Jules Breton were printed with this letter: ‘Le soir (à Louis Cabat)’ (Evening (for Louis Cabat)), ‘Les deux croix’ (The two crosses), (recto and verso of a half sheet in Paris, Fondation Custodia), as well as ‘Crépuscule (à Charles Daubigny)’ (Twilight (for Charles Daubigny)), ‘Dans la plaine’ (On the plain) and ‘Le retour des champs (à François Millet)’ (Returning from the fields (for François Millet)) (the last ones have only partly survived). These half sheets were once joined together, since the last – missing – verse of ‘Le soir’ was added in the space below ‘Le retour des champs’, as a photocopy of this sheet shows. We too assume that these fragments were originally part of the present letter. In 1957 L.H.M. Brom of Utrecht had this sheet in his possession and sent a photocopy of it to V.W. van Gogh. (Correspondence between L.H.M. Brom and V.W. van Gogh, April-September 1957, Van Gogh Museum, Documentation). Van Rappard was a leading member of the Kunstliefde association in Utrecht, where he became friends with the silversmith Jan Hendrik Brom; this Jan Brom, father of Leo, owned a study by Van Rappard, who also made his portrait. Brom probably acquired the sheet with the five poems through Van Rappard. Cf. exhib. cat. Amsterdam 1974, pp. 20, 85, 91.</p>
+<p rend="indent">The formulation ‘Here, too, are some of the poems by Jules Breton; if you don’t have them I’m sure they’ll really touch you’ <ref target="#l-3">(ll. 3-4)</ref> does not mean that he had sent poetry by Breton before (‘too’ must refer to the fact that he had previously sent poems by Coppée (<ref target="let430.xml">letter 430</ref>)). As far as we know there are no missing letters from Van Gogh to Van Rappard in these two months. We see no grounds for placing the poems with a later letter.</p>
+<p rend="indent">In 1977 the Fondation Custodia in Paris bought half of this sheet from a French private collection through the bookseller André Jammes. The other half was cut up and only part has survived. In March 2001 a seller on eBay offered one verse <ref target="#l-361">(ll. 361-364)</ref> for sale.</p>
+<p rend="indent">Two fragments (<ref target="#l-274">l. 274-278</ref> and – on the verso – part of <ref target="#l-341">l. 341</ref>, and <ref target="#l-378">l. 378-379</ref>) were auctioned on 31 March 1998 in <hi rend="italics">The Collection of George Cosmatos.</hi> Sotheby’s London. London 1998, lot 450 (ill.).</p>
+<p rend="indent">Part of the sheet on squared paper (7.3 x 4.1 cm), with ‘à Charles Daubigny’ <ref target="#l-273">(l. 273)</ref> and <ref target="#l-318">ll. 318-321</ref>) on one side and ‘Le retour des champs’ (<ref target="#l-340">l. 340</ref> and <ref target="#l-341">ll. 341-344</ref>) on the other was in Galerie St Etienne, 24 West 57th Street in New York in November 2002.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is not certain which drawing and painting these were. If it was the small drawing <hi rend="italics">Weaver </hi>(<rs type="artwork" ref="artwork.xml#noill_548">F 1124 / JH 456</rs>) (<ref target="let437.xml#n-1">see letter 437, n. 1</ref>), it might be that Van Gogh is referring here to <hi rend="italics">Weaver and a spinning wheel</hi> (<rs type="artwork" ref="artwork.xml#ill_2462">F 29 / JH 471</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs type="person" ref="bio.xml#_1306">Van Rappard</rs> had previously been sent the sketch <hi rend="italics">Parsonage garden</hi> (<rs type="artwork" ref="artwork.xml#_131">F 1133 / JH 485</rs>) after <hi rend="italics">Parsonage garden </hi>(<rs type="artwork" ref="artwork.xml#noill_549">F 185 / JH 484</rs>), which Van Gogh might now have started to work on again.</p>
+
+<p rend="indent">It is more likely, though, that what he means here is that he has meanwhile made a new version of the garden, after which the letter sketch <hi rend="italics">Garden</hi> (<rs type="artwork" ref="artwork.xml#_132">F - / JH -</rs>) was done. However, there is no known painting that corresponds with this.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_389">Seule</ref>’, in: Breton 1875, pp. 49-50. Variant:</p>
+
+<p><ref target="#l-18">l. 18</ref> lumière ] lueur</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_390">Le chant du soir</ref>’, in: Breton 1875, pp. 117-120. The most significant difference is:</p>
+
+<p><ref target="#l-52">l. 52</ref> odeur ] senteur</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh had visited <rs type="person" ref="bio.xml#_1306">Van Rappard</rs> on 20 December 1883 (<ref target="let416.xml">see letter 416</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_391">L’Aube (à Corot)</ref>’, in: Breton 1875, pp. 39-40.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_392">Automne (à Jules Dupré)</ref>’, in: Breton 1875, pp. 29-30.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_393">Soleil couchant (à Emile Breton)</ref>’, in: Breton 1875, pp. 31-32.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_394">Yvonne</ref>’, in: Breton 1875, pp. 33-34. With the dedication: ‘A André Lemoyne’ (To André Lemoyne). Van Gogh copied out the fourth verse of this poem on a separate sheet. See Pabst 1988, p. 87.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_395">Les cigales</ref>’ in: Breton 1875, p. 16. With the dedication: ‘A Leconte de Lisle’ (To Leconte de Lisle). There are a few minor differences. Van Gogh spread this poem out over several pages of the letter.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_396">Le soir – (à Louis Cabat)</ref>’ in: Breton 1875, pp. 45-47.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_397">Les deux croix</ref>’ in: Breton 1875, pp. 131-133.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_398">Crépuscule (à Charles Daubigny)</ref>’ in: Breton 1875, pp. 91-94.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_399">Dans la plaine</ref>’ in: Breton 1875, pp. 89-90. The principal differences are:</p>
+
+<p><ref target="#l-337">ll. 337-338</ref> ‘Prise de spasmes convulsifs’ (‘Seized by convulsive spasms’) was omitted.</p>
+
+<p><ref target=" #l-339">l. 339</ref> ‘Quand’ should be ‘Quant’ but there is a typographical error in the source text.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_176">Le retour des champs (à François Millet)</ref>’, in: Breton 1875, pp. 51-53.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Anthon van Rappard. The Hague, on or about Wednesday, 9 May 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let341"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b8366 a-c V/2006</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>341</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>R34</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>343</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1883-05-09">on or about Wednesday, 9 May 1883</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anthon van Rappard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001617_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001617_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001617_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001617_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001617_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001617_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001618_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001001618_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001618_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001001618_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001619_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001001619_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8366 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001619_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001001619_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Amice Rappard.</p>
+
+<p xml:id="p.nl.2" n="2">Uw telegram ontving ik heden morgen. Ik stond op ’t punt naar U toe te komen toen ik hoorde gij verhinderd waart. Doch bij nader inzien zag ik er van af omdat ik dacht dat welligt de dokter van meening zou zijn het U hinderen zou te spreken &amp;c.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik geloof anders van U zelf gij dit bezwaar <hi rend="italics">niet</hi> maken zoudt – ik zelf zou er ook geen zorg over hebben ’t U schaden zou. Integendeel betrekkelijk<c type="kk">/</c> er is iets in ’t gestel van ieder schilder dat eigenaardig is<c type="kp">_</c> Momenteele zwakte<c type="kk">/</c> zenuwachtigheid<c type="kk">/</c> melankolie<c type="kk">/</c> komt meermalen uit de inspanning van ’t werk voort – tevens echter is er een soort weeromstuit<c type="kk">/</c> &amp; genezen zwakte &amp;c<c type="kp">_</c> &amp;c<c type="kp">_</c> soms juist door inspanning weder.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Is iemand overvoerd en bleu<ptr target="#note-t-a"/> van redeneeren en overleggen met vrienden<c type="kk">/</c> mogelijk kon ’t hem goeddoen een tijd de eenzaamheid te zoeken doch zoover ik weet is dit niet Uw geval. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Dus dacht ik er over naar U toe te komen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Maar ik dacht<c type="kk">/</c> Rappard heeft vaders<c type="kk">/</c> moeders<c type="kk">/</c> zusters<c type="kk">/</c> broers<c type="kk">/</c> meiden<c type="kk">/</c> knechts<c type="kk">/</c> weet ik wat meer in huis en die allen mogten op schildwacht staan om hem rustig te houden als de dokter zoo iets gezegd heeft. Komt men nu op zoo’n moment<c type="kk">/</c> is toch de aardigheid er af en men zit gegeneerd tegenover elkaar. Ik voor mij zeg U echter ronduit in mijn eigen gestel ik duidelijk die twee krachten van uitputting en weeropstijving door èèn zelfde oorzaak<c type="kk">/</c> inspanning op ’t werk veroorzaakt<c type="kk">/</c> bij tijden gevoel. En op de laatste<c type="kk">/</c> voor mij zelf niet alleen maar ook voor anderen<c type="kk">/</c> zóó vertrouw dat b.v. toen ik verl. jaar ziek was<ptr target="#note-t-1"/> ik brutaal tegen ’t avis van den dokter heb ingehandeld in eenige opzigten<c type="kk">/</c> niet omdat ik zijn raad verkeerd vond 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>of ’t beter wilde weten maar bij mij zelf redeneerde<c type="kk">/</c> ik leef om te schilderen en niet direkt om mijn gestel te conserveeren<c type="kp">_</c> Soms is ’t mysterieuse woord<c type="kk">/</c> wie zijn leven zal verliezen die zal ’t vinden<c type="kk">/</c><ptr target="#note-t-2"/> klaar als den dag<c type="kp">_</c> Ik nu ben SPOEDIGER genezen dan een paar anderen van wie ik weet hoelang zij er over deden om van ’t zelfde beter te worden.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Maar – beste vriend – ik schrijf wat ik U anders zeer zeker zou zeggen – wees wel spaarzaam op Uw kracht in dezen zin dat ge geen krachten besteedt aan zaken die niet direkt tot Uw doel leiden. Kerkornamenten zeg ik ’t zelfde van als van decoraties maken.<ptr target="#note-t-3"/> ’t is m.i. kruid<ptr target="#note-t-b"/> verschieten aan ’t geen wel op zich zelf een schot kruid desnoods waard moge zijn van iemand die zijn patroontasch vol heeft en weer aanvullen kan als die leeg is<c type="kk">/</c> doch – amice – geen patroon van een tirailleur van wiens op zijn qui vive zijn belangrijke zaken mogten afhangen en wiens positie hem meer verantwoordelijkheid op de schouders legt dan een ander<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Wat voor anderen gepermitteerd zij is misschien in U laakbaar<c type="kk">/</c> le mieux en ce cas etant l’ennemi du bien.<ptr target="#note-t-4"/> Ergo, spaar U voor le mieux.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Deelt ge mijn opinie omtrent uw responsabiliteit en ’t geen van Uw post afhangt – ’k weet het niet precies<c type="kp">_</c> ten opzigte van iedereen zijn er twee gezigtspunten<c type="kk">/</c> wat men is<c type="kk">/</c> wat men zou kunnen zijn<c type="kp">_</c> In ’t eerste mogen we ons niet opsluiten dunkt mij met een “gerust” geweten. Het laatste moeten we als eene formidable realiteit boven ons gevoelen als zijnde wij nooit verantwoord, onvolkomen en vol fouten als we zijn, ’t ideaal en ’t geen tot in ’t oneindige gaat te verdonkeremanen als ging ’t ons niet aan. Ik heb een paar redenen Uw post in de gegeven toestanden zeer important te vinden. Misschien is mijn gevoel jegens U er somberder door. Ik vraag mij af<c type="kk">/</c> wat zal R. doen? Waar zal hij partij voor kiezen?</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Maar nu is ’t niet direkt ’t moment daarover te philosopheeren. Dus ter zake. Ik heb een bepaald verlangen U binnen kort te ontmoeten. In een jaar tijds zag ik absoluut niets van U<c type="kk">/</c> langer zelfs want verl. jaar toen ge hier waart ook niet. Verder zaagt gij van mijn werk ook weinig – niets dan de lith.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Dus we moeten als ge ’t goed vindt ’t zoo schipperen dat we, en wel wederkeerig, elkaar zien. Is dus mijn voorstel dat ge me eens zult doen weten welken dag er geen verhindering zou zijn ik eens een morgen op Uw atelier kwam. Zoolang gij deze bewuste verschijnselen van bloed opgeven hebt vind ik het niet overdreven er bezwaren zijn tegen een komen naar hier. laat ons dus afspreken dit uit te stellen tot die verschijnselen geheel weg zijn. Maar den eersten den besten dag dat gij zonder Uw dokter te contrarieeren in Uw gewone doen zijt<c type="kk">/</c> kom ik als ik éen woordje berigt van U ontvang naar U toe.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ge ziet<c type="kk">/</c> ik schrijf U nog vóór ik Uw brief ontvang waarvan Uw telegram melding maakt. Doch ’k veronderstel niet deze dit plan veel wijzigen zal doch welligt het er zich aan aansluit.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Meen niet ik geheel op alle decoraties of ornamenten tegen heb – doch ik heb er op tegen in <hi rend="italics">dezen</hi> tijd en in deze omstandigheden waar we nu hier in Holland mee te maken hebben. Ik heb er <hi rend="italics">niet</hi> op tegen als in een tijd van groote animo en een geest van energie en renaissance een zeker surplus van kracht zich in die rigting verliest. Maar ik heb er op tegen in een tijd waarin niet direct animo en energie de algemeene stemming is – vooral niet die der jongeren – laat dan wie energie heeft zich concentreeren<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">er is een tijd om vrolijk te zijn maar er is ook een tijd om streng te zijn.<ptr target="#note-t-5"/> Werkelijk<c type="kk">/</c> het is noodig dan men <hi rend="italics">niet</hi> deele die zekere gerustheid omtrent het goed gaan van alles<c type="kk">/</c> die zoo wat de conventie is tegenwoordig en heel best op een pruikentijd kan uitdraaijen.– toen ze dronken een glas &amp;c. en lieten de zaak zooals ze was<c type="kp">_</c><ptr target="#note-t-6"/> <hi rend="italics">Als</hi> er decadence is – dan s.v.p. geen ornamenten maar – een inwendig gemeenschap zoeken met “<hi rend="italics">les vieux de la vieille</hi>” en ’t tegenwoordige negeeren.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Sommige zaken, amice, hebben in mijn geest ’t overwigt boven eigen private aangelegenheden of private moeielijkheden. Indien ik verlangen heb met U te spreken zijn ook niet die laatsten ’t direkt motief. Zoo sprak ik ook nu over andere dingen vóór ik er toe kom U te bedanken ge me helpen wilt<c type="kk">/</c> wat me zeer geruststelt en me tegen de borst stuitende demarches besparen zal. Dank er voor<c type="kp">_</c><ptr target="#note-t-7"/> <hi rend="italics">Als</hi> ik spreek over dingen in ’t algemeen<c type="kk">/</c> ik heb er eigentlijk ’t land aan zulks te doen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Zoo ook wanneer ik bij U kom – ik kan niet verbergen ik voor mij zelf niet precies de toekomst heel helder zie en het twijfelachtig reken of ik zal kunnen doen wat ik mij voorstel te doen<c type="kp">_</c> Ik zoek dan ook eens raad te schaften met U om misschien wat licht te krijgen. Ik geloof gij een zeker oog op mijn werk hebt en Uw oordeel in sommige gevallen 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>mij van veel nut zou kunnen zijn om als ik b.v. de studies voor iets heb het tot een definitief geheel te vormen. Nu op ’t moment heb ik <hi rend="italics">veel</hi> studies en schemeren mij 2 of 3 meer importante composities voor den geest waarvoor ik waarschijnlijk grootendeels de materialen in mijn studies heb.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Juist omdat ik Uw opinie waardeer zoo is ’t noodig ge ook mijn gedachten wat kent<c type="kp">_</c>– En meen ik ge genoeg bespiegelingskracht waarschijnlijk hebt om ook dan wanneer ge niet alles met me eens zoudt zijn<c type="kk">/</c> U mijn zienswijs te kunnen begrijpen.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Als ik iets op eene nieuwere rigting tegen heb zoo is dit geenszins op die van Israels<c type="kk">/</c> Mauve<c type="kk">/</c> Maris,<ptr target="#note-t-8"/> neen die is juist de beste m.i. doch er is iets sedert uit voortgevloeid dat ofschoon ’t er op lijkt eigentlijk regelregt tegen die meesters in is – en daar heb ik op tegen. V.d. Weele b.v. is serieuser en houdt zich in een regt spoor. Ik zag zijn studies verl. Zondag.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Nu geloof ik van U ook ge een regt spoor hebt maar ik weet niet of sommige dingen geen afwijkingen zijn in meer bovengenoemde rigting. Ik ben bereid deze opinie terug te nemen maar ’t komt me zoo voor<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Nu – ik voor mij ik zoek ook dat spoor ’t welk ik het beste vind<c type="kk">/</c> dat van laat ons zeggen Israels<c type="kk">/</c> Mauve<c type="kk">/</c> Maris – ik weet niet eens hoe ver ik daarop gevorderd ben – veel minder hoe ver ik daarop nog vorderen zal – maar ik heb er mijn best voor gedaan en zal er mijn best voor doen. En dit zoo zijnde is ’t zoo ver van mijn intentie verwijderd als ’t Noorden van ’t Zuiden<c type="kk">/</c> als ik b.v. in Uw decoraties bezwaar zie<c type="kk">/</c> dit te doen op meesterachtige wijs of toon maar als zelf zoekende naar iets waars en degelijks – en serieus <hi rend="italics">niet</hi> omdat ik ’t reeds gevonden heb maar serieus omdat ik het zelf ook zoek<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">En is al wat ik zoo betreffende U niet alleen maar mijzelf zeker niet minder denk<c type="kk">/</c> dat wij op moeten passen voor het diffuse en zoeken naar concentratie en pittigheid. Als ik bij U kom – waarachtig het is ter wille van ’tgeen de praktijk betreft en niet om de theorie of philosofie dat ik met U wou praten.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Ter wille van praktijk<c type="kk">/</c> prozaisch als maandag<c type="shy">-</c>ochtend<c type="kp">_</c>–<ptr target="#note-t-9"/></p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Gij schrijft over een mooi blad in Graphic van <hi rend="italics">Howard Pyle</hi>. Als ge bedoelt eene compositie die denken doet aan Terburg of Nicolaas Keijzer – Penn en de colonisten – trof die ook mij – en wel zoo danig dat ik ’t N<hi rend="super">o</hi> komen liet.<ptr target="#note-t-10"/> Ja dat is weergaasch mooi. Zoo nam ik een N<hi rend="super">o</hi> London News ook ter wille van een blad van King – Werklui in een wagon van de Underground Railway<c type="kp">_</c><ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Ook heb ik ingeteekend op le Salon 1883 van Dumas waarvan 1 N<hi rend="super">o</hi> uit is à 1 franc en in 12 maandel. afl. compleet zal zijn.<ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het spijt me après tout erg ge niet gekomen zijt. doch ’t is Uw schuld niet.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Ik had tot nog toe min of meer scrupule bij U te komen om reden zoovelen mij liever niet dan wel zien en ik in ’t algemeen er tegen op zie te bezoeken. En dat is hier gekomen ten deele ook omdat ik de vrouw en haar twee kinderen in huis genomen heb en ze meenen men fatsoenshalve geen omgang met me hebben kan. Doch Uw opinie hieromtrent provisoir van U zelf vernomen hebbende als verschillende van de handelwijs van anderen<c type="kk">/</c> zoo meen ik mijn scrupule vervallen kan. Ik doe er zóó mee dat als iemand om deze reden mij mijd ik hem niet zoek<c type="kk">/</c> 
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>ik blijf liever ergens weg dan dat ik er te veel zou worden. Te meer daar ik ietwat<c type="kk">/</c> ietwat<c type="kk">/</c> ietwat, maar een <hi rend="italics">heel</hi> klein beetje, ’t prejugé dergenen die zich houden of trachten te houden alleen aan de maatschappelijke conventies excuseeren kan en ze in hun waarde laat vooral omdat ik hun beschouw als zwak<c type="kk">/</c> en niet vechten wil<c type="kk">/</c> althans niet attaqueeren. In dit opzigt ook spaar ik voor mij WEL mijn patronen. Is dit te pedant? </p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Neem gij me zoo als ik ben en laat ons dus afspreken ik van U verneem wanneer ik U bezoeken kan zonder ’t geen Uw dokter U voorschrijft te contrarieeren.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">En nogmaals<c type="kk">/</c> bedankt voor dat ge me wilt helpen en Uw brief zal welkom zijn als hij komt doch als Uw toestand meebrengt ge met schrijven moet wachten zoo wacht er mee<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">adieu<c type="kk">/</c> met een handdruk in gedachten<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.29" n="29">t. à. t.</p>
+
+<p xml:id="p.nl.30" n="30">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear friend <rs type="person" ref="bio.xml#_1306">Rappard</rs>.</p>
+<p xml:id="p.en.2" n="2">I received your telegram this morning. I was on the point of coming to you when I heard you were indisposed. But on reflection I changed my mind because I thought that the doctor might take the view that it wouldn’t be good for you to talk, &amp;c. </p>
+<p rend="indent" xml:id="p.en.3" n="3">I believe otherwise that you yourself would <hi rend="italics">not</hi> object — I too wouldn’t be at all concerned that it would harm you. On the contrary indeed, there’s something peculiar in the temperament of every painter. Momentary weakness, nervousness, melancholy are often caused by the effort of working — at the same time, though, there’s a kind of rebound, and the weakness &amp;c. &amp;c. is cured precisely by making an effort. </p>
+<p rend="indent" xml:id="p.en.4" n="4">If someone is weak and has had more than enough of reasoning and discussing with friends, it might do him good to be solitary for a while, but as far as I know this isn’t the case with you. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> So I considered coming to you. </p>
+<p rend="indent" xml:id="p.en.5" n="5">But I thought, <rs type="person" ref="bio.xml#_1306">Rappard</rs> has fathers, mothers, sisters, brothers, maids, servants, and I don’t know what else at home, and they can all be on sentry duty to keep him quiet if the doctor has said something like that. Now if one arrives at such a moment, the pleasure is gone and you sit facing each other in embarrassment. For my part, though, I tell you frankly, at times I clearly feel the two forces of exhaustion and recovery in my own temperament due to one and the same cause, the effort put into work. And I trust in this so much, not only for myself but for others too, that when I was ill last year,<ptr target="#note-t-1"/> for example, I brazenly acted against the doctor’s advice in some respects, not because I thought his advice was wrong 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> or that I knew better, but because I reasoned to myself: I live to paint and not primarily to conserve my constitution. Sometimes the mysterious words, whosoever will lose his life shall find it,<ptr target="#note-t-2"/> are as clear as daylight. I was cured MORE SPEEDILY than a few others of whom I know how long they took to recover from the same thing.</p>
+<p rend="indent" xml:id="p.en.6" n="6">But — dear friend — I write what I would otherwise certainly say to you — save your strength in the sense of not expending it on matters that don’t lead directly to your goal. I say the same of church ornaments as of making decorations.<ptr target="#note-t-3"/> In my view this is using up powder on something that may be worth a shot of powder in itself, if need be, from someone who has a full cartridge box and can refill it when it’s empty, but — my dear friend — not a cartridge from a soldier on whose alertness important matters may depend and whose position puts greater responsibility on his shoulders than on other people’s.</p>
+<p rend="indent" xml:id="p.en.7" n="7">What’s permitted to others may be reprehensible in you, since in this case the better is the enemy of the good.<ptr target="#note-t-4"/> Ergo, save yourself for the better.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Do you share my opinion as to your responsibility and what depends on your post? I’m not certain about it. There are two points of view with everybody: what one is, what one could be. We may not confine ourselves in the first, it seems to me, with a ‘clear’ conscience. We should feel the second as a formidable reality above us since, imperfect and full of faults as we are, we’re never justified in stifling the ideal, and what extends into the infinite as if it were no concern of ours. I have a few reasons for finding your post highly important in the circumstances. Perhaps my feeling towards you is more sombre as a result. I wonder, what will <rs type="person" ref="bio.xml#_1306">R</rs>. do? Which side will he choose?</p>
+<p rend="indent" xml:id="p.en.9" n="9">But now isn’t the moment to philosophize about that. So to business. I have a particular desire to meet you soon. I’ve seen absolutely nothing by you for a year, longer even, because I didn’t see anything last year either when you were here. Also, you’ve seen little of my work — nothing other than the lithographs. </p>
+<p rend="indent" xml:id="p.en.10" n="10">So, if you agree, we must arrange things so that we see each other, and visit each other in turn. So my proposal is that you let me know on which day there would be no obstacle to my coming to your studio for a morning. As long as you have these symptoms of coughing blood, I don’t think it exaggerated to say that there are objections to your coming here. So let’s agree to postpone that until these symptoms have gone completely. But the very first day that you’re back to your normal ways without disagreeing with your doctor, I’ll come to see you as soon as I hear one word from you.</p>
+<p rend="indent" xml:id="p.en.11" n="11">As you see, I’m writing to you even before receiving the letter mentioned in your telegram. But I don’t expect it to change much in this plan, but rather to endorse it.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Don’t imagine I’m against all decorations or ornaments — but I’m against them at <hi rend="italics">this</hi> time and in the circumstances we’re now facing here in Holland. I’m <hi rend="italics">not</hi> against them if a certain surplus of vigour is absorbed in that direction at a time of great enthusiasm and a spirit of energy and renaissance. But I’m against them at a time when enthusiasm and energy aren’t exactly the prevailing mood — especially among the young — so let those who have energy concentrate. </p>
+<p rend="indent" xml:id="p.en.13" n="13">There’s a time to be merry but there’s also a time to be severe.<ptr target="#note-t-5"/> Truly, then it’s necessary that one does <hi rend="italics">not</hi> share the confidence about everything going well, which is more or less the convention at present, and could end up in a periwig age — when they drank a glass &amp;c. and left things as they were.<ptr target="#note-t-6"/> <hi rend="italics">When</hi> there is decline — then no ornaments, please — but a quest for inner fellowship with ‘<hi rend="italics">the old hands of yesterday</hi>’, and ignore the present.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Some matters, my dear friend, take precedence in my mind over one’s own private concerns or private difficulties. These last are also not the immediate motive if I desire to speak to you. Thus now I’ve talked about other things before getting round to thanking you for being ready to help me, which reassures me greatly and will spare me having to take distasteful measures. Thank you for that.<ptr target="#note-t-7"/> <hi rend="italics">If</hi> I talk about things in general, actually I detest doing such a thing.</p>
+<p rend="indent" xml:id="p.en.15" n="15">It will be the same if I come to you — I can’t conceal the fact that I, for one, can’t see the future clearly, and consider it doubtful whether I’ll be able to do what I propose to do. So I seek to have your advice to perhaps get some light. I believe you have a certain eye for my work, and in some cases 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> your judgement could be of great use to me when I have the studies for something, for example, in shaping them into the final whole. Now at the moment I have <hi rend="italics">many</hi> studies and 2 or 3 more important compositions are dawning in my mind for which I probably have most of the material in my studies.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Precisely because I value your opinion, it’s necessary for you to know something of my thoughts too. And I believe you probably have enough power of contemplation to understand my vision even when you don’t agree with me about everything.</p>
+<p rend="indent" xml:id="p.en.17" n="17">If I have something against a new movement, it isn’t at all that of <rs type="person" ref="bio.xml#_1107">Israëls</rs>, <rs type="person" ref="bio.xml#_323">Mauve</rs> and <rs type="person" ref="bio.xml#_1201 bio.xml#_1202 bio.xml#_1203">Maris</rs>.<ptr target="#note-t-8"/> No, that’s simply the best in my view, but something has since arisen from it which, while resembling it, is in fact directly opposed to those masters — and that’s what I’m against. <rs type="person" ref="bio.xml#_1440">Van der Weele</rs>, for instance, is more serious and sticks to a straight line. I saw his studies last Sunday.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Now I believe that you also have a straight line, but I wonder whether some things aren’t more deviations in the direction described. I’m ready to withdraw this opinion, but that’s how it appears to me.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Now, for my part I too am looking for that line which I think is the best, that of let’s say <rs type="person" ref="bio.xml#_1107">Israëls</rs>, <rs type="person" ref="bio.xml#_323">Mauve</rs>, <rs type="person" ref="bio.xml#_1201 bio.xml#_1202 bio.xml#_1203">Maris</rs>. I don’t even know how far I’ve advanced along it — much less how far I’ll yet advance — but I’ve done my best at it and shall continue to do my best. And this being so, if, for example, I see objections to your decorations, it’s as far from my intention as the north is from the south to do this in a schoolmasterly way or tone, but only as one who is himself searching for something true and sound — and serious <hi rend="italics">not</hi> because I’ve already found it but serious because I’m myself searching for it. </p>
+<p rend="indent" xml:id="p.en.20" n="20">And all I think regarding not only you, but certainly myself no less, is that we must be on our guard against the diffuse and search for concentration and pith. And if I come to you — truly, it’s with a view to what concerns practice, and not about theory or philosophy, that I want to talk to you.</p>
+<p rend="indent" xml:id="p.en.21" n="21">With a view to practice, as prosaic as Monday morning.<ptr target="#note-t-9"/>
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">You write about a beautiful print in The Graphic by <hi rend="italics"><rs type="person" ref="bio.xml#_1285">Howard Pyle</rs></hi>. If you mean a composition that recalls <rs type="person" ref="bio.xml#_883">Ter Borch</rs> or <rs type="person" ref="bio.xml#_121">Nicolaes de Keyser</rs> — Penn and the colonists — it struck me too — so much so that I ordered that issue.<ptr target="#note-t-10"/> Yes, it’s deuced beautiful. In the same way I took an issue of London News for the sake of a sheet by <rs type="person" ref="bio.xml#_1132">King</rs> — Workmen in a wagon of the Underground Railway.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">I’ve also subscribed to <rs type="person" ref="bio.xml#_585">Dumas</rs>’s le Salon 1883, of which the first issue is out at 1 franc and which will be complete in 12 monthly instalments.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">I greatly regret that you didn’t come after all, but it wasn’t your fault.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Up to now I had some qualms about coming to you, because so many prefer not to see me and I generally don’t look forward to paying visits. And part of the reason for that is also because I’ve taken the <rs type="person" ref="bio.xml#_463">woman</rs> and her two <rs type="person" ref="bio.xml#_466 bio.xml#_467">children</rs> into my house, and they think they can’t decently have anything to do with me. But having provisionally learned from you yourself that your opinion is different from that of others, I believe I can give up my qualms. I deal with it by not seeking out those who avoid me for this reason, 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/> I prefer to stay away from places rather than to be unwelcome. All the more so since I can slightly, slightly, slightly, but only a <hi rend="italics">very</hi> tiny bit, excuse the prejudice of those who are just observing or trying to observe social conventions and accept them as they are, above all because I regard them as weak and don’t want to fight, at least not attack. In this respect, too, I CERTAINLY save my cartridges. Is this too pedantic?</p>
+<p rend="indent" xml:id="p.en.26" n="26">Take me as I am and let us agree that I’ll hear from you when I can visit you without going against what your doctor prescribes.</p>
+<p rend="indent" xml:id="p.en.27" n="27">And thank you again for being willing to help me, and your letter will be welcome when it comes, but if your condition means that you must put off writing, then let it wait.</p>
+<p rend="indent" xml:id="p.en.28" n="28">Adieu, with a handshake in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">Ever yours,</p>
+<p xml:id="p.en.30" n="30">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">At the time the letter was written, Van Gogh had received both a letter and, a day later, a telegram from Van Rappard; <ref target="let342.xml">see letter 342</ref>. Since there is no mention of this in <ref target="let340.xml">letter 340</ref> of on or about 7 May, at least two days must have passed since that letter. We therefore date the present letter on or about Wednesday, 9 May 1883. It is unlikely to have been later.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In previous editions of the correspondence – with the exception of the earliest Van Rappard edition (<hi rend="italics">Letters to Van Rappard </hi>1936) – a fourth sheet was added at the end of the letter. On the grounds of the content, however, we are in agreement with the 1936 edition, and have placed the sheet with <ref target="let345.xml">letter 345</ref>. See <hi rend="italics">Arrangement</hi> there.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s illness <ref target="let290.xml">(290)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Loan of 25 guilders from Van Rappard <ref target="let339.xml">(339)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘zwak’ (weak).</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>In June 1882 Van Gogh had been treated for venereal disease at the Burgergasthuis: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let237.xml">see letters 237</ref> ff.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This phrase occurs several times in the Gospels, cf. Matt. 16:25 among others.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>’s work on the large decoration <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_434">The muse of history</rs></hi> (1882), cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let284.xml#n-6">letter 284, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘kruit’ (ammunition). </p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Saying.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Possibly an allusion to Eccl. 3:1-8, ‘To everything there is a season’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The words ‘which... were’ were added later. Where Van Gogh writes ‘&amp;c’ at the end of the saying, the original was ‘they pissed a pee’ (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">WNT</hi>). Quoted earlier in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let276.xml">letter 276</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This means that Van Gogh wrote a (lost) letter to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> asking for financial help; Vincent wrote to Theo that he would do so (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let340.xml">see letter 340</ref> and cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let342.xml">letter 342</ref>). </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Which Maris (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1202">Matthijs</rs> or <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1201">Willem</rs>) Van Gogh means here is impossible to say for sure.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh spoke earlier of ‘Monday morning-like sobriety’; in that context it was probably an allusion to a passage in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_216">Shirley</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_534">Charlotte Brontë</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let274.xml#n-4">see letter 274, n. 4</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1285">Howard Pyle</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The first visit of William Penn to America – A conference with the colonists</hi>, engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1537">Eugène Froment</rs>, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 27 (14 April 1883), pp. 392-393 published shortly before. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1225">Ill. 1225</rs>.</p>
+
+<p rend="indent">It is understandable that Van Gogh likens the scene, which is set in 1672 according to the inscription, to the work of the seventeenth-century painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_883">Gerard ter Borch</rs> (the younger), who worked in a similar style. The name Ter Borch was also sometimes spelt Terburg, as in French publications.</p>
+
+<p rend="indent">Although Van Gogh also mentions Nicolaas Keijzer here, he probably does not mean the little known seventeenth-century Flemish painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_121">Nicolaes de Keyser</rs>, but the Dutch painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1133">Thomas de Keyser</rs>, who was also mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let155.xml">letter 155</ref>. The latter is known for his portraiture, a genre in which Gerard ter Borch also worked. There were portraits by both in the Mauritshuis in The Hague. </p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1132">Edward R. King</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The workman’s train</hi>, engraved by Eugène Froment, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> 82 (14 April 1883), p. 373. There are two copies in the estate. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1012">Ill. 1012</rs> (t*103 and t*581).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh very probably subscribed to the series published in 1883 by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_585">F.-G. Dumas</rs> (artistic director of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Paris Illustré</hi> and publisher of illustrated Salon catalogues among other things). The <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Catalogue illustré officiel de la section des Beaux-Arts de L’Exposition Universelle d’Amsterdam 1883</hi> carried an advertisement for it: ‘From 1st May 1883, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Paris Illustré</hi> – Twelve numbers per year, illustrated with engravings in several colours ... One franc per number’ (A dater du 1er mai 1883 <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Paris Illustré </hi>– Douze numéros par an illustrés de gravures en plusieurs tons ... Un franc le numéro). The first number covered the Salon of 1883. The following issues dealt with such subjects as ‘Villégiature et bains de mer’ (Holidays and bathing) and ‘Cercles et aquarellistes’ (Circles and watercolourists). Dumas’s normal illustrated Salon catalogue of 1883 cost 3.50 francs. Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let342.xml#n-10">letter 342, n. 10.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Dordrecht, Sunday, 21 January 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let101"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b101 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>101</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>84</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>101</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-01-21">Sunday, 21 January 1877</date>
+                            <placeName>Dordrecht</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0101" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000106_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000106_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0101" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000106_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000106_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000106_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Dordrecht 21 Januarij 1877</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Reeds eerder zult Gij een brief verwacht hebben; in den winkel<ptr target="#note-t-1"/> gaat het nog al en is het druk, zoodat ik er s’morgens 8 uur heen en s’avonds 1 uur van daan ga, maar daar ben ik wel blij om.–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">11 Februarij hoop ik eens naar Etten te gaan<c type="kp">_</c> Zooals Gij weet wordt dan Pa’s verjaardag<ptr target="#note-t-2"/> gevierd, zoudt Gij dan soms ook komen? Hoop Pa te geven Eliot “Novellen” (vertaling van Scenes from clerical life)<c type="kk">/</c><ptr target="#note-t-3"/> als wij zamen wat gaven zouden wij er Adam Bede<ptr target="#note-t-4"/> kunnen bij geven.–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Schreef verl. Zondag aan Mr Jones en zijne vrouw, dat ik niet meer terug kwam en onwillekeurig werd dien brief nog al lang – uit den overvloed des harten<ptr target="#note-t-5"/> – wenschte wel zij in het hunne eene gedachte aan mij bewaarden en vroeg hen “to wrap my recollection in the cloak of Charity”.–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">De twee prenten Christus Consolator die ik van U kreeg hangen op mijn kamertje<ptr target="#note-t-7"/> – zag de sch<hi rend="super">ijen</hi> op het museum<ptr target="#note-t-8"/> en ook van Scheffer “Christus in Ghetsemané”,<ptr target="#note-t-9"/> dat is om nooit te vergeten, lang geleden trof dat Sch<hi rend="super">ij</hi> Pa ook zoo – dan is er nog eene schets van Les douleurs de la terre<ptr target="#note-t-10"/> en verscheidene teekeningen<ptr target="#note-t-11"/> en ook het portret van Zijn atelier<ptr target="#note-t-12"/> en zoo als Gij weet het portret van zijne Moeder.<ptr target="#note-t-13"/> Er zijn nog andere mooie Sch<hi rend="super">ijen</hi> ook<c type="kk">/</c> b.v. de Achenbach<ptr target="#note-t-14"/> en Schelfhout<ptr target="#note-t-15"/> en Koekkoek<ptr target="#note-t-16"/> en o.a<c type="kp">_</c> ook een mooie Allebé<c type="kk">/</c> een oud man bij de kagchel.<ptr target="#note-t-17"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Bekijken wij ze den een of anderen dag nog eens zamen?</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Den eersten Zondag dat ik hier was hoorde ik preeken over: Zie Ik maak alle dingen nieuw<c type="kk">/</c><ptr target="#note-t-18"/> en s’avonds “Nu zien wij door een spiegel in eene duistere rede, maar dan zullen wij zien van aangezigt tot aan<c type="shy">-</c>gezigt, toen ik een kind was sprak ik als een kind<c type="kk">/</c> was ik gezind als een kind<c type="kk">/</c> over<c type="shy">-</c>leide ik als een kind maar toen ik een man geworden ben heb ik te niet ge<c type="shy">-</c>daan hetgeen eens kinds was”.<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Dezen morgen was ik bij D<hi rend="super">s</hi> Beversen in een oud klein kerkje,<ptr target="#note-t-20"/> er was Avondmaal en zijn tekst was “Zoo wie dorst die kome tot Mij en drinke”.–<ptr target="#note-t-21"/></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Het raam van mijn kamer ziet uit op tuinen, met mast en populieren enz<c type="kp">_</c> en den achterkant van oude huizen<c type="kk">/</c> o.a<c type="kp">_</c> een groot met klimop begroeid<c type="kk">/</c><ptr target="#note-t-22"/> “a strange old plant is the ivy green” zei Dickens.–<ptr target="#note-t-23"/> Er kan zoo iets ernstigs en min of meer sombers in dat gezigt zijn, en Gij moest het zien met de morgen zon er op.–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Als ik het aanzie denk ik wel eens aan een brief van U waarin Gij spreekt van zoo’n huis met klimop begroeid, herinnert Gij u dien nog.–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Als Gij het betalen kunt, als ik het kan doe ik het ook, teeken dan in op de Katholieke Illustratie van dit jaar,<ptr target="#note-t-24"/> daar zijn de prenten uit London van Doré in – de werven aan den Theems, Westminster<c type="kk">/</c> Whitechapel<c type="kk">/</c> den Underground railway &amp;c<c type="kp">_</c> &amp;c.–<ptr target="#note-t-25"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Bij de menschen waar ik woon woont ook nog een schoolmeester.<ptr target="#note-t-26"/> Verl. Zondag en ook heden deden wij eene mooie wandeling langs de grachten en ook buiten de stad aan den kant van de Merwe<c type="kk">/</c><ptr target="#note-t-27"/> kwamen ook langs die plek waar Gij hebt gewacht op de boot.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Toen dezen avond de zon onderging en weer<c type="shy">-</c>kaatste in het water en in de ramen en een sterken gouden gloed wierp op alles<c type="kk">/</c> was het juist als een schilderij van Cuyp.<ptr target="#note-t-28"/> Dezen avond ben ik geweest bij D<hi rend="super">s</hi> Keller van Hoorn<ptr target="#note-t-29"/> die sprak over “Ik kom om Uw wil te doen o Heer”.<ptr target="#note-t-30"/> Hij heeft pas zijne dochter verloren<ptr target="#note-t-31"/> en aan al zijne woorden, hoorde hem nog een keer over “wie niet heeft liefgehad heeft God niet gekend want God is liefde”,<ptr target="#note-t-32"/> kan men merken wat hij voelt.–</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Schrijf weer spoedig eens als Gij tijd hebt, ik zal nog al wat moeten boekhouden voor<c type="shy">-</c>loopig en zal het wel druk houden. Groet allen bij Roos en ontvang een handdruk in gedachten van</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">Uw liefh. broer</p>
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Dordrecht, 21 January 1877</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">You’ll have expected a letter sooner; things are going rather well in the shop,<ptr target="#note-t-1"/> and it’s so busy that I go there at 8 o’clock in the morning and come back at 1 o’clock at night, but I’m happy about that.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I hope to go to Etten on 11 February. As you know, that’s when they’ll celebrate <rs type="person" ref="bio.xml#_526">Pa</rs>’s birthday,<ptr target="#note-t-2"/> would you be able to come as well? I hope to give Pa <rs type="person" ref="bio.xml#_590">Eliot</rs>’s ‘Novellen’ (a translation of Scenes from clerical life),<ptr target="#note-t-3"/> if we were to give something together we could give him Adam Bede<ptr target="#note-t-4"/> as well.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Wrote last Sunday to <rs type="person" ref="bio.xml#_682">Mr Jones</rs> and <rs type="person" ref="bio.xml#_201">his wife</rs> that I’m not coming back, and without my being able to help it, the letter grew quite long – out of the abundance of the heart<ptr target="#note-t-5"/> – did wish that they, for their part, would remember me, and asked them ‘to wrap my recollection in the cloak of Charity’.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">The two prints of Christus Consolator that I got from you are hanging in my little room<ptr target="#note-t-7"/> – saw the paintings in the museum,<ptr target="#note-t-8"/> and also ‘Christ in Gethsemane’ by <rs type="person" ref="bio.xml#_1339">Scheffer</rs>,<ptr target="#note-t-9"/> which is unforgettable, a long time ago that painting moved <rs type="person" ref="bio.xml#_526">Pa</rs> just as much – then there’s a sketch of The sorrows of the earth<ptr target="#note-t-10"/> and various drawings,<ptr target="#note-t-11"/> and also the portrait of his studio<ptr target="#note-t-12"/> and, as you know, the portrait of his Mother.<ptr target="#note-t-13"/> There are other beautiful paintings as well, such as the <rs type="person" ref="bio.xml#_320">Achenbach</rs><ptr target="#note-t-14"/> and <rs type="person" ref="bio.xml#_1338">Schelfhout</rs><ptr target="#note-t-15"/> and <rs type="person" ref="bio.xml#_1128">Koekkoek</rs><ptr target="#note-t-16"/> and, among others, a beautiful <rs type="person" ref="bio.xml#_763">Allebé</rs>, an old man by the stove.<ptr target="#note-t-17"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Will we look at them together some day?</p>
+<p rend="indent" xml:id="p.en.8" n="8">The first Sunday I was here I heard a sermon on ‘Behold, I make all things new’,<ptr target="#note-t-18"/> and in the evening ‘Now we see through a glass, darkly; but then face to face. When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things’.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">This morning I went to hear the <rs type="person" ref="bio.xml#_285">Rev. Beversen</rs> in a small old church,<ptr target="#note-t-20"/> it was the Lord’s Supper and his text was ‘If any man thirst, let him come unto Me, and drink’.<ptr target="#note-t-21"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">The window of my room looks out over gardens with pine trees and poplars etc. and the back of old houses, including a large one covered with ivy,<ptr target="#note-t-22"/> ‘a strange old plant is the ivy green’, said <rs type="person" ref="bio.xml#_580">Dickens</rs>.<ptr target="#note-t-23"/> There can be something so serious and rather sombre in that view, and you should see it with the morning sun on it.</p>
+<p rend="indent" xml:id="p.en.11" n="11">When I look at it I sometimes think of a letter of yours in which you speak of such an ivy-covered house, do you remember it? 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">If you can afford it – if I can, I’ll do it too – subscribe to this year’s Katholieke Illustratie<ptr target="#note-t-24"/>, which has <rs type="person" ref="bio.xml#_998">Doré</rs>’s prints of London – the wharves on the Thames, Westminster, Whitechapel, the Underground railway &amp;c. &amp;c.<ptr target="#note-t-25"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">One of the people in the house I live in is a <rs type="person" ref="bio.xml#_397">schoolmaster</rs>.<ptr target="#note-t-26"/> Last Sunday, and today as well, we took a lovely walk along the canals and outside town as well, along the river Merwede,<ptr target="#note-t-27"/> we also passed the place where you waited for the boat.</p>
+<p rend="indent" xml:id="p.en.14" n="14">This evening when the sun went down and was reflected in the water and the windows, throwing a strong golden glow on everything, it was just like a painting by <rs type="person" ref="bio.xml#_964">Cuyp</rs>.<ptr target="#note-t-28"/> This evening I went to hear the <rs type="person" ref="bio.xml#_474">Rev. Keller van Hoorn</rs>,<ptr target="#note-t-29"/> who spoke on ‘I come to do Thy will, O Lord’.<ptr target="#note-t-30"/> He just lost his daughter,<ptr target="#note-t-31"/> and in all his words – I also heard him speak on ‘He that hath not loved knoweth not God; for God is love’<ptr target="#note-t-32"/> – one can sense what he feels.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Write again soon when you have the time, I’ll have rather a lot of bookkeeping to do for the time being and will no doubt be busy. Give my regards to everyone at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’, and accept a handshake in thought from</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Your loving brother</p>
+<p xml:id="p.en.17" n="17">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Dordrecht 21 Januarij 1877’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh had left Etten for Dordrecht on Wednesday, 3 January (FR b2499) and had meanwhile started work at the firm of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_291">Blussé &amp; Van Braam</rs> at Voorstraat C 1602, located in Scheffersplein in Dordrecht. The firm sold books and magazines, as well as office supplies, maps and prints (including penny prints and reproductions by Goupil). One of Van Gogh’s duties was to supervise the shipment of goods sent on approval. He also had to keep the books and do odd jobs; in 1914 his position was described by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_307">Dirk Braat</rs>, a son of Van Gogh’s boss <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_306">P.K. Braat</rs>, as ‘bijlopie’ (errand boy). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Verzamelde brieven</hi> 1973, vol. 1, pp. 108-110 (quotation on p. 110).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> was to turn 55 on 8 February 1877, and Vincent had announced that he was coming home for the celebration (FR b2502).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The Dutch translation of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs>’s <ref target="biblio.xml#lit_65"><hi rend="italics">Scenes of clerical life</hi></ref> was called <ref target="biblio.xml#lit_65"><hi rend="italics">Novellen</hi></ref> (uit het Engelsch, nieuwe uitgaaf onder toezicht van P. Bruijn. Sneek, Van Drunten &amp; Bleeker, 1871 (George Eliot’s romantische werken 1).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs>, <ref target="biblio.xml#lit_20"><hi rend="italics">Adam Bede</hi></ref> (1859). For his birthday <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> received Eliot’s <ref target="biblio.xml#lit_66"><hi rend="italics">Silas Marner</hi></ref> in addition to <ref target="biblio.xml#lit_20"><hi rend="italics">Adam Bede</hi></ref> and <ref target="biblio.xml#lit_570"><hi rend="italics">Novellen</hi></ref> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let102.xml">see letters 102</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let142.xml">142</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+  Matt. 12:34 and Luke 6:45.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Possibly a saying. Cf. the Dutch saying ‘Iets met de mantel der liefde bedekken’ (Covering something with the cloak of love), meaning to keep silent about something or to explain it away out of mercy.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+  
+<p>For these two reproductions,  <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1771"><hi rend="italics">Christus Consolator</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1772"><hi rend="italics">Christus Remunerator</hi></rs>, after the paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs> in the Dordrechts Museum, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let085.xml">see letters 85</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let086.xml">86</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>At that time the museum was housed in the upper room of the Boterbeurs (Butter Exchange) in Wijnstraat. See cat. Dordrecht 1992.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Christ in the Garden of Gethsemane</hi>, 1839 (Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1783">Ill. 1783</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Moanings of the earth rise up to heaven and change into Hope and Bliss</hi>, 1847-1858 (Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1784">Ill. 1784</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>At that time the museum had five (undated) drawings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Scheffer</rs>: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_107"><hi rend="italics">Christus Consolator</hi></rs>; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_108"><hi rend="italics">The deathbed of Saint Monica</hi></rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_109"><hi rend="italics">The three Marys</hi></rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_110"><hi rend="italics">The entombment of Christ</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_111"><hi rend="italics">The deathbed of Saint Louis</hi></rs>. See exhib. cat. Dordrecht 1990, p. 68.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>This is one of the four depictions of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs>’s studio painted by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1142">Ary Johannes Lamme</rs>, which at that time were in the Dordrechts Museum: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_112"><hi rend="italics">The large studio of Ary Scheffer, rue Chaptal</hi></rs>, 1851 (two versions); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The small studio of Ary Scheffer, rue Chaptal</hi>, 1851 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1785">Ill. 1785</rs>) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_113"><hi rend="italics">The small studio in the Roquelaure Pavilion at Scheffer’s house in Argenteuil</hi></rs>, 1858. See exhib. cat. Dordrecht 1990, p. 53, cat. nos. 38-39; pp. 69-70, cat. nos. 25-28.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Van Gogh probably meant the plaster-cast version of the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bust of Cornelia Scheffer-Lamme, the mother of the artist</hi>, 1839. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1786">Ill. 1786</rs>. It is less likely to have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cornelia Scheffer-Lamme (1769-1839), the mother of the artist on her deathbed</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1787">Ill. 1787</rs>. See exhib. cat. Dordrecht 1990, p. 51, cat. nos. 33-34, p. 69, cat. nos. 15-16; cat. Dordrecht 1992, p. 132. The painted portraits of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Scheffer</rs>’s mother were not acquired by the museum until 1899.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_320">Andreas Achenbach</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of a beach in Holland with a storm approaching </hi>or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Hilly landscape with cloudy sky </hi>(Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1788">Ill. 1788</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1789">Ill. 1789</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1338">Andreas Schelfhout</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Winter landscape in Holland</hi> (Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1790">Ill. 1790</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1128">Barend Cornelis Koekkoek</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape in the Black Forest wtih lobster fishermen </hi>(Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1791">Ill. 1791</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_763">August Allebé</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lethe (The podagra patient)</hi>, 1863 (Dordrecht, Dordrechts Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1792">Ill. 1792</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>
+  Rev. 21:5.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>
+  1 Cor. 13:11-12; Van Gogh quoted first verse 12 and then verse 11.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>The minister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_285">Johannes Wilhelmus Beversen</rs> belonged to the Evangelical Lutheran congregation, which at that time was free-thinking (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">BWPGN</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">NNBW</hi>, and E.H. Cossee, ‘Vincent van Gogh en kerkelijk Dordrecht’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Kwartaal &amp; Teken van Dordrecht</hi> 6-1 (1980), p. 5 (n. 6)). The small church is the Lutheran Church at Vriesestraat 20, also known as the ‘Trinitaskapel’ (Trinity Chapel). </p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>
+  John 7:37.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>Van Gogh’s room in the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_633 bio.xml#_634">Rijken family</rs>’s house (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let102.xml#n-4">see letter 102, n. 4</ref>) was on the first floor at the back of the house, looking out over the gardens of the houses in Groenmarkt and Varkenmarkt.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>A reference to ‘A rare old plant is the Ivy green’ in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Dickens</rs>’s poem ‘<ref target="biblio.xml#lit_131">The ivy green</ref>’, in which the line occurs three times. See Charles Dickens, <ref target="biblio.xml#lit_108"><hi rend="italics">The posthumous papers of the Pickwick club</hi></ref>. London 1837, p. 55. Van Gogh quotes from the same poem in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let114.xml">letter 114</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Katholieke Illustratie</hi> (Catholic Illustration) appeared from 1867-1967 and was published from 1876 onwards by Uitgeversmaatschappij ‘De Katholieke Illustratie’ at ’s-Hertogenbosch. It was eight pages long and every issue contained a number of illustrations. One could buy an annual subscription through a bookseller or the publisher of the magazine, which was sent to subscribers weekly or collected monthly from a bookshop; the price was 7 cents per week or 30 cents per month. See Hemels and Vegt 1993, pp. 262-267; and L.A.C. Jentjes, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Van strijdorgaan tot familieblad. De tijdschriftjournalistiek van de Katholieke Illustratie 1867-1968</hi>. Diss. Amsterdam 1995.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>This refers to the 10th volume of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Katholieke Illustratie</hi> (1876-1877), which contained illustrations by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_998">Gustave Doré</rs> accompanying a series of articles called ‘Wandelingen door Londen’ (Walks through London) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1684">J.A. Beerten</rs>. The prints mentioned are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Langs den Theems </hi>(Along the Thames) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1793">Ill. 1793</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Een koffiehuis te Whitechapel </hi>(A coffee house at Whitechapel) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1796">Ill. 1796</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Een onderaardsche spoorweg te Londen </hi>(An underground railway in London) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1797">Ill. 1797</rs>); the last one accompanied the article ‘Londen en zijne onderaardsche spoorwegen’ (London and its underground railways) (10th volume, no. 20, p. 160; no. 22, p. 176; no. 21, p. 168 (two illustrations), and no. 18, p. 141, respectively). There is no illustration depicting Westminster. The series’ sequel also contained a number of illustrations by Doré, hence Van Gogh’s ‘&amp;c. &amp;c.’ The illustrations were taken from Gustave Doré and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_676">[William] Blanchard Jerrold</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_157">London – A pilgrimage</ref></hi>. London 1872, pp. 17, 185, 6, 141, 113, respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_397">Paulus Coenraad Görlitz</rs> was an assistant schoolmaster in Dordrecht. For Görlitz’s recollections of his contact with Van Gogh, see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Verzamelde brieven</hi> 1973, vol. 1, pp. 112-113 and vol. 4, pp. 327-334.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>The River Merwede on which Dordrecht lies.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_964">Aelbert Cuyp</rs> was famous for his views of Dordrecht.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_474">Petrus Marinus Keller van Hoorn</rs> belonged to the free-thinkers in the Reformed (‘Hervormde’) congregation. When he was living in Dordrecht, Van Gogh regularly attended services conducted by ministers professing the ethical or modern movement, to which group Keller van Hoorn belonged.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>Cf. Heb. 10:7-9.</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>On Saturday, 6 January 1877, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_474">Keller van Hoorn</rs>, his wife Maria Sophia Singels and their children placed an obituary in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dordrechtse Courant</hi>; ‘Our dear Willem died calmly this afternoon; he would have been eight years old on Sunday. Dordrecht, 5 January 1877’. Van Gogh was therefore mistaken about the child’s sex. He made a similar mistake in the letter of condolence he wrote to H.G. Tersteeg on 3 August, in which he recollects Keller van Hoorn’s sermon. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let124.xml">See letter 124</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>
+  1 John 4:8-10.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

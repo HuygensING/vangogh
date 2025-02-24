@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Sunday, 15 June 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let888"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b764 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>888</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T37</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>892</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1890-06-15">Sunday, 15 June 1890</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0764" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001032_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001032_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0764" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001032_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001032_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001032_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Paris le 15 Juillet 1890<ptr target="#note-t-1"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Mon cher Vincent,</p>
+
+<p xml:id="p.fr.3" n="3">Je suis bien content que les nouvelles que tu nous donnes restent bonnes &amp; que le courage pour le travail est loin de t’abandonner.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Tasset doit t’envoyer aujourd’hui les couleurs que tu demandes.<ptr target="#note-t-2"/> Tanguy me disait l’autre jour que les tubes de Tasset étaient bien plus courts &amp; contenaient donc moins de couleurs que les siens. Si cela était le cas dis le moi, car je pourrai faire usage de ceçi pour avoir une reduction 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>sur le prix. Il sera bien plus tranquille pour toi quand tes meubles seront arrivés aussi pour que tu puisses peut-être trouver un camarade à rester<ptr target="#note-t-a"/> avec toi. Il y a un Hollandais qui viendra te voir,<ptr target="#note-t-3"/> il était recommandé par de Bock<ptr target="#note-t-4"/> qui lui avait recommandé Fontainebleau,<ptr target="#note-t-5"/> mais il le trouve pas à son gout. Je ne sais pas s’il a du talent, il n’avait rien à montrer. Lauzet est venu hier matin voir tes tableaux<c type="kk">/</c> il est très occupé avec ses Monticelli qui vont paraître dans une dizaine de jours.<ptr target="#note-t-6"/> Il<ptr target="#note-t-7"/> aime beaucoup le portrait de femme que tu as fait à Arles.<ptr target="#note-t-8"/> Pour son projet de la Martinique<ptr target="#note-t-9"/> c’est peut être bien ce qu’il lui faut, mais si cela doit dépendre d’un payement à un inventeur<ptr target="#note-t-10"/> cela n’est pas encore 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>bien sûr. Sous ce pli tu trouveras une lettre de lui qu’il me prie de t’envoyer<c type="kp">_</c><ptr target="#note-t-11"/> Son séjour chez Schoefenecker<ptr target="#note-t-12"/> ne lui fait pas de bien, il n’y travaille presque pas tandis que la Bretagne l’inspire<c type="kp">_</c> Il est donc bon qu’il parte.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je te dis bonjour de Jo, il faut que je finisse à la hate sans quoi la lettre ne partira pas aujourd’hui. Elle est un peu indisposée mais j’espère que cela ne sera pas grave<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Bonne poignée de mains<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Paris 15 July 1890<ptr target="#note-t-1"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Vincent,</p>
+<p xml:id="p.en.3" n="3">I’m really pleased that the news you give us remains good, and that the courage for work is far from abandoning you.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_785">Tasset</rs> is to send you the colours you ask for today.<ptr target="#note-t-2"/> <rs type="person" ref="bio.xml#_772">Tanguy</rs> was telling me the other day that the tubes from Tasset were much shorter and therefore contained less paint than his. If that was the case tell me, for I can make use of that to have a reduction 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> in the price. It will be much calmer for you when your furniture has arrived too, so that you may perhaps be able to find a colleague to stay with you. There’s a <rs type="person" ref="bio.xml#_1095">Dutchman</rs> who’ll come and see you,<ptr target="#note-t-3"/> he was recommended by <rs type="person" ref="bio.xml#_868">De Bock</rs><ptr target="#note-t-4"/> who had recommended Fontainebleau<ptr target="#note-t-5"/> to him, but he doesn’t find it to his taste. I don’t know if he has any talent, he had nothing to show. <rs type="person" ref="bio.xml#_1149">Lauzet</rs> came yesterday morning to see your paintings, he’s very busy with his <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s, which are going to be published in ten days’ time.<ptr target="#note-t-6"/> He<ptr target="#note-t-7"/> very much likes the portrait of a <rs type="person" ref="bio.xml#_383">woman</rs> you did in Arles.<ptr target="#note-t-8"/> It’s perhaps just what he needs for his Martinique project,<ptr target="#note-t-9"/> but if it’s to depend on a payment to an inventor<ptr target="#note-t-10"/> it isn’t yet 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> really certain. Enclosed with this letter you’ll find a letter from him which he asked me to send you.<ptr target="#note-t-11"/> His stay with <rs type="person" ref="bio.xml#_1357">Schuffenecker</rs><ptr target="#note-t-12"/> isn’t doing him any good, he’s hardly working at all there, whereas Brittany inspires him. So it’s good that he’s leaving.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I give you <rs type="person" ref="bio.xml#_416">Jo</rs>’s regards, I must finish in haste, otherwise the letter won’t go off today. She’s a little indisposed, but I hope that it won’t be anything serious.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Good handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Paris le 15 Juillet 1890’. Theo must have been mistaken about the month, since he responds here to Vincent’s news about the furniture and the order for paint in <ref target="let887.xml">letter 887</ref> of 14 June. The letter could not have been written on 15 July, because the furniture had arrived by then (Van Gogh confirms receipt of the furniture in <ref target="let898.xml">letter 898</ref> of about 10 July), besides which, other topics were occupying them at that time.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo enclosed <ref target="let884.xml">letter 884</ref> from Gauguin.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Theo is mistaken; it must be 15 June 1890 (see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Date</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Gogh had placed this order for paint in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let887.xml">letter 887</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘séjourner’.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This Dutchman was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1095">Anton Hirschig</rs>; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let902.xml#l-54">letter 902, l. 54</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This refers to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_868">Théophile de Bock</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The painters of the Barbizon School, among others, had worked in the artists’ village of Fontainebleau.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1149">Lauzet</rs>’s publication <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_517">Adolphe Monticelli</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let825.xml#n-7">see letter 825, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Strictly speaking, Theo could be referring here to either <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1149">Lauzet</rs> or <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, to whom the rest of the paragraph refers. Vincent assumed that Theo was talking about Lauzet (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="RM23.xml#l-57">cf. RM23, ll. 57-59</ref>). We think it most likely that ‘Il’ refers to Gauguin.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>If ‘did in Arles’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-27">(l. 27)</ref> is to be taken literally, Theo is referring to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marie Ginoux (‘The Arlésienne’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2744">F 489 / JH 1625</rs>). However, during this period the correspondence constantly refers to the second series of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_383">Arlésienne</rs>s that Van Gogh painted in Saint-Rémy. Assuming that Theo meant <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> when he wrote ‘Il’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-7">see n. 7</ref>), this must refer to the portrait Gauguin received: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marie Ginoux (‘The Arlésienne’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2893">F 542 / JH 1894</rs>). Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let884.xml#n-2">letter 884, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Theo means Madagascar; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-11">see n. 11</ref> below.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>This ‘inventor’ was a certain <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1856">Charlopin</rs>. The ‘payment’ mentioned by Theo, on which <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s project supposedly depended, was the money that Charlopin was meant to receive for an invention he had sold. Gauguin wanted to sell him 38 paintings and 5 ceramic pieces for 5,000 francs, hoping in this way to fund his voyage to the tropics. This emerges from a lost letter from Gauguin to Theo of 30 or 31 May 1890 (quoted in part in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gauguin lettres</hi> 1983, p. 183, n. 3). Gauguin’s plan came to nothing.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>This was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let884.xml">letter 884</ref>, in which he wrote about his impending departure for Brittany and his plans to go to Madagascar.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>When he returned to Paris at the beginning of February 1890, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> moved in with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1357">Emile Schuffenecker</rs>, 12 rue Durand-Claye. See exhib. cat. Washington 1988, p. 48.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

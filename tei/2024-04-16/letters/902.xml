@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let902"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b699 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>902</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>651</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>908</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1890-07-23">Wednesday, 23 July 1890</date>
+                            <placeName>Auvers-sur-Oise</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000948_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000948_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000948_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000948_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000948_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000949_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-4">
+<graphic url="https://example.com/iiif/VGM001000949_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000949_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-5">
+<graphic url="https://example.com/iiif/VGM001000949_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000950_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-6">
+<graphic url="https://example.com/iiif/VGM001000950_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0699 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000950_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-7">
+<graphic url="https://example.com/iiif/VGM001000950_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher frère,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ta lettre d’aujourd’hui et du billet de 50 fr. qu’elle contenait<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je voudrais peutêtre t’écrire sur bien des chôses mais d’abord l’envie m’en a tellement passée<c type="kk">/</c> puis j’en sens l’inutilité<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’espère que tu auras retrouvé ces messieurs<ptr target="#note-t-3"/> dans de bonnes dispositions à ton égard<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Pour ce qui est de l’état de paix dans ton ménage<c type="kk">/</c> je suis autant convaincu de la possibilité de la conserver que des orages qui la menacent<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je préfère ne pas oublier le peu de francais que je sais et certes ne saurais voir l’utilité d’approfondir le tort ou la raison dans des discussions éventuelles de part ou autre<c type="kp">_</c><ptr target="#note-t-4"/> Seulement cela m’intéresserait pas<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Ici les chôses vont vite – Dries<c type="kk">/</c> toi et moi n’en sommes nous pas un peu plus convaincus<c type="kk">/</c> le sentons nous pas un peu davantage que ces dames<c type="kp">_</c><ptr target="#note-t-5"/> Tant mieux pour elles – mais enfin causer à tête reposée<c type="kk">/</c> nous n’y comptons même pas<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">En ce qui me regarde je m’applique sur mes toiles avec toute mon attention<c type="kk">/</c> je cherche à faire aussi bien que de certains peintres que j’ai beaucoup aimé et admiré<c type="kp">_</c>–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Ce qu’il me semble en revenant – c’est que les peintres eux mêmes sont de plus en plus aux abois<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Bon – –. mais le moment de chercher à leur faire comprendre l’utilité d’une union n’est il pas un peu passé déjà<c type="kp">_</c> D’autre part une union<c type="kk">/</c> se formerait elle<c type="kk">/</c> sombrerait si le reste doive sombrer<c type="kp">_</c> Alors tu me dirais peutêtre que des marchands s’uniraient pour les impressionistes; ce serait bien passager. Enfin il me semble que l’initiative personnelle demeure inefficace<c type="kk">/</c> et experience faite<c type="kk">/</c> la recommencerait-on?</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’ai constaté avec plaisir que le Gauguin de Bretagne que j’ai vu etait très beau<ptr target="#note-t-6"/> et il me semble que les autres qu’il a fait là-bas doivent l’être aussi.–</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Peut-être verras tu ce croquis du jardin de Daubigny – c’est une de mes toiles les plus voulues<ptr target="#note-t-7"/> – j’y joins un croquis de vieux chaumes<ptr target="#note-t-8"/> et les croquis de 2 toiles de 30 représentant d’immenses étendues de blé après la pluie.<ptr target="#note-t-9"/> <hi rend="italics">Hirschig</hi> a demandé de te prier de vouloir bien lui commander la liste de couleurs ci jointe<ptr target="#note-t-10"/> chez le même 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>marchand des couleurs que tu m’envoies. Tasset peut les lui envoyer directement à lui contre remboursement mais alors il faudrait lui accorder les 20%.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Ce qui sera le plus simple<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Ou bien tu les joindrais à l’envoi de couleurs pour moi en ajoutant la facture ou en me disant combien en est le montant et alors il t’enverrait l’argent à toi. Ici on ne peut pas en trouver de bonnes de couleurs.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">J’ai simplifié ma commande à moi jusqu’à un minimum bien raide<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Hirsching commence à comprendre un peu il m’a semblé<c type="kk">/</c> il a fait le portrait du vieux maitre d’école qu’il lui a donné, bien – et puis il a des etudes de paysage<ptr target="#note-t-11"/> qui sont comme les Konink qui sont chez toi<ptr target="#note-t-12"/> à peu près comme couleur. Cela deviendra peutêtre tout à fait comme cela ou comme les choses de Voerman que nous avons vues ensemble.<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">à bientot<c type="kp">_</c> Porte toi bien et bonne chance dans les affaires &amp;c. bien le bonjour à Jo et poignées de main en pensée.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.18" n="18">b. à v.</p>
+
+<p xml:id="p.fr.19" n="19">Vincent.</p>
+<pb f="2r" n="4" xml:id="pb-orig-2r-4" facs="#zone-pb-2r-4"/>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20"><hi rend="italics">le jardin de Daubigny</hi></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">avant plan d’herbe verte &amp; rose<c type="kk">/</c> à gauche un buisson vert &amp; lilas et une souche de plantes à feuillage blanchâtre<c type="kp">_</c> Au milieu un parterre de roses. à droite une claie<c type="kk">/</c> un mur et au-dessus du mur un noisetier à feuillage violet.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Puis une haie de lilas<c type="kk">/</c> une rangée de tilleuls arondis jaunes. la maison elle-même dans le fond<c type="kk">/</c> rose à toit de tuiles bleuatres. Un banc et 3 chaises<c type="kk">/</c> une figure noire à chapeau jaune et sur l’avant plan un chat noir<c type="kp">_</c> Ciel vert pâle.</p>
+<pb f="2v" n="5" xml:id="pb-orig-2v-5" facs="#zone-pb-2v-5"/><figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="6" xml:id="pb-orig-3r-6" facs="#zone-pb-3r-6"/><figure facs="zone-sketch-3" n="C"/>
+<space unit="lines" quantity="1"/>
+<pb f="3v" n="7" xml:id="pb-orig-3v-7" facs="#zone-pb-3v-7"/><figure facs="zone-sketch-4" n="D"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear brother,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter of today and for the 50-franc note it contained.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I’d perhaps like to write to you about many things, but first the desire has passed to such a degree, then I sense the pointlessness of it.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I hope that you’ll have found those gentlemen<ptr target="#note-t-3"/> favourably disposed towards you.</p>
+<p rend="indent" xml:id="p.en.5" n="5">As regards the state of peace in your household, I’m just as convinced of the possibility of preserving it as of the storms that threaten it.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I prefer not to forget the little French I know, and certainly wouldn’t see the point of delving deeper into the rights or wrongs in any discussions on one side or the other.<ptr target="#note-t-4"/> It’s just that this wouldn’t interest me.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Things go quickly here – aren’t Dries, you and I a little more convinced of that, don’t we feel it a little more than those <rs type="person" ref="bio.xml#_283 bio.xml#_416">ladies</rs>?<ptr target="#note-t-5"/> So much the better for them – but anyway, talking with rested minds, we can’t even count on that.</p>
+<p rend="indent" xml:id="p.en.8" n="8">As for myself, I’m applying myself to my canvases with all my attention, I’m trying to do as well as certain painters whom I’ve liked and admired a great deal.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">What seems to me on my return – is that the painters themselves are increasingly at bay.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Very well. But has the moment to make them understand the utility of a union not rather passed already? On the other hand a union, if it were formed, would go under if the rest went under. Then you’d perhaps tell me that dealers would unite for the Impressionists; that would be very fleeting. Anyway it seems to me that personal initiative remains ineffective, and having done the experiment, would one begin it again?</p>
+<p rend="indent" xml:id="p.en.11" n="11">I noted with pleasure that the <rs type="person" ref="bio.xml#_1039">Gauguin</rs> from Brittany that I saw was very beautiful,<ptr target="#note-t-6"/> and it seems to me that the others he’s done there must be too.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Perhaps you’ll see this croquis of <rs type="person" ref="bio.xml#_976">Daubigny</rs>’s garden – it’s one of my most deliberate canvases<ptr target="#note-t-7"/> – to it I’m adding a croquis of old thatched roofs<ptr target="#note-t-8"/> and the croquis of 2 no. 30 canvases depicting immense stretches of wheat after the rain.<ptr target="#note-t-9"/> <hi rend="italics"><rs type="person" ref="bio.xml#_1095">Hirschig</rs></hi> asked me to ask you please to order the attached list of colours for him<ptr target="#note-t-10"/> from the same 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> colourman you send me. <rs type="person" ref="bio.xml#_785">Tasset</rs> can send them directly to him, cash on delivery, but then he would have to be given the 20%.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Which would be simplest.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Or you’d put them into the consignment of colours for me, adding the invoice or telling me how much they cost, and then he’d send you the money. Here one can’t find anything good in the way of colours.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I’ve simplified my own order to a very bare minimum.</p>
+<p rend="indent" xml:id="p.en.16" n="16"><rs type="person" ref="bio.xml#_1095">Hirschig</rs> is beginning to understand a little, it has seemed to me, he’s done the portrait of the old schoolmaster, which he gave him, good – and then he has landscape studies<ptr target="#note-t-11"/> which are a little like the <rs type="person" ref="bio.xml#_1145">Koning</rs>s at your place<ptr target="#note-t-12"/> as regards colour. It will become completely like that, perhaps, or like the things by <rs type="person" ref="bio.xml#_1411">Voerman</rs> that we saw together.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">More soon. Look after yourself, and good luck in business &amp;c. Warm regards to <rs type="person" ref="bio.xml#_416">Jo</rs>, and handshakes in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Yours truly,</p>
+<p xml:id="p.en.19" n="19">Vincent.</p><pb f="2r" n="4" xml:id="pb-trans-2r-4" facs="#zone-pb-2r-4"/>
+<p xml:id="p.en.20" n="20"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21"><hi rend="italics"><rs type="person" ref="bio.xml#_976">Daubigny</rs>’s garden</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Foreground of green and pink grass, on the left a green and lilac bush and a stem of plants with whitish foliage. In the middle a bed of roses. To the right a hurdle, a wall, and above the wall a hazel tree with violet foliage.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Then a hedge of lilac, a row of rounded yellow lime trees. The house itself in the background, pink with a roof of bluish tiles. A bench and 3 chairs, a dark figure with a yellow hat, and in the foreground a black cat. Sky pale green.
+<pb f="2v" n="5" xml:id="pb-trans-2v-5" facs="#zone-pb-2v-5"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">
+<pb f="3r" n="6" xml:id="pb-trans-3r-6" facs="#zone-pb-3r-6"/></p>
+<p xml:id="p.en.26" n="26"><figure facs="zone-sketch-3" n="C"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">
+<pb f="3v" n="7" xml:id="pb-trans-3v-7" facs="#zone-pb-3v-7"/></p>
+<p xml:id="p.en.28" n="28"><figure facs="zone-sketch-4" n="D"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Considering that Vincent thanks Theo for his letter of ‘today’ (<ref target="#l-1*">l. 1*</ref>), which was <ref target="let901.xml">letter 901</ref> of 22 July, and because Jo van Gogh-Bonger dated the present letter in <hi rend="italics">Brieven </hi>1914 to 23 July 1890 – she might have had a postmark to rely on – we have also maintained the dating to Wednesday, 23 July 1890. Theo referred to the present letter in a letter he wrote to Jo on 25 July (see <hi rend="italics">Brief happiness</hi> 1999, p. 261).</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                    	            
+                                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">An earlier, unfinished version of this letter was <ref target="RM25.xml">RM25</ref>. Van Gogh enclosed two orders for paint, one for himself and another for Hirschig.</p>
+                    	                
+                    	            
+                                    	    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sheets 2 and 3 were originally joined.</p>
+                    	                
+                    	        
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo and Jo’s visit to the Netherlands <ref target="let898.xml">(898)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let901.xml">letter 901</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>On 25 July 1890, Theo wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> about this letter: ‘There was a letter from Vincent which again I find incomprehensible. We’ve not fallen out, either with him or with each other. He wasn’t even aware that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_282">Dries</rs> had refused to enter into a joint venture. His letter included a couple of sketches of paintings he’s working on, which look very nice. If only he could find someone to buy a couple from him, but I’m afraid this could still take a very long time. But one cannot drop him when he’s working so hard and so well. When will a happy time come for him? He’s so thoroughly good and helped me so much to keep going.’ Jo answered on 26 July: ‘What might be the matter with Vincent? Did we go too far the day he came? My dearest, I have firmly resolved never to squabble with you again – and always do what you wish’ (FR b2063 and b4241; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness</hi> 1999, pp. 261-264).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo’s employers at Boussod, Valadon &amp; Cie.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>During his visit to Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let898.xml">see letter 898</ref>), Vincent had apparently insisted on speaking French instead of Dutch, and this idea must have met with resistance from Jo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_282">Andries</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This refers to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_283">Annie</rs> (Andries’s wife).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It cannot be ascertained which ‘<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> from Brittany’ Vincent is referring to here. Theo had various works of his on consignment which Vincent could have seen during his visit to Paris. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let799.xml">See letters 799</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let813.xml">813</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+      
+<p>Vincent means that Theo will one day see the painting after which the letter sketch <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_235">F - / JH 2106</rs> was made. Van Gogh painted two large canvases of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Daubigny</rs>’s garden: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Daubigny’s garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2939">F 776 / JH 2104</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Daubigny’s garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2940">F 777 / JH 2105</rs>). In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let898.xml">letter 898</ref> he mentioned the first version of the painting, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2940">F 777 / JH 2105</rs>. The letter sketch in the present letter was made after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Daubigny’s garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2939">F 776 / JH 2104</rs>), as is clear from the dots used to indicate the path in the lower left corner and the diagonal lines on the roof of the church at top right. The sketch is more elongated than the painting, which accounts for some differences in the composition. The black cat was painted out later.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Thatched cottages and figures</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_233">F - / JH 2116</rs>) was made after the painting of the same name (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2941">F 780 / JH 2115</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_234">F - / JH 2100</rs>) was made after the painting of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2937">F 782 / JH 2099</rs>. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_236">F - / JH 2103</rs>) was made after the painting of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2938">F 781 / JH 2102</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>The paint orders for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1095">Hirschig</rs> and Vincent <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-67">(l. 67)</ref> have not been preserved.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>These works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1095">Hirschig</rs> are not known.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For the paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Arnold Koning</rs> in Theo’s collection, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let666.xml#n-9">see letter 666, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>In mid-May, meaning the time when Vincent was in Paris, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">H.G. Tersteeg</rs> had sent Theo on consignment a watercolour by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1411">Jan Voerman Sr</rs>. It is not known which watercolour, however. See Anna Wagner, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jan Voerman. IJsselschilder</hi>. Zwolle 1991, p. 54.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

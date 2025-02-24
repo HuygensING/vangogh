@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Arnold Koning to Vincent van Gogh. Winschoten, Monday, 31 December 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let727"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1082 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>727</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>732</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Arnold Koning</rs>
+                            <date when="1888-12-31">Monday, 31 December 1888</date>
+                            <placeName>Winschoten</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1082" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001252_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001252_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1082 V/1962" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001252_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001252_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Winschoten<ptr target="#note-t-1"/> 31 Decembre 1888</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Amice!</p>
+
+<p xml:id="p.nl.3" n="3">In langen tijd heb je niets van mij vernomen. Ik wensch je nu maar bij dezen een gelukkig nieuwjaar en zal spoedig je brief beant<c type="shy">-</c>woorden die ik dezen zomer ontving<c type="kp">_</c><ptr target="#note-t-2"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.4" n="4">Adieu<c type="kk">/</c> à bientot</p>
+
+<p xml:id="p.nl.5" n="5">A.H. Koning</p>
+    <space unit="lines" quantity="1"/><pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Winschoten<ptr target="#note-t-1"/> 31 December 1888</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear friend!</p>
+<p xml:id="p.en.3" n="3">You have heard nothing from me for a long time. Now I wish you herewith a happy New Year, and will shortly reply to your letter that I received this summer.<ptr target="#note-t-2"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.4" n="4">Adieu, more soon</p>
+<p xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_1145">A.H. Koning</rs></p><pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Winschoten 31 Decembre 1888’.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5-cent postcard. Postmarked on the front: ‘WINSCHOTEN 31 / DEC / 88 <hi rend="italics">[xx]</hi> – 12 N’ and ‘ARRAS A PARIS 2 / JANV / 89’; on the side with the text ‘ARLES BOUCHES DU RHONE 2e | 3 / JANV / 89’. The address reads: ‘Monsieur Vincent van Goch/ n° 2 Place Lamartine/ <hi rend="italics">Arles</hi>./ France./ Bouches du Rhône’.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Winschoten is in the province of Groningen, in the northeastern Netherlands.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This letter to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs> is not known; Vincent reported in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let657.xml">letter 657</ref> of 8 August 1888 that he had written to him the previous week. On 15 September 1888 Koning informed Theo: ‘I received a very nice letter from Vincent, by now some time ago. I haven’t answered it yet, it’s disgraceful, but I’ll write to him one of these days’ (FR b1080).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

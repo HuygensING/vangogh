@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Sunday, 16 September 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let681"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b580 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>681</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>537</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>685</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-09-16">Sunday, 16 September 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0580" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000782_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000782_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000782_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0580" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000782_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000782_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000782_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">il est probable que demain matin j’aurai de tes nouvelles mais ce soir j’ai le temps de t’écrire et la semaine a été assez mouvementée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je compte aller habiter la maison demain<c type="kk">/</c> seulement ayant encore acheté des choses et en ayant encore à ajouter – et je ne parle que du strict nécessaire – il faudra que tu m’envoies encore une fois 100 francs au lieu de 50.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Si je compte pour moi pour la semaine passée 50 francs et si je les deduis conséquemment des 300 francs envoyés il ne me reste<c type="kk">/</c> même avec un autre surplus de 50 francs<c type="kk">/</c> que le prix tout juste des deux lits<c type="kp">_</c> Et tu vois ainsi que si tout de même j’ai déjà acheté bien d’autres chôses déjà que les lits seuls avec la literie<c type="kk">/</c> que j’y ai encore mis en bien grande partie les 50 francs de la semaine et en partie j’ai gagné sur l’un ou l’autre lit en faisant l’un des deux un peu plus simple. Je suis persuadé que nous faisons enfin bien en meublant l’atelier.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Et pour le travail je me sens déjà plus libre et moins travaillé par le chagrin innécessaire qu’auparavant.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Seulement si je soignerai davantage<c type="kk">/</c> j’espère<c type="kk">/</c> le style et la qualité de mon travail<c type="kk">/</c> il ira un peu plus lentement ou plutôt je serai obligé de garder les tableaux chez moi plus longtemps. Pour qu’il y ait des chôses qui se tiennent et se complètent. Aussi parcequ’il y aura des tableaux que je ne veux pas du tout t’envoyer avant qu’ils soient secs comme un os<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">De cette dernière catégorie est une toile de 30 carrée qui représente un coin de jardin avec un arbre pleureur<c type="kk">/</c> de l’herbe<c type="kk">/</c> des buissons taillés en boule de cèdre<c type="kk">/</c> un buisson de laurier rose.<ptr target="#note-t-1"/> Conséquemment le même coin de jardin dont tu as déjà une étude dans le dernier envoi<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Mais étant plus grand il y a sur le tout un ciel citronné et ensuite les couleurs ont des richesses et des intensités d’automne<c type="kp">_</c> Ensuite c’est bien davantage en pleine pâte simple et grasse.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Cela c’est le premier tableau de cette semaine<c type="kp">_</c> Le deuxieme représente l’extérieur d’un 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>café illuminé sur la terrasse par une grande lanterne de gaz dans la nuit bleue avec un coin de ciel bleu étoilé<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Le troisieme tableau de cette semaine est un portrait de moi même <hi rend="italics">presque</hi> <hi rend="italics">décoloré</hi><c type="kk">/</c> des tons cendrés sur un fond véronèse pâle<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’ai acheté expres un miroir assez bon pour pouvoir travailler d’après moi-même à défaut de modèle car si j’arrive à pouvoir peindre la coloration de ma propre tête<c type="kk">/</c> ce qui n’est pas sans présenter quelque difficulté<c type="kk">/</c> je pourrai bien aussi peindre les têtes des autres bonshommes et bonnes femmes<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">La question de peindre les scenes ou effets de nuit sur place et la nuit même<c type="kk">/</c> m’intéresse énormément<c type="kp">_</c><ptr target="#note-t-5"/> Cette semaine je n’ai absolument rien fait que peindre et dormir et prendre mes repas. Cela veut dire des séances de douze heures<c type="kk">/</c> de 6 heures et selon<c type="kk">/</c><ptr target="#note-t-a"/> et puis des sommeils de 12 heures d’un seul trait aussi<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’ai lu dans le supplement litteraire du figaro de <hi rend="italics">Samedi</hi> (15 Sept<c type="kp">_</c>) la description d’une maison impressioniste<c type="kp">_</c> Cette maison etait construite<c type="kk">/</c> <hi rend="italics">comme seraient</hi><ptr target="#note-t-b"/><hi rend="italics"> des</hi> <hi rend="italics">fonds de bouteilles</hi><c type="kk">/</c> en briques de verres bombés – de verre <hi>violet</hi><hi rend="italics"><c type="kp">_</c></hi> Le soleil là-dedans se refletant<c type="kk">/</c> les reflets jaunes se brisant<c type="kk">/</c> il en resultait un effet inoui<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Pour soutenir ces murs en briques de verre en forme d’oeufs violets on avait inventé un support en fer noir et doré représentant des sarments de vigne étranges et autres plantes grimpantes. Cette maison violette se trouvait au beau milieu d’un jardin dont tous les sentiers etaient faits d’un sable très <hi rend="italics">jaune</hi><c type="kp">_</c> Les parterres de fleurs ornamentales étaient naturellement des plus extraordinaires comme coloration. Cette maison doit exister si j’ai bonne mémoire à Auteuil.<ptr target="#note-t-6"/> Sans changer rien à la maison ni maintenant ni plus tard<c type="kk">/</c> je voudrais tout de même par la décoration en faire une maison d’artiste. Cela viendra. Je te serre bien la main. j’ai fait une promenade magnifique à moi seul dans les vignes aujourd’hui.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.15" n="15">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.16" n="16">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">It’s probable that I’ll have news from you tomorrow morning, but this evening I have time to write to you, and the week has been rather eventful.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I plan to go to live in the house tomorrow, but having already bought things, and having more to add — and I’m talking only of what’s strictly necessary — you’ll have to send me 100 francs again, instead of 50.</p>
+<p rend="indent" xml:id="p.en.4" n="4">If I count 50 francs for myself for last week, and if I therefore deduct them from the 300 francs sent, I only have left, even with another 50 francs extra, the bare price of the two beds. And so you see that, even if I’ve already bought many other things in addition to the beds themselves, with bed linen, that I’ve spent most of the 50 francs for the week on it, and in part I’ve saved on one bed or the other by making one of them a little plainer. I’m convinced that in the end we’re doing well by furnishing the studio.</p>
+<p rend="indent" xml:id="p.en.5" n="5">And as for work, I already feel freer and less harrowed by unnecessary worries than before. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Only if I take greater care, I hope, over the style and quality of my work, it will go a little more slowly, or rather, I’ll be obliged to keep the paintings with me longer. So that there’ll be things that hold together and complement each other. And also because there’ll be paintings that I really don’t want to send you before they’re as dry as a bone.</p>
+<p rend="indent" xml:id="p.en.7" n="7">In this last category is a no. 30 square canvas of a corner of a garden with a weeping tree, grass, round-trimmed cedar bushes, an oleander bush.<ptr target="#note-t-1"/> Therefore the same corner of a garden of which you already have a study in the last consignment.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">But as it’s larger, there’s a lemon-coloured sky above it all, and then the colours have the richness and intensities of autumn. Then it’s done in much heavier impasto, plain and thick.</p>
+<p rend="indent" xml:id="p.en.9" n="9">That’s the first painting this week. The second shows the outside of a 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> café, lit on the terrace outside by a large gas-lamp in the blue night, with a patch of starry blue sky.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">The third painting this week is a portrait of myself, <hi rend="italics">almost colourless</hi>, in ashy tones against a pale Veronese background.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I purposely bought a good enough mirror to work from myself, for want of a model, because if I can manage to paint the coloration of my own head, which is not without presenting some difficulty, I’ll surely be able to paint the heads of the other fellows and women as well.</p>
+<p rend="indent" xml:id="p.en.12" n="12">The question of painting night scenes or effects, on the spot and actually at night, interests me enormously.<ptr target="#note-t-5"/> This week I’ve done absolutely nothing but paint and sleep and take my meals. That means sessions of twelve hours, 6 hours, depending, and then 12-hour periods of sleep, also at a single stretch. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I read in the literary supplement of <hi rend="italics">Saturday’s </hi>Figaro (15 Sept.) the description of an Impressionist house. This house was built, <hi rend="italics">as would be the bottoms of bottles</hi>, of bricks of rounded glass — <hi>purple</hi> glass. With the sun glancing off it, the yellow glints flashing from it, it produced an extraordinary effect.</p>
+<p rend="indent" xml:id="p.en.14" n="14">To support these walls of glass bricks in the shape of purple eggs, they had devised a support in black and gilded iron, representing strange shoots of vines and other climbing plants. This purple house was right in the middle of a garden, all of whose paths were made of a very <hi rend="italics">yellow </hi>sand. The beds of ornamental flowers were naturally most extraordinary in their coloration. This house, if I remember well, must be in Auteuil.<ptr target="#note-t-6"/> Without changing anything at the house, either now or later, I’d nevertheless like to make it, through the decoration, an artist’s house. That will come. I shake your hand firmly. I took a magnificent walk by myself in the vineyards today.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Ever yours,</p>
+<p xml:id="p.en.16" n="16">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh discusses an article that had appeared in <hi rend="italics">Le Figaro</hi> on Saturday, 15 September (<ref target="#n-6">see n. 6</ref>). Since he also says that he will be moving into the Yellow House the next day and it is likely that he paid his hotel by the week and would therefore leave on a Monday, we have dated the letter Sunday, 16 September 1888. Monday, 17 September 1888, the date Jo van Gogh-Bonger gave in <hi rend="italics">Brieven</hi> 1914, may have been the date of the postmark (the letter was written in the evening <ref target="#l-2">(l. 2)</ref>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Decoration of the Yellow House <ref target="let665.xml">(665)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The public garden (‘The poet’s garden’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2713">F 468 / JH 1578</rs>). The painting measures 73 x 91 cm.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Newly mown lawn with a weeping tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2662">F 428 / JH 1499</rs>). This smaller study (60.5 x 73.5 cm) was in the second consignment of paintings from Arles; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let660.xml#n-1">see letter 660, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Café terrace at night</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2714">F 467 / JH 1580</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2715">F 476/ JH 1581</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>For painting at night, which Vincent had also written to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> about, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let678.xml#n-13">see letter 678, n. 13.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>This probably means something along the lines of ‘depending’.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘comme seraient bombés’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh got his information from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1805">Maurice de Fleury</rs>’s article ‘La maison d’un moderniste, L’Architecture de demain’, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Figaro, Supplément Littéraire</hi> 14 (15 September 1888), no. 37, pp. 2-3. The term ‘Impressionist house’ does not occur in the article. Fleury wrote: ‘Just like <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">the house of an artist </hi>(the delightful home of this prince: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617">Edmond de Goncourt</rs>), it is in Auteuil that you could find <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">the house of a modernist</hi>.’ (Tout comme <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">la maison d’un artiste </hi>(le délectant logis de ce prince: Edmond de Goncourt), c’est à Auteuil que vous pourriez trouver <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">la maison d’un moderniste</hi>.) He described the house built for ‘the Duke of X’ (le duc de X...) as a work of art because of ‘the use of materials hitherto rarely used, the colourist’s taste which dominated the overall design, certain ingenious details’ (l’emploi de matériaux jusqu’à présent peu usités, le goût de coloriste qui a présidé à la conception d’ensemble, certains détails ingénieux). Fleury referred to Edmond de Goncourt because he also lived in Auteuil and had described his own house and the works of art in it down to the smallest detail in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_507">La maison d’un artiste</ref></hi> (1881). Van Gogh’s use of the term ‘artist’s house’ in this and subsequent letters may indicate that he was familiar with Goncourt’s book (see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let674.xml#n-7">letter 674, n. 7</ref>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, mid-June 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let450"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b405 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>450</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>371</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>453</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-06">mid-June 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0405 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000533_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000533_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000533_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0405 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000533_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000533_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000533_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0405 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000534_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000534_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000534_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0405 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000534_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000534_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000534_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">In mijn vorigen brief geloof ik reeds U geschreven te hebben dat behalve die spinster<ptr target="#note-t-1"/> ik ook nog een groot mannenfiguur wou beginnen<c type="kp">_</c>– Hierbij stuur ik U nu een krabbeltje er van<c type="kp">_</c>– Misschien herinnert ge u twee studies die ik reeds op ’t atelier had toen ge hier waart van hetzelfde hoekje<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik las met veel pleizier les maîtres d’autrefois van Fromentin<c type="kp">_</c><ptr target="#note-t-3"/> En in dat boek vond ik weer op verschillende plaatsen dezelfde kwesties behandeld die in den laatsten tijd me zeer hebben gepreoccupeerd en waaraan ik eigentlijk voortdurend denk<c type="kk">/</c> juist sedert ik<c type="kk">/</c> in den laatsten tijd dat ik in den Haag was<c type="kk">/</c> indirect dingen hoorde die Israels gezegd had over in een lage toonladder beginnen en betrekkelijk nog donkere kleuren reeds licht te laten doen. Enfin het licht uitdrukken door oppositie met donker. Ik weet al wat ge zegt van “te zwart” maar tevens is mij nog niet volkomen overtuigd dat<c type="kk">/</c> om nu maar één ding te noemen<c type="kk">/</c> een grijze lucht altijd MOET geschilderd worden in den localen toon. Wat Mauve doet<c type="kk">/</c> doch Ruysdael doet het niet<c type="kk">/</c> Dupré doet het niet. Corot en Daubigny???</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Nu<c type="kk">/</c> zoo als ’t met ’t landschap is<c type="kk">/</c> is ’t met ’t figuur ook – ik bedoel<c type="kk">/</c> een witten muur schildert Israels heel anders dan Regnault of Fortuny<c type="kp">_</c><ptr target="#note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>En gevolgelijk doet het figuur er heel anders tegen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Voor mij is het als ik U over veel nieuwe namen hoor spreken<c type="kk">/</c> niet altijd verstaanbaar als ik absoluut <hi rend="italics">niets</hi> van hen gezien heb. En ik heb van ’t geen door U gezegd werd over “impressionisme” wel begrepen dat het iets anders was dan ik dacht het was<c type="kk">/</c> doch wat men er door verstaan moet is me toch nog niet geheel helder.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Doch voor mij vind ik in Israels b.v. zoo enorm veel<c type="kk">/</c> dat ik weinig nieuwsgierig of verlangend ben naar iets anders of nieuwers<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Fromentin zegt van Ruysdael dat tegenwoordig men in de techniek <hi rend="italics">veel verder</hi> is dan hij.<ptr target="#note-t-6"/> Men is ook verder dan <hi rend="italics">Cabat</hi> – die soms veel van R. heeft door zijn deftigen eenvoud<c type="kk">/</c> b.v. in ’t sch<hi rend="super">ij</hi> van de Luxembourg<c type="kp">_</c><ptr target="#note-t-7"/> Doch is daarom wat R.<c type="kk">/</c> wat Cabat zeiden onwaar of overbodig geworden<c type="kp">_</c> Neen<c type="kp">_</c>– Zoo met Israels ook – met de Groux ook (de Groux was zeer eenvoudig)<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Als echter ’t geen men zegt men duidelijk zegt<c type="kk">/</c> is dit in strikten zin genomen niet genoeg<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">En met meer charme ’t te zeggen moge het aangenamer maken om te hooren (wat ik niet versmaad echter) doch <hi rend="italics">heel veel</hi> mooier maakt het ’t geen waar is niet<c type="kk">/</c> daar de waarheid uit haar eigen schoon is<c type="kp">_</c>–<ptr target="#note-t-8"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+      <space unit="lines" quantity="1"/>
+<p xml:id="p.nl.10" n="10"><supplied><hi rend="italics">Paint sample 1, framed</hi></supplied></p>
+
+<p xml:id="p.nl.11" n="11">dit is de <hi rend="italics">allerhoogste</hi> noot<ptr target="#note-t-9"/> in de studie van het oude man<c type="shy">-</c>netje<c type="kk">/</c> wat uitdrukt het sneeuwachtig wit van zijn streng garen <hi rend="italics">in het licht</hi><c type="kp">_</c> dat zelfde <hi rend="italics">wit</hi> in de schaduw is nog veel donkerder<c type="kp">_</c><ptr target="#note-t-10"/></p>
+      
+<p xml:id="p.nl.12" n="12"><supplied><hi rend="italics">Paint sample 2, preceded by an arrow</hi></supplied></p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.nl.13" n="13">De afmeting van ommestaand motief is zoo wat 105 x 95 c.m. en die van het spinstertje 100 x 75. Zij zijn geschilderd in een toon van bistre en bitume die naar ’t <hi rend="italics">mij</hi> voorkomt zich er toe leent om het WARME<ptr target="#note-t-11"/> clair obscur van een bedompt<c type="kk">/</c> stoffig binnenhuis uit te drukken. Artz zou het zeker te vuil vinden<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Het heeft mij AL LANG gehinderd Theo<c type="kk">/</c> dat sommigen van de tegenwoordige schilders ons het bi<supplied>stre</supplied> en de bitume af nemen<c type="kk">/</c> waarm<supplied>ee</supplied> toch zooveel prachtige dingen zijn geschilderd, die – goed aangewend, het coloriet sappig en mild en genereus maken<c type="kk">/</c> tevens zoo deftig zijn. En zulke hoogst merkwaardige en eigenaardige eigenschappen bezitten.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Zij eischen echter tevens dat men zich de moeite geve ze te leeren gebruiken want men moet er anders mee omgaan dan met de gewone verfsoorten, en ik acht het best mogelijk dat menigeen afgeschrikt wordt door de proeven die men er eerst mee nemen moet en die natuurlijk niet den eersten dag dat men ze begint te gebruiken<c type="kk">/</c> gelukken. ’t Is nu zoowat net <hi rend="italics">een jaar</hi> geleden dat ik er eens mee begonnen ben<c type="kk">/</c> juist ook voor interieurs doch in het eerst vielen ze me vreesselijk tegen en toch bleven mij steeds de mooie dingen bij die ik er van gezien had<c type="kp">_</c></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Gij zijt beter in de gelegenheid dan ik om te hooren van boeken over kunst<c type="kp">_</c>– Als gij goede werken van lui als b.v. nu het boek van Fromentin over de Holl. schilders tegenkomt of ze van vroeger U herinnert<c type="kk">/</c> weet dan dat ik <hi rend="italics">heel graag</hi> heb dat ge er eens een paar<c type="kk">/</c> mits over <hi rend="italics">techniek</hi> handelende<c type="kk">/</c> koopt – en afhoudt van het geen ge gewoon zijt te zenden. Ik heb plan om de theorie wel degelijk te leeren – ik beschouw dat volstrekt niet nutteloos en geloof dat dikwijls hetgeen men instinktmatig voelt of vermoed tot zekerheid en helderheid komt als men bij zijn zoeken eenigen leiddraad heeft in waarachtig praktische woorden. Al zou er in een boek maar <hi rend="italics">een</hi> of <hi rend="italics">heel enkele</hi> dingen van dien aard voorkomen<c type="kk">/</c> is ’t soms den moeite waard het te lezen niet alleen maar zelfs te koopen<c type="kk">/</c> juist tegenwoordig<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">En toen in den tijd van Thoré en Blanc zijn er lui geweest die dingen geschreven hebben die helaas nu al in ’t vergeetboek beginnen te raken.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Om nu maar eens iets te noemen – Weet gij wat <hi rend="italics">un ton entier</hi> en wat <hi rend="italics">un</hi> <hi rend="italics">ton rompu</hi> is?<ptr target="#note-t-12"/> Zeker kunt gij het <hi rend="italics">zien</hi> op een sch<hi rend="super">ij</hi> doch weet ge ook te verklaren wat gij ziet. Wat men door <hi rend="italics">rompre</hi> verstaat<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Zulk soort van dingen dient men te weten<c type="kk">/</c> ook theoretisch<c type="kk">/</c> ’t zij als practicus bij ’t schilderen ’t zij als kenner bij ’t spreken over kleur<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">De meesten verstaan er door <hi rend="italics">wat zij willen</hi> en toch hebben b.v. die woorden een ZEER BEPAALDE beteekenis<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">De <hi rend="italics">wetten</hi> van de kleuren<ptr target="#note-t-13"/> zijn onuitsprekelijk prachtig juist omdat het <hi>geen</hi> <hi rend="italics">toevalligheden</hi> zijn. Even als men tegenwoordig niet meer in willekeurige <hi rend="italics">wonderen</hi> geloofd<c type="kk">/</c> niet meer in een God die grillig en despotiek van den hak op den tak springt<c type="kk">/</c> doch juist voor de natuur meer respect en bewondering en geloof begint te krijgen<c type="kk">/</c> evenzoo &amp; om dezelfde redenen vind ik dat men in de kunst de ouderwetsche idees van aangeboren genie<c type="kk">/</c> inspiratie &amp;c<c type="kp">_</c><c type="kk">/</c> ik zeg niet moest daarlaten doch eens terdeeg op den keper beschouwen<c type="kk">/</c> verifieeren en – – zeer aanmerkelijk wijzigen<c type="kp">_</c>–</p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Ik ontken echter ’t bestaan van genie en zelfs het aangeborene er van niet<c type="kp">_</c>–<ptr target="#note-t-14"/> Doch de gevolgtrekkingen ervan<c type="kk">/</c> dat theorie en onderrigt nutteloos altijd uit den aard der zaak zou wezen<c type="kk">/</c> die ontken ik wel.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23"><hi rend="italics">Hetzelfde</hi> wat ik nu in ’t spinstertje en den ouden man aan het garenwinden deed<c type="kk">/</c> hoop ik<c type="kk">/</c> of liever, zal ik trachten later veel <hi rend="italics">beter</hi> te doen<c type="kp">_</c>– Doch in deze twee studies naar het leven ben ik <hi rend="italics">een beetje meer</hi> <hi rend="italics">me zelf geweest</hi> dan tot nog toe in de meeste andere studies (tenzij enkele van mijn teekeningen) ik er in slaagde het te zijn<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Betreffende zwart – <hi rend="italics">toevalligerwijs</hi> gebruikte ik het in deze studies niet<c type="kk">/</c> daar ik o.a. een paar grooter krachten dan zwart noodig had – – en indigo met terra sienne<c type="kk">/</c> pruissisch blaauw met gebr. sienne<ptr target="#note-t-a"/> geven eigentlijk veel dieper toonen nog dan zuiver zwart zelfs<c type="kp">_</c>– Wat ik wel eens denk als ik de lui hoor spreken over “in de natuur is geen zwart”<c type="kk">/</c> is – in de verf is ook geen zwart als men wil.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Ge moet vooral toch niet in het dwaalbegrip vervallen dat de coloristen het zwart niet gebruiken want het spreekt van zelf dat zoodra bij het zwart een bestanddeel van blaauw<c type="kk">/</c> rood of geel komt<c type="kk">/</c> het een grijs wordt<c type="kk">/</c> n.l. een <hi rend="italics">donker</hi> rood<c type="kk">/</c> geel of blaauw grijs.</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Heel interessant vond ik o.a. in Ch<c type="kp">_</c> Blanc<c type="kk">/</c> les artistes de mon temps<c type="kk">/</c> wat hij van de techniek van Velasquez zegt<c type="kk">/</c> wiens schaduwen en halve toonen meest uit <hi rend="italics">incolore koele grijzen</hi><c type="kk">/</c> waarvan zwart en een beetje wit de hoofdbestanddeelen zijn<c type="kk">/</c> bestaan<c type="kp">_</c>–<ptr target="#note-t-15"/> In welke neutrale incolore milieux het minste wolkje of neveltje rood b.v. reeds spreekt<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Nu – gegroet, schrijf eens spoedig als ge wat te schrijven hebt.– ’t Verwondert mij wel eens dat gij voor Jules Dupré niet <hi rend="italics">zooveel</hi> voelt als ik wel wenschte ge deedt<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Ik geloof zoo vast dat als ik terug zag wat ik vroeger gezien heb van hem<c type="kk">/</c> wel verre van minder mooi ’t <hi rend="italics">nog mooier</hi> zou vinden dan ik instinktmatig altijd deed<c type="kp">_</c>– Dupré is <hi rend="italics">misschien</hi> nog meer colorist dan Corot &amp; Daubigny<c type="kk">/</c> ofschoon die beiden ’t ook zijn en wel degelijk Daubigny veel <hi rend="italics">durft</hi> in kleur. Maar bij Dupré is er in de kleur iets van een prachtige symphonie<c type="kk">/</c> <hi rend="italics">doorgevoerd</hi><c type="kk">/</c> <hi rend="italics">gewild</hi><c type="kk">/</c> <hi rend="italics">mannelijk</hi><c type="kk">/</c> ik vermoed Beethoven zoowat zóó moet zijn<c type="kp">_</c>– Die symphonie is <hi rend="italics">verbazend</hi> BEREKEND en toch eenvoudig en oneindig diep als de natuur zelf<c type="kp">_</c>– Dat vind ik er van – van Dupré<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Nu – adieu<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.31" n="31">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I think I already told you in my last letter that I also wanted to start a large male figure as well as that woman spinning.<ptr target="#note-t-1"/> I now send you a little scratch of it herewith. Perhaps you remember two studies of the same corner, which I already had in the studio when you were here.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I read Les maîtres d’autrefois by <rs type="person" ref="bio.xml#_1019">Fromentin</rs><ptr target="#note-t-3"/> with great pleasure. And in different places in that book I again found the same questions dealt with that have preoccupied me very much recently, and about which I actually think continually, specifically since, at the end of my time in The Hague, I indirectly heard things that <rs type="person" ref="bio.xml#_1107">Israëls</rs> had said about starting in a low register and making colours that are still relatively dark appear light. In short, expressing light through opposition with dark. I already know what you say about ‘too black’, but at the same time I’m still not completely persuaded that, to mention just one thing, a grey sky always HAS to be painted in the local tone. Which <rs type="person" ref="bio.xml#_323">Mauve</rs> does; but <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> doesn’t do it, <rs type="person" ref="bio.xml#_986">Dupré</rs> doesn’t do it. <rs type="person" ref="bio.xml#_971">Corot</rs> and <rs type="person" ref="bio.xml#_976">Daubigny</rs>???</p>
+<p rend="indent" xml:id="p.en.4" n="4">Well, as it is with the landscape, so it is with the figure too — I mean, <rs type="person" ref="bio.xml#_1107">Israëls</rs> paints a white wall quite differently from <rs type="person" ref="bio.xml#_1300">Regnault</rs> or <rs type="person" ref="bio.xml#_1029">Fortuny</rs>.<ptr target="#note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> And consequently the figure looks quite different against it.</p>
+<p rend="indent" xml:id="p.en.5" n="5">When I hear you talk about a lot of new names, it’s not always possible for me to understand when I’ve seen absolutely <hi rend="italics">nothing</hi> by them. And from what you said about ‘Impressionism’, I’ve grasped that it’s something different from what I thought it was, but it’s still not entirely clear to me what one should understand by it.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">But for my part, I find so tremendously much in <rs type="person" ref="bio.xml#_1107">Israëls</rs>, for instance, that I’m not particularly curious about or eager for something different or newer.</p>
+<p rend="indent" xml:id="p.en.7" n="7"><rs type="person" ref="bio.xml#_1019">Fromentin</rs> says of <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> that people nowadays are <hi rend="italics">much more advanced</hi> in technique than he was.<ptr target="#note-t-6"/> They’re also more advanced than <hi rend="italics"><rs type="person" ref="bio.xml#_919">Cabat</rs></hi> — who’s sometimes very like <rs type="person" ref="bio.xml#_1306">R.</rs> because of his dignified simplicity, for instance in the painting in the Luxembourg.<ptr target="#note-t-7"/> But does this mean that what R., what Cabat said has become untrue or superfluous? No. The same with <rs type="person" ref="bio.xml#_1107">Israëls</rs>, too — with <rs type="person" ref="bio.xml#_1063">Degroux</rs>, too (Degroux was very simple).</p>
+<p rend="indent" xml:id="p.en.8" n="8">If one says what one says clearly, though, this isn’t enough, strictly speaking.</p>
+<p rend="indent" xml:id="p.en.9" n="9">And saying it with more charm might make it more pleasant to hear (which I don’t disparage, however), but it doesn’t make what is true <hi rend="italics">very much</hi> more beautiful, since the truth is beautiful in itself.<ptr target="#note-t-8"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10"><figure facs="zone-sketch-1" n="A"/></p>
+<p xml:id="p.en.11" n="11"><supplied><hi rend="italics">Paint sample 1, framed</hi></supplied></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">This is the <hi rend="italics">very highest</hi> note<ptr target="#note-t-9"/> in the study of the little old man, which expresses the snowy white of his skein of yarn <hi rend="italics">in the light</hi>. That same white is much darker still in the shadow.<ptr target="#note-t-10"/> </p>
+<p xml:id="p.en.13" n="13"><supplied><hi rend="italics">Paint sample 2, preceded by an arrow</hi></supplied></p><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p xml:id="p.en.14" n="14">The measurement of the subject overleaf is about 105 x 95 cm, and that of the woman spinning 100 x 75. They’re painted in a tone of bistre and bitumen which, it seems to <hi rend="italics">me</hi>, lends itself to expressing the WARM<ptr target="#note-t-11"/> chiaroscuro of an airless, dusty interior. <rs type="person" ref="bio.xml#_33">Artz</rs> would certainly think it too dirty.</p>
+<p rend="indent" xml:id="p.en.15" n="15">It has bothered me FOR A LONG TIME, Theo, that some of the painters nowadays are taking from us the bistre and the bitumen with which, after all, so many magnificent things were painted, which — properly used, make the coloration lush and tender and generous, and at the same time so dignified. And have such highly remarkable and individual qualities.</p>
+<p rend="indent" xml:id="p.en.16" n="16">At the same time, though, they require that one take the trouble to learn to use them, for one has to deal with them differently from the ordinary types of paint, and I consider it perfectly possible that many people are frightened off by the experiments that one has to do first, and that naturally don’t succeed on the first day that one starts to use them. It’s now something like <hi rend="italics">a year</hi> ago since I started using them, specifically for interiors, but at first they really disappointed me, and yet I always remembered the beautiful things I’d seen in them. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">You have a better opportunity than I do to hear about books on art. If you come across good works by people like, say, the book by <rs type="person" ref="bio.xml#_1019">Fromentin</rs> on the Dutch painters, or if you remember any from the past, be aware that I’d <hi rend="italics">very much like</hi> you to buy a few sometime, provided they deal with <hi rend="italics">technique</hi> — and deduct it from what you usually send. I do intend to learn the theory — I don’t regard it as useless at all, and believe that often what one feels or suspects instinctively leads to certainty and clarity if, in one’s search, one has some guide in truly practical words. Even if there’s just <hi rend="italics">one</hi> or <hi rend="italics">a very few</hi> things of that nature in a book, it’s sometimes worthwhile not just to read it but actually to buy it, particularly nowadays.</p>
+<p rend="indent" xml:id="p.en.18" n="18">And in the days of <rs type="person" ref="bio.xml#_554">Thoré</rs> and <rs type="person" ref="bio.xml#_546">Blanc</rs> there were people who wrote things that are now, unfortunately, already beginning to pass into oblivion. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.19" n="19"> To mention just one thing. Do you know what <hi rend="italics">an unbroken tone</hi> and what <hi rend="italics">a broken tone</hi> is?<ptr target="#note-t-12"/> You can certainly <hi rend="italics">see</hi> it in a painting, but do you also know how to explain what you see? What they mean by <hi rend="italics">broken</hi>?</p>
+<p rend="indent" xml:id="p.en.20" n="20">One should know this sort of thing, theoretically too, be it as a practitioner when painting or as an expert talking about colour.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Most people understand <hi rend="italics">what they want to</hi> by it, and yet these words, for instance, have a VERY SPECIFIC meaning.</p>
+<p rend="indent" xml:id="p.en.22" n="22">The <hi rend="italics">laws</hi> of colour<ptr target="#note-t-13"/> are inexpressibly splendid precisely because they are <hi>not</hi> <hi rend="italics">coincidences</hi>. Just as people nowadays no longer believe in random <hi rend="italics">miracles</hi>, in a God who jumps capriciously and despotically from one thing to another, but are beginning to gain more respect and admiration for and belief in nature, just so and for the same reasons I believe that people should — I don’t say ignore — but thoroughly scrutinize, verify and — — very substantially alter the old-fashioned ideas of innate genius, inspiration &amp;c. in art. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">I don’t deny the existence of genius, though, nor even its innate nature.<ptr target="#note-t-14"/> But I do deny the inferences of it, that theory and training are always useless by the very nature of the thing.</p>
+<p rend="indent" xml:id="p.en.24" n="24">I hope, or rather, I’ll try to do <hi rend="italics">the same thing</hi> that I’ve now done in the little woman spinning and the old man winding yarn much <hi rend="italics">better</hi> later on. Yet in these two studies from life I’ve<hi rend="italics"> been a bit more myself</hi> than I’ve succeeded in being in most other studies till now (barring a few of my drawings).</p>
+<p rend="indent" xml:id="p.en.25" n="25">As to black — <hi rend="italics">as it happened</hi> I didn’t use it in these studies, since I needed a few stronger effects than black, among other things — — and indigo with terra sienna, Prussian blue with burnt sienna actually produce much deeper tones even than pure black. What I sometimes think when I hear people saying ‘there is no black in nature’ is — there doesn’t have to be any black in paint either.</p>
+<p rend="indent" xml:id="p.en.26" n="26">Don’t, whatever you do, get the mistaken idea that the colourists don’t use black, because it goes without saying that as soon as an element of blue, red or yellow is added to black, it becomes a grey, that is a <hi rend="italics">dark</hi> red, yellow or blue grey. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">Among other things I thought what <rs type="person" ref="bio.xml#_546">C. Blanc</rs> says in Les artistes de mon temps about <rs type="person" ref="bio.xml#_1402">Velázquez</rs>’s technique was very interesting — that his shadows and half-tones usually consist of <hi rend="italics">colourless cool greys</hi> of which black and a bit of white are the chief components<ptr target="#note-t-15"/> — in which neutral, colourless parts the least little dash or hint of red, say, is immediately apparent.</p>
+<p rend="indent" xml:id="p.en.28" n="28">Well — regards, do write soon when you have something to write. It does surprise me rather that you don’t feel <hi rend="italics">as much</hi> for <rs type="person" ref="bio.xml#_986">Jules Dupré</rs> as I wish you did.</p>
+<p rend="indent" xml:id="p.en.29" n="29">I believe so firmly that if I were again to see what I’ve seen by him before, far from finding it less beautiful I would find it <hi rend="italics">even more</hi> beautiful than I already did instinctively. <rs type="person" ref="bio.xml#_986">Dupré</rs> is <hi rend="italics">perhaps</hi> even more of a colourist than <rs type="person" ref="bio.xml#_971">Corot</rs> and <rs type="person" ref="bio.xml#_976">Daubigny</rs>, although they both are too, and Daubigny really is very <hi rend="italics">daring</hi> in colours. But with Dupré there’s something of a magnificent symphony in the colour, <hi rend="italics">carried through, intended, manly</hi>. I imagine <rs type="person" ref="bio.xml#_275">Beethoven</rs> must be something like that. This symphony is <hi rend="italics">surprisingly</hi> CALCULATED and yet simple and infinitely deep, like nature itself. That’s what I think about it — about Dupré.</p>
+<p rend="indent" xml:id="p.en.30" n="30">Well — adieu, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.31" n="31">Yours truly,</p>
+<p xml:id="p.en.32" n="32">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter follows up on the subject Van Gogh had raised in <ref target="let449.xml">letter 449</ref> written on or about Friday, 6 June, that is to say his work on a male figure winding yarn by a window; he moreover refers back to that letter here <ref target="#l-2">(ll. 2-4)</ref>. Since the next letter dates from the beginning of July, the present one must have been written in June. Although it is impossible to date it precisely, some time has probably elapsed since the beginning of June – Van Gogh has meanwhile read Fromentin’s book. We have therefore dated the letter mid-June 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit to Nuenen at Whitsun <ref target="let448.xml">(448)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This painting of a woman spinning – later in the letter it says that it measured 100 x 75 cm – must be the same one referred to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let449.xml">letter 449</ref> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let449.xml#n-1">see letter 449, n. 1</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+      
+<p>This painted study of a man winding yarn is not known; later in the letter Van Gogh says that it measured about 105 x 95 cm. The letter sketch that he made of it (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_136">F - / JH 498</rs>) shows that the work also bore some resemblance to the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Man winding yarn</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_557">F 1140 / JH 487</rs>) and the pen-and-ink drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Man winding yarn </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2468">F 1138 / JH 486</rs>). It is not possible to identify the two studies Theo had seen on his visit in May.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi> (1876) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Eugène Fromentin</rs> contains an overview of the old Dutch and Flemish masters. Fromentin, himself an artist, approaches them with an artist’s eye and goes in depth into technique, composition, the use of colour and so forth. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> had sent this book for Van Gogh to read (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let448.xml">letters 448</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let459.xml">459</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1300">Regnault</rs> greatly admired <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1029">Fortuny</rs>, whose work he studied in Grenada during a trip to Spain in 1868. See Lizzie W. Champney, ‘In the footsteps of Fortuny and Regnault’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Century, Illustrated Monthly Magazine </hi>23 (1881), pp. 15-34.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh remained ignorant of Impressionism for a long time: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let288.xml#n-4">see letter 288, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+      
+<p>Van Gogh based this remark on a passage in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Fromentin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi> (1876)  where he argues that the moderns have abandoned <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Ruisdael</rs>’s view of the function of atmosphere and skies in paintings. According to Fromentin he regarded the sky as ‘the real, compact, substantial ceiling to his paintings’ (le plafond réel, compacte, consistant de ses tableaux), whereas the moderns go so far as to condemn themselves to maintaining as a principle ‘that because the air is the emptiest and most imperceptible part of the painting, there is nothing against it being the most colourless and non-existent part’ (que l’atmosphère étant la partie la plus vide et la plus insaisissable du tableau, il n’y a pas d’inconvénient à ce qu’elle en soit la partie la plus incolore et la plus nulle) Fromentin 1902, chapter 7, p. 251.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+      
+<p>Van Gogh is referring to one of the paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_919">Cabat</rs> that he had seen years before; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1750">L’étang de Ville-d’Avray</rs></hi> (The pond of Ville-d’Avray) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1751">Autumnal evening</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let055.xml#n-9">see letters 55, n. 9</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let066.xml#n-6">66, n. 6</ref>). Given the comparison with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Ruisdael</rs>, he appears to mean the former work.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh may have been prompted to write this by a remark in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref> </hi>to the effect that some people worship beauty but deny the truth: ‘denying the truth to kneel before beauty’ (en niant le vrai pour se mettre à genoux devant le beau). See Fromentin 1902, chapter 12, p. 322. Cf. also the Dutch saying: ‘De waarheid heeft een schoon geluid’ (Truth has a beautiful sound) and ‘Beauty is truth, truth is beauty’, from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_680">John Keats</rs>’s ‘Ode on a Grecian Urn’ (1819).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This refers to a sample of paint applied just above it.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>This is a reference to another paint sample applied below it.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>After ‘WARM’ Van Gogh crossed out ‘de schaduwtoon’ (the shadow tone).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh had read about the ‘ton rompu’ (broken tone) and the ‘ton vif’ (strong tone) and ‘les tons voisins’ (neighbouring tones) in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Blanc</rs>’s essay on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs> in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_403">Les artistes de mon temps</ref></hi> (see Blanc 1876, pp. 65, 69-71). Cf. also the quote cited in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let494.xml">letter 494</ref>. The ‘ton entier’ (whole tone) is not mentioned there; Blanc writes of ‘two complementaries, of which one is pure and the other broken’ (deux complémentaires, dont l’une est pure et l’autre rompue’) (p. 66).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>See for the ‘laws of colour’: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let449.xml#n-6">letter 449, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Dorn associates this notion with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_666">Victor Hugo</rs>’s ideas about genius in his book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_198">William Shakespeare</ref></hi> (see Hugo 1864, pp. 233-234, and exhib. cat. Vienna 1996, pp. 33, 48 (n. 12); cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let280.xml">letter 280</ref>). In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_403">Les artistes de mon temps</ref></hi> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Blanc</rs> talked of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s ‘genie lumineux’ (brilliant genius), of ‘Les grands génies’ (the great geniuses) and stated ‘Poëte religieux, Delacroix comprend le génie du christianisme’ (As a religious poet, Delacroix understands the genius of Christianity) (Blanc 1876, pp. 58, 75, 80).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Gebrande terra (de) sienna’ (burnt sienna), a reddish-brown earth pigment.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+<p>On this question <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Blanc</rs> says in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_403">Les artistes de mon temps</ref></hi>: ‘Thus — when one mixes together blue and orange in equal quantities, the orange being no more orange than the blue is blue — the mixing destroys the two tones and the result is an absolutely colourless grey.’ (Ainsi, lorsqu’on mêle ensemble du bleu et de l’orangé à quantités égales, l’orangé n’étant pas plus orangé, que le bleu n’est bleu, le mélange détruit les deux tons et il en résulte un gris absolument incolore.)</p>
+<p rend="indent"> Elsewhere in the book he says that, viewed from close to, ‘<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1402">Velázquez</rs> is not exactly a great colourist, in the sense that he does not have the essential quality of colouring, variety. He is a gourmet who eats hardly anything other than one dish, but who wishes it to be exquisite. On his sober palette the principal tones are silver white and ivory black, and his painting, the basis of which is a delightful grey, would be almost monochrome if he did not revive it, here and there, with some light red motifs, with some touches of a pale blue.’ (Vélazquez n’est pas précisément un grand coloriste, en ce sens qu’il ne possède pas la qualité essentielle au coloris, la variété. C’est un gourmet qui ne mange guère que d’un plat, mais qui le veut exquis. Sur sa sobre palette, les principaux tons sont le blanc d’argent et le noir d’ivoire, et sa peinture, dont un gris délicieux forme la base, serait presque monochrome, s’il ne la réveillait, çà et là, par quelques accessoires d’un rouge léger, par quelques touches d’un bleu évanoui.) See Blanc 1876, pp. 65, 355.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

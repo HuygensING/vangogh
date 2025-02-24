@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Willemien van Gogh. Saint-Rémy-de-Provence, on or about Monday, 23 December 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let832"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b718 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>832</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>W18</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>832</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-12-23">on or about Monday, 23 December 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Willemien van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0718" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000973_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000973_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0718" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000973_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000973_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000973_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Ma chère soeur,</p>
+
+<p xml:id="p.fr.2" n="2">j’ajoute encore à la hâte un mot pour toi, il y a juste un an que j’ai eu cette attaque<c type="kk">/</c> j’ai certes aucune raison pour m’en plaindre trop alors qu’actuellement<ptr target="#note-t-a"/> cela va mieux. Mais de temps à autre il est à craindre que cela revienne pourtant. Et cela laisse la tête dans un état latent de sensibilité<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’espère que tu aimeras un peu une toile que je fais pour la mère et toi de ces jours ci<c type="kp">_</c> C’est une repetition d’un tableau pour Theo<c type="kk">/</c> des femmes recoltant des olives.<ptr target="#note-t-1"/> De cette derniere quinzaine j’ai travaillé dur sans cesse<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Connais tu la poésie que je t’écris ci contre?<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Il y a un tableau que Whistler a fait de sa mère<ptr target="#note-t-3"/> qui est comme cela. Mais surtout dans nos vieux tableaux Hollandais nous trouvons cela parfois<c type="kp">_</c> Lorsque je pense à la mère elle me parait être ainsi elle aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Il ne fait pas toujours bien gai ici et mes compagnons d’infortune s’embêtent assez souvent mais il y a beaucoup de resignation ici et de la patience. Mais beaucoup d’entre eux ne font rien<c type="kk">/</c> ils restent absorbés toute la journée et moi je crois quelquefois que s’ils etaient dans un asile où le travail manuel etait obligatoire ils s’en trouveraient mieux. A bientôt<c type="kk">/</c> en pensée je t’embrasse<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">t. à t.</p>
+
+<p xml:id="p.fr.8" n="8">Vincent.</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p xml:id="p.fr.9" n="9">Who is the maid my spirit seeks</p>
+
+<p xml:id="p.fr.10" n="10">Through cold reproof and slanders blight</p>
+
+<p xml:id="p.fr.11" n="11">Has she loves roses on her cheeks</p>
+
+<p xml:id="p.fr.12" n="12">Is hers an eye of calm delight?</p>
+
+<p xml:id="p.fr.13" n="13">No<c type="kk">/</c> wan and sunk with midnight prayer</p>
+
+<p xml:id="p.fr.14" n="14">Are the pale looks of her I love</p>
+
+<p xml:id="p.fr.15" n="15">And if by times a light be there</p>
+
+<p xml:id="p.fr.16" n="16">That light was kindled from above</p>
+
+<p xml:id="p.fr.17" n="17">I choose not her mine hearts elect</p>
+
+<p xml:id="p.fr.18" n="18">Amongst those that seek their makers shrine –</p>
+
+<p xml:id="p.fr.19" n="19">In gems and garlands proudly decked</p>
+
+<p xml:id="p.fr.20" n="20">As if themselves were things divine</p>
+
+<p xml:id="p.fr.21" n="21">No<c type="kk">/</c> heaven but faintly warms the breast</p>
+
+<p xml:id="p.fr.22" n="22">That beats beneath a broidered veil</p>
+
+<p xml:id="p.fr.23" n="23">And they who come in glittering dress</p>
+
+<p xml:id="p.fr.24" n="24">To mourn their frailty – yet are frail</p>
+
+<p xml:id="p.fr.25" n="25">Not so the form of her I love</p>
+
+<p xml:id="p.fr.26" n="26">and love because her bloom is gone</p>
+
+<p xml:id="p.fr.27" n="27">But ne’er was beauties bloom so bright</p>
+
+<p xml:id="p.fr.28" n="28">So touching as that forms decay</p>
+
+<p xml:id="p.fr.29" n="29">That like the altars wavering light</p>
+
+<p xml:id="p.fr.30" n="30">In holy lustre fades away.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear <rs type="person" ref="bio.xml#_407">sister</rs>,</p>
+<p xml:id="p.en.2" n="2">In haste I’m adding a line for you, it’s exactly a year since I had that attack, I certainly have no reason to complain about it too much, as things are going better at present. But from time to time, though, it’s to be feared that it may return. And this leaves the mind in a latent state of sensitivity.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I hope that you’ll quite like the canvas I’m doing for <rs type="person" ref="bio.xml#_524">Mother</rs> and you at the moment. It’s a repetition of a painting for Theo, Women picking olives.<ptr target="#note-t-1"/> For this past fortnight I’ve worked hard continuously. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">Do you know the poetry I’ve written down for you opposite?<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">There’s a painting that <rs type="person" ref="bio.xml#_1444">Whistler</rs> did of his mother<ptr target="#note-t-3"/> which is like that. But above all in our old Dutch paintings we find it sometimes. When I think of <rs type="person" ref="bio.xml#_524">Mother</rs> she too appears like that to me.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Life isn’t always very jolly here, and my companions in misfortune quite often feel bored, but there’s a lot of resignation and patience here. But many of them do nothing, they remain self-absorbed all day, and I sometimes think that if they were in an asylum where manual work was compulsory they would feel better for it. More soon, I kiss you in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">Ever yours,</p>
+<p xml:id="p.en.8" n="8">Vincent.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.en.10" n="10">Who is the maid my spirit seeks</p>
+<p xml:id="p.en.11" n="11">Through cold reproof and slanders blight</p>
+<p xml:id="p.en.12" n="12">Has she loves roses on her cheek</p>
+<p xml:id="p.en.13" n="13">Is hers an eye of calm delight?</p>
+<p xml:id="p.en.14" n="14">No, wan and sunk with midnight prayer</p>
+<p xml:id="p.en.15" n="15">Are the pale looks of her I love</p>
+<p xml:id="p.en.16" n="16">And if by times a light be there</p>
+<p xml:id="p.en.17" n="17">That light was kindled from above</p>
+<p xml:id="p.en.18" n="18">I choose not her mine hearts elect</p>
+<p xml:id="p.en.19" n="19">Amongst those that seek their makers shrine –</p>
+<p xml:id="p.en.20" n="20">In gems and garlands proudly decked</p>
+<p xml:id="p.en.21" n="21">As if themselves were things divine</p>
+<p xml:id="p.en.22" n="22">No heaven but faintly warms the breast</p>
+<p xml:id="p.en.23" n="23">That beats beneath a broidered veil</p>
+<p xml:id="p.en.24" n="24">And they who come in glittering dress</p>
+<p xml:id="p.en.25" n="25">To mourn their frailty – yet are frail</p>
+<p xml:id="p.en.26" n="26">Not so the form of her I love</p>
+<p xml:id="p.en.27" n="27">And love because her bloom is gone</p>
+<p xml:id="p.en.28" n="28">But ne’er was beauties bloom so bright</p>
+<p xml:id="p.en.29" n="29">So touching as that forms decay</p>
+<p xml:id="p.en.30" n="30">That like the altars wavering light</p>
+<p xml:id="p.en.31" n="31">In holy lustre fades away.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">For the date assigned to this letter, <ref target="let831.xml">see letter 831</ref>, <hi rend="italics">Date</hi>.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">This letter was enclosed with <ref target="let831.xml">letter 831</ref> to Mrs van Gogh (<ref target="#l-1*">see ll. 1*-3</ref>).</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘puisqu’actuellement’.</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Women picking olives</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2879">F 655 / JH 1869</rs>) is a repetition of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Women picking olives </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2878">F 654 / JH 1868</rs>). Van Gogh had yet another version of it: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Women picking olives </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2880">F 656 / JH 1870</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+      
+<p>At the end of the letter, Van Gogh copied the poem ‘<ref target="biblio.xml#lit_518">Who is the maid? St. Jerome’s love</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_711">Thomas Moore</rs>. See Moore 1910, pp. 255-256. Van Gogh deviated from the source text several times, and omitted two lines. He knew the poem from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1465">Beecher Stowe</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_519">We and our neighbours</ref></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="RM12.xml">See RM12</ref>.</p>
+      
+<p rend="indent">In Saint-Rémy he recorded these lines of verse again, probably piecing them together from memory as he went along. The estate contains a sheet torn around the text, with part of a letter to Theo on the back; this sheet was probably never sent (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="RM18.xml">see RM18</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1444">James Abbot McNeill Whistler</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arrangement in grey and black no. 1; Portrait of the artist’s mother</hi>, 1871 (Paris, Musée d’Orsay). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1425">Ill. 1425</rs>. Richard Josey made a mezzotint after it, and reproductions of it appeared in magazines and catalogues. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> of 21 May 1872 featured a wood engraving of it. See A. McLaren Young <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al</hi>.,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> The paintings of James McNeill Whistler</hi>. 2 vols. New Haven and London 1980, vol. 1, pp. 59-63, cat. no. 101.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

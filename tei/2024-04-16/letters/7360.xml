@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Thursday, 17 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let736"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b618 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>736</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>571</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>740</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-01-17">Thursday, 17 January 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000840_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000840_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000840_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000840_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000840_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000840_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000841_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000841_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000841_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000841_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000841_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000841_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000842_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000842_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000842_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0618 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000842_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000842_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000842_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo</p>
+
+<p xml:id="p.fr.2" n="2">merci de ta bonne lettre ainsi que du billet de 50 francs qu’elle contenait<c type="kp">_</c> Répondre à toutes tes questions<c type="kk">/</c> le peux tu toi-même<c type="kk">/</c> dans ce moment je ne m’en sens pas capable. Je veux bien réflexion faite chercher une solution mais il faut que je relise encore ta lettre &amp;c.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Mais avant de discuter ce que je dépenserais ou ne depenserais pas pendant toute une anée<c type="kk">/</c> cela nous mettrait peut-être sur une voie de revoir un peu rien que le mois actuel<c type="kk">/</c> courant.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Dans tous les cas cela a été lamentable tout à fait et certes je me compterais heureux si enfin tu eusses un peu l’attention sérieuse pour ce qui en est et en a été si longtemps.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Mais que veux tu<c type="kk">/</c> c’est malheureusement compliqué de plusieurs façons<c type="kk">/</c> mes tableaux sont sans valeur<c type="kk">/</c> ils me coutent il est vrai des dépenses extraordinaires<c type="kk">/</c> même en sang et cervelle peutêtre parfois<c type="kp">_</c> Je n’insiste pas et que veux tu que je t’en dise. Revenons toujours au mois actuel et ne parlons que de l’argent.–</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Le 23 decembre il y avait encore en caisse un louis et 3 sous.<ptr target="#note-t-2"/> Ce même jour j’ai reçu de toi le billet de 100 francs.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Voici les dépenses</p>
+      
+
+<p xml:id="p.fr.8" n="8">Donné à Roulin pour payer à la femme de ménage<ptr target="#note-t-3"/> son mois de Décembre   20 francs. ainsi que 1<hi rend="super">re</hi> quinzaine Janvier           10    ,,     fr  30.</p>
+
+<p xml:id="p.fr.9" n="9">Payé à l’hopital                                                     21</p>
+
+<p xml:id="p.fr.10" n="10"> ,,  aux infirmiers qui m’avaient pansé                 10</p>
+
+<p xml:id="p.fr.11" n="11">En revenant ici payé une table<c type="kk">/</c> un réchaud à gaz &amp;c. qui m’avait eté prêté et que j’ai pris alors à compte.                                              20</p>
+
+<p xml:id="p.fr.12" n="12">Payé pour faire blanchir toute la literie<c type="kk">/</c> le linge ensanglanté &amp;c.                                       12.50</p>
+
+<p xml:id="p.fr.13" n="13">Divers achats comme une douzaine de brosses<c type="kk">/</c> un chapeau &amp;c<c type="kp">_</c> &amp;c. mettons                              10</p>                                                                      
+<p xml:id="p.fr.14" n="14">______</p>
+
+<p xml:id="p.fr.15" n="15">                                                                        103.50</p>
+      
+
+<p xml:id="p.fr.16" n="16">Nous sommes ainsi déjà arrivé le jour ou le lendemain de ma sortie de l’hopital à un déboursement forcé de ma part de 103.50. ce à quoi il faut encore ajouter qu’alors le premier jour 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>j’ai été diner avec Roulin au restaurant joyeusement<c type="kk">/</c> tout à fait rassurés et ne redoutant pas une nouvelle angoisse<c type="kp">_</c><ptr target="#note-t-4"/> Enfin le resultat de tout cela fut que vers le 8 j’étais à sec. Mais un ou deux jours après j’ai emprunté 5 francs. Nous en étions à peine au dix. J’éspérais vers le dix une lettre de toi<c type="kk">/</c> or cette lettre n’arrivant qu’aujourd’hui 17 janvier<c type="kk">/</c> l’intervalle a été un jeûne des plus rigoureux<c type="kk">/</c> à plus forte raison douloureux que mon rétablissement ne pouvait se faire dans ces conditions-là.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">J’ai néamoins repris le travail et j’ai déjà 3 études faites à l’atelier<ptr target="#note-t-5"/> plus le portrait de M<c type="kp">_</c> Rey que je lui ai donné en souvenir.–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Il n’y a donc pas cette fois non plus encore aucun mal plus grave qu’un peu plus de souffrance et d’angoisse relative. Et je conserve tout bon espoir. Mais je me sens faible et un peu inquiet et craintif<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Ce qui se passera<ptr target="#note-t-a"/> j’espère en reprenant mes forces.</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Rey m’a dit qu’il suffisait d’être très impressionable pour avoir eu ce que j’avais eu quant à la crise et que actuellement je n’étais qu’anémique mais que réellement je devais me nourir<c type="kp">_</c> Mais moi j’ai pris la liberté de dire à M. Rey que si actuellement pour moi la première question avait été de reprendre mes forces<c type="kk">/</c> si par un grand hasard ou malentendu justement il m’était encore arrivé un jeûne rigoureux d’une semaine<c type="kk">/</c> si dans de pareilles circonstances il aurait déjà vu beaucoup de fous passablement tranquilles et capables de travailler – et sinon qu’il daignerait alors s’en souvenir à l’occasion que provisoirement moi je ne suis pas encore fou.–</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Maintenant dans ces payements faits<c type="kk">/</c> considérant que toute la maison était dérangée par cette aventure et tout le linge et mes habits souillés<c type="kk">/</c> y a-t-il dans ces dépenses rien d’indu<c type="kk">/</c> d’extravagant ou d’exagéré. Si aussitôt en rentrant j’ai payé ce qui était <hi rend="italics">dû</hi> à des gens à peu près aussi pauvres que moi-même<c type="kk">/</c> y a-t-il erreur de ma part ou ai je pu économiser 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>davantage.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Maintenant aujourd’hui le 17<c type="kk">/</c> je reçois 50 francs enfin. Là-dessus je paye d’abord les 5 francs empruntés au cafetier<ptr target="#note-t-7"/> plus 10 consommations prises dans le courant de cette derniere semaine à crédit<c type="kk">/</c></p>
+
+
+<p xml:id="p.fr.23" n="23">ce qui fait                                                         fr<c type="kp">_</c>  7.50</p>
+
+<p xml:id="p.fr.24" n="24">je dois payer encore du linge rapporté de l’hôpital et puis de cette semaine écoulée et reparation de souliers et d’un pantalon certes ensemble quelque chose comme                             5</p>
+
+<p xml:id="p.fr.25" n="25">Bois et charbon encore à payer de Decembre</p>
+
+<p xml:id="p.fr.26" n="26">et à reprendre pas moins de                                     4</p>
+
+<p xml:id="p.fr.27" n="27">Femme de ménage 2<hi rend="super">me</hi> quinzaine Janvier               10</p> 
+<p xml:id="p.fr.28" n="28">_____</p>                                                                                     
+      
+<p xml:id="p.fr.29" n="29">26.50</p>
+      
+      
+
+<p xml:id="p.fr.30" n="30">Net il me restera demain matin lorsque j’aurai soldé ce montant                                   fr<c type="kp">_</c> 23.50</p>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Nous sommes le 17<c type="kk">/</c> il reste 13 jours à faire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.32" n="32">Demande<c type="kk">/</c><ptr target="#note-t-b"/> combien pourrai je dépenser par jour.– Il y a ensuite à ajouter que tu as envoyé 30 francs à Roulin sur lesquels il a payé les 21.50 de loyer de Decembre.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">Voilà<c type="kk">/</c> mon cher frère<c type="kk">/</c> le compte du mois actuel. Il n’est pas fini<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Nous abordons maintenant des dépenses qui t’ont été occasionnées par un télégramme de Gauguin que je lui ai déjà assez formellement reproché d’avoir dépêché.<ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Les dépenses ainsi faites de travers sont elles inférieures à 200 francs?</p>
+
+<p rend="indent" xml:id="p.fr.36" n="36">Gauguin lui-même prétend-il qu’il a fait là des manoeuvres magistrales?</p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Ecoutez je n’insiste pas davantage sur l’absurdité de cette démarche<c type="kp">_</c> Supposons que moi j’etais tout ce qu’on voudra d’égaré<c type="kk">/</c> pourquoi alors l’illustre copain n’etait il pas plus calme............... Je n’insisterai pas davantage sur ce point.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Je ne saurais assez te louer d’avoir payé Gauguin d’une telle façon qu’il ne saurait que se louer des rapports qu’il a eu avec nous.–</p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">Cela<c type="kk">/</c> voilà encore malencontreusement une dépense peutetre plus forte que de juste mais enfin là j’entrevois une espérance<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.40" n="40">Ne doit-il pas lui<c type="kk">/</c> ou au moins ne devrait-il pas un peu commencer à voir que nous n’étions pas ses exploiteurs mais qu’au contraire on y tenait de lui sauvegarder l’existence<c type="kk">/</c> la possibilité de travail et........ et... l’honnêteté.</p>
+
+<p rend="indent" xml:id="p.fr.41" n="41">Si cela est au-dessous des prospectus grandioses d’associations d’artistes (qu’il a proposés et auquels il tient toujours) de la façon que tu sais<c type="kk">/</c> si cela est au-dessous de ses autres chateaux en Espagne<ptr target="#note-t-10"/> –</p>
+
+<p rend="indent" xml:id="p.fr.42" n="42">Pourquoi alors ne pas le considérer comme irresponsable des douleurs et dégats qu’inconsciemment tant à toi qu’à moi il aurait pu dans son aveuglement nous causer. Si actuellement encore cette thèse-là te paraîtrait trop hardie – je n’insiste pas – mais attendons<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.43" n="43">Il a eu des antécédents dans ce qu’il appelle “la banque à Paris” et se croit malin là-dedans.... Peutêtre de ce côté-là toi et moi sommes décidemment peu curieux.–</p>
+
+<p rend="indent" xml:id="p.fr.44" n="44">Quand même ceci se trouve pas tout à fait en désaccord avec certains passages de notre correspondance antérieure.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.45" n="45">Si Gauguin était à Paris pour un peu bien s’étudier ou se faire étudier par un médecin spécialiste<c type="kk">/</c> ma foi je ne sais trop ce qui en résulterait.<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.46" n="46">Je lui ai vu faire à diverses reprises des chôses que toi ou moi ne nous permettrions pas de faire<c type="kk">/</c> ayant des consciences autrement sentant – j’ai entendu deux ou trois chôses qu’on disait de lui dans ce même genre – mais moi qui l’ai vu de très très près<c type="kk">/</c> je le crois entraîné par l’imagination<c type="kk">/</c> par de l’orgueil peut-être mais – – assez irresponsable<c type="kp">_</c>– Cette conclusion-là n’implique pas que je te recommande beaucoup de l’écouter en <hi rend="italics">toute</hi> circonstance<c type="kp">_</c> Mais dans l’occasion du règlement de son compte je vois que tu a agi avec une conscience supérieure et alors je crois que nous n’avons rien à craindre d’être induits dans des erreurs de “banque de Paris” par lui<c type="kp">_</c> Mais lui.... ma foi qu’il fasse tout ce qu’il veuille<c type="kk">/</c> qu’il aye ses indépendances????? (de quelle façon considère-t-il son caractère indépendant)<c type="kk">/</c> ses opinions... et qu’il aille son chemin<c type="kk">/</c> du moment qu’il lui semble qu’il le sache mieux que nous.–</p>
+
+<p rend="indent" xml:id="p.fr.47" n="47">Je trouve assez étrange qu’il me réclame un tableau de tournesols en m’offrant en échange je suppose ou comme cadeau quelques études qu’il a laissé ici. Je lui renverrai ses etudes – qui probablement auront pour lui des utilités qu’elles n’auraient aucunement pour moi.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.48" n="48">Mais pour le moment je garde mes toiles ici et categoriquement je garde moi mes tournesols en question<c type="kp">_</c><ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.fr.49" n="49">Il en a déjà <hi rend="italics">deux</hi><c type="kk">/</c> que cela lui suffise.– Et s’il n’est pas content de l’échange fait avec moi il peut reprendre sa petite toile de la Martinique et son portrait qu’il m’a renvoyé de Bretagne en me rendant de son côté et mon portrait et mes deux toiles de tournesols qu’il a prises à Paris.–<ptr target="#note-t-13"/> Si donc jamais il réabordera ce sujet ce que je dis est clair assez.</p>
+
+<p rend="indent" xml:id="p.fr.50" n="50">Comment Gauguin peut il prétendre avoir craint de me déranger par sa présence alors qu’il saurait difficilement nier qu’il a su que continuellement je l’ai demandé et qu’on le lui a dit et redit que j’insistais à le voir à l’instant.</p>
+
+<p rend="indent" xml:id="p.fr.51" n="51">Justement pour lui dire de garder cela pour lui et pour moi sans te déranger toi.– Il n’a pas voulu écouter.</p>
+
+<p rend="indent" xml:id="p.fr.52" n="52">Cela me fatigue de récapituler tout cela et de calculer et recalculer des chôses de ce genre.</p>
+
+<p rend="indent" xml:id="p.fr.53" n="53">J’ai essayé dans cette lettre de te montrer la différence qu’il y existe entre mes dépenses nettes et venant directement de moi et celles dont je suis moins responsables<c type="kp">_</c> J’ai été désolé de ce que juste à ce moment tu eusses ces dépenses qui ne profitaient à personne.</p>
+
+<p rend="indent" xml:id="p.fr.54" n="54">Que sera la suite<c type="kk">/</c> je verrai à fur et à mesure que je reprendrai mes forces si ma position est tenable. Je redoute tant un changement ou déménagement justement à cause de nouveaux frais. Jamais je peux depuis assez longtemps tout à fait reprendre 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>haleine. Je ne lache pas le travail parceque par moments il marche et je crois avec patience justement arriver à ce resultat de pouvoir recouvrir par des tableaux faits les dépenses antérieures<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.55" n="55">Roulin va partir et cela déjà le 21<c type="kk">/</c> il va être employé à Marseille<c type="kp">_</c></p>
+      
+<p rend="indent" xml:id="p.fr.56" n="56">l’augmentation de salaire est minime et il va etre obligé de quitter pour un temps sa femme et ses enfants qui ne pourront le suivre que beaucoup plus tard à cause de ce que les dépenses de toute une famille seraient plus lourdes à Marseille<c type="kp">_</c><ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.57" n="57">C’est un avancement pour lui mais c’est une consolation bien bien maigre que donne ainsi le gouvernement à un tel employé après tant d’années de travail<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.58" n="58">Et au fond je crois qu’ils demeurent lui comme sa femme bien bien navrés<c type="kp">_</c> Roulin m’a bien souvent tenu compagnie pendant cette dernière semaine<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.59" n="59">Je suis tout à fait d’accord avec toi sur ce que nous ne devons pas nous mêler des questions de medecins qui ne nous regardent aucunement<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.60" n="60">Justement puisque tu avais écrit à M. Rey un mot qu’à Paris tu l’introduirais<c type="kk">/</c> j’ai cru comprendre chez Rivet<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.61" n="61">Je n’ai pas cru faire rien de compromettant en disant moi à M. Rey que s’il irait à Paris cela me ferait grand plaisir s’il voulait emporter un tableau en souvenir de moi à M<c type="kp">_</c> Rivet.<ptr target="#note-t-15"/></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.fr.62" n="62">Je n’ai naturellement pas parlé d’autre chôse mais ce que j’ai dit c’est que moi je regretterais toujours de ne pas être médecin et que ceux qui croient que la peinture est belle feraient bien de n’y voir qu’une étude de la nature<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.63" n="63">Cela demeurera quand même dommage que Gauguin et moi aient peutetre lâché trop vite la question de Rembrandt et de la lumière que nous avions entamée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.64" n="64">De Haan et Isaacson sont ils toujours là<c type="kk">/</c> qu’ils ne se découragent pas.–</p>
+
+<p rend="indent" xml:id="p.fr.65" n="65">Après ma maladie j’ai eu naturellement l’oeil très très sensible<c type="kp">_</c> J’ai <hi rend="italics">re re</hi>gardé le croquemort de de Haan dont il a bien voulu m’envoyer la photographie<c type="kp">_</c>–<ptr target="#note-t-16"/> Eh bien il me semble qu’il y a du vrai esprit de Rembrandt dans cette figure-là qui semble éclairée par le reflet d’une lumière émanante du tombeau ouvert devant lequel demeure somnambule le dit croquemort<c type="kp">_</c>– Cela y est d’une façon très subtile<c type="kp">_</c> Moi je ne laboure pas la question par le moyen du fusain et lui de Haan a pris pour moyen d’expression justement ce fusain qui est encore une matière incolore.</p>
+
+<p rend="indent" xml:id="p.fr.66" n="66">Je voudrais bien que de Haan voie une étude de moi d’une chandelle allumée et deux romans (l’un jaune<c type="kk">/</c> l’autre rose) posees sur un fauteuil vide (justement le fauteuil de Gauguin)<c type="kk">/</c> toile de 30 en rouge et vert.<ptr target="#note-t-17"/> Je viens de travailler encore aujourd’hui au pendant<c type="kk">/</c> ma chaise vide à moi<c type="kk">/</c> une chaise de bois blanc avec une pipe et un cornet de tabac.<ptr target="#note-t-18"/> Dans ces deux etudes comme dans d’autres j’ai moi cherché un effet de lumière avec de la couleur claire – de Haan comprendrait probablement ce que je cherche si tu lui lis ce que je t’écris à ce sujet.–</p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.fr.67" n="67">Quelque longue que soit maintenant cette lettre dans laquelle j’ai cherché à analyser le mois et dans laquelle je me plains un peu de l’étrange phenomène que Gauguin aie préféré ne pas me reparler tout en s’éclipsant<c type="kk">/</c> il me reste à y ajouter quelques mots d’appréciation<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.68" n="68">Ce qu’il a de bon c’est qu’il sait à merveille diriger la dépense de jour en jour.<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.69" n="69">Alors que moi je suis souvent absent<c type="kk">/</c> préoccupé d’arriver à bonne <hi rend="italics">fin</hi> –</p>
+
+<p rend="indent" xml:id="p.fr.70" n="70">Lui a davantage que moi pour l’argent l’équilibre de la journée même<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.71" n="71">Mais son faible est que par une ruade et des écarts de bête il dérange tout ce qu’il rangeait<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.72" n="72">Or reste-t-on à son poste une fois qu’on l’a pris ou le déserte-t-on<c type="kp">_</c> Je ne juge personne là-dedans espérant moi-même ne pas être condamné dans des cas où les forces me manqueraient<c type="kp">_</c> Mais si Gauguin a tant de vertu réelle et tant de capacités de bienfaisance<c type="kk">/</c> comment va-t-il s’employer? Moi j’ai cessé de pouvoir suivre ses actes et je m’arrête silencieusement avec un point d’interrogation cependant.</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.fr.73" n="73">Lui et moi avons de temps à autre échangé nos idées sur l’art francais<c type="kk">/</c> sur l’impressionisme...</p>
+
+<p rend="indent" xml:id="p.fr.74" n="74">Il me semble à moi maintenant impossible<c type="kk">/</c> au moins assez improbable que l’impressionisme s’organise et se calme<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.75" n="75">Pourquoi n’adviendra-t-il pas ce qui est arrivé en Angleterre lors des Préraphaelites.</p>
+
+<p rend="indent" xml:id="p.fr.76" n="76">La société s’est dissoute.–<ptr target="#note-t-20"/></p>
+
+<p rend="indent" xml:id="p.fr.77" n="77">Je prends peutetre toutes ces chôses trop à coeur et j’en ai peutetre trop de tristesse<c type="kp">_</c>– Gauguin a-t-il jamais lu Tartarin sur les Alpes et se souvient-il de l’illustre copain Tarasconais de Tartarin qui avait un telle imagination qu’il avait du coup imaginé toute une Suisse imaginaire?</p>
+
+<p rend="indent" xml:id="p.fr.78" n="78">Se souvient-il du noeud dans une corde retrouvé en haut des Alpes après la chute<c type="kp">_</c><ptr target="#note-t-21"/></p>
+
+<p rend="indent" xml:id="p.fr.79" n="79">Et toi qui désire savoir comment etaient les choses<c type="kk">/</c> as tu deja 
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>lu le Tartarin tout entier<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.80" n="80">Cela t’apprendrait passablement à reconnaître Gauguin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.81" n="81">C’est très serieusement que je t’engage à revoir ce passage dans le livre de Daudet<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.82" n="82">As tu lors de ton voyage ici pu remarqué l’étude que j’ai peinte de la diligence de Tarascon<c type="kk">/</c> laquelle comme tu sais est mentionnée dans Tartarin chasseur de lions.<ptr target="#note-t-22"/></p>
+
+<p rend="indent" xml:id="p.fr.83" n="83">Et puis te rappelles tu Bompard dans Numa Roumestan et son heureuse imagination<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.84" n="84">Voilà ce qui en est<c type="kk">/</c> quoique d’un autre genre<c type="kk">/</c> Gauguin a une belle et franche et absolument complète <hi rend="italics">imagination du midi</hi><c type="kk">/</c> avec cette imagination-là il va agir dans le nord! Ma foi on en verra peutetre encore de drôles!</p>
+
+<p rend="indent" xml:id="p.fr.85" n="85">Et disséquant maintenant en toute hardiesse rien ne nous empêche de voir en lui le petit tigre Bonaparte de l’impressionisme en tant que<c type="shy">-</c>.....<ptr target="#note-t-23"/> je ne sais trop comment dire cela<c type="kk">/</c> son éclipse mettons d’Arles soit comparable ou paralèle au Retour d’Egypte du petit caporal sus mentionné<c type="kk">/</c> lequel aussi s’est après rendu à Paris. et qui toujours abandonnait les armees dans la dêche<c type="kp">_</c><ptr target="#note-t-24"/></p>
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>
+
+<p rend="indent" xml:id="p.fr.86" n="86">Heureusement Gauguin<c type="kk">/</c> moi et autres peintres ne sommes pas encore armées de mitrailleuses et autres très nuisibles engins de guerre. Moi pour un suis bien decidé à chercher à ne rester armé que de ma brosse et de ma plume<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.87" n="87">à grands cris Gauguin m’a néamoins réclamé dans sa derniere lettre “<hi>Ses masques et gants d’armes</hi>” cachés dans le petit cabinet de ma petite maison jaune.–<ptr target="#note-t-25"/></p>
+
+<p rend="indent" xml:id="p.fr.88" n="88">Je m’empresserai de lui faire parvenir par collis postal ces enfantillages-là<c type="kp">_</c> Espérant que jamais il ne se servira de chôses plus graves.</p>
+
+<p rend="indent" xml:id="p.fr.89" n="89">Il est physiquement plus fort que nous<c type="kk">/</c> ses passions aussi doivent être bien plus fortes que les nôtres. Puis il est père d’enfants puis il a sa femme et ses enfants dans le Danemark<ptr target="#note-t-26"/> et il veut simultanement aller tout à l’autre bout du globe à la Martinique<c type="kp">_</c> C’est effroyable tout le vice versa de désirs et de besoins incompatibles que cela doit lui occasionner. Je lui avais osé assurer que s’il se fut tenu tranquille avec nous autres<c type="kk">/</c> travaillant ici à Arles sans perdre de l’argent<c type="kk">/</c> en gagnant puisque tu t’occupais de ses tableaux<c type="kk">/</c> sa femme lui aurait certes écrit et aurait approuvé sa tranquilité. Il y a meme encore plus<c type="kk">/</c> il y a qu’il a été souffrant et malade gravement et qu’il s’agissait de trouver et le mal et le remède. Or ici ses douleurs avaient déjà cessés<c type="kp">_</c> Suffit pour aujourd’hui<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.90" n="90">As tu l’adresse de Laval<c type="kk">/</c> l’ami de Gauguin<c type="kp">_</c> tu peux dire à Laval que je suis tres étonné que son ami Gauguin n’aie pas emporté pour le lui remettre un portrait de moi que je lui destinais<c type="kp">_</c><ptr target="#note-t-27"/> Je te l’enverrai maintenant à toi et tu pourras le lui faire avoir<c type="kp">_</c> J’en ai un autre nouveau pour toi aussi<c type="kp">_</c><ptr target="#note-t-28"/> Merci encore de ta lettre<c type="kp">_</c> je t’en prie tâche de songer que ce serait reellement impossible de vivre 13 jours des f<hi rend="super">r</hi> 23.50 qui vont me rester<c type="kk">/</c> avec 20 francs que tu enverrais semaine prochaine je chercherai à parvenir.</p>
+
+<p rend="indent" xml:id="p.fr.91" n="91">Poignee de main<c type="kk">/</c> je relirai encore ta lettre et t’ecrirai bientot sur les autres questions.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.92" n="92">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.93" n="93">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your kind letter and for the 50-franc note it contained. As to answering all your questions, can you do it yourself, at the moment I don’t feel up to it. On reflection I do indeed want to seek a solution, but I must re-read your letter again &amp;c.</p>
+<p rend="indent" xml:id="p.en.3" n="3">But before discussing what I might or might not spend in a whole year, it would perhaps put us on track to review nothing but the present, current month for a moment.<ptr target="#note-t-1"/> </p>
+<p rend="indent" xml:id="p.en.4" n="4">In any case it has been completely lamentable, and indeed I would count myself fortunate if finally you might pay some serious attention to the way things are and have been for so long.</p>
+<p rend="indent" xml:id="p.en.5" n="5">But what can one do, unfortunately it’s complicated in several ways, my paintings are worthless, they cost me an extraordinary amount, it’s true, perhaps sometimes even in blood and brain. I won’t press the point, and what do you want me to say about it. Let’s get back in any case to the present month and speak only of money.</p>
+<p rend="indent" xml:id="p.en.6" n="6">On 23 December there was still a louis and 3 sous in the cash-box.<ptr target="#note-t-2"/> That same day I received the 100-franc note from you.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Here are the expenses</p>
+<p xml:id="p.en.8" n="8">Given to <rs type="person" ref="bio.xml#_647">Roulin</rs> to pay the charwoman<ptr target="#note-t-3"/> for the month of December</p>
+<p xml:id="p.en.9" n="9">20 Francs.</p>
+<p xml:id="p.en.10" n="10">same for 1st fortnight of January            10 ,,      Fr. 30.-</p>
+<p xml:id="p.en.11" n="11">Paid to hospital        21</p>
+<p xml:id="p.en.12" n="12">,, to the nurses who dressed the wound     10</p>
+<p xml:id="p.en.13" n="13">On returning here paid for a table, a gas heater</p>
+<p xml:id="p.en.14" n="14">&amp;c., which had been lent to me and which I then</p>
+<p xml:id="p.en.15" n="15">took on account.         20</p>
+<p xml:id="p.en.16" n="16">Paid for having all the bedding, bloodstained</p>
+<p xml:id="p.en.17" n="17">linen &amp;c. laundered        12.50</p>
+<p xml:id="p.en.18" n="18">Various purchases like a dozen brushes, a hat</p>
+<p xml:id="p.en.19" n="19">&amp;c. &amp;c. let’s say        10</p>
+<p xml:id="p.en.20" n="20">______</p>
+<p xml:id="p.en.21" n="21">         103.50</p>
+<p xml:id="p.en.22" n="22">Thus we’ve already arrived, on the day I left hospital or the day after, at an involuntary expenditure on my part of 103.50, to which it must be added that then on the first day 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I cheerfully went to have dinner with <rs type="person" ref="bio.xml#_647">Roulin</rs> at the restaurant, completely reassured and with no fear of renewed anguish.<ptr target="#note-t-4"/> In short, the result of all that was that I was broke around the 8th. But one or two days after that I borrowed 5 francs. We were barely at the tenth. I was hoping for a letter from you around the tenth, but as that letter only arrived today, 17 January, the interval has been a fast of the most rigorous sort, all the more painfully so because my recovery couldn’t take place under those conditions.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Nevertheless, I’ve started work again and I already have 3 studies done in the studio<ptr target="#note-t-5"/> plus the portrait of <rs type="person" ref="bio.xml#_637">Mr Rey</rs>, which I gave him as a keepsake.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">So this time again there’s no more serious harm than a little more suffering and relative anguish. And I retain all good hope. But I feel weak and a little anxious and fearful.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Which will pass, I hope, as I regain my strength.</p>
+<p rend="indent" xml:id="p.en.26" n="26"><rs type="person" ref="bio.xml#_637">Rey</rs> told me that being very impressionable was enough to have had what I had as regards the crisis, and that currently I was only anaemic, but that really I ought to feed myself up. But myself, I took the liberty of telling Mr Rey that if currently the first thing for me was to recover my strength, if by pure chance or misunderstanding it had just happened again that I’d had to keep to a rigorous one-week fast, if in similar circumstances he had seen many madmen quite calm and capable of working – and if not then would he deign to remember occasionally that for the moment I myself am not yet mad.</p>
+<p rend="indent" xml:id="p.en.27" n="27">Now, in these payments that I made, is there anything unwarranted, extravagant or exaggerated in these expenses, considering that the whole house was turned upside down by this adventure, and all the linen and my clothes soiled? If I paid what was <hi rend="italics">owing</hi> to people almost as poor as myself as soon as I got back, is there an error on my part or could I have economized 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> more?</p>
+<p rend="indent" xml:id="p.en.28" n="28">Now today, the 17th, I receive 50 francs at last. Out of this I first pay the 5 francs borrowed from the <rs type="person" ref="bio.xml#_382">café owner</rs>,<ptr target="#note-t-7"/> then for 10 refreshments taken during this last week on credit, </p>
+<p xml:id="p.en.29" n="29">which makes      Fr. 7.50</p>
+<p xml:id="p.en.30" n="30">I still have to pay for the linen brought back from the hospital, and then for this past week, for the repair of shoes and of a pair of trousers, certainly all in all something like        5</p>
+<p xml:id="p.en.31" n="31">Wood and coal still to be paid for December, and to be bought again, not less than</p>
+<p xml:id="p.en.32" n="32">        4</p>
+<p xml:id="p.en.33" n="33">Charwoman 2nd fortnight of January    10</p>
+<p xml:id="p.en.34" n="34">______</p>
+<p xml:id="p.en.35" n="35">        26.50</p>
+<p xml:id="p.en.36" n="36">Tomorrow morning when I’ve cleared this amount I’ll have left, net Fr. 23.50</p>
+<p rend="indent" xml:id="p.en.37" n="37">It’s the 17th today, there are still 13 days left to get through.</p>
+<p rend="indent" xml:id="p.en.38" n="38">Question: how much can I spend per day? Next there must be added the fact that you sent 30 francs to <rs type="person" ref="bio.xml#_647">Roulin</rs>, out of which he paid the 21.50 for the rent for December.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.39" n="39">There you are, my dear brother, the account for the current month. It isn’t finished.</p>
+<p rend="indent" xml:id="p.en.40" n="40">We now come to the expenses occasioned by a telegram from <rs type="person" ref="bio.xml#_1039">Gauguin</rs> which I’ve already reproached him quite formally for having sent.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.41" n="41">Are the expenses thus wrongly incurred less than 200 francs?</p>
+<p rend="indent" xml:id="p.en.42" n="42">Does <rs type="person" ref="bio.xml#_1039">Gauguin</rs> himself claim to have acted brilliantly in this?</p>
+<p rend="indent" xml:id="p.en.43" n="43">Look, I won’t press the point any more about the absurdity of that course of action. Let’s suppose that I was as distraught as could be, why then wasn’t the illustrious pal calmer.......... I shan’t labour this point any more. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.44" n="44">I can’t praise you enough for paying <rs type="person" ref="bio.xml#_1039">Gauguin</rs> in such a way that he couldn’t but congratulate himself on the relations he’s had with us.</p>
+<p rend="indent" xml:id="p.en.45" n="45">Unfortunately, that’s another expense, perhaps more sizeable than it should have been, but anyway, I glimpse hope in it.</p>
+<p rend="indent" xml:id="p.en.46" n="46">Mustn’t he, or at least shouldn’t he begin to see a little that we weren’t his exploiters, but that on the contrary we were anxious to safeguard his existence, his possibility of work and........ and... his integrity. </p>
+<p rend="indent" xml:id="p.en.47" n="47">If that’s unworthy of the grandiose prospectuses for artists’ associations (which he proposed and to which he still holds) in the way you know, if that’s unworthy of his other castles in the air.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.48" n="48">Why then not consider him as not responsible for the sorrows and damage which unconsciously he could have caused us in his blindness, you as much as me. If currently that thesis still seems too bold to you – I won’t press the point – but let’s wait and see.</p>
+<p rend="indent" xml:id="p.en.49" n="49">He’s had previous experience with what he calls ‘banking in Paris’ and believes that he’s clever at it... Perhaps you and I are decidedly not so very curious in that regard.</p>
+<p rend="indent" xml:id="p.en.50" n="50">All the same, this isn’t in complete disagreement with certain passages of our earlier correspondence. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.51" n="51">If <rs type="person" ref="bio.xml#_1039">Gauguin</rs> were to examine himself properly in Paris or have himself examined by a specialist doctor, my word I don’t really know what the result of it would be.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.52" n="52">Several times over I’ve seen him do things that you or I wouldn’t permit ourselves to do, having consciences that feel things differently – I’ve heard two or three things said of him in the same vein – but I, who saw him at very, very close quarters, I believed him led by his imagination, by pride perhaps but – – quite irresponsible. This conclusion doesn’t imply that I firmly recommend that you listen to him in <hi rend="italics">all</hi> circumstances. But in the matter of settling his account I see that you acted with a higher conscience, and so I believe that we have nothing to fear from being led into errors of ‘banking in Paris’ by him. But as for him... upon my word, let him do what he wants, let him have his independences????? (in what way does he consider his character independent), his opinions... and let him go his own way, as it seems to him that he knows it better than we do.</p>
+<p rend="indent" xml:id="p.en.53" n="53">I find it quite odd that he’s claiming a painting of sunflowers from me, offering me in exchange I suppose, or as a gift, a few studies that he left here. I’ll send back his studies — which will probably have uses for him that they certainly wouldn’t have for me. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.54" n="54">But for the moment I’m keeping my canvases here, and I’m categorically keeping those sunflowers of mine.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.55" n="55">He already has <hi rend="italics">two</hi> of them, let that be enough for him. And if he’s unhappy with the exchange he made with me he can take back his little canvas of Martinique and his portrait that he sent me from Brittany, giving me back for his part both my portrait and my two canvases of sunflowers which he took in Paris.<ptr target="#note-t-13"/> So if he ever raises this subject again, what I’ve said is clear enough.</p>
+<p rend="indent" xml:id="p.en.56" n="56">How can <rs type="person" ref="bio.xml#_1039">Gauguin</rs> claim to have feared disturbing me by his presence when he would have difficulty denying that he knew I asked for him continually, and people told him time and again that I was insisting on seeing him that very moment?</p>
+<p rend="indent" xml:id="p.en.57" n="57">Precisely to tell him to keep it between himself and me without disturbing you. He wouldn’t listen.</p>
+<p rend="indent" xml:id="p.en.58" n="58">It wearies me to recapitulate all this and calculate and recalculate things of this kind.</p>
+<p rend="indent" xml:id="p.en.59" n="59">I’ve tried in this letter to show you the difference that exists between my net expenses which come directly from me and those for which I am less responsible. I was sorry that just at that moment you should have those expenses, which were of no benefit to anyone.</p>
+<p rend="indent" xml:id="p.en.60" n="60">What will happen next, I’ll see if my position is tenable as I regain my strength. I so dread a change or moving house precisely because of new expenses. For quite a long time I’ve never been able to catch my breath completely. <pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> I’m not giving up work, because at moments it’s going well, and I believe that it’s precisely with patience that I’ll arrive at this result of being able to recover the previous expenses with paintings I’ve done.</p>
+<p rend="indent" xml:id="p.en.61" n="61"><rs type="person" ref="bio.xml#_647">Roulin</rs>’s going to leave, and as early as the 21st, he’s going to be employed in Marseille.</p>
+<p rend="indent" xml:id="p.en.62" n="62">The increase in salary is minimal, and he’ll have to leave his <rs type="person" ref="bio.xml#_648">wife</rs> and his <rs type="person" ref="bio.xml#_649 bio.xml#_650 bio.xml#_651">children</rs> for a while, who won’t be able to follow him until much later because the expenses of a whole family would be heavier in Marseille.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.63" n="63">It’s a promotion for him, but it’s a very, very meagre consolation the government gives in this way to such an employee after so many years of work.</p>
+<p rend="indent" xml:id="p.en.64" n="64">And at heart I think they, he and his <rs type="person" ref="bio.xml#_648">wife</rs>, are still very, very upset. <rs type="person" ref="bio.xml#_647">Roulin</rs> has very often kept me company during this past week.</p>
+<p rend="indent" xml:id="p.en.65" n="65">I completely agree with you that we mustn’t meddle in doctors’ issues that have absolutely nothing to do with us.</p>
+<p rend="indent" xml:id="p.en.66" n="66">Just because you wrote a note to <rs type="person" ref="bio.xml#_637">Mr Rey</rs> saying you would introduce him in Paris, I thought you meant to <rs type="person" ref="bio.xml#_640">Rivet</rs>.</p>
+<p rend="indent" xml:id="p.en.67" n="67">I didn’t think I was doing anything compromising by saying to <rs type="person" ref="bio.xml#_637">Mr Rey</rs> myself that if he went to Paris it would give me great pleasure if he wanted to take a painting from me to <rs type="person" ref="bio.xml#_640">Mr Rivet</rs> as a keepsake.<ptr target="#note-t-15"/> 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.68" n="68">Naturally I didn’t speak of anything else, but what I said is that I would always regret not being a doctor, and that those who believe painting is beautiful would do well to see in it only a study of nature.</p>
+<p rend="indent" xml:id="p.en.69" n="69">All the same, it will continue to be a pity that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I were perhaps too quick to drop the question of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and light which we embarked upon.</p>
+<p rend="indent" xml:id="p.en.70" n="70">Are <rs type="person" ref="bio.xml#_1075">De Haan</rs> and <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> still there, they mustn’t get discouraged.</p>
+<p rend="indent" xml:id="p.en.71" n="71">After my illness I’ve naturally had a very sensitive eye. I have <hi rend="italics">re</hi>-looked at <rs type="person" ref="bio.xml#_1075">De Haan</rs>’s undertaker, of which he was kind enough to send me a photograph.<ptr target="#note-t-16"/> Well, it seems to me that there’s some real <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> spirit in that figure, which seems lit by the reflection of a light emanating from the open tomb before which the said undertaker stands like a sleep-walker. It’s there in a very subtle way. I don’t tackle the question with charcoal and he, <rs type="person" ref="bio.xml#_1075">De Haan</rs>, has taken as a means of expression this very charcoal, which is again a colourless material.</p>
+<p rend="indent" xml:id="p.en.72" n="72">I would really like <rs type="person" ref="bio.xml#_1075">De Haan</rs> to see a study of mine of a lighted candle and two novels (one yellow, the other pink) placed on an empty armchair (<rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s armchair, to be precise), no. 30 canvas in red and green.<ptr target="#note-t-17"/> I’ve just been working on the pendant again today, my own empty chair, a deal chair with a pipe and a tobacco pouch.<ptr target="#note-t-18"/> In these two studies, as in others, I myself sought an effect of light with bright colour – De Haan would probably understand what I’m seeking if you read him what I write to you on this subject. 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.73" n="73">However long this letter may now be, in which I’ve tried to analyze the month and in which I complain a little about the strange phenomenon of <rs type="person" ref="bio.xml#_1039">Gauguin</rs> preferring not to speak to me again while at the same time making himself scarce, it remains for me to add a few words of appreciation.</p>
+<p rend="indent" xml:id="p.en.74" n="74">What’s good about him is that he knows how to apportion expenditure from day to day marvellously well.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.75" n="75">Whereas myself, I’m often absent-minded, preoccupied with reaching a good <hi rend="italics">end-point</hi>.</p>
+<p rend="indent" xml:id="p.en.76" n="76">He has more of a sense for balancing money for each day than I do.</p>
+<p rend="indent" xml:id="p.en.77" n="77">But his weakness is that by a sudden attack and animal-like impulse he upsets everything he was setting up.</p>
+<p rend="indent" xml:id="p.en.78" n="78">Now, does one remain at one’s post once one has taken it, or does one desert it? I don’t judge anyone in this, hoping not to be condemned myself should I lack the strength. But if <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has so much real virtue and such capacities for doing good, how is he going to employ himself? As for me, I’ve ceased to be able to follow his actions, and I halt silently but with a question mark. 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.79" n="79">From time to time he and I have exchanged ideas on French art, on Impressionism...</p>
+<p rend="indent" xml:id="p.en.80" n="80">It now seems to me impossible, at least quite improbable, that Impressionism will organize itself and calm down.</p>
+<p rend="indent" xml:id="p.en.81" n="81">Why will the same not happen as happened in England at the time of the Pre-Raphaelites?</p>
+<p rend="indent" xml:id="p.en.82" n="82">The association is dissolved.<ptr target="#note-t-20"/></p>
+<p rend="indent" xml:id="p.en.83" n="83">Perhaps I take all these things too much to heart, and I’m perhaps too sad about them. Has <rs type="person" ref="bio.xml#_1039">Gauguin</rs> ever read Tartarin sur les Alpes, and does he remember Tartarin’s illustrious pal from Tarascon who had such an imagination that in one fell swoop he imagined an entire imaginary Switzerland?</p>
+<p rend="indent" xml:id="p.en.84" n="84">Does he remember the knot in a rope rediscovered high up in the Alps after the fall?<ptr target="#note-t-21"/></p>
+<p rend="indent" xml:id="p.en.85" n="85">And you, who wish to know how things happened, have you ever read <pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/> the whole of Tartarin? 
+</p>
+<p rend="indent" xml:id="p.en.86" n="86">That would teach you to recognize <rs type="person" ref="bio.xml#_1039">Gauguin</rs> pretty well.</p>
+<p rend="indent" xml:id="p.en.87" n="87">I urge you in all seriousness to look at that passage in <rs type="person" ref="bio.xml#_583">Daudet</rs>’s book again.</p>
+<p rend="indent" xml:id="p.en.88" n="88">During your trip here were you able to notice the study that I painted of Tarascon’s diligence, which as you know is mentioned in Tartarin the lion-hunter?<ptr target="#note-t-22"/></p>
+<p rend="indent" xml:id="p.en.89" n="89">And then do you remember Bompard in Numa Roumestan and his happy imagination?</p>
+<p rend="indent" xml:id="p.en.90" n="90">This is what we have here, though of another kind, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has a fine and frank and absolutely complete <hi rend="italics">imagination of the south</hi>, with that imagination he’s going to work in the north! My word, we may yet see some more funny things!</p>
+<p rend="indent" xml:id="p.en.91" n="91">And now dissecting the situation in all boldness, nothing prevents us from seeing him as the little Bonaparte tiger of Impressionism as regards...<ptr target="#note-t-23"/> I don’t know quite how to say this, his vanishing let’s say from Arles is comparable or parallel to the Return from Egypt of the little corporal mentioned above, who also went to Paris afterwards. And who always left the armies in the lurch.<ptr target="#note-t-24"/> 
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/></p>
+<p rend="indent" xml:id="p.en.92" n="92">Happily <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, I and other painters aren’t yet armed with machine guns and other very harmful engines of war. I, for one, am quite determined to try to remain armed only with my brush and my pen.</p>
+<p rend="indent" xml:id="p.en.93" n="93">With loud shouts Gauguin nevertheless demanded from me in his last letter ‘<hi>His fencing masks and gloves</hi>’ hidden in the little room of my little yellow house.<ptr target="#note-t-25"/></p>
+<p rend="indent" xml:id="p.en.94" n="94">I’ll make haste to send him these childish things by parcel post. Hoping that he’ll never use more serious things.</p>
+<p rend="indent" xml:id="p.en.95" n="95">He’s physically stronger than we are, so his passions must also be much stronger than ours. Then he’s the father of children, then he has his <rs type="person" ref="bio.xml#_1040">wife</rs> and his children in Denmark,<ptr target="#note-t-26"/> and at the same time he wants to go right to the other end of the globe to Martinique. It’s horrifying, all the vice versa of incompatible desires and needs which that must cause him. I had dared to assure him that if he’d stayed quietly with us, working here in Arles without wasting money, earning it, since you were busying yourself with his paintings, his wife would certainly have written to him and would have approved of his quiet life. There’s still more besides, there’s the fact that he was sick and seriously ill, and that it was a question of discovering both the illness and the remedy. Now here his pains had already ceased. Enough for today.</p>
+<p rend="indent" xml:id="p.en.96" n="96">Do you have the address of <rs type="person" ref="bio.xml#_1148">Laval</rs>, Gauguin’s friend? You can tell Laval that I’m very astonished that his friend <rs type="person" ref="bio.xml#_1039">Gauguin</rs> didn’t take a portrait of me which I intended for him, in order to give it to him.<ptr target="#note-t-27"/> I’ll now send it to you and you can let him have it. I have another new one for you too.<ptr target="#note-t-28"/> Thanks again for your letter. Please try and think that it would be really impossible to live for 13 days on the 23.50 francs that I’ll have left. I’ll try to manage with 20 francs which you’d send me next week.</p>
+<p rend="indent" xml:id="p.en.97" n="97">Handshake, I’ll read your letter again and will write to you soon about the other matters.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.98" n="98">Ever yours,</p>
+<p xml:id="p.en.99" n="99">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">On the basis of ll. 48-49: ‘today, 17 January’ (‘aujourd’hui 17 janvier’), the letter has been dated to Thursday, 17 January 1889. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent’s first crisis and hospitalization <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">De Haan’s stay with Theo <ref target="let711.xml">(711)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s departure from Arles <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Theo’s forthcoming marriage forced him to reconsider his financial situation. In his letter he had probably asked Vincent to estimate his expenses for the coming year.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+      
+<p>A louis was a coin worth 20 francs; 3 sous is 15 centimes.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The charwoman was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1926">Thérèse Balmoissière</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh added ‘tout ... angoisse’ (completely ... anguish) later.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>These three studies were probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with onions and Annuaire de la santé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2763">F 604 / JH 1656</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with bandaged ear </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2764">F 527 / JH 1657</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with bandaged ear and pipe </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2765">F 529 / JH 1658</rs>). F 604 probably contains a depiction of the envelope in which Theo’s letter had arrived on 23 December <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-23">(l. 23)</ref>. His handwriting is recognizable, and the number ‘67’ in the postmark refers to place des Abbesses (office 67), the address of the post office where the letter was franked. There are also two postage stamps, one yellowish green, the other blue. They are probably one of 15 centimes, which was the normal rate for a letter, and one of 25 centimes, which was the extra postage for a registered letter. In the top left corner of the envelope there is a capital letter in a rectangle, probably R for Recommandée (Registered), so it is likely that this was the envelope containing Theo’s letter and the 100 franc note that Vincent received on 23 December.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Félix Rey </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2766">F 500 / JH 1659</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘qui passera’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This café owner was undoubtedly <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_382">Joseph Ginoux</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘question’.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Theo had sent <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> a postal order for 30 francs to pay the rent for December (21.50 francs). Roulin confirmed receipt of the payment in his letter to Theo of 7 January 1889 (FR b1069).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had telegraphed Theo that he should come to Arles, because Vincent had been admitted to hospital. In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let730.xml">letter 730</ref> Vincent, who had thought it unnecessary for Theo to come, reproached Gauguin for doing it.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>In a letter written to Van Gogh in June 1888, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had outlined his plan to start dealing in Impressionist paintings; Van Gogh dismissed his scheme as a ‘fata Morgana’. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let623.xml">See letter 623</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Avant et après</hi> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> quoted from a letter (no longer extant) which Van Gogh had written to him ‘well after the catastrophe’ (bien longtemps après la catastrophe), probably from Saint-Rémy: ‘How lucky you are to be in Paris. It’s still there that the leading medical men live, and you should certainly consult a specialist to cure you of insanity. Aren’t we all that?’ (Que vous êtes heureux d’être à Paris. C’est encore là où se trouvent les sommités, et certainement vous devriez consulter un spécialiste pour vous guérir de la folie. Ne le sommes-nous pas tous?) See Gauguin 1923, p. 13.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>This reveals that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had asked in the missing part of <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let734.xml">letter 734</ref> for the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>), the ‘sunflowers on a yellow background’ which is also mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml">letter 739</ref>. It had been hanging – together with its pendant, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>) – in Gauguin’s room in Arles (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let743.xml">letter 743</ref>). Van Gogh did not want to trade F 454 for the studies Gauguin had left behind, and suggested making a repetition as a compromise (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml">letter 739</ref>). He had intended the first two versions of the sunflowers for Theo (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let741.xml">letter 741</ref>). A short while later he made repetitions of both works: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2772">F 455 / JH 1668</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2771">F 458 / JH 1667</rs>) for the purpose of exchanging them with Gauguin (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let743.xml">letters 743</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let745.xml">745</ref>).</p>
+
+<p rend="indent">He had meanwhile decided that the four versions of sunflowers would serve as the wings of two triptychs, each with a Berceuse in the middle. This is why he wanted to exchange a Berceuse with Gauguin (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let748.xml">see letter 748</ref>), with the idea that Gauguin would then have an entire triptych. Later he wrote to Theo that Gauguin was allowed to have the Berceuse, but should offer work in exchange for the sunflowers (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let776.xml">see letter 776</ref>). Gauguin did in fact receive a Berceuse, but apparently not the sunflowers. See Van Tilborgh and Hendriks 2001, pp. 24-25. On the basis of their provenance, it can be stated that none of the versions of the sunflowers was ever in the possession of Gauguin. See Dorn 1999, pp. 60-61.</p>
+
+<p rend="indent">At the end of April or beginning of May 1889, Van Gogh sent Theo the studies Gauguin had left behind (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let765.xml">see letter 765</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>In Paris Van Gogh had traded his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers gone to seed </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2554">F 375 / JH 1329</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers gone to seed</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2555">F 376 / JH 1331</rs>) for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_100">On the shore of the lake, Martinique</rs></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let576.xml#n-2">see letter 576, n. 2.</ref> At the end of September 1888, Van Gogh had received Gauguin’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2262">Self-portrait with portrait of Bernard, ‘Les misérables’</rs></hi> and had sent him in return his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2715">F 476 / JH 1581</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let697.xml">See letter 697</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>In Marseille <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> took up the post of ‘courrier-convoyeur’ (an official in the postal carriage in the train, in charge of loading and unloading the postbags at each station and sorting the post during the journey). Van Gogh made a note of Roulin’s duties and his address in Marseille (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let742.xml">see letter 742</ref>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Additional details</hi>). Roulin’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_648">wife</rs> was staying with their <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_649 bio.xml#_650 bio.xml#_651">children</rs> at her mother’s in Lambesc until they could move to Marseille in October 1889 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let814.xml">see letter 814</ref>).</p>
+
+<p rend="indent">On 24 January 1889 Theo wrote to his sisters <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Elisabeth</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘Fortunately I have good news from Vincent and his letters are clearer than they have ever been. Just imagine, Roulin has just been transferred. That is a great loss for him. The house <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">physician</rs> at the hospital is now the one who can be of the most use to him’ (FR b919).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>This question also arose in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let735.xml">letter 735</ref>. On 30 December 1888 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Félix Rey</rs> had written to Theo: In a few months, when I submit my doctoral thesis in Paris, I too should be happy if somebody were able to take an interest in me at a difficult moment. (Dans quelques mois, lorsque j’irai passer ma thèse de doctorat à Paris; je serais heureux moi aussi, que quelqu’un pût s’interesser à moi dans le malheur) (FR b1056; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#id1888-2">see <hi rend="italics">Documentation</hi>, 30 December 1888</ref>).  The letter Theo wrote to Rey, to which Vincent refers, was no doubt a reaction to this. It is not known if Van Gogh gave <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_640">Rivet</rs> a painting.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>This undertaker by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">Meijer de Haan</rs> is not known. In October 1888 Theo had sent two photographs of drawings by De Haan; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let708.xml#n-3">see letter 708, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+<p>
+            <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gauguin’s chair </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2750">F 499 / JH 1636</rs>).</p>
+
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+<p>
+            <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Van Gogh’s chair </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2749">F 498 / JH 1635</rs>).</p>
+
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> later wrote about money matters in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Avant et après</hi>: ‘From the first month I saw our shared finances take on the same appearance of disorder. What was to be done? The situation was delicate, since the kitty was modestly filled by his brother who works for the firm of Goupil; in my case, in combination with exchanges of paintings. Speak out: it had to be done, and to clash with a very sensitive nature. It was therefore only with great care and many gentle approaches somewhat at odds with my nature that I broached the question. I must confess, I succeeded much more easily than I had imagined. In a box, so much for nocturnal excursions of a hygienic sort, so much for tobacco, and also so much for unexpected expenses, including the rent. On top of all that a piece of paper and a pencil to write honestly what each of us took out of this box. In another box, what was left of the total, divided into four parts for the cost of food each week.’ (Dès le premier mois je vis nos finances en commun prendre les mêmes allures de désordre. Comment faire? la situation était délicate, la caisse étant remplie modestement par son frère employé dans la maison Goupil; pour ma part en combinaison d’échange en tableaux. Parler: il le fallait et se heurter contre une susceptibilité très grande. Ce n’est donc qu’avec beaucoup de précautions et bien des manières câlines peu compatibles avec mon caractère que j’abordai la question. Il faut l’avouer, je réussis beaucoup plus facilement que je ne l’avais supposé. Dans une boîte, tant pour promenades nocturnes et hygiéniques, tant pour le tabac, tant aussi pour dépenses impromptu y compris le loyer. Sur tout cela un morceau de papier et un crayon pour inscrire honnêtement ce que chacun prenait dans cette caisse. Dans une autre boîte le restant de la somme divisée en quatre parties pour la dépense de nourriture chaque semaine.) See Gauguin 1923, pp. 16-17.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Regarding the Pre-Raphaelite Brotherhood, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml#n-10">see letter 625, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Tartarin de Tarascon</ref></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_460">Tartarin sur les Alpes</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml#n-9">see letter 583, n. 9.</ref> The friend of Tartarin referred to here is Bompard. This personage from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_402">Numa Roumestan</ref> </hi>– a book Van Gogh mentions later in the letter – appears again in Daudet’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Tartarin sur les Alpes</hi>. Bompard is a dreamer and a liar (a condition caused by the devastatingly hot sun of the south) and surpasses all his fellow Tarasconians in this respect.</p>
+
+<p rend="indent">Bompard’s ‘imaginary Switzerland’ is mentioned in ‘Confidences sous un tunnel’ (Secrets in a tunnel; chapter 5) in Tartarin sur les Alpes. See Daudet 1986-1994, vol. 3, pp. 593-596. Van Gogh’s mention of ‘the fall’ actually refers to ‘La catastrophe’ (The catastrophe; chapter 13). Bompard and Tartarin, tied together for a hike in the mountains, come to an impasse. They both cut themselves free, each assuming that this has caused the death of the other. Later the braggart Bompard claims that he tried to save Tartarin. In addition to telling this lie, he has broken the vow the friends had made to help each other in need, no matter what. The ‘rope’ to which Van Gogh refers – which symbolizes broken promises – is found at the end of the chapter (pp. 667-675); marking this passage is an illustration of a knotted rope with two severed ends. See, for instance, ed. Paris 1886, p. 348. Regarding Van Gogh’s comparison of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> with Bompard, see also Sund 1992, p. 216.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Tarascon stagecoach</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2733">F 478a / JH 1605</rs>). ‘Tartarin the lion-hunter’ refers to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Tartarin de Tarascon</ref></hi>; for the passage on the diligence, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let703.xml#n-1">see letter 703, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>After ‘tant que’ (as regards) Van Gogh crossed out first ‘son voyage’ (his journey) and then ‘sa desertion’ (his desertion).</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>In 1799 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_281">Napoleon</rs> returned to Paris, having started his ‘Egyptian expedition’ the previous year against the British dominion of India. Despite his military successes he was forced to break off the undertaking, because France had suffered a serious defeat in Europe against the Second Coalition. In 1812, when his army was decimated during its march to Russia, and again in 1815, when his army lost the Battle of Waterloo, Napoleon abandoned his men and returned to Paris. See J.M. Thompson, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Napoleon Bonaparte</hi>. Oxford 1988, pp. 338-339, 381.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had made this request in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let734.xml">letter 734</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> was planning to visit his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1040">wife</rs> and children in Copenhagen; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let723.xml#n-13">see letter 723, n. 13.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3042">F 501 / JH 1634</rs>). It bears the dedication ‘à l’ami <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1148">Laval</rs>. Vincent’.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Vincent intended one of the two recent self-portraits (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-5">see n. 5</ref> above) for Theo, probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with bandaged ear </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2764">F 527 / JH 1657</rs>); see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, p. 177. Hulsker took this to be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with clean-shaven face</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2769">F 525 / JH 1665</rs>), but Van Gogh made that painting in Saint-Rémy. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let806.xml#n-16">See letter 806, n. 16.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

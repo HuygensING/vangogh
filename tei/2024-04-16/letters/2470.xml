@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Tuesday, 18 July 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let247"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b238 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>247</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>216</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>248</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-07-18">Tuesday, 18 July 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000283_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000283_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000283_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000283_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000283_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000283_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000284_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000284_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000284_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000284_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000284_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000284_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000285_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000285_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000285_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0238 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000285_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000285_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000285_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Dinsdag morgen.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Ik heb U ditmaal iets te vertellen om<c type="shy">-</c>trent een bezoek van den Heer Tersteeg. Deze kwam van morgen hier – en zag Sien en de kinderen. Ik had wel gewenscht dat hij ten minste een vriendelijk gezigt had gezet tegen een jong moedertje dat 14 dagen kraams is. Maar ook dat scheen er niet op te kunnen overschieten. Waarde Theo<c type="kk">/</c> tegen mij heeft hij gesproken op een manier die gij U mogelijk begrijpen kunt:</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Wat beteekenden die vrouw en dat kind? Hoe kwam het mij in ’t hoofd er aan te denken met een vrouw te gaan leven &amp; kinderen bovendien?</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Was het niet even bespottelijk als dat ik met een eigen equipage door de stad ging rijden. Waarop ik geantwoord heb<c type="kk">/</c> zeer zeker was ’t een geheel ander geval.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Scheelde het mij in het hoofd? Het was zeker iets dat uit een ziekelijk hoofd en gestel voortkwam.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik heb hem gezegd dat ik nog pas van meer competente personen dan hij<c type="kk">/</c> n.l. dokters uit ’t gasthuis<c type="kk">/</c> zoowel omtrent mijn gestel als de kracht van mijn hoofd om inspanning te kunnen volhouden volkomen gerustgesteld was.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Zoo is hij van ’t een op ’t ander gesprongen<c type="kk">/</c> haalde er mijn Vader en<c type="kk">/</c> verbeeld U<c type="kk">/</c> <hi rend="italics">mijn Oom van Prinsenhage</hi>!!!<ptr target="#note-t-1"/> bij<c type="kp">_</c> Zou er zich mee bemoeien. Zou schrijven.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Waarde Theo – ter wille van de vrouw<c type="kk">/</c> ter wille van mij zelf heb ik mij zeer ingehouden<c type="kk">/</c> ik ben niet driftig geworden – ik heb op zijn mijns inziens al te indiscrete vragen kortaf en droog geantwoord<c type="kk">/</c> misschien wat al te zacht maar ik prefereerde in al te zacht te vervallen boven mij misschien driftig te maken. Langzamerhand is hij wat bedaard. Ik vroeg hem of ’t niet wat bespottelijk zou zijn als zij t’huis een brief op hooge pooten van hem ontvingen en erna een vriendelijk verzoek van mij om op mijn kosten een reisje naar mij te maken om te spreken over die zelfde zaak. Dit had effekt in zoo ver dat hij opkeek<c type="kk">/</c> zou ik dan zelf schrijven? Vraagt U dat? zei ik, natuurlijk – maar nu zult U toegeven ’t een weinig geschikt moment is daar zij ’thuis in verhuisdrukte zitten<ptr target="#note-t-2"/> en daar de vrouw zóó is dat de minste emotie haar eene verzakking die nooit meer teregt zou komen veroorzaken kan<c type="kp">_</c>– Nu haar emotie geven van angst<c type="kk">/</c> spanning<c type="kk">/</c> zenuwachtigheid<c type="kk">/</c> is een moord. 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>O dan zou hij natuurlijk niet schrijven<c type="kk">/</c> en toch weer op nieuw sprak hij van<c type="kk">/</c> ik was zoo dwaas als iemand die in ’t water wou springen en hij wilde mij daarvan terug houden. Ik zei dat ik niet twijfelde aan zijn goede intentie en dat ik daarom trachtte niet driftig te worden om zijn woorden hoewel een zoodanig gesprek mij zeer onaangenaam was.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">En eindelijk omdat ik toonde bepaald het gesprek te willen coupeeren is hij vertrokken.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik schrijf het U direkt. Ik heb hem gezegd dat ik er met U over schreef<c type="kk">/</c> meer niet. Dit deed hem ook wat bedaren<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Gij weet ik wil het niet verbergen doch voor Sien<c type="kk">/</c> voor het kleine kindje<c type="kk">/</c> ook voor mij is het wenschelijk zulke scènes niet meer gebeuren<c type="kp">_</c> De vrouw te veront<c type="shy">-</c>rusten is haar een <hi rend="italics">harden slag</hi> geven<c type="kp">_</c> Ik kan dit niet genoeg zeggen. Zij is wel<c type="kk">/</c> maar zwak en zeer gevoelig. Een kleinigheid kan haar zog bederven en nog veel erger dingen te weeg brengen<c type="kk">/</c> de eerste zes weken althans.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ik trachtte het nog op de teekeningen te brengen maar hij keek slechts even rond<c type="kk">/</c> o dat zijn de ouden<c type="kp">_</c>– Er waren nieuwe bij maar die scheen hij niet te zien – nu<c type="kk">/</c> gij weet de meeste laatsten zijn bij U, of C.M<c type="kp">_</c> heeft er nog &amp;c. In alles was hij overhaast<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">een ding staat slechts vast<c type="kk">/</c> ik ben al wat gek en verkeerd is. Ik vraag U<c type="kk">/</c> hoe is het mogelijk op zoo’n manier met iemand te spreken en waar kan het goed voor zijn.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Dat is juist wat ik vrees<c type="kk">/</c> een onsympathieke<c type="kk">/</c> meesterachtige<c type="kk">/</c> weinig fijngevoelige en discreete inmenging in mijn meest intieme en privé zaken. Geen man kan daar kalm onder blijven. Ofschoon dus ik mij niet driftig gemaakt heb neem ik het den Heer Tersteeg hoogst kwalijk en ik wil niets met hem te maken hebben en hem niet meer te woord staan zoolang hij in die politieagentstemming is. Ik schrijf er U direkt over. Ik reken hem in staat allerlei miseres in ’t leven te roepen door zijn ontijdige inmenging thuis en te Prinsenhage (en Prinsenhage heeft er niets<c type="kk">/</c> absoluut niets mee te maken) onrust te verwekken en de boel van streek te maken. <hi rend="italics">Is dit niet te stoppen</hi>???</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Het is nu wel met ’thuis en ziedaar<c type="kk">/</c> wie weet of hij niet weer alles bederft.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Zoo spoedig mogelijk wil ik zelf schrijven, maar wat is het beroerd van Tersteeg om zoo te duveljagen<c type="kp">_</c>– En wie – een arme zwakke vrouw<c type="kk">/</c> 14 daag kraams<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Neen – ik vind het leelijk – maar dat voelt hij niet en ’t is bij hem altijd en eeuwig dat eene ding <hi rend="italics">geld</hi><c type="kp">_</c> Een anderen <hi rend="italics">God</hi> heeft hij niet schijnt het<c type="kk">/</c> ik voor mij gevoel dat voor vrouwen<c type="kk">/</c> kinderen<c type="kk">/</c> zwakken<c type="kk">/</c> men zacht en goed moet zijn en ik heb daar tegenover een soort respect en emotie.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Hij had dan nog een schimpscheut – ik zou die vrouw ongelukkig maken – &amp;c. Ik zei<c type="kk">/</c> hij was niet in staat dit nu te beoordeelen en ik verzocht hem zoo iets niet meer te zeggen. Sien heeft mij lief en ik heb Sien lief<c type="kk">/</c> wij willen en kunnen leven zamen met ons beiden van ’t geen ik anders alleen zou hebben – ons bekrimpen en zuinig zijn in alle opzigten en zooveel mogelijk<c type="kk">/</c> gij weet genoeg hoe ik U hierover sprak.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Ik kan U niet genoeg zeggen broer, hoe mijn heele toekomst er van afhangt. Een mensch kan er boven op komen voor een keer als hij gefnuikt wordt en gekrenkt in liefde en in zijn zaken en plannen. Maar dat moet niet te dikwijls gebeuren. En nu<c type="kk">/</c> ik ben hersteld of aan het herstellen naar ligchaam en ziel en Sien ook doch het zou fataal kunnen zijn als op nieuw om zoo te zeggen ons den kop werd ingeslagen. Denk hier dus eens over na en tracht als gij er iets aan doen kunt te voor<c type="shy">-</c>komen dat ik door Tersteeg of door andere personen te veel tegengewerkt wordt. Ik zelf ben eigentlijk nu nog niet zoo dat ik mij verdedigen kan als ware ik in mijn gewone doen. Zachtjes<c type="kk">/</c> heel zachtjes aan moet ik weer in mijn werk mij verdiepen maar ik 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>kan werkelijk nog niet tegen zulke bezoeken als dat van dezen morgen.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Gij weet van de zaak ten minste meer dan Tersteeg maar gij kent Sien nog te weinig om te weten hoe veel wij van elkaar houden en hoe goed wij het met elkaar kunnen vinden.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Als Tersteeg zijn zin had en meer anderen<c type="kk">/</c> dan zouden zij natuurlijk Sien en mij van elkaar scheuren.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Daar is het hem om te doen en zij zouden geen geweld ontzien.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het hangt er van af of wij het maandgeld van U hebben om bij elkaar te blijven.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Ik voor mij weiger het maandgeld van U zoodra gij U stellen zoudt op het standpunt van Tersteeg. Ik wil Sien niet in den steek laten. Als ik haar niet heb dan ben ik gebroken en dan zou ik ook gebroken zijn in mijn werk en in alles. Dan zou ik er nooit bovenop komen en<c type="kk">/</c> U niet tot kosten of last meer willende zijn<c type="kk">/</c> maar U zeggen: Theo ik ben een gebroken man en alles is naar de maan<c type="kk">/</c> het is nutteloos dat gij mij langer helpt<c type="kp">_</c></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26"><hi rend="italics">Met de vrouw blijvende</hi> ben ik goedsmoeds en dan zeg ik: het maandgeld van U zal een flink schilder van mij maken<c type="kp">_</c> Met Sien wil ik werken met alle kracht en inspanning maar zonder haar geef ik het op.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Zoo staat het dus.– Zoo dikwijls hebt gij mij getoond mij beter te begrijpen en oneindig beter te behandelen dan anderen. Ik hoop dat ook ditmaal dit zoo blijven zal. Er is tusschen U en tusschen mij werkelijk sympathie in veel dingen en het komt mij voor Theo<c type="kk">/</c> dat al Uw moeite en al mijn moeite niet te vergeefsch zullen zijn. Steeds zijt gij mij blijven helpen<c type="kk">/</c> steeds ben ik ook blijven werken en voel nu terwijl ik beter wordt nieuwe krachten zich ontwikkelen. Zie<c type="kk">/</c> dat wat er is tusschen U en mij is geloof ik serieuser dan het standje van Tersteeg en kan door zijn inmenging of de inmenging van anderen niet bedorven worden. Toch moeten we ter wille van orde en vrede die inmenging bedaard zien te stoppen. Alleen neem mij niet kwalijk dat ik er wat door van streek ben. Het is voor de vrouw en mij het eerste beroerde uurtje geweest sedert wij uit het gasthuis zijn.</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Als gij het goedvindt trekken wij het ons echter verder niet aan en laten er ons niet door van streek brengen.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Schrijf ons echter eens spoedig, want ik heb groote behoefte aan een brief van U. Ik wil niet dat mijn hoofd vol wordt van onrust en zorg omdat van kalm blijven mijn beter worden afhangt.</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Het gaat mij anders wel<c type="kk">/</c> de vrouw en het kind zijn zóó lief<c type="kk">/</c> zoo goed en stil dat men er wel van opfleuren moet. Alleen Sien veranderde als een blad van een boom toen ze Tersteeg hoorde praten – en ik zelf ook.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Ik heb den dokter<ptr target="#note-t-3"/> weer eens gesproken en heb weer wat om in te nemen<c type="kk">/</c> juist om de herstelling nog zoo mogelijk te bespoedigen. Het wateren blijft god dank goed gaan. Een paar dagen bijna normaal. En ik sterk aan ook<c type="kk">/</c> de binnenkoorts<ptr target="#note-t-a"/> wordt minder.</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Nu – ik wilde om reden van Tersteeg mijn brief aan Pa en Moe wel wat bespoedigen ofschoon later mijns inziens te prefereeren ware. Zoodra gij omstreeks den twintigsten wat zult gezonden hebben zal ik schrijven maar liever had ik gewacht tot zij hun verhuizing achter den rug hadden en de vrouw ware aangesterkt<c type="kp">_</c> En ook nu zou ik veel<c type="kk">/</c> veel beter vinden tot dan te wachten<c type="kk">/</c> alleen Tersteeg zou me misschien vóór zijn<c type="kp">_</c> Het reisgeld voor Pa er bij te sturen is een teeken van mijn stemming geloof ik<c type="kk">/</c> en een attentie waaruit zij hoop ik zullen begrijpen dat ik hun apprecieer.</p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Schrijf dus spoedig en mogt dit een en ander reden zijn, broer, dat wij sterker aan elkaar hechten en meer elkaar begrijpen &amp; vertrouwen inplaats van door inmengingen van Tersteeg of wie dan ook ons van elkaar te laten brengen<c type="kk">/</c> dan betreur ik de onaangenaamheid van dezen morgen niet. Nog eens<c type="kk">/</c> ik heb de pretentie niet om stand te voeren of het goed te moeten hebben. Het allernoodigste voor de vrouw zijn alle kosten die ze meebrengt en die moeten gevonden worden <hi rend="italics">niet door meer te ontvangen</hi> maar <hi rend="italics">door ons te behelpen.</hi> Dit behelpen is haar en mij om reden van de liefde tusschen ons niet een last maar een feest om zoo te zeggen. Het gevoel van beter worden doortintelt haar en mij, het verlangen om weer binnen heel korten tijd aan ’t werk te zijn en er heel &amp; al in op te gaan.</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Zij is een heel<c type="kk">/</c> heel lief moedertje<c type="kk">/</c> zoo eenvoudig<c type="kk">/</c> zoo touchant – als men maar eenmaal haar kent. Er kwam echter een leelijke trek van pijn of ik weet niet wat in haar toen ze Tersteeg met mij hoorde praten en eenige woorden opving. Het kan wel zijn Tersteeg zoo was omdat hij er niet op verdacht was – toch kan ik ’t niet aardig vinden of geheel excuseeren.</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Wat hij ook zij voor anderen – ik wil ook nu graag gelooven hij eigentlijk beter is – voor mij is hij onuitstaanbaar<c type="kp">_</c> Als Tersteeg zijn zin kon doen was ik ongelukkig en een verloren man – Sien zou hij geloof ik met groote koelbloedigheid zien verzuipen of zoo iets<c type="kk">/</c> en zeggen het heilzaam was voor de beschaafde maatschappij.</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Als ik er dan maar bij verzuip laat het mij vrij koel<c type="kp">_</c> Maar dat haar leven en mijn leven één is hebben we genoeg gevoeld toen we elkaar bij het wiegje van ’t kindje in ’t gasthuis weer zagen.</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Hallo broer! maar ik moet niet in die dingen vervallen. Gezonder is het kalm te blijven denken aan werken &amp; beter worden, en stilletjes dag bij dag te leven<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Toch bestaat er tusschen Sien en mij een afspraak voor het uiterste geval dat men tegen ons geweld zou gebruiken. die is dat als wij niet leven kunnen met elkaar wij zamen ten minste emigreeren kunnen. Dat is 10 tegen één een gewissen dood als men geen geld heeft en niet sterk is maar wij zouden dat prefereeren boven van elkander scheiden.</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39"><hi rend="italics">Tusschen haar &amp; mij bestaat liefde en</hi> <hi rend="italics">tusschen haar en mij zijn beloften van</hi> <hi rend="italics">wederkeerige trouw</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Hieraan, Theo, mogen menschen niet tornen want dat is het heiligste wat er in ’t leven is.</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Haar verlangen &amp; ’t mijne is dat de zaken geen dramatischen keer zullen 
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>nemen; wij zijn te vol nieuwen levenslust<c type="kk">/</c> te vol verlangen om te werken en te ploeteren dan dat we niet alles zouden doen om extrêmes te vermijden.</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Doch als er veel menschen – vooral gij – in een stemming als die van Tersteeg waren jegens ons<c type="kk">/</c> ware het niet te houden en dan zou het wel treurig moeten afloopen. Blijft het rustig dan strijden wij onzen strijd hier door te werken en dat is wel maar alledaagsch en gewoon doch ook niet makkelijk en hoort er moed toe en energie om het krachtig aan te vatten en vol te houden<c type="kp">_</c> Den heelen winter zijn wij doorgekomen en met Gods hulp zullen we wel nog wat verder komen.</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Ik zeg met Gods hulp omdat ik behalve U zelf ook God dankbaar ben voor de hulp die ik van U ontving en nog ontvang.</p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">Tersteeg is een energiek man maar ik hoop dat hij zijn energie niet zal besteden om Sien en mij te vervolgen of zoo. Misschien zal hij van zelf wel inzien hij niet verpligt is zich er in te mengen en stilletjes er buiten blijven<c type="kp">_</c> Hij geeft toch niet om mij<c type="kk">/</c> ik ben hem eigentlijk geheel onverschillig doch hij doet het omdat hij denkt hij Oom Cent of Pa er aangenaam mee is of dienst mee doet. Mijn belang<c type="kk">/</c> mijn gevoelens spaart of ontziet hij niet in ’t minst. Hij komt hier binnen – neemt de vrouw die ’t kindje de borst geeft op met een paar oogen dat zij in elkaar krimpt en zonder één vriendelijk woord tegen haar – (wat men tegen een moedertje toch alligt zegt al kent men ze niet) – zegt hij tegen mij 
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>“is dat je model of is ’t wat anders”? Zie dat is toch niet humaan en niet fijngevoelig<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Ben ik niet altijd beleefd tegen mannen<c type="kk">/</c> ’k zou me toch in acht nemen tegen over een zwak vrouwtje<c type="kp">_</c> Over teekeningen<c type="kk">/</c> over ’t atelier &amp;c<c type="kp">_</c> zegt hij niets<c type="kk">/</c> neen maar wel over mijn Oom te Prinsenhage die me niets schelen kan<c type="kk">/</c> met wie ik geen zaken heb<c type="kp">_</c>– En over mijn vader – al dadelijk a priori aan nemende dat ik op slechten voet met hem sta terwijl het al lang aan ’t beteren is.</p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Nu genoeg – doch kerel<c type="kk">/</c> schrijf me spoedig want ik verzeker U dat een hartelijken brief van U me meer vooruithelpt dan mijn pillen &amp;c. Wat mijn gestel betreft – Tersteeg is mijn dokter niet en begrijpt mijn gestel ook volstrekt niet – als ik daaromtrent inlichting noodig heb zal ik ’t mijn eigen dokter vragen maar met hem verkies ik er nooit meer over te spreken. Maar zeer zeker is het dat weinig dingen ’t zij de vrouw ’t zij mij meer kwaad kunnen dan dergelijke bezoeken als dat van daar even. Die te vermijden is absoluut een van de eerste voorschriften die ik in acht moet nemen. <hi rend="italics">Nooit</hi> heeft een dokter me gezegd dat ik iets abnormaals had op de wijs en in den zin als Tersteeg ’t mij van morgen durfde zeggen<c type="kp">_</c> Dat ik niet zou kunnen denken of mijn hoofd niet in orde was. Noch vroeger – noch nu – heeft een <hi rend="italics">dokter</hi> dat gezegd. ik heb een zenuwachtig gestel doch daar is volstrekt geen bepaald kwaad bij. Het worden dus bij Tersteeg ernstige beleedigingen<c type="kp">_</c>– Zoo als ’t bij Pa was<c type="kk">/</c> maar nog sterker<c type="kk">/</c> toen hij mij naar Gheel wou sturen.<ptr target="#note-t-4"/> Zulke dingen mag ik niet over mijn kant laten gaan. Ik verlang er naar om met U eens te spreken nog over mijn ongesteldheid en hoe die kwam enz<c type="kp">_</c> Als Tersteeg in zijn overijling zou voortjagen dan zou hij veel onrust stoken<c type="kk">/</c> dat weet ik wel. Nu adieu kerel – weet het<c type="kk">/</c> Sien<c type="kk">/</c> als ze rustig is<c type="kk">/</c> is een moedertje nu geworden zoo stil, zoo fijn, zoo touchant, als een ets of teekening of schilderij van Feyen Perrin. Ik verlang naar ’t teekenen<c type="kk">/</c> naar ’t poseeren<c type="kk">/</c> naar ’t geheel beter zijn van haar en van mij – naar orde en bedaardheid en wat sympathie van U vooral.</p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">Gegroet van Sien hoor en een handdruk in gedachten &amp; geloof me</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.48" n="48">t. à t.</p>
+
+<p xml:id="p.nl.49" n="49">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Tuesday morning.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">This time I have something to tell you about a visit from <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs>. He came here this morning — and saw <rs type="person" ref="bio.xml#_463">Sien</rs> and the <rs type="person" ref="bio.xml#_466 bio.xml#_467">children</rs>. I would have wished that he could at least have put on a friendly face for a young mother who gave birth a fortnight ago, but apparently that was asking too much. My dear Theo, he spoke to me in a way you can perhaps understand:</p>
+<p rend="indent" xml:id="p.en.4" n="4">What was the meaning of this <rs type="person" ref="bio.xml#_463">woman</rs> and that child? Where on earth did I get the idea of living with a woman, and with <rs type="person" ref="bio.xml#_466 bio.xml#_467">children</rs> as well? </p>
+<p rend="indent" xml:id="p.en.5" n="5">Wasn’t it as ridiculous as if I were to drive about the city in my own carriage? To which I replied that it was most definitely a different matter entirely.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Was I not right in the head? It was obviously the product of a sick mind and body. </p>
+<p rend="indent" xml:id="p.en.7" n="7">I told him that I’d just received ample reassurances from people much better qualified than he, namely the doctors at the hospital, as regards both my body and my mental strength being capable of making a sustained effort. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">He kept chopping and changing from one subject to another, dragging in my <rs type="person" ref="bio.xml#_526">Father</rs> and, just imagine, <hi rend="italics">my <rs type="person" ref="bio.xml#_423">uncle</rs> in Princenhage</hi>!!!<ptr target="#note-t-1"/> Would get involved. Would write. </p>
+<p rend="indent" xml:id="p.en.9" n="9">My dear Theo, for the <rs type="person" ref="bio.xml#_463">woman</rs>’s sake, for my own sake, I restrained myself, I didn’t get angry. I gave curt and plain answers to his in my view all too indiscreet questions, perhaps too gently, but I preferred to resort to too gently rather than perhaps getting angry. He gradually calmed down a little. I asked him if it wouldn’t seem rather ridiculous if at home they received an outraged letter from him followed by a friendly invitation from me to come here at my expense to discuss the very same matter. This had some effect in that he looked surprised. Was I going to write? Do you question that?, I said, of course – but now you must admit that this is hardly a suitable moment, just when they’re in the middle of moving at home<ptr target="#note-t-2"/> and the woman is in such a state that the least emotion could cause a prolapse of the womb that might never be put right. Making her feel fearful, anxious and nervous now is murder. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> Oh in that case, of course, he wouldn’t write, and then again saying that I was as foolish as someone who wanted to jump into the water and he was trying to hold me back. I said that I didn’t doubt his good intentions, and that for that reason I tried not to be angered by his words, even though I found such a conversation most disagreeable.</p>
+<p rend="indent" xml:id="p.en.10" n="10">And finally, because I clearly showed that I wanted to end the conversation, he left.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’m writing to you immediately. I told him that I wrote to you about it, no more than that. This also calmed him somewhat. </p>
+<p rend="indent" xml:id="p.en.12" n="12">You know that I don’t want to hide it, but for <rs type="person" ref="bio.xml#_463">Sien</rs>, for the <rs type="person" ref="bio.xml#_466">baby</rs>, and for me too, it would be better if there were no more scenes like this. Causing the woman to become agitated is to give her a <hi rend="italics">hard blow</hi>. I can’t say this often enough. She is well, but weak and highly sensitive. The slightest thing can spoil her milk and lead to far worse, at least in the first six weeks. </p>
+<p rend="indent" xml:id="p.en.13" n="13">I tried to turn the conversation to the drawings, but he just looked around quickly – Oh, those are the old ones. There were some new ones but he didn’t seem to see them. As you know, most of the recent ones are either with you, or <rs type="person" ref="bio.xml#_422">C.M.</rs> still has them &amp;c. He was overhasty in everything. </p>
+<p rend="indent" xml:id="p.en.14" n="14">Only one thing is clear: I am as mad and wrong as can be. I ask you, how is it possible to speak to someone like that, and what good can it do? 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </p>
+<p rend="indent" xml:id="p.en.15" n="15">This is exactly what I fear: an unsympathetic, schoolmasterly, unfeeling and indiscreet meddling in my most intimate and private affairs. No one could remain calm in the face of that. So although I didn’t get angry, I do severely blame <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs>, and I don’t want to have anything to do with him or speak to him as long as he’s in this police officer mood. I’m writing to you about it immediately. I believe he’s capable of causing all sorts of misery with his untimely meddling at home and by sowing unrest in <rs type="person" ref="bio.xml#_423">Princenhage</rs> (and Princenhage has nothing, absolutely nothing to do with it), and upsetting everyone. <hi rend="italics">Can’t this be stopped</hi>???</p>
+<p rend="indent" xml:id="p.en.16" n="16">Things are all right with home at the moment, but, you’ll see, who knows whether he won’t ruin it all again. </p>
+<p rend="indent" xml:id="p.en.17" n="17">I intend writing myself as soon as possible, but it’s so rotten of <rs type="person" ref="bio.xml#_787">Tersteeg</rs> to be such a troublemaker. And to whom? — a poor, weak <rs type="person" ref="bio.xml#_463">woman</rs> who gave birth a fortnight ago. </p>
+<p rend="indent" xml:id="p.en.18" n="18">No, it’s an ugly business, but he doesn’t feel that. With him it’s always and forever the same old thing, <hi rend="italics">money</hi>. He has no other <hi rend="italics">God</hi>, it seems. For my part I feel that one should be kind and gentle to women, children and the weak, and I have a sort of respect and emotion for them. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> </p>
+<p rend="indent" xml:id="p.en.19" n="19">He had another gibe — I would make the woman unhappy, &amp;c. I said that he wasn’t in a position to judge that now, and I asked him not to say such a thing again. <rs type="person" ref="bio.xml#_463">Sien</rs> loves me and I love Sien. We want to and can live together, the two of us, on what I would otherwise have on my own — we can scrimp and scrape in every way and as much as possible. You know well enough how I’ve talked about this before.</p>
+<p rend="indent" xml:id="p.en.20" n="20">I can’t repeat too often, brother, how my whole future depends on this. A person can get over it once if he is crippled and wounded in love and in his affairs and plans. But that mustn’t happen too often. And now I have recovered or am in the process of recovering in body and soul, and <rs type="person" ref="bio.xml#_463">Sien</rs> too, but it could be fatal if we were again hammered into the ground, so to speak. So give this some thought and, if you’re able to do anything, try to prevent <rs type="person" ref="bio.xml#_787">Tersteeg</rs> or others from working against me too much. I can’t yet defend myself as I could if I were back to normal. I must become immersed in my work again, carefully, very carefully, but I 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> really can’t yet bear visits like the one this morning. </p>
+<p rend="indent" xml:id="p.en.21" n="21">You at least know more about the matter than <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, but you still know <rs type="person" ref="bio.xml#_463">Sien</rs> too little to know how much we love each other and how well we get on together. </p>
+<p rend="indent" xml:id="p.en.22" n="22">If <rs type="person" ref="bio.xml#_787">Tersteeg</rs> had his way, and others too, they’d of course tear <rs type="person" ref="bio.xml#_463">Sien</rs> and me apart. </p>
+<p rend="indent" xml:id="p.en.23" n="23">That’s what he’s after, and they wouldn’t shrink from using force. </p>
+<p rend="indent" xml:id="p.en.24" n="24">It depends on whether we have the monthly sum from you to allow us to stay together. </p>
+<p rend="indent" xml:id="p.en.25" n="25">For my part, I shall refuse the monthly sum from you as soon as you adopt the same point of view as <rs type="person" ref="bio.xml#_787">Tersteeg</rs>. I don’t want to leave <rs type="person" ref="bio.xml#_463">Sien</rs> in the lurch. If I don’t have her I’ll be broken, and then I would also be broken in my work and everything else. Then I would never get over that and, not wishing to be a burden or expense to you any longer, would only say to you: Theo, I’m a broken man and everything is shattered into pieces, there’s no use in your helping me any more. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> </p>
+<p rend="indent" xml:id="p.en.26" n="26"><hi rend="italics">Staying with the woman</hi>, I’m in good spirits, and then I say: the monthly sum from you will make a capable painter of me. With <rs type="person" ref="bio.xml#_463">Sien</rs>, I can make the effort and put all my strength into work, but without her I give up.</p>
+<p rend="indent" xml:id="p.en.27" n="27">So that’s the way it is. You have so often shown that you understand me better and treat me infinitely better than others. I hope that this will continue to be the case now. There really is a sympathy between you and me in many things, and it seems to me, Theo, that all your trouble and all my trouble won’t be in vain. You have always gone on helping me, and I’ve always gone on working and now feel new powers developing as I get better. You see, what exists between you and me is, I believe, more serious than that lecture from <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, and can’t be spoiled by his meddling or that of others. Yet for the sake of peace and good order we must calmly put an end to this meddling. Just excuse me for being rather upset. For the <rs type="person" ref="bio.xml#_463">woman</rs> and me it was the first awful hour since we came out of hospital. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/> </p>
+<p rend="indent" xml:id="p.en.28" n="28">If you agree, we’ll take no further notice of it, however, and not let ourselves be upset.</p>
+<p rend="indent" xml:id="p.en.29" n="29">But write to us soon, for I’m in great need of a letter from you. I don’t want my head to be full of worry and care, since my getting better depends on keeping calm. </p>
+<p rend="indent" xml:id="p.en.30" n="30">Otherwise I’m getting on well; the <rs type="person" ref="bio.xml#_463">woman</rs> and the <rs type="person" ref="bio.xml#_466">child</rs> are so sweet, so good and quiet that one can’t help cheering up. But Sien changed on the spot when she heard <rs type="person" ref="bio.xml#_787">Tersteeg</rs> speak — and so did I. </p>
+<p rend="indent" xml:id="p.en.31" n="31">I’ve seen the <rs type="person" ref="bio.xml#_151">doctor</rs><ptr target="#note-t-3"/> again, and again have something to take, just to hasten my recovery if possible. Passing water continues to go well, thank God. Nearly normal for several days. And I’m growing stronger; the chronic fever is getting less. </p>
+<p rend="indent" xml:id="p.en.32" n="32">Now, because of <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, I want to write to <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> a little sooner, although I believe later would be preferable. I’ll write as soon as you’ve sent something around the twentieth, although I would rather have waited until they’d finished moving and the woman was stronger. And even now I think it would be much, much better to wait till then, except that Tersteeg might beat me to it. Enclosing the money for the journey for Pa is a sign of my feelings, I believe, and a courtesy from which they’ll understand, I hope, that I appreciate them. 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/> </p>
+<p rend="indent" xml:id="p.en.33" n="33">So write soon, and if one thing or another proves to be a reason, brother, for us to become more attached and understand and trust each other more, instead of letting us be driven apart through the meddling of <rs type="person" ref="bio.xml#_787">Tersteeg</rs> or anyone else, then I don’t regret this morning’s unpleasantness. Let me repeat, I make no claim to keep up a social position or to live well. The bare essentials for the <rs type="person" ref="bio.xml#_463">woman</rs> are the only expenses she brings with her, and they must be met <hi rend="italics">not by receiving more </hi>but<hi rend="italics"> by making do ourselves</hi>. Because of the love between us, this making do is a joy, so to speak, rather than a burden for her and me. The sense of getting better sets her and me aglow, the desire to be back at work in a very short time and to be entirely absorbed in it. </p>
+<p rend="indent" xml:id="p.en.34" n="34">She’s a very, very sweet mother, so simple, so touching — once you know her. But there was a nasty expression of pain or I don’t know what in her when she heard <rs type="person" ref="bio.xml#_787">Tersteeg</rs> talking to me and caught a few words. It may be that Tersteeg was like that because he was taken by surprise — still I can’t consider it nice or entirely excuse it. 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> </p>
+<p rend="indent" xml:id="p.en.35" n="35">Whatever he may be for others — even now I’m willing to believe that he’s actually better — for me he is insufferable. If <rs type="person" ref="bio.xml#_787">Tersteeg</rs> had his way, I would be miserable and a lost man. I believe he would very cold-bloodedly watch <rs type="person" ref="bio.xml#_463">Sien</rs> drown or something, and then claim it was beneficial for civilized society. </p>
+<p rend="indent" xml:id="p.en.36" n="36">As long as I can drown with her, I don’t much care. But we felt sufficiently that her life and my life were one when we saw each other again beside the baby’s cradle in the hospital. </p>
+<p rend="indent" xml:id="p.en.37" n="37">Hallo, brother! But I mustn’t lapse into things like that. It’s healthier to continue thinking calmly about working and getting better, and living quietly day by day. </p>
+<p rend="indent" xml:id="p.en.38" n="38"><rs type="person" ref="bio.xml#_463">Sien</rs> and I have an agreement, however, in the extreme event that force is used against us. This is that if we can’t live together, at least we can emigrate together. It’s 10 to one that that means certain death if one has no money and isn’t strong, but we’d prefer that to being parted. </p>
+<p rend="indent" xml:id="p.en.39" n="39"><hi rend="italics">There is love between her and me, and promises of mutual loyalty between her and me</hi>. </p>
+<p rend="indent" xml:id="p.en.40" n="40">There may be no tampering with this, Theo, for it’s the holiest thing there is in life. </p>
+<p rend="indent" xml:id="p.en.41" n="41">Her wish and mine is that matters shouldn’t take a dramatic 
+<pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/> turn. We’re too full of new zest for life, too full of a desire to work and to plough on, for us not to want to do everything to avoid extremes. </p>
+<p rend="indent" xml:id="p.en.42" n="42">Yet if there were many people — especially you — who felt towards us as <rs type="person" ref="bio.xml#_787">Tersteeg</rs> does, we couldn’t hold out, and the end would inevitably be tragic. If things stay quiet, we’ll fight our fight here by working, and that may be just everyday and ordinary but it isn’t easy either, and courage and energy are needed to set about it vigorously and keep it up. We came through the whole winter, and with God’s help we’ll get a little further. </p>
+<p rend="indent" xml:id="p.en.43" n="43">I say with God’s help, because I’m grateful to God as well as to you for the help I’ve received and still receive from you. </p>
+<p rend="indent" xml:id="p.en.44" n="44"><rs type="person" ref="bio.xml#_787">Tersteeg</rs> is an energetic man, but I hope he won’t devote his energy to persecuting <rs type="person" ref="bio.xml#_463">Sien</rs> and me or anything. Perhaps he’ll realize that he isn’t obliged to interfere, and quietly stay out of it. He doesn’t care about me — I’m really a matter of complete indifference to him — he does it because he thinks he will please or be of service to <rs type="person" ref="bio.xml#_423">Uncle Cent</rs> or <rs type="person" ref="bio.xml#_526">Pa</rs>. He doesn’t spare or take the slightest account of my interests or feelings. He comes in here, takes in the <rs type="person" ref="bio.xml#_463">woman</rs> breast-feeding the baby with a look that makes her cringe, and without one kind word to her (which you would expect for a mother, even if one doesn’t know her) he says to me 
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/> ‘Is that your model or is it something else?’ You see, that’s neither humane nor tactful. </p>
+<p rend="indent" xml:id="p.en.45" n="45">I may not always be polite to men, but I watch my manners in front of a weak woman. He says nothing about drawings, about the studio, &amp;c. No, but he does talk about my <rs type="person" ref="bio.xml#_423">uncle</rs> in Princenhage, about whom I care nothing, whom I have nothing to do with. And about my <rs type="person" ref="bio.xml#_526">father</rs> — immediately taking it for granted <hi rend="italics">a priori</hi> that I’m on bad terms with him, whereas in fact relations have long been improving.</p>
+<p rend="indent" xml:id="p.en.46" n="46">Enough now. But write soon, old chap, for I assure you a warm-hearted letter from you helps me more than my pills, &amp;c. As for my constitution — <rs type="person" ref="bio.xml#_787">Tersteeg</rs> isn’t my doctor and doesn’t understand my constitution in the slightest — if I need information about that I’ll ask my own doctor, but I never wish to discuss the subject with him again. But there’s no doubt at all that few things can do either the <rs type="person" ref="bio.xml#_463">woman</rs> or me more harm than visits like the one we’ve just had. Avoiding them is definitely one of the first rules I must observe. <hi rend="italics">Never</hi> has a doctor told me I was in any way abnormal in the tone and the sense in which Tersteeg dared to say it to me this morning. That I couldn’t think or that I wasn’t right in the head. Never in the past, or now, has a <hi rend="italics">doctor</hi> said that. I have a nervous constitution, but there’s absolutely no harm in that. With Tersteeg these things become serious insults. The same as with <rs type="person" ref="bio.xml#_526">Pa</rs> when he wanted to send me to Geel, but more so.<ptr target="#note-t-4"/> I may not let that kind of thing go unchallenged. I long to talk to you about my illness and how that happened and so on. If Tersteeg were to persist in his rash efforts, he would sow a great deal of unrest, that I know for sure. Well, adieu old chap — you know, Sien, when she’s calm, has become so quiet, so fine, so touching a mother, like an etching or drawing or painting by <rs type="person" ref="bio.xml#_1022">Feyen-Perrin</rs>. I long for drawing, for posing, for her and me to be completely better — for order and tranquillity and some sympathy from you above all.</p>
+<p rend="indent" xml:id="p.en.47" n="47">Regards from <rs type="person" ref="bio.xml#_463">Sien</rs> and a handshake in thought, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.48" n="48">Ever yours,</p>
+<p xml:id="p.en.49" n="49">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was written on a Tuesday <ref target="#l-1">(l. 1)</ref>, when Sien had given birth 14 days ago <ref target="#l-9">(l. 9)</ref> and was back in The Hague. Since Sien had given birth on 2 July, the letter must date from Tuesday, 18 July 1882.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent van Gogh</rs>, who lived in Princenhage.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Rev. Van Gogh</rs> was called to the Reformed Congregation at Nuenen and accepted the call on 7 June 1882, after which he took up his duties on 12 August. The family must have moved at the beginning of August, and on 7 August Rev. Van Gogh, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">his wife</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_420">Cor</rs> and two servants were registered at the Civil Registration in Nuenen as living at the address De Berg F 523. They were followed by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> on 22 November. See De Brouwer 1984, p. 13.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh was treated by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_151">C.A. Molenaar</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let237.xml#n-7">see letter 237, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘a persistent fever that slowly undermines the constitution’.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For the ‘Geel affair’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let185.xml">see letter 185</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

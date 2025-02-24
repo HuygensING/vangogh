@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Wednesday, 23 April 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let862"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b759 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>862</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T32</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>862</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1890-04-23">Wednesday, 23 April 1890</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0759" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001027_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001027_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001027_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0759" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001027_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001027_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001027_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Paris le 23 Avril 1890</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Mon cher Vincent,</p>
+
+<p xml:id="p.fr.3" n="3">Ton silence nous prouve que tu souffres toujours et j’ai besoin de te dire mon cher frère<c type="kk">/</c> que Jo &amp; moi nous souffrons aussi te sachant toujours malade.<ptr target="#note-t-1"/> Oh nous serions si heureux si nous pouvions faire quelque chose pour toi qui puisse te soulager. Le D<hi rend="super">r</hi> Peyron nous écrit qu’il ne faut pas s’inquiéter &amp; que cette crise, quoique plus longue que les 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>autres<c type="kk">/</c> passera aussi.<ptr target="#note-t-2"/> Si la distance n’était pas si grande certes je serais déjà venu te voir et je compte, 17<hi rend="super"> </hi> que le jour où tu auras besoin de moi, ou que tu sentiras qu’il pourra te faire du bien de causer avec moi, tu me feras signe &amp; j’accours toute suite<ptr target="#note-t-a"/>. La semaine dernière c’était déjà un an que je suis marié.<ptr target="#note-t-3"/> Comme le temps passe vite. Nous avons toute raison d’être satisfait de cette année. Je n’oublie pas que tu ais insisté beaucoup pour que je me marie, et tu as vu juste, car je me sens bien bien plus heureux. C’est vrai que 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>ma chère femme n’est pas tout le monde &amp; que j’ai eu une chance énorme en la trouvant. Nous nous entendons très bien &amp; notre intérieur est très agréable. Le petit donne à Jo surtout beaucoup de travail, mais il pousse étonnament. Il est de nature nerveuse mais très doux<c type="kp">_</c> Il peut rester éveillé pendant des heurres sans crier &amp; il commence à rire &amp; à pousser des sons qui doivent être le commencement de parler. Si tu pouvais le voir &amp; jouer avec lui cela te ferait du bien. Nous avons l’intention pour Pentecote d’aller passer les deux jours de fête chez Pissarro, qui nous a invité. Il va cet été à Londres 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>pour travailler.<ptr target="#note-t-4"/> Tes tableaux à l’exposition ont beaucoup de succès<c type="kp">_</c> L’autre jour Duez m’arrêtait dans la rue &amp; disait<c type="kk">/</c> faites des compliments à votre frère &amp; dites lui que ses tableaux sont bien remarquables. Monet a dit que tes tableaux étaient les meilleurs de l’exposition. Beaucoup d’autres artistes m’en ont parlé. Serret est venu à la maison pour voir les autres toiles et était ravi. Il dit que s’il n’avait pas une genre où il avait encore des choses à dire il changerait et chercherait dans la voie que tu cherches.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Lauzet est de retour, il n’a pas pu passer chez toi car sa mère &amp; sa soeur qui habitaient Marseille sont venues demeurer avec lui içi &amp; il a dû aider à les déménager &amp; n’avait pas le sou pour s’écarter de la route.<ptr target="#note-t-5"/> Mon cher frère saches que rien au monde me ferait plus plaisir que de te savoir heureux &amp; bien portant &amp; que je fais tous les jours des voeux pour ta prompte guérison. Bon courage &amp; bonne poignée de mains de Jo &amp; de ton frère qui t’aime<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Paris, 23 April 1890</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Vincent,</p>
+<p xml:id="p.en.3" n="3">Your silence proves to us that you’re still suffering, and I need to tell you, my dear brother, that <rs type="person" ref="bio.xml#_416">Jo</rs> and I are also suffering, knowing that you’re still ill.<ptr target="#note-t-1"/> Oh, we’d be so happy if we could do something for you that might give you relief. <rs type="person" ref="bio.xml#_568">Dr Peyron</rs> writes to us that we mustn’t worry, and that this crisis, although longer than the 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> others, will also pass.<ptr target="#note-t-2"/> If the distance weren’t so great I would certainly have come to see you already, and I’m counting on you, the day you need me, or feel that it could do you some good to talk with me, to let me know and I’ll come running immediately. Last week I had been married for a year already.<ptr target="#note-t-3"/> How swiftly time passes. We have every reason to be satisfied with that year. I haven’t forgotten that you insisted a great deal on my getting married, and you saw rightly, for I feel much, much happier. It’s true that 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> my <rs type="person" ref="bio.xml#_416">wife</rs> isn’t just anyone, and that I was enormously lucky to find her. We get along very well and our domestic life is very agreeable. The <rs type="person" ref="bio.xml#_418">little one</rs> gives Jo, especially, a great deal of work, but he’s growing amazingly. He’s nervous by nature, but very sweet. He can stay awake for hours without crying, and he’s beginning to laugh and to make sounds that must be the beginnings of speech. It would do you good if you could see him and play with him. At Whitsun we intend to go and spend the two feast days at <rs type="person" ref="bio.xml#_1268">Pissarro</rs>’s, who has invited us. This summer he’s going to London 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> to work.<ptr target="#note-t-4"/> Your paintings at the exhibition are very successful. The other day <rs type="person" ref="bio.xml#_989">Duez</rs> stopped me in the street and said, give my compliments to your brother and tell him that his paintings are quite remarkable. <rs type="person" ref="bio.xml#_1222">Monet</rs> said that your paintings were the best in the exhibition. Many other artists have spoken to me about them. <rs type="person" ref="bio.xml#_1354">Serret</rs> came to the house to see the other canvases and was delighted. He says that if he didn’t have a genre in which he still had things to say he would change and search along the path where you’re searching.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_1149">Lauzet</rs> is back, he wasn’t able to stop by and see you, because his mother and sister who lived in Marseille have come to stay with him here, and he had to help them move house and didn’t have the money to go out of his way.<ptr target="#note-t-5"/> My dear brother, you should know that nothing in the world would give me greater pleasure than knowing you were happy and well, and that every day I make wishes for your speedy recovery. Be of good heart, and good handshake from <rs type="person" ref="bio.xml#_416">Jo</rs> and from your brother who loves you.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Paris le 23 Avril 1890’. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Fourth attack in Saint-Rémy <ref target="let857.xml">(857)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Entry for the 1890 Indépendants exhibition <ref target="let854.xml">(854)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Two days before, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> had written about Theo to her sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_24">Mien</rs>: ‘he has been to see <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_446">Gruby</rs> and has yet another remedy for his cough, but he looks very bad, shivers constantly and has little appetite. The business affairs he was so deeply involved in have almost all gone badly, that’s one of the main reasons, and then still no letter from Vincent’ (FR b4303, 21 April 1890).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>It is not known how often <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Peyron</rs> wrote to Theo to inform him of Vincent’s condition. In any case, he had reported on 1 April 1890: ‘This attack is taking longer to abate than the previous one. At times, he seems almost himself again; he understands what he is feeling, only for the situation to change again a few hours later, when the patient once more becomes sorrowful and troubled, and no longer answers the questions put to him. I am confident that he will regain his reason as he did on the previous occasions, but it is taking much longer this time’ (Cet accès met plus longtemps à disparaître que les précédents, par moments, on dirait qu’il va revenir à lui; il rend compte des sensations qu’il éprouve, puis quelques heures après la scène change, le malade redevient triste et soucieux et ne répond plus aux questions qu’on lui adresse. J’ai confiance qu’il reviendra à la raison comme les autres fois, mais c’est beaucoup plus long à venir). See FR b1063; Hulsker 1971, pp. 43-44.</p>
+
+<p rend="indent">On 15 April Theo had written the following to his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">mother</rs> and his sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘It is now more than a month since I received a letter from Vincent’s own hand. The doctor wrote the last time that it is still very rare for him to be his old self. He usually sits with his head in his hands, and if someone speaks to him, it is as though it hurts him, and he gestures for them to leave him alone. How sad that condition is, and Dr Peyron says that although he has hope that the crisis will soon be over, it will leave its mark on his constitution. If only we could do something for him, but having him come here would be irresponsible unless one were sure that there is not one moment of danger that the crisis will return during the journey or while here. It is such a pity, just now when he is having such success with his work. Many people have taken notice of his work, including <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_173">Obreen</rs>, the writer of the article in the N. Rotter. Nice of those people in Nuenen to send it to you’ (FR b928). Regarding this article, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let860.xml#n-4">see letter 860, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘tout de suite’.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> had married on 18 April 1889.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>In the end, Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> did not spend Whit Sunday – 25 May – at the Pissarro’s in Eragny, because <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Camille Pissarro</rs> and his son <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1267">Lucien</rs> had already gone to London. They arrived there around 23 May for a stay of about a month. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Pissarro</hi> 1980-1991, vol. 2, pp. 352 (n. 3), 354 (n. 1).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>In January <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1149">Lauzet</rs> had travelled from Paris to Marseille, and he had planned to visit Vincent in Saint-Rémy on his return trip. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let843.xml">See letter 843</ref>. He lived in Paris at 29 boulevard Pereire. Cf. exhib. cat. Paris 1988, p. 363. No information on Lauzet’s mother and sister has been found in the Paris archives.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

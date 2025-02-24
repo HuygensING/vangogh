@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Wednesday, 8 January 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let838"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b751 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>838</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T24</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>840</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1890-01-08">Wednesday, 8 January 1890</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0751" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001018_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001018_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001001018_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0751" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001018_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001018_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-4">
+<graphic url="https://example.com/iiif/VGM001001018_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1"><hi>Goupil &amp; C°</hi></p>
+
+<p xml:id="p.fr.2" n="2"><hi>imprimeurs éditeurs</hi></p>
+
+<p xml:id="p.fr.3" n="3"><hi>Boussod, Valadon &amp; C<hi rend="super">ie</hi></hi></p>
+      
+<p xml:id="p.fr.4" n="4"><hi><hi rend="italics">successeurs</hi></hi></p>
+      
+<p xml:id="p.fr.5" n="5">19, Boulevard Montmartre, Paris</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.6" n="6"><hi>Adr · Télégr · Boussoval · Paris.</hi></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">le 8 Janv<c type="kp">_</c> 1890</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.8" n="8">Mon cher Vincent,</p>
+
+<p xml:id="p.fr.9" n="9">Quand je t’écrivais la dernière fois<ptr target="#note-t-1"/> c’était sous l’impression de la première lettre du D<hi rend="super">r</hi> Peyron<c type="kp">_</c> Je suis bien bien content que ce n’est pas si mal que cette lettre le faisait supposer et lui-même m’a écrit de nouveau pour dire que c’était tout autrement tourné qu’il ne l’avait cru d’abord. Dans sa première lettre 
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>il faisait entendre qu’il était dangereux que tu continuas<ptr target="#note-t-a"/> à peindre<c type="kk">/</c> les couleurs étant un poison, mais il s’est un peu emballé<c type="kk">/</c> s’étant peut être simplement rapporté à des avoir entendu dire<c type="kk">/</c><ptr target="#note-t-b"/> lui même étant malade. Espérons donc que tu puisses continuer à travailler comme tu l’entends. Tasset doit t’avoir expédié un nouvel envoi de couleurs &amp; de toile.<ptr target="#note-t-2"/> Hier soir est arrivé ton nouvel envoi, qui est bien remarquable<c type="kp">_</c> Sais tu<c type="kk">/</c> une des choses que j’aime le mieux c’est le soir d’après Millet.<ptr target="#note-t-3"/> Copié comme cela ce n’est plus une copie. Il y a un ton là-dedans et tout est si bien dans l’air. C’est vraiment bien réussi. Parmi les autres toiles j’aime 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>beaucoup les femmes qui grimpent sur des rochers<ptr target="#note-t-4"/> &amp; la grand’route avec les cantonniers.<ptr target="#note-t-5"/> Je trouve que dans tes derniers travaux il y a plus d’atmosphère<c type="kk">/</c> plus de distance que dans les précédents<c type="kp">_</c> Ce qui provient peut être que tu n’empâtes pas tant partout<c type="kp">_</c>– Il y avait dans un des rouleaux aussi un superbe dessin à la plume qui représente une fontaine dans un jardin;<ptr target="#note-t-6"/> Dimanche prochain j’ai rendez vous avec Lauzet – qui les trouvera bien beau, j’en suis sûr.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je suis de ton avis qu’il serait peut être bon que tu viennes un peu içi ce printemps, quitte à aller après à la campagne si la vie içi ne te convient 
+<pb f="1v" n="4" xml:id="pb-orig-1v-4" facs="#zone-pb-1v-4"/>pas. Içi il y aura toujours la question que tu ne puisses pas travailler dehors,<ptr target="#note-t-7"/> mais tu verras &amp; en tous les cas nous serons contents de t’avoir avec nous pour quelque temps. L’accouchement de Jo doit avoir lieu entre le 1<hi rend="super">er</hi> &amp; le 15 Fevrier et après cela sa mère reste environ un mois mais après son départ, la petite chambre est libre &amp; à ta disposition. Jo va très bien et ne sent pas beaucoup de malaise par sa grossesse. Le médecin aussi croit que cela ira bien. Wil est arrivé tellement enrhumé qu’elle était obligé de rester au lit ce matin, mais j’espère qu’elle en sera quitte avec un jour ou deux de ménagement. C’est gentil de M<hi rend="super">r</hi> Salles d’être allé te voir. Je lui avais écrit au jour de l’an mais je n’avais pas osé lui demander d’aller te voir. Je suis bien content que cette fois çi la crise soit passée si vite<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Bon courage &amp; bien bonjour de Jo &amp; de Wil<c type="kk">/</c> bonne poignée de mains &amp; bien merçi de l’envoi qui nous a fait bien plaisir<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.12" n="12">t<c type="kp">_</c>t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.13" n="13">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">[Letterhead: Goupil and Boussod Paris]</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">8 Jan. 1890</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">My dear Vincent,</p>
+<p xml:id="p.en.4" n="4">When I last wrote to you<ptr target="#note-t-1"/> it was under the impression of <rs type="person" ref="bio.xml#_568">Dr Peyron</rs>’s first letter. I’m very, very glad that it isn’t as bad as that letter made me assume, and he himself wrote to me again to say that it had taken a quite different turn than he had thought at first. In his first letter 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/> he gave me to understand that it was dangerous for you to continue to paint, as the paints were a poison, but he got a little carried away, perhaps through simply relying on hearsay, being ill himself. Let’s hope, then, that you may continue to work as you intend to. <rs type="person" ref="bio.xml#_785">Tasset</rs> must have dispatched a new consignment of colours and canvas to you.<ptr target="#note-t-2"/> Yesterday evening your new consignment arrived, and it’s very remarkable. You know, one of the things I like best is the Evening after <rs type="person" ref="bio.xml#_1226">Millet</rs>.<ptr target="#note-t-3"/> Copied like that it’s no longer a copy. There’s a tone in it and everything is so harmonious. It’s really very successful. Among the other canvases I very much 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> like the women climbing on the rocks<ptr target="#note-t-4"/> and the main road with the road-menders.<ptr target="#note-t-5"/> I feel that there’s more atmosphere in your latest works, more distance than in the preceding ones. Which comes perhaps from the fact that you don’t use so much impasto everywhere. In one of the rolls there was also a superb pen drawing of a fountain in a garden;<ptr target="#note-t-6"/> next Sunday I have a meeting with <rs type="person" ref="bio.xml#_1149">Lauzet</rs> – who will find them very fine, I’m sure.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I share your opinion that it would perhaps be good that you should come here for a while this spring, even if you go to the country afterwards if the life here doesn’t suit you. 
+<pb f="1v" n="4" xml:id="pb-trans-1v-4" facs="#zone-pb-1v-4"/> Here there’ll always be the matter of you being unable to work outdoors,<ptr target="#note-t-7"/> but you will see, and in any case we’ll be happy to have you with us for a while. <rs type="person" ref="bio.xml#_416">Jo</rs>’s confinement should take place between 1 and 15 February, and after that her <rs type="person" ref="bio.xml#_23">mother</rs> is staying for around a month, but after she’s left the little room is free and at your disposal. Jo is very well and doesn’t feel much discomfort from her pregnancy. The <rs type="person" ref="bio.xml#_640">doctor</rs> also thinks that it will go well. <rs type="person" ref="bio.xml#_407">Wil</rs> arrived with such a bad cold that she had to stay in bed this morning, but I hope that she’ll be rid of it with a day or two’s care. It’s kind of <rs type="person" ref="bio.xml#_663">Mr Salles</rs> to go and see you. I wrote to him on New Year’s Day but I hadn’t dared ask him to go and see you. I’m very pleased that this time the crisis passed so quickly.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Be of good heart, and warm regards from <rs type="person" ref="bio.xml#_416">Jo</rs> and from <rs type="person" ref="bio.xml#_407">Wil</rs>, good handshake, and thank you very much for the consignment, which gave us great pleasure.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">Ever yours,</p>
+<p xml:id="p.en.8" n="8">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘le 8 Janv_ 1890’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Second attack in Saint-Rémy <ref target="let833.xml">(833)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sixth consignment of paintings from Saint-Rémy <ref target="let834.xml">(834)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jo’s pregnancy <ref target="let786.xml">(786)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Willemien is staying with Theo and Jo <ref target="let835.xml">(835)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let835.xml">letter 835</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘continuasses’.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘ouï-dire’.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This is the paint and canvas Vincent requested in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let829.xml">letter 829</ref>. For the payments made by Theo to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> (in January it was 191 francs), see the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, pp. 44-45.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Evening (after Millet) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2857">F 647 /JH 1834</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ravine </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2853">F 662 / JH 1804</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Road menders (‘The tall plane trees’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2872">F 657 / JH 1860</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fountain in the garden of the asylum</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2794">F 1531 / JH 1705</rs>). According to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo van Gogh-Bonger</rs>, Theo was extremely fond of this drawing and thought it the most beautiful of the entire collection. Letter to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_505">Octave Maus</rs>, 7 February 1891. Quoted in cat. Amsterdam 2007, p. 204, n. 17.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Regarding the problems Vincent ran up against when trying to paint out of doors in Paris, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let594.xml#n-12">see letter 594, n. 12.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

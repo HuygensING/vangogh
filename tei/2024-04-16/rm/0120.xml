@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Probably Etten, second half of 1881. Possibly sent to Anna van Gogh. Copy of the poem ‘St Jerome’s love’ by Thomas Moore.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/RM12"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1455 V/1978</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>RM12</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno/></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>-</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1881">second half of 1881</date>
+                            <placeName/>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anna van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1455" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001340_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001340_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001001340_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1455 V/1978" xml:id="surf-extra-1v">
+<graphic url="https://example.com/iiif/VGM001001340_02_n/full/max/0/default.jpg"/></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.en.1" n="1"><hi rend="italics">St Jerome’s love.</hi><ptr target="#note-t-1"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.en.2" n="2">Who is the maid my spirit seeks</p>
+
+<p xml:id="p.en.3" n="3">Through cold reproof, and slanders blight –</p>
+
+<p xml:id="p.en.4" n="4">Has she loves roses on her cheeks?</p>
+
+<p xml:id="p.en.5" n="5">Is her’s an eye of calm delight?</p>
+
+<p xml:id="p.en.6" n="6">No – wan and sunk with midnight prayer</p>
+
+<p xml:id="p.en.7" n="7">Are the pale looks of her I love</p>
+
+<p xml:id="p.en.8" n="8">And if by times a light be there</p>
+
+<p xml:id="p.en.9" n="9">That light is kindled from above.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.en.10" n="10">I choose not her mine hearts elect</p>
+
+<p xml:id="p.en.11" n="11">’Mongst those that seek their Makers shrine</p>
+
+<p xml:id="p.en.12" n="12">In gems and garlands proudly decked</p>
+
+<p xml:id="p.en.13" n="13">As if themselves were things divine.–</p>
+
+<p xml:id="p.en.14" n="14">No, heaven but faintly warms the breast</p>
+
+<p xml:id="p.en.15" n="15">That beats beneath a broidered veil.</p>
+
+<p xml:id="p.en.16" n="16">And she, who comes in glittering dress</p>
+
+<p xml:id="p.en.17" n="17">To mourn her frailty – yet is frail.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.en.18" n="18">Not so the faded form I prize</p>
+
+<p xml:id="p.en.19" n="19">And love because her bloom is gone</p>
+
+<p xml:id="p.en.20" n="20">The glory of those sainted eyes</p>
+
+<p xml:id="p.en.21" n="21">Is all the dress her brow puts on.–</p>
+
+<p xml:id="p.en.22" n="22">But ne’er was beauties bloom so bright,</p>
+
+<p xml:id="p.en.23" n="23">So touching as that forms decay</p>
+
+<p xml:id="p.en.24" n="24">Which as the altars wavering light</p>
+
+<p xml:id="p.en.25" n="25">In holy lustre fades away.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.en.26" n="26">Harriet Beecher Stowe.</p>
+<space unit="lines" quantity="1"/>
+    <pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+    <figure facs="zone-sketch-1" n="A"/>
+    </div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1"><hi rend="italics">St Jerome’s love.</hi><ptr target="#note-t-1"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Who is the maid my spirit seeks</p>
+<p xml:id="p.en.3" n="3">Through cold reproof, and slanders blight –</p>
+<p xml:id="p.en.4" n="4">Has she loves roses on her cheeks?</p>
+<p xml:id="p.en.5" n="5">Is her’s an eye of calm delight?</p>
+<p xml:id="p.en.6" n="6">No – wan and sunk with midnight prayer</p>
+<p xml:id="p.en.7" n="7">Are the pale looks of her I love</p>
+<p xml:id="p.en.8" n="8">And if by times a light be there</p>
+<p xml:id="p.en.9" n="9">That light is kindled from above.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">I choose not her mine hearts elect</p>
+<p xml:id="p.en.11" n="11">’Mongst those that seek their Makers shrine</p>
+<p xml:id="p.en.12" n="12">In gems and garlands proudly decked</p>
+<p xml:id="p.en.13" n="13">As if themselves were things divine.</p>
+<p xml:id="p.en.14" n="14">No, heaven but faintly warms the breast</p>
+<p xml:id="p.en.15" n="15">That beats beneath a broidered veil.</p>
+<p xml:id="p.en.16" n="16">And she, who comes in glittering dress</p>
+<p xml:id="p.en.17" n="17">To mourn her frailty – yet is frail.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Not so the faded form I prize</p>
+<p xml:id="p.en.19" n="19">And love because her bloom is gone</p>
+<p xml:id="p.en.20" n="20">The glory of those sainted eyes</p>
+<p xml:id="p.en.21" n="21">Is all the dress her brow puts on.</p>
+<p xml:id="p.en.22" n="22">But ne’er was beauties bloom so bright,</p>
+<p xml:id="p.en.23" n="23">So touching as that forms decay</p>
+<p xml:id="p.en.24" n="24">Which as the altars wavering light</p>
+<p xml:id="p.en.25" n="25">In holy lustre fades away.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26"><rs type="person" ref="bio.xml#_1465">Harriet Beecher Stowe</rs>.</p><pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/><figure facs="zone-sketch-1" n="A"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The dating of this text cannot be determined with any certainty. The poem was copied from Harriet Beecher Stowe’s <hi rend="italics">We and our neighbours</hi>, which had been published in 1875 – on 19 November 1881 Vincent, writing from Etten, advised Theo to read this book (<ref target="let187.xml">letter 187</ref>). The little drawing of a landscape with gardens and houses, <hi rend="italics"><rs type="artwork" ref="artwork.xml#_238">Fields and houses</rs></hi> (F - / JH -) (5.0 x 9.2 cm), which also appears on the sheet, possibly dates from Van Gogh’s period in The Hague, 1882-1883. See <hi rend="italics">Verzamelde brieven</hi> 1952-1954, vol. 1, p. 294; Pabst 1988, p. 95; and cat. Amsterdam 1996, pp. 242-243.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The sheet went by descent to the heirs of Van Gogh’s sister Anna, and was bought at auction by the engineer V.W. van Gogh on 2 May 1973 (Mak van Waay, Amsterdam, no. 66a); on 11 May 1978 it became the property of the Vincent van Gogh Foundation (Van Gogh Museum, Documentation). In any case, Anna wrote a letter to Etten in August 1881 (<ref target="let171.xml">see letter 171</ref>). If she received this sheet in a letter, it could date, judging by the above, from the last part of 1881.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_518">Who is the maid? St. Jerome’s love</ref>’ is by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_711">Thomas Moore</rs>. See Moore 1910, pp. 255-256. Van Gogh attributes it to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1465">Harriet Beecher Stowe</rs>. He therefore knew it from her book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_519">We and our neighbours, or the records of an unfashionable street. A novel</ref></hi>, in which the poem appears. See ed. London 1877, p. 86. There are several differences between Van Gogh’s copy and the printed version. The most striking are:</p>
+
+<p>5 of calm delight &lt; of this world’s light</p>
+
+<p>9 That light &lt; It’s beam</p>
+
+<p>11 ’Mongst those that &lt; From those who</p>
+
+<p>16 dress &lt; vest</p>
+
+<p>21 dress &lt; grace</p>
+
+<p>22 bloom &lt; dawn</p>
+
+<p>24 wavering &lt; trembling</p>
+
+<p>Van Gogh copied the poem, again with more or less the same differences, twice in Saint-Rémy: at the end of <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let832.xml">letter 832</ref> to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien van Gogh</rs>, and on a loose sheet belonging to the estate. Torn on purpose all around the text, the sheet contains part of a letter to Theo on the back (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="RM18.xml">see RM18</ref>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Thursday, 23 or Friday, 24 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let668"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b569 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>668</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>527</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>672</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-08-23">Thursday, 23 or Friday, 24 August 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0569" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000766_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000766_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000766_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0569" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000766_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000766_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000766_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Voudrais tu demander à Tasset son opinion sur la question suivante<c type="kp">_</c> à moi il me semble que plus une couleur est broyée fine<c type="kk">/</c> plus aussi elle est saturée d’huile<c type="kp">_</c> Or nous n’aimons pas enormement l’huile<c type="kk">/</c> cela va sans dire<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Si on peignait comme Monsieur Gerome et les autres trompe l’oeil photographiques nous demanderions sans doute des couleurs broyées très fines. Au contraire nous ne detestons pas que la toile ait un aspect fruste.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Si donc au lieu de faire broyer sur la pierre pendant dieu sait combien d’heures la couleur on la broyait juste le temps qu’il faut pour la rendre maniable sans tant s’occuper de la finesse du grain<c type="kk">/</c> on aurait des couleurs plus fraîches<c type="kk">/</c> peutêtre noircissant moins. S’il veut en faire un essai avec les 3 chromes<c type="kk">/</c> le veronèse<c type="kk">/</c> le vermillon<c type="kk">/</c> la mine orange<c type="kk">/</c> le cobalt<c type="kk">/</c> l’outremer<c type="kk">/</c> je suis presque sûr qu’à bien moins de frais j’aurais des couleurs et plus fraiches et plus durables. Alors à quel prix. Je suis sûr que cela doit pouvoir se faire. Probablement pour les garances<c type="kk">/</c> l’emeraude<c type="kk">/</c> qui sont transparentes<c type="kk">/</c> aussi<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.5" n="5">J’ajoute ici une commande qui est pressée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Maintenant j’en suis au quatrième tableau de tournesols.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Ce quatrieme est un bouquet de 14 fleurs et est sur fond jaune<ptr target="#note-t-2"/> comme une<hi rend="italics"/> nature morte de coings et de citrons que j’ai fait dans le temps.<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Seulement comme c’est beaucoup plus grand<ptr target="#note-t-4"/> cela produit un effet assez singulier et je crois que cette fois ci c’est peint avec plus de simplicité que les coings et citrons. Est ce que tu te rapelles que nous avons un jour vu à l’hôtel Drouot un Manet bien extraordinaire<c type="kk">/</c> quelques grosses pivoines roses et leurs feuilles vertes sur un fond clair<c type="kp">_</c><ptr target="#note-t-5"/> Aussi dans l’air et aussi <hi rend="italics">fleur</hi> que n’importe quoi et pourtant peint en pleine pâte solide et pas comme Jeannin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Voila ce que j’appellerais Simplicité de technique<c type="kp">_</c>– Et je dois te dire que de ces jours ci je m’efforce à trouver 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>un travail de la brosse sans pointillé ou autre chose<c type="kk">/</c> rien que la touche variée<c type="kp">_</c> Mais un jour tu verras.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Quel dommage que la peinture coûte si chère<c type="kp">_</c> Cette semaine j’avais de quoi me gener moins que les autres semaines<c type="kk">/</c> je me suis donc laisser aller<c type="kp">_</c> J’aurai dépensé le billet de cent dans une seule semaine mais au bout de cette semaine j’aurai mes quatre tableaux<ptr target="#note-t-6"/> et même si j’ajoute le prix de toute la couleur que j’ai usée la semaine n’aura pas râtée. Je me suis levé fort de bonne heure tous les jours<c type="kk">/</c> j’ai bien diné et bien soupé<c type="kk">/</c> j’ai pu travailler assidument sans me sentir faiblir. Mais voilà<c type="kk">/</c> nous vivons dans des jours où ce que l’on fait n’a pas cours<c type="kk">/</c> non seulement on ne vend pas mais comme tu le vois avec Gauguin<c type="kk">/</c> on voudrait emprunter sur des tableaux faits et on ne trouve rien meme lorsque ces sommes sont insignifiantes et les travaux importants<c type="kp">_</c> Et voilà comment nous sommes livrés à tous les hasards<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Et de notre vie je crains que cela ne changera guère<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Pourvu que nous préparions des vies plus riches à des peintres qui marcheront sur nos traces<c type="kk">/</c> ce serait déjà quelque chôse<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">La vie est pourtant courte et surtout le nombre d’annees où l’on se sent fort assez pour tout braver. Enfin<c type="kk">/</c> il est à redouter qu’aussitot que la nouvelle peinture sera appréciée les peintres se ramolliront<c type="kp">_</c> Dans tous les cas voilà ce qu’il y a de positif<c type="kk">/</c> ce ne sont pas nous autres d’à présent qui sommes la décadence. Gauguin et Bernard parlent maintenant de faire “de la peinture d’enfant”. J’aime mieux cela que la peinture des décadents. Comment se fait il que les gens voient dans l’impressionisme quelque chose de décadent. C’est pourtant bien le contraire<c type="kp">_</c> J’inclus un mot pour Tasset. La différence de prix devrait être tres considérable et il va sans dire que j’espère me servir de moins en moins de couleurs broyées fines. Je te serre bien la main. (une des decorations de soleils sur fond bleu de roi est “auréolée” c.à.d. chaque objet est entourée d’un trait coloré de la complémentaire du fond sur lequel il se detache)<c type="kp">_</c><ptr target="#note-t-7"/> à bientôt<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Would you ask <rs type="person" ref="bio.xml#_785">Tasset</rs> his opinion on the following question? It seems to me that the more finely a colour is ground, the more it is saturated by oil. Now we’re not over-fond of oil, that goes without saying.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">If we painted like Monsieur <rs type="person" ref="bio.xml#_1044">Gérôme</rs> and the other <hi rend="italics">trompe-l’oeil</hi> photographic ones, we’d no doubt ask for colours ground very fine. We, on the contrary, don’t strongly object to the canvas having a rough look.</p>
+<p rend="indent" xml:id="p.en.4" n="4">So if instead of having the colour ground on the stone for God knows how many hours, we grind it just long enough to make it workable, without bothering too much about the fineness of the grain, we’d have colours that were fresher, perhaps darkening less. If he wishes to do a test with the 3 chromes, Veronese, vermilion, orange lead, cobalt, ultramarine, I’m almost certain that at greatly reduced cost I would have colours that were both fresher and longer-lasting. At what price, then? I’m sure that could be done. Probably for the reds, for emerald, which are transparent, too. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">I add here an order that’s urgent.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m now on the fourth painting of sunflowers.</p>
+<p rend="indent" xml:id="p.en.7" n="7">This fourth one is a bouquet of 14 flowers and is on a yellow background,<ptr target="#note-t-2"/> like a still life of quinces and lemons that I did back then.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Only as it’s much bigger,<ptr target="#note-t-4"/> this one creates quite an unusual effect, and I believe that this time it’s painted with more simplicity than the quinces and lemons. Do you remember that one day at the Hôtel Drouot we saw a quite extraordinary <rs type="person" ref="bio.xml#_1182">Manet</rs>, some large pink peonies and their green leaves on a light background?<ptr target="#note-t-5"/> As much in harmony and as much a <hi rend="italics">flower</hi> as anything you like, and yet painted in solid, thick impasto and not like <rs type="person" ref="bio.xml#_1112">Jeannin</rs>.</p>
+<p rend="indent" xml:id="p.en.9" n="9">That’s what I’d call simplicity of technique. And I must tell you that these days I’m making a great effort to find 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> a way of using the brush without stippling or anything else, nothing but a varied brushstroke. But you’ll see, one day.</p>
+<p rend="indent" xml:id="p.en.10" n="10">What a pity painting costs so much. This week I had fewer money worries than other weeks, so I let myself go. I’ll have spent the hundred-franc note in a single week, but at the end of this week I’ll have my four paintings<ptr target="#note-t-6"/> and even if I add the price of all the colours that I’ve used up, the week won’t have been wasted. I got up very early every day, I dined and supped well, I was able to work assiduously without feeling myself weaken. But there you are, we live in times when there’s no market for what we do; not only do we not sell, as you see with <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, we’d like to borrow against paintings done and we find nothing, even when the amounts are insignificant and the works substantial. And that’s how we fall prey to all the whims of fortune.</p>
+<p rend="indent" xml:id="p.en.11" n="11">And I fear that it will scarcely change during our lifetime. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">As long as we were preparing the way for richer lives for the painters who will walk in our footsteps, that would already be something.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Life is short, though, and especially the number of years when one feels strong enough to brave everything. And in the end, there’s the fear that as soon as the new painting is appreciated, the painters will weaken. In any case, here’s what’s positive, we aren’t the ones who represent decadence today. <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs type="person" ref="bio.xml#_831">Bernard</rs> are now talking about doing ‘children’s painting’. I prefer that to the painting of the decadents. How does it come about that people see something decadent in Impressionism? It’s actually quite the reverse. I enclose a line for <rs type="person" ref="bio.xml#_785">Tasset</rs>. The difference in price should be quite considerable, and it goes without saying that I hope to use fewer and fewer finely ground colours. I shake your hand firmly. (One of the decorations of sunflowers on a royal blue background has a ‘halo’, that’s to say, each object is surrounded by a line of the colour complementary to the background against which it stands out).<ptr target="#note-t-7"/> More soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Ever yours,</p>
+<p xml:id="p.en.15" n="15">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">See the notes to <ref target="let665.xml">letter 665</ref>, <hi rend="italics">Date</hi>, for the sequence of <ref target="let665.xml">letters 665</ref>-<ref target="let671.xml">671</ref> and our dating of them.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed a paint order <ref target="#l-24">(l. 24)</ref> and a letter for Tasset <ref target="#l-86">(l. 86)</ref> which have not survived. </p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Hulsker believes that the present letter was not sent; he bases this on the fact that Van Gogh repeats one or two phrases almost verbatim in <ref target="let669.xml">letter 669</ref> (about his fourth painting of sunflowers and the Manet at the Drouot). Dorn rejected this view since it would mean that the paint order could not have been placed and so the next letter would have contained an even more urgent request for paint – which it does not. See Hulsker 1998, pp. 42-52, and Dorn 1999, pp. 44-45 (n. 8).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Moreover Vincent writes in <ref target="let672.xml">letter 672</ref>, ‘I’m still thinking very seriously about using coarser colours’, from which it can be inferred that he had already mentioned this to Theo (that is to say, in the present letter). It also emerges from <ref target="let674.xml">letter 674</ref> of 4 September that he did send the paint order: ‘Now I sent you an order for colours exactly a week ago. And a letter for Tasset, asking him if he could supply coarsely ground colours more cheaply’. In short, had Vincent sent the order and the letter for Tasset with <ref target="let669.xml">letter 669</ref>, we would expect to find the explanation for it in that letter to Theo – particularly since it was not a standard order. There is no explanation there, though, but there is here. We consequently assume that this letter was sent.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh was looking for matt effects; see for instance <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml">letter 583</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>). In this identification we are following Van Tilborgh and Hendriks 2001, pp. 21-22. Van Gogh added the small bloom at lower left later – this explains why he refers here to ‘14 flowers’.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Quinces, lemons, pears and grapes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2557">F 383 / JH 1339</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454</rs> measures 93 x 73 cm; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2557">F 383</rs> measures 48.5 x 65 cm.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1182">Edouard Manet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vase of peonies on a pedestal</hi>, 1864 (Paris, Musée d’Orsay). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_227">Ill. 227</rs>. Vincent and Theo saw this work on 5 June 1886 during the sale of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_196">John Saulnier</rs>’s collection in the Hôtel Drouot in Paris, where it was listed as cat. no. 62, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vase of flowers </hi>by Paul [sic] Manet. See auct. cat. Paris 1886.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Besides the work referred to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2,">n. 2,</ref> Van Gogh means the three paintings that he said he was working on in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let666.xml">letter 666</ref>: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2701">F 453 / JH 1559</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2702">F 459 / JH 1560</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The painting in question is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2702">F 459 / JH 1560</rs>). Van Gogh wrote ‘soleils’ (suns) rather than ‘tournesols’ (sunflowers); cf. for the association of sunflowers, sun and the south of France, and in connection with this choice of words: Dorn 1990, pp. 116-117.</p>
+
+<p>Van Gogh may have got the concept of ‘haloing’ from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Charles Blanc</rs>, who wrote in his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_48">Grammaire des arts du dessin</ref></hi>: ‘Putting a particular colour on a canvas, said Mr Chevreul, doesn’t just tint everything that the brush touches with this colour, but also provides complementary colour to the surrounding area, so a red circle is surrounded by a slight green halo which becomes fainter as it spreads out; an orange circle is surrounded by a blue halo; a yellow circle is surrounded by a violet halo..... and vice versa.’ (Mettre une couleur sur une toile, dit M. Chevreul, ce n’est pas seulement teindre de cette couleur tout ce qu’a touché le pinceau, c’est encore colorer de la complémentaire l’espace environnant; ainsi un cercle rouge est entouré d’une légère auréole verte, qui va s’affaiblissant à mesure qu’elle s’éloigne; un cercle orangé est entouré d’une auréole bleue; un cercle jaune est entouré d’une auréole violette..... et réciproquement) (see Blanc 1870, p. 606).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

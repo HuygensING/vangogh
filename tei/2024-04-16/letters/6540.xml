@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Friday, 3 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let654"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b558 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>654</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>517</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>658</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-08-03">on or about Friday, 3 August 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0558" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000751_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000751_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0558" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000751_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000751_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000751_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">je presume plus ou moins que tu sois allé en Hollande<c type="kp">_</c> Je suis un peu porté à croire qu’on t’attendait en Hollande d’après la lettre reçue de notre soeur<c type="kk">/</c> d’ailleurs parceque je n’ai pas eu de tes nouvelles à ce sujet.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai recu une lettre de Gauguin dans laquelle il parle de la peinture et se plaint de ne pas encore avoir l’argent nécessaire pour venir ici – mais rien de neuf ou de changé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’ai envoyé à Russell 12 dessins d’après des études peintes<ptr target="#note-t-1"/> et j’ai donc eu occasion d’en reparler.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Nous aurons bientôt la St. Michel et je n’ai loué la maison que jusqu’alors<c type="kk">/</c><ptr target="#note-t-2"/> dois je oui ou non la reprendre pour un demi an<c type="kk">/</c> voilà ce que je voudrais bien décider après que Gauguin l’aurait vue et non pas sans lui.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je ne pouvais payer mon loyer le 1<hi rend="super">er</hi> ayant modèle pour toute la semaine – j’ai deux portraits du même modèle en train qui sont plus importants pour moi que le reste.<ptr target="#note-t-3"/> Mais c’est à cette occasion<c type="kk">/</c> lorsque je renvoyais mon bonhomme<ptr target="#note-t-4"/> à lundi prochain pour le mois de loyer<c type="kk">/</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>qu’il a dit quelquechôse<c type="kk">/</c> qu’il pouvait trouver un autre locataire pour la maison si je n’etais pas decidé à la garder. Ce qui m’étonne peu puisque moi je l’ai faite réparer et qu’elle y a gagnée<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">J’ai dans ma lettre précédente oublié de te répondre au sujet de la nouvelle toile de Tasset à f<hi rend="super">r</hi> 5:50<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Elle est très belle et bien ce que je voulais<c type="kp">_</c> Si je fais un portrait ou enfin quelque chose que je tiens à faire durer il pourrait y compter que j’en userais<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Mais pas beaucoup<c type="kk">/</c> venant de prendre le parti de me servir pour les études de la toile à bon marché<c type="kp">_</c><ptr target="#note-t-7"/> Si son envoi n’est pas parti je voudrais bien que tu y ajoutes 4 petits tubes de laque geranium. Si toutefois je n’aie pas déjà commandée cette couleur<c type="kk">/</c> mais je crois n’avoir demandé en fait de garances que du Carmin.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Maintenant j’ai deux figures donc en train<c type="kk">/</c> une tete et un buste avec les mains d’un vieux facteur en uniforme bleu foncé<c type="kp">_</c> Il a une tete socratique intéressante à peindre.<ptr target="#note-t-8"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Il n’y a pas de meilleur et plus court chemin pour améliorer le travail que de faire la figure. Aussi je me sens toujours de la confiance en faisant des portraits<c type="kk">/</c> sachant que ce travail-là est bien plus sérieux – c’est peutêtre pas le mot – mais est plutôt celui qui me permet de cultiver ce que j’ai de mieux et de plus sérieux.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">à bientôt<c type="kk">/</c> bonne poignee de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.13" n="13">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.14" n="14">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I’m more or less assuming that you went to Holland. From the letter received from our sister I’m somewhat inclined to believe they were expecting you in Holland, also because I haven’t had news from you on this subject.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I’ve received a letter from <rs type="person" ref="bio.xml#_1039">Gauguin</rs> in which he talks about painting and complains about not yet having the money needed to come here — but nothing new or different.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I sent <rs type="person" ref="bio.xml#_1334">Russell</rs> 12 drawings after painted studies,<ptr target="#note-t-1"/> and so I’ve had an opportunity to talk about it again.</p>
+<p rend="indent" xml:id="p.en.5" n="5">We’ll soon be at Michaelmas, and I’ve only rented the house until then;<ptr target="#note-t-2"/> should I, yes or no, take it again for a half year, that’s what I’d very much like to decide after <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has seen it, and not without him.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I couldn’t pay my rent on the 1<hi rend="super">st</hi>, having a model for the whole week — I have two portraits of the same model on the go, which are more important to me than the rest.<ptr target="#note-t-3"/> But it’s on this occasion, when I was putting my chap<ptr target="#note-t-4"/> off till next Monday for the month’s rent, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> that he said something, that he could find another tenant for the house if I hadn’t decided to keep it. Which doesn’t surprise me much, since I’ve had it repaired myself, and so it’s improved.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">In my last letter I forgot to reply to you on the subject of <rs type="person" ref="bio.xml#_785">Tasset</rs>’s new canvas at 5.50 francs.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">It’s very fine, and quite what I wanted. If I did a portrait or just something that I’m determined should last, he could depend on my using it.</p>
+<p rend="indent" xml:id="p.en.9" n="9">But not much, having just made up my mind to use cheap canvas for the studies.<ptr target="#note-t-7"/> If his consignment hasn’t gone off, I’d be very pleased if you would add to it 4 small tubes of geranium lake. If, that is, I haven’t already ordered that colour, but I believe that in fact I didn’t ask for any bright reds except carmine.</p>
+<p rend="indent" xml:id="p.en.10" n="10">So I have two figures on the go now, a head, and a bust with hands, of an old postman in a dark blue uniform. He has a Socratic head that’s interesting to paint.<ptr target="#note-t-8"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">There’s no better or shorter way to improve my work than to do figures. Also, I always feel confidence when doing portraits, knowing that that work is much more serious — that’s perhaps not the word — but rather is the thing that enables me to cultivate what’s best and most serious in me.</p>
+<p rend="indent" xml:id="p.en.12" n="12">More soon, good handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">Ever yours,</p>
+<p xml:id="p.en.14" n="14">Vincent </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh says that he had not been able to pay his rent on the first of the month and that his landlord would be coming back on the following Monday (that must have been 6 August). The letter was therefore written between these two dates. Accordingly we have dated it on or about Friday, 3 August 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uncle Vincent’s death <ref target="let652.xml">(652)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The batch of drawings for Russell <ref target="let652.xml">(652)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Request to Russell to buy a painting from Gauguin <ref target="let582.xml">(582)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>These twelve drawings were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fishing boats at sea </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2677">F 1433 / JH 1528</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lawn with a weeping tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2683">F 1449 / JH 1534</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2681">F 1454 / JH 1532</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2684">F 1458 / JH 1536</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2676">F 1486 / JH 1527</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with sheaves</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2679">F 1489 / JH 1530</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arles seen from the wheatfields </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2678">F 1490/ JH 1529</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2682">F 1503 / JH 1533</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2674">F 1427 / JH 1525</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fishing boats at sea </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2675">F 1430a / JH 1526</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Zouave </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3004">F 1482a / JH 1535</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The road to Tarascon</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2680">F 1502a / JH 1531</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Michaelmas, 29 September, was traditionally the day on which leases expired (and commenced) in France. Van Gogh had rented the Yellow House from 1 May, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-3">see letter 602, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>These are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2672">F 432 / JH 1522</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2673">F 433 / JH 1524</rs>). We know from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let655.xml">letters 655</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let662.xml">662</ref> that Van Gogh painted the bust first, and then the head.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_755">Bernard Soulè</rs>, the owner's agent; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-19">see letter 602, n. 19.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh had had the Yellow House painted; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let614.xml">see letter 614</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>This relates to the new canvas – Vincent must have received a sample of it. The order eventually arrived in Arles on 9 August (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let658.xml">see letter 658</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let639.xml">See letter 639</ref> for the cheaper canvas. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>For the comparison of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_754">Socrates</rs> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let652.xml#n-7">see letter 652, n. 7.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

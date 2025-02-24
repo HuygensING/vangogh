@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Isleworth, Wednesday, 2 August 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let087"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1464 a-b V/1962 (sheets 2, 3)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>087</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>72</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>085</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1876-08-02">Wednesday, 2 August 1876</date>
+                            <placeName>Isleworth</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0085" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000088_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000088_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0085" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000088_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000088_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000088_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1464 a" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001351_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-4">
+<graphic url="https://example.com/iiif/VGM001001351_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-7">
+<graphic url="https://example.com/iiif/VGM001001351_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1464 a" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001351_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-5">
+<graphic url="https://example.com/iiif/VGM001001351_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001001351_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1464 b" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001352_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-8">
+<graphic url="https://example.com/iiif/VGM001001352_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-11">
+<graphic url="https://example.com/iiif/VGM001001352_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1464 b" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001352_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-9">
+<graphic url="https://example.com/iiif/VGM001001352_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001001352_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Isleworth 2 Augustus 1876</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Van t’huis hoorde ik dat gij nog een dag t’huis zoudt komen terwijl Anna en Lies er waren, schrijf eens of dat gebeurd is.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Gisteren kwam Mr. Jones t’huis en de familie,<ptr target="#note-t-1"/> ik had de eetzaal van de jongens groen gemaakt met Welcome home op den muur van hulst en klimop en groote bouquetten op tafel. Er is hier veel hulst in den tuin en van enkele oude boomen heeft men al de takken afgekapt. Die zitten nu vol jonge takken en wel geheel wit of geelachtig met een rose blaadje hier en daar en dat is prachtig mooi, ik heb er een grooten bos van geplukt en op tafel gezet.─</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Mr. Jones vroeg mij of ik kon te weten komen hoeveel 50 pond boter in Holland zou kosten, is dit niet al te duur<c type="kk">/</c> denkt hij er over om die altijd uit Holland te laten komen.─ Vraag er jufvrouw Roos eens naar en schrijf het zoo spoedig mogelijk.─</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">De jongens zullen nu ook wel spoedig komen.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Hebt gij ooit de geschiedenis van Elia en Eliza goed gelezen, dezer dagen las ik die nog eens en hierbij stuur ik U wat ik er van overschreef.<ptr target="#note-t-3"/> ’t Is zoo treffend schoon. Zoo las ik ook nog in de Handelingen dat van Paulus<c type="kk">/</c> hoe hij stond op het strand<c type="kk">/</c> en zij vielen hem om den hals en kusten hem,<ptr target="#note-t-4"/> en dat woord van Paulus trof mij “God vertroost den eenvoudigen”<c type="kp">_</c><ptr target="#note-t-5"/> ’t Is God die mannen maakt en het leven rijk kan maken aan oogenblikken en tijden van hooger leven en hoogere stemming. Heeft ook de zee zich zelven gemaakt of een eikeboom zich zelven, maar mannen zooals Pa zijn nog schooner dan de zee.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Toch is de zee schoon, er waren veel weegluizen<ptr target="#note-t-a"/> bij Mr Stokes maar dat gezigt uit het schoolraam deed ze vergeten.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Het hart van een vleeschelijk mensch “bezwijkt wel eens van sterk verlangen”<ptr target="#note-t-6"/> op het zien van Hen die ijveren en werken voor Hem die hen als het ware doopte met den Heiligen Geest en met vuur,<ptr target="#note-t-7"/> en zij, zie hun oog wordt nog wel eens vochtig van weemoed als zij terugdenken aan hun jonge dagen en aan “het goede waarmede Hij hen verzadigde”.<ptr target="#note-t-8"/> Toch is hun hoogen vrede beter dan den bedriegelijken vrede van vroeger. De <hi rend="italics">ware</hi> rust en vrede begint pas “als er niets meer is waarin men kan rusten”<ptr target="#note-t-9"/> en als “nevens God niets meer lust op aarde”<c type="kp">_</c><ptr target="#note-t-10"/> Dan is er een “Wee mij”<ptr target="#note-t-11"/> in Hen en eene smeeking “wie zal mij verlossen van het ligchaam dezes doods”,<ptr target="#note-t-12"/> maar toch is dat den besten tijd van het leven en zalig zijn zij die dien hoogen top bereiken.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Twee mannen heb ik dat hooren zeggen, een te Parijs, ds Bersier,<ptr target="#note-t-13"/> die in den angst van een groot ligchaamslijden dat hem wachtte uitriep in zijne preek “Qui me delivrera de ce cadavre” op een toon die geloof ik allen in de kerk deed sidderen. En ik hoorde Pa het zeggen (in April toen ik t’huis was, in zijne preek) maar Hij zeide het op zachten toon, toch was die doordringender dan dien ander, en Hij liet er op volgen (en zijn aangezigt was als dat eens Engels) “de gezaligden daarboven, zij zeggen ‘wat gij nu zijt was ik voor dezen: wat ik nu ben zult gij eens wezen’”<c type="kp">_</c><ptr target="#note-t-14"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Tusschen Pa en Hen daarboven ligt nog een deel van het leven<c type="kk">/</c> tusschen ons en Pa ligt ook nog het leven<c type="kp">_</c> Hij daarboven kan ons Pa’s broeders maken en kan ook ons beiden innig aan elkaar verbinden hoe langer hoe meer, moge dat zoo zijn want het is mij behoefte Uw broeder te blijven, jongen, gij weet het immers hoe ik van U houd!</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Mogt ik er komen en vasten grond onder de voeten krijgen.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Gisteren deed ik eene mooie wandeling langs den Theems<c type="kk">/</c> aan den overkant waren prachtige villas met hunne tuinen. Het was eene lucht zooals Ruysdael of Constable ze schilderen.─</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">En nu een handdruk in gedachte<c type="kk">/</c> groet allen bij Roos voor mij, hoe maakt Willem<ptr target="#note-t-15"/> het en groet Borchers ook als gij hem zien mogt en geloof mij</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.15" n="15">Uw liefh. broer</p>
+
+<p xml:id="p.nl.16" n="16">Vincent.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="4" xml:id="pb-orig-2r-4" facs="#zone-pb-2r-4"/>
+
+<p xml:id="p.nl.17" n="17">Het woord des Heeren geschiedde tot Elia, de Thisbiet, zeggende: Ga weg van hier, en wend U naar het Oosten, en verberg U aan de beek Krith, die voor aan de Jordaan is.─ En het zal ge<c type="shy">-</c>schieden, dat gij uit de beek drinken zult; en Ik heb de raven geboden, dat zij u daar onderhouden zullen. Hij dan ging henen, en deed naar het woord des Heeren: want Hij ging en woonde bij de beek Krith, die voor aan de Jordaan is. En de raven bragten hem des morgens brood en vleesch, desgelijks brood en vleesch des avonds; en hij dronk uit de beek.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">En het geschiedde na vele dagen, dat de beek uitdroogde, want geen regen was in het land geweest. Toen geschiedde het woord des Heeren tot hem<c type="kk">/</c> zeggende: Maak u op, ga henen naar Zarphath, dat bij Sidon is, en woon aldaar; zie ik heb eene weduwvrouw geboden, dat zij u onderhoude. Toen maakte hij zich op, en ging naar Zarphath. Als hij nu aan de poort der stad kwam, zie, zoo was daar eene weduwvrouw, hout lezende, en hij riep tot haar, en zeide: Haal mij toch een weinig water in dit vat, dat ik drinke. Toen zij nu henenging om te halen, zoo riep hij tot haar, en zeide: Haal mij toch ook eene bete broods in Uwe hand. Maar zij zeide: Zoo waar<c type="shy">-</c>achtig als de Heer Uw God leeft, indien ik een koek heb, dan alleen een hand vol meel in de kruik, en een weinig olie in de flesch! zie ik heb een paar houten gelezen, en ik ga henen, en zal het voor mij en voor mijnen zoon bereiden, dat wij het eten en sterven. En Elia zeide tot haar: Vrees niet, ga henen, doe naar Uw woord; maar maak mij vooreerst een kleinen koek daarvan, en breng mij dien hierbuiten; doch voor U en Uwen zoon zult gij daarna wat maken. Want zoo zegt de Heer, de God Israels: Het meel van 
+<pb f="2v" n="5" xml:id="pb-orig-2v-5" facs="#zone-pb-2v-5"/>de kruik zal niet verteerd worden, en de olie der flesch zal niet ontbreken, tot op den dag, dat de Heer regen op den aardbodem geven zal. En zij ging henen, en deed naar het woord van Elia; zoo at zij, en hij, en haar huis vele dagen. Het meel van de kruik werd niet verteerd, en de olie der flesch ontbrak niet, naar het woord des Heeren, dat Hij gesproken had tot Elia. En het geschiedde na deze dingen, dat de zoon dezer vrouw, der waardin van het huis, krank werd; en zijne krankheid werd zeer sterk, totdat geen adem in hem overgebleven was. En zij zeide tot Elia: Wat heb ik met U te doen, gij man Gods? zijt gij bij mij in<c type="shy">-</c>gekomen, om mijne ongeregtigheid in gedachtenis te brengen, en om mijnen zoon te dooden? En hij zeide tot haar: Geef mij Uwen zoon. En hij nam hem van haren schoot, en droeg hem boven in de opperzaal, waar hij zelf woonde, en hij leide hem neder op zijn bed. En hij riep den Heer aan, en zeide: Heer, mijn God! hebt Gij dan ook deze weduwe, bij welke ik herberg, zoo kwalijk gedaan, dat Gij haren zoon gedood hebt? En hij mat zich driemaal uit over dat kind, en riep den Heer aan, en zeide: Heere mijn God laat toch de ziel dezes kinds in hem wederkomen. En de Heer verhoorde de stem van Elia en de ziel des kinds kwam weder in hem, zoodat het weder levend werd<c type="kp">_</c> En Elia nam het kind en bragt het af van de opper<c type="shy">-</c>zaal in het huis; en gaf het aan zijne moeder; en Elia zeide: Zie Uw zoon leeft.─ Toen zeide die vrouw tot Elia<c type="kk">/</c> Nu weet ik, dat gij een man Gods zijt, en dat het woord des Heeren in uwen mond waarheid is.<ptr target="#note-t-16"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p xml:id="p.nl.19" n="19">En het geschiedde als Achab Elia zag, dat Achab tot hem zeide: Zijt gij die beroerder Israels? Toen zeide hij<c type="kk">/</c> Ik heb Israel niet beroerd, maar gij en uws vaders huis, daarmede, dat gijlieden de geboden des Heeren verlaten hebt en de Baäls nagevolgd zijt. Nu dan, zend henen, verzamel tot mij het gansche Israel op den berg Karmel, en de vierhonderd profeten van het bosch, die van de tafel van Izebel eten en de vierhonderd en vijftig profeten van Baäl. Zoo zond Achab onder alle kinderen Israëls, en verzamelde de profeten op den berg Karmel. Toen naderde Elia tot het gansche volk, en zeide: Hoe lang hinkt gij op twee gedachten? Zoo de Heer God is, volgt Hem na, en zoo Baäl God is, volgt hem na! Maar het volk antwoordde hem niet één woord.─ Toen zeide Elia tot het volk: ik ben alleen een profeet des Heeren overgebleven, en de profeten van Baäl zijn vierhonderd en vijftig mannen. Dat men ons dan twee varren geve, en dat zij voor zich den eenen var kiezen, en denzelven in stukken deelen, en op het hout leggen, maar geen vuur daaraan leggen; en ik zal den anderen var be<c type="shy">-</c>reiden, en op het hout leggen en geen vuur daaraan leggen. Roept gij daarna den naam uws Gods aan, en ik zal den naam des Heeren aanroepen; en de God die door vuur antwoorden zal, die zal God zijn. En het gansche volk antwoordde en zeide: Dat woord is goed. En Elia zeide tot de profeten van Baäl: kiest gijlieden voor U éénen var, en bereidt gij hem eerst, want gij zijt velen; en roept den naam Uws Gods aan, en legt geen vuur daaraan. En zij namen den var dien 
+<pb f="2r" n="7" xml:id="pb-orig-2r-7" facs="#zone-pb-2r-7"/>hij hun gegeven had, en bereidden hem en riepen den naam van Baäl aan, van den morgen tot den middag, zeggende: o Baäl, antwoord ons! Maar er was geene stem en geen antwoorder. En zij sprongen tegen den altaar dien men gemaakt had. En het geschiedde op den middag, dat Elia met hen spotte, en zeide: Roept met luider stem, want hij is een God; maar hij is in gepeins, of heeft wat te doen, of is op reis; misschien slaapt hij en zal wakker worden. En zij riepen met luider stem, en zij sneden zich zelven met messen en met priemen, naar hunne wijze, totdat zij bloed over zich uitstortten. Het geschiedde nu, als de middag voorbij was, dat zij profeteerden, totdat men het spijsoffer zoude offeren; maar er was geene stem en geen antwoorder, en geene opmerking.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Toen zeide Elia tot het gansche volk: Nadert tot mij. En al het volk naderde tot hem, en hij herstelde den altaar des Heeren die verbroken was. En Elia nam twaalf steenen, naar het getal der stammen van de kinderen Jakobs, tot welken het woord des Heeren geschied was, Zeggende: Israel zal uw naam zijn. En hij bouwde met die steenen den altaar in den naam des Heeren, daarna maakte hij eene groeve rondom den altaar, naar de wijdte van twee maten zaads<c type="kp">_</c> En hij schikte het hout, en deelde den var in stukken, en leide hem op het hout. En hij zeide: vult vier kruiken met water, en giet op het brandoffer en op het hout. En hij zeide: Doet het ten tweeden male. Voorts zeide hij: Doet het ten derde male. En zij deden het ten derde male<c type="kk">/</c> Zoodat het water rondom den altaar liep; daarbij vulde hij ook de groeve met water. Het geschiedde nu als men het spijsoffer offerde dat de profeet Elia naderde en zeide: Heer, God van Abraham, Isaäk en Israel! dat het heden bekend worde, dat Gij God in Israel zijt, en ik Uw knecht en dat ik al deze dingen naar Uw woord gedaan heb. Antwoord mij, Heer, antwoord mij; opdat dit volk erkenne, dat Gij o Heer! die God zijt, en dat gij hun hart achterwaards omgewend hebt. Toen viel het vuur des Heeren en verteerde 
+<pb f="3r" n="8" xml:id="pb-orig-3r-8" facs="#zone-pb-3r-8"/>dat brandoffer, en dat hout, en die steenen, en dat stof, ja lekte dat water op, hetwelk in de groeve was. Als nu het gansche volk dat zag, zoo vielen zij op hunne aangezigten en zeiden: de Heer is God, de Heer is God. En Elia zeide tot hen: Grijpt de profeten van Baäl, dat niemand van hen ontkome. En zij grepen ze, en Elia voerde hen af naar de beek Kizon en slagtte hen aldaar. Daarna zeide Elia tot Achab: Trek op, eet en drink, want er is een geruisch als van eenen overvloedigen regen. Alzoo toog Achab op, om te eten en te drinken; maar Elia ging op naar de hoogte van Karmel, en breidde zich uit voorwaarts ter aarde; daarna leide hij zijn aangezigt tusschen zijne knieën. En hij zeide tot zijnen jongen: Ga nu op, en zie uit naar de zee. Toen ging hij op, en zag uit, en zeide: Daar is niets. Toen zeide hij: Ga weder heen, zevenmaal. En het geschiedde bij de zevende maal dat hij zeide<c type="kk">/</c> Zie eene kleine wolk als eens mans hand, gaat op van de zee. En hij zeide: Ga op, zeg tot Achab: Span aan, en kom af, dat de regen u niet ophoude. En het geschiedde ondertusschen, dat de hemel van wolken en wind zwart werd; en er werd een groote regen, en Achab reed weg, en toog naar Jizreel. En de hand des Heeren was over Elia, en hij gordde zijne lenden, en liep voor het aangezigt van Achab heen, tot daar men te Jizreël komt.─<ptr target="#note-t-17"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.21" n="21">En Elia ging in de woestijn eene dagreis, en kwam en zat onder eenen jeneverboom; en bad, dat zijne ziel stierve en zeide: het is genoeg, neem nu, Heer! mijne ziel, want ik ben niet beter dan mijne vaderen. En hij leide zich neder, en sliep onder eenen jeneverboom, en zie toen roerde een Engel hem aan, en zeide tot hem: Sta op, eet.─ En hij zag om, en zie, aan 
+<pb f="3v" n="9" xml:id="pb-orig-3v-9" facs="#zone-pb-3v-9"/>zijn hoofdeneinde was een koek op kolen gebakken, en eene flesch water, alzoo at hij, en dronk en leide zich wederom neder. En de Engel des Heeren kwam ten anderen male weder, en roerde hem wederom aan, en zeide: Sta op, eet! want de weg zoude voor U te veel zijn.─ Zoo stond hij op, en at, en dronk, en hij ging door de kracht der spijs veertig dagen en veertig nachten, tot aan den berg Gods Horeb. En hij kwam aldaar in eene spelonk, en vernachtte aldaar; en zie, het woord des Heeren ge<c type="shy">-</c>schiedde tot hem, en zeide tot hem: Wat maakt gij hier Elia? En hij zeide: Ik heb zeer geijverd voor den Heer<c type="kk">/</c> den God der heirscharen; want de kinderen Israels hebben uw verbond verlaten, uwe altaren afgebroken, en uwe profeten met het zwaard gedood; en ik ben alleen overgebleven, en zij zoeken mijne ziel, om die weg te nemen.─ En Hij zeide: Ga uit en sta op dezen berg, voor het aangezigt des Heeren. En zie, de Heer ging voorbij, en een groote en sterke wind scheurende de bergen en brekende de steenrotsen ging voor den Heer henen; doch de Heer was in den wind niet en na dezen wind eene aardbeving, de Heer was ook in de aardbeving niet. En na de aardbeving een vuur; de Heer was in het vuur niet, en na het vuur het suizen van eene zachte stilte<c type="kp">_</c> En het geschiedde als Elia dat hoorde dat hij zijn aangezigt bewond met zijnen mantel en uitging en stond in den ingang der spelonk.─<ptr target="#note-t-18"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p xml:id="p.nl.22" n="22">Het geschiedde nu als de Heer Elia met een onweder ten hemel opnemen zoude, dat Elia met Elisa ging van Gilgal. En Elia zeide tot Elisa: Blijf toch hier, want de Heer heeft mij naar Beth-el gezonden. Maar Elisa zeide: Zoo waarachtig de Heer leeft en Uwe ziel leeft, ik zal U niet verlaten! Alzoo gingen zij af naar Beth-el. Toen gingen de zonen der profeten die te Beth-el waren tot Elisa uit, en zeiden tot hem: Weet gij dat de Heer heden uwen heer van Uw hoofd wegnemen zal? En hij zeide<c type="kk">/</c> Ik weet het ook wel, zwijg gij stil.─ En Elia zeide tot hem: Elisa! Blijf toch hier, want de Heer heeft mij naar Jericho gezonden. Maar hij zeide: Zoo waarachtig de Heer leeft en Uwe ziel leeft<c type="kk">/</c> ik zal U niet verlaten! Alzoo kwamen die twee te Jericho. Toen traden de Zonen der profeten, die te Jericho waren, naar Elisa toe, en zeiden tot hem: Weet gij, dat de Heer heden Uwen heer van uw hoofd wegnemen zal? En hij zeide: Ik weet het ook wel, zwijgt gij stil.─</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">En Elia zeide tot hem: Blijf toch hier, want de Heer heeft mij over de Jordaan gezonden. Maar hij zeide<c type="kk">/</c> Zoo waarachtig de Heer leeft en Uwe ziel leeft, ik zal U niet verlaten. En zij beiden gingen henen. En vijftig mannen van de zonen der profeten gingen henen en stonden tegenover van verre; en die beiden stonden aan de Jordaan. Toen nam Elia zijnen mantel, en wond hem zamen, en sloeg het water, en het werd her- en derwaarts verdeeld; en zij beiden gingen er door op het drooge.</p>
+<pb f="3r" n="11" xml:id="pb-orig-3r-11" facs="#zone-pb-3r-11"/>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het geschiedde nu, als zij overgekomen waren, dat Elia zeide tot Elisa: Begeer wat ik U doen zal, eer ik van bij U weggenomen worde. En Elisa zeide: Dat toch twee deelen van Uwen geest op mij zijn. En hij zeide: gij hebt eene zware zaak begeerd: indien gij mij zult zien, als ik van bij U weggenomen word, het zal U alzoo geschieden; doch zoo niet, het zal niet geschieden.─</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">En het gebeurde, als zij voortgingen, gaande en sprekende, Zie, zoo was er een vurige wagen met vurige paarden, die tusschen hen beiden scheiding maakten. Alzoo voer Elia met een onweder op ten hemel.─</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">En Elisa zag het, en hij riep: Mijn vader! Mijn Vader<c type="kk">/</c> wagen Israëls en zijne ruiteren! En hij zag hem niet meer; en hij vatte zijne kleederen en scheurde ze in twee stukken. Hij hief ook Elia’s mantel, die van hem afgevallen was, en keerde weder, en stond aan den oever der Jordaan. En hij nam den mantel van Elia die van hem afgevallen was en sloeg het water, en zeide: Waar is de Heer, de God van Elia? ja Hij zelf? En hij sloeg het water, en het werd her- en derwaarts verdeeld en Elisa ging er door.─<ptr target="#note-t-19"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.27" n="27">“En nu broeders, ik beveel U Gode, en den woorde Zijner genade, die magtig is U op te bouwen, en U een erfdeel te geven onder al de geheiligden. Ik heb niemands zilver of goud of kleeding begeerd. En gij zelve weet, dat deze handen tot mijne nooddruft, en dergenen die met mij waren gediend hebben<c type="kp">_</c> Ik heb u in alles getoond, dat men, alzoo arbeidende, de zwakken moet opnemen, en gedenken aan de woorden des Heeren Jezus, dat Hij gezegd heeft: Het is zaliger te geven dan te ontvangen.” En als hij dit gezegd had, heeft hij nederknielende met hen allen gebeden<c type="kp">_</c> En daar werd een groot geween van allen; en Paulus om den hals vallende kusten zij hem, zeer bedroefd zijnde; allermeest over het woord dat hij gezegd had, dat zij zijn aangezigt niet meer zien zouden.–<ptr target="#note-t-20"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Isleworth, 2 August 1876</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">I heard from home that you’d be coming home for a day while <rs type="person" ref="bio.xml#_412">Anna</rs> and <rs type="person" ref="bio.xml#_401">Lies</rs> were still there; write and tell me if that happened.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_682">Mr Jones</rs> came home yesterday, and his family,<ptr target="#note-t-1"/> I’d made the boys’ dining room green with Welcome home on the wall in holly and ivy and large bouquets on the table. There’s a lot of holly in the garden here, and a few old trees have had all their branches chopped off. These are now full of new branches, pure white or yellowish, with a small pink leaf here and there, which is absolutely beautiful, I picked a large bunch of them to put on the table.</p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_682">Mr Jones</rs> asked me if I could find out how much 50 pounds of butter would cost in Holland; if it isn’t too expensive he’s thinking about always having it sent from Holland. Ask <rs type="person" ref="bio.xml#_643">Mrs Roos</rs> about it sometime, and write and tell me as soon as possible.</p>
+<p rend="indent" xml:id="p.en.6" n="6">The boys will also be coming soon.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Have you ever read the story of Elijah and Elisha properly? I’ve been reading it again these last few days, and am enclosing what I’ve copied out.<ptr target="#note-t-3"/> It’s so movingly beautiful. Similarly, I’ve also been reading in Acts about Paul, how he stood on the seashore, and they fell on his neck, and kissed him,<ptr target="#note-t-4"/> and those words of Paul moved me, ‘God comforteth the simple’.<ptr target="#note-t-5"/> It is God who makes men and who can enrich life with moments and times of higher life and loftier feeling. The sea may have made itself, or an oak tree itself, but men like Pa are purer than the sea. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">The sea is beautiful all the same; there were lots of bedbugs at <rs type="person" ref="bio.xml#_764">Mr Stokes</rs>’s, but that view from the school window made one forget them.</p>
+<p rend="indent" xml:id="p.en.9" n="9">The heart of a man of flesh and blood ‘sometimes faints from earnest longing’<ptr target="#note-t-6"/> upon seeing those who devote themselves to and work for Him who baptized them, as it were, with the Holy Ghost, and with fire,<ptr target="#note-t-7"/> and they – look, their eyes sometimes grow moist with tears of wistfulness as they think back on their young years and on ‘the good things with which He satisfied them’.<ptr target="#note-t-8"/> Yet their exalted peace is better than the deceptive peace of bygone days. <hi rend="italics">True</hi> rest and peace begin only ‘when there is nothing more in which to rest’<ptr target="#note-t-9"/> and when there is ‘none upon earth they desire beside God’.<ptr target="#note-t-10"/> Then there is a ‘woe is me’<ptr target="#note-t-11"/> in them, and a beseeching ‘who shall deliver me from the body of this death’,<ptr target="#note-t-12"/> and yet that is the best time of life, and blessed are they who reach that high peak.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I’ve heard two men say that, one in Paris, the <rs type="person" ref="bio.xml#_266">Rev. Bersier</rs>,<ptr target="#note-t-13"/> who, out of fear of a great bodily suffering that awaited him, exclaimed during his sermon, ‘Who shall deliver me of this dead body’ in a tone of voice that I believe made everyone in the church tremble. And I heard <rs type="person" ref="bio.xml#_526">Pa</rs> say it (when I was home in April, in his sermon), but he said it in a soft voice, though it had a keener edge than the other, and he followed it with (and his countenance was like that of an angel) ‘the blessed above, they say “what you are now, I used to be: what I am now, you will one day be”’.<ptr target="#note-t-14"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">Between <rs type="person" ref="bio.xml#_526">Pa</rs> and those above there is still a part of life, between us and Pa there is also still life. He above can make us Pa’s brothers and can also join us intimately to one another, more so every day, may it be so, for I have a need to remain your brother, old boy, surely you know how much I love you!</p>
+<p rend="indent" xml:id="p.en.12" n="12">May I succeed and get some firm ground beneath my feet.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Yesterday I took a lovely walk along the Thames; on the other side there were splendid villas with their gardens. It was a sky like <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> or <rs type="person" ref="bio.xml#_945">Constable</rs> paint it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">And now a handshake in thought, give my regards to everyone at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’. How is <rs type="person" ref="bio.xml#_802">Willem</rs><ptr target="#note-t-15"/> doing? And give my regards to <rs type="person" ref="bio.xml#_298">Borchers</rs>, too, if you happen to see him, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Your loving brother</p>
+<p xml:id="p.en.16" n="16">Vincent.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">
+<pb f="2r" n="4" xml:id="pb-trans-2r-4" facs="#zone-pb-2r-4"/></p>
+<p xml:id="p.en.18" n="18">The word of the Lord came unto Elijah the Tishbite, saying, Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan. And it shall be, that thou shalt drink of the brook; and I have commanded the ravens to feed thee there. He so went and did according unto the word of the Lord: for he went and dwelt by the brook Cherith, that is before Jordan. And the ravens brought him bread and flesh in the morning, and bread and flesh in the evening; and he drank of the brook.</p>
+<p rend="indent" xml:id="p.en.19" n="19">And it came to pass after a while, that the brook dried up, because there had been no rain in the land. And the word of the Lord came unto him, saying, Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee. So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink. And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand. And she said, As the Lord thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse! and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die. And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son. For thus saith the Lord God of Israel, The barrel of 
+<pb f="2v" n="5" xml:id="pb-trans-2v-5" facs="#zone-pb-2v-5"/> meal shall not waste, neither shall the cruse of oil fail, until the day that the Lord sendeth rain upon the earth. And she went and did according to the saying of Elijah: and she, and he, and her house, did eat many days. And the barrel of meal wasted not, neither did the cruse of oil fail, according to the word of the Lord, which he spake to Elijah. And it came to pass after these things, that the son of the woman, the mistress of the house, fell sick; and his sickness was so sore, that there was no breath left in him. And she said unto Elijah, What have I to do with thee, O thou man of God? art thou come unto me to call my sin to remembrance, and to slay my son? And he said unto her, Give me thy son. And he took him out of her bosom, and carried him up into a loft, where he abode, and laid him upon his own bed. And he cried unto the Lord, and said, O Lord my God! hast Thou also brought evil upon the widow with whom I sojourn, by slaying her son? And he stretched himself upon the child three times, and cried unto the Lord, and said, O Lord my God, I pray thee, let this child’s soul come into him again. And the Lord heard the voice of Elijah; and the soul of the child came into him again, and he revived. And Elijah took the child, and brought him down out of the chamber into the house, and delivered him unto his mother: and Elijah said, See, thy son liveth. And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the Lord in thy mouth is truth.<ptr target="#note-t-16"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p xml:id="p.en.21" n="21">And it came to pass, when Ahab saw Elijah, that Ahab said unto him, Art thou he that troubleth Israel? And he answered, I have not troubled Israel; but thou, and thy father’s house, in that ye have forsaken the commandments of the Lord, and thou hast followed Baalim. Now therefore send, and gather to me all Israel unto mount Carmel, and the prophets of the groves four hundred, which eat at Jezebel’s table, and the prophets of Baal four hundred and fifty. So Ahab sent unto all the children of Israel, and gathered the prophets together unto mount Carmel. And Elijah came unto all the people, and said, How long halt ye between two opinions? if the Lord be God, follow Him: but if Baal is God, then follow him! And the people answered him not a word. Then said Elijah unto the people, I, even I only, remain a prophet of the Lord; but Baal’s prophets are four hundred and fifty men. Let them therefore give us two bullocks; and let them choose one bullock for themselves, and cut it in pieces, and lay it on wood, and put no fire under: and I will dress the other bullock, and lay it on wood, and put no fire under: And call ye on the name of your Gods, and I will call on the name of the Lord: and the God that answereth by fire, let him be God. And all the people answered and said, It is well spoken.  And Elijah said unto the prophets of Baal, Choose you one bullock for yourselves, and dress it first; for ye are many; and call on the name of your Gods, but put no fire under. And they took the bullock which 
+<pb f="2r" n="7" xml:id="pb-trans-2r-7" facs="#zone-pb-2r-7"/> was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, O Baal, hear us! But there was no voice, nor any that answered. And they leaped upon the altar which was made. And it came to pass at noon, that Elijah mocked them, and said, Cry aloud: for he is a God; but he is talking, or he is pursuing, or he is in a journey, or peradventure he sleepeth, and must be awaked. And they cried aloud, and cut themselves after their manner with knives and lancets, till the blood gushed out upon them. And it came to pass, when midday was past, and they prophesied until the time of the offering of the evening sacrifice, that there was neither voice, nor any to answer, nor any that regarded.</p>
+<p rend="indent" xml:id="p.en.22" n="22">And Elijah said unto all the people, Come near unto me. And all the people came near unto him. And he repaired the altar of the Lord that was broken down. And Elijah took twelve stones, according to the number of the tribes of the sons of Jacob, unto whom the word of the Lord came, saying, Israel shall be thy name: And with the stones he built an altar in the name of the Lord: and he made a trench about the altar, as great as would contain two measures of seed. And he put the wood in order, and cut the bullock in pieces, and laid him on the wood, and said, Fill four barrels with water, and pour on the burnt sacrifice, and on the wood. And he said, Do it the second time. And he said, Do it the third time. And they did it the third time, so that the water ran round about the altar; and he filled the trench also with water. And it came to pass at the time of the offering of the evening sacrifice, that Elijah the prophet came near, and said, Lord God of Abraham, Isaac, and of Israel! let it be known this day that Thou art God in Israel, and that I am thy servant, and that I have done all these things at thy word. Hear me, O Lord, hear me, that this people may know that Thou art the Lord God! and that thou hast turned their heart back again. Then the fire of the Lord fell, and consumed 
+<pb f="3r" n="8" xml:id="pb-trans-3r-8" facs="#zone-pb-3r-8"/> the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench. And when all the people saw it, they fell on their faces: and they said, The Lord, he is the God; the Lord, he is the God. And Elijah said unto them, Take the prophets of Baal; let not one of them escape. And they took them: and Elijah brought them down to the brook Kishon, and slew them there. And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound as of abundance of rain. So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees, And said to his servant, Go up now, look toward the sea. And he went up, and looked, and said, There is nothing. And he said, Go again seven times. And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man’s hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not. And it came to pass in the mean while, that the heaven was black with clouds and wind, and there was a great rain. And Ahab rode, and went to Jezreel. And the hand of the Lord was on Elijah; and he girded up his loins, and ran before Ahab to the entrance of Jezreel.<ptr target="#note-t-17"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">And Elijah went a day’s journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O Lord! take away my life; for I am not better than my fathers. And as he lay and slept under a juniper tree, behold, then an angel touched him, and said unto him, Arise and eat. And he looked, and, behold, 
+<pb f="3v" n="9" xml:id="pb-trans-3v-9" facs="#zone-pb-3v-9"/> there was a cake baken on the coals, and a cruse of water at his head. And he did eat and drink, and laid him down again. And the Angel of the Lord came again the second time, and again touched him, and said, Arise and eat! because the journey is too great for thee. And he arose, and did eat and drink, and went in the strength of the meat forty days and forty nights unto Horeb the mount of God. And he came thither unto a cave, and lodged there; and, behold, the word of the Lord came to him, and he said unto him, What doest thou here, Elijah? And he said, I have been very jealous for the Lord God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away. And he said, Go forth, and stand upon the mount before the Lord. And, behold, the Lord passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks, going before the Lord; but the Lord was not in the wind: and after the wind an earthquake; but the Lord was not in the earthquake: And after the earthquake a fire; but the Lord was not in the fire: and after the fire a still small voice. And it was so, when Elijah heard it, that he wrapped his face in his mantle, and went out, and stood in the entering in of the cave.<ptr target="#note-t-18"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p xml:id="p.en.25" n="25">And it came to pass, when the Lord would take up Elijah into heaven by a whirlwind, that Elijah went with Elisha from Gilgal. And Elijah said unto Elisha, Tarry here, I pray thee; for the Lord hath sent me to Beth-el. And Elisha said unto him, As the Lord liveth, and as thy soul liveth, I will not leave thee! So they went down to Beth-el. And the sons of the prophets that were at Beth-el came forth to Elisha, and said unto him, Knowest thou that the Lord will take away thy master from thy head to day? And he said, Yea, I know it; hold ye your peace. And Elijah said unto him, Elisha! tarry here, I pray thee; for the Lord hath sent me to Jericho. And he said, As the Lord liveth, and as thy soul liveth, I will not leave thee! So they came to Jericho. And the sons of the prophets that were at Jericho came to Elisha, and said unto him, Knowest thou that the Lord will take away thy master from thy head to day? And he answered, Yea, I know it; hold ye your peace.</p>
+<p rend="indent" xml:id="p.en.26" n="26">And Elijah said unto him, Tarry, I pray thee, here; for the Lord hath sent me to Jordan. And he said, As the Lord liveth, and as thy soul liveth, I will not leave thee. And they two went on. And fifty men of the sons of the prophets went, and stood to view afar off: and they two stood by Jordan. And Elijah took his mantle, and wrapped it together, and smote the waters, and they were divided hither and thither, so that they two went over on dry ground. 
+<pb f="3r" n="11" xml:id="pb-trans-3r-11" facs="#zone-pb-3r-11"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">And it came to pass, when they were gone over, that Elijah said unto Elisha, Ask what I shall do for thee, before I be taken away from thee. And Elisha said, I pray thee, let a double portion of thy spirit be upon me. And he said, Thou hast asked a hard thing: nevertheless, if thou see me when I am taken from thee, it shall be so unto thee; but if not, it shall not be so.</p>
+<p rend="indent" xml:id="p.en.28" n="28">And it came to pass, as they still went on, and talked, that, behold, there appeared a chariot of fire, and horses of fire, and parted them both asunder; and Elijah went up by a whirlwind into heaven.</p>
+<p rend="indent" xml:id="p.en.29" n="29">And Elisha saw it, and he cried, My father! my Father, the chariot of Israel, and the horsemen thereof. And he saw him no more: and he took hold of his own clothes, and rent them in two pieces. He took up also the mantle of Elijah that fell from him, and went back, and stood by the bank of Jordan; and he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is the Lord God of Elijah? and when he also had smitten the waters, they parted hither and thither: and Elisha went over.<ptr target="#note-t-19"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.30" n="30">‘And now, brethren, I commend you to God, and to the word of His grace, which is able to build you up, and to give you an inheritance among all them which are sanctified. I have coveted no man’s silver, or gold, or apparel. Yea, ye yourselves know, that these hands have ministered unto my necessities, and to them that were with me. I have shewed you all things, how that so labouring ye ought to support the weak, and to remember the words of the Lord Jesus, how He said, It is more blessed to give than to receive.’ And when he had thus spoken, he kneeled down, and prayed with them all. And they all wept sore, and fell on Paul’s neck, and kissed him, Sorrowing most of all for the words which he spake, that they should see his face no more.<ptr target="#note-t-20"/><hi rend="super"/> </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Isleworth 2 Augustus 1876’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_682">Thomas Slade-Jones</rs> married <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_201">Annie Slade-Jones</rs>, née Dawson, in April 1864; they had five daughters and a son, ranging in age from 1 to 11 years. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> wrote the following about this period to Theo: ‘From Vincent a letter of Saturday. He was waiting for the family to come home on Tuesday. He had been very much alone. May he find satisfaction in his new work. He’s going through a difficult time. May God give him wisdom and a happy outcome’ (FR 2763, 2 August 1876).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The boys at the boarding school were still on holiday.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>See the appended text for the extensive passages Van Gogh copied from 1 and 2 Kings.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+  Acts 20:37.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Cf. 2 Cor. 7:6, ‘Nevertheless God, that comforteth those that are cast down...’.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Meaning: ‘wandluizen’ (bedbugs).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+  Rhy. ps. 84:1, ‘My soul succumbs to earnest longing’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Cf. Matt. 3:11 and Luke 3:16.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Cf. Rhy. ps. 103:3.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  Rhy. ps. 73:13.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  Ps. 73:25.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Biblical, cf. Ps. 120:5; Isa. 6:5; and Jer. 4:31, 10:19 and 15:10.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+  Rom. 7:24.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Regarding the Rev. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_266">Eugène Bersier</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let040.xml#n-7">see letter 40, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>A <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">memento mori</hi>, probably derived from ‘Hodie mihi, cras tibi’ or ‘Mihi heri &amp; tibi hodie’ (Ecclesiasticus [Jesus Sirach] 38:23); in the English Apocrypha 38:22. As a pictorial device it is placed in the mouth of a skeleton or as an inscription in churchyards.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_802">Willem Valkis</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>
+  1 Kings 17:1-24.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>
+  1 Kings 18:17-46.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>
+  1 Kings 19:4-13.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>
+  2 Kings 2:1-14.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>
+  Acts 20:32-38.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

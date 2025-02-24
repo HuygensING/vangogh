@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Friday, 4 January 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let419"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b381 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>419</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>351</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>422</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-01-04">on or about Friday, 4 January 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000496_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000496_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000496_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000496_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000496_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000496_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000497_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000497_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000497_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000497_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000498_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000498_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0381 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000498_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000498_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Voor Uw schrijven van 1 Jan<hi rend="super">ij</hi> en het ingeslotene moet ik U nog bedanken<c type="kp">_</c> Betreffende broederlijk zijn zoo is dit zeer afhankelijk<c type="kk">/</c> naar ’t me voorkomt<c type="kk">/</c> van of men de dingen ziet met dezelfde oogen al dan niet – en hier wees ik op – als komende ’t me voor onze inzigten welligt aanmerkelijk zullen uit elkaar loopen – indien dit niet alreeds ’t geval is. Indien ik reeds verschil <hi rend="italics">constateerde</hi> – (niet zoo maar <hi rend="italics">veronderstelde</hi>) – ik doe zulks<c type="kk">/</c> herzeg ik U, omdat tegenover U ik niet mij anders zal houden dan ik ben &amp; juist omdat ik niet zou willen twisten<c type="kp">_</c> op den duur zou ik<c type="kk">/</c> hoe groot den steun ook zij dien ik door U heb<c type="kk">/</c> dien liever missen dan aanhouden op conditie van tegen wat ik geloof in te werken.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Te meer omdat in later jaren<c type="kk">/</c> indien we die beleven<c type="kk">/</c> welligt gijzelf niet precies zult blijven gelooven in wat gij nu nog er voor houdt vast staat. Maar dat is nu niet aan de orde.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Betreffende wat gij zegt het zou kunnen gebeuren ik geheel geisoleerd werd – ik zeg niet dat dit niet zou kunnen gebeuren – ik wacht weinig anders en zal al content zijn indien ’t leven me houdbaar<c type="kk">/</c> dragelijk blijft.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Zulks echter verklaar ik U ik niet zou beschouwen als een lot dat ik verdien<c type="kk">/</c> want ik geloof dat ik après tout niets heb gedaan of doen zal dat maakt ik het regt om mij een mensch onder de menschen te voelen verloren zou hebben of verliezen zal. Voor een aanmerkelijk deel dus zouden ook anderen daar in fout kunnen zijn. Nu<c type="kk">/</c> ik tracht mij zelf te beschouwen als of ik iemand anders was<c type="kk">/</c> objectief dus<c type="kk">/</c> n.l. dat ik mijn eigen fouten ook tracht te zien zoowel als wat misschien daar tegen over staat<c type="kp">_</c> En ik ken verscheiden geschiedenissen van mannen die betrekkelijk <hi rend="italics">zeer</hi> geisoleerd leven moesten – juist ook omdat noch de eene noch de andere <hi rend="italics">partij</hi> hen precies vond zóó als ze ze begeerden.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Nu zijn er twee soorten van lui die tusschen de partijen inhangen<c type="kk">/</c> n.l. zoodanigen die geen persoonlijk karakter hebben en tweedens zulken wier karakter wel degelijk een karakter is doch zoo als gezegd toch niet is wat de een of de andere partij die een der boventoonen heeft<c type="kk">/</c> wil. Isolatie is beroerd genoeg en een soort van gevangenis. In hoeverre ik daarin verder zal komen is echter misschien nog niet precies beslist te zeggen. ’t Geen ge trouwens ook niet doet.–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik voor mij vind het dikwijls pleizieriger onder de menschen die het woord in kwestie <hi rend="italics">niet eens kennen</hi><c type="kk">/</c> b.v. de boeren<c type="kk">/</c> de wevers &amp;c<c type="kp">_</c><c type="kk">/</c> dan in de beschaafdere wereld. Dat is voor mij wel gelukkig.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Zoo bij voorbeeld heb ik nu terwijl ik hier ben mij verdiept in de wevers.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Kent gij veel teekeningen van wevers? Ik maar zeer enkelen.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Voorloopig heb ik 3 aquarellen er van gemaakt.<ptr target="#note-t-1"/> Deze lui zijn lastig te teekenen omdat men in de kleine vertrekken zijn afstand niet kan nemen om ’t getouw te teekenen<c type="kk">/</c> dat is geloof ik de reden waarom het dikwijls mislukken moet ze te maken<c type="kp">_</c> Ik heb hier echter een vertrek gevonden waar twee getouwen staan &amp; waar het te doen is. Rappard heeft in Drenthe er een studie van geschilderd, die ik mooi vond.<ptr target="#note-t-2"/> Zeer somber – want het is een zeer armzalig volkje die wevers.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik heb ook een teekening gemaakt, ofschoon slechts een impressie, van een houtverkooping.<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik wenschte gij wel verstondt en begreept dat<c type="kk">/</c> indien ja<ptr target="#note-t-a"/> ik wel wensch bij tijden dat gij over zekere kwesties andere gedachten kondt hebben dan Uw tegenwoordigen, ik dit niet laten kan omdat ik geloof gij er beter bij varen zoudt. En het is niet omdat ik een proseliet zou begeeren te maken voor MIJN OPINIES<c type="kp">_</c> <hi rend="italics">Mijn</hi> <hi rend="italics">opinies</hi> geloof ik niet beter te zijn dan anderer menschen opinie<c type="kp">_</c>– Doch meer &amp; meer begin ik te gelooven dat er iets is waar <hi rend="italics">alle</hi> opinies<c type="kk">/</c> ook de mijne dus<c type="kk">/</c> als niets bij worden.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Zekere waarheden en daadzaken waar onze opinies weinig of niets aan toe of af doen en waarmede ik noch mijn noch anderer opvattingen hoop te verwarren<c type="kk">/</c> ’t geen een erreur de point de vue zou wezen.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Evenmin als de windwijzers iets af of toe doen aan de rigting van den wind<c type="kk">/</c> doen opinies af of toe aan zekere standaard waarheden.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">De windwijzers maken den wind niet oost of noord<c type="kk">/</c> evenmin welke opinies dan ook de waarheid waar.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ik weet niet of gij mij begrijpen zult maar het was mij te doen U duidelijk te maken ik<c type="kk">/</c> denkende zoo als ik denk<c type="kk">/</c> moeielijk boos zou kunnen worden op wie dan ook ter wille van slechts een <hi rend="italics">opinie</hi><c type="kp">_</c>– Ik mijn eigen <hi rend="italics">opinies</hi> niet veel tellende. Maar het is iets heel anders als ik het niet goed vind als ik veel personen, mijns inziens wel wat roekeloos, te veel buiten wat <hi rend="italics">voor iedereen</hi> waar is om zie leven. Dus indien ik boos word zoo kon ’t wel eens zijn om iets<ptr target="#note-t-4"/> waar een hoogen dunk van mij zelf hebben zeer buiten ’t spel was.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Er zijn dingen die zoo oud zijn als de menschheid zelf en die ook wel niet vooreerst zullen ophouden.<ptr target="#note-t-5"/> Ik ken een oude legende van ik weet niet eens welk volk<c type="kk">/</c> die ik mooi vind<c type="kk">/</c> die natuurlijk zeker niet <hi rend="italics">letterlijk</hi> gebeurd is maar een symbool is toch van veel.<ptr target="#note-t-6"/> In dat verhaal wordt beweerd dat het menschelijk geslagt afstamt van twee broers. Die lui mogten kiezen wat zij hebben wilden uit alle dingen. De eene koos het goud en de andere koos het boek.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Den eersten die ’t goud gekozen had ging alles goed maar den tweeden ging het slecht. De legende – zonder precies te verklaren waarom – verhaalt hoe die man met het boek 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>werd verbannen naar een koud en miserabel land en <hi rend="italics">geïsoleerd</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Hij begon echter in zijn misere dat boek te lezen en hij leerde er dingen uit<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Zoo dat hij er toe kwam zich het leven dragelijker te maken en verschillende dingen uitvond om zich te redden uit zijn moeielijkheden. Zoo dat ten laatste hij een zekere magt verkreeg<c type="kk">/</c> ofschoon altijd door werken en als door een strijd.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Toen later, juist toen hij met het boek sterker werd, verzwakte de eerste en dus die leefde lang genoeg om te gevoelen dat het goud niet de <hi rend="italics">as</hi> is waar <hi rend="italics">alles</hi> om draait. Dit is maar een legende doch voor mij zit er iets dieps in dat ik waar vind<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">“<hi rend="italics">Het boek</hi>”<c type="kk">/</c> dat is niet alleen <hi rend="italics">alle</hi> boeken of de litteratuur<c type="kk">/</c> het is tevens geweten<c type="kk">/</c> rede – en het is kunst<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">“Het goud”<c type="kk">/</c> dat is niet alleen geld maar het is een beeld van een boel andere dingen tevens.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Meen echter niet ik in dit opzigt iets forceeren zou willen – deze dingen moeten zich zelf uitwijzen. Iets anders is het evenwel dan forceeren er een woord over te zeggen – op zekere momenten is zwijgen er over haast ’t zelfde als veinzerij. Dat wilde ik nu eenmaal ook niet.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.25" n="25">En overigens<c type="kk">/</c> hoe het ook loope met al dan niet geïsoleerd worden<c type="kk">/</c> ik zal trachten het zoo te sturen dat ik doorwerken kan – en wat mijn opinies mogt betreffen – ik denk wel eens aan wat Taine zei<c type="kk">/</c> il me semble que pour ce qui est du travailleur personellement<c type="kk">/</c> on peut garder ça pour soi<c type="kp">_</c><ptr target="#note-t-7"/> ’t was dan ook waarschijnlijk een fout van mij betrekkelijk ik het niet voor mezelf hield. Enfin.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">En weet het wel dat ik er op tegen zou zijn gij het helpen van mij zoudt beschouwen als iets ’t welk gij U <hi rend="italics">verpligt</hi> zoudt rekenen te doen want zulks waart gij niet verpligt vroeger noch zijt het nu – het is iets vrijwilligs van U geweest waarvoor <hi rend="italics">ik</hi> van mijn kant wel degelijk <hi rend="italics">verpligting</hi> heb <hi rend="italics">aan U</hi> en zooals ik reeds zeide<c type="kk">/</c> wel degelijk zal blijven gevoelen.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">U voorspoed met Uw zaken toewenschende,</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.28" n="28">b. à t.</p>
+
+<p xml:id="p.nl.29" n="29">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p xml:id="p.nl.30" n="30">Een aardig woord las ik eens ergens betreffende dat men op later leeftijd wel degelijk nog verandert.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">In een levensbeschrijving van Corot vind ik het volgende over den invloed door hem uitgeoefend op Français<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Daar staat “<hi rend="italics">à trente ans Français ignorait ce que c’est</hi> <hi rend="italics">qu’un ton neutre</hi>”<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Ik bedoel<c type="kk">/</c> tot laat toe en in het artistieke en zeer zeker niet minder “als mensch”<c type="kk">/</c> tot laat toe kan men zekere stijve<c type="kk">/</c> rigide<c type="kk">/</c> laat ik nu maar zeggen ijzerachtige manieren van doen<c type="kk">/</c> zoowel als van kijken<c type="kk">/</c> zoowel als van werken hebben<c type="kk">/</c> en evenwel op later leeftijd tot zachter<c type="kk">/</c> tot intelligenter<c type="kk">/</c> tot redelijker<c type="kk">/</c> tot humaner inzigten komen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Wil er op komen dat het heel best kan gij en als mensch en als werkman tot meer natuur<c type="kk">/</c> tot meer rust<c type="kk">/</c> tot meer “uw eigen” komt.</p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Wil er op komen dat ik U zooals gij nu soms zijt niet natuurlijk vind<c type="kk">/</c> b.v. niet verl. zomer te s’Hage. Dat is voorloopig niets – en word door mij beschouwd geenszins als Uw vast en onherroepelijk karakter of stemming maar als een curieus verschijnsel. Dat ik gadesla met belangstelling en nadenken<c type="kk">/</c> juist omdat ik zelf ook kende oogenblikken van die stemming<c type="kk">/</c> juist in een tijd ik vlak bij een ommekeer in eigen gemoed was<c type="kp">_</c>– Enfin<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Iets is er nog wat ik U moet mededeelen betreffende mijn gesprek met Pa. Ik heb er Pa op gewezen dat in mijn tegenwoordige stemming en positie ik er wel eens over denk om weder terug te gaan tot de vrouw met wie ik geleefd heb – ja dat ik er toe zou kunnen komen om haar te trouwen<c type="kp">_</c>– Weet gij echter – maar dat hoeft Pa niet te weten – dat ik tot heden er zoo over denk als ik besloot dat dit niet gaan zou en van op nieuw zamenleven niet komen kan<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Ik sprak er met Pa over om eens terug te komen op de kwestie van het “vaderlijk regt”<ptr target="#note-t-9"/> om iets van dien aard te verhinderen<c type="kk">/</c> kwestie door Pa aangeroerd. Ik zeide dienaangaande dat primo een zich stellen van Pa tegenover mij ooit in een regtszaak in mijn oog een hoogst onverstandig ding zou wezen<c type="kp">_</c></p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Dat bovendien in zoo’n zaak zou geknoeid en valsch getuigd moeten worden om een schijn van regt te geven aan een belemmering mij bij een eventueel voorgenomen huwelijk in den weg gelegd.</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Dat ik voor mij in een geval men ooit in zoo’n geval me in den weg zou staan<c type="kk">/</c> heel kalm en bedaard mij zou verdedigen en op mijn regt staan en niet toegeven.</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Ziende ik er in dat het een geval zou worden in hetwelk de regter zelf op de noodzakelijkheid eener minnelijke schikking zou aandringen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Zoo sprak ik met pa over de kwestie van trouwen<c type="kk">/</c> nemende de vrouw met wie ik geleefd heb als voorbeeld hoe het zou kunnen gaan<c type="kp">_</c>– Doch weet gij dat op dit punt ik geen redenen inzie om terug te komen op het besluit met haar niet weer zamen te leven. Besluit haar zelf ook bekend.</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Voor en aleer ik tot andere gedachten daaromtrent kwam zouden er een heele boel dingen moeten gebeuren waar nu geen sprake van is.</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Weet gij voor U zelf dus daaromtrent het Uwe doch tot Pa heb ik er over gesproken in den geest dat indien ik dit ooit zou willen<c type="kk">/</c> Pa het niet zou kunnen verhinderen<c type="kk">/</c> daar<c type="kk">/</c> wat er ook zij van het vaderlijk regt<c type="kk">/</c> geen termen in de wet ik zien kan die op mij zouden toepasselijk zijn om mij te belemmeren<c type="kp">_</c> Pa heeft al zoo dikwijls daarop gezinspeeld<c type="kk">/</c> heel vaag maar toch heel voelbaar<c type="kk">/</c> dat ik voor mij het hem maar eens vierkant heb gezegd hoe absurd en grof ik zoo’n opvatting zou vinden. Ik denk wel degelijk soms er over dat trouwen voor mij een hoogst wenschelijke zaak zou zijn doch bepaalde plannen dienaangaande heb ik daarom niet en zeker niet voor zoover de vrouw met wie ik geleefd heb aangaat<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I still have to thank you for your letter of 1 Jan. and the enclosure. As to being brotherly, it seems to me that this depends very much on whether or not people look at things with the same eyes — and I pointed this out — since it appears to me that our views will probably diverge considerably — if this isn’t already the case. If I had already <hi rend="italics">seen</hi> a difference — (not just <hi rend="italics">supposed</hi>) — I do so, I tell you again, because I won’t behave towards you other than as I am, and precisely because I don’t want to quarrel. In the long run, I would rather do without the support that I get through you, however great it may be, than continue with it on the condition that I work against what I believe in.</p>
+<p rend="indent" xml:id="p.en.3" n="3">All the more so because in later years, if we live to see them, you may perhaps not really carry on believing in what you now take to be certain. But that’s not the issue now.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Regarding what you say, that I could become totally isolated — I don’t say that this couldn’t happen — I expect little else, and will be content enough if life remains tolerable, bearable for me. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">I tell you, though, that I wouldn’t consider that as a fate that I deserve, for I believe, after all, that I haven’t done nor will do anything that means that I have forfeited or will forfeit my right to feel myself a human being among human beings. To a considerable extent, then, others could also be at fault here. Well, I try to look at myself as if I were somebody else, objectively in other words, so that I also try to see my own faults as well as what perhaps offsets them. And I know various stories of men who had to live in relatively <hi rend="italics">great</hi> isolation — also just because neither one <hi rend="italics">party</hi> nor the other found them precisely as they wanted them to be.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Now there are two sorts of folk who get between the parties, namely those who don’t have a personal character, and secondly such whose character really is a character but, as I said, is nevertheless not what the one party or the other who have the say wants. Isolation is wretched enough, and a sort of prison. It is, however, perhaps not yet possible to say for certain to what extent I’ll go further into it. Which you don’t do anyway. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">For myself, I usually find it more pleasant among the people who <hi rend="italics">don’t even know</hi> the word in question, for example the peasants, the weavers &amp;c., than in the more civilized world. That’s fortunate for me.</p>
+<p rend="indent" xml:id="p.en.8" n="8">So, for instance, I’ve been studying the weavers while I’ve been here.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Do you know many drawings of weavers? I only very few.</p>
+<p rend="indent" xml:id="p.en.10" n="10">So far I’ve made 3 watercolours of them.<ptr target="#note-t-1"/> These folk are difficult to draw because in the small rooms one can’t get far enough away to draw the loom. I think this is why attempts to do it usually fail. However, I’ve found a room here where there are two looms and where it can be done. <rs type="person" ref="bio.xml#_1306">Rappard</rs> painted a study of it in Drenthe, which I found beautiful.<ptr target="#note-t-2"/> Very gloomy — for these weavers are very poor people.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’ve also made a drawing, although only an impression, of a timber sale.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I wish you appreciated and understood that if I do indeed wish at times that you might have other ideas about certain questions than your present ones, I can’t let it go, because I believe you would be the better for it. And it isn’t because I want to make a proselyte for MY OPINIONS. I don’t believe that <hi rend="italics">my</hi> <hi rend="italics">opinions</hi> are any better than other people’s opinions. Yet I’m starting to believe more and more that there’s something compared to which <hi rend="italics">all</hi> opinions, thus including mine, are as nothing. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Certain truths and facts, on which our opinions have little or no effect, and which I hope I don’t confuse with mine or others’ opinions, which would be a mistaken point of view.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Just as weathercocks have no effect on the direction of the wind, so opinions have no effect on certain standard truths.</p>
+<p rend="indent" xml:id="p.en.15" n="15">The weathercocks don’t make the wind east or north, any more than any opinions whatsoever make the truth true.</p>
+<p rend="indent" xml:id="p.en.16" n="16">I don’t know whether you’ll understand me, but I was concerned to make it clear to you that, thinking as I think, I could hardly be angry with anyone merely for the sake of an <hi rend="italics">opinion</hi>. Not counting my own <hi rend="italics">opinions</hi> for much. But it’s a very different matter if I don’t like it when I see many people, rather recklessly in my view, living too far removed from what is true <hi rend="italics">for everyone</hi>. In other words if I get angry,<ptr target="#note-t-4"/> it might well be about something where having a high opinion of myself had absolutely nothing to do with it.</p>
+<p rend="indent" xml:id="p.en.17" n="17">There are things that are as old as mankind itself, and that won’t cease for the present.<ptr target="#note-t-5"/> I know an old legend of, I don’t even know which people, which I like, which obviously certainly didn’t happen <hi rend="italics">literally</hi>, but is nonetheless a symbol of a great deal.<ptr target="#note-t-6"/> The story goes that humankind is descended from two brothers. These folk were allowed to choose what, of all things, they wanted to have. One chose the gold and the other chose the book.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Everything went well for the first one, who had chosen the gold, but things went badly with the second. The legend — without exactly explaining why — relates how the man with the book 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> was banished to a cold and miserable land and <hi rend="italics">isolated</hi>.</p>
+<p rend="indent" xml:id="p.en.19" n="19">But then in his misery he began to read that book, and he learned things from it.</p>
+<p rend="indent" xml:id="p.en.20" n="20">So that he was able to make life more bearable for himself, and invented different things to rescue himself from his difficulties. So that at last he acquired a certain control, although always by working and as if through a struggle.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Then later, just as the one with the book became stronger, the first one weakened, and so he lived long enough to feel that gold isn’t the <hi rend="italics">axis</hi> around which <hi rend="italics">everything</hi> revolves. It’s only a legend, but all the same to me there’s something deep in it that I find true.</p>
+<p rend="indent" xml:id="p.en.22" n="22">‘<hi rend="italics">The book</hi>’, that isn’t only <hi rend="italics">all</hi> books, or literature, it’s also conscience, reason — and it is art.</p>
+<p rend="indent" xml:id="p.en.23" n="23">‘Gold’, that isn’t only money, but it’s an image of a lot of other things as well.</p>
+<p rend="indent" xml:id="p.en.24" n="24">Don’t think, though, that I want to force anything in this respect — these things have to reveal themselves. However, having a word about things isn’t the same as forcing them — there are times when keeping silent is almost the same as hypocrisy. I simply didn’t want that either. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">And for the rest, however becoming isolated or not may turn out, I’ll try to steer it in such a way that I can go on working — and as far as my opinions are concerned — I sometimes think of what <rs type="person" ref="bio.xml#_833">Taine</rs> said, ‘it seems to me that as far as it is personal to the worker, he may keep it to himself’.<ptr target="#note-t-7"/> So it was probably something of a mistake on my part that I didn’t keep it to myself. Well.</p>
+<p rend="indent" xml:id="p.en.26" n="26">And you should know that I don’t want you to regard helping me as something that you reckon you’re <hi rend="italics">obliged</hi> to do, for you weren’t so obliged in the past nor are you now — it has been something voluntary on your part, for which <hi rend="italics">I</hi> for my part really do have an <hi rend="italics">obligation</hi> <hi rend="italics">to you</hi> and, as I already said, really will continue to feel.</p>
+<p rend="indent" xml:id="p.en.27" n="27">Wishing you success with your affairs,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">Yours truly,</p>
+<p xml:id="p.en.29" n="29">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.30" n="30">
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p xml:id="p.en.31" n="31">I once read an interesting remark somewhere that people really do go on changing as they get older.</p>
+<p rend="indent" xml:id="p.en.32" n="32">In a biography of <rs type="person" ref="bio.xml#_971">Corot</rs> I find the following about the influence he had on <rs type="person" ref="bio.xml#_1033">Français</rs>.</p>
+<p rend="indent" xml:id="p.en.33" n="33">It says, ‘<hi rend="italics">at the age of thirty, Français did not know what a neutral tone was</hi>’.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.34" n="34">I mean, until late in life both in art and very certainly no less ‘as a human being’, until late in life one may have certain stiff, rigid, let’s say steely ways of doing things, both of observing and of working, and may yet come later in life to milder, to more intelligent, to more reasonable, to more humane views.</p>
+<p rend="indent" xml:id="p.en.35" n="35">Just want to point out that it’s perfectly possible that, both as a human being and as a workman, you could come to more nature, to more rest, to more ‘your own self’.</p>
+<p rend="indent" xml:id="p.en.36" n="36">Just want to point out that I don’t find you natural, the way you sometimes are nowadays, for example last summer in The Hague. This means nothing for the time being — and is in no way regarded by me as your fixed and irrevocable character or state of mind, but as a curious phenomenon. Which I observe with interest and reflection, precisely because I myself have also known moments of that state of mind, precisely at a time when I was close to a reversal in my own mind. Well.</p>
+<p rend="indent" xml:id="p.en.37" n="37">There’s something else I have to tell you about my talk with <rs type="person" ref="bio.xml#_526">Pa</rs>. I told Pa that in my present state of mind and position I sometimes think about going back to the <rs type="person" ref="bio.xml#_463">woman</rs> I lived with — yes, that I could go so far as to marry her. You should know, though — but Pa doesn’t need to know this — that up to now I still think as I did when I decided that it wouldn’t work and that nothing can come of living together again.</p>
+<p rend="indent" xml:id="p.en.38" n="38">I mentioned it to <rs type="person" ref="bio.xml#_526">Pa</rs> in order to return to the question of the ‘paternal right’<ptr target="#note-t-9"/> to prevent something of that nature, a question raised by Pa. I said in that regard that, firstly, should Pa ever oppose me in legal proceedings this would, in my view, be a very unwise thing.
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p rend="indent" xml:id="p.en.39" n="39">That, moreover, it would be necessary to use tricks and false testimony in such proceedings in order to give a semblance of justice to an impediment placed in the way of any marriage I might be contemplating.</p>
+<p rend="indent" xml:id="p.en.40" n="40">That should people ever stand in my way in such a case, I, for my part, would defend myself very calmly and collectedly, and would stand up for my rights and not give in.</p>
+<p rend="indent" xml:id="p.en.41" n="41"> Realizing as I did that it would be a case in which the judge himself would urge the necessity of an amicable settlement.</p>
+<p rend="indent" xml:id="p.en.42" n="42">This is how I talked to <rs type="person" ref="bio.xml#_526">Pa</rs> about the question of marriage, taking the <rs type="person" ref="bio.xml#_463">woman</rs> with whom I lived as an example of how it might turn out. However, you should know that on this point I see no reason to go back on the decision not to live with her again. Decision she herself knows too.</p>
+<p rend="indent" xml:id="p.en.43" n="43">A whole lot of things would have to happen before I changed my mind in that regard, and they’re out of the question now.</p>
+<p rend="indent" xml:id="p.en.44" n="44">So know what you have to know about this, but I spoke to <rs type="person" ref="bio.xml#_526">Pa</rs> about it to make it plain that if I should ever want to do this, Pa wouldn’t be able to prevent it, since, whatever paternal rights there may be, I can see no provisions in the law that could apply to me to prevent me. Pa has already hinted at this so often, very vaguely but nonetheless very palpably, that for my part I simply came straight out and told him how absurd and crass I would find such an idea. I really do think sometimes that marriage would be a highly desirable thing for me, but nevertheless I don’t have specific plans in this respect, and certainly not as far as the <rs type="person" ref="bio.xml#_463">woman</rs> I lived with is concerned.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Because Van Gogh writes: ‘I still have to thank you for your letter of 1 Jan. and the enclosed’ <ref target="#l-1">(ll. 1-2)</ref>, we may assume that the reply was not written immediately after receipt of the letter, which could usually be expected on 2 January. We have consequently dated the present letter a little later in the first week of the year, on or about Friday, 4 January 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is difficult to identify exactly which three watercolours of weavers are referred to here. Several from this period have survived, among them <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_934">F 1107 / JH 445</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_935">F 1125 / JH 448</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver, with a baby in a highchair </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_936">F 1119 / JH 449</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>’s study of a weaver in Drenthe is not known; there is a surviving drawing of the subject, but it is uncertain whether this was done in Drenthe or in Brabant. See exhib. cat. Amsterdam 1974, p. 83.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This ‘impression’ is not known; it seems unlikely that Van Gogh is referring to the large watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Timber sale</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2450">F 1113 / JH 438</rs>), since this is too detailed and finished to be an ‘impression’. The drawing, which has not survived, probably served as a model for the watercolour. There had been a timber auction on 31 December 1883. See cat. Amsterdam 1997, pp. 45-48, cat. no. 77. From <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let421.xml">letter 421</ref> it appears that Van Gogh made several works of a timber sale.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Inderdaad, wel degelijk’ (indeed; really); amplifying ‘wensch’ (wish).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>After ‘something’ Van Gogh crossed out: ‘that would thus be more than just an opinion perhaps’ (‘dat dus meer dan slechts een opinie wou zijn welligt’).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>After ‘cease’ Van Gogh crossed out: ‘Who’s right and what’s true – who shall say –’ (‘Wie heeft gelijk en wat is waar – wie zal het zeggen –’).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The origin of this legend has not been traced.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The passage refers to what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_833">Taine</rs> says about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Dickens</rs> in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_128">Histoire de la littérature anglaise</ref></hi>. He observes that the author was not very forthcoming about his personal life, which made it difficult to write his biography. Nonetheless he believes that Dickens was fully entitled to this reticence: ‘One may well be famous, one does not for all that become public property; one is not condemned to confidences; one still belongs to oneself, one may withhold of oneself whatever one deems it proper to withhold.’ (On a beau être illustre, on ne devient pas pour cela la propriété du public; on n’est pas condamné aux confidences; on continue à s’appartenir; on peut réserver de soi ce qu’on juge à propos d’en réserver.) See Taine 1874, vol. 5, p. 4 (‘Dickens’, chapter 1). Van Gogh was familiar with this chapter: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let356.xml#n-6">see letter 356, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh, who makes <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1033">Louis-François Français</rs> ten years older in the anecdote, is referring to the following tradition: ‘Français was twenty when he met <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Corot</rs> through Buttera, after he had made his first study in the Meudon woods, and when he did not yet know what a <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">neutral tone </hi>is.’ (Français avait vingt ans lorsqu’il a connu Corot par l’intermédiaire de Buttera, après qu’il eut fait sa première étude dans les bois de Meudon, et quand il ignorait encore ce que c’est qu’un <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">ton neutre</hi>.) See Dumesnil 1875, p. 59.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+    
+<p>See for the earlier discussions about paternal rights and making a person a ward of court: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let234.xml#n-6">letter 234, nn. 6</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let234.xml#n-7">7.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

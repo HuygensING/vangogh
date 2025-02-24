@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Saturday, 16 March 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let749"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b731 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>749</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T4</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>753</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1889-03-16">Saturday, 16 March 1889</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0731" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000989_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000989_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000989_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0731" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000989_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000989_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000989_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Paris le 16 Mars 1889</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Mon cher frère,</p>
+
+<p xml:id="p.fr.3" n="3">J’apprends, que tu n’es pas encore mieux<ptr target="#note-t-1"/> ce qui me cause bien du chagrin. Je voudrais tant, que tu puisses me dire comment tu te sents car rien n’est pénible que l’incertitude et si tu me dirais comment cela va je pourrai plustôt faire quelque 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>chose pour te soulager. Tu as tant fait pour moi que je suis navré de savoir que maintenant que j’aurai probablement des jours de bonheur avec ma chère Jo tu auras justement de bien mauvais jours. Elle s’était faite une illusion, que puisqu’elle veut autant que possible vivre de ma vie, tu eusses été pour elle un frère comme tu l’as toujours été pour moi. Nous espérons du fond de notre coeur que tu puisses revenir à une bonne santé et que tu pourras reprendre bientôt tes travaux<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.4" n="4">En arrangeant mon nouvel appartement je revois avec tant de plaisir tes tableaux<c type="kp">_</c> Ils rendent les pièces si gais et il y a un tel accent de vérité, de vraie campagne dans chacun. C’est bien comme tu disais quelquefois de certains tableaux d’autres artistes<c type="kk">/</c> qu’ils ont l’air de venir comme cela directement des champs. S’il n’était pas si loin je serais certainement venu te voir, mais le temps me manque &amp; je me demandes si ma visite pourrait t’être utile à quelque chose. D’içi quelque temps Signac 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>doit aller dans le midi. Il ira te voir.<ptr target="#note-t-2"/> J’ai en ce moment chez moi une exposition de Claude Monet, qui a beaucoup de succès.<ptr target="#note-t-3"/> D’içi quelque temps pour sûr le public voudra des tableaux de la nouvelle école car ils travaillent bien l’esprit public. Si tu pouvais tu serais bien gentil de me donner ou de me faire donner de tes nouvelles car à part les lettres de M<hi rend="super">rs</hi> Rey &amp; Salles<ptr target="#note-t-4"/> je ne sais rien de toi.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je te souhaite meilleur santé &amp; je reste ton frère qui t’aime<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.6" n="6">Theo.</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Paris, 16 March 1889</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear brother,</p>
+<p xml:id="p.en.3" n="3">I learn that you’re not yet better,<ptr target="#note-t-1"/> which causes me much grief. I do so wish that you could tell me how you feel, for nothing is as distressing as uncertainty, and if you would tell me how things are going I can do something sooner 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> to give you relief. You’ve done so much for me that it breaks my heart to know that now that I’ll probably have days of happiness with my dear <rs type="person" ref="bio.xml#_416">Jo</rs>, you will actually have very bad days. She had the illusion that, since she wants to live my life as much as possible, you would have been a brother for her as you have always been for me. We hope from the bottom of our hearts that you can return to good health and that you can soon take up your work again.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">In arranging my new apartment I see your paintings again with so much pleasure. They make the rooms so jolly, and there’s such a note of truth, of real countryside in each one. It’s just as you said sometimes of certain paintings by other artists, that they seem to come like that directly from the fields. I would certainly have come to see you if it wasn’t so far, but I’m short of time and I ask myself if my visit could be useful to you in any way. <rs type="person" ref="bio.xml#_1350">Signac</rs> 
+    <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> is to go to the south soon. He’ll go and see you.<ptr target="#note-t-2"/> At the moment I have an exhibition by <rs type="person" ref="bio.xml#_1222">Claude Monet</rs> at my place, which is proving very successful.<ptr target="#note-t-3"/> In a little while the public will certainly want paintings by the new school, for they’re certainly exercising the public mind. If you could you would be very kind in giving me or having me given news of you, for apart from the letters from Messrs <rs type="person" ref="bio.xml#_637">Rey</rs> and <rs type="person" ref="bio.xml#_663">Salles</rs><ptr target="#note-t-4"/> I don’t know anything about you.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I wish you better health and I remain your brother who loves you.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Theo.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Paris le 16 Mars 1889’. On the front of the envelope, which was postmarked the 17th, Van Gogh wrote the end of <ref target="let750.xml">letter 750</ref> of 19 March.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s new apartment <ref target="let745.xml">(745)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Theo had received word from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs>, as emerges from what he had written the previous day, 15 March 1889, to his sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘I cannot tell you how sad it sometimes makes me to think of that poor Vincent. At last I’ve had another letter from the Rev. Salles. Just as I had thought, his condition is the same, and not at all better. So that it’s now as good as decided that he’ll be transferred to Aix. I expected this, but now it is certain that it will be a long time before he is again completely healthy’ (FR b921). This letter from Salles is not known.</p>
+
+<p rend="indent">Several days earlier, the sisters <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Elisabeth</rs> and Willemien had placed their share of the inheritance of 678.23 francs at Vincent’s disposal, to pay for his care. Theo wrote about this on 10 March 1889 to his brother-in-law <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_413">Joan van Houten</rs> and his sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna van Houten-Van Gogh</rs>: ‘Thank you very much for your letters, which I received yesterday with the enclosed postal order for 678.23 francs, which amount Lies and Wil place at Vincent’s disposal. At the moment there’s no reason to change his present treatment, which is free. He is well cared for in the municipal hospital, where nursing is provided free of charge and according to the advice both of the house physician, who is very well disposed towards Vincent and me, and of my doctor here, who treated Vincent when he was here, it’s best to leave him there for the time being to see whether rest and regular care can put him to rights. Should the contrary be deemed necessary, that he be admitted to a special nursing home, we must decide to what extent paid care needs to be provided. I appreciate that you would like to contribute if needed, but that probably won’t be necessary. I’ll deposit the money from Lies and Wil with a banker until it’s necessary to use it for him, but I don’t think that this will be the case. As you know, Vincent gave this money to the girls and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_420">Cor</rs>, influenced by a reproach that he had used more money for his education than the other children. I don’t think that he would take it back, no matter what the circumstances, if he could judge for himself. It is, however, a reserve in case other means should prove insufficient. At the moment I have no other news from him than that which you have probably heard from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Ma</rs>’ (FR b920). Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let490.xml#n-14">letter 490, n. 14</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let506.xml#n-21">letter 506, n. 21.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs> would visit Van Gogh on 23 and 24 March; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml">see letter 752</ref>. </p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+    
+<p>From 7 February until the end of March 1889, Theo held an exhibition at Boussod, Valadon &amp; Cie with work by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1319">Rodin</rs>, as well as pastels by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_981">Degas</rs>, at the branch at 19 boulevard Montmartre. Ten paintings by Monet were on display. See Wildenstein 1996, vol. 1, pp. 249-250; vol. 4, p. 1017, cat. nos. 518, 975, 1044, 1179, 1188, 1201, 1204, 1209, 1210a, 1212.</p>
+
+<p rend="indent">Frantz Jourdain wrote about the exhibition in exceptionally enthusiastic terms, calling it ‘one of the most important artistic events of the winter, permanently putting Mr Claude Monet into first place among the modern landscape painters’ (une des plus importantes manifestations artistiques de l’hiver [qui] donne définitivement à M. Claude Monet la première place parmi les paysagistes modernes). See ‘Claude Monet. Exposition du Boulevard Montmartre’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Revue Indépendante</hi> 10 (March 1889), no. 29, pp. 513-518 (quotation on p. 517).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+    
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs>’s letters to Theo of 1, 2 and 18 March have been preserved (FR b1048, b1051 and b1049). He had also written to Theo shortly before 15 March (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-1">see n. 1</ref> above). The last surviving letter from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Rey</rs> to Theo dates from 12 February (FR b1057). For this letter, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#id12February1889">see <hi rend="italics">Documentation</hi>, 12 February 1889.</ref> </p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Helvoirt, Friday, 10 July 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let025"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b18 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>025</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>18</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>025</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1874-07-10">Friday, 10 July 1874</date>
+                            <placeName>Helvoirt</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0018" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000018_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000018_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0018 V/1962" xml:id="surf-extra-1v">
+<graphic url="https://example.com/iiif/VGM001000018_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001000018_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Helvoirt 10 Juli 1874</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Dank voor de informaties die je genomen hebt, nu blijven wij een dag langer &amp; zullen dus Woensdag morgen te Londen aankomen.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">De photogr. die in den catalogus van Forbes<ptr target="#note-t-1"/> lag had ik hier reeds aan jou gegeven, daar ik dacht dat het, de Schelde &amp; dus Belgiën zijnde, je interresseeren zou. t’Is naar een Sch<hi rend="super">ij</hi> van Cap.<ptr target="#note-t-2"/> ’t Is zoo heel mooi niet maar ten minste origineel. Ik schrijf je spoedig uit Londen. Heb het goed.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.5" n="5">Vincent.</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Helvoirt, 10 July 1874</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Thanks for the information you got. We’re now staying a day longer and will arrive in London on Wednesday morning.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I gave you the photo in the <rs type="person" ref="bio.xml#_363">Forbes</rs> catalogue<ptr target="#note-t-1"/> here already, because I thought it would interest you, being the Scheldt and therefore Belgium. It’s of a painting by <rs type="person" ref="bio.xml#_926">Cap</rs>.<ptr target="#note-t-2"/> It’s not so very beautiful, but at least it’s original. I’ll write to you soon from London. I wish you well.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">Vincent.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Helvoirt 10 Juli 1874’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The Englishman <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_363">James Staats Forbes</rs>, a long-time resident of The Hague, collected paintings made by artists of the Barbizon School and the Hague School. Van Gogh was undoubtedly referring to the catalogue <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">James S. Forbes, London (Christie’s)</hi>, 23 May 1874, compiled when Forbes had c. 150 works from his country estate – including ten paintings by Israëls – put up for auction. See exhib. cat. Paris 1983, pp. 125-126; Sillevis 1988, p. 144; and Dekkers 1994, esp. pp. 139-140, 357.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Reproduction of a painting by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_926">Constant Aimé Marie Cap</rs> which depicts the River Scheldt. It is not known which photograph Vincent gave to Theo.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

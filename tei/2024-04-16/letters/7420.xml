@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Christian Vilhelm Mourier-Petersen to Vincent van Gogh. Holbaekgaard, Friday, 25 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let742"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1327 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>742</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>746</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Christian Mourier-Petersen</rs>
+                            <date when="1889-01-25">Friday, 25 January 1889</date>
+                            <placeName>Holbaekgaard</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1327" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001322_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001322_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001322_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1327" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001322_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001322_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001322_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Holbækgaard pr<ptr target="#note-t-1"/> Ørsted.</p>
+
+<p xml:id="p.fr.2" n="2">Jutland.</p>
+
+<p xml:id="p.fr.3" n="3">Danemark.</p>
+
+<p xml:id="p.fr.4" n="4">25 jan. 1889.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">Mon cher van Gogh!</p>
+
+<p xml:id="p.fr.6" n="6">En Hollande j’ai réçu votre lettre aimable et à présent, mon voya<c type="shy">-</c>ge fini, je vous rémerçie beau<c type="shy">-</c>coup de votre amitié et d’avoir pensé à moi.–</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Le séjour chez votre frère m’a fait du bien, et je serais très content si j’ai pu contribuer à diminuer autour de lui cet vide qu’on éprouve si façilement à Paris.–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Dans votre pays j’ai fait deux copies d’après Rembrandt<c type="kk">/</c> “la Suzanne” à la Haye et 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>plus tard “la noce juive” à Am<c type="shy">-</c>sterdam.<ptr target="#note-t-3"/> C’est la prémière fois que j’ai fait des copies et je ne recommençerai pas. Céla ne me dit rien, si ce n’était pas pour avoir un souvenir de ces chef-d’oeuvres magnifiques.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Il-y-a parmi vos compatriotes des peintres du talent et les oeuv<c type="shy">-</c>res de Mauve, Israels et Breitner m’ont très interéssé, seulement il me semble, qu’ils ne s’efforçent pas assez de voir de leurs propres yeux.–</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Quant aux peintres scandi<c type="shy">-</c>naves je les ai trouvés les mêmes qu’avant mon départ. Parmi les jeunes il-y-en ont bien qui veulent produire quelque chose d’original et 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>qui se rapprochent aux im<c type="shy">-</c>pressionistes, mais ils ont élu un jury reactionnaire et bête qui arrète tout progrès.–<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Je crois q’une exposition im<c type="shy">-</c>pressioniste ferait du bien à Copenhague en nous déba<c type="shy">-</c>rassant de certaines conven<c type="shy">-</c>tions. Nous avons déjà vu Claude Monet et Besnard<ptr target="#note-t-5"/> – qu’il viennent d’autres!</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">À présent on prépare l’envoi pour l’exposition à Paris – on le dit très bien.–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Je serais content de savoir, si vous restez encore à Arles, si tout va bien là-bas etc. mais probablement vous en avez assez, et cette lettre vous trouvera à Paris.–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Quant à moi, je dois rester içi cet été au moins. S’il est possible à l’hiver pro<c type="shy">-</c>chain j’irai à Paris et j’éspè<c type="shy">-</c>re alors de vous revoir.–</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Comment va la santé de M. votre frère? Je vous prie de le saluer de ma part. Je pense bientôt de lui envoyer quelque cho<c type="shy">-</c>se.–<ptr target="#note-t-7"/> Adieu – bonne santé et bonne chançe. Je vous serre la main.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">Chr<c type="kp">_</c> Mourier-Petersen.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Holbaekgaard pr<ptr target="#note-t-1"/> Ørsted.</p>
+<p xml:id="p.en.2" n="2">Jutland.</p>
+<p xml:id="p.en.3" n="3">Denmark.</p>
+<p xml:id="p.en.4" n="4">25 Jan. 1889.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">My dear Van Gogh!</p>
+<p xml:id="p.en.6" n="6">I received your kind letter in Holland and, now that my journey is over, I thank you very much for your friendship and for having thought of me.</p>
+<p rend="indent" xml:id="p.en.7" n="7">The stay in your brother’s place has done me good, and I would be very happy if I’ve been able to contribute to lessening that emptiness around him that one so easily experiences in Paris.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">In your country I made two copies after <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>: ‘the Suzanne’ in The Hague and <pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> later ‘the Jewish wedding’ in Amsterdam.<ptr target="#note-t-3"/> It’s the first time I’ve made copies, and I won’t do so again. It doesn’t say anything to me, if it wasn’t to have a memory of these magnificent masterpieces.</p>
+<p rend="indent" xml:id="p.en.9" n="9">There are some talented painters among your compatriots, and the works of <rs type="person" ref="bio.xml#_323">Mauve</rs>, <rs type="person" ref="bio.xml#_1107">Israëls</rs> and <rs type="person" ref="bio.xml#_903">Breitner</rs> interested me very much, only it seems to me that they don’t make sufficient effort to see with their own eyes.</p>
+<p rend="indent" xml:id="p.en.10" n="10">As for the Scandinavian painters, I found them the same as before my departure. Among the young ones there are many who want to produce something original and 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> who are close to the Impressionists, but they’ve elected a reactionary and stupid jury which brings all progress to a halt.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I think that an Impressionist exhibition would do some good in Copenhagen by ridding us of certain conventions. We’ve already seen <rs type="person" ref="bio.xml#_1222">Claude Monet</rs> and <rs type="person" ref="bio.xml#_858">Besnard</rs><ptr target="#note-t-5"/> – may others come!</p>
+<p rend="indent" xml:id="p.en.12" n="12">At the moment the consignment for the Paris exhibition is being prepared – it’s said to be very good.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I would be happy to know if you are still staying in Arles, if everything is going well down there etc., but you’ve probably had enough of it, and this letter will find you in Paris.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">As for me, I must stay here this summer at least. If it’s possible next winter I’ll go to Paris, and I hope to see you again then.</p>
+<p rend="indent" xml:id="p.en.15" n="15">How is your brother’s health? Please say hello to him from me. I hope to send him something soon.<ptr target="#note-t-7"/> Adieu – good health and good luck. I shake your hand.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16"><rs type="person" ref="bio.xml#_1233">Chr. Mourier-Petersen</rs>.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘25 jan. 1889.’</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent probably received this letter from Theo, who sent it together with his own letter, for which Vincent thanks him in <ref target="let748.xml">letter 748</ref>. Mourier-Petersen assumed that Vincent was no longer in Arles <ref target="#l-57">(ll. 57-59)</ref>.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">At the bottom of p. [1r:4] Van Gogh wrote in pencil:</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">‘Roulin Courrier Convoyeur</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">chez Mme Degal</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rue Breteuil No 57</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <hi rend="italics">Marseille.</hi>’</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+      
+<p>Abbreviation of the French ‘près’ (near). Holbækgaard, the country estate of the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs> family, lies to the north of Ørsted.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Around 22 May 1888 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs> left Arles for Paris, where he stayed from around 6 June to about 15 August with Theo in rue Lepic. He had spent the months of November and December in the Netherlands. See Larsson 1993, pp. 26-27 (n. 95), 29.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Susanna</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">at the bath</hi>, 1636 (The Hague, Royal Cabinet of Paintings Mauritshuis). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_372">Ill. 372</rs>. For Rembrandt’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2119">Jewish bride</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let430.xml#n-10">see letter 430, n. 10.</ref> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs> thus visited the Mauritshuis in The Hague and the Rijksmuseum in Amsterdam. His copies are not known.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This could refer to Theodor Philipsen, Oda and Christian Krohg, Viggo Johansen and Erik Werenskiold, the Scandinavian artists who participated in the exhibition <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Nordiske og franske Impressionister</hi>, held in Copenhagen from 31 October to 11 November 1889. See exhib. cat. Stockholm 2002, p. 161. The ‘reactionary jury’ most likely refers to the Academy’s board of governors.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The exhibition <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Franske Kunstvaerker</hi> was held in Copenhagen from 18 May to 16 October 1888. There was a separate room with paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1182">Manet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_297">Angrand</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1349">Sisley</rs>, supplied by Theo van Gogh. For many Danish artists this was their first introduction to Impressionism. See Larsson 1993, pp. 4-7. Monet exhibited three seascapes (cat. nos. 201-203). See also Wildenstein 1996, vol. 4, p. 1017.</p>
+
+<p rend="indent">Four works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_858">Besnard</rs> were on display, namely <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_796">Le sauveur, ballade écossaise</rs></hi> (The saviour, Scottish ballad) (cat. no. 27), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_797">Après le bain</rs></hi> (After bathing) (pastel, cat. no. 28), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_798">Soleil du matin</rs></hi> (Morning sun) (pastel, cat. no. 29) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_799">Portrait de Mme R.I.</rs></hi> (Portrait of Mrs R.I.) (cat. no. 30). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Illustreret katalog over udstillingen af Franske kunstvaerker.</hi> F. Hendriksen. Exhib. cat. Copenhagen, 1888. Copenhagen 1888.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The World Exhibition was held in Paris from 5 May to 5 November 1889. In the Palais du Champ de Mars, the Danish were represented by 190 paintings. See exhib. cat. Paris 1889-3, pp. 71-74.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>On 25 February 1890 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs> thanked Theo for his hospitality by sending him the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_800">Tulip field</rs></hi>, c. 1890 (Amsterdam, Van Gogh Museum).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

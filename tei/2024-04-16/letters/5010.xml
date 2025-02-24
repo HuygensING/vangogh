@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, Wednesday, 6 May 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let501"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b445 V/1962.</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>501</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>407</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>504</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-05-06">Wednesday, 6 May 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0445" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000594_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000594_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0445" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000594_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000594_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000594_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Gisteren verzond ik per post een aantal geschilderde studies,<ptr target="#note-t-1"/> en heden, Woensdag, een kist gemerkt <hi rend="italics">V1</hi><c type="kk">/</c> franco domicile<c type="kk">/</c> inhoudende het schilderij.<ptr target="#note-t-2"/> Gaarne ontvang ik berigt van overkomst. en tevens of de frankeering in orde was.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Indien niet<c type="kk">/</c> wil ik het voor latere zendingen gaarne weten<c type="kk">/</c> indien ’t goed was kost het mij niet geheel f<c type="kp">_</c> 2<c type="kk">/</c> wat geloof ik voordeeliger uitkomt dan wanneer men de vracht te Parijs berekent, en kunnen we het wel eens meer probeeren<c type="kk">/</c> ook met vrij groote dimensies.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik weet niet wat ge van het sch<hi rend="super">ij</hi> vinden zult.<ptr target="#note-t-3"/> maar ’t zij voor dit ’t zij voor latere doeken<c type="kk">/</c> wees vooral voorzigtig met het eventueel bestellen van lijsten.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Want we kunnen ’t geld voorloopig beter gebruiken voor het maken van nieuwe<c type="kp">_</c> En tot encadreering overgaan als wij er wat bijeen hebben.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ten minste dat zou mij het aangenaamst zijn. Bij de vele studies die ik maak zijn de onkosten werkelijk wat meer dan ik in de gegevenen omvademen kan. 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>ik heb pas f<c type="kp">_</c> 25 huur moeten betalen ook<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Maar wel eischt dunkt me het sch<hi rend="super">ij</hi> gezien te worden tegen een toon als goud of koper.<ptr target="#note-t-4"/> Omdat daardoor het gemarmerde verdwijnt en het blijkt dat de lichten nog diep staan. Maar dit effekt kan men makkelijk krijgen door een stuk papier van een okerkleur b.v. er achter te houden.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Geheel en al droog was het niet toen ik het inpakte<c type="kk">/</c> toch dacht ik het niet noemenswaard meer beschadigen kon.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Ik zou er echter nog veel aan hebben willen doen<c type="kk">/</c> doch wegens het inschieten en daar ’t al meer dan eens was uitgehaald<c type="kk">/</c><hi rend="super"> </hi>merkte ik<c type="kk">/</c> ik er uit moest scheiden. En begin op nieuw aan iets anders.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Mijn verhuizing is nu achter den rug<c type="kk">/</c> ze zijn t’huis wel wat anders dan ge U voorstelt en hun zeggen is dat ik “mijn zin” gedaan heb.<ptr target="#note-t-5"/> Enfin – mij ook al goed, en ik spreek er liever niet over.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik moet aan ’t werk<c type="kk">/</c> dus voor heden adieu.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">ik heb nog 2 ramen laten maken van de zelfde grootte als dit doek<c type="kp">_</c>– Me dunkt dat als we b.v. 3 of 4 schilderijen van een zeker formaat hebben<c type="kk">/</c> het dan de moeite waard is op zoo’n formaat een lijst te laten maken. Doch voor een enkel is het te gewaagd &amp; het is beter <hi rend="italics">veel te schilderen</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Gegroet<c type="kk">/</c> met een handdruk.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.14" n="14">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Yesterday I sent a number of painted studies<ptr target="#note-t-1"/> by post, and today, Wednesday, a crate marked <hi rend="italics">V1</hi>, free domicile, containing the painting.<ptr target="#note-t-2"/> Please send me word of receipt, and at the same time whether the postage was in order.</p>
+<p rend="indent" xml:id="p.en.3" n="3">If not, I’d like to know for later consignments. If it was correct, it cost me not quite 2 guilders, which I believe works out cheaper than if one calculates the carriage in Paris, and we can try it again sometime, with fairly large dimensions too.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I don’t know what you’ll think of the painting,<ptr target="#note-t-3"/> but be it for this, be it for later canvases, be particularly careful when it comes to ordering frames.</p>
+<p rend="indent" xml:id="p.en.5" n="5"> Because for the time being we can use the money better for making new ones. And only start framing them when we’ve got a few together.</p>
+<p rend="indent" xml:id="p.en.6" n="6">At least, that would be the most agreeable to me. The expenses for the many studies that I’m making are really rather more than I can encompass in the circumstances. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I’ve just had to pay 25 guilders rent, as well.</p>
+<p rend="indent" xml:id="p.en.7" n="7">All the same, the painting seems to me to demand to be seen against a tone like gold or copper.<ptr target="#note-t-4"/> Because then the marbling effect disappears and it appears that the lights are still deep. But one can easily achieve this effect by holding a piece of paper in, say, an ochre colour behind it.</p>
+<p rend="indent" xml:id="p.en.8" n="8">It wasn’t completely dry when I packed it, but I thought it couldn’t really be damaged any more.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I would like to have done much more to it, though, but because of the sinking in and since it had already been lifted more than once, I could see that I had to stop. And start again on something else.</p>
+<p rend="indent" xml:id="p.en.10" n="10">My move is now complete; at home they’re rather different from what you suppose, and they say I’ve had ‘my way’.<ptr target="#note-t-5"/> Well — it’s all the same to me, and I’d rather not talk about it.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I must get to work, so adieu for today.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I’ve had another 2 stretching frames made, the same size as this canvas. I think that once we have, say, 3 or 4 paintings of a certain size, it would then be worthwhile getting a frame made in that sort of size. But for a single one it’s too risky, and it’s better <hi rend="italics">to paint a lot</hi>.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Regards, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Yours truly,</p>
+<p xml:id="p.en.15" n="15">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The painting <hi rend="italics">The potato eaters</hi>, which in the previous letter still had to dry for a day or two, has meanwhile been sent ‘today, Wednesday,’ <ref target="#l-2">(l. 2)</ref>. In view of the frequency of the letters at the beginning of May and Vincent’s urgent desire to send the work to Theo, this Wednesday must have been Wednesday, 6 May 1885.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The move to the studio <ref target="let490.xml">(490)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is impossible to say for sure exactly which studies these are – Van Gogh originally referred to ten of them (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let500.xml">letter 500</ref>). They would have included <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Study for ‘The potato eaters’ </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2494">F 77r / JH 686</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gordina de Groot, head</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2508">F 140 / JH 745</rs>), and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Head of a woman (Gordina de Groot) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2497">F 85 / JH 693</rs>). Van Gogh compares the latter, as a type, with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2515">F 141 / JH 783</rs> – the painting went, via Theo, to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let502.xml">See letters 502</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let505.xml">505</ref> and cat. Amsterdam 1999, pp. 132, 135, 239.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The code ‘V1’ stands for Vincent 1. The crate contained <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2510">F 82 / JH 764</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_475">Anton Kerssemakers</rs> recalled how sympathetically Theo had responded at the time: ‘Some days after he sent off that dark painting of the peasants’ supper to his brother in Paris, he comes very animated to tell me that his brother had written very favourably about it; of course he was overjoyed by this: he had written, he said, that when he looked at the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">he could hear the clatter of the sitters’ clogs</hi>; well you understand that was grist to his mill’. Letter to Albert Plasschaert. Eindhoven, 27 August 1912 (FR b3038).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Vincent also suggested that the frame should be this colour in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let497.xml">letter 497</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Their sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs>’s objections were the reason for Vincent’s move out of the parental home. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let490.xml#n-9">See letter 490, n. 9.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

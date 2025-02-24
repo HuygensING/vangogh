@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Thursday, 5 April 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let593"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b515 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>593</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>475</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>595</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-04-05">on or about Thursday, 5 April 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0515" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000692_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000692_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000692_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0515" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000692_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000692_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000692_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Suis obligé de t’écrire puisque je t’envoie une commande de couleurs laquelle si tu la commandes chez Tasset &amp; l’Hôte Rue Fontaine<c type="kk">/</c><ptr target="#note-t-1"/> tu ferais bien – puisqu’ils me connaissent – de leur dire que je compte sur une remise au moins équivalente aux frais de transport que moi je payerai volontiers – ils n’ont pas à faire l’expédition<c type="kk">/</c> c’est nous qui la payerons<c type="kk">/</c> <hi rend="italics">mais la</hi> <hi rend="italics">remise devrait être dans ce</hi> <hi rend="italics">cas de 20%</hi>.– S’ils veulent te l’accorder – selon ce que je suis porté à croire – ils pourront me fournir jusqu’à nouvel ordre et il s’agit donc pour eux d’une commande importante.–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Tu demanderas – je t’en prie – au père Tasset ou au père l’Hôte le tout dernier prix de <hi rend="italics">10 mètres</hi> de sa toile au plâtre ou absorbante – et me feras parvenir le résultat de la discussion que tu auras probablement avec ce monsieur pour livraison de la marchandise ci dessus mentionnée<c type="kp">_</c> Voici la commande:</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.4" n="4">20 Blanc d’argent gros tubes</p>
+
+<p xml:id="p.fr.5" n="5">10 idem blanc de zinc</p>
+
+<p xml:id="p.fr.6" n="6">15 Vert Veronèse doubles tubes</p>
+
+<p xml:id="p.fr.7" n="7">10 Jaune de Chrôme <hi>citron</hi> <hi>id</hi><c type="kp">_</c></p>
+
+<p xml:id="p.fr.8" n="8">10 Jaune de Chrôme (N<hi rend="super">o</hi> deux) <hi>id</hi><c type="kp">_</c></p>
+
+<p xml:id="p.fr.9" n="9">3 Vermillon id<c type="kp">_</c></p>
+
+<p xml:id="p.fr.10" n="10">3 Jaune de Chrôme N<hi rend="super">o</hi> trois<ptr target="#note-t-2"/> id<c type="kp">_</c></p>
+
+<p xml:id="p.fr.11" n="11">6 Laque géranium petits tubes }</p>
+
+<p xml:id="p.fr.12" n="12">12       ,, ordinaire ,, ,, }</p>
+
+<p xml:id="p.fr.13" n="13">2            Carmin ,, ,, }</p>
+<space unit="lines" quantity="1"/> 
+<p xml:id="p.fr.14" n="14"><supplied><hi rend="italics">Crosswise after lines r. 38-40:</hi></supplied></p>
+
+<p xml:id="p.fr.15" n="15">nouvellement broyés<c type="kk">/</c> s’ils sont graissés je les renverrais<c type="kp">_</c> </p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">4 Bleu de Prusse petit tubes</p>
+
+<p xml:id="p.fr.17" n="17">4 cinabre VERT très clair petit tube</p>
+
+<p xml:id="p.fr.18" n="18">2 Mine orange petit tube</p>
+
+<p xml:id="p.fr.19" n="19">6 Vert emeraude petit tube</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p xml:id="p.fr.20" n="20">Cette commande est assez grave, cependant sans compter la différence entre la remise que j’ose espérer et les frais de transport, <hi rend="italics">nous y gagnerons encore ce que</hi> <hi rend="italics">je payerais en plus pour frais de</hi> <hi rend="italics">transport</hi><c type="kk">/</c><hi rend="italics"> sans compter que je n’ai</hi> <hi rend="italics">ici aucune remise</hi>.–</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Ci joint pour que cela ne te presse pas outre mesure une commande plus petite et <hi rend="italics">à déduire</hi> de la première<c type="kk">/</c> laquelle dernière nommée n’est pressée qu’en tant que quant à la réduction<ptr target="#note-t-a"/> ci dessous mentionnée<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+    
+<p xml:id="p.fr.22" n="22"><hi rend="italics">Pressé</hi></p>
+
+<p xml:id="p.fr.23" n="23">10 Blanc d’argent <hi rend="italics">gros</hi> tubes</p>
+
+<p xml:id="p.fr.24" n="24">6 Vert Veronèse <hi rend="italics">doubles tubes</hi></p>
+
+<p xml:id="p.fr.25" n="25">3 Jaune de chrome citron }</p>
+
+<p xml:id="p.fr.26" n="26">3  ,, ,, ,, N<hi rend="super">o</hi> 2 } doubles tubes</p>
+
+<p xml:id="p.fr.27" n="27">1          N<hi rend="super">o</hi> 3 }</p>
+
+<p xml:id="p.fr.28" n="28">1 Vermillon double tubes</p>
+
+<p xml:id="p.fr.29" n="29">3 Laques géranium petits tubes</p>
+
+<p xml:id="p.fr.30" n="30">6 Laque ordinaire ,, ,,</p>
+
+<p xml:id="p.fr.31" n="31">2 Bleu de prusse ,, ,,</p>
+
+<p xml:id="p.fr.32" n="32">4 Vert émeraude ,, ,,</p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.fr.33" n="33">Puis – aussitôt que possible – le prix définitif, pour moi, de la toile absorbante<c type="kk">/</c> 10 mètres s.v.p.–</p>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Le marchand de couleurs d’ici<ptr target="#note-t-3"/> me faisait de la toile absorbante mais il est tellement parresseux à la faire que je suis décidé de faire venir tout de Paris ou de Marseille et que j’y renonce – à bout de patience – de lui en faire faire.– (<hi rend="italics">En attendant une toile de 30</hi> <hi rend="italics">absorbante j’en ai peintes deux sur toile non absorbante</hi><c type="kp">_</c>)<ptr target="#note-t-4"/> </p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Il va sans dire que si tu achètes des couleurs pour moi mes dépenses ici diminueront de plus que 50%<c type="kp">_</c> Jusqu’à présent j’ai dépensé plus pour mes couleurs<c type="kk">/</c> toiles &amp;c<c type="kp">_</c> que pour moi<c type="kp">_</c>– J’ai encore un nouveau verger pour toi – mais au nom de dieu fais moi parvenir la couleur sans retard<c type="kp">_</c>– La saison des vergers en fleurs est si passagère et tu sais que ces motifs sont de ceux qui égaient tout le monde.– Aussitôt que je pourrai payer caisses et affranchissement (le dernier sans doute meilleur marché ici à la petite station que le resultat Gare de Lyon)<ptr target="#note-t-5"/> je t’expedie les études.– Suis sans le sou pour le moment comme déjà je te le disais<c type="kp">_</c>–<ptr target="#note-t-6"/> Fais comme tu peux mais en tout cas gagnons la remise sur les couleurs si toutefois tu juges qu’il soit à notre avantage de travailler comme quatre<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.36" n="36">t. à. t. </p>
+<p xml:id="p.fr.37" n="37">Vincent </p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.38" n="38">Ci inclus une commande pour Tasset &amp; l’Hôte directement<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.39" n="39">Je suis assez curieux de savoir ce que tu diras de mon premier envoi qui contiendra certes au moins 10 toiles.–<ptr target="#note-t-7"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Am obliged to write to you as I’m sending you an order for colours which, if you place it with <rs type="person" ref="bio.xml#_784">Tasset &amp; Lhote</rs>, rue Fontaine,<ptr target="#note-t-1"/> you’ll do well — since they know me — to tell them that I expect a discount at least equivalent to the cost of carriage, which I’ll be glad to pay myself — they don’t have to cover carriage, we’ll pay it, <hi rend="italics">but in that case the discount should be 20%. </hi>If they’re willing to give you it — as I’m inclined to believe — they can supply me until further notice, and so this is a big order for them. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">You’ll ask —  please — <hi rend="italics">père</hi> Tasset or <hi rend="italics">père</hi> Lhote the lowest price for <hi rend="italics">10 metres </hi>of his primed or absorbent canvas — and you’ll let me know the outcome of the discussion you’ll probably have with that gentleman for delivery of the merchandise described above. Here’s the order:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.4" n="4">20 Silver white, large tubes</p>
+<p xml:id="p.en.5" n="5">10 ditto zinc white</p>
+<p xml:id="p.en.6" n="6">15 Veronese Green, double tubes</p>
+<p xml:id="p.en.7" n="7">10 <hi>lemon</hi> Chrome Yellow, <hi>ditto</hi></p>
+<p xml:id="p.en.8" n="8">10 (No. two) Chrome Yellow, <hi>ditto</hi></p>
+<p xml:id="p.en.9" n="9">3 Vermilion, ditto</p>
+<p xml:id="p.en.10" n="10">3 No. three Chrome Yellow,<ptr target="#note-t-2"/> ditto</p>
+<p xml:id="p.en.11" n="11">6 Geranium lake small tubes}</p>
+<p xml:id="p.en.12" n="12">12 ,, ,, ordinary ,, }</p>
+<p xml:id="p.en.13" n="13">2 ,, ,, Carmine }</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">freshly ground, if they’re greasy I’ll send them back.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">4 Prussian Blue, small tubes</p>
+<p xml:id="p.en.16" n="16">4 very light cinnabar GREEN, small tubes</p>
+<p xml:id="p.en.17" n="17">2 orange lead, small tubes</p>
+<p xml:id="p.en.18" n="18">6 Emerald green, small tubes</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.en.20" n="20">This is quite a sizeable order; however, without counting the difference between the discount I dare hope for and the cost of carriage, <hi rend="italics">we’ll still earn what I pay in addition for carriage, without taking into account that I don’t get any discount here.</hi></p>
+<p rend="indent" xml:id="p.en.21" n="21">Attached, so that it won’t put too much of a burden on you, a smaller order <hi rend="italics">to be</hi> <hi rend="italics">deducted </hi>from the first one, which latter is only urgent in respect of the part mentioned below.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22"><hi rend="italics">Urgent</hi></p>
+<p xml:id="p.en.23" n="23">10 Silver white, <hi rend="italics">large </hi>tubes</p>
+<p xml:id="p.en.24" n="24">6 Veronese Green, <hi rend="italics">double tubes</hi></p>
+<p xml:id="p.en.25" n="25">3 Lemon chrome yellow }</p>
+<p xml:id="p.en.26" n="26">3 ,, ,, No. 2 }double tubes</p>
+<p xml:id="p.en.27" n="27">1 No. 3}</p>
+<p xml:id="p.en.28" n="28">1 Vermilion, double tube</p>
+<p xml:id="p.en.29" n="29">3 Geranium lake, small tubes</p>
+<p xml:id="p.en.30" n="30">6 Ordinary lake ,, ,,</p>
+<p xml:id="p.en.31" n="31">2 Prussian blue ,, ,,</p>
+<p xml:id="p.en.32" n="32">4 Emerald green ,, ,,</p><space unit="lines" quantity="1"/><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p xml:id="p.en.33" n="33">And — as soon as possible — the final price, to me, of absorbent canvas, 10 metres, please.</p>
+<p rend="indent" xml:id="p.en.34" n="34">The <rs type="person" ref="bio.xml#_3">colourman</rs> here<ptr target="#note-t-3"/> made absorbent canvas for me, but he’s so lazy about doing it that I’ve decided to have everything sent from Paris or Marseille, and give up — having lost all patience — the idea of getting him to do it. (<hi rend="italics">While waiting for a no. 30 absorbent canvas I painted two on non-absorbent canvas.</hi>)<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">It goes without saying that if you buy colours for me my expenses here will be reduced by over 50%. Up to now I’ve spent more on my colours, canvases, &amp;c. than on myself. I have another new orchard for you — but for Christ’s sake get the paint to me without delay. The season of orchards in blossom is so short, and you know these subjects are among the ones that cheer everyone up. As soon as I can pay for crates and postage (which is probably cheaper at the little station here than it would be at the Gare de Lyon)<ptr target="#note-t-5"/> I’ll send you the studies. Am without a sou for the moment, as I was telling you before.<ptr target="#note-t-6"/> Do what you can, but in any case let’s get the discount on the colours if, that is, you think it’s to our advantage to work like beavers.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.36" n="36">Ever yours,</p>
+<p xml:id="p.en.37" n="37">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.38" n="38">Herewith an order direct to <rs type="person" ref="bio.xml#_784">Tasset &amp; Lhote</rs>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">I’m quite curious to know what you’ll say about my first consignment, which will definitely contain at least 10 canvases.<ptr target="#note-t-7"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent has meanwhile spent the 50 francs for which he thanked Theo on or about 1 April (<ref target="let591.xml">letter 591</ref>) on paint and canvas (<ref target="let592.xml">see letter 592</ref>); now he says he is broke. In the next letter (<ref target="let594.xml">594</ref>, of 9 April) he thanks Theo for sending 100 francs. He has finished another orchard since he wrote the previous letter <ref target="let592.xml">(592)</ref>. The present letter must have been written some time between these two letters; we have therefore dated it on or about Thursday, 5 April 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The paint order for the paint suppliers Tasset &amp; Lhote <ref target="#l-105">(ll. 105-106)</ref> was enclosed.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The artists’ supplies shop run by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Guillaume Charles Tasset</rs> and his (unidentified) partner Lhote, 31 rue Fontaine-Saint-Georges in Paris. </p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+    
+<p>‘Chrome yellow 1, 2 and 3’ refer to ‘lemon’, ‘yellow’ and ‘orange’ respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘partie’. </p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh probably bought his paint from the grocer and chemist <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_3">Jules Armand</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml#n-8">see letter 583, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>See for this absorbent size 30 canvas: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let594.xml#n-2">letter 594, n. 2.</ref> One of the two works on non-absorbent canvas was the ‘new orchard’ that Van Gogh mentions a little later in the letter (the sentence ‘while waiting ... non-absorbent canvas’ (en attendant ... non absorbante) (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-81">ll. 81-81a</ref>) was added later). We do not know which work this was; all the orchards that are now known have already been mentioned or are referred to later in the correspondence. The other work cannot be identified either. It was probably another orchard (Van Gogh’s use of the words ‘<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">a</hi> new orchard’ would not seem to indicate this, but orchards were his only subject during this period) and has been lost. In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let606.xml">letter 606</ref> Van Gogh says he has destroyed works; these two may have been among them.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The station in Paris from which trains for the south depart.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh had written this in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let592.xml">letter 592</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Van Gogh sent Theo the first batch of paintings from Arles on 7 May; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let606.xml#n-4">see letter 606, n. 4</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Etten, Saturday, 12 November 1881.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let183"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b177 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>183</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>157</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>181</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1881-12-12">Saturday, 12 November 1881</date>
+                            <placeName>Etten</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000192_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000192_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000192_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000192_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000192_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000192_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000193_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000193_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000193_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000193_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000193_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000193_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000194_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000194_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000194_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0177 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000194_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000194_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000194_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Etten 12 November 1881</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Eene zinsnede in Uw brief van 6 Nov. is eene bijzondere beantwoording waard.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Gij zegt: in ’t tegenwoordige geval zou ik den moed niet opgeven in je plaats, maar de zaak voor de personen die er niet mee te maken hebben in de diepste rust laten. Mij<ptr target="#note-t-1"/> dunkt, dat die handelwijze “dan aan enkelen, die er zich nu zeer mee bemoeijen zal bevreemden en hun als ’t ware zal ontwapenen”<c type="kp">_</c> Indien ik deze taktiek niet reeds meer dan eens vóór dezen een der beste wapens had bevonden zoo zoudt ge mij iets nieuws verteld hebben. Nu echter zeg ik alleen<c type="kk">/</c> ja zooveel wist ik ook doch nu<c type="kk">/</c> après ça<c type="kk">/</c> que sais-tu encore? Want ge moet niet vergeten dat er gevallen zijn waar defensief te blijven niet altijd voldoende is<c type="kp">_</c> Vooral dan niet wanneer het plan de bataille der tegenpartij gebouwd zou wezen op de wat voorbarige veronderstelling dat ik zeker niet verder kan gaan dan hoogstens dat defensive wachten. Indien gij, Theo, verliefd waart met een dergelijk soort van liefde als ik, en kerel<c type="kk">/</c> waarom zoudt ge er ooit een ander soort op na houden ─ dan zoudt ge een heel nieuw verschijnsel in U zelven ontwaren. Zulken als gij en ik die meest met mannen omgaan en<c type="kk">/</c> gij in ’t groot<c type="kk">/</c> ik in ’t klein<c type="kk">/</c> jagt maken op affaires<ptr target="#note-t-2"/> van een of anderen aard<c type="kk">/</c> wel, wij zijn gewoon ’t meest van wat we doen met het hoofd te doen ─ met een zekere politiek, met een zekere scherpzinnige berekening ─ doch wordt nu eens verliefd &amp; zie<c type="kk">/</c> ge ontwaart tot Uw verwondering dat er nog eene andere kracht is die ons tot handelen dringt n.l. het gevoel.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">We zijn soms wel geneigd daar zoowat den spot mee te drijven... doch dat neemt niet weg dat ’t eene vergissing is wanneer men meent dat die man zich vergist die in liefde vooral zegt: I don’t go to my head to ask my duty, in this case I go to my heart.─<ptr target="#note-t-3"/> Wie hierover de schouders optrekt of ’t hoofd schudt dien wensch ik geluk met zijn schouderophalen en hoofdschudden maar laat me door hem niet van streek brengen en twijfel of hij weet wat liefde is.─</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Nu geloof ik toch niet dat gij willen zoudt dat ik ’t zij mijn ouders ’t zij <hi rend="italics">haar</hi> ouders beschouwen zou als personen “die er niets mee te maken hebben” enz<c type="kp">_</c> Integendeel ’t wil er bij mij niet in dat het overbodig zou wezen hun nu en dan eens te spreken over een en ander.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Vooral dan wanneer zij noch positief noch negatief gestemd zijn zoo als nu ’t geval is eigentlijk<c type="kk">/</c> dat wil zeggen niets ronduit doen vóór<c type="kk">/</c> niets ronduit tegen.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">’t Welk eene houding is die, vrees ik, hun veel onvoldaanheid en twijfelmoedigheid en een soort hartzeer (zooiets tusschen wroeging en geen wroeging) zal berokkenen<c type="kk">/</c> zeker geen voldoening zal geven. Hoe zij dit uit kunnen houden verklaar ik niet te begrijpen (’t is zoo iets van noch koud noch warm en dat heeft iets miserabels.) Zij zijn in eene soort chronische benaauwdheid des geestes<ptr target="#note-t-4"/> die nooit tot een crisis komt. Ze kunnen tot geen crisis komen noch ook tot verlossing.─ Zij doen water in hun wijn en wijn in hun water.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Zij nemen een stap vóóruit doch bevreesd voor consequenties trekken zij zich weer terug<c type="kk">/</c> zij doen eene schrede achterwaarts doch ook dan knaagt er iets.─ Er is ook daar iets fataals in. Zij vertrouwen en zij wantrouwen. Qu’y faire. Slag om den arm! wat maakt ge een mensch armzalig! Voor mij is ’t een moeielijke positie want ik kan niet anders zeggen dan<c type="kk">/</c> En avant!</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ware ik zelf weifelend<c type="kk">/</c> aarzelend<c type="kk">/</c> hinkend op twee gedachten<c type="kk">/</c> ik kon vrede hebben met de houding van Pa en Moe. Nu evenwel is ’t gansch anders gesteld<c type="kp">_</c> Deze mijne liefde heeft mij doen partij kiezen en ik gevoel energie<c type="kk">/</c> nieuwe gezonde energie in mij, gelijk ieder die waarachtig liefheeft zulks ondervindt.─</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Was het dat Pa en Moe onenergiek waren van nature<c type="kk">/</c> ik zou er ’t hoofd bij neerleggen doch indien zij wilden<c type="kk">/</c> konden we heel wat doen dat nu niet gedaan kan worden en daarom heb ik er volstrekt geen vrede mee.─</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Enfin ’t is eene eigenaardige moeielijkheid en naar mijn beste weten zal ik van den bestaanden toestand toch partij trekken. Zouden Pa en Moe echter nooit zich decideeren! Zullen zij voor altijd en eeuwig noch koud noch warm blijven! Als ik hun vraag<c type="kk">/</c> ge zijt er toch immers vóór? dan zeggen zij niet ja en ook niet neen en wachten zich wel zich bloot te geven<c type="kp">_</c> Zegt ge<c type="kk">/</c> neen maar<c type="kk">/</c> ge zijt er tegen! dan zeggen zij: hoe kunt ge toch zooiets van ons denken!─ </p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Mijn waarde Theo<c type="kk">/</c> mag ik U eens vragen of gij eigentlijk niet bijna net eender gestemd zijt als Pa en Moe wier stemming ik in bovenstaande regelen trachtte te defineeren. En indien dit Uwe gemoedsstemming wezen mogt<c type="kk">/</c> doch ik hoop ik mij daarin vergis<c type="kk">/</c> dan zou ik U wel willen zeggen: Vriend, ik geloof dat gij geen meisje liefhebt en... toch... aan liefde denkt......... Zoudt gij soms tot een positief resultaat kunnen komen... dan ─ dan ─ zoudt ge waarachtig wel weten hoe zonderling eene houding van noch voor noch tegen is en waarom iemand die verliefd is dit op U voor heeft (indien namelijk gij niet lief zoudt hebben) dat hij in U maar niet gij in hem kunt zien.─</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Weet gij hoe het komt Theo, dat Pa en Moe noch voor noch tegen, noch warm noch koud, noch tevreden noch ontevreden zijn. Hierom omdat zij wel weten wat liefde is doch door ik weet niet wat voor verduistering zich ’t niet goed herinneren kunnen en ─ en ─ en ─ er iets in hun slaapt dat wakker moet worden. Ik wou wel dat ’t maar wat gaauw wakker werd<c type="kk">/</c> ’t heeft al zoo lang getreuzeld. ’t Is net als of zij een tamelijke dosis laudanum<ptr target="#note-t-5"/> hebben ingenomen<c type="kk">/</c> zij zijn wakker uitwendig doch de eigentlijke geest slaapt VAST.─.─.─ 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>O wat kostbaren tijd doet dit misschien verloren gaan! Maar neen zoo wil ik niet denken. Natuurlijk zou ik wenschen dat Pa en Moe vurigheid des geestes zien<c type="kk">/</c> positief er vóór!</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Doch indien ik dit niet zie ─ bekoelt mijne liefde door een paar emmers koud water? Neen<c type="kk">/</c> die doen er niets aan af noch toe.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Als gij liever hadt dat ik U maar rekende onder de personen “die er niet mee te maken hebben en voor wie ik de zaak in de diepste rust zou moeten laten” dan zou ik ook tegen Uw zin er U toch nu en dan wel eens over praten<c type="kk">/</c> en zie<c type="kk">/</c> zoo is ’t nu met Pa en Moe en Oom &amp; Tante Stricker precies eender.─</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">En tot <hi rend="italics">haar</hi>??? Ja..... Kan men zóó liefhebben als ik liefheb &amp;... te vergeefs??? Ik meen... neen... ─ à Dieu ne plaise.─</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Wat aangaat Pa en Moe<c type="kk">/</c> zij hadden wel liever geloof ik dat ik maar niet tot hen er over sprak en toch<c type="kk">/</c> ook tegen hun zin spreek ik er nu en dan over. Waarom... om te zien of er soms iets wakker wordt. Wat?... ’t bewustzijn dat er Goddank liefde is en dat wij<c type="kk">/</c> oud of jong<c type="kk">/</c> de warmte er van moeten voelen en ’t licht er van zien.─ Toen ik Pa dezen zomer ’t vertelde ─ viel hij mij in de rede met een anecdote van iemand die te veel en een ander die te weinig gegeten had<c type="kk">/</c> ten eenemale hors de saison en ’t was eene anecdote zonder kop of staart zoodat ik niet zonder siddering dacht: is Pa in de war?</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Dit was misschien uit zenuwachtigheid omdat hij ’t niet verwacht had ─ en toch was ’t onder zijn oogen als ’t ware dat zij en ik dagen en weken hadden gewandeld &amp; gesproken met elkaar. Zijn die oogen van Pa en Moe nu in deze hunne stemming helderziende.─ Ik meen neen.─ De man die waar hij waarachtige ernstige liefde ziet koud noch warm blijft<c type="kk">/</c> die heeft of een of andere bedwelming ondergaan of hij is niet zooveel waard als ’t leer van zijn schoenen, mijns inziens.─</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Hetgeen ik dus zeggen wil, broer, is niet meer of niet minder dan dat ik vastelijk geloof dat een man<c type="kk">/</c> wie hij ook zij<c type="kk">/</c> zich onbewust is van iets zeer eigenaardigs<c type="kk">/</c> eene groote verborgen kracht, diep verborgen in hem<c type="kk">/</c> totdat vroeger of later hij wakker gemaakt wordt door eene ontmoeting met iemand van wie hij zegt “zij en geen ander”.<ptr target="#note-t-6"/> En verder dat ik meen dat iemand als gij die nog niet zegt<c type="kk">/</c> zij en geen ander<c type="kk">/</c> wel doet met op zijn qui vive te zijn tegen zulke dingen die voornoemde groote verborgen kracht<c type="kk">/</c> vóór zij ontwaakt is<c type="kk">/</c> soms kunnen verlammen<c type="kk">/</c> ’t zij ten eenemale t’zij gedeeltelijk. Hebt gij nooit iets gedaan ’tgeen een min of meer fatalen invloed kon hebben op de ontwikkeling van die kracht die men liefde noemt.─</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Mijns inziens eenigzins. Hoe dat? Ik zal het U zeggen naar mijn beste weten.─ Meenende het te moeten doen hebt gij misschien wel wat al te veel de eerzucht in u zelven voedsel gegeven en is die een hartstogt geworden bij U als een vuur. Zachtere gevoelens hebben er onder geleden. Voilà ton cas. Hoe weet ik dit ─ heb ik grond voor dat beweeren? Of scherm ik maar de but en blanc in de lucht. Hoe kan men weten of iemand eerzucht heeft ja dan neen (’k bedoel die eerzucht die is als een vuur.) Aan twee dingen kan men ’t zien<c type="kk">/</c> 1<hi rend="super">o</hi> wanneer men den patient op de ziekte zelve betrapt. 2<hi rend="super">o</hi> wanneer men opmerkt de niet aanwezigheid van liefde of het zich vergenoegen met ten eenemaal onvoldoende liefde. Wordt nu s.v.p. niet al te boos maar tel tot 10 of 20 of 30<c type="kk">/</c> langzaam en bedaard<c type="kk">/</c> als ik ’t wat te erg maak. Als ik U niet zei wat ik U te zeggen heb<c type="kk">/</c> wie zou ’t dan doen? Het is nog al erg om tot iemand te zeggen<c type="kk">/</c> ge hebt niet lief of ge vergenoegd U met onvoldoende liefde.─ Doch er over te zwijgen als men er iets praktisch over te zeggen heeft is mogelijk toch nog wel heel wat erger. Enfin ik waag ’t er nu maar op om door te gaan. Als bij iemand geldzucht en eerzucht niet minder zijn dan de liefde dan is er mijns inziens iets verkeerds in den man. Als een man alleen liefde heeft en geen geld weet te verdienen dan hapert er ook wat aan hem.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Eerzucht &amp; geldzucht is een firma <hi rend="italics">binnen in ons</hi><c type="kk">/</c> zeer vijandig jegens Liefde. Die twee krachten zijn in ons allen in zaad of kiem van ’t begin af<c type="kk">/</c> later in ’t leven ontwikkelen ze zich meestal in ongelijke proportie<c type="kk">/</c> bij den een de liefde<c type="kk">/</c> bij den ander eerzucht en geldzucht<c type="kp">_</c> Doch nu kunnen we, gij en ik, op den leeftijd waarop we zijn, er zelven wel eenigermate aan af of toe doen om den boel binnen in ons in orde te houden.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Ik houd het er voor dat de liefde als ze tot ontwikkeling komt, tot volle ontwikkeling<c type="kk">/</c> betere karakters van menschen levert dan de tegenovergestelde hartstogt Eerzucht &amp;C<hi rend="super">o</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Maar juist omdat de liefde zoo sterk is zijn wij in onze jeugd vooral (’k bedoel nu 17, 18, 20 jaar) meestal niet sterk genoeg om ons roer alsdan regt te houden.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">De hartstogten zijn de zeilen van ’t scheepje<c type="kk">/</c> ziet ge. En iemand die op zijn 20<hi rend="super">ste</hi> jaar zich geheel overgeeft aan zijn gevoel vangt te veel wind en zijn boot loopt vol water en ─ en hij vergaat of..... hij komt er toch weer boven op.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Integendeel iemand die t’zeil Eerzucht &amp; C<hi rend="super">o</hi> en geen ander ophijscht in zijn mast, zeilt door ’t leven regt door zee zonder ongelukken<c type="kk">/</c> zonder bokkesprongen totdat ─ totdat eindelijk ─ eindelijk er omstandigheden komen waarin hij merkt<c type="kk">/</c> ’k heb geen zeil genoeg ─ dan zegt hij<c type="kk">/</c> alles<c type="kk">/</c> alles wat ik heb zou ik geven willen voor één vierkante meter zeil meer en ’k heb het niet! Hij wordt wanhopig.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Ah! doch nu bezint hij zich dat hij nog andere kracht kan bij zetten ─ hij denkt aan dat tot heden verachte zeil liefde<c type="kk">/</c> ’t welk hij tot dusverre bij den ballast heeft geborgen<c type="kp">_</c> En dit zeil redt hem.─ Het zeil liefde moet hem redden<c type="kk">/</c> als hij dat niet bij zet dan komt hij er niet.</p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Het eerste geval<c type="kk">/</c> dat van den man wiens bootje omsloeg op zijn 20<hi rend="super">ste</hi> jaar of daaromtrent en verging nietwaar ─ of neen ─ toch weer onlangs in ’t vaarwater verscheen ─ is eigentlijk dat van Uw broer V. die U schrijft als een:</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.29" n="29">“who has been down but yet came up again”<c type="kp">_</c> </p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">Het tweede geval<c type="kk">/</c> dat van den man die zei “alles<c type="kk">/</c> alles wat ik heb voor één vierkante meter zeil meer” en hij had het niet ─ en toch en toch... hij heeft het! ─ dat is eigentlijk de positie van mijn broer Theo misschien.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Wat was dat voor liefde die ik op mijn 20<hi rend="super">ste</hi> jaar had.<ptr target="#note-t-7"/> Moeielijk te defineeren<c type="kk">/</c> mijn <hi rend="italics">physieke hartstogten</hi> waren zeer zwak alstoen<c type="kk">/</c> misschien door een paar jaar erge armoede en hard werk. Maar mijn intellectueele hartstogten waren sterk en ik bedoel daarmede dat ik er op uit was om zonder iets terug te vragen of genade te willen aannemen<c type="kk">/</c> ik alleen geven wilde doch niet ontvangen. </p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Onzinnig<c type="kk">/</c> verkeerd<c type="kk">/</c> overdreven<c type="kk">/</c> hooghartig<c type="kk">/</c> vermeten. Want in zake van liefde moet men niet alleen nemen doch ook geven, en andersom niet alleen geven doch ook nemen.</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Wie afwijkt ter regter of ter linker zijde<c type="kk">/</c><ptr target="#note-t-8"/> hij valt<c type="kk">/</c> daar is geen genade voor. Dus viel ik en ’t was een wonder dat ik er van boven op kwam.</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">’t Geen mij langzamerhand te regt bragt was meer dan iets anders het lezen van praktische boeken over ligchamelijke en zedelijke ziekte<c type="shy">-</c>toestanden. Ik leerde wat dieper inzien in mijn eigen hart en ook in dat van anderen. Ik begon de menschen langzamerhand weer lief te krijgen<c type="kk">/</c> mijzelven incluis<c type="kk">/</c> en hoe langer hoe meer kwam er opnieuw wat hart en wat geest in mij die voor een tijd door erge misere van allerlei aard om zoo te zeggen vernietigd en verdord en verwoest waren.</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.35" n="35">En hoe meer ik in ’t werkelijke leven terug kwam en met menschen omging<c type="kk">/</c> hoe meer er nieuw leven in mij ontwaakte tot dat eindelijk ik <hi rend="italics">haar</hi> tegenkwam.─</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Er staat geschreven<c type="kk">/</c> ge zult Uw naaste liefhebben als Uzelven.<ptr target="#note-t-9"/> Men kan afwijken ter regter of ter linkerhand en dat is al even erg.</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Mij dunkt<c type="kk">/</c> alles voor alles is ’t eigentlijke echte ware, dat is <hi rend="italics">datte</hi><c type="kk">/</c> en nu de beide extrêmes<c type="kk">/</c> 1<hi rend="super">o</hi> alles vragen zonder iets te geven. 2<hi rend="super">o</hi> niets vragen en alles geven.</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Twee radicaal ─ fataal ─ slechte dingen. allebei verdomd slecht.</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Natuurlijk zijn er zulken die ’t een of ’t ander dezer uitersten meer of minder aanprijzen<c type="kk">/</c> de eerste levert ons die leden der maatschappij welke men schobbejakken noemt<c type="kk">/</c> dieven &amp;c.<c type="kk">/</c> woekeraars &amp;c. b.v<c type="kp">_</c><c type="kk">/</c> de tweede levert ons jesuiten en phariseers<c type="kk">/</c> mannelijke en vrouwelijke<c type="kk">/</c> ook schobbejakken hoor!</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Als gij mij zegt “pas op dat ge dat neen nooit nimmer niet te lief krijgt” en ge bedoelt daarmede<c type="kk">/</c> pas op dat ge niet alles geeft en niets neemt<c type="kk">/</c> dan hebt ge daarin volkomen gelijk en als ge ’t tot mij zegt dan zeg ik dus daarop<c type="kk">/</c> vroeger heb ik eene dergelijke fout begaan. Ik zag af van een meisje &amp; ze trouwde met een ander en ik ging ver van haar weg en bleef haar toch in de gedachten houden. Fataal.─</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Maar door schade en schande wat wijzer geworden zeg ik nu: we zullen eens zien of we<c type="kk">/</c> wel verre van ons zoomaar te resigneeren<c type="kk">/</c> door krachtdadige geduldige energie niet tot een resultaat kunnen komen waar we wat meer pleizier van hebben zullen. We zullen al ons gezond verstand eens inspannen om dat nooit neen nimmer te ontdooien<c type="kp">_</c><ptr target="#note-t-10"/></p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Theo om U te bewijzen dat ik bedaard redeneeren kan al heb ik lief<c type="kk">/</c> zeg ik U ’t volgende.</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Indien zij en ik sentimenteel van aard waren en week van hart dan zouden we elkaar reeds genomen hebben en er later veel misere van inoogsten. veel armoede<c type="kk">/</c> honger<c type="kk">/</c> kou<c type="kk">/</c> ziekte onder anderen<c type="kk">/</c> maar ah toch deden we beter elkaar te nemen dan elkaar niet te nemen. </p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">Indien woeste hartstogt mij drong en zij daaraan toegaf zoo zou die hartstogt bekoelen en mijn lendemain de fête ware desolatie en de hare een gebroken hart.─</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Indien zij eene coquette ware en speelde met een mannenhart en de man zag haar coquetterie niet<c type="kk">/</c> die man ware een gek maar een sublieme gek<c type="kk">/</c> als een gek n.l. subliem zijn kan<c type="kk">/</c> ’t geen ik eigentlijk niet geloof. Indien ik haar naliep om bijoogmerken<c type="kk">/</c> geld b.v. of wellust<c type="kk">/</c> en dacht<c type="kk">/</c> zij kan mij niet ontsnappen om deze of die reden<c type="kk">/</c> zoo ware ik de verdomdste aller jesuiten en phariseërs (mag ik u “intusschen”<ptr target="#note-t-11"/> zeggen dat het zoo niet is tusschen haar en mij)<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Indien wij broertje en zustertje gingen spelen dan zouden we als kinderen handelen en dat ware hors de saison<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">Indien ik dacht dat de sleutel van de huisdeur ook past op ’t vrouwenhart dat in dat huis is en ’t van die huisdeur en deszelfs sleutel afhangt of dat vrouwenhart open of digt gaat<c type="kk">/</c> zoo zou ik banger zijn voor den WelEerw<c type="kp">_</c> ZeerGel<c type="kp">_</c> Heer J<c type="kp">_</c>P.S. dan in ’t onderhavige geval.─<ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.48" n="48">Indien zij nooit of nimmer mijne gevoelens van liefde beantwoordde zoo zou ik waarschijnlijk een oud vrijer worden.</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.nl.49" n="49">Indien ik zag dat zij een ander man liefhad zoo zou ik heengaan<c type="kk">/</c> verre weg<c type="kp">_</c> Indien ik zag dat zij een man nam die zij niet liefhad omdat hij rijk was zoo zou ik amende honorable doen voor mijne kortzigtigheid en ik zou zeggen<c type="kk">/</c> ik heb een sch<hi rend="super">ij</hi> van <hi rend="italics">Brochart</hi> aangezien voor een van Jules Goupil<c type="kk">/</c> een modeprent voor een figuur van Boughton<c type="kk">/</c> Millais of <hi rend="italics">Tissot</hi>.<ptr target="#note-t-13"/> Ben ik zoo kortzigtig als dat???<ptr target="#note-t-14"/> Mijn blik is toch gelijkerwijs den Uwen vrij vast en geoefend.</p>
+
+<p rend="indent" xml:id="p.nl.50" n="50">Doch indien zij en ik opstaan tot een nieuw leven met vernieuwde energie dan is de toekomst niet duister.</p>
+
+<p rend="indent" xml:id="p.nl.51" n="51">Wanneer zij met haar dameshand en ik met mijn teekenaarsknuist werken willen dan zal het dagelijks brood niet ontbreken<c type="kk">/</c> ook niet aan haar jongen.</p>
+
+<p rend="indent" xml:id="p.nl.52" n="52">Wanneer ik een slag om den arm gehouden had toen ik haar vroeg zou ze mij veracht hebben en nu veracht zij mij niet.─</p>
+
+<p rend="indent" xml:id="p.nl.53" n="53">Wanneer ik niet geloofde dat God wonderen kan doen en doet ook in dit ons dagelijksch leven<c type="kk">/</c> zoo zou haar neen nooit nimmer mij reeds wanhopig gemaakt hebben. Maar nu ik geloof in dergelijke wonderen en dergelijke wonderen verwacht en op den God die ze doet vertrouw en hem bid en me niet resigneer maar energiek handel<c type="kk">/</c> zoo zal God me genadig zijn en en ─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.54" n="54">’t neen nooit nimmer van Kee Vos
+zal ontdooien.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.55" n="55">Dat wonder zal ik zien en gij ook.─</p>
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>
+
+<p rend="indent" xml:id="p.nl.56" n="56">Als wij van vroegere vergissingen en fouten niet meer konden opstaan dan waren gij en ik verloren mannen. Omdat evenwel bij onze menschelijke natuur of bij God<c type="kk">/</c> noem ’t zoo als ge wilt<c type="kk">/</c> “genade is opdat hij gevreesd worde”<c type="kk">/</c><ptr target="#note-t-15"/> zoo is er redresse op menig verleden en<c type="kk">/</c> t’Is never too late to mend<c type="kk">/</c> never too soon either though.<ptr target="#note-t-16"/> </p>
+
+<p rend="indent" xml:id="p.nl.57" n="57">Ik moet blijven in de liefde van Kee Vos<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.58" n="58">Gij moet ook een zeil “zij en geen ander” bijzetten. En dan zal onze toekomst beter zijn dan ons verleden. Ziedaar gelukskind, misschien ben ik de eenige die Uw verleden niet heel goed vind en ’t tot u zelf zeg ─ en mijn aanmerking is “niet genoeg liefgehad”<c type="kk">/</c> hebben veel anderen U dat durven zeggen. Uw remedie als de mijne “Aimer encore! et plus vite que ça”<c type="kp">_</c> Een beetje verliefd zijn zelfs is<c type="kk">/</c> en daar hebt ge gelijk in als ge zoo zegt in uw brief, avoir quelque chose de bon au fond.</p>
+
+<p rend="indent" xml:id="p.nl.59" n="59">Doch beste broer<c type="kk">/</c> dat is volstrekt niet genoeg<c type="kp">_</c> Il faut que le fonds<ptr target="#note-t-a"/> soit bon<c type="kk">/</c><ptr target="#note-t-17"/> en dat is iets heel anders. Theo wanneer gij zeggen zult van harte “zij en geen ander” dan geloof ik dat ’t fondament goed is maar voor dien tijd zie ik alleen quelque chose de bon au fond.─</p>
+
+<p rend="indent" xml:id="p.nl.60" n="60">Nu evenwel is mijn derde velletje post haast vol, en ik heb U toch nog iets te vragen.─ Kerel ik moet haar aangezigt eens weerzien en haar eens spreken en ’t nooit neen nimmer eens gaan peilen. Als ik ’t niet spoedig doe dan gebeurt er op ’t groote feest<ptr target="#note-t-18"/> misschien iets dat mij veel kwaad zou kunnen doen. 
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>Vraag me niet om bepaald te defineeren wat. Waart ge zelf verliefd ge zoudt het begrijpen<c type="kk">/</c> omdat ge zelf niet verliefd zijt zou ik ’t U niet aan ’t verstand kunnen brengen.</p>
+
+<p rend="indent" xml:id="p.nl.61" n="61">Nu heb ik<c type="kk">/</c> Theo, noodig een reisgeldje naar Amsterdam. Zelfs als ik maar een klein reisgeldje heb dan ga ik.─ Pa en Moe hebben mij beloofd zich hier niet tegen te verzetten mits ’t maar als ’t ware buiten hen omgaat.─</p>
+
+<p rend="indent" xml:id="p.nl.62" n="62">Dat kan ik me eenigzins begrijpen in de gegevenen. Als gij, broer, mij een reisgeldje wilt sturen dan zal ik voor U nog heel wat teekeningen maken van ’t Heike en weet ik wat meer<c type="kp">_</c> En ze zouden er niet slechter op worden als ’t nooit neen nimmer begon te ontdooien<c type="kp">_</c> Want ’t beste middel voor dessiner encore is ook al Aimer encore. </p>
+
+<p rend="indent" xml:id="p.nl.63" n="63">Zoudt gij mij aan het reisgeldje kunnen helpen kerel. Als ’t maar 20 francs is dan zal ik er misschien van Pa nog wel 10 bij krijgen (“als ’t ware buiten hem om; oogluikend”) <hi>et alors je décampe plus vite que ça<c type="kp">_</c> as-tu compris mon cher!</hi> Crois moi toujours</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.64" n="64">t. à. t.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Etten, 12 November 1881</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">One phrase in your letter of 6 Nov. is worth a special reply.</p>
+<p rend="indent" xml:id="p.en.4" n="4">You say: in the present situation I shouldn’t give up hope if I were you, but let the affair rest completely for the people who have nothing to do with it. That course of action, it seems to me,<ptr target="#note-t-1"/> ‘will then surprise several people who are now interfering a great deal and will disarm them, as it were’. If, more than once before this, I hadn’t already found this tactic to be one of the best weapons, you would have told me something new. Now, though, I can only say, yes, that much I knew, but now, after that, what else do you know? Because you mustn’t forget that there are situations in which remaining defensive isn’t always enough. Especially not when the opposition’s battle-plan is based on the somewhat rash assumption that waiting defensively is probably the most I can do. If you, Theo, were in love and felt the same kind of love as I do, and why, old chap, would you feel any other kind? – then you would discover something completely new in yourself. The likes of you and I, who mostly associate with men and pursue business<ptr target="#note-t-2"/> interests of one kind or another, you in a big way and I in a small way, well, we’re used to doing what we do with our heads – with a certain discretion, with a certain shrewd calculation – but just fall in love, and lo and behold you’ll discover to your amazement that there’s another power that urges us to action, namely feeling.</p>
+<p rend="indent" xml:id="p.en.5" n="5">We’re sometimes inclined to mock it a little... but all the same it’s a mistake to think that the man is mistaken who says, especially in matters of love: I don’t go to my head to ask my duty, in this case I go to my heart.<ptr target="#note-t-3"/> He who shrugs his shoulders or shakes his head at this, I wish him happiness with his shoulder-shrugging and head-shaking, but I don’t let him upset me, and I doubt if he knows what love is. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Now I don’t really believe that you would wish me to view either my <rs type="person" ref="bio.xml#_526 bio.xml#_524">parents</rs> or <hi rend="italics">her</hi> <rs type="person" ref="bio.xml#_317 bio.xml#_318">parents</rs> as people ‘who have nothing to do with it’ etc. On the contrary, I refuse to think that it would be unnecessary to talk to them occasionally about this and that.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Especially when their inclination is neither positive nor negative, as is actually the case now, meaning not doing anything plainly for or against it.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Which is an attitude that, I fear, will cause them much dissatisfaction and indecisiveness and a kind of heartache (something between remorse and no remorse), certainly giving no satisfaction. How they can stand this I cannot comprehend (it’s like something neither cold nor hot, and that has something miserable about it). They have a kind of chronic anguish of spirit<ptr target="#note-t-4"/> that never comes to a crisis. They cannot come to a crisis, nor to deliverance. They put water in their wine and wine in their water.</p>
+<p rend="indent" xml:id="p.en.9" n="9">They take a step forwards, but, fearful of the consequences, they retreat; they take a step backwards, but then, too, something gnaws at them. There’s something fatal about that as well. They trust and they distrust. What to do? Be half-hearted! How pathetic you make a person! It’s a difficult position for me, for I can say nothing but Onward!</p>
+<p rend="indent" xml:id="p.en.10" n="10">If I myself were undecided, hesitant, vacillating, I could accept <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs>’s attitude. Now, though, things are completely different. This love of mine has made me choose sides, and I feel energy, new wholesome energy in me, as anyone experiences who truly loves. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">If <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> were unenergetic by nature, I’d resign myself to it, but if they wanted to, we could do a great deal that now cannot be done, and that’s why I can’t reconcile myself to it by any means.</p>
+<p rend="indent" xml:id="p.en.12" n="12">In short, it’s a peculiar difficulty, and to the best of my ability I’ll make the most of the existing situation anyway. Will <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs> never make up their minds! Will they remain neither hot nor cold for ever and ever! If I ask them, you’re in favour of it, aren’t you? Then they say neither yes nor no, and guard against committing themselves. If I say, but no, you’re against it! Then they say: how could you think such a thing of us!</p>
+<p rend="indent" xml:id="p.en.13" n="13">My dear Theo, may I ask you if in fact you aren’t almost of the same mind as <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs>, whose feelings I tried to define in the above lines? And if this should be your frame of mind, though I hope I’m mistaken about this, then I’d just like to say to you: Friend, I believe that you don’t love a girl and... yet... think of love......... If you were to have a positive outcome... then – then – you would truly know how strange an attitude of neither for nor against is, and why someone who’s in love has this advantage over you (if indeed you don’t love), that he can see inside you but you can’t see inside him.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Do you know why it is, Theo, that <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> are neither for nor against, neither hot nor cold, neither satisfied nor dissatisfied? This is why, because they know what love is, but through some mental obscurement or other can’t recall it and – and – and – something is sleeping in them that must awaken. I’d like it to awaken fairly soon, it’s been idling for so long already. It’s as though they’ve taken quite a large dose of laudanum,<ptr target="#note-t-5"/> they’re awake on the outside but the actual spirit is sleeping SOUNDLY.—.—.— 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> Oh how much precious time this is possibly wasting! But no, I don’t want to think like that. Naturally I’d wish that Pa and Ma see ardency of spirit, positively <hi rend="italics">for</hi> it!</p>
+<p rend="indent" xml:id="p.en.15" n="15">But if I don’t see this – will my love be cooled by a couple of buckets of cold water? No, that won’t affect it one way or the other.</p>
+<p rend="indent" xml:id="p.en.16" n="16">If you would rather that I count you among the people ‘who have nothing to do with it and for whom I should let the matter rest completely’, then I’d nevertheless talk about it occasionally against your will and, you see, that’s what it’s like now with <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> and <rs type="person" ref="bio.xml#_317 bio.xml#_318">Uncle and Aunt Stricker</rs>, exactly the same.</p>
+<p rend="indent" xml:id="p.en.17" n="17">And to <hi rend="italics"><rs type="person" ref="bio.xml#_776">her</rs></hi>??? Yes..... Can one love like I love and... in vain??? I mean... no... — God forbid.</p>
+<p rend="indent" xml:id="p.en.18" n="18">As far as <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> are concerned, I think they’d much rather that I didn’t talk to them about it, and yet I speak of it now and then against their will. Why?... to see if something is awakening. What?... The awareness that there is love, thank God, and that we, old or young, must feel its warmth and see its light. When I told Pa about it this summer – he interrupted me with an anecdote about someone who had eaten too much and another who had eaten too little, completely out of place, and it was an anecdote with neither head nor tail, which made me think, not without a shudder, is Pa in a muddle?</p>
+<p rend="indent" xml:id="p.en.19" n="19">This was perhaps from nervousness, because he hadn’t expected it – and yet it was before his very eyes, as it were, that she and I had spent days and weeks walking and talking with each other. Are those eyes of <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> all-seeing in their present frame of mind? I think not. The man whom the sight of true, serious love leaves neither hot nor cold has either been stunned in some way or he isn’t worth the leather his shoes are made of, in my opinion. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">So what I want to say, brother, is neither more nor less than that I firmly believe that a man, no matter who he be, is unaware of something very special, a great, hidden power, hidden deep inside him, until sooner or later he’s awakened by a meeting with someone of whom he says ‘she and no other’.<ptr target="#note-t-6"/> And also that I think that someone like you who doesn’t yet say, she and no other, does well to be on the <hi rend="italics">qui vive</hi> for things that can sometimes paralyze, either completely or partially, the aforementioned great, hidden power before it awakens. Have you never done anything that could have a rather fatal influence on the development of that power that one calls love?</p>
+<p rend="indent" xml:id="p.en.21" n="21">In my opinion, to some extent. How? I’ll tell you to the best of my ability. Thinking you had to do it, you have perhaps fuelled the ambition in yourself a bit too much, and it’s become a passion in you like a fire. More tender feelings have suffered from it. That’s your case. How do I know this? Do I have grounds for my assertion? Or am I tilting at windmills? How can one know whether or not someone has ambition? (I mean ambition that’s like a fire.) One can tell from two things, first when one catches the patient suffering from the illness. Second when one notices the lack of love, or contentment with love that is wholly deficient. Please don’t get all too angry now, but count to 10 or 20 or 30, slowly and calmly, if I make it sound too bad. But if I didn’t tell you what I have to tell you, who would? It’s bad enough to tell someone: you don’t love, or you’re contented with insufficient love. But to hold one’s tongue when one has something practical to say about it is possibly a great deal worse. At any rate, I’ll now venture to continue. If a man doesn’t have less avarice and ambition than love there’s something wrong with that man, in my opinion. If a man has only love and isn’t able to earn any money, there’s also something the matter with him. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Ambition and avarice is a partnership <hi rend="italics">inside us</hi>, very hostile to Love. Those two powers are in all of us, in seed or bud, from the beginning. Later in life they usually develop in unequal proportion, in one love, in the other ambition and avarice. But now we, you and I, at our present ages, can to some extent do something ourselves one way or another to keep the things inside us in order.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I maintain that love, if it develops, fully develops, produces people of better character than the opposing passion Ambition &amp; Co.</p>
+<p rend="indent" xml:id="p.en.24" n="24">But precisely because love is so strong, we are, especially in our youth (I mean now, 17, 18, 20 years old), usually not strong enough to maintain a straight course.</p>
+<p rend="indent" xml:id="p.en.25" n="25">The passions are the ship’s sails, you see. And someone of 20 who gives himself over completely to his feelings catches too much wind and his boat fills with water and – and he founders or..... he surfaces again.</p>
+<p rend="indent" xml:id="p.en.26" n="26">On the other hand, someone who hoists the sail of Ambition &amp; Co. and none other, sails through life on a straight course without mishap, without rocking the boat until – until at last – at last circumstances arise in which he notices, I don’t have enough sail – then he says, I would give everything, everything I have, for one more square metre of sail and I don’t have it! He despairs.</p>
+<p rend="indent" xml:id="p.en.27" n="27">Oh! But now he realizes that he can bring other powers to bear – he thinks about the sail of love, scorned until today, which until now he has stowed with the ballast. And this sail saves him. The sail of love must save him, if he doesn’t hoist it he won’t make it. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">The first case, that of the man whose little boat capsized in his 20th year or thereabouts and perished, did it not? – or no – surfaced again recently – is actually that of your brother V. who writes to you as one:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">‘who has been down but yet came up again’.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.30" n="30">The second case, that of the man who said ‘everything, everything I have for one more square metre of sail’ and he didn’t have it – and yet and yet... he has it! – that’s actually the position of my brother Theo perhaps.</p>
+<p rend="indent" xml:id="p.en.31" n="31">What kind of love did I have in my 20th year?<ptr target="#note-t-7"/> Difficult to define, my <hi rend="italics">physical passions</hi> were very weak then, perhaps owing to a couple of years of dreadful poverty and hard work. But my intellectual passions were strong, and by that I mean that I was determined, without asking anything in return or accepting any favours, only to give but not to receive.</p>
+<p rend="indent" xml:id="p.en.32" n="32">Absurd, wrong, exaggerated, haughty, arrogant. For in matters of love one mustn’t only take but also give, and conversely, not only give but also take.</p>
+<p rend="indent" xml:id="p.en.33" n="33">He who turns aside to the right hand or to the left<ptr target="#note-t-8"/> falls, there is no mercy for him. So I fell, and it was a miracle that I found my footing again.</p>
+<p rend="indent" xml:id="p.en.34" n="34">What gradually set me to rights, more than anything, was reading practical books about physical and moral diseases. I learned to look more deeply into my own heart and also into that of others. Gradually I began to love people again, myself included, and with each passing day I regained a little heart and spirit which for a time had been destroyed and withered and devastated, so to speak, by all manner of great misery. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">And the more I returned to real life and was among people, the more new life awoke in me until finally I met <hi rend="italics">her</hi>.</p>
+<p rend="indent" xml:id="p.en.36" n="36">It is written, thou shalt love thy neighbour as thyself.<ptr target="#note-t-9"/> One can turn aside to the right or to the left, and that’s just as bad.</p>
+<p rend="indent" xml:id="p.en.37" n="37">It seems to me, exchanging everything for everything is the real, true thing, that’s <hi rend="italics">it</hi>, and now both extremes, first asking everything without giving anything, second asking nothing and giving everything.</p>
+<p rend="indent" xml:id="p.en.38" n="38">Two wholly – fatal – bad things. Both damned bad.</p>
+<p rend="indent" xml:id="p.en.39" n="39">Naturally there are those who praise one or other of these extremes to a greater or lesser extent, the first supplies us with those members of society one calls scoundrels, thieves &amp;c., usurers &amp;c., for instance, the second supplies us with Jesuits and Pharisees, male and female, scoundrels all of them!</p>
+<p rend="indent" xml:id="p.en.40" n="40">If you tell me to ‘take care not to become too fond of that no, nay, never’ and by that you mean, take care not to give everything and take nothing, then you’re perfectly right about that, and if you tell me that then I’ll say in return that I once made such a mistake. I gave up on a girl and she married someone else, and I went far away from her and kept her in my thoughts anyway. Fatal.</p>
+<p rend="indent" xml:id="p.en.41" n="41">But, having become a little wiser after learning the hard way, I now say: we’ll just see whether, far from merely resigning ourselves, we can’t achieve, by means of tireless, patient energy, an outcome that will give us a deal more pleasure. We’ll use all of our common sense to thaw that no, nay, never.<ptr target="#note-t-10"/> 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.42" n="42">Theo, to prove to you that I can reason calmly, even though I love, I’ll tell you the following.</p>
+<p rend="indent" xml:id="p.en.43" n="43">If she and I were of a sentimental nature and weak of heart, then we’d have taken each other already and reaped much misery from it later. Much poverty, hunger, cold, sickness, among other things, but oh we’d nonetheless have done better to take each other than not to take each other.</p>
+<p rend="indent" xml:id="p.en.44" n="44">If wild passion urged me on and she gave in to it, then that passion would cool and my morning-after would be desolation and hers a broken heart.</p>
+<p rend="indent" xml:id="p.en.45" n="45">If she were a coquette and played with a man’s heart and the man didn’t see her coquetry, that man would be a fool but a sublime fool, if a fool can in fact be sublime, which I don’t really believe. If I ran after her with ulterior motives, money, for example, or lust, and thought, she can’t escape me for this or that reason, I would be the damnedest of all Jesuits and Pharisees (may I ‘meanwhile’<ptr target="#note-t-11"/> tell you that it isn’t like that between her and me).</p>
+<p rend="indent" xml:id="p.en.46" n="46">If we were to play at being brother and sister we’d be acting like children, and that would be out of place.</p>
+<p rend="indent" xml:id="p.en.47" n="47">If I thought that the key to the front door also unlocked the heart of the woman who’s in that house, and that whether or not that woman’s heart opened or closed depended on that front door and that same key, then I’d be more fearful of the <rs type="person" ref="bio.xml#_318">Rev. Dr J.P.S.</rs> than is now the case.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.48" n="48">If she were never, ever to respond to my feelings of love, then I would probably become an old bachelor. 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.49" n="49">If I saw that she loved another man I would go away, far away. If I saw that she took a man she didn’t love because he was rich, I would admit I was wrong and ask forgiveness for my short-sightedness, and I would say, I’ve taken a painting by <hi rend="italics"><rs type="person" ref="bio.xml#_889">Brochart</rs></hi> for one by <rs type="person" ref="bio.xml#_1050">Jules Goupil</rs>, a fashion plate for a figure by <rs type="person" ref="bio.xml#_878">Boughton</rs>, <rs type="person" ref="bio.xml#_1227">Millais</rs> or <hi rend="italics"><rs type="person" ref="bio.xml#_1394">Tissot</rs></hi>.<ptr target="#note-t-13"/> Am I as short-sighted as that???<ptr target="#note-t-14"/> Surely my eye is, like yours, fairly steady and practised.</p>
+<p rend="indent" xml:id="p.en.50" n="50">But if she and I stand up to a new life with renewed energy, then the future is not dark.</p>
+<p rend="indent" xml:id="p.en.51" n="51">If she with her lady’s hand and I with my draughtsman’s fist are willing to work, we won’t be short of our daily bread, nor will her boy.</p>
+<p rend="indent" xml:id="p.en.52" n="52">If I hadn’t been whole-hearted when proposing to her, she’d have despised me, and now she doesn’t despise me.</p>
+<p rend="indent" xml:id="p.en.53" n="53">If I didn’t believe that God can and does work miracles in this our daily life, her no, nay, never would already have made me desperate. But now that I believe in such miracles and expect such miracles and trust in and pray to the God that works them and don’t resign myself but act forcefully, God will have mercy on me and and –</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.54" n="54"><rs type="person" ref="bio.xml#_776">Kee Vos</rs>’s no, nay, never will thaw.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.55" n="55">I’ll see that miracle, and you will too. 
+<pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/></p>
+<p rend="indent" xml:id="p.en.56" n="56">If we could no longer rise above earlier mistakes and faults, then you and I would be lost men. Because, however, either in our human nature or in God, call it what you will, there is ‘mercy, that he may be feared’,<ptr target="#note-t-15"/> so there is redress of many a past and, ’tis never too late to mend, never too soon either, though.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.57" n="57">I must remain in the love of <rs type="person" ref="bio.xml#_776">Kee Vos</rs>.</p>
+<p rend="indent" xml:id="p.en.58" n="58">You must also hoist a ‘she and no other’ sail. And then our future will be better than our past. Look, you lucky dog, maybe I’m the only one who doesn’t find your past so very good and tells you so – and my criticism is ‘hasn’t loved enough’, have many others dared say that to you? Your remedy, like mine, ‘Love on! And no time to lose’. Even being a little in love is — and you’re right about this — as you say in your letter, having something good at bottom.</p>
+<p rend="indent" xml:id="p.en.59" n="59">But, dear brother, that’s wholly inadequate. The bottom must be good,<ptr target="#note-t-17"/> and that’s something completely different. Theo, when you’ll say a heartfelt ‘she and no other’, then I believe that the foundation is good, but before that time I see only something good at bottom.</p>
+<p rend="indent" xml:id="p.en.60" n="60">Now, though, my third sheet of paper is nearly full, and I still have something to ask you. Old chap, I must see her face again and speak to her and plumb the depths of the no, nay, never. If I don’t do it soon, something might happen at the big celebration<ptr target="#note-t-18"/> that could do me much harm. 
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/> Don’t ask me to be more specific. If you were in love yourself, you would understand, but because you’re not in love yourself I wouldn’t be able to explain it to you.</p>
+<p rend="indent" xml:id="p.en.61" n="61">Theo, I do need money to travel to Amsterdam. Even if I have only a bit of travelling money, I’ll go. <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs> have promised not to oppose it, provided it has nothing to do with them, as it were.</p>
+<p rend="indent" xml:id="p.en.62" n="62">I rather understand that in the circumstances. If you, brother, would care to send me some travelling money, I’ll make you a great many drawings of Het Heike and lots of other places. And they wouldn’t be any the worse if the no, nay, never began to thaw. Because the best means to go on drawing is to go on loving.</p>
+<p rend="indent" xml:id="p.en.63" n="63">Would you be able to help me out with the travelling expenses, old chap? Even if it’s only 20 francs, perhaps I’ll get another 10 from <rs type="person" ref="bio.xml#_526">Pa</rs> (‘leaving him out of it, as it were; turning a blind eye’) <hi>and then i’ll clear off with no time to lose. do you understand, my dear fellow!</hi> Believe me always</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.64" n="64">Ever yours.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed ‘Etten 12 November 1881’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh’s love for Kee Vos <ref target="let179.xml">(179)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This ‘me’ refers to Theo.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Meaning: business affair, transaction (not ‘love affair’).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Possibly a quotation; the phrase also occurs in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let184.xml">letter 184</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+  Exod. 6:8 (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">KJ</hi> Exod. 6:9).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Tincture of opium, a sleep-inducing pain-killer.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+  
+<p>Taken from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_707">Michelet</rs>’s <ref target="biblio.xml#lit_11"><hi rend="italics">L’amour</hi></ref>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let180.xml#n-5">see letter 180, n. 5.</ref> The phrase ‘Love on’, later in the letter, is from Michelet’s <ref target="biblio.xml#lit_12"><hi rend="italics">La femme</hi></ref>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let180.xml#n-2">see letter 180, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Presumably Van Gogh is speaking of his earlier infatuation with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_761">Caroline Haanebeek</rs>, who eventually married <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_760">Willem van Stockum</rs> (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let182.xml#n-15">letter 182, n. 15</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Biblical; see, for instance, Num. 20:17 and Deut. 5:32.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  Mark 12:31.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh wanted to go on writing here: after the word ‘ontdooien’ (thaw, which comes at the end of the Dutch sentence), he wrote the word ‘en’ (and), but stopped writing and started a new sentence on another sheet of paper.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Ironical reference to a remark made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_318">Uncle Stricker</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let180.xml">see letter 180</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For this metaphorical comparison, see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let182.xml">letter 182</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This example is repeated in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let187.xml">letter 187</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Van Gogh later added ‘Am I as short-sighted as that???’</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+  Ps. 130:4 (Van Gogh wrote ‘genade’ (mercy) instead of ‘vergeving’ (forgiveness).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+  
+<p>The English proverb goes ‘It’s never too late to mend’; the rest was added by Van Gogh. Cf. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1746">Charles Reade</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_433">“It is never too late to mend.” A matter of fact romance</ref></hi>. 2 vols. Leipzig 1856 (Collection of British authors, vol. 374).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Lees ‘fond’ (bottom).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>This is repeated in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let187.xml">letters 187</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let189.xml">189</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>The 40th anniversary of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_317 bio.xml#_318">the Strickers</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_776">Kee</rs>’s parents; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let179.xml#n-7">see letter 179, n. 7.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

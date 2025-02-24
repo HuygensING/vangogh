@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Thursday, 21 June 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let629"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b542 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>629</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>501</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>631</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-06-21">Thursday, 21 June 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0542" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000727_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000727_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000727_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0542" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000727_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000727_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000727_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">je viens de lire l’article sur Claude Monet de Geffroy<c type="kp">_</c><ptr target="#note-t-1"/> C’est vraiment très bien ce qu’il dit. Que je voudrais voir cette exposition<c type="kp">_</c> Si je m’en console de ne pas la voir c’est qu’en regardant autour de moi il y a bien des chôses dans la nature qui ne me laissent guère le temps de penser à autre chôse<c type="kp">_</c> Car c’est juste le moment de la moisson.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai eu une lettre de Bernard qui dit qu’il se sent bien isolé mais qui travaille tout de même – et a encore fait une nouvelle poésie sur lui-même dans laquelle il se blague d’une façon assez touchante<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Et il demande: “à quoi bon travailler”? Seulement il demande cela lui <hi rend="italics">en travaillant</hi><c type="kk">/</c> il se dit que le travail ne sert absolument à rien <hi rend="italics">en</hi> <hi rend="italics">travaillant</hi> – ce qui n’est pas du tout la même chôse que de le dire en ne travaillant pas. Je voudrais bien voir ce qu’il fait<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je suis curieux de savoir ce que fera Gauguin et si Bernard n’ira pas le rejoindre à Pont Aven; je leur ai donné les adresses de part et d’autre déjà auparavant parceque ils pourraient avoir besoin l’un de l’autre<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai eu une semaine d’un travail serré et raide dans les blés en plein soleil<c type="kk">/</c> il en est resulté des études de blés<c type="kk">/</c> paysages<ptr target="#note-t-3"/> et – une esquisse de semeur<c type="kp">_</c>– Sur un champ labouré<c type="kk">/</c> un grand champ de mottes de terre viollettes – montant vers l’horizon – un semeur en bleu et blanc. à l’horizon un champ de blé mûr court.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Sur tout cela un ciel jaune avec un soleil jaune.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Tu sens à la simple nomenclature des tonalités – que <hi rend="italics">la couleur</hi> joue dans cette composition un rôle très-important.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Aussi l’esquisse telle quelle – toile de 25 – me tourmente-t-elle beaucoup dans ce sens que je me demande s’il ne faudrait pas la prendre au sérieux et en faire un terrible tableau<c type="kp">_</c> Mon dieu comme j’en aurais envie. Mais c’est que je me demande si j’aurai la force d’exécution nécessaire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Telle quelle je mets l’esquisse de côté n’osant presque pas y penser.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Cela a déjà depuis si longtemps été mon désir de faire un semeur<ptr target="#note-t-5"/> mais les désirs que j’ai depuis longtemps ne s’accomplissent pas toujours. J’en ai donc presque peur<c type="kp">_</c> Et pourtant après Millet et Lhermitte ce qui reste à faire c’est... le semeur<c type="kk">/</c> avec de la couleur et en grand format<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Parlons d’autre chose. j’ai enfin un modèle – un Zouave – c’est un garçon à petite figure<c type="kk">/</c> à cou de taureau<c type="kk">/</c> à l’oeil de tigre<c type="kk">/</c> et j’ai commencé par un portrait et recommencé par un autre. 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>le buste que j’ai peint de lui était horriblement dur.<ptr target="#note-t-7"/> en uniforme du bleu des casseroles emaillées bleues<c type="kk">/</c> à passementerie d’un rouge orangé fané avec deux étoiles citron sur la poitrine<c type="kk">/</c> un bleu commun et bien dur à faire<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">La tête feline très bronzée coiffée d’un bonnet garance<c type="kk">/</c> je l’ai plaquée contre une porte peinte en vert et les briques orangées d’un mur. C’est donc une combinaison brutale de tons disparates pas commode à mener – l’étude que j’en ai fabriquée me parait très dure et pourtant je voudrais toujours travailler à des portraits vulgaires et même criards comme cela. Cela m’apprend et voilà ce que je demande surtout à mon travail<c type="kp">_</c> Maintenant le deuxième portrait sera assis; en pied contre mur blanc<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">As tu remarqué <hi rend="italics">Dessins Raffaëlli</hi> – <hi>La rue</hi> edité par le Figaro dernièrement. le principal on dirait la place Clichy avec tout son mouvement<c type="kk">/</c> c’est bien vivant.<ptr target="#note-t-9"/> Figaro doit aussi avoir publié un numero avec dessins Caran d’Ache<c type="kp">_</c><ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Dans la dernière lettre j’ai oublié de te dire que j’ai reçu – et cela maintenant depuis une quinzaine – l’envoi de couleurs de Tasset<c type="kp">_</c> J’aurais bien besoin d’un nouvel envoi puisque pour ces études des blés et de zouaves j’ai mangé pas mal de tubes. Seulement <hi rend="italics">un tiers</hi> ou <hi rend="italics">la moitié</hi> est pressé<c type="kp">_</c><ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Parmi les études des blés il y a les meules<c type="kk">/</c> dont je t’ai envoyé la première idée<c type="kk">/</c> sur une toile carrée de 30<c type="kp">_</c><ptr target="#note-t-12"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Nous avons de ces deux derniers jours une pluie torrentielle qui dure toute la journée et changera l’aspect des champs<c type="kp">_</c> Cela est venu d’une façon absolument inattendue et brusque. pendant que tout le monde était à la moisson<c type="kp">_</c> On a rentré le blé tel quel en grande partie.<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">J’espère faire un tour dans la Camargue vendredi prochain avec un vétérinaire<c type="kk">/</c><ptr target="#note-t-14"/> là il y a des taureaux et des chevaux blancs presque sauvages<c type="kk">/</c> des flamants roses aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je ne serais pas étonné du tout si c’etait très beau.</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">La toile n’est pas pressée absolument non plus<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Je suis bien curieux de ce que fera Gauguin mais pour oser <hi rend="italics">l’engager</hi> à venir – non – car je ne sais plus si cela lui irait. Et peutêtre – vu sa grande famille c’est plutôt de son devoir de risquer en effet des grands coups pour gagner de quoi se remettre à la tête de sa famille.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Je ne voudrais pas diminuer une personalité par une association en tout cas et si lui se sent l’envie de tenter ce coup en question il peut avoir des raisons et je ne voudrais pas l’en detourner si en effet il y tiendrait<c type="kp">_</c> Ce qui reste à voir et ce que peutêtre paraîtra dans sa réponse.–</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">A bientôt j’espère. Poignée de main et merci du journal et bien du succès avec ton exposition.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.24" n="24">b<c type="kp">_</c> à. t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.25" n="25">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.26" n="26">Qu’est ce que fait le père Tanguy<c type="kk">/</c> est-ce que tu l’as revu dernièrement<c type="kp">_</c> celà m’est toujours bon de lui demander de la couleur<c type="kk">/</c> même si chez lui elle soit un tant soit peu plus mauvaise <hi rend="italics">pourvu pourtant qu’il ne soit pas trop cher</hi><c type="kp">_</c><ptr target="#note-t-15"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I’ve just read <rs type="person" ref="bio.xml#_616">Geffroy</rs>’s article on <rs type="person" ref="bio.xml#_1222">Claude Monet</rs>.<ptr target="#note-t-1"/> What he says is really very good. How I’d love to see that exhibition! If I console myself for not seeing it, it’s because when I look around me there are many things in nature that hardly leave me time to think about anything else. Because it’s harvest time just now.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I had a letter from <rs type="person" ref="bio.xml#_831">Bernard</rs>, who says he feels very isolated but works all the same — and has written a new poem about himself in which he makes fun of himself in a rather touching way.</p>
+<p rend="indent" xml:id="p.en.4" n="4">And he asks: ‘what’s the use of working’? But he asks that <hi rend="italics">while working</hi>; he tells himself that work’s of no use whatsoever, <hi rend="italics">while working</hi> — which is not at all the same thing as saying it while not working. I’d very much like to see what he’s doing.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m curious to know what <rs type="person" ref="bio.xml#_1039">Gauguin</rs> will do, and if <rs type="person" ref="bio.xml#_831">Bernard</rs> won’t go to join him in Pont-Aven; I already gave each of them the other’s address a while ago, because they could need one another.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I’ve had a week of concentrated hard work in the wheatfields right out in the sun, the result was some studies of wheatfields, landscapes<ptr target="#note-t-3"/> and — a sketch of a sower. In a ploughed field, a large field of clods of purple earth — rising towards the horizon — a sower in blue and white. On the horizon a field of short, ripe wheat. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Above all that a yellow sky with a yellow sun.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">You can sense from the mere nomenclature of the tonalities — that <hi rend="italics">colour </hi>plays a very important role in this composition.</p>
+<p rend="indent" xml:id="p.en.9" n="9">And the sketch as such — a no. 25 canvas — also worries me a lot, in the sense that I wonder whether I shouldn’t take it seriously and make a tremendous painting out of it. My God, how I’d love to do that. But I just wonder whether I’ll have the necessary power of execution.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I’m putting the sketch aside just as it is, hardly daring to think about it.</p>
+<p rend="indent" xml:id="p.en.11" n="11">For such a long time it’s been my great desire to do a sower,<ptr target="#note-t-5"/> but the desires I’ve had for a long time aren’t always achieved. So I’m almost afraid of them. And yet, after <rs type="person" ref="bio.xml#_1226">Millet</rs> and <rs type="person" ref="bio.xml#_1179">Lhermitte</rs> what remains to be done is... the sower, with colour and in a large format.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Let’s talk about something else. I have a model at last — a Zouave — he’s a lad with a small face, the neck of a bull, the eye of a tiger, and I started doing one portrait and started again on another. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> The bust-length I painted of him was terribly hard.<ptr target="#note-t-7"/> In a uniform the blue of blue enamel saucepans, with dull orange-red trimmings and two lemon-yellow stars on his chest, a common blue and very hard to do.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’ve stuck his very tanned, feline head, wearing a bright red cap, in front of a door painted green and the orange bricks of a wall. So it’s a coarse combination of disparate tones that isn’t easy to handle — the study I did of it seems very hard to me, and yet I’d always like to work on portraits that are vulgar, even garish like that one. It teaches me, and that’s what I ask of my work above all. And now the second portrait will be seated; full length, against a white wall.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Did you notice <hi rend="italics">Dessins <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> —</hi> <hi>La rue</hi>, published recently by Le Figaro? The main one’s just like place Clichy, with all its bustle, it’s really alive.<ptr target="#note-t-9"/> Figaro must also have published an issue with drawings by <rs type="person" ref="bio.xml#_929">Caran d’Ache</rs>.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.15" n="15"> In my last letter I forgot to tell you that I received — a fortnight ago now — the consignment of colours from <rs type="person" ref="bio.xml#_785">Tasset</rs>. I’m badly in need of a new consignment because for these studies of wheatfields and Zouaves I’ve eaten up plenty of tubes. Only <hi rend="italics">a third </hi>or <hi rend="italics">half </hi>is urgent.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">Among the studies of wheatfields there’s the wheat stacks, for which I’ve sent you the first idea, on a square no. 30 canvas.<ptr target="#note-t-12"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">The past two days we’ve had torrential rain that lasts all day and will change the appearance of the fields. It came absolutely unexpectedly and suddenly, while everyone was out harvesting. They got most of the wheat in just as it was.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">I’m hoping to do a tour in the Camargue next Friday, with a vet,<ptr target="#note-t-14"/> there are bulls and almost wild white horses there, pink flamingos too. </p>
+<p rend="indent" xml:id="p.en.19" n="19">I wouldn’t be at all surprised if it was very beautiful.</p>
+<p rend="indent" xml:id="p.en.20" n="20">The canvas isn’t at all urgent either.</p>
+<p rend="indent" xml:id="p.en.21" n="21">I’m very curious to know what <rs type="person" ref="bio.xml#_1039">Gauguin</rs> will do, but to dare to <hi rend="italics">urge </hi>him to come — no — because I’m no longer sure if that would sit well with him. And perhaps — given his large family it’s more his duty in fact to risk some big affairs in order to earn the money to put him at the head of his family again.</p>
+<p rend="indent" xml:id="p.en.22" n="22">I should in any case not like to diminish an individual through an association, and if he feels the desire to try this affair in question he may have his reasons and I wouldn’t like to deflect him from it if in fact he were to be keen on it. Which remains to be seen and which will perhaps emerge from his reply.</p>
+<p rend="indent" xml:id="p.en.23" n="23">More soon, I hope. Handshake, and thanks for the newspaper, and great success with your exhibition.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">Yours truly,</p>
+<p xml:id="p.en.25" n="25">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">What’s <hi rend="italics">père</hi> <rs type="person" ref="bio.xml#_772">Tanguy</rs> doing, have you seen him recently? It’s still fine by me to ask him for paint, even if his isn’t quite as good, <hi rend="italics">but only as long as it’s not too expensive.</hi><ptr target="#note-t-15"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh writes ‘The past two days we’ve had torrential rain that lasts all day’ <ref target="#l-95">(ll. 95-97)</ref>. Since the rain started on Wednesday, 20 June, we – like Pickvance – think that this observation must have been made on the second rainy day, in other words on Thursday, 21 June 1888.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Dorn suggests that Van Gogh is looking back on the <hi rend="italics">third</hi> day at the two previous days, but because the rain continued we believe that Van Gogh would then have written of <hi rend="italics">three</hi> days of rain. See exhib. cat. New York 1984, p. 94 and Dorn 1998, p. 25. The rainy weather went on for six days (<hi rend="italics">Météo France</hi>).</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed an order for paint and canvas, as we can deduce from the words ‘I’m badly in need of a new consignment ... Only <hi rend="italics">a third</hi> or <hi rend="italics">half</hi> is urgent’ <ref target="#l-87">(ll. 87-91)</ref> and ‘The canvas isn’t at all urgent either’ <ref target="#l-108">(l. 108)</ref>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s Monet exhibition <ref target="let625.xml">(625)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_616">Gustave Geffroy</rs>, ‘Dix tableaux de Claude Monet’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Justice</hi> 9 (17 June 1888), no. 3077, pp. 1-2. It emerges from a letter the art critic Gustave Geffroy wrote to Theo on 29 May 1888 that he was planning an article on Van Gogh, for which he evidently wanted to use quotations from the letters to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>: ‘In few days’ time, I should be grateful if you would come to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_772">Tanguy</rs>’s with me, so that I can finish looking at your brother-in-law’s [read: brother’s] work and making my notes. Thank Mr Bernard, please, for the extracts from the letters, which will be returned to him faithfully’ (Dans quelques jours, je vous demanderai de bien vouloir venir avec moi chez Tanguy, où j’achèverai de voir l’oeuvre de votre beau-frère et de prendre mes notes. Remerciez M. Bernard, je vous prie, pour les extraits de lettres, qui lui seront rendues fidèlement) (FR b1199).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> went to Pont-Aven in August: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let664.xml#n-2">see letter 664, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh says that he had been working in the wheatfields for a week. Given that it started raining on 20 June (see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Date</hi>) he must have begun around 14 June, in other words after finishing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>). He had already told Theo about that painting at length (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let623.xml">see letters 623</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">625</ref>). The studies of wheatfields he refers to here are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with setting sun </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2647">F 465 / JH 1473</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2649">F 411 / JH 1476</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arles seen from the wheatfields </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2650">F 545 / JH 1477</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with sheaves</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2651">F 561 / JH 1480</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with sheaves</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2652">F 558 / JH 1481</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2623">F 425 / JH 1442</rs>), which is not a wheatfield, but which Van Gogh includes later in the letter among the ‘studies of wheatfields’. He had painted <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2648">F 564 / JH 1475</rs>) previously as a preparatory study for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let623.xml#n-10">see letter 623, n. 10.</ref></p>
+
+<p rend="indent">
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks with reaper</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_719">F 559 / JH 1479</rs>) was previously regarded as one of the Arles works, but is now placed in the Auvers period. See exhib. cat. Bremen 2002, p. 140, cat. no. 48.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sower with setting sun </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2646">F 422 / JH 1470</rs>). Van Gogh describes the painting at an earlier stage; he worked on it again soon afterwards (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let634.xml">see letter 634</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The subject of the sower had already occupied Van Gogh when he was in the Netherlands. See exhib. cat. Paris 1998, pp. 90-105, for an overview.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+      
+<p>Van Gogh is referring here to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The sower</hi>, which he had repeatedly copied from prints in his early years as an artist, and to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1179">Léon Augustin Lhermitte</rs>’s drawing of the same title, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_218">Le semeur</rs></hi> (The sower), which he knew from an engraving in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-3">See letters 156, n. 3</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let545.xml#n-8">545, n. 8</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Zouave</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2655">F 423 / JH 1486</rs>). A Zouave was a French infantryman trained to serve in Africa. The sitter’s uniform tells us that he was a soldier and trumpeter in the third regiment. See cat. Amsterdam 2007, p. 132.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Seated Zouave </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2657">F 424 / JH 1488</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>‘La rue par Jean-François Raffaëlli’, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1279">Raffaëlli</rs> illustrations lithographed by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1787">S. Krakow</rs>, accompany an article by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1786">Félicien Champsaur</rs> about Paris street life, published in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Figaro. Supplement Litteraire</hi> 14 (3 March 1888), no. 9, pp. 1-4. There are 26 drawings altogether; by <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Place Clichy</hi> Van Gogh must have meant the large illustration at the top of p. 2. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1231">Ill. 1231</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1234">Ill. 1234</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2283">Ill. 2283</rs>, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2284">Ill. 2284</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_929">Caran d’Ache</rs>’s contribution was ‘Le Grand Prix dans l’antiquité’, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Figaro. Supplément Littéraire</hi> 14 (9 June 1888), no. 23, pp. 89-91.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Van Gogh had enclosed a paint order for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let613.xml">letter 613</ref>. He had split it in two, and in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let617.xml">letter 617</ref> he reported that he had received part of it. The consignment Van Gogh says here he received two weeks ago – in other words on or about 8 June – was probably the second part of that order. It can be inferred from the end of the paragraph and the reference to ‘the canvas’ in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-108">l. 108</ref> that he had sent another order with this letter.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Vincent had sent the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2622">F 1425 / JH 1441</rs>) to Theo (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">letter 625</ref>). This was ‘the first idea’ for the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2623">F 425 / JH 1442</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Homme de Bronze</hi> reported on this in the ‘Chronique locale’ of 24 June and 8 July 1888 (quoted in exhib. cat. New York 1984, p. 261).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>There were three vets in Arles in 1888: Arnaud, 14 rampe du Pont; Autheman, Casimir, 5 place du Forum; and Raynaud, 8 rue de la Cavalerie (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’indicateur marseillais </hi>1888). This was probably Antoine Raynaud, who was a military vet working in the stud farm attached to the barracks. Van Gogh would most likely have made his acquaintance through Second Lieutenant <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_515">Milliet</rs> or the Zouave who was sitting for him at this time. The plan to visit the Camargue did not go ahead (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let636.xml">see letter 636</ref>); cf. however also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let657.xml">letter 657</ref>, where he writes of a trip around various farms.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>See cat. Amsterdam 2011 for the difference in prices at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_772">Tanguy</rs>’s and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs>’s.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Saturday, 3 June 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let235"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b227 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>235</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>205</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>235</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-06-03">Saturday, 3 June 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0227" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000268_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000268_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000268_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0227" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000268_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000268_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000268_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Heden, Zaturdag, zend ik aan U af die twee teekeningen</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.3" n="3">Scharrendroogerij in de duinen<c type="kk">/</c> Scheveningen<ptr target="#note-t-1"/></p>
+
+<p xml:id="p.nl.4" n="4">Timmermansloods &amp; Wasscherij (uit het venster van mijn atelier).<ptr target="#note-t-2"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.5" n="5">Ik heb dezer dagen zoo veel aan U gedacht &amp; ook wel eens aan dien tijd lang geleden<c type="kk">/</c> toen zooals ge U herrinnert gij mij eens te s’Hage bezocht hebt<c type="kk">/</c> wij zamen langs den Rijswijkschen Trekweg<ptr target="#note-t-3"/> wandelden en melk dronken aan dien molen. Het kan wel zijn dat dit mij wat geinfluenceerd heeft bij het maken van deze teekeningen waarin ik zoo naïf mogelijk getracht heb de dingen te teekenen precies zóó als ik ze onder t’oog had. In die dagen van den molen<c type="kk">/</c> hoe sympathiek mij dien tijd ook steeds blijve<c type="kk">/</c> zou ’t mij echter onmogelijk geweest zijn datgene wat ik zag &amp; gevoelde op ’t papier te brengen. Ik zeg dus dat de veranderingen welke de tijd te weeg brengt eigentlijk in den grond mijn gevoel niet veranderen doch alleen ik meen zulks ontwikkeld wordt in een anderen vorm. Mijn leven en misschien après tout het Uwe ook is niet meer zoo zonnig als toen doch ik wil toch niet terug omdat juist door wat moeite &amp; tegenspoed ik iets goeds zie opdokken<c type="kk">/</c> n.l. het uitdrukken van dat gevoel.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Rappard was met eene dergelijke teekening welke C.M<c type="kp">_</c> heeft<c type="kk">/</c><ptr target="#note-t-4"/> ingenomen en bovendien met al de anderen welke C.M. heeft. Vooral met de grootste van het hofje.<ptr target="#note-t-5"/> En hij is iemand die begrijpt wat ik wil en de moeielijkheid er van apprecieert.
+Ik denk dat Gij Rappard veel veranderd zoudt vinden sedert zijn eerste zijn in Parijs toen gij hem kendet.<ptr target="#note-t-6"/> </p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik heb voor mij liggen een deel Household edition met illustraties, van Dickens. Die illustraties zijn fameus en geteekend door Barnard en Fildes<c type="kp">_</c><ptr target="#note-t-7"/> Daar komen in voor brokken Oud London<ptr target="#note-t-8"/> die ook door de eigenaardige houtgravure een heel ander aspect nog hebben dan b.v. de timmermansloods. Doch ik geloof toch dat de weg om later ook dat nog stoutere en brutale te krijgen is<c type="kk">/</c> nu stilletjes door te gaan met zoo trouw mogelijk te observeeren. Zoo als ge ziet zijn er al verscheiden plans op deze teekening en kan men er in rondkijken en doorkijken in allerlei hoeken en gaten. Het rugueuse ontbreekt er nog aan<c type="kk">/</c> althans ’t heeft op verre niet die kwaliteit in de mate van bovengenoemde teekeningen maar dat komt al doende<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik heb berigt van C.M. in den vorm van een postwissel van f<c type="kp">_</c> 20 doch zonder een woord er bij. Of hij mij op nieuw iets bestelt<c type="kk">/</c> of hij de teekeningen naar zijn zin vindt weet ik dus voorloopig nog volstrekt niet. Alleen in vergelijking van den prijs voor de vorigen betaald<c type="kk">/</c> f<c type="kp">_</c> 30<c type="kk">/</c><ptr target="#note-t-9"/> en in aanmerking nemende dat deze laatste zending (de eerste waren 12 kleine<c type="kk">/</c> deze: 1 kleine<c type="kk">/</c> 4 zoo als de bijgaanden<c type="kk">/</c> 2 grooten (7 stuks dus)) toch belangrijker was dan de eerste<c type="kk">/</c> komt het mij voor dat ZEd. niet met ’t beste beentje uit bed gestapt was toen hij ze ontving of om de een of andere reden ze hem tegenvielen. Ik wil gaarne gewonnen geven dat voor een oog dat uitsluitend aan aquarellen gewoon is<c type="kk">/</c> teekeningen waarin met de pen gekrast is en lichten weer uitgekrabt of er met dekverf weer opgezet<c type="kk">/</c> iets bars mogen hebben. Doch er zijn ook menschen die<c type="kk">/</c> even als ’t soms aangenaam en opwekkend is voor een gezond gestel eens een wandeling te doen als ’t hard waait<c type="kk">/</c> er zijn ook liefhebbers<c type="kk">/</c> zeg ik<c type="kk">/</c> die voor dat barre niet bang zijn.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Weissenbruch b.v. zou deze twee teekeningen niet onaangenaam of vervelend vinden.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">In de gegevenen<c type="kk">/</c> mogt ik weten dat C.M. liever geen nieuwen ontvangt<c type="kk">/</c> ik wil of kan ze ZEd<c type="kp">_</c> natuurlijk niet opdringen maar ik hoop dat gij b.v. bij gelegenheid van Uw komst het eens zult kunnen te weten komen hoe het eigentlijk staat.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Natuurlijk zijn ook ofschoon ik zoo gedacht had dat hij mij voor deze zending niet f<c type="kp">_</c> 10 minder dan voor de vorige zou gegeven hebben<c type="kk">/</c> ook f<c type="kp">_</c> 20 mij goed<c type="kk">/</c> te meer omdat ik den prijs aan ZEd<c type="kp">_</c> heb overgelaten<c type="kp">_</c> En is het dat hij goed vindt ik aan een nieuw 6 of 12 tal begin<c type="kk">/</c> wil ik zulks wel degelijk doen omdat ik geene gelegenheid wil laten voorbijgaan om iets te verkoopen. Ik wil gaarne mijn best doen het ZEd<c type="kp">_</c> naar den zin te maken want ik denk<c type="kk">/</c> als ik er maar mijn huur uithaal en er wat makkelijker door rondkom is het de moeite waard. Alleen ZEd. zelf had er van gesproken voor meer uitvoerige teekeningen niet wat minder doch wat meer te geven. En dat ik er over spreek is après tout vooral om te weten wat te doen omtrent eene nog te volgen of niet te volgen nieuwe bestelling. Het kan ook nog wezen ZEd. mij zelf nog later er over schrijven zal.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik zal U dezer dagen<c type="kk">/</c> als ik tijd heb vandaag<c type="kk">/</c> eens een kort lijstje sturen van waar mijn verzameling houtgravures uit bestaat. Ik geloof zoo zeker dat gij er pleizier in zult hebben. Is het dat ik dezen winter minder onkosten heb gemaakt dan anderen in <hi rend="italics">verf</hi><c type="kk">/</c> ik heb <hi rend="italics">meer</hi> onkosten gehad in betrekking tot de studie van de perspectief &amp; proportie voor een instrument waarvan de beschrijving voorkomt in een werk van Albert Durer en waarvan ook de oude Hollanders zich bedienden<c type="kp">_</c><ptr target="#note-t-10"/> Hetwelk ’t mogelijk maakt de proportie van digtbijstaande voorwerpen te vergelijken met die op een verder verwijderd plan<c type="kk">/</c> in gevallen waar de constructie volgens de regels der perspectief niet uitvoerbaar is<c type="kp">_</c> Hetgeen wanneer men ’t <hi rend="italics">op ’t oog</hi> doet – tenzij bij zeer ervarenen &amp; geoefenden – steeds de plank mis is.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Dat ding te maken is mij niet in eens gelukt doch eindelijk toch wel na veel zoeken met behulp van den timmerman &amp; den smid. En ik zie kans met nog meer zoeken nog veel betere resultaten te krijgen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Het zou mij hoogst aangenaam zijn als er in Uwe garderobe misschien nog een jas &amp; pantalon was die geschikt ware voor mij &amp; niet meer door U gedragen werd.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Want ik werk er vooral op om als ik iets koop het zoo praktisch mogelijk te hebben voor werken in de duinen of binnenshuis doch mijn kleeren om mee uit te gaan worden wel wat kaal. En ofschoon ik mij niet schaam om in een ordinair pak op straat te gaan als ik uit werken ga zoo schaam ik mij wel degelijk voor heerenkleeren die een air krijgen van een heer aan lager wal geraakt. Mijn dagelijksche kleeren zijn echter geenszins slordig juist omdat ik nu Sien heb om er de hand aan te houden &amp; kleine mankementen te verhelpen.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ik eindig dit schrijven met U nog eens te zeggen dat het zoo zeer mijn wensch is dat de familie in mijn betrekking tot Sien niet datgene zal zien waar volstrekt geen kwestie van is<c type="kk">/</c> n.l. eene intrigue. Hetwelk mij onuitsprekelijk tegen de borst zou stuiten en de kloof maar grooter maken. Hetgeen ik hoop is dat men niet met een zekere voorbarige wijsheid er zich in mengen zal om te verhinderen ik met haar zij. Ik bedoel met soortgelijke als die van Pa toen hij mij te Gheel<ptr target="#note-t-11"/> wilde caseeren. Speculeeren op erfenissen waarvan gij met een woord spraakt is reeds daarom alleen buiten kwestie omdat er geen erfenissen voor mij zijn waarvan ik weet<c type="kk">/</c> ook niet kunnen zijn dunkt mij want er is niets. ’thuis is er mijns inziens letterlijk <hi rend="italics">geen</hi> geld. De eenige persoon van wie in heel andere omstandigheden ik misschien iets had kunnen erven omdat ik zijn naamgenoot ben, Oom Cent, is iemand met wien ik gedurende vele jaren bepaald in onmin geweest ben om reden van veel dingen en wel derwijze dat het in den aard der zaak ligt dat zulks niet geredresseerd kan worden op de wijs als was ik zijn protegé omdat ik zelf dat zeker niet zou willen en hij er ook natuurlijk niet in ’t minst meer aan denkt ook al hoop ik dat even als verl. jaar bij eventueele ontmoeting met ZEd<c type="kp">_</c> wij geen publieke standjes maken zullen. En nu met een handdruk</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.17" n="17">t. à t.</p>
+
+<p xml:id="p.nl.18" n="18">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+    
+<p xml:id="p.nl.19" n="19"><hi rend="italics">Houtsneden</hi><ptr target="#note-t-12"/></p>
+
+<p xml:id="p.nl.20" n="20">1 portef<hi rend="super">le</hi> Iersche volkstypen<c type="kk">/</c> mijnwerkers<c type="kk">/</c> fabrieken<c type="kk">/</c> visschers &amp;c. kleine penschetsen voor ’t meerendeel.<ptr target="#note-t-13"/></p>
+
+<p xml:id="p.nl.21" n="21">1 ,, Landschappen &amp; dieren<c type="kk">/</c> Bodmer<c type="kk">/</c><ptr target="#note-t-14"/> Giacomelli<c type="kk">/</c><ptr target="#note-t-15"/> Lancon<c type="kk">/</c><ptr target="#note-t-16"/></p>
+
+<p xml:id="p.nl.22" n="22">verder bepaalde landschappen</p>
+
+<p xml:id="p.nl.23" n="23">1 ,, Travaux des champs v<c type="kp">_</c> Millet<c type="kk">/</c><ptr target="#note-t-17"/> verder Breton<c type="kk">/</c><ptr target="#note-t-18"/> Feyen Perrin<ptr target="#note-t-19"/> en Engelsche bladen van Herkomer<c type="kk">/</c><ptr target="#note-t-20"/> Boughton<c type="kk">/</c><ptr target="#note-t-21"/> Clausen<ptr target="#note-t-22"/> &amp;c.</p>
+
+<p xml:id="p.nl.24" n="24">1 ,, Lancon</p>
+
+<p xml:id="p.nl.25" n="25">1 ,, Gavarni<c type="kk">/</c><ptr target="#note-t-23"/> aangevuld door lithographiën doch geen zeldzame</p>
+
+<p xml:id="p.nl.26" n="26">1 ,, Ed. Morin<ptr target="#note-t-24"/></p>
+
+<p xml:id="p.nl.27" n="27">1 ,, G. Doré<ptr target="#note-t-25"/></p>
+
+<p xml:id="p.nl.28" n="28">1 ,, Dumaurier<c type="kk">/</c> zeer talrijk.<ptr target="#note-t-26"/> }</p>
+
+<p xml:id="p.nl.29" n="29">1 ,, Ch<hi rend="super">s</hi> Keene<ptr target="#note-t-27"/> &amp; Sambourne<ptr target="#note-t-28"/>    } teekenaars v<c type="kp">_</c> Punch.</p>
+
+<p xml:id="p.nl.30" n="30">1 ,, J. Teniel<c type="kk">/</c><ptr target="#note-t-29"/> aangevuld door the Beaconsfield cartoons.<ptr target="#note-t-30"/> }</p>
+
+<p xml:id="p.nl.31" n="31">Hieraan ontbreekt John Leech<ptr target="#note-t-31"/> doch deze lacune is makkelijk te verhelpen daar er een herdruk van zijn houtsneden is te krijgen die niet duur is<c type="kp">_</c><ptr target="#note-t-32"/></p>
+
+<p xml:id="p.nl.32" n="32">1 ,, Barnard<ptr target="#note-t-33"/></p>
+
+<p xml:id="p.nl.33" n="33">1 ,, Fildes<ptr target="#note-t-34"/> &amp; Charles Green<ptr target="#note-t-35"/> &amp;c.</p>
+
+<p xml:id="p.nl.34" n="34">1 ,, kleine fransche houtgravures<c type="kk">/</c> Album Boetzel<ptr target="#note-t-36"/> &amp;c.</p>
+
+<p xml:id="p.nl.35" n="35">1 ,, Scenes aan boord v<c type="kp">_</c> Engelsche schepen &amp; militaire schetsen.</p>
+
+<p xml:id="p.nl.36" n="36">1 ,, <hi rend="italics">Heads of the people</hi> door Herkomer<c type="kk">/</c><ptr target="#note-t-37"/> aangevuld door teekeningen van anderen &amp; door portretten</p>
+
+<p xml:id="p.nl.37" n="37">1 ,, Scènes uit het Londonsche volksleven vanaf de opium rookers<ptr target="#note-t-38"/> en White Chapel &amp; The seven dials<ptr target="#note-t-39"/> tot de meest elegante dames figuren en Rotten Row<ptr target="#note-t-40"/> of Westminster Park. Hier bijgevoegd zijnde correspondeerende scènes uit Parijs &amp; New York is het geheel een curieuse “Tale of those cities”<c type="kp">_</c><ptr target="#note-t-41"/></p>
+
+<p xml:id="p.nl.38" n="38">1 portef<hi rend="super">le</hi> De groote bladen van Graphic<c type="kk">/</c> London News<c type="kk">/</c> Harpers Weekly<c type="kk">/</c> Ilustration &amp;c. waaronder Frank Holl,<ptr target="#note-t-42"/> Herkomer<c type="kk">/</c> Fred Walker<c type="kk">/</c><ptr target="#note-t-43"/> P. Renouard<c type="kk">/</c><ptr target="#note-t-44"/> Menzel,<ptr target="#note-t-45"/> Howard Pyle.<ptr target="#note-t-46"/> 1 portef<hi rend="super">le</hi> The graphic portfolio<ptr target="#note-t-47"/> zijnde aparte uitgaaf van afdrukken niet van de clichés doch de blokken zelf van eenige houtsneden<c type="kk">/</c> waaronder de Homeless &amp; hungry van Fildes.<ptr target="#note-t-48"/></p>
+
+<p xml:id="p.nl.39" n="39">Eenige geillustreerde boeken waaronder Dickens en de Fred. de Groote v<c type="kp">_</c> Menzel<c type="kk">/</c> kleine uitgaaf.<ptr target="#note-t-49"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Today, Saturday, I’m sending you the two drawings</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">Fish-drying barn in the dunes, Scheveningen<ptr target="#note-t-1"/></p>
+<p xml:id="p.en.4" n="4">Carpenter’s yard and laundry (from the window of my studio).<ptr target="#note-t-2"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">I’ve thought of you so often these past few days, and also occasionally about the time long ago when, as you will remember, you visited me in The Hague and we walked along Trekweg<ptr target="#note-t-3"/> to Rijswijk and drank milk at the mill there. It may be that this influenced me somewhat when I did these drawings, in which I have tried as naїvely as possible to draw things exactly as I saw them. At the time of the mill, however dear those days still are to me, it would have been impossible for me to put what I saw and felt on paper. So what I’m saying is that the changes brought about by time have not fundamentally altered my feelings; it’s just that I believe they have taken a different form. My life, and yours too perhaps, after all, is no longer as sunny as it was then, but I still wouldn’t want to go back, because it’s precisely through some trouble and adversity that I see something good emerging, namely the expression of those feelings. </p>
+<p rend="indent" xml:id="p.en.6" n="6"><rs type="person" ref="bio.xml#_1306">Rappard</rs> was pleased with a similar drawing which <rs type="person" ref="bio.xml#_422">C.M.</rs> has,<ptr target="#note-t-4"/> and moreover with all the others C.M. has. Especially with the largest of the almshouse.<ptr target="#note-t-5"/> And he is someone who understands what I want and appreciates how difficult it is. I believe you would find Rappard much changed since his first time in Paris when you knew him.<ptr target="#note-t-6"/> </p>
+<p rend="indent" xml:id="p.en.7" n="7">I have in front of me a volume of the Household edition of <rs type="person" ref="bio.xml#_580">Dickens</rs>, with illustrations. They are excellent and are drawn by <rs type="person" ref="bio.xml#_210">Barnard</rs> and <rs type="person" ref="bio.xml#_1026">Fildes</rs>.<ptr target="#note-t-7"/> They show parts of Old London,<ptr target="#note-t-8"/> which take on a very different appearance from the carpenter’s yard, for example, also because of the peculiarities of the wood engraving. Yet I still believe that the way to get that boldness and daring later is to quietly carry on observing as faithfully as possible now. As you see, there are several planes in this drawing, and one can look around in it and peer into all sorts of nooks and crannies. It lacks that ruggedness as yet, at least doesn’t by any means have that quality to the same extent as the above illustrations, but that will come with practice. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.8" n="8">I have heard from <rs type="person" ref="bio.xml#_422">C.M.</rs> in the form of a postal order for 20 guilders but without a single word to go with it. So for the time being I haven’t the slightest idea whether he wants to order something new from me or whether the drawings are to his taste. But comparing it with the price paid for the previous ones, 30 guilders,<ptr target="#note-t-9"/> and bearing in mind that this last batch (the first contained 12 small ones; this had 1 small one, 4 like the enclosed and 2 large ones – i.e. 7 items in all) was more substantial than the first, it seems to me that His Hon. had got out of the wrong side of the bed the day he received them, or that they failed to please for some reason or another. I readily admit that, to an eye used only to watercolours, drawings which have been scratched by pen or had lights scraped off or put back on in body-colour may seem a little harsh. But there are also people who, just as it is sometimes pleasant and invigorating for a healthy constitution to go for a walk when a strong wind is blowing, so there are also art lovers, I say, who aren’t afraid of the harsh.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Weissenbruch, for example, wouldn’t find these two drawings disagreeable or dull.</p>
+<p rend="indent" xml:id="p.en.10" n="10">In the circumstances, should I learn that <rs type="person" ref="bio.xml#_422">C.M.</rs> would rather not have any more, of course I cannot and will not force them on His Hon., but I hope that, for example when you come, you will be able to find out how things really stand. </p>
+<p rend="indent" xml:id="p.en.11" n="11">Naturally, although I hadn’t expected him to give me 10 guilders less for this batch than for the previous one, I agree with the 20 guilders, all the more so because I left it to His Hon. to fix the price. And if he wants me to start on another 6 or 12, I’m ready to do that because I don’t want to miss any opportunity to sell something. I really want to do my best to accommodate His Hon., because I think that it’s worth the effort as long as I get my rent out of it and can make ends meet more easily. It’s just that His Hon. himself talked about giving more, not less, for more detailed drawings. I only raise the matter, after all, mainly to know what to do as regards a new order that is or is not to follow. It may also be that His Hon. will write to me himself later. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> </p>
+<p rend="indent" xml:id="p.en.12" n="12">In a few days, or today if I have time, I’ll send you a brief list of what is in my collection of wood engravings. I’m so sure you will take pleasure in them. While I spent less on <hi rend="italics">paint</hi> this winter than others did, I had <hi rend="italics">more</hi> expenses in connection with the study of perspective and proportion for an instrument described in a work by <rs type="person" ref="bio.xml#_990">Albrecht Dürer</rs> and used by the Dutchmen of old.<ptr target="#note-t-10"/> It makes it possible to compare the proportions of objects close at hand with those on a plane further away, in cases where construction according to the rules of perspective isn’t feasible. Which, if you do it <hi rend="italics">by eye</hi>, will always come out wrong, unless you’re very experienced and skilled.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I didn’t manage to make the thing the first time around, but I succeeded in the end after trying for a long time with the aid of the carpenter and the smith. And I think that with more work I can get much better results still.</p>
+<p rend="indent" xml:id="p.en.14" n="14">It would please me greatly if perhaps in your wardrobe there was a jacket and trousers suitable for me which you no longer wear. </p>
+<p rend="indent" xml:id="p.en.15" n="15">Because if I buy something I like it to be as practical as possible for working in the dunes or indoors, but my clothes for going out are getting rather threadbare. And while I am not ashamed to be seen in the streets in a cheap suit when I go out to work, I am decidedly ashamed by gentleman’s clothes that give the impression of a gentleman down on his luck. My everyday clothes, however, aren’t at all shoddy, because now I have <rs type="person" ref="bio.xml#_463">Sien</rs> to keep check of them and make minor repairs. </p>
+<p rend="indent" xml:id="p.en.16" n="16">I end this letter by saying to you again that I so dearly wish that the family should not view my relationship with <rs type="person" ref="bio.xml#_463">Sien</rs> as something of which there isn’t the slightest question, namely an intrigue. Which I would find unspeakably offensive and would only widen the gulf. What I hope is that they don’t interfere, with some ill-timed wisdom, to prevent me from being with her. I mean of the same sort as when <rs type="person" ref="bio.xml#_526">Pa</rs> wanted to pack me off to Geel.<ptr target="#note-t-11"/> The speculating about inheritances that you mention is quite out of the question, if only because there are no inheritances for me as far as I know, and indeed there cannot be for there is nothing. I believe there is literally <hi rend="italics">no</hi> money at home. The only person from whom, in very different circumstances, I might perhaps have inherited something because I share his name, <rs type="person" ref="bio.xml#_423">Uncle Cent</rs>, is someone with whom I have been on bad terms for many years on account of numerous things, and in such a manner that by the nature of the matter it cannot be resolved as if I were his protégé, because I myself certainly wouldn’t want that, and of course he hasn’t the slightest thought of any such thing any more, although I hope that, just like last year, if I meet His Hon. we shall not make a public scene. And now with a handshake</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">Ever yours,</p>
+<p xml:id="p.en.18" n="18">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p xml:id="p.en.20" n="20">Woodcuts<ptr target="#note-t-12"/></p>
+<p xml:id="p.en.21" n="21">1 portfolio Irish characters, miners, factories, fishermen &amp;c. for the most part small pen sketches.<ptr target="#note-t-13"/></p>
+<p xml:id="p.en.22" n="22">1 ,, Landscapes and animals, <rs type="person" ref="bio.xml#_867">Bodmer</rs>,<ptr target="#note-t-14"/> <rs type="person" ref="bio.xml#_1045">Giacomelli</rs>,<ptr target="#note-t-15"/> <rs type="person" ref="bio.xml#_1146">Lançon</rs>,<ptr target="#note-t-16"/> also some landscapes</p>
+<p xml:id="p.en.23" n="23">1 ,, Labours of the fields by <rs type="person" ref="bio.xml#_1226">Millet</rs>,<ptr target="#note-t-17"/> also <rs type="person" ref="bio.xml#_899 bio.xml#_905">Breton</rs>,<ptr target="#note-t-18"/> <rs type="person" ref="bio.xml#_1022">Feyen-Perrin</rs><ptr target="#note-t-19"/> and English prints by <rs type="person" ref="bio.xml#_1080">Herkomer</rs>,<ptr target="#note-t-20"/> <rs type="person" ref="bio.xml#_878">Boughton</rs>,<ptr target="#note-t-21"/> <rs type="person" ref="bio.xml#_948">Clausen</rs><ptr target="#note-t-22"/> &amp;c.</p>
+<p xml:id="p.en.24" n="24">1 ,, Lançon</p>
+<p xml:id="p.en.25" n="25">1 ,, <rs type="person" ref="bio.xml#_1043">Gavarni</rs>,<ptr target="#note-t-23"/> supplemented with lithographs, but no rare ones</p>
+<p xml:id="p.en.26" n="26">1 ,, <rs type="person" ref="bio.xml#_1236">Ed. Morin</rs><ptr target="#note-t-24"/></p>
+<p xml:id="p.en.27" n="27">1 ,, <rs type="person" ref="bio.xml#_998">G. Doré</rs><ptr target="#note-t-25"/></p>
+<p xml:id="p.en.28" n="28">1 ,, <rs type="person" ref="bio.xml#_1197">Du Maurier</rs>, very numerous.<ptr target="#note-t-26"/> }</p>
+<p xml:id="p.en.29" n="29">1 ,, <rs type="person" ref="bio.xml#_1137">Chs Keene</rs><ptr target="#note-t-27"/> and <rs type="person" ref="bio.xml#_1345">Sambourne</rs><ptr target="#note-t-28"/> } illustrators for Punch.</p>
+<p xml:id="p.en.30" n="30">1 ,, <rs type="person" ref="bio.xml#_1378">J. Tenniel</rs>,<ptr target="#note-t-29"/> supplemented with the Beaconsfield cartoons.<ptr target="#note-t-30"/> }</p>
+<p xml:id="p.en.31" n="31">Missing here is <rs type="person" ref="bio.xml#_1159">John Leech</rs>,<ptr target="#note-t-31"/> but this gap can easily be filled because there’s a reprint of his woodcuts that isn’t expensive.<ptr target="#note-t-32"/></p>
+<p xml:id="p.en.32" n="32">1 ,, <rs type="person" ref="bio.xml#_210">Barnard</rs><ptr target="#note-t-33"/></p>
+<p xml:id="p.en.33" n="33">1 ,, <rs type="person" ref="bio.xml#_1026">Fildes</rs><ptr target="#note-t-34"/> and <rs type="person" ref="bio.xml#_1058">Charles Green</rs><ptr target="#note-t-35"/> &amp;c.</p>
+<p xml:id="p.en.34" n="34">1 ,, small French wood engravings, Album <rs type="person" ref="bio.xml#_866">Boetzel</rs><ptr target="#note-t-36"/> &amp;c.</p>
+<p xml:id="p.en.35" n="35">1 ,, Scenes on board English ships and military sketches.</p>
+<p xml:id="p.en.36" n="36">1 ,, <hi rend="italics">Heads of the people</hi> by <rs type="person" ref="bio.xml#_1080">Herkomer</rs>,<ptr target="#note-t-37"/> supplemented with drawings by others and by portraits</p>
+<p xml:id="p.en.37" n="37">1 ,, Scenes from everyday London life, from the opium smokers<ptr target="#note-t-38"/> and Whitechapel and The Seven Dials<ptr target="#note-t-39"/> to the most elegant ladies and Rotten Row<ptr target="#note-t-40"/> or Westminster Park. Together with corresponding scenes from Paris and New York, the whole forms a curious ‘Tale of those cities’.<ptr target="#note-t-41"/></p>
+<p xml:id="p.en.38" n="38">1 portfolio. The large prints from The Graphic, London News, Harper’s Weekly, L’Illustration &amp;c. including <rs type="person" ref="bio.xml#_1089">Frank Holl</rs>,<ptr target="#note-t-42"/> Herkomer, <rs type="person" ref="bio.xml#_1428">Fred Walker</rs>,<ptr target="#note-t-43"/> <rs type="person" ref="bio.xml#_1292">P. Renouard</rs>,<ptr target="#note-t-44"/> <rs type="person" ref="bio.xml#_1214">Menzel</rs>,<ptr target="#note-t-45"/> <rs type="person" ref="bio.xml#_1285">Howard Pyle</rs>.<ptr target="#note-t-46"/></p>
+<p xml:id="p.en.39" n="39">1 portfolio. The Graphic portfolio,<ptr target="#note-t-47"/> being a separate publication of impressions of several woodcuts, not from the printing plates but the blocks themselves, among them the Homeless and hungry by <rs type="person" ref="bio.xml#_1026">Fildes</rs>.<ptr target="#note-t-48"/></p>
+<p xml:id="p.en.40" n="40">Several illustrated books, including <rs type="person" ref="bio.xml#_580">Dickens</rs> and the Frederick the Great by Menzel, small edition.<ptr target="#note-t-49"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh says he is writing on ‘Saturday’. The letter is later than <ref target="let234.xml">letter 234</ref> of 1 and 2 June 1882, in which he indicates that he is still working on the two drawings that he sent with the present letter. Given that he was admitted to hospital on 7 June and that the letter dates from before his admission, it must have been written on Saturday, 3 June 1882. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Second order for drawings from Uncle Cor <ref target="let214.xml">(214)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">First order for drawings from Uncle Cor <ref target="let210.xml">(210)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s visit <ref target="let231.xml">(231)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fish-drying barn</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2377">F 940 / JH 154</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo was probably sent <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Carpenter’s yard and laundry</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2376">F 944 / JH 153</rs>) (which ended up in the Enthoven collection in The Hague, which means that it must have been sold later, but no details about this are known); however, perhaps there was a <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">third</hi>, unknown drawing of the same subject. The drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Carpenter’s yard and laundry</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2375">F 939 / JH 150</rs>), done with pencil, pen and brush and heightened with white, went to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs>; Van Gogh wrote that he had worked on it <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">with the</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">pen</hi>; see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-4">n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+      
+<p>Van Gogh mentions this location more than once; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let011.xml">see letter 11</ref>. The Rijkswijk meadows can be seen in the background of the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Carpenter’s yard and laundry</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Carpenter’s yard and laundry</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2375">F 939 / JH 150</rs>). It is stated in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let231.xml">letters 231</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let232.xml">232</ref> that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> admired both drawings. </p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sien’s mother’s house</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2374">F 942/ JH 147</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Theo had met <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> earlier in Paris; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let160.xml#n-6">see letter 160, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+      
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_210">Frederick Barnard</rs> was the most productive illustrator for Dickens’s <ref target="biblio.xml#lit_242">Household Edition</ref>: he did drawings for 10 of the 22 volumes. The only work that he illustrated together with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Luke Fildes</rs> and the brothers <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_974">Edward Gurden</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1523">George Dalziel</rs> was <ref target="biblio.xml#lit_243"><hi rend="italics">The mystery of Edwin Drood</hi></ref> (1870), with a total of 30 engravings. See Kitton, 1899, pp. 222-223. Cf. for the Household Edition <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let133.xml#n-53">letters 133, n. 53.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>By ‘parts of old London’ Van Gogh may mean typical scenes of London (working-class) life or the topographical backgrounds depicted in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Fildes</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Up the river</hi> (engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1591">Charles Roberts</rs>) and the anonymous <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Durdles cautions Mr. Sapsea against boasting</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1920">Ill. 1920</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1921">Ill. 1921</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_243">The mystery of Edwin Drood</ref>. Reprinted pieces and other stories</hi>. London [1879], facing the title page, relating to p. 109, and p. 57.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let211.xml">See letter 211</ref> for the amount mentioned and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let214.xml">letter 214</ref> for the payment by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_990">Albrecht Dürer</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The draughtsman of the reclining woman</hi>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_85">Ill. 85</rs>. In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Unterweisung der Messung mit dem Zirkel und Richtscheit.</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Das Lehrbuch der Malerei</hi> (1525) Dürer studied perspective and introduced a frame in which horizontal and vertical threads placed at equal intervals together formed a grid of squares. The woodcut was also known as a separate print (H271/B149). It was no doubt <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Armand Cassagne</rs>’s <ref target="biblio.xml#lit_204"><hi rend="italics">Guide de l’alphabet du dessin</hi></ref> (1880) that put Van Gogh on the track of the perspective frame, a variant of the ‘cadre rectificateur’. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dürer. Der schriftlicher Nachlass.</hi> Ed. Hans Rupprich. 3 vols. Berlin 1956-1969, vol. 2, p. 391; and cat. Amsterdam 1996, pp. 18-21.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>For the ‘Geel affair’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let185.xml">see letter 185</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For Van Gogh’s print collection, which has come down to us incomplete, see exhib. cat. Amsterdam 2003, pp. 99-112. The annotations below cover only what is now in the estate. </p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>In the estate there are several sheets from the series <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Irish sketches</hi> by among others <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1027">Michael FitzGerald</rs> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_253"><hi rend="italics">Turf market in the South of Ireland</hi></rs> (t*546), and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1454">Richard Caton Woodville (<hi>ii</hi>)</rs> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_254"><hi rend="italics">A fisherman’s cabin in Connemara</hi></rs> (t*182) which had been in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> 76 (24 January 1880), p. 84 and 76 (13 March 1880), p. 249.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>There is only one print after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_867">Bodmer</rs> in the estate, namely <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_255"><hi rend="italics">Le cerf mort</hi></rs> (The dead stag), taken from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Illustration</hi> 59 (2 March 1872), p. 137.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>There are no prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1045">Hector Giacomelli</rs> in the estate. </p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>In the estate there are 21 prints after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1146">Auguste André Lançon</rs>, mainly from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Vie Moderne</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Illustration</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s series <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1887"><hi rend="italics">The labours of the fields</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-1">see letter 156, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>In the estate are <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_905">Emile Adélard Breton</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_256"><hi rend="italics">Cimetière de Courrières</hi></rs> (Churchyard at Courrières) from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Vie Moderne</hi> 1 (20 September 1879), p. 373, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_257"><hi rend="italics">Le soir (Salon de 1880)</hi></rs> (The evening (Salon of 1880)) from both <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Vie Moderne</hi> 2 (7 August 1880), pp. 504-505, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi> 24 (28 August 1880), p. 117.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>There are no prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1022">François Nicolas Auguste Feyen-Perrin</rs> in the estate.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1080">Herkomer</rs>’s prints in the estate, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let199.xml">see letter 199</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>In the estate there are three prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_878">George Henry Boughton</rs>: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_258"><hi rend="italics">Verregnet, Genrebild aus der Bretagne</hi></rs> (Rain-soaked, genre scene from Brittany) from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Über Land und Meer</hi> (t*822); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_259"><hi rend="italics">The poisoned cup</hi></rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 9 (20 June 1874), p. 600 (t*494); and an untitled engraving (t*1487), whose source is unknown.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>There are two prints after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_948">George Clausen</rs> in the estate: the wood engraving <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_260"><hi rend="italics">Fisher folk in church: Island of Urk, Zuyder Zee</hi></rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 19 (24 May 1879), p. 516, and the photogravure <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_261"><hi rend="italics">‘The night brings rest’. La nuit ramène le repos (Nord Holland)</hi></rs> (source unknown) after a drawing by J. Watkins (t*474 and t*473).</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>There are 25 prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1043">Paul Gavarni</rs> in the estate.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>In the estate there are six prints after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1236">Edmond Morin</rs> (the first two are explicitly mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let309.xml">letter 309</ref>): <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Roeiwedstrijd in Engeland </hi>(Boat race in England), engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1561">Henry Linton</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Hollandsche Illustratie</hi> 1 (1864-1865), eerste helft, no. 14, p. 112. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1922">Ill. 1922</rs>. (t*314); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De beroemde kastanjeboom van 20 maart </hi>(The famous chestnut tree of 20 March), engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1592">E. Roevens</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Hollandsche Illustratie</hi> 1 (1864-1865), tweede helft, no. 14, p. 108. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1923">Ill. 1923</rs>. (t*468); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_262"><hi rend="italics">Les grandes étapes de l’électricité</hi></rs> (The great steps in the development of electricity) by Henry Linton, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi> 25 (22 October 1881) (t*635); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_263"><hi rend="italics">Les dieux tombés, Hercule</hi></rs> (The fallen gods, Hercules) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1569">Fortuné Louis Méaulle</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi> 26 (28 January 1882) (t*649); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_264"><hi rend="italics">L’électricité, suppression du temps, de la nuit, de la distance</hi></rs> (Electricity, the suppression of time, night and distance) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1560">Auguste Louis Lepère</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Monde Illustré</hi> 25 (22 October 1881) (t*633), and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_265"><hi rend="italics">Godsdienstige bijeenkomst in onderaards gewelf</hi></rs> (A religious gathering in an underground vault) from an unknown Dutch magazine (t*467).</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>There are 35 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_998">Doré</rs> prints in the estate.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>In the estate there are dozens of prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1197">George du Maurier</rs>, principally from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch</hi>. </p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>In the estate there is just one print by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1137">Charles Samuel Keene</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch</hi> (t*989), although – when talking in July 1888 about the number of sheets by Keene he thought he had – Van Gogh writes: ‘there were a good 200’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let642.xml">letter 642</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>There are 42 prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1345">Edward Linley Sambourne</rs> in the estate, all from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>There are 95 prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1378">Sir John Tenniel</rs>, all from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>Benjamin Disraeli, Earl of Beaconsfield, was a statesman and the prime minister in 1868, and from 1874 to 1880. Any number of caricatures of him appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch. </hi></p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>In the estate there are 14 prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1159">John Leech</rs>, all from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Punch</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>By ‘reprint’ Van Gogh may mean the five-part series <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pictures of life and character... from the collection of Mr. Punch</hi> which had appeared in London in the years 1854, 1857, 1860, 1863 and 1869 (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">BLL</hi>). In 1869 the London publisher Bradbury, Evans &amp; Co. advertised more than ten works illustrated by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1159">Leech</rs>; the price was 12 shillings per volume. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Publishers’ Circular and General Record of British and Foreign Literature</hi>. London (8 December 1869), p. 835.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>In the estate there are 54 prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_210">Barnard</rs> from prior to June 1882, most of which come from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> (volumes 1874-1882).</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+      
+<p>In the estate there are four prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Fildes</rs>, all from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi>, one of which is from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic Portfolio</hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-47">see nn. 47</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-48">48</ref> below).</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>In the estate there are eleven prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1058">Charles Green</rs>, nine from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> and two from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="36" xml:id="note-t-36">
+                            
+
+<p>For ‘<ref target="biblio.xml#lit_328">Album Boetzel</ref>’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let234.xml#n-16">see letter 234, n. 16.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="37" xml:id="note-t-37">
+                            
+
+<p>The series <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Heads of the people drawn from life</hi> was in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi>. From it Van Gogh definitely had <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1080">Hubert von Herkomer</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The agricultural labourer – Sunday</hi>, no. 2 in the series, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 12 (9 October 1875), p. 360. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_170">Ill. 170</rs>. (t*184), and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The coastguardsman</hi>, not numbered, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 20 (20 September 1879), Supplement, not paginated. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1924">Ill. 1924</rs>. (t*94). See exhib. cat. London<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>1992, p. 139, cat. nos. 90-91; on the series Werness 1972, pp. 117-121, who also discusses <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_446"><hi rend="italics">The brewer’s drayman</hi></rs>, no. 4 in the series, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 12 (20 November 1875), p. 508. For the series, see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let293.xml">letter 293</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="38" xml:id="note-t-38">
+                            
+
+<p>There are four prints with opium smokers in the estate: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1254">William Bazett Murray</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Opium-smoking at the East End of London</hi>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> 65 (1 August 1874), p. 101 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1925">Ill. 1925</rs>); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_996">John Charles Dollman</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">London sketches – An opium den at the East End</hi>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> 22 (23 October 1880), p. 401 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1926">Ill. 1926</rs>); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_998">Gustave Doré</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Opium smoking – The Lascar’s room in “Edwin Drood”</hi>, engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1529">Albert Doms</rs>, from a French magazine (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1927">Ill. 1927</rs>), and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1146">Auguste Lançon</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les chinois fumeurs d’opium à Londres </hi>(The Chinese opium smokers in London), from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Vie Moderne</hi> 2 (16 October 1880), no. 42, p. 665 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1928">Ill. 1928</rs>). t*304, t*147, t*169 and t*1348 respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="39" xml:id="note-t-39">
+                            
+
+<p>Van Gogh had the print <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The morning toilet, Seven Dials</hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1254">William Bazett Murray</rs>, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi> 65 (5 September 1874), p. 232. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1191">Ill. 1191</rs>. (t*116). Seven Dials was a poor area in London.</p>
+                        </note>
+                        
+                    
+                        <note n="40" xml:id="note-t-40">
+                            
+
+<p>Rotten Row is a road in Hyde Park in London.</p>
+                        </note>
+                        
+                    
+                        <note n="41" xml:id="note-t-41">
+                            
+
+<p>An allusion to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Dickens</rs>’ novel <ref target="biblio.xml#lit_164"><hi rend="italics">A tale of two cities</hi></ref>, which is set in London and Paris.</p>
+                        </note>
+                        
+                    
+                        <note n="42" xml:id="note-t-42">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1089">Holl</rs>’s prints in the estate, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let199.xml">see letter 199</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="43" xml:id="note-t-43">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1428">Walker</rs>’s prints in the estate, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let199.xml">see letter 199</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="44" xml:id="note-t-44">
+                            
+
+<p>In the estate there are 52 prints from prior to June 1882 by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1292">Charles Paul Renouard</rs>, most from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Illustration</hi> (1881-1882) and a few from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> (1879).</p>
+                        </note>
+                        
+                    
+                        <note n="45" xml:id="note-t-45">
+                            
+
+<p>In the estate there are two prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1214">Adolf Menzel</rs>, both from unidentified magazines: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_266"><hi rend="italics">Le tabacks-collegium</hi></rs> (The Smoking Parliament) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_267"><hi rend="italics">Le vieux Frederic (Frederic le Grand)</hi></rs> (Old Frederick (Frederick the Great))<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>(t*821 and t*463).</p>
+                        </note>
+                        
+                    
+                        <note n="46" xml:id="note-t-46">
+                            
+
+<p>In the estate there are five prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1285">Howard Pyle</rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Harper’s Weekly</hi>, one from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> and one from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Illustrated London News</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="47" xml:id="note-t-47">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic </hi>published <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic Portfolio</hi> more than once: in 1875 it was a selection of 50 wood engravings from the most influential wood-engraved illustrated publications of the 1870s. An advertisement drew attention to this splendid publication ‘on thick plate paper’. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi> (25 December 1875), p. 3. Van Gogh had among others <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_268"><hi rend="italics">Before dinner – the march past</hi></rs> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1197">George du Maurier</rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic Portfolio</hi> of 1871, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1905"><hi rend="italics">Houseless and hungry</hi></rs> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Fildes</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_269"><hi rend="italics">The rival grandpas and grandmas</hi></rs> by George du Maurier from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic Portfolio</hi> of 1877.</p>
+                        </note>
+                        
+                    
+                        <note n="48" xml:id="note-t-48">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Fildes</rs>’ <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1905">Houseless and hungry</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let199.xml#n-8">see letter 199, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="49" xml:id="note-t-49">
+                            
+
+<p>Van Gogh says – and he repeats it in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let267.xml">letter 267</ref> – that he has a <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">small</hi> edition of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1214">Menzel</rs>’s illustrations for the <ref target="biblio.xml#lit_31"><hi rend="italics">Geschichte Friedrichs des Großen</hi></ref>. The editions traced (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let133.xml#n-19">see letter 133, n. 19</ref>) cannot really be described as small: the early German editions are all about 16 x 26 cm; the Dutch edition of 1843-1845 is 15.5 x 24.5 cm. But in 1861 and 1867 ‘kleine Volksausgaben’ (small popular editions) were published in Germany. See Elfried Bock, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adolf Menzel. Verzeichnis seines graphischen Werkes</hi>. Berlin 1923, p. 286.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. London, beginning of January 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let017"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b13 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>017</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>13</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>017</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1874-01">beginning of January 1874</date>
+                            <placeName>London</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0013" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000013_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000013_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000013_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0013" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000013_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000013_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000013_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Londen Januari 1874</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Dank voor je schrijven.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Van harte wensch ik je een heel goed nieuw jaar toe. Ik weet dat het je in de zaak goed gaat, want dat hoor<c type="shy">-</c>de ik van den Hr Tersteeg.─<ptr target="#note-t-1"/> Uit je brief zag ik dat je hart hebt voor kunst, &amp; dat is een goed ding, kerel. Ik ben blij je van Millet, Jacque, Schreijer, Lambinet<c type="kk">/</c> Frans Hals &amp;c<c type="kp">_</c> houdt, want, zoo als Mauve<ptr target="#note-t-2"/> zegt “dat is het”<c type="kp">_</c> Ja, dat sch<hi rend="super">ij</hi> van Millet “L’an<c type="shy">-</c>gelus du Soir”<c type="kk">/</c><ptr target="#note-t-3"/> “dat is het”.─</p>
+
+<p xml:id="p.nl.5" n="5">dat is rijk, dat is poesie.─ Wat zou ik graag nog eens 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>met je over kunst spreken, maar nu moeten we er elkaar maar dikwijls over schrijven; <hi rend="italics">vindt maar</hi> <hi rend="italics">mooi</hi> zooveel je kunt, de meesten <hi rend="italics">vinden niet ge</hi><c type="shy">-</c><hi rend="italics">noeg mooi</hi>.─</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ik schrijf hieronder enkele namen van schilders van wie ik bizonder veel houdt. Scheffer, Delaroche, Hébert<c type="kk">/</c> Hamon<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Leys, Tissot, Lagye<c type="kk">/</c> Boughton<c type="kk">/</c> Millais, Thijs Maris, de Groux<c type="kk">/</c> de Braekeleer Jr<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Millet, Jules Breton, Feyen-Perrin<c type="kk">/</c> Eugène Feyen<c type="kk">/</c> Brion<c type="kk">/</c> Jundt<c type="kk">/</c> George Saal. Israels<c type="kk">/</c> Anker<c type="kk">/</c> Knaus, Vautier, Jourdan<c type="kk">/</c> Jalabert,<ptr target="#note-t-5"/> Antigna, Compte-Calix<c type="kk">/</c> Rochussen, Meissonier, Zamacois<c type="kk">/</c> Madrazzo, Ziem, Boudin<c type="kk">/</c> Gerome, Fromentin, de Tournemine<c type="kk">/</c> Pasini<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Decamps, Bonnington, Diaz<c type="kk">/</c> Th. Rousseau, Troyon, Dupré<c type="kk">/</c><ptr target="#note-t-6"/> Paul Huet, Corot, Schreyer<c type="kk">/</c> Jacque, Otto Weber, Daubigny<c type="kk">/</c> Wahlberg, Bernier, Emile Breton<c type="kk">/</c> Chenu, Cesar de Cocq, M<hi rend="super">lle</hi> Collart. Bodmer, Koekkoek, Schelfhout, Weissenbruch &amp; last not least Maris<ptr target="#note-t-7"/> &amp; Mauve<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Maar ik zou zoo door kunnen gaan, ik weet niet hoe lang, &amp; dan komen al de ouden nog &amp; ik ben zeker ik ver<c type="shy">-</c>scheiden van de besten nieuwen heb overgeslagen.─</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Blijf maar altijd veel wan<c type="shy">-</c>delen &amp; veel van de natuur houden, want dat is de ware manier om de kunst meer &amp; meer te leeren begrijpen.─ De schilders begrijpen de natuur &amp; hebben ze lief, &amp; <hi rend="italics">leeren ons</hi> <hi rend="italics">zien</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">En dan, er zijn schilders die niets dan goeds maken; die niets slechts <hi rend="italics">kunnen</hi> maken<c type="kk">/</c> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>even als er ook gewone menschen zijn die niets kunnen doen of het is goed.─</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Mij gaat het hier goed, ik heb een heerlijk te huis &amp; het is mij een groot genot Londen &amp; de Engel<c type="shy">-</c>sche levensmanier &amp; de Engelschen zelf te bekijken, &amp; dan heb ik de natuur &amp; de kunst &amp; de poesie, &amp; als dat nog niet ge<c type="shy">-</c>noeg is, wat zal dan genoeg zijn.─<ptr target="#note-t-8"/> Toch vergeet ik Holland &amp; vooral den Haag &amp; Braband niet.─</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">In de zaak hebben wij het druk, wij zijn aan den inventaris bezig, die echter in 5 dagen op<c type="shy">-</c>gemaakt wordt; wij komen er dus wat gemakkelijker af dan jelui te s’Hage.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Ik hoop je prettige Kerstdagen gehad hebt, even als ik.─<ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Nu kerel<c type="kk">/</c> heb het goed &amp; schrijf mij spoedig, ik heb je in dezen geschreven juist wat mij in de pen kwam, ik hoop je er uit wijs zult kunnen worden. à Dieu<c type="kk">/</c> groeten aan allen in de zaak &amp; als iemand anders naar mij vraagt, vooral ook aan allen bij Tante Fie<ptr target="#note-t-10"/> &amp; bij Haanebeek<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.18" n="18">Hierbij een woordje voor Mr. Roos<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">London, January 1874</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Thanks for writing.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I sincerely wish you a very happy New Year. I know that things are going well for you in the office, because I heard as much from <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs>.<ptr target="#note-t-1"/> I saw from your letter that you have art in your blood, and that’s a good thing, old chap. I’m glad you like <rs type="person" ref="bio.xml#_1226">Millet</rs>, <rs type="person" ref="bio.xml#_1117">Jacque</rs>, <rs type="person" ref="bio.xml#_1358">Schreyer</rs>, <rs type="person" ref="bio.xml#_1138">Lambinet</rs>, <rs type="person" ref="bio.xml#_1073">Frans Hals</rs> &amp;c., because – as <rs type="person" ref="bio.xml#_323">Mauve</rs> says<ptr target="#note-t-2"/> – ‘that’s it’. Yes, that painting by Millet ‘The evening angelus’,<ptr target="#note-t-3"/> ‘that’s it’. That’s rich, that’s poetry. How I’d like to 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> talk to you about art again, but now we can only write to each other about it often; <hi rend="italics">find things beautiful</hi> as much as you can, most people <hi rend="italics">find too little beautiful</hi>.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m writing below a few names of painters whom I like very much indeed. <rs type="person" ref="bio.xml#_1339">Scheffer</rs>, <rs type="person" ref="bio.xml#_983">Delaroche</rs>, <rs type="person" ref="bio.xml#_1085">Hébert</rs>, <rs type="person" ref="bio.xml#_1068">Hamon</rs>.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.6" n="6"><rs type="person" ref="bio.xml#_1176">Leys</rs>, <rs type="person" ref="bio.xml#_1394">Tissot</rs>, <rs type="person" ref="bio.xml#_1140">Lagye</rs>, <rs type="person" ref="bio.xml#_878">Boughton</rs>, <rs type="person" ref="bio.xml#_1227">Millais</rs>, <rs type="person" ref="bio.xml#_1202">Thijs Maris</rs>, <rs type="person" ref="bio.xml#_1063">Degroux</rs>, <rs type="person" ref="bio.xml#_902">De Braekeleer Jr</rs>.</p>
+<p rend="indent" xml:id="p.en.7" n="7"><rs type="person" ref="bio.xml#_1226">Millet</rs>, <rs type="person" ref="bio.xml#_899">Jules Breton</rs>, <rs type="person" ref="bio.xml#_1022">Feyen-Perrin</rs>, <rs type="person" ref="bio.xml#_1010">Eugène Feyen</rs>, <rs type="person" ref="bio.xml#_891">Brion</rs>, <rs type="person" ref="bio.xml#_1120">Jundt</rs>, <rs type="person" ref="bio.xml#_1347">George Saal</rs>. <rs type="person" ref="bio.xml#_1107">Israëls</rs>, <rs type="person" ref="bio.xml#_40">Anker</rs>, <rs type="person" ref="bio.xml#_1131">Knaus</rs>, <rs type="person" ref="bio.xml#_1403">Vautier</rs>, <rs type="person" ref="bio.xml#_1126">Jourdan</rs>, <rs type="person" ref="bio.xml#_1114">Jalabert</rs>,<ptr target="#note-t-5"/> <rs type="person" ref="bio.xml#_355">Antigna</rs>, <rs type="person" ref="bio.xml#_956">Compte-Calix</rs>, <rs type="person" ref="bio.xml#_1320">Rochussen</rs>, <rs type="person" ref="bio.xml#_1208">Meissonier</rs>, <rs type="person" ref="bio.xml#_1450">Zamacois</rs>, <rs type="person" ref="bio.xml#_1186">Madrazo</rs>, <rs type="person" ref="bio.xml#_1449">Ziem</rs>, <rs type="person" ref="bio.xml#_888">Boudin</rs>, <rs type="person" ref="bio.xml#_1044">Gérôme</rs>, <rs type="person" ref="bio.xml#_1019">Fromentin</rs>, <rs type="person" ref="bio.xml#_1391">De Tournemine</rs>, <rs type="person" ref="bio.xml#_1256">Pasini</rs>. 
+        <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8"><rs type="person" ref="bio.xml#_979">Decamps</rs>, <rs type="person" ref="bio.xml#_881">Bonington</rs>, <rs type="person" ref="bio.xml#_992">Diaz</rs>, <rs type="person" ref="bio.xml#_1332">T. Rousseau</rs>, <rs type="person" ref="bio.xml#_1389">Troyon</rs>, <rs type="person" ref="bio.xml#_986">Dupré</rs>,<ptr target="#note-t-6"/> <rs type="person" ref="bio.xml#_1108">Paul Huet</rs>, <rs type="person" ref="bio.xml#_971">Corot</rs>, <rs type="person" ref="bio.xml#_1358">Schreyer</rs>, <rs type="person" ref="bio.xml#_1117">Jacque</rs>, <rs type="person" ref="bio.xml#_1423">Otto Weber</rs>, <rs type="person" ref="bio.xml#_976">Daubigny</rs>, <rs type="person" ref="bio.xml#_1431">Wahlberg</rs>, <rs type="person" ref="bio.xml#_198">Bernier</rs>, <rs type="person" ref="bio.xml#_905">Emile Breton</rs>, <rs type="person" ref="bio.xml#_933">Chenu</rs>, <rs type="person" ref="bio.xml#_951">César de Cock</rs>, <rs type="person" ref="bio.xml#_954">Mlle Collart</rs>. <rs type="person" ref="bio.xml#_867">Bodmer</rs>, <rs type="person" ref="bio.xml#_1128">Koekkoek</rs>, <rs type="person" ref="bio.xml#_1338">Schelfhout</rs>, <rs type="person" ref="bio.xml#_1443">Weissenbruch</rs>, and last but not least <rs type="person" ref="bio.xml#_1202 bio.xml#_1203">Maris</rs><ptr target="#note-t-7"/> and <rs type="person" ref="bio.xml#_323">Mauve</rs>.</p>
+<p rend="indent" xml:id="p.en.9" n="9">But I could go on like this for I don’t know how long, and then come all the old ones, and I’m sure I’ve left out some of the best new ones.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Always continue walking a lot and loving nature, for that’s the real way to learn to understand art better and better. Painters understand nature and love it, and <hi rend="italics">teach us to see</hi>.</p>
+<p rend="indent" xml:id="p.en.11" n="11">And then, there are painters who make nothing but good things, who <hi rend="italics">cannot</hi> make anything bad, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> just as there are ordinary people who cannot do anything that isn’t good.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Things are going well for me here, I have a wonderful home and it’s a great pleasure for me to observe London and the English way of life and the English themselves, and I also have nature and art and poetry, and if that isn’t enough, what is?<ptr target="#note-t-8"/> Yet I haven’t forgotten Holland, and especially The Hague and Brabant.</p>
+<p rend="indent" xml:id="p.en.13" n="13">We’re busy in the office, we’re occupied with the inventory, which is however drawn up in 5 days, so we have it a little easier than you do in The Hague.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I hope you had a nice Christmas, just as I did.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">Well, old chap, I wish you well and write to me soon; in this letter I’ve written just what popped into my pen, I hope you’ll be able to understand it. Adieu, regards to everyone in the office and anyone else who asks after me, particularly everyone at <rs type="person" ref="bio.xml#_13">Aunt Fie</rs>’s<ptr target="#note-t-10"/> and <rs type="person" ref="bio.xml#_442 bio.xml#_443">the Haanebeeks</rs>’.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">Herewith a few words for <rs type="person" ref="bio.xml#_642">Mr Roos</rs>.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Londen Januari 1874’. Because of the new year’s greeting <ref target="#l-4">(ll. 4-5)</ref> and the remark that the inventory is being taken <ref target="#l-86">(l. 86)</ref>, we assume that the letter was written at the beginning of the month.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The satisfaction <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> expressed in Theo’s performance also resulted in a rise: in January his salary had been increased to 38 guilders a month (FR b2683).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Gogh knew <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Anton Mauve</rs> through his work at Goupil’s in The Hague.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Jean-François Millet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The angelus (The evening angelus)</hi>, 1857-1859 (Paris, Musée d’Orsay). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1697">Ill. 1697</rs>. Van Gogh could not have seen the painting himself, but many reproductions of this famous work were in circulation. It had caused a stir because of the high price paid for it by the Paris art dealer <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_359">Paul Durand-Ruel</rs> in 1867 (30,000 francs) and the price for which it was sold in 1872 to the Brussels collector John W. Wilson (38,000 francs). Cf. exhib. cat. Paris 1975, pp. 103-106, cat. no. 66; Sillevis 1989, p. 44, and Jensen 1994, pp. 61-62.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1068">Jean Louis Hamon</rs>; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let040.xml">letter 40</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1114">Charles François Jalabert</rs>; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let128.xml">letter 128</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_986">Jules Dupré</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Presumably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob Maris</rs>, often mentioned later on in Vincent’s correspondence, who was a brother of the previously mentioned <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1202">Matthijs</rs> (Thijs). Their brother <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1201">Willem</rs> was also a painter, but his name occurs in Vincent’s letters only sporadically.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>In a letter written to Theo on 24 December 1873, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> quoted one of Vincent’s letters from London: ‘Vincent writes that he really enjoys so many good things, more all the time – and then he says</p>
+
+<p>“the valuable life,</p>
+
+<p>your gift, O God!”’ (FR b2676).</p>
+
+<p>The quotation was taken from the poem ‘Een kruis met rozen’ (A cross with roses) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_615">P.A. de Génestet</rs>. See De Génestet 1869, vol. 2, p. 208.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>During the 1873 Christmas holidays Theo was visiting the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787 bio.xml#_788">Tersteeg family</rs>, which <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> took as proof that Theo’s superior was satisfied with him; Vincent was received by the family of his superior, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_547 bio.xml#_172">Obach</rs> (FR b2682).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_13">Sophia Cornelia Elisabeth Carbentus-Van Bemmel</rs>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

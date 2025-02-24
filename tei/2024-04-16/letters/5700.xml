@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Charles Angrand. Paris, Monday, 25 October 1886.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let570"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <institution>unknown</institution>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>570</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>573</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1886-10-25">Monday, 25 October 1886</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Charles Angrand</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/unknown/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Envelope not found." xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/brief570-2r/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-2">
+<graphic url="https://example.com/iiif/brief570-2r/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">54 Rue Lepic</p> <space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Monsieur,</p> 
+<p xml:id="p.fr.3" n="3">J’ai parlé à M. Boggs de l’entrevue que j’ai eue avec vous<ptr target="#note-t-1"/> et si vous aimeriez à faire un échange avec lui<ptr target="#note-t-2"/> allez-y hardiment parceque vous verrez de belles choses chez lui<ptr target="#note-t-3"/> et il sera très content de faire votre connaissance.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Moi-même je me recommande aussi pour un échange<c type="kp">_</c><ptr target="#note-t-4"/> J’ai justement 2 vues du Moulin de la galette dont je pourrais disposer<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Esperant donc vous voir un de ces jours je vous serre la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.6" n="6">b<c type="kp">_</c> à v<c type="kp">_</c></p>
+
+<p xml:id="p.fr.7" n="7">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.8" n="8">Allez donc aussi voir mon frère (Goupil &amp; C<hi rend="super">ie</hi> 19 Boulevard Montmartre)<c type="kk">/</c> il a dans ce moment un très beau de Gas.<ptr target="#note-t-6"/> J’ai encore revu chez Tanguy votre jeune fille aux poules<c type="kk">/</c><ptr target="#note-t-7"/> c’est justement cette étude-là que j’aimerais bien à vous échanger. Ci-inclus une carte de mon frère<c type="kk">/</c><ptr target="#note-t-8"/> si vous ne le trouviez pas là vous pourriez donc toujours monter voir les tableaux<c type="kp">_</c></p>
+    <pb f="2r" n="2" xml:id="pb-orig-2r-2" facs="#zone-pb-2r-2"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">54 rue Lepic</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Dear <rs type="person" ref="bio.xml#_297">Sir</rs>,</p>
+<p xml:id="p.en.3" n="3">I’ve spoken to <rs type="person" ref="bio.xml#_865">Mr Boggs</rs> about the meeting I had with you<ptr target="#note-t-1"/> and if you would like to do an exchange with him<ptr target="#note-t-2"/> be bold about it, because you’ll see fine things at his place<ptr target="#note-t-3"/> and he’ll be very pleased to make your acquaintance.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I also propose myself for an exchange.<ptr target="#note-t-4"/> I happen to have 2 views of the Moulin de la Galette that I could spare.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Hoping to see you one of these days, then, I shake your hand.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Yours truly,</p>
+<p xml:id="p.en.7" n="7">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8">Do go and see my brother too (Goupil &amp; Cie, 19 boulevard Montmartre), he has a very fine <rs type="person" ref="bio.xml#_981">Degas</rs> at the moment.<ptr target="#note-t-6"/> At <rs type="person" ref="bio.xml#_772">Tanguy</rs>’s I had another look at your young girl with hens,<ptr target="#note-t-7"/> that’s just the study I’d like to exchange with you. Enclosed, one of my brother’s cards,<ptr target="#note-t-8"/> if you didn’t find him there you could always go up and look at the paintings.</p><pb f="2r" n="2" xml:id="pb-trans-2r-2" facs="#zone-pb-2r-2"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Facsimile in exhib. cat. Paris 1988, pp. 377-378.</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Date of postmark: Monday, 25 October 1886.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The envelope of this letter has survived. The value of the postage stamp is not known. On the front is the postmark ‘PARIS 67 PL. DES ABBESSES 3h|25 OCT 86’. The address reads: ‘Monsieur Angrand/ Artiste Peintre/ au Collège Chaptal/ Boulevard des Batignolles/ E/V’.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The meeting between Van Gogh and the painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_297">Charles Angrand</rs> supposedly took place ‘in the café opposite the Chaptal, Boulevard des Batignolles’ (i.e., the Collège Chaptal, where Angrand held a teaching position); see François Lespinasse, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Charles Angrand 1854-1926</hi>. S.l. 1982, pp. 26-27.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This exchange did not take place. See Welsh-Ovcharov 1971, pp. 37-39.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>In 1886 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_865">Boggs</rs> had his studio in boulevard de Clichy. See Arsène Alexandre, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Frank Boggs</hi>. Paris 1929, p. 47.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This exchange did not take place. See exhib. cat. Amsterdam 1999, p. 161.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>‘Moulin de la Galette’ refers to the part of Montmartre where there were three windmills: the Moulin de Blute-Fin, the Moulin Radet and the Moulin à Poivre. Van Gogh had finished several works in which one or more of these mills can be seen. He may have had two of the following four in mind for the exchange: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Moulin de la Galette </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_656">F 227 / JH 1170</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Moulin de la Galette </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_657">F 228/ JH 1171</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Moulin de Blute-Fin </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_658">F 274 / JH 1115</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Moulin de Blute-Fin</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_659">F 273 / JH 1116</rs>). The latter two are signed. In the event, the exchange with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_297">Angrand</rs> did not go ahead.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>We do not know which work by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_981">Degas</rs> Theo had in the gallery at this time. See Thomson in exhib. cat. Amsterdam 1999, p. 107.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_297">Charles Angrand</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dans la basse-cour</hi> (Feeding the chickens), 1884 (Copenhagen, Ny Carlsberg Glyptotek). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_497">Ill. 497</rs>. Angrand later mentioned this proposed exchange to Gustave Coquiot. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Verzamelde brieven</hi> 1973, vol. 3, p. 173.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>This business card of Theo’s (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs>) was still with the letter in 1961 according to a letter from John Rewald to V.W. van Gogh, New York, 15 December 1961 (Van Gogh Museum, Documentation).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Tuesday, 18 June 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let782"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b643 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>782</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>595</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>784</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-06-18">on or about Tuesday, 18 June 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0643" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000879_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000879_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000879_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0643" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000879_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000879_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000879_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ta lettre d’hier.<ptr target="#note-t-1"/> Moi pas non plus je ne peux pas ecrire comme je le voudrais mais enfin nous vivons dans une époque si agitée<c type="kk">/</c> que d’avoir des opinions fermes assez pour juger des chôses il ne saurait être question.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’aurais bien voulu savoir si maintenant tu manges encore ensemble au restaurant ou que tu vis davantage chez toi. je l’espère car à la longue cela doit être le meilleur.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Pour moi cela va bien – tu comprends qu’après maintenant bientôt un demi an de sobrieté absolue de manger<c type="kk">/</c> boire<c type="kk">/</c> fumer<c type="kk">/</c> avec dans ces derniers temps deux bains de deux heures par semaine<c type="kk">/</c><ptr target="#note-t-2"/> il est évident que cela doive beaucoup calmer<c type="kp">_</c> Cela va donc fort bien et pour ce qui est du travail cela m’occupe et me distrait – ce dont j’ai grand besoin – bien loin de m’éreinter.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Cela me fait grand plaisir qu’Isaacson aie trouvé des choses dans mon envoi qui lui plaisent. Lui et de Haan paraissent bien fidèles<c type="kk">/</c> ce qui est rare assez par le temps qui court pour qu’il soit juste de l’apprécier. Et que<c type="kk">/</c> ainsi que tu dis<c type="kk">/</c> il s’en est trouvé un autre qui avait trouvé quelque chôse dans la figure de femme jaune et noir<ptr target="#note-t-3"/> cela ne m’étonne pas quoique je crois que le mérite en est au modèle et non pas à ma peinture.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je desespère de jamais trouver des modèles<c type="kp">_</c> ah si j’en avais de temps en temps de comme cela ou comme la femme qui a posé pour la berceuse<c type="kk">/</c><ptr target="#note-t-4"/> je ferais bien autre chôse.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Je trouve que tu aies bien fait de ne pas exposer des tableaux de moi à l’exposition de Gauguin et autres<c type="kp">_</c> il y a une raison suffisante que je m’en abstienne sans les offenser tant que je ne suis pas moi-même guéri.–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Il est indubitable pour moi que Gauguin et Bernard ont du grand et reel mérite<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Qu’à des êtres comme eux bien vivants et jeunes et qui <hi rend="italics">doivent</hi> vivre et chercher à se frayer leur sentier<c type="kk">/</c> il soit impossible de retourner toutes leurs toiles contre un mur jusqu’à qu’il plaise aux gens de les admettre dans quelque chôse<c type="kk">/</c> dans le vinaigre officiel<c type="kk">/</c> demeure pourtant fort compréhensible. En exposant dans les cafés on est cause de bruit<c type="kk">/</c> qu’il est, je ne dis pas non, de mauvais gout de faire. mais moi et jusqu’à deux fois j’ai ce crime-là sur la conscience ayant exposé au Tambourin et à l’avenue de Clichy<c type="kp">_</c><ptr target="#note-t-5"/> Sans compter le dérangement causé à 81 vertueux antropophages de la bonne ville d’Arles et à leur excellent maire.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Donc dans tous les cas je suis pire et plus blamable qu’eux en tant que quant à cela (causer du bruit ma foi bien involontairement).–</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Le petit Bernard – pour moi – a déjà fait quelques toiles absolument étonnantes. où il y a une douceur et quelquechose d’essentiellement Francais et candide<c type="kk">/</c> de qualité rare<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Enfin ni lui ni Gauguin sont des artistes qui puissent avoir l’air de chercher à aller à l’Exp. univers. par des escaliers de service. Rassure-toi là-dessus<c type="kp">_</c> Qu’eux ils <hi rend="italics">n’ont pas pu</hi> se taire c’est compréhensible<c type="kp">_</c> Que le mouvement des impressionistes n’a pas eu d’ensemble c’est ce qui prouve qu’ils savent moins bien batailler que d’autres artistes tels Delacroix et Courbet.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Enfin j’ai un paysage avec des oliviers<ptr target="#note-t-7"/> et aussi une nouvelle étude de ciel étoilé<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Tout en n’ayant pas vu les dernieres toiles ni de Gauguin ni de Bernard je suis assez persuadé que ces deux études que je te cite sont dans un sentiment paralelle<c type="kp">_</c> Lorsque pendant quelque temps tu auras vu ces deux etudes ainsi que celle du lierre<c type="kk">/</c><ptr target="#note-t-9"/> mieux que par des paroles 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>je pourrai peutêtre te donner une idée des choses dont Gauguin<c type="kk">/</c> Bernard et moi ont quelquefois causé et qui nous ont preoccupé<c type="kp">_</c> Ce n’est pas un retour au romantique ou à des idees religieuses<c type="kk">/</c> non<c type="kp">_</c> Cependant en passant par le Delacroix davantage que cela paraisse par la couleur et un dessin plus volontaire que l’exactitude trompe l’oeil<c type="kk">/</c> on exprimerait une nature de campagne plus pure que la banlieue<c type="kk">/</c> les cabarets de Paris<c type="kp">_</c> On chercherait à peindre des êtres humains également plus séreins et plus purs que Daumier n’en avait sous les yeux. mais bien entendu en suivant Daumier pour le dessin de cela<c type="kp">_</c><ptr target="#note-t-10"/> Que cela existe ou n’existe pas nous le laissons de côté mais nous croyons que la nature s’etend au dela de S<hi rend="super">t</hi> Ouen.<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Peutêtre<c type="kk">/</c> tout en lisant Zola<c type="kk">/</c> nous sommes emu par le son du pur Francais de Renan par exemple.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Et enfin alors que le Chat noir nous dessine des femmes à sa façon et surtout Forain magistralement<c type="kk">/</c><ptr target="#note-t-12"/> on fait des siennes<c type="kk">/</c> moins Parisiens mais n’aimant pas moins Paris et ses élégances<c type="kk">/</c> nous cherchons à prouver qu’il y a alors encore tout autre chôse.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Gauguin<c type="kk">/</c> Bernard ou moi nous y resterons tous peutêtre et ne vaincrons pas mais pas non plus serons nous vaincus<c type="kp">_</c> nous sommes peutêtre pas là pour l’un ou pour l’autre<c type="kk">/</c> étant là pour consoler ou pour préparer de la peinture plus consolante<c type="kp">_</c> Isaacson et de Haan ne reussiront pas non plus peutetre mais en Hollande ils ont senti le besoin d’affirmer que Rembrandt faisait de la grande peinture et non pas du trompe l’oeil<c type="kk">/</c> eux aussi sentaient autre chose.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Si tu peux faire rentoiler la chambre à coucher<ptr target="#note-t-13"/> il vaut mieux le faire faire <hi rend="italics">avant</hi> de me l’envoyer.–</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je n’ai plus de blanc du tout du tout.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Tu me feras bien du plaisir en m’ecrivant de nouveau bientôt. J’y pense si souvent qu’au bout de quelque temps j’espère que dans le mariage tu trouveras à te retremper et que d’ici un an tu auras gagné en santé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Ce qu’il me serait fort agreable d’avoir ici pour lire de temps en temps ce serait un Shakespeare. Il y en a à un shilling<c type="kk">/</c> <hi rend="italics">Dicks</hi> shilling Shakespeare<c type="kk">/</c> qui est complet<c type="kp">_</c><ptr target="#note-t-14"/> Les editions ne manquent pas et je crois que celles à bon marché sont moins changées que celles plus chères<c type="kp">_</c> Dans tous les cas je n’en veux pas qui coûteraient plus de trois francs<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Maintenant ce qui dans l’envoi est trop mauvais<c type="kk">/</c> mets le de côté tout à fait<c type="kk">/</c> inutile d’en avoir de comme cela; cela peut me servir plus tard pour me rappeler des choses. Ce qu’il y a de bon se verra mieux en étant en plus petit nombre de toiles. Le reste<c type="kk">/</c> si tu le mets à plat entre deux feuilles de carton avec des vieux journaux entre les etudes dans un coin<c type="kk">/</c> c’est tout ce que cela vaut.</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23"> Je t’envoie un rouleau de dessins<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Poignées de main à toi<c type="kk">/</c> à Jo et aux amis<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.25" n="25">t.à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.26" n="26">Vincent.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.27" n="27">les dessins hospice d’Arles<ptr target="#note-t-15"/> – l’arbre pleureur dans l’herbe<c type="kk">/</c><ptr target="#note-t-16"/> les champs et les oliviers<c type="kk">/</c><ptr target="#note-t-17"/> font suite à ceux de Mont major de dans le temps<c type="kp">_</c><ptr target="#note-t-18"/> les autres sont des études hatives prises dans le jardin<c type="kp">_</c><ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Le Shakespeare ne presse pas<c type="kk">/</c> si on n’a pas une edition comme cela<c type="kk">/</c> cela ne prendra pas une éternité pour la faire venir.</p>
+
+<p rend="indent" xml:id="p.fr.29" n="29">Ne crains pas que jamais de ma propre volonté je me risquerais sur des hauteurs vertigineuses<c type="kk">/</c> malheureusement nous sommes sujet aux circonstances et aux maladies de notre époque bon gré mal gré. Mais avec tant de précautions que maintenant je prends<c type="kk">/</c> je retomberai difficilement et j’espère que les attaques ne reprendront plus.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter of yesterday.<ptr target="#note-t-1"/> I too cannot write as I would wish, but anyway we live in such a disturbed age that there can be no question of having opinions that are firm enough to judge things.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I would have very much liked to know if you now still eat together at the restaurant or if you live at home more. I hope so, for in the long run that must be the best.</p>
+<p rend="indent" xml:id="p.en.4" n="4">As for me, it’s going well – you’ll understand that after almost half a year now of absolute sobriety in eating, drinking, smoking, with two two-hour baths a week recently,<ptr target="#note-t-2"/> this must clearly calm one down a great deal. So it’s going very well, and as regards work, it occupies and distracts me – which I need very much – far from wearing me out.</p>
+<p rend="indent" xml:id="p.en.5" n="5">It gives me great pleasure that <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> found things in my consignment that please him. He and <rs type="person" ref="bio.xml#_1075">De Haan</rs> appear very faithful, which is sufficiently rare these days for it to be worthy of appreciation. And that, as you say, there was another who found something in the yellow and black figure of a woman,<ptr target="#note-t-3"/> that doesn’t surprise me, although I think that its merit lies in the model and not in my painting.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I despair of ever finding models. Ah, if I had some from time to time like that one, or like the <rs type="person" ref="bio.xml#_648">woman</rs> who posed for the Berceuse,<ptr target="#note-t-4"/> I’d do something quite different.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I think you did the right thing by not exhibiting paintings of mine at the exhibition by <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and others. There’s reason enough for me to abstain from doing so without offending them as long as I’m not cured myself.</p>
+<p rend="indent" xml:id="p.en.8" n="8">For me it’s beyond doubt that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs type="person" ref="bio.xml#_831">Bernard</rs> have great and real merit.</p>
+<p rend="indent" xml:id="p.en.9" n="9">It’s still perfectly understandable, though, that for beings like them, really alive and young, who <hi rend="italics">must</hi> live and try to carve out their path, it’s impossible to turn all their canvases to the wall until it pleases people to admit them somewhere in the official pickle. One causes a stir by exhibiting in the cafés, which I don’t say isn’t in bad taste. But for myself, I have that crime on my conscience, and to the point of doing it twice, having exhibited at the Tambourin and at avenue de Clichy.<ptr target="#note-t-5"/> Not counting the disturbance caused to 81 virtuous cannibals of the good town of Arles and to their excellent <rs type="person" ref="bio.xml#_212">mayor</rs>.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">So in any case, I am worse and more blameworthy than they are in that regard (causing a stir quite involuntarily, my word).</p>
+<p rend="indent" xml:id="p.en.11" n="11">Young <rs type="person" ref="bio.xml#_831">Bernard</rs> – according to me – has already made a few absolutely astonishing canvases in which there’s a gentleness and something essentially French and candid, of rare quality.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Anyway, neither he nor <rs type="person" ref="bio.xml#_1039">Gauguin</rs> are artists who could look as if they were trying to go to the World Exhibition by the back stairs. You can be sure of that. It’s understandable that they <hi rend="italics">couldn’t</hi> keep silent. That the Impressionists’ movement has had no unity is what proves that they’re less skilled fighters than other artists like <rs type="person" ref="bio.xml#_982">Delacroix</rs> and <rs type="person" ref="bio.xml#_962">Courbet</rs>.</p>
+<p rend="indent" xml:id="p.en.13" n="13">At last I have a landscape with olive trees,<ptr target="#note-t-7"/> and also a new study of a starry sky.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Although I haven’t seen the latest canvases either by <rs type="person" ref="bio.xml#_1039">Gauguin</rs> or <rs type="person" ref="bio.xml#_831">Bernard</rs>, I’m fairly sure that these two studies I speak of are comparable in sentiment. When you’ve seen these two studies for a while, as well as the one of the ivy,<ptr target="#note-t-9"/> I’ll perhaps be able to give you, better than in words, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> an idea of the things Gauguin, Bernard and I sometimes chatted about and that preoccupied us. It’s not a return to the romantic or to religious ideas, no. However, by going the way of <rs type="person" ref="bio.xml#_982">Delacroix</rs>, more than it seems, by colour and a more determined drawing than <hi rend="italics">trompe-l’oeil</hi> precision, one might express a country nature that is purer than the suburbs, the bars of Paris. One might try to paint human beings who are also more serene and purer than <rs type="person" ref="bio.xml#_977">Daumier</rs> had before him. But of course following Daumier in the drawing of it.<ptr target="#note-t-10"/> We’ll leave aside whether that exists or doesn’t exist, but we believe that nature extends beyond St-Ouen.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">Perhaps, while reading <rs type="person" ref="bio.xml#_836">Zola</rs>, we are moved by the sound of the pure French of <rs type="person" ref="bio.xml#_729">Renan</rs>, for example.</p>
+<p rend="indent" xml:id="p.en.16" n="16">And after all, while Le Chat Noir draws women for us after its own fashion, and above all <rs type="person" ref="bio.xml#_1028">Forain</rs> does so in a masterly way,<ptr target="#note-t-12"/> we do some of our own, less Parisian but no less fond of Paris and its elegances, we try to prove that something else quite different exists.</p>
+<p rend="indent" xml:id="p.en.17" n="17"><rs type="person" ref="bio.xml#_1039">Gauguin</rs>, <rs type="person" ref="bio.xml#_831">Bernard</rs> or I will all remain there perhaps, and won’t overcome but neither will we be overcome. We’re perhaps not there for one thing or the other, being there to console or to prepare for more consolatory painting. <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> and <rs type="person" ref="bio.xml#_1075">De Haan</rs> may not succeed either, but in Holland they’ve felt the need to state that <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> did great painting and not <hi rend="italics">trompe l’oeil</hi>, they also felt something different.</p>
+<p rend="indent" xml:id="p.en.18" n="18">If you can get the Bedroom<ptr target="#note-t-13"/> lined it’s better to have it done <hi rend="italics">before</hi> sending it to me.</p>
+<p rend="indent" xml:id="p.en.19" n="19">I have no more white at all at all.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">You’ll give me a lot of pleasure if you write to me again soon. I so often think that after a while you’ll find in marriage, I hope, the means to gain new strength, and that a year from now your health will have improved.</p>
+<p rend="indent" xml:id="p.en.21" n="21">What I’d very much like to have here to read from time to time would be a <rs type="person" ref="bio.xml#_735">Shakespeare</rs>. There’s one priced at one shilling, <hi rend="italics"><rs type="person" ref="bio.xml#_1839">Dicks</rs>'</hi> Shilling Shakespeare, which is complete.<ptr target="#note-t-14"/> There’s no shortage of editions, and I think the cheap ones have been changed less than the more expensive ones. In any case I wouldn’t want one that cost more than three francs.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Now, whatever is too bad in the consignment, put it completely to one side, pointless to have stuff like that; it may be of use to me later to remind me of things. Whatever is good will show up better by being part of a smaller number of canvases. The rest, if you put them in a corner, flat between two sheets of cardboard with old newspapers between the studies, that’s all they’re worth.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I’m sending you a roll of drawings.</p>
+<p rend="indent" xml:id="p.en.24" n="24">Handshakes to you, to <rs type="person" ref="bio.xml#_416">Jo</rs> and to our friends.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">Ever yours,</p>
+<p xml:id="p.en.26" n="26">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">The drawings Hospital in Arles,<ptr target="#note-t-15"/> the weeping tree in the grass,<ptr target="#note-t-16"/> the fields and the olive trees,<ptr target="#note-t-17"/> are a continuation of those from Montmajour from back then.<ptr target="#note-t-18"/> The others are hasty studies done in the garden.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">There’s no hurry for the <rs type="person" ref="bio.xml#_735">Shakespeare</rs>, if they don’t have an edition like that, it won’t take an eternity to have one sent.</p>
+<p rend="indent" xml:id="p.en.29" n="29">Don’t be afraid that I would ever venture onto dizzy heights of my own free will, unfortunately, whether we like it or not, we’re subject to circumstances and to the illnesses of our time. But with all the precautions I’m now taking, it will be difficult for me to relapse, and I hope that the attacks won’t start again.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for his letter of ‘yesterday’ (<ref target="#l-1*">l. 1*</ref>). This was <ref target="let781.xml">letter 781</ref> of 16 June, which must have reached Vincent on 17 or 18 June. In <hi rend="italics">Brieven </hi>1914, Jo van Gogh-Bonger dated Vincent’s letter to 19 June 1889; it is possible she relied on a postmark giving the mailing date. We therefore date the letter to about Tuesday, 18 June 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Third consignment of paintings from Arles <ref target="let767.xml">(767)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The Volpini exhibition <ref target="let779.xml">(779)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let781.xml">letter 781</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>These baths were part of the hydrotherapy treatment; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let776.xml#n-23">see letter 776, n. 23.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This was the fellow named <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1266">Polack</rs>, mentioned by Theo in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let781.xml">letter 781</ref>, who had praised Vincent’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marie Ginoux (‘The Arlésienne’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2744">F 489 / JH 1625</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This model was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_648">Augustine Roulin</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+      
+<p>Regarding Café Le Tambourin, where Van Gogh exhibited his own work and some Japanese prints, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let571.xml#n-3">see letter 571, nn. 3</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let571.xml#n-4">4</ref>, and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let640.xml#n-5">letter 640, n. 5.</ref> In November-December 1887 he had organized an exhibition of paintings by himself and his friends in Grand Bouillon-Restaurant du Chalet in avenue de Clichy; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let575.xml#n-9">see letter 575, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+      
+<p>Van Gogh is referring to the neighbourhood residents, who had signed a petition complaining about him and submitted it to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_212">Jacques Tardieu</rs>, the mayor of Arles. Thirty people signed the petition. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-2">See letter 750, nn. 2</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-3">3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      This was <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Olive trees with the Alpilles in the background </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2803">F 712 / JH 1740</rs>), which Van Gogh later mentions with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2801">F 612</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml">see letter 805</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Starry night </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2801">F 612 / JH 1731</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees with ivy in the garden of the asylum</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2789">F 609 / JH 1693</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh later added ‘But of course ... of it’.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Saint-Ouen is a suburb to the north of Paris.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For the weekly magazine <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Chat Noir</hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let492.xml#n-7">see letter 492, n. 7.</ref> Shortly before this, Theo had sent Vincent several issues of the magazine <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Fifre </hi>that contained drawings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1028">Forain</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let754.xml#n-2">see letter 754, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The bedroom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2735">F 482 / JH 1608</rs>) was damaged (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let765.xml">see letter 765</ref>) and thus needed to be lined.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>In 1861 the London publishing house of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1839">John Dicks</rs> published an illustrated edition of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_735">Shakespeare</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_591">Complete works</ref></hi>, which was reprinted a number of times. A letter in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bookseller</hi> of 1868 reveals how popular this edition was: ‘John Dicks sold within a few years nearly a million copies of this shilling edition.’ See William Jaggard, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Shakespeare bibliography. A dictionary of every known issue of the writings of the poet and of recorded opinion thereon in the English language</hi>. New York 1959, pp. 535, 537-539, 549.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The courtyard of the hospital</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2784">F 1467 / JH 1688</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weeping tree on a lawn </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2661">F 1468 / JH 1498</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Van Gogh’s mention of ‘the fields and the olive trees’ probably refers to a single drawing: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Olive trees with the Alpilles in the background </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2806">F 1543 / JH 1743</rs>). See cat. Amsterdam 2007, pp. 222-224, cat. no. 363. For another interpretation, cf. exhib. cat. Otterlo<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>1990, p. 285.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+      
+<p>Van Gogh is referring to the six large pen drawings he had made on Montmajour in 1888. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let639.xml#n-1">See letter 639, nn. 1</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let639.xml#n-2">2</ref> and cat. Amsterdam 2007, pp. 135-146.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+      
+<p>We know from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let790.xml">letter 790</ref> that Van Gogh sent six drawings. In addition to the three drawings mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-15">nn. 15</ref><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-17">-17</ref> above, the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Giant peacock moth</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2793">F 1523 / JH 1700</rs>) was also in the consignment, as emerges from Theo’s <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let792.xml">letter 792</ref>. The two ‘hasty studies done in the garden’ were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Periwinkle </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2935">F 1614 / JH 2060</rs>), which Theo described as ‘branches of eglantine’ in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let792.xml">letter 792</ref>, and probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Tassel hyacinth </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2934">F 1612 / JH 2059</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let776.xml#n-28">see letter 776, n. 28.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

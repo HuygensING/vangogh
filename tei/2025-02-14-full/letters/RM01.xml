@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>Drawing with explanatory text. Possibly enclosed in a letter to Anna van Gogh. Amsterdam, after 7 July 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/RM01"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>d405 V/1973</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>RM01</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno/></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>-</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-07-07">after 7 July 1877</date>
+                            <placeName>Amsterdam</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anna van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="VGM001001681_01_n"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="VGM001001681_01_n"/></zone></surface>
+<surface n="d 0405 V/1973" xml:id="surf-extra-1v">
+<graphic url="VGM001001681_02_n"/>
+<zone xml:id="zone-extra-1">
+<graphic url="VGM001001681_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">Dit kerkje is een merkwaardig overblijfsel van eene oude Augustijner Stichting (<hi rend="italics">Austin friars</hi>) minstens reeds dateerende <lb n="2" xml:id="l-2"/>van het jaar 1354 zoo niet reeds een 100 jaren vroeger<c type="kp">.</c> Reeds sedert 1550 ingevolge van eene vrijwillige <lb n="3" xml:id="l-3"/>schenking van Eduard VI houdt de Nederduitsche gemeente hier hare godsdienstigee zamenkomsten.<ptr target="#note-t-1"/></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.2" n="2">This little church is a remarkable remnant of an old Augustinian foundation (<hi rend="italics">Austin Friars</hi>) dating from at least 1354, if not from 100 years earlier. The Dutch congregation had held its religious services here since 1550, by virtue of a voluntary gift of Edward VI.<ptr target="#note-t-1"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+      <p>The drawing must have been made after 7 July 1877 (publication date of the print in <hi rend="italics">Eigen Haard</hi> on which it is based); it may have been enclosed with the letter Vincent sent to Anna to congratulate her on the marriage proposal (<ref target="let121.xml">see letter 121</ref>).</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    <p>On this little sheet Van Gogh made a drawing of a small church in London and wrote a few sentences about the history of the building. The following is written on the back: ‘Vincent van Gogh / gekregen van zijn zuster Mevr van Houten 1914 / J. Nieweg’ (Vincent van Gogh, received from his sister, Mrs van Houten, in 1914. J. Nieweg). The last-mentioned is Jacob Nieweg, a clergyman and – since 1914 – a painter (having been influenced by H.P. Bremmer to take up painting), living in Amersfoort. This text might indicate that the drawing was enclosed in a letter to Anna, in which case the letter is not known. Vincent might also have given Anna the sheet in person. See cat. Amsterdam 1996, pp. 54-55, cat. no. 6.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh made the drawing of the church after an engraving by <rs type="person" ref="bio.xml#_1371">Burn Smeeton</rs> and <rs type="person" ref="bio.xml#_1372">Auguste Tilly</rs> in the article ‘De Ned. Herv. Kerk te Londen’ (‘The Dutch Reformed Church in London’) in <hi rend="italics">Eigen Haard</hi> 3 (7 July 1877), no. 27, p. 216. <rs type="artwork" ref="artwork.xml#ill_3120">Ill. 3120</rs>. The text under the drawing was also taken from this article. See Ton de Brouwer, ‘Discovery sheds new light on origins of Van Gogh drawing’, www.vangoghmuseum.nl, Van Gogh Museum Articles, 2024.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

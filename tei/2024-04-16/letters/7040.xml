@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 15 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let704"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b597 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>704</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>553</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>709</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-10-15">Monday, 15 October 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0597" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000813_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000813_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000813_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0597" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000813_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000813_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000813_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Lettre de Gauguin qui m’apprend qu’il t’a fait un envoi de tableaux &amp; études<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Serais bien content si tu pouvais trouver le temps de m’ecrire quelques détails sur ce que c’est.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Sa lettre etait accompagnee d’une lettre de Bernard pour dire qu’ils avaient reçu mon envoi de toiles qu’ils vont garder tous les 7<c type="kp">_</c> Bernard me fera encore une autre etude en echange<ptr target="#note-t-2"/> et les trois autres<c type="kk">/</c> Moret<c type="kk">/</c> Laval et un jeune<c type="kk">/</c><ptr target="#note-t-3"/> enverront aussi des portraits j’espère<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Gauguin a mon portrait<ptr target="#note-t-4"/> et Bernard dit qu’il aurait le désir d’en avoir un pareil quoiqu’il en aie déjà un de moi que dans le temps je lui ai échangé pour le portrait de sa Grand mère<c type="kp">_</c><ptr target="#note-t-5"/> Et cela m’a fait plaisir qu’ils ne détestaient pas ce que j’avais fait en figure<c type="kp">_</c><ptr target="#note-t-6"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai été et suis encore presqu’assommé par le travail de semaine passée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Je ne peux encore rien faire mais d’ailleurs il fait un mistral de très grande violence qui soulève des nuages de poussière qui blanchit les arbres de haut en bas sur la Lice.–<ptr target="#note-t-7"/> Je suis donc bien obligé de rester tranquille. Je viens de dormir 16 heures d’un trait ce qui m’a fait revenir à moi considérablement.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Et demain je serai remis de cette fourbissure<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Mais j’ai fait une bonne semaine allez<c type="kk">/</c> de 5 toiles<c type="kk">/</c><ptr target="#note-t-8"/> si cela se venge un peu sur celle ci<c type="kk">/</c> eh bien c’est naturel<c type="kp">_</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/> Si j’avais travaillé plus tranquillement tu vois bien que le mistral m’aurait encore surpris<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Ah s’il fait beau ici il faut en profiter<c type="kk">/</c> sans cela jamais on ne ferait rien<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Dites donc que fait Seurat<c type="kp">_</c> Si tu le vois dis lui donc une fois de ma part que j’ai en train une décoration qui actuellement monte à 15 toiles de 30 carrées<ptr target="#note-t-9"/> et qui pour former un tout en prendra au moins 15 autres et que dans ce travail plus large c’est souvent le souvenir de sa personalité et de la visite que nous avons fait à son atelier pour voir ses belles grandes toiles<ptr target="#note-t-10"/> qui m’encourage dans cette besogne.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je voudrais bien que nous eussions le portrait de Seurat par lui-meme.<ptr target="#note-t-11"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’avais dit à Gauguin que si je l’avais engagé à faire un échange de portraits c’etait parceque je croyais que Bernard et lui certes auraient mutuellement fait deja plusieurs etudes l’un de l’autre. Que cela n’etant pas le cas et lui ayant fait le portrait pour moi exprès je n’en voulais pas en échange considerant la chose trop importante<c type="kp">_</c><ptr target="#note-t-12"/> Il écrit pour dire qu’absolument il veut que je la prenne en échange<c type="kp">_</c> Sa lettre est encore très complimenteuse<c type="kk">/</c> ce que ne méritant pas<c type="kk">/</c> passons outre. Je t’envoie article sur la Provence qui me paraissait bien écrit<c type="kp">_</c><ptr target="#note-t-13"/> Ces <hi rend="italics">félibres</hi> sont une réunion litteraire et artistique<c type="kk">/</c> Clovis Hugues<c type="kk">/</c> Mistral<c type="kk">/</c> d’autres qui ecrivent en provencal et parfois en francais des sonnets assez bien<c type="kk">/</c> meme de fort bien parfois<c type="kp">_</c><ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Si les félibres cessent un jour d’ignorer mon existence ils passeront tous à la petite maison. Je préfère que cela n’arrive pas avant que j’aie terminé ma decoration<c type="kp">_</c> Mais aimant la Provence aussi franchement qu’eux j’ai peutêtre le droit à leur attention<c type="kp">_</c> Si jamais j’y insiste sur ce droit ce sera pour que mon travail reste ici ou à Marseille où comme tu sais j’aimerais bien à travailler<c type="kk">/</c> croyant que les artistes Marseillais feraient bien de continuer ce que leur Monticelli a commencé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Si Gauguin et moi écrivons un article dans un des journaux d’ici cela suffira pour entrer en relation. Poignée de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Letter from <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, who tells me that he’s sent you a consignment of paintings and studies.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">Would be very pleased if you could find the time to write and give me some details of what they are.</p>
+<p rend="indent" xml:id="p.en.4" n="4">His letter was accompanied by a letter from <rs type="person" ref="bio.xml#_831">Bernard</rs>, to say that they’d received my consignment of canvases, that they’re going to keep all 7 of them. Bernard will make another study for me in exchange,<ptr target="#note-t-2"/> and the three others, <rs type="person" ref="bio.xml#_1237">Moret</rs>, <rs type="person" ref="bio.xml#_1148">Laval</rs> and a young <rs type="person" ref="bio.xml#_936">chap</rs>,<ptr target="#note-t-3"/> will also send portraits, I hope.</p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> has my portrait,<ptr target="#note-t-4"/> and <rs type="person" ref="bio.xml#_831">Bernard</rs> says that he’d like to have one like it, although he already has one of me, which I exchanged with him at the time for the portrait of his Grandmother.<ptr target="#note-t-5"/> And it pleased me that they weren’t averse to what I had done in figure painting.<ptr target="#note-t-6"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I was, and still am, almost knocked out by last week’s work.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I still can’t do anything, but in any case there’s a very violent mistral, which raises clouds of dust that turns the trees on boulevard des Lices<ptr target="#note-t-7"/> white from top to bottom. So I’m pretty well forced to take it easy. I’ve just slept for 16 hours at a stretch, which has gone a long way to making me myself again.</p>
+<p rend="indent" xml:id="p.en.8" n="8">And tomorrow I’ll have got over this exhaustion.</p>
+<p rend="indent" xml:id="p.en.9" n="9">But I made a good week of it, eh, with 5 canvases;<ptr target="#note-t-8"/> if it gets a bit of its own back this week, well, it’s natural. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> If I’d worked more calmly, you can see clearly that the mistral would have caught me out again.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Ah, if the weather’s fine here you have to take advantage of it, otherwise you’d never do anything.</p>
+<p rend="indent" xml:id="p.en.11" n="11">But tell me what <rs type="person" ref="bio.xml#_1353">Seurat</rs>’s doing. If you see him, tell him on my behalf that I have in progress a decoration which at present amounts to 15 square no. 30 canvases,<ptr target="#note-t-9"/> and which, to make an ensemble, will take at least 15 more, and that in this work on a broader scale it’s often the memory of his personality and of the visit that we made to his studio to see his beautiful big canvases<ptr target="#note-t-10"/> that gives me courage in this task.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I’d very much like us to have <rs type="person" ref="bio.xml#_1353">Seurat</rs>’s portrait of himself.<ptr target="#note-t-11"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I had told <rs type="person" ref="bio.xml#_1039">Gauguin</rs> that the reason I had urged him to make an exchange of portraits was because I believed that he and <rs type="person" ref="bio.xml#_831">Bernard</rs> would certainly have made several studies, each of the other. That as that wasn’t the case and he had done the portrait especially for me, I didn’t want it as an exchange, considering the thing too important.<ptr target="#note-t-12"/> He writes to say that he really does wish me to take it as an exchange. His letter is again very complimentary, as I don’t deserve it, let’s pass over it. I’m sending you article on Provence which seemed well-written to me.<ptr target="#note-t-13"/> These <hi rend="italics">Félibres</hi> are a literary and artistic circle: <rs type="person" ref="bio.xml#_664">Clovis Hugues</rs>, <rs type="person" ref="bio.xml#_705">Mistral</rs>, others, who write quite good, even sometimes very good sonnets in Provençal and sometimes in French.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">If one day the Félibres stop being unaware of my existence, they’ll all visit the little house. I prefer that it not happen before I’ve finished my decoration. But loving Provence as whole-heartedly as they do, I perhaps have a right to their interest. If ever I insist on that right, it will be so that my work remains here or in Marseille, where, as you know, I’d like to work, believing that the Marseille artists would do well to continue what their <rs type="person" ref="bio.xml#_1240">Monticelli</rs> started.</p>
+<p rend="indent" xml:id="p.en.15" n="15">If <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I write an article in one of the papers here, that will be enough to make contact. Handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Ever yours,</p>
+<p xml:id="p.en.17" n="17">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed an article that appeared in the newspaper on 14 October (<ref target="#n-13">see n. 13</ref>). He had slept for 16 hours <ref target="#l-33">(l. 33)</ref>; the five paintings he had done the week before made up for the fact that his fatigue had caught up with him this week <ref target="#l-39">(ll. 39-41)</ref>. He also writes that he cannot work because of the ‘very violent mistral’ <ref target="#l-27">(ll. 27-28)</ref>. The weather records show the mistral blowing on 14 October, becoming worse on 15 October (<hi rend="italics">Météo-France</hi>). We have consequently dated the letter Monday, 15 October 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Consignment of studies to exchange with the group of painters in Pont-Aven <ref target="let698.xml">(698)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Decoration of the Yellow House <ref target="let665.xml">(665)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Exchange of portraits with Bernard and Gauguin <ref target="let680.xml">(680)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had told Theo on 7 or 8 October that he would give Bernard’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_16">mother</rs>, who was going from Pont-Aven to Paris, several canvases to take with her. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> was to bring the rest of the paintings, among them<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> <rs type="artwork" ref="artwork.xml#ill_118">The vision after the sermon</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let688.xml">see letter 688</ref>); he left for Paris about 10 November. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin </hi>1984, pp. 247, 266, 275. We know from a letter Theo wrote to his sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> (6 December 1888) that he had received twenty paintings from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> altogether; they included winter and spring landscapes and views of the village. ‘Do you remember that painting of the negresses by Gauguin that hangs above the sofa? He recently sent me at the gallery twenty paintings that he did in Brittany last year. If you can call the painting to mind, you know what strange poetry it has in it. Well there’s the same in these new paintings, but since the subjects are more within our reach they’re easier to understand and are, if not more beautiful, at any rate more enjoyable from the first moment. There are winter landscapes with the greyish green hills against the leaden sky where the colour is altogether muted and one thinks of nothing but the bleakness of the sloping fields. Or the same landscape, but with a single beech tree with shrivelled russet foliage as a counterpoint to the green. There are also spring landscapes with the slender branches of the trees on which all the young leaves hang like little bells and tell of the rejoicing of rejuvenated nature. Or a little village in the first days of spring veiled in a purple mist behind the deeper coloured tree trunks whose bright green leaves are echoed in the green fields that one sees behind the village, stretching away to the hill in the distance. You’d have to see them to get an idea of the diverse way he’s expressed himself and above all to feel the different moods in which he did them. Usually the calm nature that fills his innermost being with resignation, but sometimes also the violent welling up of all his suffering and strife, which he expresses through the most powerful, deepest tones that resound above all when he saw nature swelling under the beneficent and creative power of the sun. It’s impossible to describe everything that’s in these paintings, but it appears that he’s greater than anyone had thought. It could just be with him the way it used to be with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>, who is now understood by everyone because the poetry he proclaims is so powerful that everyone from great to small finds satisfaction in it. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs> also makes magnificent pictures of nature, but one has to be happy and healthy oneself to be able to enjoy them, otherwise one is likely to find oneself thinking “Oh if only I were there, I would be happier”. Whereas from Gauguin come as it were whispered words of comfort to those who are not happy or not healthy. In him nature itself speaks, whereas in Monet one hears the maker of the paintings speaking’ (FR b916).</p>
+  
+<p rend="indent">Theo showed the following of these works at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs> in November: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_776">Spring in Lézaven</rs></hi> (W279/W249), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_777">Dogs running in a meadow</rs></hi> (W282/W265), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_778">Inlet opposite the fishing port of Pont-Aven</rs></hi> (W276/W266) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_102">Breton girls dancing</rs></hi> (W296/W251) (letter from Theo to Gauguin of 13 November 1888). <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_780">Shepherd and shepherdess in the meadow</rs></hi> (W280/W250) was also among them (letter from Gauguin to Theo, 14 November 1888). See Wildenstein 2001, pp. 386, 390, 393-394, 414-416, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin</hi> 1984, pp. 280-282.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Out of this batch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Quay with sand barges </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2700">F 449 / JH 1558</rs>) was meant for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, in exchange for his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2261">Self-portrait with portrait of Gauguin</rs> </hi>(<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let692.xml">see letter 692</ref>). It emerges from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let716.xml">letter 716</ref> that Bernard took two more studies from Van Gogh’s consignment. He had the choice of a ‘ Red sunset’,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2686">F 578 / JH 1538</rs>) and an unidentified work (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let698.xml#n-1">see letter 698, n. 1</ref>). In exchange he sent a seascape (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let719.xml">see letter 719</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This ‘young chap’ was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_936">Ernest Ponthier de Chamaillard</rs>. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let694.xml#n-2">letter 694, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2715">F 476 / JH 1581</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This Van Gogh self-portrait was most probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with a straw hat</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2552">F 526 / JH 1309</rs>). Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let698.xml#n-8">letter 698, n. 8.</ref> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let655.xml#n-3">See letter 655, n. 3,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2212">Bernard’s grandmother</rs></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>In terms of the batch of paintings sent to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, by ‘what I had done in figure painting’ Van Gogh can only mean <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2715">F 476 / JH 1581</rs>). He could, however, also be alluding here to his figure paintings from Arles; Bernard had been sent the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Zouave </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2656">F 1482 / JH 1487</rs>) in July, and had probably meanwhile also received <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_738">F 1504 / JH 1520</rs>) and possibly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_739">F 1723 / JH 1523</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let641.xml#n-1">See letter 641, n. 1.</ref> Gauguin presumably already had the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_781">F 1722 / JH 1521</rs>); according to Merlhès this is a letter sketch in a lost letter to Gauguin written in late July or early August. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin </hi>1984, p. 491 (n. 266).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The trees along boulevard des Lices in Arles (also known as ‘la Lice’).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The five new canvases were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Entrance to the public garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2718">F 566 / JH 1585</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Tarascon stagecoach </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2733">F 478a / JH 1605</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The public garden with a couple strolling (‘The poet’s garden’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2730">F 479 / JH 1601</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The viaduct </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2731">F 480 /JH 1603</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Trinquetaille bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2732">F 481 / JH 1604</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let703.xml">See letter 703</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh had listed these fifteen paintings in his last letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let703.xml">letter 703</ref>). Besides the five new canvases (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-8">n. 8</ref>) they were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>),<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> The public garden (‘The poet’s garden’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2713">F 468 / JH 1578</rs>), a now lost painting of the park (cf. the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The public garden (‘The poet’s garden’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_187">F 1465 / JH 1583</rs>) and the letter sketch in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">letter 693</ref> for the composition), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Path in the public garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2716">F 470 / JH 1582</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The night café </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2711">F 463 / JH 1575</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Yellow House (‘The street’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2721">F 464 / JH 1589</rs>),<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Starry night over the Rhône </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2723">F 474 / JH 1592</rs>),<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Ploughed fields (‘The furrows’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2719">F 574 / JH 1586</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The green vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let589.xml#n-19">See letter 589, n. 19,</ref> for Vincent and Theo’s visit to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs>’s studio.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Van Gogh did not have a specific <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs> self-portrait in mind here, but is envisaging something along the lines of the exchange of self-portraits with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>. Nothing came of it.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let692.xml#n-1">See letter 692, n. 1,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2262">Self-portrait with portrait of Bernard, ‘Les misérables’</rs></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The article Van Gogh sent was probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1788">Paul Mariéton</rs>, ‘<ref target="biblio.xml#lit_42">En Provence. Sensations d’un félibre</ref>’, from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Homme de Bronze</hi> of 14 October 1888. The second part appeared in the same paper a week later. Mariéton describes his impressions of a trip through Provence, starting in Avignon; he visited <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_705">Frédéric Mistral</rs> and travelled with him to Salon-de-Provence. There they visited Antoine Crousillat, nicknamed ‘the nestor of the Félibres’ (le doyen des Félibres). Arles, Montmajour and Fontvieille are among the places mentioned in the section Van Gogh is referring to. An extended version of the piece was subsequently published in P. Mariéton, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La terre provençale</hi>. Paris 1890, pp. 2-57. Cf. Dorn 1990, pp. 279 (n. 276), 554.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The Félibrige was set up in 1854 by seven young Provençal poets who called themselves the Félibres (‘they who know’). They were <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1815">Théodore Aubanel</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1816">Jean Brunet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1817">Anselme Mathieu</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_705">Frédéric Mistral</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1818">Joseph Roumanille</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1819">Alphonse Tavan</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1820">Paul Giera</rs>. The members of this movement devoted themselves to the maintenance and purification of the ‘langue d’oc’, the Provençal language, and the restoration of its status as a literary language. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_664">Clovis Hugues</rs> was not one of the founders of the Félibrige, but he was regarded as a member of the group.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Sunday, 1 July 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let635"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b548 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>635</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>507</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>638</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-07-01">on or about Sunday, 1 July 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0548" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000736_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000736_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000736_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0548" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000736_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000736_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000736_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Bien merci de ta lettre<c type="kk">/</c> du billet de 50 fr. et de l’envoi Tasset<c type="kk">/</c> couleurs &amp; toiles<c type="kk">/</c> qui vient d’arriver<c type="kp">_</c>–<ptr target="#note-t-1"/> Il y avait joint sa facture qui monte à f<hi rend="super">r.</hi> 50.85 ce qui m’a permis de vérifier ses prix et de les comparer aux prix d’Edouard.<ptr target="#note-t-2"/> Il reste considérablement en dessous d’Edouard ce qui<c type="kk">/</c> joint au 20% de remise<c type="kk">/</c> fait qu’il n’y a pas à se plaindre de lui<c type="kp">_</c> Maintenant sa toile à 4.50 je serai probablement à même d’en savoir le prix de première main par pièce<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Maintenant ta lettre m’apprenait une grosse nouvelle – que Gauguin accepte la proposition<c type="kp">_</c><ptr target="#note-t-3"/> Certes le mieux serait qu’il filât tout droit ici au lieu de s’y démerder<c type="kk">/</c> peutêtre s’emmerdera-t-il en venant à Paris avant. Peut-être aussi qu’avec les tableaux qu’il apportera il y fera une affaire ce qui serait très heureux. Ci joint la réponse<c type="kp">_</c> Je tiens seulement à dire ceci<c type="kk">/</c> que non seulement je me sens enthousiaste pour peindre dans le midi – mais même également dans le Nord me sentant mieux quant à la santé qu’il y a 6 mois. Si donc c’est plus sûr d’aller en Bretagne où on est en pension pour si peu<ptr target="#note-t-4"/> – au point de vue des dépenses je suis décidément prêt à revenir vers le nord. Mais pour lui aussi cela doit être bien de venir dans le midi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Surtout puisque dans 4 mois déjà on aura l’hiver dans le nord. Et ceci me semble si certain que deux personnes ayant absolument le même travail doivent<c type="kk">/</c> si les circonstances empêchent de dépenser davantage<c type="kk">/</c> pouvoir vivre chez eux avec du pain<c type="kk">/</c> du vin et enfin tout le reste qu’on voudra y ajouter. La difficulté c’est de manger <hi rend="italics">seul</hi> chez soi<c type="kp">_</c>– Ici les restaurants sont chers parceque tout le monde mange chez soi.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Certainement que les Ricard et pas les Leonard da Vinci non plus ne sont pas moins beaux parcequ’il y en a peu – d’autrepart les Monticelli<c type="kk">/</c> les Daumier<c type="kk">/</c> les Corot<c type="kk">/</c> les Daubigny et les Millet ne sont pas laids parcequ’ils sont faits dans bien des cas avec une rapidite tres grande et que relativement il y en ait beaucoup<c type="kp">_</c>– Pour les paysages je commence à trouver que de certains<c type="kk">/</c> faits encore plus vite que jamais<c type="kk">/</c> sont les meilleurs dans ce que je fais<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Ainsi celui dont je t’ai envoyé le dessin<c type="kk">/</c> la moisson et les meules aussi<ptr target="#note-t-5"/> – il est vrai que je suis obligé de retoucher <hi>le tout</hi> pour régler un peu la facture<c type="kk">/</c> pour harmoniser la touche<c type="kk">/</c> mais dans une seule longue séance <hi rend="italics">tout</hi> le travail essentiel a été fait et je l’épargne le plus possible en revenant dessus.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Mais lorsque je reviens d’une séance comme ça je t’assure que j’ai le cerveau si fatigué que si ce travail-là se renouvelle souvent – comme cela a été lors de cette moisson – je deviens absolument abstrait<ptr target="#note-t-a"/> et incapable d’un tas de choses ordinaires. Dans ces moments-là la perspective de ne pas être seul ne m’est pas désagréable<c type="kp">_</c> Et bien bien souvent je pense à cet excellent peintre Monticelli qu’on a dit si buveur et <hi rend="italics">en démence</hi><c type="kk">/</c> lorsque je me vois revenir moi-même d’un travail mental pour equilibrer les 6 couleurs essentielles<c type="kk">/</c> rouge – bleu – jaune – orange – lilas – vert.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">travail et calcul sec et où on a l’esprit tendu extrêmement comme un acteur sur la scène dans un rôle difficile – où l’on doit penser 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>à mille choses à la fois dans une seule demi heure<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Après – la seule chôse qui soulage et distrait – dans mon cas – comme dans d’autres c’est de s’etourdir en buvant un bon coup ou en fumant très fort.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Ce qui est sans doute peu vertueux mais c’est pour revenir à Monticelli<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">je voudrais bien voir un buveur devant une toile ou sur les planches<c type="kp">_</c>– Naturellement c’est un trop grossier mensonge tout ce conte méchant et jésuitique de la Roquette sur Monticelli<c type="kp">_</c>–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Monticelli coloriste logique<c type="kk">/</c> capable de poursuivre les calculs les plus ramifiés et subdivisés relatives aux gammes de tons qu’il equilibrait<c type="kk">/</c> certes à ce travail surmenait son cerveau comme aussi Delacroix et Richard Wagner<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Mais si lui a peutêtre bu c’est qu’étant – Jongkind aussi<ptr target="#note-t-7"/> – plus fort au physique que Delacroix et plus tourmenté physiquement (Delacroix etait plus riche)<c type="kk">/</c> alors c’etait – je serais<c type="kk">/</c> moi pour un<c type="kk">/</c> bien porté à croire – que s’ils ne l’avaient pas fait – leurs nerfs revoltés leurs auraient joué d’autres tours.– Ainsi Jules et Edmond de Goncourt disent mot à mot ceci – “nous prenions du tabac très fort pour nous abrutir” dans la fournaise de la conception.<ptr target="#note-t-8"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Ne crois donc pas que j’entretiendrais artificiellement un état fievreux – mais saches que je suis en plein calcul compliqué d’où résultent vite l’une après l’autre des toiles faites vites mais longtemps calculé <hi rend="italics">d’avance</hi><c type="kp">_</c> Et voila lorsqu’on dira que cela est trop vite fait tu pourras y répondre qu’eux ils ont trop vite vu. D’ailleurs je suis maintenant en train de repasser un peu sur toutes les toiles avant de te les envoyer.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Mais pendant la moisson mon travail n’a pas été plus commode que celui des paysans qui font cette moisson eux mêmes. Loin de m’en plaindre c’est justement alors que dans la vie artistique<c type="kk">/</c> quand bien même qu’elle ne soit pas la vraie<c type="kk">/</c> je me sens presqu’<c type="shy">-</c>aussi heureux que je pourrais l’être dans l’ideal<c type="kk">/</c> la vraie vie<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Si tout va bien et que Gauguin s’en trouve bien de se mettre avec nous on peut rendre la chôse plus sérieuse en lui proposant de mettre <hi>tous</hi> ses tableaux en commun avec les miens pour partager profits ou pertes<c type="kp">_</c> Mais cela ne se fera pas ou cela se fera tout seul selon qu’il trouve bien ou mal ma peinture<c type="kk">/</c> aussi selon oui ou non nous fassions des choses en collaboration. Maintenant faudra écrire à Russell et je vais presser mon échange avec lui. Il faudra travailler raide pour chercher à vendre quelque chôse de mon côté pour aider aux dépenses<c type="kk">/</c> mais ayons courage<c type="kk">/</c> malgre les difficultés en travaillant pour sauvegarder la vie des artistes nous aurons du feu dans les os.<ptr target="#note-t-9"/> Poignée de main<c type="kk">/</c> je t’écris encore bientôt. je vais pour 2 ou 3 jours en Camargue pour y faire des dessins.<ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.17" n="17">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.18" n="18">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">Bien que tu fais venir les soeurs.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">Prends encore un peu de patience avec Mouries<c type="kk">/</c> il traverse peutetre une crise<c type="kp">_</c><ptr target="#note-t-11"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">j’ecrirai un de ces jours ci à Mouries<c type="kk">/</c> <hi rend="italics">tu liras la lettre</hi><c type="kk">/</c> tu verras de quelle façon je causais avec lui<c type="kp">_</c>– je vois le dessin d’ici!!! la tête à la Delaroche.<ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Many thanks for your letter, the 50-franc note and the <rs type="person" ref="bio.xml#_785">Tasset</rs> consignment, colours and canvases, that has just arrived.<ptr target="#note-t-1"/> He’d enclosed his invoice, which comes to 50.85 francs, which enabled me to check his prices and compare them with <rs type="person" ref="bio.xml#_351">Edouard</rs>’s.<ptr target="#note-t-2"/> He’s considerably cheaper than Edouard, which, combined with the 20% discount, means we can have no complaints about him. Now, for his canvas at 4.50, I’ll probably be able to find out the price by the piece at first hand.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Now your letter brings me a big piece of news — that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> accepts the proposal.<ptr target="#note-t-3"/> Indeed, the best thing would be for him to dash straight over here instead of sorting out the mess he’s in there; perhaps he’ll get into another one if he comes to Paris first. Perhaps, too, with the paintings he’ll bring he’ll make a deal, which would be very fortunate. My reply enclosed. I really want to say just this, that I feel enthusiastic not only about painting in the south — but just the same in the north too, feeling healthier than 6 months ago. So if it’s safer to go to Brittany where one can board for so little<ptr target="#note-t-4"/> — from the point of view of outgoings I’m definitely prepared to go back to the north. But it must be good for him too, to come to the south.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Especially since in 4 months it’ll already be winter in the north. And this seems so certain to me, that two people having exactly the same work must, if circumstances prevent their spending more, be able to live at home on bread, wine and, well, everything else one might wish to add to that. The difficulty is to eat at home <hi rend="italics">alone. </hi>Restaurants here are expensive because everyone eats at home. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Certainly neither <rs type="person" ref="bio.xml#_1315">Ricard</rs>s nor <rs type="person" ref="bio.xml#_1414">Leonardo da Vinci</rs>s are less beautiful because there are few of them — on the other hand, <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s, <rs type="person" ref="bio.xml#_977">Daumier</rs>s, <rs type="person" ref="bio.xml#_971">Corot</rs>s, <rs type="person" ref="bio.xml#_976">Daubigny</rs>s and <rs type="person" ref="bio.xml#_1226">Millet</rs>s aren’t ugly because in many cases they were done at great speed and there are relatively many of them. As for landscapes, I’m beginning to find that some, done more quickly than ever, are among the best things I do.</p>
+<p rend="indent" xml:id="p.en.6" n="6">It’s like that with the one of which I sent you the drawing, the harvest and the wheat stacks too<ptr target="#note-t-5"/> — it’s true I have to retouch <hi>everything</hi> to adjust the workmanship a little, to harmonize the brushstrokes, but <hi rend="italics">all</hi> the essential work was done in a single long session, and I’ll spare it as much as possible when I go back to it.</p>
+<p rend="indent" xml:id="p.en.7" n="7">But when I come back from a session like that I can assure you my brain is so tired that if that sort of work is repeated often — the way it’s been during this harvest — I become totally distracted and incapable of a whole lot of ordinary things. At these moments the prospect of not being alone isn’t unpleasant. And I think very, very often of that excellent painter <rs type="person" ref="bio.xml#_1240">Monticelli</rs>, who people said was such a drinker and <hi rend="italics">insane</hi>, when I see myself coming back from the mental labour of balancing the six essential colours, red — blue — yellow — orange — lilac — green.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Work and dry calculation, in which one’s mind is extremely stretched, like an actor on the stage in a difficult role — where you have to think 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> of a thousand things at the same time in a single half hour.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Afterwards — the only thing that comforts and distracts — in my case — as in others, is to stun oneself by taking a stiff drink or smoking very heavily.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Which is no doubt not very virtuous, but it’s in order to go back to <rs type="person" ref="bio.xml#_1240">Monticelli</rs>.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’d really like to see a drinker in front of a canvas or on the boards. Of course, it’s all too crude a lie, this whole malicious, Jesuitical tale of the <rs type="person" ref="bio.xml#_343">Roquette woman</rs> about <rs type="person" ref="bio.xml#_1240">Monticelli</rs>.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.12" n="12"><rs type="person" ref="bio.xml#_1240">Monticelli</rs> the logical colourist, able to carry out the most ramified and subdivided calculations on the ranges of tones that he balanced, certainly overtaxed his brain doing that work, as did <rs type="person" ref="bio.xml#_982">Delacroix</rs> and <rs type="person" ref="bio.xml#_814">Richard Wagner</rs>.</p>
+<p rend="indent" xml:id="p.en.13" n="13">But if he did perhaps drink, it was only because — <rs type="person" ref="bio.xml#_1122">Jongkind</rs> too<ptr target="#note-t-7"/> — being physically stronger than <rs type="person" ref="bio.xml#_982">Delacroix</rs> and suffering more physically (Delacroix was richer), it was, then — I, for one, would be well inclined to believe — because if they hadn’t done it — their rebellious nerves would have played other tricks on them. And <rs type="person" ref="bio.xml#_617 bio.xml#_618">Jules and Edmond de Goncourt</rs> say this, word for word — ‘we took very strong tobacco to stupefy ourselves’ in the furnace of creation.<ptr target="#note-t-8"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Don’t believe, then, that I would artificially maintain a feverish state — but you should know that I’m in the middle of a complicated calculation that results in canvases done quickly one after another but calculated long <hi rend="italics">beforehand.</hi> And look, when people say they’re done too quickly you’ll be able to reply that they looked at them too quickly. And besides, I’m now going over all the canvases a little more before sending them to you.</p>
+<p rend="indent" xml:id="p.en.15" n="15">But during the harvest my work has been no easier than that of the farmers themselves who do this harvesting. Far from my complaining about it, it’s precisely at these moments in artistic life, even if it’s not the real one, that I feel almost as happy as I could be in the ideal, the real life.</p>
+<p rend="indent" xml:id="p.en.16" n="16">If all goes well and <rs type="person" ref="bio.xml#_1039">Gauguin</rs> thinks it’s a good idea to join us, we could make the thing more serious by suggesting to him that he puts <hi>all</hi> his paintings in common, with mine, to share profits or losses. But that won’t happen or will happen of its own accord, depending on whether he found my painting good or bad, and also on whether or not we did things in collaboration. Have to write to <rs type="person" ref="bio.xml#_1334">Russell</rs> now, and I’ll hasten my exchange with him. We’ll have to work hard to try to sell something from my side to help with the expenses, but let’s take heart, despite our difficulties in working to safeguard the artists’ life, we’ll have fire in our bones.<ptr target="#note-t-9"/> Handshake, I’ll write to you again soon. I’m going to the Camargue for 2 or 3 days, to do some drawings there.<ptr target="#note-t-10"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">Ever yours,</p>
+<p xml:id="p.en.18" n="18">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Good that you’re bringing our <rs type="person" ref="bio.xml#_401 bio.xml#_407">sisters</rs> over.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">Be patient a little longer with <rs type="person" ref="bio.xml#_1233">Mourier</rs>, perhaps he’s going through a crisis.<ptr target="#note-t-11"/> </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">I’ll write to <rs type="person" ref="bio.xml#_1233">Mourier</rs> one of these days;<hi rend="italics"> you’ll read the letter</hi>, you’ll see the way I used to talk to him. I can see the drawing from here!!! The head in the style of <rs type="person" ref="bio.xml#_983">Delaroche</rs>.<ptr target="#note-t-12"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for the 50 francs he sent. This must have been the first instalment of the allowance for July, since in his letter of 5 July Vincent refers to the recent consignment of paint from Tasset which he says in the present letter he has ‘just’ received. For this reason we date the letter on or about Sunday, 1 July 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed a letter to Gauguin <ref target="#l-17">(l. 17)</ref>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The proposed exchange with Russell <ref target="let589.xml">(589)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s plan to get Willemien and Lies to come and stay with him in Paris <ref target="let615.xml">(615)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mourier-Petersen’s stay with Theo <ref target="let623.xml">(623)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh had asked for a new batch of paint in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let629.xml">letter 629</ref>. Theo had apparently placed orders with both <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_772">Tanguy</rs>; in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let634.xml">letter 634</ref> Vincent acknowledges receipt of the paint from Tanguy.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Gogh must mean <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_351">G. Edouard</rs>’s paint shop at 8 rue Pigalle in Paris, which was taken over by Victor Mulard. The shop is listed under both names in the address books (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Almanach du commerce de Paris</hi> 1886-1888).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>On 8 July 1888 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1357">Emile Schuffenecker</rs>: ‘I told Van Gogh that I accepted his proposal and that I counted on Mrs Pouzin to get me out of here and down to the south. I have had no news from Van Gogh which surprises me and bad news from Mrs Pouzin which means it’s bad on all counts, a sign that something good will happen – as you can see I am still optimistic’ (J’ai répondu à Van Gog que j’acceptais sa proposition et que je comptais sur Made Pouzin pour me liberer d’ici et filer dans le midi. Je ne reçois aucune nouvelle de Van Gog ce qui m’étonne et de Made Pouzin j’en reçois une mauvaise ce qui fait que de tous côtés c’est mauvais, signe que le bon va venir – vous voyez que je suis toujours optimiste) (FR b812).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The cost of board and lodging at the Gloanec inn was apparently less than 150 francs a year for two people – half what Van Gogh was paying in Provence. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin</hi> 1984, p. 488 (n. 7).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>These landscapes are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2623">F 425 / JH 1442</rs>); the drawings that were sent were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2620">F 1483 / JH 1439</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2622">F 1425 / JH 1441</rs>). Vincent had sent them to Theo in mid-June (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">see letter 625</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘distrait’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>This is a reference to the art dealer <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_343">Evelina Delarebeyrette</rs>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let600.xml#n-14">See letter 600, n. 14,</ref> on the nickname ‘La Roquette’ and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>’s drinking. </p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>In the 1850s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1122">Jongkind</rs> suffered a period of setbacks during which he drank to excess, got into debt and was depressed. See exhib. cat. The Hague 2003, pp. 28-31.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh may be referring to the following words of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Jules and Edmond de Goncourt</rs>: ‘Tobacco, salvation in times of activity, feverishness and prodigious output; is the laudanum of the nervous system’ (Le tabac, une providence dans un siècle d’activité, de fébrilité, de prodigieuse production; c’est le laudanum du système nerveux), included in the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_540">Idées et sensations</ref></hi>. Paris 1866, p. 213.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  Jer. 20:9.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let629.xml">See letter 629</ref> for this planned expedition to the Camargue.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let610.xml#n-3">See letter 610, n. 3,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs>’s ‘nervous condition’.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>This must be a response to something Theo had written.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

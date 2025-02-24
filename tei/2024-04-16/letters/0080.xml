@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Friday, 9 May 1873.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let008"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b8 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>008</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>8</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>008</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1873-05-09">Friday, 9 May 1873</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0008" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000008_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000008_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0008" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000008_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000008_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000008_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">den Haag 9 Mei 1873</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Maandag morgen vertrek ik van Helvoirt naar Parijs &amp; passeer Brussel om 2 uur 7 min.─<ptr target="#note-t-1"/> Als je kunt kom dan aan ’t station<c type="kk">/</c> dat zal mij veel genoegen doen.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Voor ik het vergeet; gisteren 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>heb ik aan Mevr. Tersteeg je portret laten zien<ptr target="#note-t-2"/> &amp; die zou er zoo heel graag een hebben. Zou je soms kans zien er nog een te krijgen &amp; mij te sturen.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Als het nu niet kan denk er dan later eens om.─</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Theo je kunt niet begrij<c type="shy">-</c>pen hoe lief allen hier voor mij zijn;<ptr target="#note-t-3"/> dat het mij spijt van zooveel vrienden te moeten scheiden kan je wel denken.─</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Adieu kerel<c type="kk">/</c> groet Oom &amp; Tante<ptr target="#note-t-4"/> hartelijk voor mij. tot ziens<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.8" n="8">Vincent.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.9" n="9">Informeer eens of je aan ’t Station du Nord of du Midi moet wezen.─<ptr target="#note-t-5"/></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">The Hague, 9 May 1873</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">On Monday morning I’ll leave Helvoirt for Paris, passing through Brussels at 2:07.<ptr target="#note-t-1"/> Do come to the station if you can; it would give me great pleasure.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Before I forget, yesterday 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I showed your portrait to <rs type="person" ref="bio.xml#_788">Mrs Tersteeg</rs>,<ptr target="#note-t-2"/> and she would like very much to have one. Would you have a chance to get another one and send it to me?</p>
+<p rend="indent" xml:id="p.en.5" n="5">If you can’t do it now, try to think of it some other time.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Theo, you have no idea how kind to me they all are here;<ptr target="#note-t-3"/> you can imagine how sorry I am to have to part from so many friends. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Adieu, old chap, give my warm regards to <rs type="person" ref="bio.xml#_399">Uncle</rs> and <rs type="person" ref="bio.xml#_1613">Aunt</rs>.<ptr target="#note-t-4"/> Goodbye for now.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8">Vincent.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">Find out whether you have to be at the Station du Nord or du Midi.<ptr target="#note-t-5"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘den Haag 9 Mei 1873’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh was planning to be in Helvoirt by Saturday evening, 10 May to take leave of his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs> (FR b2626); he left Helvoirt on Monday, 12 May. On his way to London he stopped off in Paris, where he spent nearly a week.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_788">Maria Magdalena Alida Tersteeg-Pronk</rs>, wife of Van Gogh’s superior <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Hermanus Gijsbertus Tersteeg</rs>. For this portrait, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let005.xml#n-5">letter 5, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> wrote to Theo on 11 May, when Vincent was in Helvoirt: ‘It’s wonderful to hear Vincent telling about how kind everyone was to him and about his leave-taking from The Hague. He was given an album and so many little presents and portraits, two very large, splendid portraits of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_442 bio.xml#_443">Uncle and Aunt Haanebeek</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787 bio.xml#_788">Mr and Mrs Tersteeg</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_789">Betsy</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_13">Aunt Fietje</rs> and the girls, and others’ (FR b2626).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_399">Uncle Hein</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1613">Aunt Mietje</rs> in Brussels.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh took the train that went to Paris via Rotterdam, Antwerp and Brussels. According to the 1873 timetable, the train arrived at 14.06 at Brussels North; the connection to Paris left from Brussels South at 14.35 and arrived in Paris at 21.05 (Brussels, Archives of the Belgian Railways).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

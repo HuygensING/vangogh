@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Amsterdam, Tuesday, 12 June 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let120"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b119 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>120</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>101</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>120</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-06-12">Tuesday, 12 June 1877</date>
+                            <placeName>Amsterdam</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0119" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000128_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000128_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000128_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0119" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000128_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000128_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000128_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Amsterdam 12 Junij 1877</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Uw brief van 7 Junij ontving ik en was blij daaruit te zien hoe Gij te Etten zijt geweest en Gij een goeden Zondag daar hebt gehad<c type="kk">/</c> het is aardig Pa en het broerken<ptr target="#note-t-1"/> U wegbragten tot Dordrecht.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">En dan schrijft Gij hoe Gij t’huis over Uwe plannen voor de toekomst hebt gesproken,<ptr target="#note-t-2"/> toen ik het las ging als het ware mijn hart over U open, mij dunkt het is zeer goed. Launch out into the deep<c type="kp">_</c><ptr target="#note-t-3"/> Wat ik hoop is nu nog alleen dit ─ dat Gij naar Londen gaat vóór dat Gij ook Parijs ziet. Maar wij moeten afwachten hoe het gaat. Zooveel heb ik er liefgehad in die twee steden, met een gevoel van weemoed denk ik er aan terug en ik zou wel weer met U mede willen bijna, als ik eenmaal zoover ben ik een plaatsje in die groote Hollandsche Kerk mag bekleeden dan zullen die herinneringen nog wel wat stof om over te spreken geven, vooruit maar in geloof en met oud vertrouwen<c type="kk">/</c><ptr target="#note-t-4"/> Gij en ik, wie weet of wij elkander nog niet eens de hand drukken zooals ik mij dat van Pa en Oom Jan herinner in het Zundertsche kerkje, eens toen Oom van de reis terugkwam en er in hun beider leven veel was voorgevallen, en zij als het ware nu vasten grond onder de voeten voelden.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Zoodra Gij iets naders hieromtrent hoort schrijft Gij het zeker dadelijk<c type="kk">/</c> ik hoop wij voor Gij gaan zult nog eens rustig zullen zamenzijn. Al schijnt er zoo niet dadelijk gelegenheid, toch kan zoo iets spoedig tot stand komen. Maar nog eens, broer, mijn hart gaat over U open, ik geloof het plan zeer goed is ─ mijn verleden wordt weder geheel levend nu ik denk aan Uwe toekomst.─</p>
+
+<p xml:id="p.nl.6" n="6">“Ziet Ik maak alle dingen nieuw”<ptr target="#note-t-5"/> zal ook misschien spoedig Uwe ondervinding zijn.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Heb zegen dezer dagen<c type="kp">_</c> Zie de dingen rondom U nog eens goed aan ─ vergeet ze niet ─ wandel het land nog maar eens door, zooals er staat: in de lengte en in de breedte.─<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik heb dagelijks heel wat te doen zoodat de tijd spoedig omgaat en de dagen haast te kort zijn ook al rek ik ze wat uit<c type="kk">/</c> ik heb zoo’n groot verlangen om vooruit te komen en ook om den Bijbel goed en grondig te kennen en ook om veel dingen te weten zooals wat ik U schreef over Cromwell.<ptr target="#note-t-7"/> “Pas un jour sans une ligne”<c type="kk">/</c><ptr target="#note-t-8"/> door dagelijks te schrijven<c type="kk">/</c> te lezen<c type="kk">/</c> te werken en mij te oefenen zal het met zachtmoedigheid en volharding wel tot iéts leiden<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Deze week bezocht ik het kerkhof hier, buiten de Muiderpoort<c type="kk">/</c> er is een boschje voor<ptr target="#note-t-9"/> waar het des avonds vooral wanneer de zon door de bladeren schijnt mooi is, er zijn ook veel mooie graven en allerlei evergreens, en de rozen en vergeetmijniet bloeijen er, wandelde ook nog eens naar de Zuiderzee, dat is 40 minuten hier vandaan, een dijk over van waar men overal weiland ziet en boerderijen die mij telkens aan de etsen van Rembrandt doen denken. ’t Is een mooie stad hier<c type="kk">/</c> heden zag ik weer een hoekje voor Thijs Maris of Allebé<c type="kk">/</c> nl. woningen achter de Oosterkerk, op een binnenplaatsje, ik moest bij den koster<ptr target="#note-t-10"/> zijn om te spreken over Ooms plaats in de kerk en was in diens huis, verder woonde daar nog een schoenmaker &amp;c<c type="kp">_</c>, maar men vindt <hi rend="italics">het</hi> overal<c type="kk">/</c> de wereld is er vol van, moge ons eigen hart <hi rend="italics">er</hi> maar mede vervuld zijn en meer en meer worden. Die koster deed mij onwillekeurig denken aan eene houtgravure, van Rethel meen ik, Gij zult die ook wel kennen, “der Tod als Freund”.<ptr target="#note-t-11"/> Die voorstelling heeft mij altijd zeer getroffen, te Londen zag men het in der tijd voor bijna alle ramen van de prentenwinkels<c type="kp">_</c> Er is een pendant van<c type="kk">/</c> de Cholera te Parijs<c type="kk">/</c><ptr target="#note-t-12"/> en van Rethel is ook die doodendans.─<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Hoorde Zondagmorgen D<hi rend="super">s</hi> Laurillard in de vroegpreek<ptr target="#note-t-14"/> over “Jezus wandelde in het gezaaide”.<ptr target="#note-t-15"/> Hij maakte een grooten indruk op mij ─ in die preek sprak hij ook over de gelijkenis van den zaaijer<ptr target="#note-t-16"/> &amp; over de man die het zaad in den akker strooide en voorts sliep en opstond dag en nacht<c type="kk">/</c> en het zaad sproot uit en wies op en werd lang en hij wist zelf niet hoe<c type="kk">/</c><ptr target="#note-t-17"/> ook sprak hij over de begrafenis in het koren van v<c type="kp">_</c>d. Maaten<c type="kp">_</c><ptr target="#note-t-18"/> De zon scheen door de ramen ─ er waren niet heel veel menschen in de kerk, meest werklieden en vrouwen.─<ptr target="#note-t-19"/> Daarna hoorde ik Oom Stricker in de Oosterkerk<ptr target="#note-t-20"/> over “lof niet uit de menschen maar uit God”<c type="kk">/</c><ptr target="#note-t-21"/> ook naar aanleiding van het overlijden van H.M.<ptr target="#note-t-22"/></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Maandag is Tante Mina en Margreet Meyboom naar Etten vertrokken en zag ik hen nog aan het station van de Oosterspoor.<ptr target="#note-t-23"/> Terwijl ik hen daar opwachtte las ik het volgende in Lamennais:<ptr target="#note-t-24"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.12" n="12">Au fond d’une petite anse, sous une falaise creusée à sa base par les flots<c type="kk">/</c> entre les rochers où pendaient de longues algues d’un vert glauque<c type="kk">/</c> deux hommes<c type="kk">/</c> l’un jeune l’autre âgé, mais robuste encore<c type="kk">/</c> appuyés contre une barque de pêcheur<c type="kk">/</c> attendaient la marée qui montait lentement<c type="kk">/</c> à peine effleuré par une brise mourante<c type="kp">_</c> Se gonflant près du bord<c type="kk">/</c> la lame glissait mollement sur le sable avec un murmure faible et doux.─ Quelque temps après, on voyait la barque s’éloigner du rivage et s’avancer vers la haute mer, la proue relevée<c type="kk">/</c> laissant derrière elle un ruban d’écume blanche<c type="kp">_</c> Le vieillard près du gouvernail regardait les voiles qui tantôt s’enflaient<c type="kk">/</c> tantot s’affaissaient comme des ailes fatiguées<c type="kp">_</c> Son regard alors semblait chercher un signe à l’horizon et dans les nuées stagnantes<c type="kp">_</c> Puis retombant dans ses pensées on lisait sur son front bruni toute une vie de labeur et de combat soutenu sans fléchir jamais. Le reflux creusait dans la mer calme des vallons où se jouait la pétrelle<c type="kk">/</c> gracieusement balancée sur les ondes luisantes et plombées. Du haut des airs, la mauve s’y plongeait comme une flêche et sur la pointe noire d’un rocher le lourd cormoran reposait immobile. Le moindre accident, un leger souffle<c type="kk">/</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>un jet de lumière, variait l’aspect de ces scènes changeantes. Le jeune homme replié en soi, les voyait comme on voit en songe. Son âme ondoyait et flottait au bruit du sillage, semblable au son monotone et faible dont la nourrice endort l’enfant. Soudain<c type="kk">/</c> sortant de sa rèverie, ses yeux s’animent<c type="kk">/</c> l’air retentit de sa voix sonore: Au laboureur les champs, au chasseur les bois, au pêcheur la mer et ses flots, et ses récifs et ses orages. Le ciel au-dessus de sa tête, l’abîme sous ses pieds, il est libre, il n’a de maître que soi<c type="kp">_</c> Comme elle obéit à sa main, comme elle s’élance sur les plaines mobiles<c type="kk">/</c> la frêle barque qu’animent les souffles des airs<c type="kp">_</c> Il lutte contre les vagues et les soumet, il lutte contre les vents et les dompte. Qui est fort, qui est grand comme lui? Où sont les bornes de ses domaines<c type="kp">_</c> Quelqu’un les trouva-t-il jamais<c type="kp">_</c> Partout où s’épanche l’Ocean, Dieu lui a dit: Va<c type="kk">/</c> ceci est à toi. Ses filets recueillent au fond des eaux une moisson vivante<c type="kp">_</c> Il a des troupeaux innom<c type="shy">-</c>brables qui s’engraissent pour lui dans les paturages que recouvrent les mers. Des fleurs violettes, bleues, jaunes, pourprées, éclosent en leur sein, et pour charmer ses regards, les nuages lui offrent de vastes plages, de beaux lacs azurés<c type="kk">/</c> de larges fleuves, et des montagnes et des vallées et des villes fantastiques tantôt plongées dans l’ombre, tantôt illuminées de toutes les splendeurs du couchant. Oh! qu’elle m’est douce<c type="kk">/</c> la vie du pêcheur! Que ses rudes combats et ses mâles joies me plaisent<c type="kp">_</c> Cependant, ma mère, quand, la nuit, le grain tout à coup ébranle notre cabane<c type="kk">/</c> de quelles transes votre coeur est saisi! Comme vous vous relevez toute tremblante pour invoquer la Vierge divine qui protège les pauvres matelots! A genoux devant son image, vos pleurs coulent pour votre fils poussé par le tourbillon dans les ténèbres vers les écueils où l’on entend les plaintes des trépassés mêlées à la voix de la tempête. Protégez nous, mon Dieu, car nos barques sont si petites et Ta mer est si grande.—<ptr target="#note-t-25"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.13" n="13">Dezen morgen kwart voor 5 begon hier een geducht onweer, kort daarop kwam in den stortregen de eerste stroom werklieden de poort van de werf in. Stond op, en ging op de werf en nam een paar schriften mede naar den koepel<ptr target="#note-t-26"/> en heb daar gelezen en de geheele werf en dok rondge<c type="shy">-</c>zien, de populieren en vlier en andere heesters bogen door den hevigen wind en de regen kletterde op de houtstapels en het dek van de schepen, sloepen en een stoombootje voeren heen en weer en in de verte bij het dorp aan den overkant van het IJ<ptr target="#note-t-27"/> zag men de bruine zeilen snel voortgaan, en de huizen en boomen van de Buitenkant en kerken sterker van kleur. Telkens hoorde men den donder en zag den bliksem<c type="kk">/</c> de lucht was als op een schilderij van Ruysdael en de meeuwen vlogen laag over het water.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Het was een grootsch gezigt, en eene ware verkwikking na de drukkende warmte van gisteren<c type="kp">_</c> Het heeft mij opgefrischt want ik was geducht moede toen ik gisteren avond naar boven ging.─</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Bragt gisteren een bezoek bij D<hi rend="super">s</hi> Meyes en Mevrouw,<ptr target="#note-t-28"/> daar Pa mij gezegd had dit te doen en heb met henl. thee gedronken. Toen ik er kwam deed Z<c type="kp">_</c>W<c type="kp">_</c>Eerw<c type="kp">_</c> een middagslaapje en werd ik verzocht een half uurtje om te wandelen hetgeen ik ook heb gedaan<c type="kk">/</c> gelukkig had ik het boekje van Lamenais in den zak en heb daarin gelezen onder de boomen langs de grachten, waar de avondzon in het donkere water weerkaatste. Toen ben ik er weer heengegaan, en zij deden mij denken aan “Winter” van Thorwaldsen<c type="kp">_</c><ptr target="#note-t-29"/> toch ziet men dat nog heel wat schooner in Pa en Moe maar zooals ik zeide, ook hier was het zoo.─</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.16" n="16">De dagen vliegen om, ik ben vier jaar ouder dan Gij en zij gaan in mijn gevoel waarschijnlijk sneller dan in het uwe, maar ik vecht er tegen door ze maar s’morgens &amp; s’avonds wat te rekken.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Schrijft Gij weer spoedig? het is jammer dat Mager<ptr target="#note-t-30"/> nu after all niet komt. Het weer is nu weder opgeklaard en de lucht is blaauw en de zon schijnt helder en de vogels zingen, die zijn er nog al veel op de werf en allerlei<c type="kk">/</c> s’avonds ga ik met den hond er altijd nog eens op en neer wandelen en denk dan dikwijls aan dat gedicht “Under the stars”.─</p>
+<space unit="lines" quantity="1"/>
+  
+<p xml:id="p.nl.18" n="18">When all sounds cease, God’s voice is heard, under the stars.<ptr target="#note-t-31"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.19" n="19">De rozen tegen het huis bloeijen ook en in den tuin de vlier en jasmijn. Was laatst nog eens op het Trippenhuis<ptr target="#note-t-32"/> om te zien of die zalen<c type="kk">/</c> die toen wij er zamen waren gesloten waren<c type="kk">/</c> reeds weer in orde waren, maar het zal nog wel 14 dagen duren eer men daar weer komen kan. Er waren toen veel vreemdelingen<c type="kk">/</c> Franschen en Engelschen<c type="kk">/</c> als ik ze hoor spreken worden er heel wat herinneringen in mij wakker<c type="kp">_</c> Toch spijt het mij niet ik weer hier terug ben<c type="kp">_</c> “<hi rend="italics">Life hath quicksands</hi><c type="kk">/</c><hi rend="italics"> life hath snares</hi>”<ptr target="#note-t-33"/> is een waar woord<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Hoe gaat het met Mevrouw Tersteeg, als Gij Mauve eens ziet of er aan huis komt<c type="kk">/</c> doe dan de groete<c type="kk">/</c> ook bij Haanebeek en Roos.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Nu moet ik aan mijn werk<c type="kk">/</c> heb heden geen les maar morgenochtend daar<c type="shy">-</c>entegen 2 uur en dus toch heel wat te doen. De geschiedenis van het Oude Testament heb ik doorgewerkt tot en met Samuel<c type="kk">/</c> nu begin ik heden avond aan de Koningen, als dat werk af is<c type="kk">/</c> is het eene bezitting<c type="kp">_</c> Zoo onwillekeurig als ik zit te schrijven maak ik nu en dan een teekeningetje zooals wat ik u onlangs stuurde,<ptr target="#note-t-34"/> zoo b.v. dezen morgen Elia in de woestijn met stormlucht<ptr target="#note-t-35"/> en op den voorgrond een paar doornstruiken, het is niet veel bijzonders maar het komt mij alles zoo duidelijk voor den geest soms en ik geloof ik er op zulke oogenblikken met geestdrift over zou kunnen spreken, moge het mij later gegeven worden dat te doen.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Heb het zoo goed mogelijk<c type="kk">/</c> als Gij eens in de Scheveningsche boschjes of aan het strand komt<c type="kk">/</c> groet het dan. Als Gij eens weer hierkomt zal ik U hier ook wel mooie plekjes kunnen aanwijzen. Iederen dag om naar Mendes<ptr target="#note-t-36"/> te gaan moet ik door de Jodenbuurt.<ptr target="#note-t-37"/></p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Zou wel wenschen Gij D<hi rend="super">s</hi> Laurillard ook eens hoordet.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">En nu à Dieu, een handdruk in gedachten van</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.25" n="25">Uw liefh. broer</p>
+
+<p xml:id="p.nl.26" n="26">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Amsterdam, 12 June 1877</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">I received your letter of 7 June and was glad to see that you were in Etten and had a good Sunday there, it’s nice that <rs type="person" ref="bio.xml#_526">Pa</rs> and <rs type="person" ref="bio.xml#_420">little brother</rs><ptr target="#note-t-1"/> brought you as far as Dordrecht.</p>
+<p rend="indent" xml:id="p.en.4" n="4">And then you wrote about how you spoke at home of your plans for the future,<ptr target="#note-t-2"/> when I read it, my heart spilled over for you, as it were, it seems very good to me. Launch out into the deep.<ptr target="#note-t-3"/> What I hope now is only this – that you go to London before you see Paris. But we have to wait and see what happens. I’ve loved so much about those two cities, I think back on them with a feeling of nostalgia, and I’d almost like to go with you, if I’m ever far enough along to be permitted to fill a position in that great Dutch Church, then those memories will one day provide subjects for sermons, go onward in belief and with the faith of old,<ptr target="#note-t-4"/> you and I; who knows whether we’ll shake each other’s hand again as I remember <rs type="person" ref="bio.xml#_526">Pa</rs> and <rs type="person" ref="bio.xml#_410">Uncle Jan</rs> doing at that little church in Zundert, once when Uncle came back from travelling and much had happened in both their lives, and they now felt firm ground beneath their feet, as it were.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Be sure and write as soon as you hear any more about this, I hope that we’ll have a quiet moment together sometime before you leave. Even though there seems to be no opportunity at present, such a thing may soon come about. But I repeat, brother, my heart spills over for you, I think the plan is very good – my past comes completely alive again now that I’m thinking of your future. ‘Behold, I make all things new’<ptr target="#note-t-5"/> will perhaps soon be your experience.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Be blessed these days. Take a good look at the things around you – don’t forget them – walk through the land again, as it says: in the length of it and in the breadth of it.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I have a lot to do every day, so the time goes quickly and the days are almost too short, even though I stretch them out a bit, I have such a great desire to progress and also to know the Bible well and thoroughly, and also to know many things, such as what I wrote to you about <rs type="person" ref="bio.xml#_339">Cromwell</rs>.<ptr target="#note-t-7"/> ‘No day without a line’,<ptr target="#note-t-8"/> daily writing, reading, working and practising, with meekness and perseverance, will surely lead to <hi rend="italics">something</hi>. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">This week I went to the cemetery here, outside the Muiderpoort, there’s a small wood in front of it<ptr target="#note-t-9"/> where it’s beautiful, especially in the evening when the sun shines through the leaves, there are also a lot of beautiful graves and all kinds of evergreens, and roses and forget-me-nots bloom there. Also took another walk to the Zuiderzee, which is 40 minutes from here, over a dyke from which one sees meadows everywhere and farms which always remind me of etchings by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>. It’s a beautiful city, this, today I again saw a corner for <rs type="person" ref="bio.xml#_1202">Thijs Maris</rs> or <rs type="person" ref="bio.xml#_763">Allebé</rs>, namely houses behind the Oosterkerk, on a small inner courtyard, I had to see the <rs type="person" ref="bio.xml#_127">sexton</rs><ptr target="#note-t-10"/> to ask about <rs type="person" ref="bio.xml#_410">Uncle</rs>’s place in the church and I was in his house, also living there is a shoemaker &amp;c., but one finds <hi rend="italics">it</hi> everywhere, the world is full of it, may our own heart be filled with <hi rend="italics">it</hi> and become so more and more. When I saw that sexton I couldn’t help thinking of a wood engraving, by <rs type="person" ref="bio.xml#_1294">Rethel</rs> I think, you must know it too, ‘Death as a friend’.<ptr target="#note-t-11"/> I always found that scene very moving, in London in those days one saw it in front of nearly all the print-shop windows. It has a pendant, Cholera in Paris,<ptr target="#note-t-12"/> and that dance of death is also by Rethel.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Heard the <rs type="person" ref="bio.xml#_53">Rev. Laurillard</rs> on Sunday morning in the early sermon<ptr target="#note-t-14"/> on ‘Jesus went through the cornfields’.<ptr target="#note-t-15"/> He made a deep impression on me – he also spoke in that sermon about the parable of the sower<ptr target="#note-t-16"/> and about the man who cast seed into the ground, and he should sleep, and rise day and night, and the seed should spring and increase and grow up, he knoweth not how,<ptr target="#note-t-17"/> he also spoke about the funeral in the cornfield by <rs type="person" ref="bio.xml#_1191">Van der Maaten</rs>.<ptr target="#note-t-18"/> The sun shone through the windows – there weren’t that many people in the church, mostly labourers and women.<ptr target="#note-t-19"/> Afterwards I heard <rs type="person" ref="bio.xml#_318">Uncle Stricker</rs> in the Oosterkerk<ptr target="#note-t-20"/> on ‘praise, not of men but of God’,<ptr target="#note-t-21"/> also occasioned by the death of <rs type="person" ref="bio.xml#_757">H.M.</rs><ptr target="#note-t-22"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">On Monday <rs type="person" ref="bio.xml#_317">Aunt Mina</rs> and <rs type="person" ref="bio.xml#_516">Margreet Meyboom</rs> left for Etten, and I saw them at the station of the Oosterspoor.<ptr target="#note-t-23"/> While I was waiting for them there, I read the following in <rs type="person" ref="bio.xml#_683">Lamennais</rs>:<ptr target="#note-t-24"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.11" n="11">At the head of a small inlet beneath a cliff hollowed out at its foot by the waves, among rocks from which hung long strands of sea-green weed, two men, one young, the other old but still sturdy, leaning against a fishing-boat, waited for the tide that was slowly coming in, barely ruffled by a dying breeze. Swelling as they neared the shore, the waves slid lazily over the sand with a faint and gentle murmur. A little later, the boat could be seen moving away from the shore towards the open sea, its prow raised, leaving behind it a ribbon of white foam. The old man, beside the tiller, watched the sails as they filled, then drooped like weary wings. His gaze then seemed to look for a sign on the horizon and in the dense, motionless clouds. Then, as he sank back into his thoughts, one read on his tanned brow an entire life of toil and unremitting struggle from which he had never flinched. The ebb tide created small valleys in the calm sea, where the hen petrel played, balancing gracefully on the glistening, lead-hued waves. From high in the air the seagull dived into them like an arrow, and on the black tip of a rock the ungainly cormorant stood motionless. The slightest movement, a faint breath of air, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> a streak of light, altered the aspect of these changing scenes. The young man, withdrawn into himself, saw them as one sees in dreams. His soul drifted and floated to the sound of the wake, like the light, monotonous sound with which the nurse sends the child to sleep. Suddenly, coming out of his reverie, his eyes light up, the air echoes to the sound of his resonant voice: To the ploughman the fields, to the huntsman the woods, to the fisherman the sea and its waves, and its reefs and its storms. The sky above his head, the depths beneath his feet, he is free, he has no master but himself. See her obey his hand, see her leap across the moving plains, the frail vessel into which the wind breathes life. He contends with the waves and subdues them, he contends with the wind and tames it. Who is as strong, who is as great as he? Where are the boundaries of his domains? Has anyone ever found them? Wherever the Ocean pours itself forth, God has said to him: Go, this is thine. His nets gather a living harvest in the depths of the waters. He has flocks beyond number which grow fat for him in pastures covered by the seas. Flowers — purple, blue, yellow, crimson, open in their bosom, and to charm his eye, the clouds present him with vast shores, beautiful azure lakes, wide rivers, mountains and valleys and fantastic cities, now plunged in shadow, now lit by all the glory of the setting sun. Oh, how sweet it is to me, the fisherman’s life! How its harsh battles and its manly joys delight me. And yet, my mother, when at night the squall suddenly shakes our cabin, what fear grips your heart! See you rise, all trembling, to invoke the holy Virgin who protects poor sailors! Kneeling before her image, your tears flow for your son, driven in the darkness by the whirlwind towards the reefs, where the moans of the dead are heard, mingling with the voice of the storm. Protect us, O Lord, for our barks are so small and Thy sea is so great.<ptr target="#note-t-25"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">A terrible storm blew up here this morning at quarter to 5, a little while later the first stream of workers came through the gate of the dockyard in the pouring rain. Got up and went into the yard and took a couple of notebooks to the cupola<ptr target="#note-t-26"/> and sat there reading and looking round the whole yard and dock, the poplars and elders and other shrubs were bent by the strong wind, and the rain pelted on the wood-piles and the decks of the ships, sloops and a little steamboat went back and forth in the distance, near the village on the other side of the IJ,<ptr target="#note-t-27"/> one saw brown sails passing quickly and the houses and trees on Buitenkant and churches in more vivid colours. Again and again one heard thunder and saw lightning, the sky looked like a painting by <rs type="person" ref="bio.xml#_1333">Ruisdael</rs>, and the gulls were flying low over the water.</p>
+<p rend="indent" xml:id="p.en.13" n="13">It was a magnificent sight, and really refreshing after the oppressive heat of yesterday. It has refreshed me, because I was awfully tired when I went upstairs yesterday evening.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Paid a visit yesterday to the <rs type="person" ref="bio.xml#_571 bio.xml#_573">Rev. Meijjes and his wife</rs>,<ptr target="#note-t-28"/> because <rs type="person" ref="bio.xml#_526">Pa</rs> had told me to do this, and I had tea with them. When I arrived, His Reverence was taking his afternoon nap and I was requested to go for a half-hour walk, which I did, fortunately I had that little book by <rs type="person" ref="bio.xml#_683">Lamennais</rs> in my pocket and I read under the trees lining the canals, where the evening sun was reflected in the dark water. Then I went back, and they made me think of ‘Winter’ by <rs type="person" ref="bio.xml#_1373">Thorvaldsen</rs>.<ptr target="#note-t-29"/> One nevertheless sees it much more beautifully in <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs>, but as I said, it was like that here, too. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">The days fly past, I’m four years older than you and I feel that they probably go by faster for me than for you, but I fight against it by stretching them out a bit in the mornings and evenings.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Will you write again soon? It’s a pity that <rs type="person" ref="bio.xml#_507">Mager</rs><ptr target="#note-t-30"/> isn’t coming after all. The weather has cleared up again, and the sky is blue and the sun is shining brightly and the birds are singing, there are rather a lot of them at the yard, and all kinds, in the evenings I always walk up and down there with the dog, often thinking of that poem ‘Under the stars’.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">When all sounds cease, God’s voice is heard, under the stars.<ptr target="#note-t-31"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">The roses growing against the house are also blooming, and in the garden the elderberry and jasmine. Recently went to the Trippenhuis<ptr target="#note-t-32"/> again to see whether those rooms, which were closed when we were there together, had been put back in order, but it will probably take another fortnight before one can go in again. There were a lot of foreigners at the time, French and English, hearing them speak revives a lot of memories in me. Yet I don’t regret being back here. ‘<hi rend="italics">Life hath quicksands, life hath snares</hi>’<ptr target="#note-t-33"/><hi rend="super"> </hi>are true words.</p>
+<p rend="indent" xml:id="p.en.19" n="19">How is <rs type="person" ref="bio.xml#_788">Mrs Tersteeg</rs>? If you run into <rs type="person" ref="bio.xml#_323">Mauve</rs> or go to see him, give him my regards, also to everyone at <rs type="person" ref="bio.xml#_442 bio.xml#_443">the Haanebeeks</rs>’ and <rs type="person" ref="bio.xml#_642 bio.xml#_643">Rooses</rs>’.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Now I must get to work, don’t have any lessons today, but on the other hand 2 hours tomorrow morning, so have really a lot to do. I’ve worked my way through the history of the Old Testament up to Samuel, this evening I’ll start with Kings, when that work is finished, it will be a valuable thing to have. As I sit here writing I cannot help making a little drawing now and then, like the one I sent you recently,<ptr target="#note-t-34"/> and like the one I made this morning of Elijah<ptr target="#note-t-35"/> in the desert with stormy skies and a couple of thorn-bushes in the foreground, it’s nothing special, but sometimes I see it all so clearly in my mind’s eye, and I believe that at such moments I should be able to talk about it passionately, may it later be granted me to do so.</p>
+<p rend="indent" xml:id="p.en.21" n="21">I wish you the very best, if you ever go to the Scheveningen Bosjes or to the beach, give them my regards. When you next come here I’ll be able to show you some beautiful spots here as well. Every day on my way to <rs type="person" ref="bio.xml#_520">Mendes</rs><ptr target="#note-t-36"/> I have to pass through the Jewish quarter.<ptr target="#note-t-37"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Should like you to hear the <rs type="person" ref="bio.xml#_53">Rev. Laurillard</rs> too, one day.</p>
+<p rend="indent" xml:id="p.en.23" n="23">And now, adieu, a handshake in thought from</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">Your loving brother,</p>
+<p xml:id="p.en.25" n="25">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Amsterdam 12 Junij 1877’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s request for a transfer (<ref target="let117.xml">117</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+  <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mrs Tersteeg’s health after the delivery of her child (<ref target="let114.xml">114</ref>)</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Their younger brother, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_420">Cor</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> was sympathetic to Theo’s request to be transferred away from The Hague, and immediately set about making arrangements. On 8 June he paid a visit to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent</rs> to discuss the possibilities and subsequently wrote to Theo: ‘I had the opportunity to explain everything at length. Uncle noted it all with interest. For the moment he thinks, as does <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Mr Tersteeg</rs>, that there are rather too many than too few employees abroad. But for all that he did not reject the idea, and will continue to think about what can be done. Do not therefore act hastily or rashly, I’ll take the subject up with Uncle again shortly’ (FR b2535). Their conversation was resumed on 16 June. Theo was advised to be patient; in Paris he could become only the youngest assistant, and: ‘Also because of what happened with Vincent, you must not <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">now</hi> go to Paris, other places can be investigated. Don’t spoil things in the meantime by acting too hastily’ (FR b2537).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+  Luke 5:4.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Cf. Rhy. ps. 42:7.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+  Rev. 21:5 and 2 Cor. 5:17.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+  Gen. 13:17.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_685">Lamartine</rs>’s <ref target="biblio.xml#lit_139"><hi rend="italics">Cromwell</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let119.xml#n-4">see letter 119, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>A motto of Apelles, originally quoted as ‘Nulla dies sine linea’. See Pliny, <ref target="biblio.xml#lit_140"><hi rend="italics">Naturalis historia</hi></ref>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xxxv</hi>, 36, 84. In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let162.xml">letter 162</ref>, Van Gogh says that he got the saying from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1043">Gavarni</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The small wood called the Muiderbos was located in the east of the city, between the Oosterbegraafplaats and the Muiderpoort; the Tropical Museum now stands on the site of the former cemetery. Cf. Groot and De Vries 1990, pp. 30-31.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_127">Jacobus Cornelus Kroes</rs>, at that time sexton of the Oosterkerk, lived with his wife, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_128">Maria Delvendiep</rs>, at Grote Wittenburgerstraat 25, behind the church (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">SAAm</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adresboek 1876-1877</hi> and G.D. Brom H.Gz., <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Oosterkerk te Amsterdam</hi>. Amsterdam 1922, p. 32). </p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1294">Alfred Rethel</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Der Tod als Freund </hi>(Death as a friend), 1851, engraved by  <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1551">Richard Julius Jungtow</rs> (Amsterdam, Rijksprentenkabinet). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1830">Ill. 1830</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Der Tod als Feind (Erwürger) </hi>(Death as an enemy (The strangler)), engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1598">Gustav Richard Steinbrecher</rs>, 1847 (Amsterdam, Rijksprentenkabinet) – the caption reads ‘Erstes Auftreten der Cholera auf einem Maskenball in Paris 1831’ (the first appearance of cholera at a fancy-dress ball in Paris 1831). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1831">Ill. 1831</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dance of death</hi> comprises six sheets, which were published as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Auch ein Todtentanz. Erfunden und gezeichnet von Alfred Rethel</hi>. With an explanatory text by Robert Reinick. 11th ed. Leipzig 1879. See ‘Zweites Blatt’ and ‘Sechstes Blatt’, both engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1538">August Gaber</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1832">Ill. 1832</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1833">Ill. 1833</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>On 10 June, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">Eliza Laurillard</rs> preached at 7 a.m. in the Noorderkerk.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+  Matt. 12:1, Mark 2:23 and Luke 6:1.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>
+  Matt. 13:3-9, Mark 4:3-20 and Luke 8:5-15.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>
+  Mark 4:27.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1191">J.J. van der Maaten</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1719"><hi rend="italics">The funeral in the cornfield</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let036.xml#n-2">see letter 36, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">Laurillard</rs> was considered a truly eloquent speaker, and his sermons were simple (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">BLGNP</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">BWPGN</hi>: ‘He preached so that a child could understand him’ (p. 635)).</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_318">J.P. Stricker</rs> conducted the 10 a.m. service held at the Oosterkerk.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>Rom. 2:29.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_757">Her Majesty Queen Sophia</rs> died on 7 June.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Vincent had made a good impression on both his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_317">Aunt W.C.G. Stricker-Carbentus</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_516">Margreet</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> wrote to Theo about it: ‘Aunt and Margr. just arrived. They have much good to tell of Vincent. We have also had a good letter from him, he seems to do his work in good spirits and, whenever he can, observes much of the intimate life of the world’ (FR b2535, 11 June 1877).</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>The quotation by Van Gogh, a prose poem by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_683">Hugues Félicité Robert de Lamennais</rs>, appeared in <ref target="biblio.xml#lit_141"><hi rend="italics">Amschaspands et Darvands</hi></ref>. Paris 1843, chapter 16, pp. 379-382. The book contains short prayers, stories and homilies that instil the reader with courage and spur him on to live life assertively. In the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Oeuvres complètes</hi> titled ‘Bahman à Schahriver’ (chapter 53). Ed. Louis le Guillou. Geneva 1981, vol. 10, pp. 379-382. This text also appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Voix de prison</hi>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lamennais. Une voix de prison</hi>. Text of the 1851 edition. Ed. Yves le Hir. Paris 1954, pp. 73-75. There are also various editions in which <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Une voix de prison</hi> was published together with other work by Lamennais, such as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Paroles d’un croyant</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le livre du peuple</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De l’esclavage moderne</hi>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les paroles d’un croyant de Lamennais</hi>. Ed. Yves le Hir. Paris 1949.</p>
+
+<p rend="indent">Van Gogh copied Lamennais’s text almost literally, the difference being that in all of the editions consulted the past tense of the verbs is spelled in the old way (oi), whereas Van Gogh always used the modern spelling (ai). The style of writing ‘en songe’ as opposed to ‘un songe’, as well as ‘lui offrent’ instead of ‘leur offrent’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-88">l. 88</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-103">l. 103</ref>), correspond to the Paris editions of 1866 and 1869 of Une voix de prison.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>The last line was taken from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_744">Emile Souvestre</rs>, <ref target="biblio.xml#lit_96"><hi rend="italics">Les derniers Bretons</hi></ref>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let093.xml#n-25">see letter 93, n. 25.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>The general map ‘Situatie van s’Rijks werf te Amsterdam 1878’ shows no cupola, but rather several so-called ‘roof-coverings’ (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">SAAm</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>Van Gogh is referring to Nieuwendam or Schellingwou, to the north-east across the River IJ.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>The <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_571">Rev. Reinier Posthumus Meijjes</rs> was married to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_573">Willemina Petronella van Maanen</rs>; they lived at Prinsengracht 1003.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1373">Bertel Thorvaldsen</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Winter (Old age)</hi>, 1836 (Stuttgart, Württembergisches Landesmuseum). This was the fourth marble relief in the series <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The four seasons – Four ages</hi>. The Thorvaldsen Museum has a marble replica (Copenhagen, Thorvaldsens Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1834">Ill. 1834</rs>. Van Gogh probably knew this work from a print.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_507">Nico Mager</rs>, who worked in Dordrecht for the same firm as Vincent, asked Theo in May to make an appointment in The Hague in connection with a vacancy at Goupil’s, for which position he wished to apply (FR b2529).</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+  
+<p>See for this quotation from the poem ‘<ref target="biblio.xml#lit_419">Under the stars</ref>’ by  <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_713">Mulock Craik</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let119.xml#n-15">letter 119, n. 15</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>Regarding the Trippenhuis, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let004.xml#n-3">see letter 4, n. 3.</ref> In June, apparently, a number of rooms were closed, including the one with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1835">Syndics</rs></hi> (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let121.xml">letter 121</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>Taken from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_696">Longfellow</rs>’s poem ‘<ref target="biblio.xml#lit_475">Maidenhood</ref>’ from the volume <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ballads and other poems</hi>. See Longfellow 1886-1891, vol. 1, p. 78.</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+
+<p>The drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The cave of Machpelah</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_8">F Juv. XXX / JH -</rs> ); cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let116.xml">letter 116</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>Possibly a depiction of what happened to the prophet Elijah in 1 Kings 19:4-11; this drawing is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="36" xml:id="note-t-36">
+                            
+
+<p>The classicist <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_520">Maurits Benjamin Mendes da Costa</rs>, who tutored Van Gogh in Latin and Greek, lived at Jonas Daniël Meijerplein 13 (on the third floor).</p>
+                        </note>
+                        
+                    
+                        <note n="37" xml:id="note-t-37">
+                            
+
+<p>The area around Nieuwmarkt, Jodenbreestraat, Jonas Daniël Meijerplein and Waterlooplein was known as the Jewish quarter. </p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

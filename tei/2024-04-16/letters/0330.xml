@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. London, Saturday, 8 May 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let033"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b26 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>033</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>26</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>033</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1875-05-08">Saturday, 8 May 1875</date>
+                            <placeName>London</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0026" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000027_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000027_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0026" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000027_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000027_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000027_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Londen 8 Mei 1875</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Dank voor Uw laatsten brief. Hoe is het met de zieke,─<ptr target="#note-t-1"/> van Pa hoorde ik reeds zij ziek was, dat het zoo erg was als gij schrijft wist ik echter niet.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Schrijf mij dit spoedig, als ge wilt.– Ja jongen “wat zullen wij zeggen”<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">C.M. &amp; de Hr. Tersteeg zijn hier geweest &amp; zijn l.l. Zaturdag weer vertrokken. Zij zijn naar mij dunkt wat te veel naar ’t Crystal Palace &amp; andere plaatsen waar zij niets te maken hadden, ge<c type="shy">-</c>weest. Zij hadden, dunkt mij, ook wel eens mogen komen zien waar ik woonde.─</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Gij vraagt mij naar Anna, maar daar zullen wij het later nog wel eens over hebben.─<ptr target="#note-t-4"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik hoop &amp; geloof dat ik niet ben wat menigeen op ’t oogen<c type="shy">-</c>blik van mij denkt, nous verrons, de tijd moet er overheen gaan;─ waarschijnlijk zegt men over een paar jaar hetzelfde van U; ten minste als gij blijft wat gij zijt; mijn broeder in dub<c type="shy">-</c>belen zin.─<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Gegroet, &amp; mijne groete aan de zieke. En te serrant la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.9" n="9">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p xml:id="p.nl.10" n="10">pour agir dans le monde, il faut mourir à soi-même. Le peuple qui se fait le missionnaire d’une pensée réligieuse n’a plus d’autre patrie que cette pensée.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">L’homme n’est pas ici-bas seulement pour être heureux, il n’y est même pas pour être simplement honnête. Il y est pour réaliser de grandes cho<c type="shy">-</c>ses par la société, pour arriver à la noblesse &amp; dépasser la vulgarité où se traîne l’existence de presque tous les individus.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.12" n="12">Renan<ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">London, 8 May 1875</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Thanks for your last letter. How is the patient?<ptr target="#note-t-1"/> I’d already heard from <rs type="person" ref="bio.xml#_526">Pa</rs> that she was ill, but I didn’t know that it was as bad as you said.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">Write to me about this soon, if you will. Yes, old boy, ‘what shall we say?’<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_422">C.M</rs>. and <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> were here and left again last Saturday. In my opinion they went a little too often to the Crystal Palace and other places that didn’t concern them. It seems to me they could also have come and seen where I lived.</p>
+<p rend="indent" xml:id="p.en.6" n="6">You ask about <rs type="person" ref="bio.xml#_412">Anna</rs>, but we’ll discuss that another time.<ptr target="#note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I hope and believe that I’m not what many think me to be at present, we’ll see, we have to give it time; people will probably say the same about you in a couple of years; at least if you continue to be what you are: my brother in two senses of the word.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Regards, and my regards to the patient. With a handshake,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.en.11" n="11">To act on the world one must die to oneself. The people that makes itself the missionary of a religious thought has no other country henceforth than that thought.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Man is not placed on the earth merely to be happy; nor is he placed here merely to be honest, he is here to accomplish great things through society, to arrive at nobleness, and to outgrow the vulgarity in which the existence of almost all individuals drags on.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13"><rs type="person" ref="bio.xml#_729">Renan</rs><ptr target="#note-t-6"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Londen 8 Mei 1875’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_445">Jannetje (Annet) Cornelia Haanebeek</rs>, a sister of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_761">Caroline van Stockum-Haanebeek</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>There was no hope of recovery for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_445">Annet Haanebeek</rs>. On 26 April 1875, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Lies</rs> wrote to Theo: ‘This poor Annet Haanebeek you wrote to me about, she’s still so young to have to die. Gosh, it would cost me a lot if already now I had to part from a world where there is so much to be enjoyed’ (FR b2332).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>See Ezra 9:10, Rom. 3:5, Rom. 9:14 and Rom. 9:30.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>From the family correspondence it emerges that Van Gogh’s behaviour had changed since August 1874 and that there was friction between him and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs>. His mood was sombre, his behaviour was considered strange and unfriendly, and he kept to himself. This change began after he left the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_497 bio.xml#_498">Loyers</rs> (FR b2723, b2726 b2728 and b2729).</p>
+
+<p rend="indent"><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> thus told Theo on 15 August 1874: ‘I’m always afraid that, especially when Anna goes away, Vincent will not take enough care – he was really so thin ... Vincent will also not have had it easy at the Loyerses’ – I’m glad he’s no longer there, there were too many secrets there and no family like ordinary people, but he will surely have been disappointed by them and his illusions will not have been realized – real life is different from what one imagines’ (FR b2715).</p>
+
+<p rend="indent">On 28 April, Anna wrote about Vincent’s behaviour to Theo: ‘I believe that he has illusions about people and judges people before he knows them, and then when he finds out what they’re really like and they don’t live up to the opinion he formed of them prematurely, he’s so disappointed that he throws them away like a bouquet of wilted flowers, without looking to see whether or not there are some among those wilted flowers which, when handled with care, are not quite rubbish yet. I’m very sorry that I visited him during the Christmas holidays and was a burden to him. If I had had any reason beforehand to suppose that he would be like that, I’d certainly have found some way or other of arranging things differently. I haven’t told this to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs>, they think he’s a great support to me and that appears to reassure them greatly’ (FR b2333).</p>
+
+<p rend="indent">Van Gogh’s remark is probably also connected with his impending transfer to Paris, which he seems not to have wanted. On 24 May 1875, Mr van Gogh wrote to Theo: ‘[<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent</rs>] also told me that Vincent is in Paris. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_256">Mr Tripp</rs> [Richard Howard Tripp (Trip)] – an Englishman – replaced him temporarily, during the exhibition in London – in Paris he’s in charge of the gallery. It will have been a disappointment to Vincent not to have been able to work in London just then.’ Mrs van Gogh wrote: ‘We have letters from Vincent himself in Paris. He writes nothing more than: the gentlemen have found it best to let Tripp replace me for 6 to 8 weeks. It’s certainly a change he didn’t expect and perhaps isn’t easy for him’ (FR b2338).</p>
+
+<p> During his short spell in Paris in 1874, Van Gogh did not write to his parents very often, and they regretted the resulting estrangement (FR b2735, to Theo, 3 December 1874).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This passage could allude to the fact that they both suffered from unrequited love (Theo’s for<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_445"> Annet Haanebeek</rs> and Vincent’s for her sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_761">Caroline</rs>). See Cassee 1997.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The quotation is a combination of two abridged passages from <ref target="biblio.xml#lit_28"><hi rend="italics">Etudes d’histoire religieuse</hi></ref>. Paris 1857, pp. 121, 393. See also Ernest Renan, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Oeuvres complètes.</hi> Ed. H. Psichari. Paris 1947-1961, vol. 7, pp. 109, 279. The English translation is from E. Renan, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Studies of religious history and criticism</hi>. Translation O.B. Frothingham. New York 1864, pp. 141, 323.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

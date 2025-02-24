@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Tuesday, 4 September 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let674"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b574 a-b V/1962 and b584 b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>674</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>532</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>678</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-09-04">Tuesday, 4 September 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0574 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000772_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000772_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000772_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0574 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000772_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000772_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000772_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0574 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000773_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000773_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0574 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000773_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000773_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0584 b" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000789_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000789_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0584 b" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000789_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000789_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">mon cher Theo</p>
+
+<p xml:id="p.fr.2" n="2">Je t’écris en attendant Bock le belge qui va partir ce matin de bonne heure.<ptr target="#note-t-1"/> il a déjà 33 ans dont 10 ans de Paris et de voyage<c type="kp">_</c>– Sa soeur est plus agée que lui encore<c type="kp">_</c><ptr target="#note-t-2"/> Quoique jusqu’ici il n’aie pas encore été grand chôse comme peintre<c type="kk">/</c> si par son retour au pays il peut secouer enfin son fainéantisme produit par l’énervement Parisien et la fréquentation des fainéants<c type="kk">/</c> alors il se trouve à l’entrée tout juste d’une carrière de vrai peintre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Il est bien de son pays<ptr target="#note-t-a"/> car dans son parler et dans ses manières moi je reconnais fort bien l’accent de son pays<c type="kk">/</c> la timidité de ces charbonniers auquels je pense encore si souvent. Tu verras probablement ses deux tableaux qu’il apporte<c type="kk">/</c> le dessin en est faible mais la couleur commence déjà à être vivante.<ptr target="#note-t-3"/> Sa soeur va peutêtre faire un tour en Hollande<ptr target="#note-t-4"/> et vaguement j’y ai pensé que je voudrais bien que notre soeur à nous et elle se rencontrent<c type="kp">_</c> J’ai toujours espérance que Wil trouvera par notre intermédiaire à se marier avec un artiste<c type="kp">_</c> Or pour arriver à cela il faudrait qu’elle soit un peu dans le mouvement. Si la soeur à Bock va effectivement en Hollande il n’y aurait qu’à dire à Bock que si elle veut faire des études à Breda elle peut loger chez la mère et la soeur.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Ils y seront à la maison pour les quelques frais bien peu importants (ils logent assez de gens inutiles) mais enfin ce serait une occasion de faire connaissance<c type="kp">_</c> Mais n’insistons pas trop.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Seulement c’est chez les Bock une maison de peintre<c type="kk">/</c> les deux enfants étant dans le métier<c type="kk">/</c> avec cela ils ne sont pas sans le sou.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Maintenant il y a juste une semaine que je t’ai envoyé une commande de couleurs. et une lettre pour Tasset pour lui demander s’il pourrait fournir de la couleur broyée à gros grain à meilleur marché<c type="kp">_</c> <hi rend="italics">Actuellement</hi> je me trouve presque à bout de toute ma provision de couleur – en tout il me reste une douzaine &amp; demie de tubes divers. Il est donc nécessaire que je remplace la commande en question par une autre. que tu trouveras ci jointe<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Si Tasset ne pourrait pas faire de la couleur à meilleur marché il faudrait envoyer les tubes doubles comme d’habitude mais il m’en faudrait dans ce format de tubes 2 fois davantage. Tant que je ne les aurai pas il me faudra dessiner car je suis épuisé en tant que quant à la couleur.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Ni Gauguin ni Bernard ne m’ont écrit de nouveau. Je crois que Gauguin s’en fout complètement voyant que cela ne se fait pas tout de suite et moi de mon côté voyant que 6 mois durant Gauguin se débrouille tout de même<c type="kk">/</c> cesse de croire à l’urgence de venir à son aide.–</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Or soyons prudents là-dedans<c type="kp">_</c> Si cela ne lui va pas ici il pourrait me faire des reproches: “pourquoi m’as tu fait venir dans ce sale pays”<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Et je ne veux pas de ça<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Naturellement nous pouvons rester amis avec Gauguin tout de même mais je ne vois que trop que son attention est ailleurs.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je me dis<c type="kk">/</c> agissons comme s’il n’était pas là<c type="kk">/</c> alors s’il vient tant mieux<c type="kk">/</c> s’il ne vient pas tant pis.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Que je voudrais m’établir de façon à avoir un chez moi. Je ne cesse de me dire que si dans le commencement nous 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>eussions dépensé pour nous meubler même 500 francs nous aurions deja regagné le tout et j’aurais les meubles et je serais délivré déjà des logeurs. Je n’insiste pas mais ce n’est pas sage ce que nous faisons actuellement<c type="kp">_</c> Il y aura toujours des artistes de passage ici<c type="kk">/</c> désireux d’échapper aux rigueurs du nord. Et je sens moi que je serai toujours de ce nombre. Vrai que mieux vaudrait probablement d’aller un peu plus bas où l’on serait plus abrité. Vrai que cela ne sera pas absolument commode à trouver mais raison de plus<c type="kk">/</c> en s’etablissant ici les frais de déménagement ne sauraient être énormes. d’ici par ex. à Bordighera ou ailleurs à la hauteur de Nice. Une fois installés nous y resterions toute notre vie. Attendre qu’on soit bien riche c’est un triste systeme et voila ce que je n’aime pas dans les de Goncourt quoique ce soit la verité – ils finissent par acheter leur chez eux et leur tranquilité cent mille francs<c type="kp">_</c><ptr target="#note-t-7"/> Or nous l’aurions à moins de mille en tant que d’avoir un atelier dans le midi où nous pourrions loger quelqu’un.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Mais s’il faut faire fortune avant......... on sera complètement névrosé au moment d’entrer dans ce repos et cela est pire que l’etat actuel où nous pouvons encore supporter tous les bruits. Mais soyons sages pour savoir que nous nous abrutissons tout de même.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Il vaut mieux loger les autres que de ne pas être logé soi-même ici<c type="kk">/</c> surtout en logeant chez le logeur qui meme en payant ne procure pas un logement où l’on est chez soi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Pour Gauguin il se laisse peut être aller à veau<ptr target="#note-t-b"/> l’eau sans s’occuper de l’avenir c’est probable. Et peutêtre il dit que je serai toujours là et qu’il a notre parole<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais il est encore temps de la retirer et vraiment je m’en sens bien tenté car faute de lui naturellement je m’occuperais d’une autre combinaison<c type="kp">_</c> Tandis qu’à présent on est tenu. Si Gauguin trouve de quoi vivre tout de même<c type="kk">/</c> a-t-on le droit de le déranger. J’évite d’écrire à Gauguin de peur de dire trop carrément<c type="kk">/</c> voilà bien des mois que nous trouvons de quoi vivre chez les logeurs mais que nous prétendons ne pas pouvoir nous rejoindre tout en nous epuisant meme pour l’avenir. 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>Si vous eussiez voulu<c type="kk">/</c> pourquoi ne m’avez vous pas dit de venir dans le Nord<c type="kk">/</c> je l’aurais déjà fait.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Cela aurait couté un simple billet de cent francs alors qu’aujourd’hui durant ces mois que cela traîne j’ai déjà payé ce même billet à mon logeur et vous chez le vôtre avez dû faire la même chôse ou vous avez fait 100 francs de dettes. Ce qui fait déjà <hi rend="italics">au moins</hi> 100 francs de pure perte pour absolument rien<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Voila ce que j’ai sur le coeur et qui me fait dire que tant lui que moi agissons actuellement comme des fous. Est ce vrai ou non<c type="kp">_</c> Certes la vérité est même encore plus grave. Si lui n’est pas dans la <hi rend="italics">nécessité</hi> de changer sa vie<c type="kk">/</c> il est ou bien plus riche que moi ou bien il a considerablement davantage de chance<c type="kp">_</c> Se ruiner coûte plus cher que réussir et certes c’est de notre faute si nous n’avons pas davantage de paix.</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Poignée de main et à bientôt car j’espère bien que tu trouveras encore le temps de me reparler du sejour chez toi de notre soeur.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+  
+<p xml:id="p.fr.23" n="23">Bock sera chez toi probablement dans une semaine ou dix jours. </p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.24" n="24">En comptant les tournesols j’ai actuellement encore ici une quinzaine de nouvelles études<c type="kp">_</c><ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p xml:id="p.fr.25" n="25">Couleurs broyées à plus gros grain en grands tubes comme les grands tubes de blanc d’argent et de zinc.— pour la décoration<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.26" n="26">Cobalt..... grands tubes              6</p>
+
+<p xml:id="p.fr.27" n="27">Outremer                                  6</p>
+
+<p xml:id="p.fr.28" n="28">Vert véronese                            6</p>
+
+<p xml:id="p.fr.29" n="29">Vert émeraude                           6</p>
+
+<p xml:id="p.fr.30" n="30">Vermillon                                  2</p>
+
+<p xml:id="p.fr.31" n="31">Chrome 1 citron                        6</p>
+
+<p xml:id="p.fr.32" n="32">  ,,         2                                  6</p>
+
+<p xml:id="p.fr.33" n="33">  ,,         3                                  6</p>
+
+<p xml:id="p.fr.34" n="34">Mine orange                              2</p>
+
+<p xml:id="p.fr.35" n="35">Ocre jaune                                1</p>
+
+<p xml:id="p.fr.36" n="36">6 Blanc de zinc                         6</p>
+
+<p xml:id="p.fr.37" n="37">6 Blanc d’argent                        6</p>
+<space unit="lines" quantity="1"/>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p xml:id="p.fr.38" n="38">Petits tubes</p>
+
+<p xml:id="p.fr.39" n="39">6 Bleu de Prusse</p>
+
+<p xml:id="p.fr.40" n="40">6 Laque Geranium</p>
+
+<p xml:id="p.fr.41" n="41">6 Carmin</p>
+
+<p xml:id="p.fr.42" n="42">6 Laque ordinaire</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo</p>
+<p xml:id="p.en.2" n="2">I write to you while waiting for <rs type="person" ref="bio.xml#_869">Boch</rs>, the Belgian, who’s leaving early this morning.<ptr target="#note-t-1"/> He’s already 33 years old, including 10 years of Paris and travels. His <rs type="person" ref="bio.xml#_870">sister</rs> is even older than he is.<ptr target="#note-t-2"/> Although until now he hasn’t been anything very much as a painter yet, if by returning to his country he can at last shake off his idleness, caused by the enervation in Paris, and by keeping company with idlers, then he’ll find himself on the very threshold of a career as a true painter.</p>
+<p rend="indent" xml:id="p.en.3" n="3"><rs type="person" ref="bio.xml#_869">He</rs>’s very much of his country, because in his speech and in his manners I recognized very clearly the accent of his country, the timidity of those miners, whom I still think about so often. You’ll probably see his two paintings that he’s bringing; the drawing in them is poor, but the colour is already beginning to be lively.<ptr target="#note-t-3"/> His <rs type="person" ref="bio.xml#_870">sister</rs> will perhaps make a tour in Holland,<ptr target="#note-t-4"/> and I’ve thought in a vague way that I’d really like it if our own <rs type="person" ref="bio.xml#_407">sister</rs> and she were to meet. I always have hopes that through us, Wil may be able to marry an artist. Now to bring that about she’d have to be a little bit up to date. If Boch’s sister actually goes to Holland, we’d only have to say to Boch that if she wants to study in Breda, she can stay with our <rs type="person" ref="bio.xml#_524">mother</rs> and our sister. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">That’ll put them to some very small expenses at home (they put up enough useless people), but after all, it would be an opportunity to become acquainted. But let’s not press the point.</p>
+<p rend="indent" xml:id="p.en.5" n="5">But at the <rs type="person" ref="bio.xml#_871">Bochs</rs>’ home, it’s a household of painters; the two children being in the profession, with that they’re not penniless.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Now I sent you an order for colours exactly a week ago. And a letter for <rs type="person" ref="bio.xml#_785">Tasset</rs>, asking him if he could supply coarsely ground colours more cheaply. <hi rend="italics">At this very moment </hi>I’m almost at the end of my supply of colours — altogether I’ve about a dozen and a half different tubes left. So it’s necessary for me to replace the order in question with another. Which you’ll find attached.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">If <rs type="person" ref="bio.xml#_785">Tasset</rs> couldn’t do colours more cheaply, you’d have to send double tubes as usual, but I’d need twice as many tubes of that size. Until I have them I’ll have to draw, because I’ve run out as far as colours are concerned. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Neither <rs type="person" ref="bio.xml#_1039">Gauguin</rs> nor <rs type="person" ref="bio.xml#_831">Bernard</rs> has written to me again. I believe that Gauguin doesn’t give a damn, seeing that it isn’t happening right away, and for my part, seeing that Gauguin has been managing anyway for 6 months, I’m ceasing to believe in the urgent need to come to his assistance.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Now let’s be careful about it. If it doesn’t suit him, he could reproach me: ‘why have you made me come to this filthy part of the country?’</p>
+<p rend="indent" xml:id="p.en.10" n="10"> And I don’t want any of that.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Of course, we can remain friends with <rs type="person" ref="bio.xml#_1039">Gauguin</rs> all the same, but I see all too clearly that his attention is elsewhere.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I say to myself, let’s behave as if he wasn’t there, then if he comes, so much the better, if he doesn’t come, too bad.</p>
+<p rend="indent" xml:id="p.en.13" n="13">How I’d like to set myself up so that I could have a home of my own! I never stop telling myself that if at the start we’d 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> spent even 500 francs on furnishing, we would already have recouped all of it, and I would have furniture and I would be free of lodging-house keepers by now. I’m not pressing the point, but what we’re doing now isn’t wise. There will always be artists passing through here, wishing to escape the harshness of the north. And I feel myself that I’ll always be among that number. True that it would probably be better to go a bit further down, where you’d be more sheltered. True that it won’t be entirely easy to find, but all the more reason; if we set ourselves up here, the costs of moving shouldn’t be enormous. From here to Bordighera, for example, or somewhere near Nice. Once we’d settled, we’d stay there for the rest of our lives. Waiting until you’re very rich is a sorry system, and that’s what I don’t like about the <rs type="person" ref="bio.xml#_617 bio.xml#_618">De Goncourt</rs>s, although it’s the truth — they end up paying a hundred thousand francs for their home and their peace of mind.<ptr target="#note-t-7"/> Now we’d have it for less than a thousand, in that we’d have a studio in the south where we could put someone up. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">But if we have to make a fortune first......... we’ll be totally neurotic by the time we reach that sort of tranquillity, and that’s worse than our present state, in which we can still stand all sorts of noises. But let’s be wise enough to know that we’re getting dull-witted all the same.</p>
+<p rend="indent" xml:id="p.en.15" n="15">It’s better to lodge others than not to be lodged ourselves here, especially lodging with an innkeeper, which even when you pay doesn’t provide you with a lodging where you feel at home.</p>
+<p rend="indent" xml:id="p.en.16" n="16">As for <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, he’s perhaps letting himself drift with the current without thinking about the future, it’s likely. And perhaps he’s saying that I’ll always be there, and that he has our word.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But there’s still time to take it back, and truly I feel very tempted to do so, because failing him, I would of course think about another partnership. Whereas at present we’re held to it. If <rs type="person" ref="bio.xml#_1039">Gauguin</rs> finds enough to live on as it is, have we the right to bother him? I’m avoiding writing to Gauguin for fear of saying too bluntly, look, for many months now we’ve been finding enough to live with lodging-house keepers, but claiming that we can’t join together, while at the same time even wearing ourselves out for the future. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> If you’d wished, why didn’t you tell me to come to the north? I’d have done it by now.</p>
+<p rend="indent" xml:id="p.en.18" n="18">It would have cost a mere hundred-franc note, whereas today, during these months that it’s been dragging on, I’ve already paid that same note to my lodging-house keeper, and you must have done the same with yours, or you’ve gone into debt for 100 francs. Which by now makes <hi rend="italics">at least</hi> 100 francs pure waste for absolutely nothing.</p>
+<p rend="indent" xml:id="p.en.19" n="19">That’s what rankles with me, and what makes me say that both he and I are behaving like madmen at the moment. Is that true or not? In fact, the truth is even more serious. If he’s not in <hi rend="italics">need </hi>of changing his way of life, he’s either much richer than me or he has considerably better luck. Ruining oneself costs more than succeeding, and it’s certainly our fault if we haven’t more peace.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Handshake and more soon, because I really hope that you’ll still find time to tell me more about our <rs type="person" ref="bio.xml#_407">sister</rs>’s stay with you.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Ever yours,</p>
+<p xml:id="p.en.22" n="22">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23"><rs type="person" ref="bio.xml#_869">Boch</rs> will probably be with you in a week or ten days.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">Including the sunflowers, I still have about fifteen new studies here at the moment.<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p xml:id="p.en.26" n="26">Colours, ground more coarsely, in large tubes like the large tubes of silver white and zinc. For the decoration.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">Cobalt….. large tubes  6</p>
+<p xml:id="p.en.28" n="28">Ultramarine    6</p>
+<p xml:id="p.en.29" n="29">Veronese green   6</p>
+<p xml:id="p.en.30" n="30">Emerald green   6</p>
+<p xml:id="p.en.31" n="31">Vermilion     2</p>
+<p xml:id="p.en.32" n="32">Chrome 1 lemon   6</p>
+<p xml:id="p.en.33" n="33">Chrome 2    6</p>
+<p xml:id="p.en.34" n="34">Chrome 3    6</p>
+<p xml:id="p.en.35" n="35">Orange lead    2</p>
+<p xml:id="p.en.36" n="36">Yellow ochre   1</p>
+<p xml:id="p.en.37" n="37">6 Zinc white    6</p>
+<p xml:id="p.en.38" n="38">6 Silver white   6</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p xml:id="p.en.40" n="40">Small tubes</p>
+<p xml:id="p.en.41" n="41">6 Prussian blue</p>
+<p xml:id="p.en.42" n="42">6 Geranium lake</p>
+<p xml:id="p.en.43" n="43">6 Carmine 6 Ordinary lake</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Since Van Gogh says in <ref target="let673.xml">letter 673</ref> of Monday, 3 September that he will be seeing Boch again ‘tomorrow’, and he writes in the present letter that he expects him ‘this morning’, we have dated this letter Tuesday, 4 September 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The sheet with the paint order that we place at the end of this letter led a nomadic existence in earlier editions. Jo van Gogh-Bonger did not include it in <hi rend="italics">Brieven </hi>1914; in <hi rend="italics">Verzamelde brieven</hi> 1952-54 her son V.W. van Gogh put it with <ref target="let758.xml">letter 758</ref>; in <hi rend="italics">De brieven</hi> 1990 it was printed with <ref target="let685.xml">letter 685</ref>. Dorn suggested placing it with <ref target="let677.xml">letter 677</ref> (Dorn 1990, p. 505). His argument is that in <ref target="let676.xml">letter 676</ref> Van Gogh says ‘I'll write to you tomorrow on the subject of this coarse paint’ <ref target="let676.xml#l-87">(ll. 87-88)</ref> and that the list discussed here is the outcome of that intention.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">We see the remark at the top of the list <ref target="#l-149">(ll. 149-151)</ref> more as an instruction than as a resumption of the subject in question. In part for this reason we think that the list was an order that Theo was to give to Tasset. Our decision to put the order with the present letter is based on two factors. Van Gogh writes that he wants to replace a previous order with a larger one, and duly encloses a list <ref target="#l-37">(ll. 37-39)</ref>, but his change of mind came too late to stop the original order from being delivered. It is at any rate highly unlikely that the order he received, which he refers to in <ref target="let676.xml">letter 676</ref>, was the revised version; the intervening period of four days is too short. After Theo received the new order enclosed with the present letter, he must have heard from Tasset that the original order was already on its way to Arles, so he would not have placed the new order. This reconstruction also explains why the sheet has survived.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Secondly, the letter mentions the link between the degree of coarseness of the pigment and the size of the tubes <ref target="#l-40">(ll. 40-43)</ref>; we believe that the remark at the top of the list, where this connection is also made <ref target="#l-149">(ll. 149-151)</ref>, refers to this.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Boch’s visit to Theo <ref target="let673.xml">(673)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Willemien’s visit to Paris <ref target="let660.xml">(660)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let669.xml#n-16">See letter 669, n. 16,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs>’s departure from Arles. </p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> turned 33 on 1 September 1888. His sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna</rs> was seven years older. Boch had lived in Paris since 1879 and travelled widely: In 1881 he went to Italy, and between 1885 and 1910 he visited, among other places, Corsica, Spain, the south of France, the Balearics and Algeria. See exhib. cat. Saarbrücken 1971, pp. 44, 47-48.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p> ‘Être bien de son pays’ is a French expression that means ‘to know nothing of the world, to be simple, naive’, but Van Gogh uses it literally.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>We do not know which two paintings <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> took to Paris. For his work from this period <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let650.xml#n-17">see letter 650, n. 17.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Nothing is known about a visit to the Netherlands by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna Boch</rs> in this period. She stayed there on several occasions in the early part of the twentieth century. See exhib. cat. Saarbrücken 1971, pp. 14, 30.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_871">Victor Boch</rs>, Eugène and Anna’s father, was managing director of the china factory Villeroy &amp; Boch in La Louvière. In 1881 he had spent two months travelling through Italy with his children, going to museums. See exhib. cat. Saarbrücken 1971, p. 47.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh had enclosed this paint order and letter for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let668.xml">letter 668</ref>, sent on 23 or 24 August, in other words rather more than ‘a week ago’. On 8 September (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let676.xml">letter 676</ref>) he confirmed that Tasset’s consignment had arrived. In view of the short intervening period, this cannot possibly have been the new order sent with the present letter, so it must be the order that went with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let668.xml">letter 668</ref>. See also <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arrangement</hi> above.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Van Gogh is referring here to what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Jules and Edmond de Goncourt</rs> noted in their <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Journal </hi>on 12 September 1868: ‘After buying this house for almost a hundred thousand francs, which bourgeois logic would view as totally unreasonable given our limited funds, we offer two thousand francs, which is more than the Emperor or de Rothschild would pay for a passing fancy, for a Japanese monstrosity, a fascinating bronze, which something told us we just had to have’. (Après l’achat de cette maison de près de cent mille francs, cette maison si déraisonnable au point de vue de la raison bourgeoise devant notre petite fortune, nous offrons deux mille francs, un prix dépassant le prix d’un caprice de l’Empereur ou de Rothschild, pour un monstre japonais, un bronze fascinatoire, que je ne sais quoi nous dit que nous devons posséder.) See Goncourt 1887-1906, vol. 3, p. 234. In the months of August and September 1868 they are full of their house, and write more than once about how expensive it is; cf. e.g. 4 August 1868 and 16 April 1869 (pp. 223, 289).</p>
+
+<p rend="indent">In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_507">La maison d’un artiste</ref></hi> (1881) Edmond de Goncourt gave a detailed description of his house at 53 boulevard Montmorency. All the works of art in it are listed as if it were a museum guide. The descriptions serve in part to rehabilitate eighteenth-century art and the artistic treasures of French culture. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La maison d’un artiste</hi>. With a postscript by Pol Neveux. 2 vols. Paris n.d. </p>
+
+<p rend="indent">Various authors have regarded this passage as an allusion to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_507">La maison d’un artiste</ref></hi>, see Van Uitert 1993, pp. 139-140 and Dorn 1990, pp. 40, 233 (n. 36), however nowhere is there an explicit indication that Van Gogh had read this book; in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let677.xml">letter 677</ref> he did, though, refer to ‘une maison d’un artiste’ (an artist’s house). Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let681.xml#n-6">letter 681, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘vau’. Van Gogh mentioned the novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_452">A vau-l’eau </ref></hi>by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_672">J.K. Huysmans</rs> in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let669.xml">letter 669</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh had made four paintings of sunflowers: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2701">F 453 / JH 1559</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2702">F 459 / JH 1560</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>. The new studies in any event also included the following works, mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let659.xml">letters 659</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let673.xml">673</ref>: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘The peasant’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2694">F 443 / JH 1548</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Thistles </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2696">F 447 / JH 1550</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Caravans with fairground travellers</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2698">F 445 / JH 1554</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Railway carriages </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2697">F 446 / JH 1553</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Quay with sand barges </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2700">F 449 / JH 1558</rs>), the unknown study of thistles and butterflies (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let666.xml">letter 666</ref>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier (‘The peasant’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2705">F 444 / JH 1563</rs>), a flower still life (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let671.xml">letter 671</ref>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Shoes </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2707">F 461 / JH 1569</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Eugène Boch</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘The poet’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2710">F 462 / JH 1574</rs>). This brings the number of studies to fourteen; two other flower still lifes (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let671.xml#n-3">see letter 671, n. 3</ref>) and the two versions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sand barges</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2708">F 437 / JH 1570</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2709">F 438 / JH 1571</rs>) may also have been done in the second half of August (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let666.xml#n-10">see letter 666, n. 10</ref>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

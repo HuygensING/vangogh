@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Thursday, 4 April 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let754"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b630 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>754</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>583</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>758</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-04-04">on or about Thursday, 4 April 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0630" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000860_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000860_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000860_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0630" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000860_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000860_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000860_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Quelques mots pour te souhaiter à toi &amp; à ta fiancée bien du bonheur de ces jours ci. C’est comme un tic nerveux chez moi qu’à l’occasion d’un jour de fête j’éprouve généralement des difficultés à formuler une félicitation mais de là il ne faudrait pas conclure que moins ardemment que qui que ce soit je désire ton bonheur, ainsi que tu le sais bien.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai encore à te remercier de ta dernière lettre ainsi que de l’envoi de couleurs de Tasset<ptr target="#note-t-1"/> et de plusieurs N<hi rend="super">os</hi> du Fifre avec des dessins de Forain.–<ptr target="#note-t-2"/> Ces derniers m’ont surtout produit l’effet que ce que je fabrique devient bien sentimental à côté.–</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’attendais quelques jours avant de répondre<c type="kk">/</c> ignorant le jour où tu partirais pour Amsterdam<c type="kk">/</c> d’ailleurs j’ignore egalement si c’est à Breda ou à Amsterdam que tu te marieras<c type="kp">_</c> Mais si comme je suis porté à croire ce sera à Amsterdam alors j’ai presumé que vers Dimanche tu y trouverais cette lettre.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Tenez – juste aujourd’hui l’ami Roullin est venu me voir – il m’a dit de te dire bien des chôses de sa part et de te feliciter<c type="kp">_</c>– Sa visite m’a fait considérablement du plaisir, lui a souvent à porter des fardeaux qu’on dirait trop lourds.<ptr target="#note-t-3"/> cela n’empêche pas que comme c’est une forte nature de paysan<c type="kk">/</c> il a toujours l’air bien portant et réjoui même – cependant pour moi qui en apprends toujours du nouveau avec lui<c type="kk">/</c> quelles leçons pour l’avenir il y a dans sa conversation quand il semble dire que la route ne devient pas plus commode en avançant dans la vie<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>J’ai causé avec lui pour avoir son opinion sur ce que je devais faire quant à l’atelier que je dois quitter dans tous les cas<c type="kk">/</c> à ce que me conseillaient M<c type="kp">_</c> Salles et Rey<c type="kk">/</c> à Pâques<c type="kp">_</c><ptr target="#note-t-4"/> Je disais à Roullin qu’ayant fait bien des chôses pour mettre cette maison en bien meilleur état que je ne l’avais prise et surtout pour le gaz que j’y ai fait mettre<c type="kk">/</c> je considérais cela comme un travail qu’on a fait.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">On me force de partir – bon – mais pour enlever le gaz – pour me querreller pour dommages interêts ou autre chôse<c type="kk">/</c> certes il y aurait de quoi mais je n’en ai pas le coeur. La seule chôse que dans ce cas je trouve possible c’est de se dire qu’on aurait cherché à arranger une habitation pour des successeurs inconnus.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Et d’ailleurs avant de voir Roulin j’avais déjà été à l’usine de gaz<ptr target="#note-t-5"/> pour arranger cela ainsi.– Et Roullin était du même avis.– Lui compte rester à Marseille.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Je vais bien de ces jours ci sauf un certain fond de tristesse vague difficile à definir – mais enfin – j’ai plutot pris des forces physiquement au lieu d’en perdre et je travaille<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">J’ai justement sur le chevalet un verger de pêchers au bord d’un chemin avec les Alpines dans le fond.<ptr target="#note-t-6"/> Il parait que dans le Figaro il y a eu un bel article sur Monet<c type="kk">/</c><ptr target="#note-t-7"/> Roullin l’avait lu et en avait été frappé disait-il<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">C’est en somme une question assez difficile à resoudre que de prendre un nouvel apartement, et meme de le trouver, surtout au mois.– M. Salles m’a parlé d’une maison à 20 francs qui est fort bien mais il n’est pas sûr que je pourrai l’avoir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">A Paques il me faudra payer 3 mois de loyer<c type="kk">/</c> le démenagement &amp;c<c type="kp">_</c> Tout cela n’est ni gai ni commode<c type="kp">_</c> Surtout puisqu’absolument rien nous promet meilleure chance<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Roullin disait ou plutot faisait entendre qu’il n’aimait pas du tout l’inquiétude qui a regné ici à Arles cet hiver<c type="kk">/</c> considéré même tout à fait en dehors de la part qui en est tombé sur moi<c type="kp">_</c> Enfin c’est un peu partout comme ça<c type="kk">/</c> les affaires qui ne marchent pas fort<c type="kk">/</c> les expédients usés<c type="kk">/</c> les gens decouragés et – – – – comme tu le disais<c type="kk">/</c> ne se contentant pas de rester spectateurs et devenant méchant par desoeuvrement<c type="kp">_</c> Si quelqu’un rit encore ou travaille<c type="kk">/</c> vite de taper dessus<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Enfin mon cher frère je crois que bientôt je ne serai plus malade assez pour demeurer interné<c type="kp">_</c>– Sans cela je commence à m’y habituer et si je devais rester pour de bon dans un hospice je m’y ferais et je crois que je pourrais y trouver des motifs à peindre aussi<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Ecris moi bientôt si tu en trouves le temps.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">La famille de Roullin était toujours à la campagne<ptr target="#note-t-8"/> et quoiqu’il gagne un tant soit peu davantage, les dépenses séparées ayant augmentées en proportion, ils ne sont en realité pas un liard plus riche et il n’était pas sans soucis très pénibles<c type="kp">_</c> Heureusement le temps est beau et le soleil glorieux et les gens d’ici momentanément oublient vite toutes leurs peines et alors rayonnent d’entrain et d’illusions.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">j’ai relu de ces jours ci les contes de noël de Dickens<ptr target="#note-t-9"/> où il y a des choses tellement profondes qu’il faut souvent les relire<c type="kk">/</c> cela a énormément des rapports avec Carlyle<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Roullin tout en n’étant pas tout à fait assez agé pour etre pour moi comme un père<c type="kk">/</c><ptr target="#note-t-10"/> toutefois il a pour moi des gravités silencieuses et des tendresses comme serait d’un vieux soldat pour un jeune. Toujours – mais sans une parole – un je ne sais quoi qui parait vouloir dire: nous ne savons pas ce qui nous arrivera demain mais quoi qu’il en soit<c type="kk">/</c> songe à moi<c type="kp">_</c> Et cela fait du bien quand cela vient d’un homme qui n’est ni aigri, ni triste, ni parfait, ni heureux<c type="kk">/</c> ni toujours irréprochablement juste, mais si bon enfant et si sage et si ému et si croyant. Ecoute – je n’ai pas le droit de me plaindre de quoi que ce soit d’Arles lorsque je songe à de certains que j’y ai vu et que jamais je ne pourrai oublier.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Il se fait tard<c type="kk">/</c> encore une fois je te souhaite à toi et à Jo bien du bonheur et en pensee poignées de main.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">t. à t.</p>
+
+<p xml:id="p.fr.20" n="20">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">A few words to wish you and your <rs type="person" ref="bio.xml#_416">fiancée</rs> much happiness these days. It’s like a nervous tic with me that on the occasion of a day of celebration I generally experience difficulties in formulating a congratulation, but it shouldn’t be concluded from that that I desire your happiness less ardently than anyone else, as you well know.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I still have to thank you for your last letter, as well as for the consignment of colours from <rs type="person" ref="bio.xml#_785">Tasset</rs><ptr target="#note-t-1"/> and several issues of Le Fifre with drawings by <rs type="person" ref="bio.xml#_1028">Forain</rs>.<ptr target="#note-t-2"/> The latter have often had the effect on me that what I manufacture becomes very sentimental in comparison.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I waited a few days before replying, not knowing which day you would leave for Amsterdam, besides I also don’t know whether it’s in Breda or Amsterdam that you’ll be getting married. But if, as I’m led to believe, it will be in Amsterdam, then I presumed that you would find this letter there around Sunday.</p>
+<p rend="indent" xml:id="p.en.5" n="5">By the way — just today friend <rs type="person" ref="bio.xml#_647">Roulin</rs> came to see me — he told me to give you his warm regards and to congratulate you. His visit gave me considerable pleasure, he often has to carry burdens which one would say were too heavy.<ptr target="#note-t-3"/> As he has a strong peasant nature, that doesn’t prevent him from always looking well and even joyful — however for me, who am always learning something new from him, what lessons for the future there are in his conversation when he seems to say that the road doesn’t become easier as one advances in life. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> I talked with him to have his opinion on what I ought to do as regards the studio, which I must leave in any case, as I was advised by <rs type="person" ref="bio.xml#_663">Mr Salles</rs> and <rs type="person" ref="bio.xml#_637">Rey</rs>, at Easter.<ptr target="#note-t-4"/> I told Roulin that having done many things to put this house in a much better state than I had taken it in, and above all for the gas which I had put in, I considered it as a piece of work we have done.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m being forced to leave — all right — but to take away the gas — to make a fuss for damages or something else, certainly there would be justification but I don’t have the heart for it. The only thing that I find possible in this case is to tell ourselves that we’d have tried to set up a habitation for unknown successors.</p>
+<p rend="indent" xml:id="p.en.7" n="7">And besides, before seeing <rs type="person" ref="bio.xml#_647">Roulin</rs> I had already been to the gasworks<ptr target="#note-t-5"/> to arrange it so. And Roulin was of the same opinion. He’s planning to remain in Marseille.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I’m well these days, apart from a certain vague background sadness that’s hard to define — but anyway — I’ve gained physical powers rather than lose them, and I’m working.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Just now I have on the easel an orchard of peach trees beside a road with the Alpilles in the background.<ptr target="#note-t-6"/> It appears that there’s a fine article on <rs type="person" ref="bio.xml#_1222">Monet</rs> in Le Figaro,<ptr target="#note-t-7"/> <rs type="person" ref="bio.xml#_647">Roulin</rs> had read it and had been struck by it, he said. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">All in all it’s quite a difficult question to resolve, to take a new apartment, and even to find it, especially by the month. <rs type="person" ref="bio.xml#_663">Mr Salles</rs> spoke to me of a house at 20 francs which is very good, but he isn’t sure that I’ll be able to have it.</p>
+<p rend="indent" xml:id="p.en.11" n="11">At Easter I’ll have to pay 3 months’ rent, the removal costs &amp;c. All that is neither cheering nor convenient. Especially since absolutely nothing promises us better luck.</p>
+<p rend="indent" xml:id="p.en.12" n="12"><rs type="person" ref="bio.xml#_647">Roulin</rs> was saying, or rather made it understood, that he didn’t at all like the anxiety that has reigned here in Arles this winter, even considered completely outside the share that fell on me. Anyway, it’s like that just about everywhere, business affairs that aren’t going well, worn-out resources, discouraged people and — — — — as you were saying, not content to remain spectators and becoming wicked through lack of occupation. If someone still laughs or works, they come down on him fast.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Anyway, my dear brother, I think that soon I’ll no longer be ill enough to remain confined. Apart from that, I’m beginning to get accustomed to it, and if I had to remain in a hospital for good I would get used to it, and I think that I could find subjects for painting there as well. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Write to me soon if you find the time.</p>
+<p rend="indent" xml:id="p.en.15" n="15"><rs type="person" ref="bio.xml#_648 bio.xml#_649 bio.xml#_650 bio.xml#_651">Roulin’s family</rs> was still out in the country,<ptr target="#note-t-8"/> and although he’s earning a little more, since the separate expenses are increased in proportion, they’re not a mite better off in reality, and he wasn’t without very distressing anxieties. Fortunately the weather is fine and the sun glorious, and the people here momentarily quickly forget all their troubles and then glow with energy and illusions.</p>
+<p rend="indent" xml:id="p.en.16" n="16">These last few days I’ve been reading <rs type="person" ref="bio.xml#_580">Dickens</rs>’s Contes de Noël,<ptr target="#note-t-9"/> in which there are things so profound that one must re-read them often, it has a very great deal in common with <rs type="person" ref="bio.xml#_563">Carlyle</rs>.</p>
+<p rend="indent" xml:id="p.en.17" n="17">While <rs type="person" ref="bio.xml#_647">Roulin</rs> isn’t exactly old enough to be like a father to me,<ptr target="#note-t-10"/> all the same he has silent solemnities and tendernesses for me like an old soldier would have for a young one. Always — but without a word — a certain something that seems to mean: we don’t know what will happen to us tomorrow, but think of me in any event. And that does one good when it comes from a man who is neither embittered nor sad, nor perfect, nor happy, nor always irreproachably just, but such a good soul and so wise and so moved and so full of belief. Listen — I have no right to complain of anything to do with Arles when I think of certain people I’ve seen there and whom I’ll never be able to forget.</p>
+<p rend="indent" xml:id="p.en.18" n="18">It’s late, once again I wish you and <rs type="person" ref="bio.xml#_416">Jo</rs> much happiness, and handshakes in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Ever yours,</p>
+<p xml:id="p.en.20" n="20">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for the money he sent – this must have been the first instalment of his April allowance. Theo must have sent this money shortly before leaving for the Netherlands on the evening of Saturday, 30 March. Because Vincent says that he has ‘waited a few days before replying’ <ref target="#l-15">(l. 15)</ref>, and also expects that his brother will receive the present letter ‘around Sunday’ in the Netherlands <ref target="#l-21">(l. 21)</ref>, we have dated it to about Thursday, 4 April 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s journey to the Netherlands in connection with his marriage <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Possible move to another part of town <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>On 24 March Vincent had asked Theo to send, before leaving for the Netherlands, 11 tubes of paint. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml">See letter 752</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>From 23 February 1889 until 1 June 1889, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1028">Jean Louis Forain</rs> wrote and illustrated <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Fifre</hi>, a magazine he also published, which appeared weekly in an edition of only a few copies. A total of 15 issues were published.</p>
+
+<p rend="indent">A few issues from 1889, the first year of publication, have been preserved in the Van Gogh family estate; these are nos. 3 (9 March), 5 (23 March), 9 (20 April), 10 (27 April), 11 (4 May) and 12 (11 May). Each issue consists of one large folded sheet. One example by way of illustration: the title-page of the third issue, ‘Laissez courir les frais...’ (‘Hang the expense...’), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Fifre. Journal Hebdomadaire Illustré par J.-L. Forain</hi> 1 (9 March 1889), no. 3. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_849">Ill. 849</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> had been transferred to Marseille at the end of January; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let736.xml#n-14">see letter 736, n. 14.</ref> ‘Carry burdens’ could be intended literally: as a railway postman, Roulin was responsible for loading and unloading the postbags at each station. </p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>In 1889 Easter fell on 21 April.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The gas works were located between the Roubine du Roi canal and the Paris-Lyon-Méditerranée railway line. </p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Crau with peach trees in blossom</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2779">F 514 / JH 1681</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The article ‘<ref target="biblio.xml#lit_586">Claude Monet</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_706">Octave Mirbeau</rs> had appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Figaro</hi> (p. 1) on 10 March 1889. In this very positive article Mirbeau praised the originality of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>, whose only teacher was nature. At first his art was controversial, but now his talent had been recognized: ‘his imposing and learned simplicity ... his implacable harmony’ (sa grandiose et savante simplicité ... son implacable harmonie). Mirbeau praises the way Monet brings nature to life in his paintings, and describes how he works outside – day in, day out, come rain or shine.</p>
+
+<p rend="indent">The article also mentioned the exhibition of Monet’s paintings held at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let749.xml#n-3">see letter 749, n. 3</ref>). Theo wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo Bonger</rs> on 11 March 1889 that this article was of great importance to the reputation of Monet and the Impressionists, and that it had exerted a positive influence on the number of visitors to his exhibition (FR b2046). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness</hi> 1999, p. 212.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_648">Madame Roulin</rs> and her <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_649 bio.xml#_650 bio.xml#_651">children</rs> were staying with her <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_160">mother</rs> in Lambesc (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let775.xml">see letter 775</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Dickens</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_119">Contes de Noël</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let753.xml#n-3">see letter 753, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> celebrated his 48th birthday on 4 April.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Theodorus van Gogh and Anna van Gogh-Carbentus. Ramsgate, Monday, 17 April 1876. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let075"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b2222 V/1982</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>075</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>-</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1876-04-17">Monday, 17 April 1876</date>
+                            <placeName>Ramsgate</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theodorus van Gogh and Anna van Gogh-Carbentus</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 2222" xml:id="surf-pb-1r">
+<graphic url="VGM001003336_01_n"/>
+<zone xml:id="zone-pb-1r-1" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001003336_01_n"/></zone></surface>
+<surface n="b 2222 V/1982" xml:id="surf-extra-1v">
+<graphic url="VGM001003336_02_n"/>
+<zone xml:id="zone-extra-1" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001003336_02_n"/></zone>
+<zone xml:id="zone-extra-2" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001003336_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">goed aangekomen. kostschool 24 jongens<c type="kp">.</c> <lb n="2" xml:id="l-2"/>geloof het goed is. allen gegroet<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="3" xml:id="l-3"/>
+
+<p xml:id="p.orig.2" n="2">V.v.G.<ptr target="#note-t-1"/> </p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1">Arrived safely. Boarding school, 24 boys. Think it’s all right. Regards to all.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.2" n="2">V. v. G.<ptr target="#note-t-1"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Transcription by Mr van Gogh</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>This transcription of a telegram is in a letter of 18 April 1876 from <rs type="person" ref="bio.xml#_526">Mr van Gogh</rs> to Theo. He writes that the telegram had arrived the previous day, and had been ‘handed in at Ramsgate at 7.24 a.m.’, so it would have been sent the same day, Monday, 17 April 1876.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs type="person" ref="bio.xml#_526">Mr van Gogh</rs> wrote to Theo in the same letter (see <hi rend="italics">Date</hi>): ‘You can imagine that we are eager for more news from Vincent. Yes certainly, you may say, he is a good person through and through! We saw that again the last time he stayed here. Oh, I do hope things go well for him over there. But I am not yet so easy in my mind about that. Twenty-four boy boarders is no small matter. Will he be able to win them over? It can certainly be a good apprenticeship for him, and being with boys, with a still merry heart, can also do him good. We must just wait and see’ (FR b2222). Vincent’s <rs type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs> did indeed receive more news in the shape of <ref target="let076.xml">letter 76</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

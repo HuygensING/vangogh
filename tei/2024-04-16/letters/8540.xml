@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Wednesday, 12 February 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let854"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b675 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>854</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>626</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>855</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1890-02-12">Wednesday, 12 February 1890</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0675" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000921_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000921_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000921_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0675" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000921_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000921_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000921_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">j’étais en train de t’écrire pour t’envoyer la réponse pour m. Aurier lorsqu’arrive ta lettre.<ptr target="#note-t-1"/> Suis très content de ce que Jo et le nouveau né vont bien et qu’elle compte pouvoir se lever d’ici quelques jours. Puis ce que tu écris de la soeur m’intéresse également beaucoup. Je trouve qu’elle a eu de la chance de voir de Gas chez lui. Je crois toujours qu’elle ferait surtout une bonne femme de médecin. Enfin on ne peut pas précisément forcer ces chôses-là<c type="kk">/</c> néamoins il est bon d’avoir l’oeil ouvert si l’occasion se présenterait.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Et ainsi Gauguin est revenu à Paris – je vais copier ma réponse à M. Aurier pour la lui envoyer et toi tu lui feras lire l’article du Mercure<c type="kp">_</c><ptr target="#note-t-2"/> Car vraiment je trouve qu’on devrait dire des chôses comme cela de Gauguin<c type="kk">/</c> et de moi rien que très secondairement.–</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Gauguin m’a écrit qu’il avait exposé en Danemark et que cette exposition avait eu beaucoup de succès.<ptr target="#note-t-3"/> A moi cela me parait dommage qu’il n’ait pas continué ici un peu plus longtemps<c type="kp">_</c> A nous deux nous eussions mieux travaillé que moi tout seul cette année<c type="kp">_</c> Et actuellement nous aurions un petit mas à nous pour y demeurer et travailler et pourrions même en loger d’autres.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">As tu remarqué dans ce journal que tu m’as envoyé un article sur la fécondité de certains artistes. de Corot<c type="kk">/</c> Rousseau<c type="kk">/</c> Dupré &amp;c.;<ptr target="#note-t-4"/> t’en rappelles tu comment maintes fois lorsque Reid était là nous avons parlé de cela<c type="kk">/</c> même de la <hi rend="italics">nécessité</hi> de produire beaucoup.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Et que peu de temps après que je suis venu à Paris je te disais qu’avant que j’eusse deux cents toiles je ne pourrais rien faire<c type="kp">_</c> Ce qui paraitrait à de certains travailler trop vite est en réalité tout à fait l’ordinaire<c type="kk">/</c> l’état normal de production régulière<c type="kk">/</c> considérant qu’un peintre doit travailler vraiment tout autant qu’un cordonnier par exemple.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Ne serait il pas bon d’envoyer à Reid et peutêtre aussi à Tersteeg ou plutot à C.M<c type="kp">_</c> un exemplaire de l’article d’Aurier.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">C’est qu’il me semble qu’il faut en profiter pour chercher à placer quelque chôse en Ecosse soit maintenant soit plus tard.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je crois que tu aimeras la toile pour M. Aurier<c type="kk">/</c> c’est terriblement empâté et travaillé comme de certains Monticelli<c type="kk">/</c> je l’ai gardé presqu’un an.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Mais je trouve qu’il faut chercher à lui donner quelquechôse de bien pour cet article qui en soi est une chôse très artistique; et il nous rend réellement service pour le jour où nous serons bien comme tout le monde obligés de chercher à faire rentrer ce que les tableaux coûtent.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">L’au delà de cela me laisse assez froid mais que l’argent que cela coûte de produire rentre<c type="kk">/</c> c’est la condition même de pouvoir continuer.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">J’espère pour l’exposition des impressionistes en Mars<ptr target="#note-t-7"/> t’envoyer encore quelques toiles qui sèchent dans ce moment<c type="kp">_</c> si elles n’arrivaient pas à temps tu ferais un choix dans celles qui sont chez le père Tanguy.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’ai essayé de copier les buveurs de Daumier<ptr target="#note-t-8"/> et le bagne de Doré<c type="kk">/</c><ptr target="#note-t-9"/> c’est très-difficile.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">J’espère de ces jours-ci commencer le bon Samaritain de Delacroix<ptr target="#note-t-10"/> et le bûcheron de Millet.<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">L’article d’Aurier m’encouragerait, si j’osais m’y laisser aller, à risquer davantage à sortir de la réalité et à faire avec de la couleur comme une musique de tons ainsi que sont certains Monticelli<c type="kp">_</c> Mais elle m’est si chère la vérité<c type="kk">/</c> <hi rend="italics">le chercher</hi> à <hi rend="italics">faire vrai</hi> aussi<c type="kk">/</c> enfin je crois<c type="kk">/</c> je crois que je préfère encore être cordonnier à être musicien<c type="kk">/</c> avec les couleurs.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Dans tous les cas chercher à rester vrai est peutêtre un remède pour combattre la maladie qui continue à m’inquiéter toujours.– De ces jours ci la santé va assez bien pour<c type="shy">-</c>tant et j’oserais croire que s’il arrivât que je passe quelque temps avec toi cela me ferait beaucoup d’effet pour contrarier l’influence qu’excerce nécessairement la société que j’ai ici. Mais il me parait que cela ne presse point et qu’il faut considérer avec sang froid si c’est le moment de dépenser de l’argent pour le voyage<c type="kp">_</c> peutêtre en sacrifiant le voyage pourrait on être utile à Gauguin ou à Lauzet.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">De ces jours ci j’ai pris un costume qui me coûte 35 francs<c type="kk">/</c> je dois le payer en Mars vers la fin<c type="kp">_</c> avec cela j’en aurai pour l’année car en venant ici j’avais pris un costume de 35 francs à peu près aussi et il m’a servi toute l’année. Mais il me faudra une paire de souliers et quelques caleçons aussi en Mars.–</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Tout bien consideré la vie n’est pas bien bien chère ici<c type="kk">/</c> je crois que dans le nord on dépenserait plutôt davantage<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Et c’est pourquoi – même si je venais pour quelque temps chez toi – la meilleure politique pourrait encore être de continuer le travail ici<c type="kp">_</c> Je ne sais – et l’un ou l’autre m’est bon – mais faut pas se presser de changer.</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Et ne crois tu pas qu’à Anvers si on executait le plan de Gauguin<ptr target="#note-t-12"/> il faudrait tenir un certain rang<c type="kk">/</c> meubler un atelier<c type="kk">/</c> enfin faire comme la plupart des peintres établis Hollandais. C’est pas si simple que ça parait et craindrais pour lui comme pour moi un siège en règle des artistes établis et il aurait encore la même histoire que dans le temps en Danemark<c type="kp">_</c><ptr target="#note-t-13"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Enfin il faudrait commencer à se dire que c’est toujours par le même procédé que les peintres établis peuvent faire des miseres et meme obliger à décamper les aventuriers comme nous le serions à Anvers. Et pour ce qui est des marchands de là-bas<c type="kk">/</c> faut pas du tout y compter<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">L’académie y est meilleure et on y travaille plus vigoureusement qu’à Paris<c type="kp">_</c> Et puis Gauguin à présent est toujours à Paris<c type="kk">/</c> sa réputation s’y maintient et s’il part pour Anvers il pourrait trouver qu’il est plus ou moins difficile de <hi rend="italics">revenir</hi> à Paris<c type="kp">_</c> Allant à Anvers je craindrais plutôt pour Gauguin que pour moi car moi naturellement je me débrouille avec le flamand<c type="kk">/</c> je reprends les études de paysans commencés dans le temps et abandonnés bien à regret – j’ai à un haut degré l’amour de la Campine<c type="kk">/</c><ptr target="#note-t-14"/> pas besoin de te le dire<c type="kp">_</c>– Mais je prévois que pour lui la bataille pourrait être très rude. Je crois que tu lui diras le pour et le contre de cela absolument comme je le lui dirais<c type="kk">/</c> je lui écrirai de ces jours ci surtout pour lui envoyer la réponse à l’article de M<c type="kp">_</c> Aurier et je croirais que s’il voulait on pourrait encore travailler ici ensemble si ses démarches de trouver une place n’aboutiraient pas.– Mais il est habile et peutêtre s’en tirera-t-il à Paris même et s’il s’y maintient pour sa reputation il fait bien car il a toujours ceci que le premier de tous il a travaillé en plein pays tropical<c type="kp">_</c><ptr target="#note-t-15"/> Et sur cette question-<c type="shy">-</c>là on y reviendra nécessairement. Dites lui surtout bien des chôses de ma part et s’il veut il prendra les répétitions des tournesols<ptr target="#note-t-16"/> et la répétition de la berceuse<ptr target="#note-t-17"/> en échange de quelque chose de lui qui te ferait plaisir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Si je venais à Paris j’aurais à remanier plusieurs toiles faites dans le commencement ici<c type="kk">/</c> c’est pas le travail qui me manquerait ce temps-là.– Bien des chôses à Jo et bonne poignée de main en pensée<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.24" n="24">t. à t.</p>
+
+<p xml:id="p.fr.25" n="25">Vincent.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.26" n="26">tu feras s.v.p. parvenir la lettre ci incluse<c type="kk">/</c> après l’avoir lue<c type="kk">/</c> à M. Aurier.</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I was in the middle of writing to you to send you the reply for <rs type="person" ref="bio.xml#_521">Mr Aurier</rs> when your letter arrived.<ptr target="#note-t-1"/> Am very pleased that <rs type="person" ref="bio.xml#_416">Jo</rs> and the <rs type="person" ref="bio.xml#_418">newborn</rs> are well and that she expects to be able to get up in a few days from now. Then what you write about our <rs type="person" ref="bio.xml#_407">sister</rs> also interests me a great deal. I consider that she was lucky to see <rs type="person" ref="bio.xml#_981">Degas</rs> at his home. I still think that she would above all make a good doctor’s wife. Anyway, one can’t exactly force these things, nevertheless it’s good to have one’s eyes open if the opportunity were to present itself.</p>
+<p rend="indent" xml:id="p.en.3" n="3">And so <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has come back to Paris – I’m going to copy my reply to <rs type="person" ref="bio.xml#_521">Mr Aurier</rs> to send it to him, and you can let him read the article from the Mercure.<ptr target="#note-t-2"/> For really I consider that one should say things like that about Gauguin, and about me nothing except very secondarily.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> wrote to me that he’d exhibited in Denmark and that this exhibition had been very successful.<ptr target="#note-t-3"/> To me it seems a shame that he didn’t continue here a bit longer. The two of us together would have worked better than myself all alone this year. And at present we’d have a little cottage of our own to stay in and work, and could even accommodate others.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Did you notice in that newspaper you sent me an article on the fruitfulness of certain artists. Of <rs type="person" ref="bio.xml#_971">Corot</rs>, <rs type="person" ref="bio.xml#_1332">Rousseau</rs>, <rs type="person" ref="bio.xml#_986">Dupré</rs> &amp;c.;<ptr target="#note-t-4"/> do you remember how many times when <rs type="person" ref="bio.xml#_623">Reid</rs> was there that we talked about that, even of the <hi rend="italics">necessity</hi> to produce a lot.</p>
+<p rend="indent" xml:id="p.en.6" n="6">And that shortly after I came to Paris I said to you that before I had two hundred canvases I wouldn’t be able to do anything. What would appear to some people to be working too fast is in reality completely the ordinary run of things, the normal state of regular production, considering that a painter must work really just as hard as a shoemaker, for example. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Would it not be a good idea to send <rs type="person" ref="bio.xml#_623">Reid</rs>, and perhaps also <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, or rather <rs type="person" ref="bio.xml#_422">C.M.</rs>, a copy of <rs type="person" ref="bio.xml#_521">Aurier</rs>’s article?</p>
+<p rend="indent" xml:id="p.en.8" n="8">The thing is that it seems to me that we ought to take advantage of it to try to place something in Scotland, either now or later.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">I think you’ll like the canvas for <rs type="person" ref="bio.xml#_521">Mr Aurier</rs>, it’s in terribly thick impasto and worked like certain <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s, I’ve kept it for almost a year.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">But I consider that I must try to give him something good for that article, which is in itself a very artistic thing; and it really serves us well for the day when we, like everyone, will be obliged to try and recover what the paintings cost.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Everything beyond that leaves me quite cold, but recovering the money it costs to produce, that’s the very condition of being able to continue.</p>
+<p rend="indent" xml:id="p.en.12" n="12">For the Impressionists’ exhibition in March<ptr target="#note-t-7"/> I hope to send you a few more canvases which are drying at the moment. If they didn’t arrive in time you would have to make a choice from those that are at <rs type="person" ref="bio.xml#_772"><hi rend="italics">père</hi> Tanguy</rs>’s.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’ve tried to copy <rs type="person" ref="bio.xml#_977">Daumier</rs>’s Drinkers<ptr target="#note-t-8"/> and <rs type="person" ref="bio.xml#_998">Doré</rs>’s Penitentiary,<ptr target="#note-t-9"/> it’s very difficult.</p>
+<p rend="indent" xml:id="p.en.14" n="14">In the next few days I hope to begin on <rs type="person" ref="bio.xml#_982">Delacroix</rs>’s Good Samaritan<ptr target="#note-t-10"/> and <rs type="person" ref="bio.xml#_1226">Millet</rs>’s Woodcutter.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.15" n="15"><rs type="person" ref="bio.xml#_521">Aurier</rs>’s article would encourage me, if I dared let myself go, to risk emerging from reality more and making a kind of tonal music with colour, as some <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s are. But the truth is so dear to me, <hi rend="italics">trying </hi>to <hi rend="italics">create something true</hi> also, anyway I think, I think I still prefer to be a shoemaker than to be a musician, with colours. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">In any event, trying to remain true is perhaps a remedy to combat the illness that still continues to worry me. Lately my health is quite good, however, and I’d dare to believe that if I were to spend a while with you that would have a lot of effect upon me to counteract the influence that the company I have here necessarily exerts. But it seems to me that there’s no hurry about this, and that we must consider calmly if this is the moment to spend money on the journey. Perhaps by sacrificing the journey one could be useful to <rs type="person" ref="bio.xml#_1039">Gauguin</rs> or <rs type="person" ref="bio.xml#_1149">Lauzet</rs>.</p>
+<p rend="indent" xml:id="p.en.17" n="17">A few days ago I bought a suit that cost me 35 francs, I must pay for it towards the end of March. With this I’ll have sufficient for the year, for when I came here I also bought a suit for around 35 francs, and it has served me all year. But I’ll need a pair of shoes and a few pairs of drawers in March as well.</p>
+<p rend="indent" xml:id="p.en.18" n="18">All things considered, life here isn’t very expensive, I think that in the north one would spend rather more.</p>
+<p rend="indent" xml:id="p.en.19" n="19">And that’s why – even if I came to you for a while – the best policy might still be to continue the work here. I don’t know – and either is good to me – but we mustn’t hurry to move.</p>
+<p rend="indent" xml:id="p.en.20" n="20">And don’t you think that in Antwerp, if we put <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s plan into practice,<ptr target="#note-t-12"/> one would have to maintain a certain rank, furnish a studio, in short do as the majority of established Dutch painters do? It’s not as simple as it appears, and would fear for him as well as for myself a regular siege by the established artists, and he would have the same story as he had before in Denmark.<ptr target="#note-t-13"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">Anyway, we’d have to begin to say to ourselves that it’s still through the same procedure that the established painters can cause troubles for adventurers, as we’d be in Antwerp, and even oblige them to decamp. And as for the dealers there, we mustn’t count on them at all.</p>
+<p rend="indent" xml:id="p.en.22" n="22">The academy there is better, and they work more vigorously there than in Paris. And then <rs type="person" ref="bio.xml#_1039">Gauguin</rs> is still in Paris at the moment, his reputation is holding up there, and if he leaves for Antwerp he could find that it’s rather difficult to <hi rend="italics">come back</hi> to Paris. Going to Antwerp I would fear for Gauguin rather than for myself, for naturally I can get by in Flemish, I resume the studies of peasants I began before and abandoned with much regret – there’s no need to tell you that I have a great love of the Kempen.<ptr target="#note-t-14"/> But I foresee that for him the battle could be very tough. I think that you’ll tell him the pros and cons of this absolutely as I would tell him, I’ll write to him one of these days, especially to send him the reply to <rs type="person" ref="bio.xml#_521">Mr Aurier</rs>’s article, and I’d think that if he wanted we could still work here together if his steps to find a position were to come to nothing. But he’s skilful, and perhaps he’ll come through it in Paris itself, and if he holds on there for his reputation he does well, for he always has this, that he was the first one of all to work in the heart of a tropical land.<ptr target="#note-t-15"/> And one will necessarily come back to that matter. Above all, give him my warm regards, and if he wants he can take the repetitions of the Sunflowers<ptr target="#note-t-16"/> and the repetition of the Berceuse<ptr target="#note-t-17"/> in exchange for something of his that would give you pleasure.</p>
+<p rend="indent" xml:id="p.en.23" n="23">If I came to Paris I would have to rework several canvases done in the beginning here, I wouldn’t have any lack of work then. Warm regards to <rs type="person" ref="bio.xml#_416">Jo</rs>, and good handshake in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">Ever yours,</p>
+<p xml:id="p.en.25" n="25">Vincent.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Please send the enclosed letter to <rs type="person" ref="bio.xml#_521">Mr Aurier</rs> after you’ve read it.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent responds to Theo’s letter of 9 February <ref target="let852.xml">(852)</ref>, so the present letter could not have been written before 10 February. It cannot be said for certain how long Vincent waited to reply; Jo van Gogh-Bonger dated the letter in <hi rend="italics">Brieven </hi>1914 to 12 February, and it is possible she had a postmark to rely on. We, too, have therefore dated the letter to Wednesday, 12 February 1890.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ref target="let853.xml">Letter 853</ref> to Aurier was enclosed.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The letter to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs> is <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let853.xml">letter 853</ref>; the letter from Theo is <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let852.xml">letter 852</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>It appears from Theo’s letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let852.xml">852</ref>) that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had returned to Paris on 8 February. It is not known whether Van Gogh actually sent Gauguin a copy of his letter to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs>. Regarding Aurier’s article ‘Les isolés: Vincent van Gogh’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let845.xml#n-2">see letter 845, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> wrote this in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let844.xml">letter 844</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+  
+<p>This refers to the anonymous article ‘La fécondité des maîtres’ (The fecundity of the masters) in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Art Moderne. Revue Critique des Arts et de la Littérature</hi> 10 (19 January 1890, no. 3), p. 22. This piece, which comes immediately after the shortened version of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs>’s ‘<ref target="biblio.xml#lit_524">Les isolés: Vincent van Gogh</ref>’, quotes a list published in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Guide de l’amateur d’oeuvres d’art</hi> of the number of paintings supposedly made by ‘the masters of the School of 1830’. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Corot</rs>, for example, is estimated to have made 6,000 ‘canvases or panels’, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_986">Dupré</rs> 3,000 and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Rousseau</rs> 2,000. The author thinks these figures greatly exaggerated, ‘pure fantasy’, and suggests a more cautious estimate.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Here Van Gogh refers to Scotland in connection with the above-mentioned <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs>, his Scottish friend from Paris, who was an art dealer.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2809">F 620 / JH 1748</rs>). Van Gogh painted it in June 1889 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let783.xml">see letter 783</ref>) and later worked on it again after deciding to give it to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The sixth exhibition of the Société des Artistes Indépendants was held in the Pavillon de la Ville de Paris on the Champs-Elysées from 20 March to 27 April 1890. Van Gogh exhibited ten paintings. See exhib. cat. Paris 1890-2, p. 41, cat. nos. 832-841. Eight of these can be identified on the basis of the titles in the catalogue. ‘Le cyprès’ must be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2807">F 613 / JH 1746</rs>), considering that Van Gogh intended to give his second painting of this subject, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2809">F 620 / JH 1748</rs>, to Aurier (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let853.xml">see letter 853</ref>). ‘Rue à Saint-Rémy’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Road menders (‘The tall plane trees’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2872">F 657 / JH 1860</rs>); the other version, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2873">F 658 / JH 1861</rs>, was still with Van Gogh in Saint-Rémy (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let834.xml">see letter 834</ref>). ‘Les Alpines’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ravine</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2853">F 662 / JH 1804</rs>); the second version, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2881">F 661 / JH 1871</rs>, was still with Van Gogh (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let836.xml">see letter 836</ref>). ‘Promenade à Arles’ is most likely <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Avenue of chestnut trees in blossom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2785">F 517 / JH 1689</rs>), which Theo thought very beautiful and referred to by the same title in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let793.xml">letter 793</ref> (as well as in the list recorded below). ‘Mûrier en automne’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mulberry tree </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2847">F 637 / JH 1796</rs>). ‘Sous bois’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees with ivy in the garden of the asylum</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2789">F 609 / JH 1693</rs>), and ‘Lever de soleil en Provence’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield at sunrise</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2874">F 737 / JH 1862</rs>); the last two canvases were being shown at that time at the exhibition of Les Vingt in Brussels. ‘Les Tournesols’ is either <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>) or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>), which were also shown at the exhibition of Les Vingt.</p>
+
+<p rend="indent">The other two canvases, ‘Paysage montagneux en Provence’ and ‘Verger d’oliviers en Provence’ can also be identified with certainty, thanks to a list that Theo made on the back of a letter from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Dr Peyron</rs> dated 24 February 1890 (see FR b1062; Hulsker 1971, pp. 42-43). In addition to the above-mentioned titles, which were listed in the catalogue in the order given by Theo, he wrote down ‘Champs de blé (avec les nuages tourmenté)’ (Wheatfields (with billowy clouds)) and ‘Oliviers (soleil couchant)’ (Olive trees (setting sun)). These descriptive titles tell us that the paintings in question were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield after a storm</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2796">F 611 / JH 1723</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Olive grove</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2868">F 586 / JH 1854</rs>), which Vincent himself described as ‘Olive trees. Orange and green sunset sky’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let834.xml">see letter 834</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_977">Daumier</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_51">The four ages of the drinker</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let267.xml#n-33">see letter 267, n. 33.</ref> Van Gogh’s painting after this print is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Men drinking (after Daumier)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2887">F 667 / JH 1884</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_998">Doré</rs>’s ‘Le bagne’ is a reference to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Newgate – exercise yard</hi>. The print was included in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_157">London – a pilgrimage</ref></hi>. London 1872, p. 136. Van Gogh owned the engraving <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">A prison yard in Newgate</hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1587">Héliodore Joseph Pisan</rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Katholieke Illustratie</hi> 6 (1872-1873), no. 45, p. 357, to which he applied grid lines to aid him in studying the proportions (Amsterdam, Van Gogh Museum) <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_782">Ill. 782</rs>. t*1005. Van Gogh’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Penitentiary</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(after  Doré)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2888">F 669 / JH 1885</rs>) was based on this print. The estate contains another copy of this print: t*740.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2290">The Good Samaritan</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let768.xml#n-22">see letter 768, n. 22.</ref> Van Gogh did not carry out his plan until the end of April; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let866.xml">see letter 866</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+  
+<p>This was probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1584">George Léon Alfred Perrichon</rs>’s engraving after the drawing by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1707">Edmond Charles Joseph Yon</rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_271">The woodcutter</rs></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let141.xml#n-7">see letter 141, n. 7,</ref> and exhib. cat. Paris 1998, p. 136. In the end, Van Gogh did not make a copy of it.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s plan, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let844.xml">see letter 844</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This remark refers to the exhibition of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s work held in Copenhagen in May 1885; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let844.xml#n-2">see letter 844, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p> ‘La Campine’ (de Kempen) is a region in northern Belgium.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> spent the period May-October 1887 working in Martinique. </p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>These repetitions are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2772">F 455 / JH 1668</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2771">F 458 / JH 1667</rs>). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> never got these works. It can be inferred from this passage that both works were at Theo’s; this refutes Feilchenfeldt’s theory that F 455 remained in Arles. See Feilchenfeldt 2005, p. 298.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> eventually received <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let776.xml#n-4">See letter 776, n. 4.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

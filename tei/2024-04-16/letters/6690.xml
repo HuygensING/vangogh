@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Sunday, 26 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let669"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b570 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>669</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>528</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>673</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-08-26">on or about Sunday, 26 August 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0570" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000767_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000767_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000767_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0570" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000767_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000767_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000767_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">bien merci de ta lettre et du billet de 50 fr<c type="kp">_</c> qu’elle contenait. Certainement il n’est pas impossible que plus tard la soeur vienne rester<ptr target="#note-t-a"/> avec nous<c type="kp">_</c> C’est bon signe pour son gout qu’elle aime la sculpture<c type="kk">/</c> cela m’a bien fait plaisir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">La peinture comme elle est maintenant promet de devenir plus subtile – plus musique et moins sculpture – enfin elle promet la <hi rend="italics">couleur</hi><c type="kp">_</c> Pourvu qu’elle tienne cette promesse.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Les tournesols avancent<c type="kk">/</c> il y a un nouveau bouquet de 14 fleurs sur fond jaune vert<c type="kk">/</c> c’est donc exactement le même effet – mais en plus grand format<c type="kk">/</c> toile de 30<ptr target="#note-t-1"/> – qu’une nature morte de coings et de citrons que tu as déjà<ptr target="#note-t-2"/> mais dans les tournesols la peinture est bien plus simple.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Te rappelles tu qu’un jour nous avons vu à l’hôtel Drouot un bouquet de pivoines de Manet. les fleurs roses<c type="kk">/</c> les feuilles très vertes<c type="kk">/</c> peints en pleine pate et non pas par glacis comme ceux de Jeannin<c type="kp">_</c> Se detachant sur un simple fond blanc je crois<c type="kp">_</c>–<ptr target="#note-t-3"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Voilà ce qui était bien sain.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Pour le pointillé<c type="kk">/</c> pour aureoler<ptr target="#note-t-4"/> ou autre chôse<c type="kk">/</c> je trouve cela une véritable découverte mais c’est déjà à prévoir que cette technique pas plus qu’une autre deviendra un dogme universel<c type="kp">_</c> Raison de plus pourquoi la grande jatte de Seurat<c type="kk">/</c><ptr target="#note-t-5"/> les paysages à gros pointillés de Signac<c type="kk">/</c><ptr target="#note-t-6"/> le bateau d’Anquetin<c type="kk">/</c><ptr target="#note-t-7"/> par le temps deviendront encore plus personelles<c type="kk">/</c> encore plus originaux.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Pour ce qui est de mes vêtements<c type="kk">/</c> certes ils commencaient à avoir souffert – mais justement la semaine dernière j’ai acheté un veston de velours noir d’assez bonne qualité de 20 francs et un chapeau neuf donc cela n’est point pressé.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Mais j’ai consulté ce facteur que j’ai peint<c type="kk">/</c><ptr target="#note-t-8"/> qui a bien souvent monté et demonté son petit menage en changeant de place pour le prix approximatif des meubles indispensables et lui dit qu’on ne peut pas avoir ici un bon lit qui soit durable à moins de 150 francs <hi rend="italics">si on veut avoir du solide</hi> bien entendu.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Toutefois cela ne dérange guère le calcul qu’en épargnant l’argent du logement on se trouve au bout d’une année posséder des meubles sans avoir dépensé davantage dans l’année. Et aussitôt que je pourrai je n’hésiterai pas à faire ainsi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Si nous négligerions de nous etablir ainsi<c type="kk">/</c> Gauguin et moi nous pourrions trainer d’annee en année dans des petits logements où on ne peut pas manquer de s’abrutir<c type="kp">_</c> Cela je le suis déjà pas mal parceque cela date de bien bien loin<c type="kp">_</c> Et actuellement cela a cessé même d’être une souffrance et peutêtre dans le commencement je ne me sentirai pas chez moi chez moi<c type="kp">_</c> N’importe. Toutefois n’oublions pas Bouvard et Pecuchet<c type="kk">/</c><ptr target="#note-t-9"/> n’oublions pas à Veau<ptr target="#note-t-b"/> l’eau<ptr target="#note-t-10"/> car tout cela est bien bien profondement vrai<c type="kp">_</c> Au bonheur des dames<ptr target="#note-t-11"/> et Bel ami<ptr target="#note-t-12"/> cela est cependant pas moins vrai<c type="kp">_</c> C’est des façons de voir les chôses – maintenant avec la premiere on risque moins de faire comme Don quichotte<c type="kk">/</c> c’est possible et avec la dernière conception on y va en plein.<ptr target="#note-t-13"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Maintenant j’ai cette semaine encore une fois le vieux paysan<c type="kp">_</c><ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Ah – Mac Knight a enfin décampé<ptr target="#note-t-15"/> – je ne le regrette point<c type="kp">_</c> Son copain le belge n’en paraissait pas fort attristé pas non plus lorsqu’il est venu hier me le raconter et que nous avons passé la soirée ensemble. Il est très raisonable dans ses idees et sait au moins ce qu’il veut. Il fait maintenant de l’impressionisme timide mais très en règle<c type="kk">/</c> très juste. Et je lui ai dit que c’était la meilleure chose qu’il pouvait faire quoiqu’il y perdrait 2 ans peutêtre retardant son originalité<c type="kk">/</c> mais enfin lui ai je dit<c type="kk">/</c> il est aussi necessaire de passer regulierement par l’impressionisme maintenant que cela l’était <hi rend="italics">autrefois</hi> de passer par un atelier parisien. Cela il l’admettait absolument en plein justement puisqu’ainsi on ne choque personne et ne peut pas plus tard être accusé de ne pas être à la hauteur de la question. Il y songe sérieusement à aller peindre les charbonniers du Borinage<ptr target="#note-t-16"/> et s’il est encore ici lorsque Gauguin viendra<c type="kk">/</c> pas impossible alors qu’on lui demandera de faire pour nous dans le nord ce que nous ferions pour lui dans le midi<c type="kk">/</c> faire tout notre possible pour le faire vivre à meilleur marché que seul. à bientôt<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Many thanks for your letter and for the 50-franc note it contained. Certainly, it isn’t impossible that our <rs type="person" ref="bio.xml#_407">sister</rs> will come later and live with us. It’s a good sign as far as her taste goes that she likes sculpture; that really did please me.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Painting as it is now promises to become more subtle — more music and less sculpture — in fact, it promises <hi rend="italics">colour</hi>. As long as it keeps this promise.</p>
+<p rend="indent" xml:id="p.en.4" n="4">The sunflowers are progressing; there’s a new bouquet of 14 flowers on a green-yellow background, so it’s exactly the same effect — but in larger format, no. 30 canvas<ptr target="#note-t-1"/> — as a still life of quinces and lemons that you already have,<ptr target="#note-t-2"/> but in the sunflowers the painting is much simpler.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Do you remember that one day at the Hôtel Drouot we saw a bouquet of peonies by <rs type="person" ref="bio.xml#_1182">Manet</rs>? Pink flowers, very green leaves, painted in thick impasto and not glazed, like <rs type="person" ref="bio.xml#_1112">Jeannin</rs>’s. Standing out against a simple white background, I believe.<ptr target="#note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Now there’s something that was really healthy.</p>
+<p rend="indent" xml:id="p.en.7" n="7">As for stippling, making halos<ptr target="#note-t-4"/> or other things, I find that a real discovery, but it can already be foreseen that this technique won’t become a universal dogma any more than another. Another reason why <rs type="person" ref="bio.xml#_1353">Seurat</rs>’s La Grande Jatte,<ptr target="#note-t-5"/> <rs type="person" ref="bio.xml#_1350">Signac</rs>’s landscapes with coarse stippling,<ptr target="#note-t-6"/> <rs type="person" ref="bio.xml#_328">Anquetin</rs>’s boat,<ptr target="#note-t-7"/> will in time become even more personal, even more original.</p>
+<p rend="indent" xml:id="p.en.8" n="8">As far as my clothes are concerned, they were certainly starting to suffer — but only last week I bought a black velvet jacket of quite good quality for 20 francs, and a new hat, so that’s not at all urgent.</p>
+<p rend="indent" xml:id="p.en.9" n="9"> But I consulted this <rs type="person" ref="bio.xml#_647">postman</rs> whom I painted,<ptr target="#note-t-8"/> who has very often set up his little household and dismantled it again, moving house for roughly the price of the indispensable pieces of furniture, and he says that here you can’t get a good bed that will last, for less than 150 francs, <hi rend="italics">if you want to have something solid</hi>, of course. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">However, that hardly upsets the calculation that by saving the money for lodgings, at the end of a year you find you own furniture without having spent any more during the year. And as soon as I’m able, I won’t hesitate to do that.</p>
+<p rend="indent" xml:id="p.en.11" n="11">If we were to refrain from setting ourselves up like that, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I could drag on from year to year in small lodgings where one can’t fail to become dull-witted. I’m more or less that way already, because it goes back a long, long way. And at present that has even ceased to be a source of pain, and perhaps at first I won’t feel at home in my own home. Never mind. However, let’s not forget Bouvard et Pécuchet,<ptr target="#note-t-9"/> let’s not forget À vau l’eau,<ptr target="#note-t-10"/> because all of that is very, very profoundly true. Au bonheur des dames<ptr target="#note-t-11"/> and Bel-ami,<ptr target="#note-t-12"/> that’s no less true, however. It’s ways of seeing things — now, with the first one, we’re less in danger of behaving like Don Quixote; it’s possible, and with the last idea we go the whole hog.<ptr target="#note-t-13"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Now I have the old peasant again this week.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Ah — <rs type="person" ref="bio.xml#_1189">Macknight</rs> has cleared off at last<ptr target="#note-t-15"/> — I don’t regret it in the least. His pal the <rs type="person" ref="bio.xml#_869">Belgian</rs> didn’t seem greatly saddened by it either when he came yesterday to tell me about it, and we spent the evening together. He’s very reasonable in his ideas, and knows what he wants, at least. At the moment he’s doing timid Impressionism, but very much by the rules, very exact. And I told him that it was the best thing he could do, although he would lose 2 years on it perhaps, delaying his originality, but after all, I told him, it’s as necessary now to pass through Impressionism properly as it <hi rend="italics">once</hi> was to go through a Paris studio. He accepted that absolutely in its entirety, precisely because that way you shock nobody, and you can’t later be accused of not being abreast of things. He’s thinking seriously of going to paint the coal-miners in the Borinage,<ptr target="#note-t-16"/> and if he’s still here when <rs type="person" ref="bio.xml#_1039">Gauguin</rs> comes, not impossible then that we’ll ask him to do for us in the north what we’d do for him in the south — do our utmost to enable him to live more cheaply than on his own. More soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Ever yours,</p>
+<p xml:id="p.en.15" n="15">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In line with the system of allowance payments, we have dated the letter on or about Sunday, 26 August 1888. See also the notes to <ref target="let665.xml">letter 665</ref>, <hi rend="italics">Date</hi>.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ref target="let670.xml">Letter 670</ref> was probably enclosed with the present letter.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Willemien’s visit to Paris <ref target="let660.xml">(660)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘s’installer’.</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let668.xml#n-2">See letter 668, n. 2,</ref> for the number of flowers.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Quinces, lemons, pears and grapes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2557">F 383 / JH 1339</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let668.xml#n-5">See letter 668, n. 5,</ref> for Manet’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_227">Vase of peonies on a pedestal</rs></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For the concept of ‘haloing’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let668.xml#n-7">see letter 668, n. 7.</ref> Van Gogh had used this technique in his painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2702">F 459 / JH 1560</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Georges Seurat</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Grande Jatte (Sunday afternoon on the island of La Grande Jatte)</hi>, 1884-1886. (The Art Institute of Chicago. Helen Birch Bartlett Memorial Collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_425">Ill. 425</rs>. Van Gogh probably saw the work at the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">VIIIe Exposition de peinture</hi> (15 May - 15 June 1886), and in February 1888 in Seurat’s studio; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let589.xml#n-19">see letter 589, n. 19.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh could have seen <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs>’s work in Paris at the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">VIIIe Exposition de peinture</hi> (15 May - 15 June 1886), the second and third exhibitions of the Indépendants (21 August - 21 September 1886 and 26 March - 3 May 1887 respectively) and at <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Revue Indépendante</hi> in the winter of 1887-1888. There is nothing to indicate that he had been to Signac’s studio.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_328">Louis Anquetin</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_383">The boat at sunset</rs></hi>, 1887 (present whereabouts unknown). It was exhibited at <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Revue Indépendante </hi>in Paris during the winter of 1887-1888, where Van Gogh would have seen it. See exhib. cat. Toronto 1981, pp. 229-230.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh had painted two portraits of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> the postman in late July and early August: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2672">F 432 / JH 1522</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Joseph Roulin</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2673">F 433 / JH 1524</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_596">Gustave Flaubert</rs>’s unfinished novel<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> <ref target="biblio.xml#lit_498">Bouvard et Pécuchet </ref></hi>(1881), which was published posthumously, is a satire on human stupidity. Flaubert describes the adventures of two clerks, Bouvard and Pécuchet, who inherit enough to allow them to realize their dream of giving up their jobs and retiring to the country. However they are unable to manage their country estate efficiently and, seeking an explanation for their failure, throw themselves into the study of science, history, philosophy, religion and spiritualism. All their projects are doomed to failure because their book-learning does not outweigh their lack of common sense. In the end they decide to go back to their jobs as copy-clerks.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘Vau’.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_672">Joris-Karl Huysmans</rs>’ novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_452">A vau-l’eau</ref></hi> (1882) examines petit-bourgeois life in the suburbs of Paris. The central character, Folantin, dreams of the high life, but he is poor, eats in cheap cafés and seeks relief in brothels to satisfy his yearning for love. He is so bored that he is constantly looking for new challenges, yet all he finds is the misery of the everyday, ennui.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let464.xml#n-2">See letter 464, n. 2</ref> ff. for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi>. </p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-11">See letter 568, n. 11,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_708">Maupassant</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_446">Bel-ami</ref></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let645.xml#n-2">See letter 645, n. 2,</ref> for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_360">Don Quixote</ref></hi>. By the two ‘ways of seeing things’ Van Gogh means the options he has outlined before: either furnish the Yellow House and make it habitable (an investment that will save money in the long run), or stay in cheap lodgings (the rash solution à la Don Quixote).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The gardener <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_372">Patience Escalier</rs> had posed for the painting<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘The peasant’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2694">F 443 / JH 1548</rs>) some two weeks earlier; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let663.xml">see letter 663</ref>. The second sitting resulted in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier (‘The peasant’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2705">F 444 / JH 1563</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1189">Macknight</rs> left Fontvieille in late August 1888 for Moret-sur-Loing. He headed to Brittany in November. See Bailey 2007, pp. 33-34.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>After he left Arles on 4 September, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> went by way of Paris, where he stayed for a while, back to Belgium to paint in the Borinage. He remained there until 1891. See exhib. cat. Saarbrücken 1971, p. 51.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

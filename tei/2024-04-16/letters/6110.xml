@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Sunday, 20 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let611"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b529 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>611</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>489</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>613</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-05-20">on or about Sunday, 20 May 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000710_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000710_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000710_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000710_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000710_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000710_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 2 not found." xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000711_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000711_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 2 not found." xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000711_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000711_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 3 not found." xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000712_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000712_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 3 not found." xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000712_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000712_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">ce que tu m’écris de ta visite chez Gruby m’a émotionné<c type="kk">/</c> pourtant cela me rassure que tu sois allé là<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Y as tu réfléchi que l’hébétement – un senti<c type="shy">-</c>ment de lassitude extrême – pourrait être causé par cette maladie de coeur et que dans ce cas l’iodure de potassium serait innocent de ces abrutissements<c type="kp">_</c>–<ptr target="#note-t-1"/> Si tu te rappelles combien cet hiver moi-même j’étais abruti justement au point d’être absolument incapable! de faire quoi que ce soit, sauf un peu de peinture, alors que pourtant je n’en prenais pas du tout d’iodure de potassium<c type="kp">_</c> Alors si j’étais de toi je m’expliquerais avec Rivet là-dessus, si Gruby te dit de ne pas en prendre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Enfin ce sera en tout cas – je n’en doute pas – ton intention d’être ami avec l’un &amp; avec l’autre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je pense souvent à Gruby <hi rend="italics">ici</hi> et <hi rend="italics">maintenant</hi> et en somme je m’en trouve bien mais c’est qu’ici j’ai l’air pur et la chaleur qui me rendent la chôse plus possible<c type="kp">_</c> Dans tous les tracas &amp; le mauvais air de Paris Rivet prend les choses comme elles sont sans chercher à créer un paradis et sans chercher le moins du monde de nous perfectionner<c type="kp">_</c> Seulement il forge une cuirasse ou plutôt il aguerrit contre le mal et soutient le moral<c type="kk">/</c> je trouve<c type="kk">/</c> en blaguant le mal qu’on a.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Ainsi si tu pouvais avoir une seule année de vie à la campagne et dans la nature à présent<c type="kk">/</c> cela rendrait la cure par Gruby bien plus commode. Ainsi je pense qu’il t’engagera à ne voir des femmes qu’en cas de nécessité mais le moins possible. Or moi je me trouve ici fort bien de cela mais <hi rend="italics">ici</hi> puisque j’ai le travail et la nature<c type="kk">/</c> et si je n’avais pas cela je deviendrais melancolique. Pourvu que le travail ait un peu de charme pour toi là-bas et que les impressionistes marchent bien<c type="kk">/</c> cela serait beaucoup de gagné. Car la solitude<c type="kk">/</c> les soucis<c type="kk">/</c> les contrariétés<c type="kk">/</c> le besoin d’amitie et de sympathie pas assez satisfait<c type="kk">/</c> voilà ce qu’il y a de fort mauvais<c type="kk">/</c> les émotions morales de tristesse ou de deceptions nous minent plus que la noce<c type="kk">/</c> nous<c type="kk">/</c> dis je<c type="kk">/</c> qui nous trouvons être les heureux proprietaires de coeurs dérangés<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Je crois que l’iodure de potassium purifie le sang &amp; tout le système n’est ce pas – est ce que tu pourras t’en passer. Enfin il faut pourtant en parler carrement 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>à Rivet qui ne doit pas être jaloux.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Je souhaiterais que tu eusses près de toi quelque chôse de plus crûment vivant<c type="kk">/</c> de plus chaud que les hollandais – Koninck avec ses toquades est tout de même une exception pour le mieux. Enfin c’est toujours bon d’avoir quelqu’un<c type="kp">_</c> Je voudrais que tu eusses quelques amis bien dans les français encore pourtant. Veux tu me faire un bien grand plaisir: mon ami le Danois qui part Mardi pour Paris<ptr target="#note-t-2"/> te donnera 2 petits tableaux – pas grand chôse – que j’aurais envie de donner à M<hi rend="super">me</hi> la comtesse de la Boissière à Asnieres<c type="kp">_</c>– Elle reste<ptr target="#note-t-a"/> Boulevard Voltaire au premier de la première maison au bout du pont de Clichy. Au rez de chaussee il y a le restaurant du père Perruchot.<ptr target="#note-t-3"/> Voudrais tu les lui porter en personne de ma part<c type="kk">/</c> disant que j’avais l’espérance de la revoir ce printemps et que même ici je ne l’ai pas oubliée, je leur en ai donné 2 petits l’annee passée aussi<c type="kk">/</c> à elle et à sa fille<c type="kp">_</c> J’aurais espoir que tu ne regretterais pas de faire la connaissance de ces dames<c type="kp">_</c>– Ca c’est en somme <hi rend="italics">une famille</hi><c type="kp">_</c> La comtesse est loin d’être jeune mais elle est d’abord comtesse<c type="kk">/</c> ensuite <hi rend="italics">une dame</hi><c type="kk">/</c> la fille idem.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Et c’est logique que tu y ailles puisque moi je ne puis être sûr que la famille reste<ptr target="#note-t-b"/> au même endroit cette annee (cependant elles y viennent depuis plusieurs annees et Perruchot doit connaitre l’adresse en ville)<c type="kp">_</c><ptr target="#note-t-4"/> C’est peut être une illusion que je me fais mais – je ne puis m’empêcher d’y penser et peutetre cela leur fera plaisir et à toi aussi si tu les connais.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Ecoutes – je ferai tout mon possible de t’envoyer de nouveaux dessins pour Dordrecht<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’ai fait cette semaine deux natures mortes.</p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.12" n="12">une cafetière en fer emaillé bleu<c type="kk">/</c> une tasse (à gauche) bleu de roi et or<c type="kk">/</c> un pot à lait carrelé bleu pâle &amp; blanc<c type="kk">/</c> une tasse – à droite – blanche à dessins bleu &amp; orangé<c type="kk">/</c> sur une assiete de terre jaune gris<c type="kk">/</c> un pot en barbotine ou majolique bleu avec dessins rouges<c type="kk">/</c> verts<c type="kk">/</c> bruns<c type="kk">/</c> enfin 2 oranges et 3 citrons; la table est couverte d’une draperie bleue<c type="kk">/</c> le fond est jaune vert<c type="kk">/</c> donc 6 bleus différents et 4 ou 5 jaunes &amp; orangés<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">L’autre nature morte est le pot de majolique avec des fleurs sauvages<c type="kp">_</c><ptr target="#note-t-7"/></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Je te remercie bien de ta lettre et du billet de 50 fr. J’espère que la caisse t’arrivera de ces jours ci. La prochaine fois je crois que j’ôterai les toiles des chassis pour les envoyer roulés grande vitesse. Je crois que tu seras vite amis avec ce Danois – il ne fait pas grand chôse mais – il a de l’intelligence &amp; du coeur &amp; a commencé la peinture probablement depuis peu de temps<c type="kp">_</c><ptr target="#note-t-8"/> Prends le un peu un Dimanche pour faire connaissance<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Pour moi je me sens infiniment mieux<c type="kk">/</c> le sang circule bien &amp; l’estomac digère<c type="kp">_</c> J’ai trouvé à manger très très bien maintenant<c type="kk">/</c> ce qui m’a fait de l’effet immediatement<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">As tu vu la tête de Gruby lorsqu’il serre les lèvres ferme et dit “<hi rend="italics">pas</hi> de femmes”<c type="kp">_</c> Ce serait un bien beau de Gas cette tête-<c type="shy">-</c>là comme ça. Il n’y a cependant rien à y redire car lorsqu’on doit travailler toute la journée de la tête<c type="kk">/</c> calculer<c type="kk">/</c> réfléchir<c type="kk">/</c> combiner des affaires<c type="kk">/</c> c’est déjà en soi tout à fait assez pour les nerfs<c type="kp">_</c> Va t’en voir maintenant des femmes dans le monde<c type="kk">/</c> tu verras que tu réussiras – vrai – des artistes et cela. Tu verras que cela tournera comme cela et tu n’y perdras pas grand chose<c type="kk">/</c> allez<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Je n’ai pas encore pu faire une affaire avec le marchand de meubles<c type="kk">/</c> j’ai vu un lit mais c’est plus cher que je n’avais pensé. Je sens le besoin d’abattre encore de l’ouvrage avant de dépenser plus en meubles.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Je loge à 1 fr<c type="kp">_</c> par nuit. J’ai encore acheté du linge et aussi de la couleur<c type="kp">_</c></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.19" n="19">J’ai pris du linge très fort<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">A fur &amp; à mesure que le sang me revient l’idée de réussir me revient également<c type="kp">_</c> Cela ne m’étonnerait pas trop si ta maladie était aussi une réaction de cet affreux hiver qui a duré une éternité. Et alors cela aura la même histoire que chez moi<c type="kk">/</c> prends autant d’air de printemps que possible<c type="kk">/</c> couche toi <hi rend="italics">très de bonne heure</hi> car il te faudra dormir; et puis la nourriture<c type="kk">/</c> beaucoup de legumes frais et pas de <hi rend="italics">mauvais</hi> vin ou du <hi rend="italics">mauvais</hi> alcool<c type="kp">_</c> Et très peu de femmes et <hi>beaucoup de patience</hi><c type="kp">_</c> Si cela ne se passe pas tout de suite cela ne fait rien. Maintenant Gruby te donnera une forte nourriture de viande là-bas. Ici moi je ne pourrais pas en prendre beaucoup et ici c’est pas nécessaire<c type="kp">_</c> C’est justement l’abrutissement qui s’en va chez moi<c type="kk">/</c> je ne sens plus tant le besoin de me distraire<c type="kk">/</c> je suis moins tiraillé par des passions et je puis travailler avec plus de calme, je pourrais être seul sans m’embêter. J’en suis sorti dans mon sentiment encore un peu plus vieux mais pas plus triste.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Je ne te croirais pas si dans ta prochaine lettre tu me dirais de ne plus rien avoir<c type="kk">/</c> c’est peut être un changement plus grave et je ne serais pas surpris si tu avais<c type="kk">/</c> dans le temps que cela te prendra pour te refaire<c type="kk">/</c> un peu d’abattement. Il y a et il y reste et il revient toujours par moments<c type="kk">/</c> en pleine vie artistique<c type="kk">/</c> la nostalgie de – la vraie vie – ideale et pas réalisable<c type="kp">_</c></p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Et on manque parfois de désir de s’y rejeter en plein dans l’art et de se refaire pour cela<c type="kp">_</c> On se sait cheval de fiacre et on sait que ce sera encore au même fiacre qu’on va s’atteler<c type="kp">_</c>– Et alors on n’en a pas envie et on préférerait vivre dans une prairie avec un soleil<c type="kk">/</c> une rivière<c type="kk">/</c> la compagnie d’autres chevaux également libres<c type="kk">/</c> et l’acte de la géneration<c type="kp">_</c>– Et peut être au fond des fonds la maladie de coeur vient un peu de là<c type="kk">/</c> cela ne m’etonnerait pas trop.– On ne se revolte plus contre les choses<c type="kk">/</c> on n’est pas résigné pas non plus – on en est malade et cela ne se passera point – et on n’y peut pas précisement rémédier. Je ne sais pas qui a appelé cet état être frappé de mort et d’immortalité<c type="kp">_</c><ptr target="#note-t-9"/> Le fiacre que l’on traine<c type="kk">/</c> ça doit être utile à des gens qu’on ne connait pas. Et voilà si nous croyons à l’art nouveau<c type="kk">/</c> aux artistes de l’avenir<c type="kk">/</c> notre pressentiment ne nous trompe pas. Lorsque le bon père Corot disait quelques jours avant sa mort: j’ai vu cette nuit en songe des paysages avec des ciels tout roses<c type="kk">/</c><ptr target="#note-t-10"/> eh bien ne sont ils pas venu ces ciels roses<c type="kk">/</c> et jaunes et verts par dessus le marché<c type="kk">/</c> dans le paysage impressioniste. Ceci pour dire qu’il y a des choses que l’on sent dans l’avenir et qui arrivent reellement.</p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Et nous qui ne sommes à ce que je suis porté à croire<c type="kk">/</c> nullement si près de mourir<c type="kk">/</c> neamoins nous sentons que la chose est plus grande que nous et de plus longue durée que notre vie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Nous ne nous sentons pas mourir mais nous sentons la réalité de ce que nous sommes peu de chôse<c type="kk">/</c> et que pour etre un anneau dans la chaine des artistes nous payons un prix raide de santé<c type="kk">/</c> de jeunesse<c type="kk">/</c> de liberté<c type="kk">/</c> dont nous ne jouissons pas du tout<c type="kk">/</c> pas plus que le cheval de fiacre qui traine une voiture de gens qui s’en vont jouir<c type="kk">/</c> eux<c type="kk">/</c> du printemps. Enfin – ce que je te souhaite comme à moi-même c’est de réussir à reprendre notre santé car il en faudra. Cette Espérance de Puvis de Chavannes<ptr target="#note-t-11"/> est une telle réalité<c type="kp">_</c> Il y a dans l’avenir un art et il doit être si beau et si jeune que<c type="kk">/</c> vrai<c type="kk">/</c> si actuellement nous y laissons notre jeunesse à nous<c type="kk">/</c> nous ne pouvons qu’y gagner en sérénité<c type="kp">_</c> C’est peut être trop bete d’écrire tout cela mais je le sentais ainsi<c type="kk">/</c> il me semblait que comme moi tu en souffrais de voir ta jeunesse se passer en – fumée – mais si elle repousse et parait dans ce que l’on fait<c type="kk">/</c> il n’y a rien de perdu et la puissance de travailler est une autre jeunesse<c type="kp">_</c> Guéris toi donc avec un peu de sérieux parceque nous aurons besoin de notre sante. Je te serre bien la main ainsi qu’à Koninck<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.25" n="25">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.26" n="26">Vincent </p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">What you write about your visit to <rs type="person" ref="bio.xml#_446">Gruby</rs> has upset me, but at the same time it reassures me that you went there.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Have you considered that your lethargy — a feeling of extreme lassitude — could have been caused by this heart condition, and that in that case potassium iodide couldn’t be blamed for these periods of stupefied exhaustion?<ptr target="#note-t-1"/> If you remember how stupefied I was myself this winter, to the point of being quite incapable! of doing anything whatsoever, apart from a little painting, although I wasn’t taking potassium iodide at all. So if I were you, I’d have it out with <rs type="person" ref="bio.xml#_640">Rivet</rs> if <rs type="person" ref="bio.xml#_446">Gruby</rs> tells you not to take it.</p>
+<p rend="indent" xml:id="p.en.4" n="4">And it will in any case — I have no doubt about it — be your intention to be friends with both the one and the other.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I often think of <rs type="person" ref="bio.xml#_446">Gruby</rs> <hi rend="italics">here </hi>and <hi rend="italics">now</hi>, and in short I feel well, but it’s because here I have the pure air and the heat, which make things more possible for me. Among all the trials and the bad air of Paris, <rs type="person" ref="bio.xml#_640">Rivet</rs> takes things as they are without trying to create a paradise and without in the slightest way trying to make us perfect. But he forges a suit of armour, or rather, he inures us to illness and keeps morale up, I find, by making fun of the trouble we have. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">So if you could now have just one year of living in the country and close to nature, that would make <rs type="person" ref="bio.xml#_446">Gruby</rs>’s treatment much easier. So I think he’ll urge you not to see women except in case of necessity, but as little as possible. Now for myself, I feel fine here in that respect, but <hi rend="italics">here</hi>, since I have work and nature, and if I didn’t have that I’d become melancholy. As long as work has some appeal for you over there, and the Impressionists are going well, that would be a great gain. Because loneliness, worries, vexations, the need for friendship and fellow-feeling not sufficiently met, that’s what’s very bad, the mental emotions of sadness or disappointments undermine us more than riotous living: us, that is, who find ourselves the happy owners of troubled hearts.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I think potassium iodide purifies the blood and the whole system, doesn’t it — will you be able to do without it? Anyway, you’ll have to have a straight talk 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> about it with <rs type="person" ref="bio.xml#_640">Rivet</rs>, who shouldn’t be jealous.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I could wish you had near you something more rudely alive, warmer than the Dutch — but all the same, <rs type="person" ref="bio.xml#_1145">Koning</rs> with his whims is an exception for the better. Anyway, it’s always good to have somebody. But I could still wish you had one or two good friends among the French. Would you do me a great favour: my <rs type="person" ref="bio.xml#_1233">friend</rs> the Dane, who leaves for Paris on Tuesday,<ptr target="#note-t-2"/> will give you 2 small paintings — nothing much — that I’d like to give to <rs type="person" ref="bio.xml#_286">Mme the Countess De la Boissière</rs> at Asnières. She stays in boulevard Voltaire, on the first floor of the first house at the end of the Clichy bridge. <hi rend="italics">Père</hi> <rs type="person" ref="bio.xml#_549">Perruchot</rs>’s restaurant is on the ground floor.<ptr target="#note-t-3"/> Would you take them to her personally on my behalf, saying I had hopes of seeing her again this spring and that even here I haven’t forgotten her; I gave them 2 small ones last year as well, her and her <rs type="person" ref="bio.xml#_288">daughter</rs>. I’d have hope that you wouldn’t regret making these ladies’ acquaintance. After all, they’re <hi rend="italics">a family. </hi>The countess is far from young but she’s first of all a countess, then <hi rend="italics">a lady</hi>, the daughter ditto. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">And it makes sense for you to go, since I can’t be sure that the family’s staying in the same place this year (however, they’ve been coming there for several years, and <rs type="person" ref="bio.xml#_549">Perruchot</rs> must know their address in town).<ptr target="#note-t-4"/> Perhaps I’m deluding myself — but I can’t help thinking of them, and perhaps it will be a pleasure for them and for you too, if you meet them.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Listen — I’ll do all I can to send you some new drawings for Dordrecht.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">This week I’ve done two still lifes.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">A blue enamelled tin coffee-pot, a royal blue and gold cup (on the left), a pale blue and white chequered milk jug, a cup — on the right — white, with blue and orange designs, on a yellow grey earthenware plate, a blue barbotine or majolica jug with red, green, brown designs, and lastly 2 oranges and 3 lemons; the table is covered with a blue cloth, the background is yellow green, making 6 different blues and 4 or 5 yellows and oranges.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">The other still life is the majolica jug with wild flowers.<ptr target="#note-t-7"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">I thank you very much for your letter and for the 50-franc note. I hope the crate will reach you in the next few days. The next time I think I’ll take the canvases off the stretching frames and send them rolled, by fast service. I think you’ll soon make friends with this <rs type="person" ref="bio.xml#_1233">Dane</rs> — he doesn’t do much but — he has intelligence and a good heart, and he probably started painting not long ago.<ptr target="#note-t-8"/> Take him out a bit one Sunday to get to know him.</p>
+<p rend="indent" xml:id="p.en.16" n="16">For myself, I feel infinitely better, my blood is circulating well, and my stomach’s digesting. I’ve found very, very good food now, which had an immediate effect on me.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Have you seen <rs type="person" ref="bio.xml#_446">Gruby</rs>’s face when he pinches his lips tight and says ‘<hi rend="italics">No</hi> women’? It would make a really good <rs type="person" ref="bio.xml#_981">Degas</rs>, that face, like that. But there’s nothing to be said against it, because when you have to work all day long with your brain, calculating, thinking, planning business, that’s quite enough in itself for your nerves. So go off now and visit women in the world of artists and suchlike, you’ll see you’ll succeed — really. You’ll see it’ll work out like that and you won’t lose much, will you?</p>
+<p rend="indent" xml:id="p.en.18" n="18">I still haven’t been able to make a deal with the furniture dealer, I’ve seen a bed but it’s dearer than I thought. I feel the need to get more work done before spending more on furniture.</p>
+<p rend="indent" xml:id="p.en.19" n="19">My lodgings cost me 1 franc a night. I’ve bought more linen and colours as well. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </p>
+<p rend="indent" xml:id="p.en.20" n="20">I’ve bought some very strong linen.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Just as my blood is returning to normal, so the idea of succeeding is returning to me too. I shouldn’t be too surprised if your illness was also a reaction to this dreadful winter, which lasted an age. And then it will go the same way as with me; take as much spring air as possible, go to bed <hi rend="italics">very early </hi>because you’ll need to sleep; and then food, lots of fresh vegetables and no <hi rend="italics">bad </hi>wine or <hi rend="italics">bad </hi>liquor. And very few women and <hi>a great deal of patience</hi>. If it doesn’t clear up at once that doesn’t matter. And now <rs type="person" ref="bio.xml#_446">Gruby</rs> will give you a heavy meat diet over there. Here, for myself, I couldn’t take very much, and it’s not necessary here. It’s just my stupefaction that’s going away, I don’t feel as much need to amuse myself, I’m less at the mercy of my passions and I can work more calmly, I could be alone without being bored. I came out of it feeling a little older, but no sadder.</p>
+<p rend="indent" xml:id="p.en.22" n="22">I wouldn’t believe you if in your next letter you told me there was nothing wrong with you any more; it’s perhaps a more serious change and I shouldn’t be surprised if, during the time it will take you to recover, you had some dejection. There is and there remains and it always comes back at times, in the midst of the artistic life, a yearning for — real life — ideal and not attainable. 
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">And we sometimes lack the desire to throw ourselves head first into art again and to build ourselves up for that. We know we’re cab-horses and that it’ll be the same cab we’re going to be harnessed to again. And so we don’t feel like doing it and we’d prefer to live in a meadow with a sun, a river, the company of other horses who are also free, and the act of generation. And perhaps in the final account your heart condition comes partly from there; it wouldn’t greatly surprise me. We no longer rebel against things, we’re not resigned either — we’re ill and it’s not going to get any better — and we can’t do anything specific about it. I don’t know who called this condition being struck by death and immortality.<ptr target="#note-t-9"/> The cab we drag along must be of use to people we don’t know. But you see, if we believe in the new art, in the artists of the future, our presentiment doesn’t deceive us. When good <hi rend="italics">père</hi> <rs type="person" ref="bio.xml#_971">Corot</rs> said a few days before he died: last night I saw in my dreams landscapes with entirely pink skies,<ptr target="#note-t-10"/> well, didn’t they come, those pink skies, and yellow and green into the bargain, in Impressionist landscapes? All this is to say there are things one senses in the future and that really come about. 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/>.</p>
+<p rend="indent" xml:id="p.en.24" n="24">And we, who, I’m inclined to believe, are by no means so close to dying, nevertheless feel the thing is bigger than us and longer-lasting than our lives.</p>
+<p rend="indent" xml:id="p.en.25" n="25">We don’t feel we’re dying, but we feel the reality of the fact that we’re not much, and that to be a link in the chain of artists we pay a steep price in health, youth, freedom, which we don’t enjoy at all, any more than the cab-horse that pulls a carriage full of people who, unlike him, are going out to enjoy the springtime. Well then — what I wish you as well as myself is to succeed in recovering our health, because we’ll need it. That Hope of <rs type="person" ref="bio.xml#_1286">Puvis de Chavannes</rs><ptr target="#note-t-11"/> is such a reality. There’s an art in the future and it will surely be so beautiful and so young that, really, if at present we leave it our own youth, we can only gain in tranquillity. Perhaps it’s too silly to write all this, but it’s what I felt; it seemed that like me, you suffered to see your youth going up in — smoke — but if it comes back and appears in what we do, there’s nothing lost, and the power to work is a second youth. So be serious about getting better, because we’ll need our health. I shake your hand firmly, and <rs type="person" ref="bio.xml#_1145">Koning</rs>’s too.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Ever yours,</p>
+<p xml:id="p.en.27" n="27">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter dates from after 15 May 1888: it was on that date that Jan Veth wrote to Theo asking him whether he would let him have some works for the exhibition he was organizing (FR b3573). Vincent moreover expects that Theo will be receiving the crate of paintings any day now; it was sent on about 10 May and would take about ten days to get to Paris (<ref target="let607.xml">see letters 607</ref> and <ref target="let610.xml">610</ref>). Since Vincent also thanks Theo for 50 francs he had sent him <ref target="#l-120">(ll. 120-121)</ref>, we have dated the letter on or about Sunday, 20 May 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Koning’s stay with Theo <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is staying at Café de la Gare <ref target="let606.xml">(606)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">First consignment of paintings from Arles <ref target="let606.xml">(606)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is eating at Restaurant Vénissac <ref target="let609.xml">(609)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is not clear what specific symptoms led Theo to consult <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_446">Dr Gruby</rs>, but the physician evidently diagnosed the ‘heart disease’, about which nothing further is explained. Vincent suggests that Theo’s fatigue and lassitude result from the heart problem, so that the cause was not the potassium iodide that Theo was taking. At the time this was a widely prescribed remedy for a cough, something from which Theo frequently suffered. Potassium iodide was also much used in cases of cerebral syphilis, the disease that killed Theo in January 1891. Since Vincent starts the letter by confessing straightaway that he was ‘upset’ by Theo’s news, a connection with this illness seems the most obvious. See on Theo’s illness Voskuil 1992-2 (and the associated reactions). Vincent continued to enquire after Theo’s health until well into October (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let705.xml">letter 705</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Christian Mourier-Petersen</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘demeure’.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>In 1886 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_287">Eugène Levaillant de la Boissière</rs> (age 45, of independent means), his wife <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_286">Clara Levaillant de la Boissière</rs> (age 29) and their 12-year-old daughter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_288">Eugénie Jeanne</rs> were registered as the occupants of an apartment on the first floor of 1 boulevard de Clichy. Nothing more is known about the family. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_549">Marcelin Perruchot</rs>’s restaurant was on the ground floor; he was also a wine merchant in Asnières. See exhib. cat. Martigny 2000, pp. 142-146. Van Gogh had done a lot of work in the immediate vicinity, and depicted the building in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bank of the Seine with the Clichy bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_701">F 302 / JH 1322</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Seine with the Clichy bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2553">F 303 / JH 1323</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees on a slope </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_702">F 291 / JH 1314</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘demeure’.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>From what Van Gogh says, it would appear that the family lived in Paris (‘in town’) and only stayed in Asnières during the summer. He says that the countess is ‘far from young’, but he has either seriously overestimated her age or is referring to an older woman, possibly the count’s mother, so that the ‘daughter’ – who is also ‘a lady’ – is the count’s 29-year-old wife, not the 12-year-old girl. No further details have been found in the records in Asnières. </p>
+      
+<p rend="indent">It emerges from a note dated 9 November 1929 in the archives of the Thannhauser art gallery that the Charpentier gallery had sold five small paintings by Van Gogh that belonged to ‘a family from Asnières with whom Van Gogh had lived and to whom he had given them’ (‘einer Familie aus Asnières, bei der Van Gogh wohnte und die er dieser schenkte’). See Heinz Holtmann et al., <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Thannhauser: Händler, Sammler, Stifter</hi>. Cologne 2006, p. 48. This must be a reference to the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_286 bio.xml#_287">Levaillant de la Boissière family</rs> (although Van Gogh never lived with them). The works in question were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman sewing</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_703">F 126a / JH 655</rs>), 42.5 x 33 cm; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Head of a woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_704">F 146a / JH 565</rs>), 43.5 x 37 cm; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The viaduct</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_705">F 239 / JH 1267</rs>), 32.7 x 41 cm; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman peeling potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_706">F 365r / JH 654</rs>), which had the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with a straw hat on the back</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_707">F 365v / JH 1354</rs>), 41 x 31.5 cm; and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape with snow</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2564">F 290 / JH 1360</rs>), 38 x 46 cm. See J. B. de la Faille, 'Sammler und Markt. Unbekannte bilder von Vincent van Gogh', <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Der Cicerone</hi>, February 1927, pp. 101-105. F 290 must have been one of the two small paintings that Van Gogh gave to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier</rs> in Arles to deliver to Theo in Paris. The other one has not been identified. It is not possible to make out which of the remaining four works were the ‘2 small ones’ he gave the family ‘last year’.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Evidently Theo had asked Vincent to send drawings for the second exhibition of the Nederlandsche Etsclub, which was to be held at <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arti et Amicitiae</hi> in Amsterdam. Vincent mentions Dordrecht because the artist and critic <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_847">Jan Veth</rs> of Dordrecht was organizing the exhibition – in a letter of 15 May, Veth had asked Theo to loan etchings, lithographs and drawings (FR b3573). See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let620.xml#n-5">letter 620, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with coffee pot</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2609">F 410 / JH 1426</rs>). In the margin next to the letter sketch of the same name after the work (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_165">F - / JH 1427</rs>) Van Gogh noted that it was a no. 30 canvas, whereas it is actually a no. 25 ‘figure’ canvas, 81 x 65 cm. Cf. exhib. cat. New York 1984, p. 46. He omitted the painted border in the letter sketch and in the sketch he sent to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let622.xml">letter 622</ref>.</p>
+
+<p rend="indent">It seems obvious that Van Gogh painted this still life and the one referred to below on 16 and 17 May, because it rained on those days and he could not work outdoors (Météo-France).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wild flowers in a majolica jug </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2607">F 600 / JH 1424</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Contrary to what Van Gogh thought, the Dane had actually been painting for longer than he had himself. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs> attended the academy in Copenhagen from 1880 to 1883 and was a member of the group of dissident artists there who wanted to establish a free academy. He had evidently been reticent about his background. See Larsson 1993, pp. 12-13, 18.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+      
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_306">Le Nabab</ref></hi>, chap. 14. See Daudet 1986-1994, vol. 2, p. 675.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+      
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1694">Burty</rs>’s preface to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_558">Exposition de l’oeuvre de Corot</ref></hi>, the catalogue of the Corot exhibition of 1875, begins with these words of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Corot</rs>’s; Van Gogh had been to the exhibition (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let034.xml">letter 34</ref>): ‘On one of the last mornings before his death, Corot said to one of his friends: “Last night I saw in my dreams a landscape in which the sky was entirely pink. The clouds were pink too. It was delightful. I remember it very clearly. It will be wonderful to paint”’ (Un des derniers matins qui précédèrent sa mort, Corot dit à un de ses amis: “J’ai vu cette nuit en rêve un paysage dont le ciel était tout rose. Les nuages aussi étaient roses. C’était délicieux. Je me le rappelle très bien. Ce sera admirable à peindre.”) See exhib. cat. Paris 1875-2, p. 5. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let439.xml#n-13">letter 439, n. 13.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1286">Pierre Puvis de Chavannes</rs>,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Hope</hi>, c. 1872 (Paris, Musée d’Orsay). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_315">Ill. 315</rs>. Van Gogh saw this work at the Puvis de Chavannes retrospective which ran from 20 November to 20 December 1887 at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_359">Durand-Ruel</rs>’s, where it was exhibited as cat. no. 30. We know from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let829.xml">letter 829</ref> that he had been to this exhibition.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

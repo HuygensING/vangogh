@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 9 April 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let594"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b514 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>594</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>474</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>596</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-04-09">Monday, 9 April 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0514 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000690_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000690_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000690_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0514 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000690_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000690_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000690_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0514 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000691_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000691_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0514 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000691_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000691_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ta lettre et du billet de 100 fr<c type="kp">_</c> qu’elle contenait<c type="kp">_</c> je t’ai envoyé des croquis des tableaux destinés pour la Hollande<c type="kp">_</c><ptr target="#note-t-1"/> Va sans dire que les études peintes sont plus éclatantes de couleur<c type="kp">_</c>– Suis de nouveau en plein travail<c type="kk">/</c> toujours des vergers en fleur.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">L’air d’ici me fait décidemment du bien<c type="kk">/</c> je t’en souhaiterais à pleins poumons<c type="kp">_</c> Un de ses effets est assez drôle<c type="kk">/</c> un seul petit verre de cognac me grise ici<c type="kk">/</c> donc n’ayant pas recours à des stimulants pour faire circuler mon sang<c type="kk">/</c> quand même la constitution s’usera moins<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Seulement j’ai l’estomac terriblement faible depuis que je suis ici<c type="kk">/</c> enfin cela c’est une affaire de longue patience probablement.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">J’espère faire du progres réel cette année<c type="kk">/</c> dont j’ai grand besoin d’ailleurs.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai un nouveau verger qui est aussi bien que les pêchers roses – des abricotiers d’un rose très pâle.<ptr target="#note-t-2"/> Actuellement je travaille à des pruniers d’un blanc jaune avec mille branches noires<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">J’use énormement de toiles et de couleurs mais j’espère ne pas perdre de l’argent tout de même<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Sur 4 toiles il y en aura peut être à peine une qui fasse <hi rend="italics">tableau</hi> tel que celui de Tersteeg ou de Mauve<c type="kk">/</c> mais les études pourront nous servir pour des echanges j’espère<c type="kp">_</c> Quand est ce que je pourrai t’envoyer<c type="kp">_</c> J’ai tellement envie d’en faire deux de celui de Tersteeg<c type="kk">/</c><ptr target="#note-t-4"/> car c’est mieux que les etudes d’Asnières<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Hier j’ai encore vu un combat de taureaux où 5 hommes travaillaient le boeuf avec des banderilles et des cocardes<c type="kp">_</c> Un toreador s’est écrasé une couille en sautant la barricade<c type="kp">_</c><ptr target="#note-t-6"/> C’était un homme blond aux yeux gris qui avait beaucoup de sang froid<c type="kk">/</c> ils disaient qu’il en aurait pour longtemps. Il était habillé en bleu céleste et or<c type="kk">/</c> absolument comme le petit cavalier dans notre Monticelli à 3 figures dans un bois.<ptr target="#note-t-7"/> Les arènes sont fort belles lorsqu’il y a soleil et foule.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Bravo pour Pissaro<c type="kk">/</c> il a raison il me semble.<ptr target="#note-t-8"/> J’espère qu’il nous fera un échange un jour<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">De même pour Seurat<c type="kk">/</c> ce serait une bonne affaire d’avoir une etude peinte de lui.<ptr target="#note-t-10"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Enfin je travaille dur<c type="kk">/</c> espérant que nous pourrons faire des choses dans ce genre.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Le mois sera dur pour toi et pour moi<c type="kk">/</c> seulement c’est pourtant<c type="kk">/</c> si la chôse t’est possible<c type="kk">/</c> dans notre avantage de faire le plus possible des vergers en fleur<c type="kp">_</c> Je suis maintenant bien en train et il m’en faut encore 10 il me semble<c type="kk">/</c> même motif<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Tu sais que je suis changeant dans mon travail et que cette rage de peindre des vergers ne durera pas toujours<c type="kp">_</c>– Après ce sera possiblement les arènes<c type="kp">_</c>– Puis j’ai ÉNORMEMENT à dessiner car voudrais faire des dessins dans le genre des crepons Japonais<c type="kp">_</c> Je ne puis pas faire autrement que battre le fer tant qu’il est chaud. Serai éreinté après les vergers car c’est des toiles 25 &amp; 30 &amp; 20<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Nous n’en aurions pas trop si je pouvais en abattre 2 fois autant<c type="kp">_</c> Car il me semble que cela pourra peutêtre definitivement fondre la glace en Hollande. La mort de Mauve a été un rude coup pour moi<c type="kp">_</c><ptr target="#note-t-11"/> Tu le verras bien que les pêchers roses ont ete peintes avec une certaine passion.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.fr.16" n="16">Il me faut aussi une <hi rend="italics">nuit étoilée</hi> avec <hi rend="italics">des Cyprès</hi> ou – peutetre au-dessus d’un champ de blé mûr<c type="kk">/</c> il y a des nuits fort belles ici. J’ai une fièvre de travail continuelle<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Suis bien curieux de savoir le résultat au bout d’un an<c type="kk">/</c> j’espère qu’alors je serai moins embêté par des malaises. A présent je souffre beaucoup certains jours mais cela ne m’inquiète pas le moins du monde parce que c’est rien que la réaction de cet hiver qui n’était pas ordinaire<c type="kp">_</c>– Et le sang se refait<c type="kk">/</c> c’est le principal<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Il faut arriver à ce que mes tableaux vaillent ce que je dépense et même l’excèdent vu tant de dépenses faites déjà<c type="kp">_</c> Eh bien à cela nous arriverons. Tout ne me reussit pas<c type="kk">/</c> bien sûr<c type="kk">/</c> mais le travail marche. Jusqu’à présent tu ne t’es pas plaint de ce que je dépense ici mais je t’avertis que si je continue mon travail dans les mêmes propor<c type="shy">-</c>tions j’ai bien du mal à arriver<c type="kp">_</c> Seulement le travail est excessif<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">S’il y arrive un mois ou une quinzaine où tu te sens gêné, avertis moi – dès lors je me mets à faire des dessins et cela nous coûtera moins. C’est pour te dire qu’il ne faut pas te forcer sans cause – ici il y a tant à faire de toute sortes d’études que c’est pas la meme chôse qu’à Paris<c type="kk">/</c> où l’on ne peut pas s’assoir où l’on veut.–<ptr target="#note-t-12"/></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Si c’est possible de faire un mois un peu raide<c type="kk">/</c> c’est tant mieux puisque les vergers en fleur sont des motifs qu’on a chance de vendre ou d’echanger<c type="kp">_</c> Mais j’y ai pensé que tu auras le terme à payer et c’est pourquoi qu’il faut me prévenir si ça gêne trop.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Je vais encore toujours avec le peintre Danois mais il va bientot retourner. C’est un garçon intel<c type="shy">-</c>ligent et très bien comme fidelité et manières, mais sa peinture est encore bien mince<c type="kp">_</c>–<ptr target="#note-t-13"/> Tu le verras probablement quand il sera à Paris de passage.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">C’est bienfait que tu aies été chez Bernard<c type="kp">_</c><ptr target="#note-t-14"/> S’il va faire son service en Algérie<c type="kk">/</c> qui sait<c type="kk">/</c> peut-être y irai-je lui tenir compagnie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Est ce que c’est à la fin des fins fini maintenant l’hiver à Paris?</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Je crois que ce que dit Kahn est très vrai<c type="kk">/</c> que je n’aie pas suffisament tenu compte des valeurs<c type="kk">/</c><ptr target="#note-t-15"/> mais ce sera encore bien autre chôse qu’ils diront plus tard – pas moins vrai<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">C’est pas possible de faire les valeurs et la couleur<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">Th<c type="kp">_</c> Rousseau l’a fait mieux que qui que ce soit<c type="kk">/</c> en mélangeant ses couleurs la noirceur causé par le temps a augmentée et ses tableaux actuellement sont méconnaissables<c type="kp">_</c>–<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">On ne peut pas être en même temps au pôle et à l’équateur<c type="kp">_</c> Il faut en prendre son parti<c type="kp">_</c> Ce qu’aussi j’espère bien faire et ce sera probablement la couleur.</p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">à bientot<c type="kk">/</c> poignee de moi à toi<c type="kk">/</c> à Koning<c type="kk">/</c> aux copains<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.29" n="29">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter and for the 100-franc note it contained. I’ve sent you croquis of the paintings intended for Holland.<ptr target="#note-t-1"/> Goes without saying that the painted studies are more brilliant in colour. Am hard at work again, still orchards in blossom. </p>
+<p rend="indent" xml:id="p.en.3" n="3">The air here is definitely doing me good, I could wish you deep lungfuls of it. One of its effects is quite funny, one small glass of cognac goes to my head down here, so without having recourse to stimulants to get my blood circulating, my constitution won’t be taxed so much all the same.</p>
+<p rend="indent" xml:id="p.en.4" n="4">But I’ve had a terribly weak stomach since I’ve been here, well, that’s probably a matter of a lot of patience.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I hope to make real progress this year, which I really need to do too.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’ve got a new orchard that’s as good as the pink peach trees -– some very pale pink apricot trees.<ptr target="#note-t-2"/> At present I’m working on some yellow-white plum trees with thousands of black branches.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I’m using vast quantities of canvases and colours but all the same I hope not to waste money. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Out of 4 canvases perhaps there’ll scarcely be one that would make a <hi rend="italics">painting </hi>like <rs type="person" ref="bio.xml#_787">Tersteeg</rs>’s or <rs type="person" ref="bio.xml#_323">Mauve</rs>’s, but we’ll be able to use the studies for exchanges, I hope. When will I be able to send you something? I’d so much like to do two of Tersteeg’s,<ptr target="#note-t-4"/> because it’s better than the Asnières studies.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Yesterday I saw a bullfight where five men were working the ox with banderillas and rosettes. A toreador crushed one of his balls jumping over the barrier.<ptr target="#note-t-6"/> He was a blond man with grey eyes and a lot of sang-froid, they said he’d feel it for a long time. He was dressed in sky-blue and gold, just like the little horseman in our <rs type="person" ref="bio.xml#_1240">Monticelli</rs> with the 3 figures in a wood.<ptr target="#note-t-7"/> The bullring looks so beautiful when there’s sunshine and a crowd.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Bravo for <rs type="person" ref="bio.xml#_1268">Pissarro</rs>, he’s right, I think.<ptr target="#note-t-8"/> I hope he’ll do an exchange with us one day.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">The same for <rs type="person" ref="bio.xml#_1353">Seurat</rs>, it would be a good thing to have a painted study by him.<ptr target="#note-t-10"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Anyway, I’m working hard, hoping we’ll be able to do things of this kind.</p>
+<p rend="indent" xml:id="p.en.13" n="13">The month will be hard for you and me, but nevertheless, if you can manage it, it’s to our advantage to do as many orchards in blossom as we can. I’m now well under way and I need 10 more, I think, same subject.</p>
+<p rend="indent" xml:id="p.en.14" n="14">You know I’m changeable in my work, and this rage to paint orchards won’t last for ever. After that it may be bullrings. And I have an ENORMOUS amount of drawing to do, because I’d like to do drawings in the style of Japanese prints. I can’t do anything but strike while the iron’s hot. Will be worn out after the orchards, because they’re no. 25 and 30 and 20 canvases.</p>
+<p rend="indent" xml:id="p.en.15" n="15">We wouldn’t have too many if I could knock off twice the number. Because I believe that could perhaps melt the ice in Holland once and for all. <rs type="person" ref="bio.xml#_323">Mauve</rs>’s death was a rude shock for me.<ptr target="#note-t-11"/> You’ll easily see that the pink peach trees were painted with a certain passion. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> I also need a <hi rend="italics">starry night</hi> with <hi rend="italics">Cypresses </hi>or — perhaps above a field of ripe wheat, there are some really beautiful nights here. I have a constant fever for work.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Am quite curious to know what the results will be after a year, I hope by then I’ll be less troubled by fits of faintness. At the moment I suffer a lot some days, but that doesn’t worry me in the least because it’s nothing but the reaction to this past winter, which wasn’t normal. And the blood’s restoring itself, that’s the main thing.</p>
+<p rend="indent" xml:id="p.en.17" n="17">We must reach the point where my paintings are worth what I spend and even exceed that, seeing that so much has been spent already. Ah well, we’ll get there. Not everything I do is a success, of course, but the work’s getting along. Up to now you haven’t complained about what I spend here, but let me warn you that if I continue my work at the same rate I’ll find it hard to manage. But the work’s excessive.</p>
+<p rend="indent" xml:id="p.en.18" n="18">If a month or a fortnight comes when you feel hard up let me know — then I’ll turn my hand to doing drawings and that will cost us less. This is to tell you that you shouldn’t force yourself for no reason — there’s so much to do here, all sorts of studies, that it’s not the same as in Paris, where you can’t sit down wherever you please.<ptr target="#note-t-12"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">If it’s possible to manage a bit of a steep month, so much the better, because orchards in blossom are subjects we have a chance of selling or exchanging. But I thought about the fact that you’ll have the rent to pay, and that’s why you must let me know if you’re too hard up.</p>
+<p rend="indent" xml:id="p.en.20" n="20">I’m still going about with the Danish <rs type="person" ref="bio.xml#_1233">painter</rs>, but he’s going home soon. He’s an intelligent boy, and fine as far as loyalty and manners go, but his painting is still very poor.<ptr target="#note-t-13"/> You’ll probably see him when he passes through Paris.</p>
+<p rend="indent" xml:id="p.en.21" n="21">It was kind of you to go and see <rs type="person" ref="bio.xml#_831">Bernard</rs>.<ptr target="#note-t-14"/> If he does his service in Algeria, who knows, perhaps I’ll go and keep him company.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Has winter come to an end in Paris at long last? 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">I think what <rs type="person" ref="bio.xml#_673">Kahn</rs> says is quite true, that I haven’t paid enough attention to values,<ptr target="#note-t-15"/> but it’ll be quite another thing they’ll say later — and no less true.</p>
+<p rend="indent" xml:id="p.en.24" n="24">It’s not possible to do both values and colour.</p>
+<p rend="indent" xml:id="p.en.25" n="25"><rs type="person" ref="bio.xml#_1332">Théodore Rousseau</rs> has done it better than anyone else, by mixing his colours the darkness caused by time has increased, and now his paintings are hardly recognizable.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">You can’t be at the pole and the equator at the same time. You have to choose. And I have high hopes of doing that, too, and it will probably be colour.</p>
+<p rend="indent" xml:id="p.en.27" n="27">More soon, handshake from me to you, to <rs type="person" ref="bio.xml#_1145">Koning</rs> and to the pals.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The bullfight that Van Gogh had been to ‘yesterday’ took place on Sunday, 8 April (<ref target="#n-6">see n. 6</ref>). This means that the letter was written on Monday, 9 April 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh wants to give <hi rend="italics">Pink peach trees </hi>to Jet Mauve <ref target="let590.xml">(590)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bernard’s military service <ref target="let575.xml">(575)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Koning’s stay with Theo <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>These watercolour sketches, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Langlois bridge with washerwomen</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2580">F 1480 / JH 1382</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2582">F 1469 / JH 1384</rs>), are after the paintings<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> The Langlois bridge with washerwomen </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2571">F 397 / JH 1368</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees (‘Souvenir de Mauve’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394 / JH 1379</rs>), which Van Gogh had intended for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_321">Jet Mauve</rs> respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Since Van Gogh later used similar wording for the left-hand work of a triptych in a letter sketch in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let597.xml">letter 597</ref> (that is ‘Pale pink orchard, apricot trees’), he must be referring here to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The pink orchard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2578">F 555 / JH 1380</rs>). This was painted on hand-prepared absorbent canvas. See Peres <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al.</hi> 1991, p. 27. Although F 555 / JH 1380 is on size 25 ‘figure’ (65 x 81 cm), this will be the size 30 absorbent canvas Van Gogh said he was waiting for in his previous letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let593.xml">see letter 593</ref>). In the present letter he calls his orchards no. 25, 30 and 20 canvases, but the sizes of the paintings he had made up to this point are 25 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2578">F 555 / JH 1380</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2576">F 403 / JH 1378</rs>), 20 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394 / JH 1379</rs>) and 15 (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2585">F 553 / JH 1387</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2581">F 556 / JH 1383</rs>), and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2590">F 405 / JH 1394</rs> is half the size of a no. 30 canvas. Van Gogh wasn’t always accurate when it came to giving canvas sizes; in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let611.xml">letters 611</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let620.xml">620</ref> he called a 25 ‘figure’ canvas a size 30. ‘The pink peach trees’ is the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘Souvenir de Mauve’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394 / JH 1379</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The white orchard</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2576">F 403 / JH 1378</rs>); cf. also the sketch in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let597.xml">letter 597</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>A few days later Van Gogh made a variant of the painting for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs>: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Langlois bridge with washerwomen </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2589">F 571 / JH 1392</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let595.xml#n-4">See letter 595, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>See for Asnières: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let592.xml#n-14">letter 592, n. 14.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The bullfight Van Gogh describes here took place on Sunday, 8 April. We learn from a letter to the editor in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Forum Républicain</hi> that the fight had to be abandoned because the torero, Eugène Hélias, was injured. See Clébert and Richard 1989, p. 72.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Adolphe Monticelli</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arabs and horseman</hi>, 1871 (Amsterdam, Van Gogh Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_305">Ill. 305</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>This was most probably about the falling-out between <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Camille Pissarro</rs> and the collector, amateur artist and pastrycook <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_169">Eugène Murer</rs>, who owned several of Pissarro’s early works. In a letter of 12 March 1888 Pissarro had refused Murer’s offer to dedicate his book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Un quart d’heure d’amour</hi> to him because their artistic views had meanwhile diverged to such an extent that they could no longer understand each other. Pissarro’s refusal meant an irreversible breach. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Pissarro</hi> 1980-1991, vol. 2, p. 219 (no. 473).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>There was probably no exchange with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Camille Pissarro</rs> during Van Gogh’s lifetime, since the only works in the estate are an etching, which the artist gave Theo, the fan he made for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let830.xml">see letter 830</ref>) and a small watercolour. In August 1890 Theo exchanged Vincent’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mulberry tree </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2847">F 637 / JH 1796</rs>) for a painting by Pissarro. Jo van Gogh-Bonger sold this unidentified work, ‘a no. 10 canvas’, to Ambroise Vollard in 1897. See FR b825, b936 and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, pp. 24, 199.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>As far as we know, Van Gogh and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs> never exchanged works.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Van Gogh’s first teacher <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Anton Mauve</rs> had died on 5 February 1888.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Theo wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo Bonger</rs> on 14 February 1889 about the problems Vincent had encountered when painting out of doors in Paris: ‘In Paris he saw masses of things he wanted to paint, but time and again he was prevented from doing so. Models didn’t want to pose for him, he was forbidden to sit and work in the street and because of his volatile disposition this repeatedly led to scenes, which upset him <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">so</hi> much that he became completely unapproachable and by the end of it all he’d had more than enough of Paris.’ See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness</hi> 2000, pp. 160-161.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The Danish painter is <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Christian Mourier-Petersen</rs>. See for his departure for Paris: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let584.xml#n-12">letter 584, n. 12.</ref> Two examples of his work in Arles are the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_672">Apricot trees in blossom, Arles</rs></hi>, showing the same orchard as Van Gogh’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘Souvenir de Mauve’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394 / JH 1379</rs>), and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_673">Girl from Arles</rs></hi>, for which he may have used the same model as Van Gogh in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2671">F 431 / JH 1519</rs>). See Larsson 1993, pp. 17-22, ills. 1, 4.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Since the autumn of 1887 the Bernard family had lived at 5 avenue de Beaulieu in Asnières, where <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> had his studio in the garden. See exhib. cat. Mannheim 1990, p. 97. Van Gogh verifies this address with Bernard (with Paris as the place name) in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let698.xml">letter 698</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+      
+<p>In the ‘Chronique de la littérature et de l’art’ the critic <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_673">Gustave Kahn</rs> discussed Van Gogh’s paintings at the Indépendants exhibition (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-8">see letter 582, nn. 8</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-9">9</ref>). In his article ‘Peinture: Exposition des indépendants’, he wrote: ‘Mr van Gogh paints large landscapes with a vigorous brush, paying little attention to the value and precision of his tones. A multicoloured multitude of books faces a tapestry; this subject, which is good for a study, cannot be the pretext for a painting.’ (M. Van Gogh brosse vigoureusement, sans un assez grand souci de la valeur et de l’exactitude de ses tons, de grands paysages. Vers une tapisserie s’oriente une multitude polychrome de livres; ce motif bon pour une étude, ne peut être un prétexte à tableau). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Revue Indépendante</hi> (April 1888), no. 18 (vol. 7), pp. 160-164, quotation on p. 163.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>The darkening of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Rousseau</rs>’s paintings was caused to a significant extent by his use of ‘bitumen’ or ‘drying oil’. In his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_251">Souvenirs sur Th. Rousseau</ref> </hi>(1872) <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_737">Sensier</rs> cited as examples of ‘this deplorable method’ the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_402">The descent of the cattle in the High Jura mountains</rs></hi>, which Van Gogh knew from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1218">Mesdag</rs>’s collection (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let246.xml#n-13">letter 246, n. 13</ref>), and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The chestnut avenue </hi>in the Louvre. See Michel Schulman <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al</hi>., <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Théodore Rousseau 1812-1867. Catalogue raisonné de l’oeuvre peint</hi>. Paris 1999, pp. 50-52; and cat. The Hague 1996, pp. 381-384, cat. nos. 286-287.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

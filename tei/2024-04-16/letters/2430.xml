@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Tuesday, 4 July 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let243"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b233 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>243</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>211</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>243</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-07-04">Tuesday, 4 July 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0233" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000275_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000275_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000275_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0233" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000275_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000275_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000275_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Dinsdag middag</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Berigt van Sien dat alles goed gaat<c type="kk">/</c> God dank<c type="kp">_</c>– Als het zoo blijft dan moet zij met de 14 dagen na hare bevalling vertrekken.– Dit drong mij er toe mij te decideeren omtrent de nieuwe woning opdat zij een vriendelijk nestje vinde bij haar terugkomst na zoveel pijn. Nu heb ik dus met den eigenaar eene afspraak gemaakt.<ptr target="#note-t-1"/> Vooreerst dat hij me nu direkt zou helpen verhuizen<c type="kk">/</c> n.l. mij een paar mannen van de werf<ptr target="#note-t-2"/> afstaan voor een achtermiddag om al mijn boeltje over te brengen omdat ik zelf niet al te veel mag sjouwen en zelfs eigentlijk in ’t geheel niet. En vervolgens dat ik hem evenwel geen huur zal betalen voor en aleer ’t zij ik zelf t’zij de vrouw er definitief intrekt. Want misschien is Sien eer terug dan ik uit het gasthuis. Intusschen moet ik een accoord treffen met den ouden huisbaas<ptr target="#note-t-3"/> voor de loopende maand (want ik heb hem omdat ik ziek was &amp; niet wist wanneer ik beter zou zijn geen notitie kunnen geven ik vertrok)<c type="kp">_</c> Ik zal er hoop ik met 1 week of 14 dagen huur afkomen<c type="kk">/</c> althans ben niet van plan hem de heele maand te geven.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Misschien hebt gij al wat gestuurd &amp; dan vind ik Uw brief misschien morgen ochtend reeds bij dien portier van ’t gasthuis.<ptr target="#note-t-4"/> Doch hebt gij nog niet gezonden zou ik U vriendelijk willen verzoeken het spoedig te doen want ik raak à court en moet f<c type="kp">_</c> 10 vooruit betalen om weer in ’t gasthuis te gaan zoodat mijn teruggaan daar naar toe afhangt van de ontvangst van Uw brief. Van morgen was er nog geen brief bij den portier.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Nu is de verhuizing achter den rug grootendeels<c type="kk">/</c> de moeder van Sien helpt mij, het is een heele karwei want het heele huis is nog vol kalkstof &amp; moet geschrobd worden. Maar ’t atelier en de alkoof is schoon en de meubels &amp;c. bijna allen over. Nu zitten we even te schoften.<ptr target="#note-t-a"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Het gaat mij goed<c type="kk">/</c> ik voel mij veel beter dan ik in lang gedaan heb, alleen de boel van onderen met het wateren is nog niet zooals ’t zijn moet. Ofschoon het loopen, buiten zijn &amp;c. mij goed bekomt<c type="kp">_</c> Gisteren sprak ik de direkteur van ’t gasthuis<c type="kk">/</c> D<hi rend="super">r</hi> Tienhoven<c type="kk">/</c><ptr target="#note-t-5"/> even op straat &amp; vertelde hem hoe het ging &amp; hij maakte geen bezwaar. Zoodat ik hoop heb het spoedig geheel klaar zal zijn.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Als ik zelf het plan gemaakt had voor deze nieuwe woning &amp; ze had willen laten inrigten expres voor atelier zou ik het niet beter hebben kunnen doen dan ze nu is. En geen een ander huis in de straat is als dit van binnen ofschoon van buiten zij allen er precies eender uitzien. Dat ik er in ben is eigentlijk de schuld van den storm die het raam van het vroegere atelier vernield heeft want was dat niet gebeurd<c type="kk">/</c> had ik van deze woning niets geweten<c type="kp">_</c><ptr target="#note-t-6"/> Het is de timmerman die bij die gelegenheid mij er attent op maakte en zei<c type="kk">/</c> waarom ga je niet hier naast wonen.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Nu broer, en tusschen het verhuizen in, heb ik er nog een teekening opgedonderd en wel weer eens een aquarel. Op een schets van vóór mijn ongesteldheid die half af gebleven was. Zoodat het leven er weer in komt. Het zijn pinken op het strand<c type="kk">/</c> groote rompen 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>van schuiten die in ’t heete zand liggen met de zee heel wijd weg in een blaauwen nevel of stof want het was een dag met zon<c type="kk">/</c> maar het is met het licht mee<c type="kk">/</c> niet er tegen in<c type="kk">/</c> zoodat men de zon moet voelen door een paar korte slagschaduwtjes en door de tinteling van de warme lucht boven ’t zand.<ptr target="#note-t-7"/> Het is maar een impressie maar ik geloof ze nog al juist is<c type="kk">/</c> mijn vingers jeuken zoo om weer aan den slag te gaan &amp; ik behoef niet te zeggen ik liever naar Schevening dan naar ’t gasthuis ging. Doch wat moet dat moet.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Nu verlang ik erg naar Uw brief en nog meer naar Uw komst – mits ik dan maar niet in ’t gasthuis lig<c type="kp">_</c>– En wat gij zeggen zult van het nieuwe huis. Ook naar wat gij denken zult van Sien als gij haar ziet en van de kleine nieuwe wijsneus. Dat gij voor Sien dan wat sympathie zult voelen hoop ik van harte want zij verdient het. Nog iets... Zou er bij U te lande nog wat Papier Ingres zijn van de dikte van bijgaand staaltje<c type="kk">/</c> liefst wat tooniger? Zoo ja<c type="kk">/</c> breng ’t dan mee als ge komt alsmede datgene van de schetsen van mij in Uw bezit wat gij niet houden wilt. Natuurlijk hoop ik dat gij Sorrow en de besten er uit<c type="kk">/</c> ook de groote Sorrow<c type="kk">/</c><ptr target="#note-t-8"/> bepaald houden zult. à dieu<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.10" n="10">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.11" n="11">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Tuesday afternoon</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">A message from <rs type="person" ref="bio.xml#_463">Sien</rs> that all is going well, thank God. If that continues, she should leave a fortnight after the birth. This forced me to make a decision about the new house, so that she’d find a warm nest on her return after so much pain. So I reached an understanding with the <rs type="person" ref="bio.xml#_813">owner</rs>.<ptr target="#note-t-1"/> First, that right away he’d help me move, namely by letting me have a few men from the yard<ptr target="#note-t-2"/> at the end of an afternoon to carry all my things, because I’m not allowed to lift much, in fact nothing at all. And then that I won’t pay him any rent until either I or the woman actually moves in, for Sien may be back from hospital before I am. Meanwhile I must reach an agreement with the previous <rs type="person" ref="bio.xml#_63">landlord</rs><ptr target="#note-t-3"/> for the current month (because I was ill and didn’t know when I would be better, I was unable to give him notice that I was leaving). I hope to get away with paying for 1 week or a fortnight, anyway I’m not planning to give him the whole month. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.4" n="4">Perhaps you’ve already sent something – then maybe I’ll find your letter tomorrow morning with the hospital porter.<ptr target="#note-t-4"/> But if you haven’t yet sent, I would ask you to please do so soon because I’m running short and must pay 10 guilders in advance to go back into hospital, so that my going back there depends on your letter. This morning there was still no letter with the porter.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Now the move is largely done. Sien’s <rs type="person" ref="bio.xml#_464">mother</rs> is helping me. It’s quite a job, because the whole house is still full of plaster dust and needs to be scrubbed. But the studio and alcove are clean, and nearly all the furniture &amp;c. has been brought over. Now we’re taking a break to eat.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m fine, I feel much better than I’ve done for a long time, but my nether parts are still not completely in order when I pass water. Although walking, being out of doors &amp;c. agrees with me. Yesterday I spoke briefly to the director of the hospital, <rs type="person" ref="bio.xml#_779">Dr Tienhoven</rs>,<ptr target="#note-t-5"/> in the street and told him how I was getting on, and he made no objection. So I have hopes of being fully cured soon. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> </p>
+<p rend="indent" xml:id="p.en.7" n="7">If I had designed this new house myself, and had deliberately wanted to fit it out as a studio, I couldn’t have made it better than it is now. And not another house in the street is like this one inside, although from the outside they all look exactly the same. The fact that I’m in it is really the fault of the storm that broke the window of the old studio, for if that hadn’t happened I would never have known about this house.<ptr target="#note-t-6"/> It was on that occasion that the carpenter drew it to my attention and said, why don’t you move next door?</p>
+<p rend="indent" xml:id="p.en.8" n="8">Well brother, and during the move I’ve dashed off another drawing, a watercolour again. Based on a sketch done before my illness that was only half finished. So it’s coming to life again. It shows pinks on the beach, big hulls 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> of boats lying in the hot sand with the sea very far off in a blue mist or haze, for it was a day with sun, but it’s with the light behind, not into it, so that you have to feel the sun through a few short cast shadows and the shimmering of the warm air above the sand.<ptr target="#note-t-7"/> It’s only an impression but I believe it’s fairly accurate. My fingers are itching so much to get back to work, and needless to say I would rather have gone to Scheveningen than to the hospital. Still, what must be must be. </p>
+<p rend="indent" xml:id="p.en.9" n="9">Now I’m longing for your letter and even more for your arrival — provided I’m not then in the hospital. And for what you’ll say about the new house. And for what you’ll think of <rs type="person" ref="bio.xml#_463">Sien</rs> when you see her, and of the new <rs type="person" ref="bio.xml#_466">little clever-clogs</rs>. I do hope you’ll feel some sympathy for Sien, because she deserves it. Another thing… Might there be any more Ingres paper of the same thickness as the enclosed sample in your part of the world, ideally with slightly more tone? If so, bring some when you come, together with those of my sketches that you have but don’t want to keep. Of course I hope that you’ll definitely keep Sorrow and the best of them, and the large Sorrow.<ptr target="#note-t-8"/> Adieu, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">Ever yours,</p>
+<p xml:id="p.en.11" n="11">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was written on the Tuesday <ref target="#l-1">(l. 1)</ref> after the birth on 2 July 1882, and so dates from 4 July 1882.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sien has given birth in Leiden <ref target="let242.xml">(242)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+    
+<p>Van Gogh’s new address was Schenkweg 136 (from 1884 number 13), an upstairs flat immediately next to his previous dwelling. The rental business was looked after by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_812">M.A. de Zwart</rs>, the son of the owner <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_813">P.W. de Zwart</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let222.xml#n-17">see letters 222, n. 17</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let241.xml#n-5">241,  n. 5</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Men from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_813">P.W. de Zwart</rs>’s carpenter’s yard. Van Gogh drew this yard, which his house looked out on, more than once. See exhib. cat. The Hague 1990, pp. 21-29.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_63">A.J. van der Drift</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The hospital porter was to keep any post that came for Van Gogh; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let241.xml">see letter 241</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Variant of ‘schaften’.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The director of the hospital where Van Gogh was treated was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_779">Gerrit Pieter van Tienhoven</rs>. See Haeseker and Koch 1992, p. 82.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For this storm, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let222.xml">see letter 222</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This drawing of fishing boats is unknown. Later in the month Van Gogh sent a letter sketch after a watercolour he had done of this subject (251).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The small and the larger version of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sorrow</hi> that Theo had in his possession at this point are not known. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let216.xml#n-3">letter 216, n. 3.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

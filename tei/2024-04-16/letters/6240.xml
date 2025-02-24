@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Tuesday, 12 or Wednesday, 13 June 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let624"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b538 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>624</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>497</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>627</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-06-12">Tuesday, 12 or Wednesday, 13 June 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0538" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000723_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000723_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000723_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0538" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000723_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000723_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000723_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">je t’écris encore un mot parceque je n’ai pas encore reçu ta lettre<c type="kp">_</c> Seulement je suppose que tu te seras dit que je serais probablement à S<hi rend="super">tes</hi> Maries.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Puisque et le loyer de la maison et la peinture des portes &amp; fenêtres et l’achat de toiles sont venues simultanément m’épuiser<c type="kk">/</c> tu me rendras très grand service de m’envoyer de l’argent quelques jours plus tôt.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je travaille à un paysage avec des champs de blé que je crois pas inférieur au verger blanc par exemple.<ptr target="#note-t-1"/> il est dans le genre des deux paysages Butte Montmartre qui ont été aux Indépendants<ptr target="#note-t-2"/> mais je crois que c’est plus solide et que cela a un peu plus de style.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Et j’ai un autre motif<c type="kk">/</c> une ferme et des meules<c type="kk">/</c> qui sera probablement le pendant<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je suis bien curieux de savoir ce que fera Gauguin. j’espère qu’il pourra venir. Tu me diras que cela ne sert à rien de penser à l’avenir mais la peinture avance lentement et là-dedans on doit bien calculer d’avance<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Gauguin pas plus que moi serait sauvé s’il vendait quelques toiles<c type="kp">_</c> Pour pouvoir travailler il faut autant que possible regler sa vie et il faut une base un peu ferme<c type="kk">/</c> d’avoir son existence garantie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Si lui et moi restons ici <hi rend="italics">longtemps</hi> nous ferons des tableaux de plus en plus personnels justement parceque nous aurons étudié les choses de ce pays plus à fond<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je m’imagine assez difficilement de changer de direction; ayant commencé le midi mieux vaut ne plus bouger que – toujours en pénétrant dans le pays.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je crois que j’ai plus de chance de réussir les choses et – meme les affaires – un peu plus larges que de me retenir en faisant trop petit.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Et c’est justement pour cela que je crois que je vais agrandir le format des toiles et hardiment adopter la toile de 30 carrée<c type="kp">_</c><ptr target="#note-t-4"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Celles là me coûtent ici 4 francs chaque et cela n’est pas cher vu le transport.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">La dernière toile tue absolument tout le reste<c type="kk">/</c> il n’y a qu’une nature morte avec des cafetieres et des tasses et assiettes en bleu &amp; jaune qui se tienne à côté<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Cela doit tenir au dessin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Involontairement ce que j’ai vu de Cezanne me revient à la mémoire parceque lui a tellement – comme dans la moisson que nous avons vu chez Portier<ptr target="#note-t-6"/> – donné le côté apre de la Provence.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">C’est devenu tout autre chose qu’au printemps mais certes j’aime pas moins la nature qui commence à être brulée dès maintenant. Dans tout il y a maintenant du vieil or<c type="kk">/</c> du bronze<c type="kk">/</c> du cuivre dirait on et cela<c type="kk">/</c> avec l’azur vert du ciel chauffé à blanc<c type="kk">/</c> cela donne une couleur délicieuse excessivement harmonieuse avec des tons rompus à la <hi rend="italics">Delacroix</hi><c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Si Gauguin voulait nous joindre je crois que nous aurions fait un pas en avant. cela nous poserait comme exploiteurs du Midi carrément et on ne pourrait pas trouver à redire à cela<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Il faut que j’arrive à la fermeté de couleur que j’ai dans cette toile qui tue les autres. Lorsque j’y pense que Portier racontait dans le temps que les Cezanne qu’il avait eu avaient l’air de rien du tout vus seuls mais que raprochés d’autres toiles cela enfoncait la couleur des autres.<ptr target="#note-t-7"/> Et aussi que les Cezanne faisaient bien dans l’or<c type="kk">/</c> ce qui suppose une gamme très montée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Alors peutêtre peutêtre je suis sur la piste et mon oeil se fait-il à la nature d’ici. Attendons encore pour être sûr<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Ce dernier tableau supporte l’entourage rouge des briques dont l’atelier est pavé<c type="kp">_</c>– Lorsque je le mets par terre sur ce fond rouge brique <hi rend="italics">très</hi> <hi rend="italics">rouge</hi> la couleur du tableau ne devient pas creuse ou blanchâtre. La nature près d’Aix – où travaille Cezanne – c’est juste la même qu’ici<c type="kk">/</c> c’est toujours <hi rend="italics">la Crau</hi>.<ptr target="#note-t-8"/> Si en revenant avec ma toile je me dis: tiens voila que je suis arrivé juste à des tons au père Cézanne<c type="kk">/</c> je veux seulement dire ceci que Cezanne étant <hi>absolument</hi> <hi>du pays</hi> <hi>même</hi> comme Zola<ptr target="#note-t-9"/> et le connait donc si intimement<c type="kk">/</c> il faut qu’on fasse interieurement le même calcul pour arriver à des tons pareils. Va sans dire que vus ensemble cela se tiendrait mais ne se ressemblerait pas.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Poignée de main<c type="kk">/</c> j’espère que tu pourras écrire de ces jours ci même.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.22" n="22">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.23" n="23">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I’m writing you another line because I haven’t yet received your letter. But I presume you’ll have said to yourself that I would probably be at Saintes-Maries.</p>
+<p rend="indent" xml:id="p.en.3" n="3">As the rent for the house and the painting of the doors and windows and the purchase of canvases have all come together and drained me dry, you’ll do me a very great service by sending me some money a few days early.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’m working on a landscape with wheatfields which I believe is no worse than the white orchard, for example.<ptr target="#note-t-1"/> It’s of the same kind as the two Butte Montmartre landscapes that were in the Independents,<ptr target="#note-t-2"/> but I think it’s more substantial and that it has a little more style.</p>
+<p rend="indent" xml:id="p.en.5" n="5">And I have another subject, a farmhouse and wheat stacks, which will probably be its pendant.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m very curious to know what <rs type="person" ref="bio.xml#_1039">Gauguin</rs> will do. I hope he’ll be able to come. You’ll tell me it serves no purpose to think about the future, but painting progresses slowly, and in that respect one does need to calculate ahead. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7"> <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, no more than I, would be rescued if he sold a few canvases. In order to be able to work we must organize our lives as much as possible and need a reasonably firm basis to have our existence assured.</p>
+<p rend="indent" xml:id="p.en.8" n="8">If he and I stay here <hi rend="italics">for a long time</hi> we’ll make paintings that are more and more personal, precisely because we’ll have studied things in this part of the world more deeply.</p>
+<p rend="indent" xml:id="p.en.9" n="9"> It’s quite hard for me to imagine myself changing direction; having made a start on the south it’s better not to move than — penetrating ever deeper into the region.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I believe I have more chance of succeeding in doing things — even business affairs — that are a bit larger, than if I hold back and do them too small.</p>
+<p rend="indent" xml:id="p.en.11" n="11">And that’s precisely why I think I’m going to enlarge the format of my canvases and boldly adopt the square 30 canvas.<ptr target="#note-t-4"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Those cost me 4 francs each here and that isn’t dear, considering the transport.</p>
+<p rend="indent" xml:id="p.en.13" n="13">The last canvas absolutely kills all the rest; there’s only a still life with coffee-pots and cups and plates in blue and yellow that can stand beside it.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">It must be in the drawing.</p>
+<p rend="indent" xml:id="p.en.15" n="15">What I’ve seen of <rs type="person" ref="bio.xml#_932">Cézanne</rs> involuntarily comes back to mind, because he has presented the harsh side of Provence so forcefully — as in the harvest we saw at Portier’s.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">It has become something quite different from in the spring, but I certainly have no less love for nature that is starting to get scorched as early as now. There’s old gold, bronze, copper in everything now, you might say, and that, with the green blue of the sky heated white-hot, produces a delightful colour which is exceedingly harmonious, with<hi rend="italics"> </hi>broken tones à la <hi rend="italics"><rs type="person" ref="bio.xml#_982">Delacroix</rs></hi>.
+      <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">If <rs type="person" ref="bio.xml#_1039">Gauguin</rs> wished to join us, I believe we’d have taken a step forward. It would establish us squarely as miners of the south, and nobody could find fault with that.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I have to achieve the firmness of colour that I have in that painting that kills the rest. When I think that in the past <rs type="person" ref="bio.xml#_601">Portier</rs> used to say that the <rs type="person" ref="bio.xml#_932">Cézanne</rs>s that he’d had looked like nothing at all seen on their own, but put next to other canvases they’d beat the colour of the others hollow.<ptr target="#note-t-7"/> </p>
+<p rend="indent" xml:id="p.en.19" n="19">And also that the <rs type="person" ref="bio.xml#_932">Cézanne</rs>s did well in gold, which presupposes a very highly pitched range of colour.</p>
+<p rend="indent" xml:id="p.en.20" n="20">So perhaps, perhaps, I’m on the right track and my eye’s adapting to nature here. Let’s wait a little longer to be sure.</p>
+<p rend="indent" xml:id="p.en.21" n="21">This last painting can bear the red surround of the bricks with which the studio is paved. When I put it on the floor against this <hi rend="italics">very red </hi>red-brick background, the colour of the painting doesn’t become hollow or white-looking. The countryside near Aix — where <rs type="person" ref="bio.xml#_932">Cézanne</rs> works — it’s precisely the same as here, it’s still <hi rend="italics">the Crau.</hi><ptr target="#note-t-8"/><hi rend="italics"> </hi>If, coming home with my canvas, I say to myself: look, I’ve arrived precisely at <hi rend="italics">père</hi> Cézanne’s tones, I only want to say this, that Cézanne, belonging <hi>absolutely to the region itself</hi>, like <rs type="person" ref="bio.xml#_836">Zola</rs>,<ptr target="#note-t-9"/> and therefore knows it so intimately, you have to do the same internal calculation to achieve the same tones. Goes without saying that seen together they’d hold their own, but there would be no resemblance.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Handshake, I hope you’ll be able to write in the very next few days.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">Ever yours,</p>
+<p xml:id="p.en.24" n="24">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter must have been written soon after <ref target="let623.xml">letter 623</ref>, which dates from Tuesday, 12 June – possibly even the same day, for Van Gogh says ‘I’m writing you <hi rend="italics">another</hi> line because I haven’t yet received your letter’ (<ref target="#l-1*">ll. 1*-3</ref>; our italics). In <ref target="let623.xml">623</ref> Van Gogh remarked that he hadn’t had a letter that morning. Furthermore, in the present letter he asks if he can have his allowance ‘a few days’ earlier than usual <ref target="#l-11">(ll. 11-12)</ref>. If this request is to make any sense – Vincent generally received his money at the weekend – the letter must have been written on Tuesday, 12 or Wednesday, 13 June 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to go back to Saintes-Maries <ref target="let621.xml">(621)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Entry for the 1888 Indépendants exhibition <ref target="let582.xml">(582)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>). The white orchard is <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2576">F 403 / JH 1378</rs>. Van Gogh thought this was one of his best paintings (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let608.xml">see letter 608</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Montmartre: behind the Moulin de la Galette </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2549">F 316 / JH 1246</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vegetable gardens in Montmartre </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2548">F 350 / JH 1245</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This plan was to result in the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2623">F 425 / JH 1442</rs>). Van Gogh already had a drawing of the subject: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2622">F 1425 / JH 1441</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Among the harvest landscapes of this period <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with setting sun </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2647">F 465 / JH 1473</rs>) is the only one other than <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheat stacks </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2623">F 425 / JH 1442</rs>) to have been painted on a canvas this size (approx. 73 x 92 cm).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>‘The last canvas’ is the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Harvest </hi>referred to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-1">n. 1</ref> above; the still life is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with coffee pot </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2609">F 410 / JH 1426</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_932">Paul Cézanne</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest</hi>, c. 1877 (private collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_686">Ill. 686</rs>. Vincent and Theo saw the painting in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_601">Portier</rs>’s gallery at 54 rue Lepic. According to Rewald, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Paul Gauguin</rs> was its first owner and he left it with Portier when he set off for Martinique in the spring of 1887, but there is no real evidence of this. See Rewald 1996, vol. 1, pp. 207-208, cat. no. 301, and exhib. cat. Chicago 2001, p. 384 (n. 22).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Aside from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_686">The harvest</rs></hi> referred to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-6,">n. 6,</ref> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_601">Portier</rs> is known to have had one other painting by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_932">Cézanne</rs>:<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> <rs type="artwork" ref="artwork.xml#noill_717">The village street</rs></hi>, 1872-1873 (New Haven, Yale University Art Gallery). See Rewald 1996, vol. 1, p. 146, cat. no. 187.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Aix-en-Provence, about 60 km to the east of Arles, was where <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_932">Cézanne</rs> lived; he painted in several places in the Crau. See Rewald 1986-2, pp. 267-269.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs> also came from Aix-en-Provence, where he had been at school with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_932">Cézanne</rs>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 3 September 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let673"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b573 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>673</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>531</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>677</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-09-03">Monday, 3 September 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0573 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000770_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000770_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000770_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0573 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000770_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000770_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000770_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0573 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000771_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000771_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0573 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000771_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000771_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">hier j’ai encore passé la journée avec ce Belge – qui a aussi une soeur dans les vingtistes<ptr target="#note-t-1"/> – – il ne faisait pas beau temps mais c’etait une bien bonne journée pour la causerie<c type="kk">/</c> nous nous sommes promenés et avons tout de même encore vu de bien belles chôses aux courses de taureaux et hors la ville. Nous avons plus sérieusement causé du plan que si moi je garde un logement dans le midi<c type="kk">/</c> lui devrait bien fonder une espèce de station dans les charbonnages.<ptr target="#note-t-2"/> Qu’alors Gauguin et moi et lui dans des cas où l’importance d’un tableau motiverait le voyage pourrions changer de place – tantôt étant dans le nord mais en pays connu où l’on a un ami<c type="kk">/</c> tantôt dans le midi<c type="kp">_</c> Tu le verras sous peu ce jeune homme à mine Dantesque car il va venir à Paris et en le logeant<c type="kk">/</c> si la place est libre<c type="kk">/</c> tu feras bien pour lui.<ptr target="#note-t-3"/> il est bien distingué d’extérieur et il le deviendra je crois dans ses tableaux. Il aime Delacroix et nous avons bien causé de Delacroix hier<c type="kk">/</c> justement il connaissait l’esquisse violente de la barque du Christ<c type="kp">_</c><ptr target="#note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Eh bien, grâce à lui – j’ai enfin une première esquisse de ce tableau que depuis longtemps je rêve – <hi rend="italics">le poète</hi><c type="kp">_</c>–<ptr target="#note-t-5"/> Il me l’a posé<c type="kp">_</c> Sa tête fine au regard vert se détache dans mon portrait sur un ciel étoilé outremer profond<c type="kk">/</c> le vêtement est un petit veston jaune<c type="kk">/</c> un col de toile écrue<c type="kk">/</c> une cravate bigarrée<c type="kp">_</c> Il m’a donné deux séances dans une seule journée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Hier j’ai reçu une lettre de la soeur qui a vu bien des chôses. Ah si elle pouvait marier un artiste ce ne serait pas mauvais.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Enfin<c type="kk">/</c> il faut continuer à l’engager à démeler sa personalité plutôt que ses capacités artistiques.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai fini l’immortel de Daudet – j’aime assez le mot du sculpteur Védrine qui dit qu’arriver à la <hi>gloire</hi> c’est quelquechose comme en fumant de fourrer dans sa bouche le cigare par le bout allumé<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Maintenant decidemment j’aime moins<c type="kk">/</c> bien moins l’immortel que Tartarin<c type="kp">_</c><ptr target="#note-t-7"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Tu sais il me semble que l’immortel est pas aussi beau comme couleur que Tartarin car cela me fait penser avec ces tas d’observations subtiles et justes aux désolants tableaux de Jean Béraud<c type="kk">/</c><ptr target="#note-t-8"/> si secs<c type="kk">/</c> si froids. Or Tartarin est si <hi rend="italics">réellement</hi> grand – d’une grandeur de chef d’oeuvre ainsi que l’est Candide.<ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je voudrais beaucoup te prier d’exposer à l’air autant que possible mes études d’ici qui ne sont pas encore sèches au fond.<ptr target="#note-t-10"/> Si elles restaient enfermées ou à l’obscurité les couleurs y perdraient. Ainsi le portrait de <hi rend="italics">jeune fille</hi>.<ptr target="#note-t-11"/> <hi rend="italics">la moisson</hi> (paysage étendu avec la ruine au fond et la chaine des Alpines)<c type="kk">/</c><ptr target="#note-t-12"/> la <hi rend="italics">petite marine</hi><c type="kk">/</c><ptr target="#note-t-13"/> le <hi rend="italics">jardin</hi> à l’arbre pleureur et aux buissons de conifères<c type="kk">/</c><ptr target="#note-t-14"/> si tu pouvais les mettre sur des chassis ce serait bon. à ceux là j’y tiens un peu<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Tu vois bien par le <hi rend="italics">dessin</hi> de la petite marine<ptr target="#note-t-15"/> que celle là est la plus fouillée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Je fais faire 2 cadres en chêne pour ma nouvelle tete de paysan et pour mon étude de Poète.<ptr target="#note-t-16"/> Ah, mon cher frère<c type="kk">/</c> quelquefois je sais tellement bien ce que je veux. Je peux bien dans la vie et dans la peinture aussi me passer de bon Dieu mais je ne 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>puis pas<c type="kk">/</c> moi souffrant<c type="kk">/</c> me passer de quelque chose plus grand que moi qui est ma vie<c type="kk">/</c> la puissance de créer<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Et si frustré dans cette puissance physiquement<c type="kk">/</c> on cherche à créer des pensées au lieu d’enfants<c type="kk">/</c> on est par là bien dans l’humanité pourtant. Et dans un tableau je voudrais dire quelque chose de consolant comme une musique<c type="kp">_</c> Je voudrais peindre des hommes ou des femmes avec ce je ne sais quoi d’éternel dont autrefois le nimbe était le symbole et que nous cherchons par le rayonnement même<c type="kk">/</c> par la vibration de nos colorations<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Le portrait ainsi conçu ne devient pas de l’Ary Scheffer parcequ’il y a un ciel bleu derriere comme dans le Saint Augustin<c type="kp">_</c><ptr target="#note-t-17"/> Car coloriste<c type="kk">/</c> Ary Scheffer l’est si peu.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Mais ce serait plutot d’accord avec ce que cherchait et trouvait Eug<c type="kp">_</c> Delacroix dans son Tasse en prison<ptr target="#note-t-18"/> et tant d’autres tableaux représentant un homme <hi rend="italics">vrai</hi>. Ah le portrait – le portrait avec la pensée<c type="kk">/</c> l’âme du modèle – cela me parait tellement devoir venir.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Nous avons beaucoup causé hier<c type="kk">/</c> le Belge et moi<c type="kk">/</c> des avantages et desavantages d’ici. Nous sommes bien d’accord sur les deux. Et sur l’immense interêt que cela presenterait pour nous de pouvoir <hi rend="italics">changer</hi><c type="kk">/</c> tantôt le nord<c type="kk">/</c> tantôt le midi<c type="kp">_</c> Lui va encore rester avec Mac Knight pour raisons de vivre à meilleur marché.<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Cela a je crois pour lui pourtant un désavantage car vivre avec un fainéant rend fainéant. Je crois que tu te plairas à le rencontrer<c type="kk">/</c> il est encore jeune.<ptr target="#note-t-20"/> Je crois qu’il te demandera conseil pour acheter des crepons japonais et des lithographies de Daumier. Pour ces dernières<c type="kk">/</c> les Daumier<c type="kk">/</c> il serait bon d’en prendre encore parceque plus tard nous ne pourrons plus les trouver.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Le belge disait qu’il payait avec McKnight 80 francs de pension<c type="kp">_</c><ptr target="#note-t-21"/> Quelle différence donc en vivant ensemble – moi j’ai à payer 45 par mois rien que pour mon logement.<ptr target="#note-t-22"/> Et alors je reviens toujours au même calcul<c type="kk">/</c> qu’avec Gauguin je ne depenserai pas plus qu’à moi seul et cela sans en souffrir.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Maintenant il est à considérer qu’eux ils étaient fort mal logés<c type="kk">/</c> non pour leurs lits mais pour la possibilité de travailler chez eux.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je suis ainsi toujours entres deux courants d’idées<c type="kk">/</c> les premières les difficultés materielles<c type="kk">/</c> se tourner et se retourner pour se créer une existence<c type="kk">/</c> et puis l’étude de la couleur. J’ai toujours l’espoir de trouver quelque chôse là-dedans. Exprimer l’amour de deux amoureux par un mariage de deux complémentaires<c type="kk">/</c> leur melange et leurs oppositions<c type="kk">/</c> les vibrations mystérieuses des tons rapprochés. Exprimer la pensée d’un front par le rayonnement d’un ton clair sur un fond sombre<c type="kp">_</c> Exprimer l’espérance par quelqu’étoile<c type="kp">_</c> L’ardeur d’un être par un rayonnement de soleil couchant. Ce n’est certes pas là du trompe l’oeil realiste mais n’est ce pas une chôse réellement existante<c type="kp">_</c> à bientôt<c type="kk">/</c> je te dirai encore quand pourrait passer le belge car je le reverrai demain.</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Poignée de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.23" n="23">le belge a dit qu’ils ont à la maison un de Groux<c type="kk">/</c> l’esquisse de la benedicité du musée de Bruxelles.<ptr target="#note-t-23"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.24" n="24">le portrait du belge a quelque chôse comme le portrait de Reid que tu as<c type="kk">/</c><ptr target="#note-t-24"/> comme exécution<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Yesterday I spent another day with that <rs type="person" ref="bio.xml#_869">Belgian</rs>— who also has a <rs type="person" ref="bio.xml#_870">sister</rs> among the Vingtistes<ptr target="#note-t-1"/> — — the weather wasn’t good but it was a jolly good day for chatting; we went for a walk, and all the same we did see some very fine things at the bullfights and outside the town. We talked more seriously about the plan that if I keep on lodgings in the south, he should definitely set up a kind of post in the coal-fields.<ptr target="#note-t-2"/> That then <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and he and I, in cases where the importance of a painting would be a reason for travelling, could exchange places — sometimes being in the north, but in a familiar part of the country where we have a friend, sometimes in the south. You’ll see him soon, this young man with the <rs type="person" ref="bio.xml#_569">Dante</rs>-like face, because he’s coming to Paris, and if the room’s available you’ll be doing him a favour by putting him up.<ptr target="#note-t-3"/> He’s quite distinguished in appearance, and he’ll become so in his paintings, I believe. He likes <rs type="person" ref="bio.xml#_982">Delacroix</rs>, and we talked a lot about Delacroix yesterday; actually he knew the violent sketch of Christ’s boat.<ptr target="#note-t-4"/></p><pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+<p xml:id="p.en.3" n="3"> Ah well, thanks to him — at last I have a first sketch of that painting I’ve been dreaming about for a long time — <hi rend="italics">the poet</hi>.<ptr target="#note-t-5"/> <rs type="person" ref="bio.xml#_869">He</rs> posed for it for me. His fine head, with its green gaze, stands out in my portrait against a starry, deep ultramarine sky; his clothing is a little yellow jacket, a collar of unbleached linen, a multicoloured tie. He gave me two sittings in one day.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Yesterday I received a letter from our <rs type="person" ref="bio.xml#_407">sister</rs>, who has seen many things. Ah, if she could marry an artist, that wouldn’t be bad.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Well, we’ll have to go on urging her to untangle her personality, rather than her artistic abilities.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’ve finished <rs type="person" ref="bio.xml#_583">Daudet</rs>’s L’immortel — I rather like the remark by the sculptor Védrine, who says that achieving <hi>fame</hi> is something like when smoking, sticking your cigar in your mouth by the lighted end.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Now I definitely like L’immortel less, much less, than Tartarin.<ptr target="#note-t-7"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">You know, it seems to me that L’immortel isn’t as fine as Tartarin for colour, because, with its quantity of subtle and accurate observations, it makes me think of <rs type="person" ref="bio.xml#_782">Jean Béraud</rs>’s disheartening paintings,<ptr target="#note-t-8"/> so dry, so cold. Tartarin, now, is so <hi rend="italics">genuinely</hi> great — with the greatness of a masterpiece, just like Candide.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">I would very much like to ask you to expose my studies from down here, which aren’t completely dry yet, to the air as far as possible.<ptr target="#note-t-10"/> If they stayed shut away or in the dark, the colours would deteriorate. So, the portrait of <hi rend="italics">the young girl,</hi><ptr target="#note-t-11"/><hi rend="italics"> the harvest </hi>(wide landscape with the ruin in the background and the chain of the Alpilles),<ptr target="#note-t-12"/> the <hi rend="italics">small seascape</hi>,<ptr target="#note-t-13"/> the <hi rend="italics">garden </hi>with the weeping tree and the conifer bushes,<ptr target="#note-t-14"/> if you could put them on stretching frames that would be good. I’m a little attached to those.</p>
+<p rend="indent" xml:id="p.en.10" n="10">You can see clearly from the <hi rend="italics">drawing </hi>of the small seascape<ptr target="#note-t-15"/> that that one’s the most worked up.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’m having 2 oak frames made, for my new head of a peasant and for my study of a poet.<ptr target="#note-t-16"/> Ah, my dear brother, sometimes I know so clearly what I want. In life and in painting too, I can easily do without the dear Lord, but I 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> can’t, suffering as I do, do without something greater than myself, which is my life, the power to create.</p>
+<p rend="indent" xml:id="p.en.12" n="12">And if frustrated in this power physically, we try to create thoughts instead of children; in that way, we’re part of humanity all the same. And in a painting I’d like to say something consoling, like a piece of music. I’d like to paint men or women with that <hi rend="italics">je ne sais quoi</hi> of the eternal, of which the halo used to be the symbol, and which we try to achieve through the radiance itself, through the vibrancy of our colorations.</p>
+<p rend="indent" xml:id="p.en.13" n="13">The portrait conceived in this way doesn’t become an <rs type="person" ref="bio.xml#_1339">Ary Scheffer</rs>, because there’s a blue sky behind it, as in the Saint Augustine.<ptr target="#note-t-17"/> Because Ary Scheffer is so little of a colourist.</p>
+<p rend="indent" xml:id="p.en.14" n="14">But this would be more in tune with what <rs type="person" ref="bio.xml#_982">Eugène Delacroix</rs> was looking for and found in his Tasso in prison<ptr target="#note-t-18"/> and so many other paintings depicting a <hi rend="italics">true </hi>man. Ah, the portrait — the portrait with the model’s thoughts, his soul — it so much seems to me that it must come. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">We talked a lot yesterday, the <rs type="person" ref="bio.xml#_869">Belgian</rs> and I, about the advantages and disadvantages of this place. We quite agree on both. And on the immense interest that would hold for us, to be able to <hi rend="italics">move about</hi>, sometimes the north, sometimes the south. He’s going to stay with <rs type="person" ref="bio.xml#_1189">Macknight</rs> again for reasons of living more cheaply.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">That, though, has a disadvantage for him, I believe, because living with an idler makes you idle. I believe you’ll enjoy meeting him, he’s still young.<ptr target="#note-t-20"/> I believe that he’ll ask your advice on buying Japanese prints and <rs type="person" ref="bio.xml#_977">Daumier</rs> lithographs. For those, the Daumiers, it would be good to buy more, because later on we won’t be able to find them.</p>
+<p rend="indent" xml:id="p.en.17" n="17">The <rs type="person" ref="bio.xml#_869">Belgian</rs> was saying that with <rs type="person" ref="bio.xml#_1189">Macknight</rs> he paid 80 francs for board and lodging.<ptr target="#note-t-21"/> What a difference, then, living together — myself I have to pay 45 a month for my lodging alone.<ptr target="#note-t-22"/> And so I always come back to the same calculation, that with <rs type="person" ref="bio.xml#_1039">Gauguin</rs> I’ll spend no more than on my own, and that without suffering thereby. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">Now for them, it’s to be taken into account that they were very badly housed, not in terms of their beds, but of the possibility of working at home.</p>
+<p rend="indent" xml:id="p.en.19" n="19">So I’m still between two currents of ideas, the first, material difficulties, turning this way and that to build up an existence, and then the study of colour. I still have hopes of finding something there. To express the love of two lovers through a marriage of two complementary colours, their mixture and their contrasts, the mysterious vibrations of adjacent tones. To express the thought of a forehead through the radiance of a light tone on a dark background. To express hope through some star. The ardour of a living being through the rays of a setting sun. That’s certainly not <hi rend="italics">trompe-l’oeil</hi> realism, but isn’t it something that really exists? More soon; I’ll tell you when the <rs type="person" ref="bio.xml#_869">Belgian</rs> might pass through, because I’ll see him again tomorrow.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Ever yours, Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">The <rs type="person" ref="bio.xml#_869">Belgian</rs> said that at home they have a <rs type="person" ref="bio.xml#_1063">Degroux</rs>, the sketch for Saying grace in the Brussels museum.<ptr target="#note-t-23"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">The portrait of the <rs type="person" ref="bio.xml#_869">Belgian</rs> has something of the portrait of <rs type="person" ref="bio.xml#_623">Reid</rs> that you have,<ptr target="#note-t-24"/> in terms of execution.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In <ref target="let672.xml">letter 672</ref> of Saturday, 1 September, Van Gogh says he is reading Daudet’s <hi rend="italics">L’immortel</hi>; in the present one he writes that he has meanwhile finished it. The letter probably precedes <ref target="let676.xml">letter 676</ref>, which dates from 8 September, because in that he says he hopes to achieve a good result with the portrait of Boch; in the present letter he has only just made the first sketch for the painting. Since he also says that he and Boch saw a bull fight ‘yesterday’ – these were always on a Sunday (see Baedeker 1889-2, p. 211) – and Boch left Arles on 4 September, we have dated the letter Monday, 3 September 1888. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Willemien’s visit to Paris <ref target="let660.xml">(660)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This Belgian is <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Eugène Boch</rs>. His sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna</rs> was a member of the society of artists Les Vingt in Brussels from 1886 to 1894. For this group <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let580.xml#n-6">see letter 580, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let669.xml">letter 669</ref> Van Gogh reported <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs>’s plan to go to the Borinage; see further <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml#n-1">letter 693, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let669.xml#n-16">See letter 669, n. 16,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs>’s departure from Arles. The plan for Boch to go and live with Theo came to nothing, as we learn from a letter to Theo from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘Haven’t you found a housemate yet? Pity that that Belgian didn’t come’ (FR b2275, 19 October 1888). Boch did, however, visit Theo (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">see letter 693</ref>).</p>
+      
+<p rend="indent">Van Gogh knew the head of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_569">Dante</rs> from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Bargue</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_170">Cours de dessin</ref></hi> – he had drawn it in October 1880 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let159.xml#n-7">see letter 159, n. 7</ref>). His knowledge of Dante may have been based on what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_563">Carlyle</rs> wrote in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_364">On heroes, hero-worship and the heroic in history</ref></hi> (in ‘The hero as poet’ he saw him as a prophetic poet (Carlyle 1993, pp. 83-85)), or on what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1804">Cochin</rs> said of him in his article on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_544">Boccaccio</rs> (‘<ref target="biblio.xml#lit_561">Boccace d’après ses oeuvres et les témoignages contemporains</ref>’) – at any rate it is evident from a letter written later in the month that Vincent was familiar with this article (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let683.xml#n-15">see letter 683, n. 15</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let632.xml#n-12">See letter 632, n. 12,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_61">Christ asleep during the tempest</rs></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Eugène Boch (‘The poet’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2710">F 462 / JH 1574</rs>). Van Gogh described his plan for this painting in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let663.xml">letter 663</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>A reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Alphonse Daudet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_504">L’immortel</ref> </hi>(1888): ‘Fame... I have tasted it two or three times, I know what it is... look, when you’re smoking you sometimes happen to pick up your cigar by the wrong end. Well, then, that’s fame. A good cigar with the lit end and the ash in your mouth...’ (La gloire... j’en ai goûté deux ou trois fois, je sais ce que c’est... tiens, il t’arrive en fumant de prendre ton cigare à rebours, eh bien! c’est ça la gloire. Un bon cigare dans la bouche par le côté du feu et de la cendre...). See Daudet 1986-1994, vol. 3, p. 712 (chapter 3). Van Gogh quotes the sentence again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let683.xml#n-26">letter 683, n. 26.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml#n-9">See letter 583, n. 9,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Tartarin de Tarascon</ref> </hi>and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_460">Tartarin sur les Alpes</ref></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_782">Jean Béraud</rs> was known for his detailed paintings of scenes of fashionable Parisian life.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-3">See letter 568, n. 3,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_844">Voltaire</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_445">Candide</ref></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Theo had received the second consignment from Arles in mid-August; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let660.xml#n-1">see letter 660, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2671">F 431 / JH 1519</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fishing boats at sea </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2633">F 417 / JH 1453</rs>). The work measures 44 x 53 cm. Van Gogh calls it ‘the small seascape’ to distinguish it from the other seascape in the batch: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fishing boats at sea </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2632">F 415 / JH 1452</rs>), which is 51 x 64 cm.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Newly mown lawn with a weeping tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2662">F 428 / JH 1499</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The drawing after the above seascape is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fishing boats at sea </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2688">F 1430b / JH 1541</rs>). Vincent had sent it to Theo on 8 August (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let657.xml">see letter 657</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>The new portrait is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier (‘The peasant’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2705">F 444 / JH 1563</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let671.xml">see letter 671</ref>.</p>
+
+<p rend="indent">Van Gogh chose frames for the paintings he wanted to hang in the Yellow House in woods that were in keeping with the ambience and furnishing of the rooms: walnut for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s room, and oak and deal for his own. See exhib. cat. Amsterdam 1995-2, pp. 168-170, and Dorn 1990, pp. 238-240 (n. 52). The paintings whose frames are mentioned in the correspondence are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Patience Escalier</hi> (‘The peasant’) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2705">F 444 / JH 1563</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Eugène Boch</hi> (‘The poet’) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2710">F 462 / JH 1574</rs>) in the present letter, and also <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Public garden with round clipped shrub and weeping tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2713">F 468 / JH 1578</rs>), a painting of the park, now lost, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ploughed fields (‘The furrows’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2719">F 574 / JH 1586</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The green vineyard</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Entrance to the public garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2718">F 566 / JH 1585</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let683.xml">See letters 683</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let687.xml">687</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let699.xml">699</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let767.xml">767</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Saint Augustine and Saint Monica</hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let041.xml#n-8">see letter 41, n. 8.</ref> The one in the Louvre (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2239">Ill. 2239</rs>.) is the only one of the five versions of the painting that Van Gogh could have seen; he must therefore be referring to this work. See also Ewals 1987, pp. 303-305.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs> made two paintings of the imprisoned poet Torquato Tasso entitled <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Tasso in the Hospital of St Anne in Ferrara</hi>: one in 1824 (Zurich, Galerie Nathan) and one in 1839 (Winterthur, Oskar Reinhart Collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_77">Ill. 77</rs>. Since both paintings were then in private collections, Van Gogh must have been thinking of a print; in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml">letter 726</ref> he mentions a lithograph after the work. See Johnson 1981-1989, vol. 1, pp. 91-93, cat. no. 106, and vol. 3, pp. 88-89, cat. no. 268. </p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1189">Macknight</rs> had left Fontvieille for Moret-sur-Loing; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let669.xml#n-15">see letter 669, n. 15.</ref> Evidently <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> intended to visit him.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> turned 33 on 1 September, so he was only two years younger than Van Gogh. By the time he wrote <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let674.xml">letter 674</ref> Van Gogh had found out his age.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1189">Macknight</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> stayed at the Café de l’Alcazar in Fontvieille; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let650.xml#n-20">see letter 650, n. 20.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>Van Gogh says that he pays 45 francs ‘for my lodging alone’; in other words his meals were not included in that sum. He paid 1 franc a night for his room in the Café de la Gare, and 15 francs a month for the Yellow House. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml">See letters 602</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let611.xml">611</ref>. </p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1063">Degroux</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_135">Saying grace</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let143.xml#n-16">see letter 143, n. 16.</ref> For the (destroyed?) oil sketch from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Eugène</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna Boch</rs>’s collection, see exhib. cat. Ypres 1995, pp. 104-105, cat. no. 108.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>There are two known portraits of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs>, both of which Theo had: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_763">F 270 / JH 1207</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2550">F 343 / JH 1250</rs>. Van Gogh must mean the latter work which, like the portrait of Eugène Boch, (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2710">F 462 / JH 1574</rs>), is a head and shoulders portrait.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

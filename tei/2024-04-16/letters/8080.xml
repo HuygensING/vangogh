@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Saturday, 5 October 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let808"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b657 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>808</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>609</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>809</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-10-05">Saturday, 5 October 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0657" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000900_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000900_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000900_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0657" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000900_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000900_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000900_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">je languissais après ta lettre et donc j’ai été bien content de la recevoir et de voir par là que tu te portes bien ainsi que Jo et les amis dont tu parles.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai à te prier d’envoyer le <hi rend="italics">plus tôt</hi> possible les blancs que j’avais demandé<ptr target="#note-t-2"/> et d’y ajouter de la toile<c type="kk">/</c> 5 metres ou 10<c type="kk">/</c> comme ça tombe<c type="kp">_</c> Puis je dois commencer par t’apprendre une nouvelle assez contrariante à ce que je pense<c type="kp">_</c> C’est qu’il y a eu pendant le sejour ici quelques frais que je croyais que M. Peyron t’avait communiqué à fur &amp; à mesure<c type="kk">/</c> ce qu’il me disait l’autre jour ne pas avoir fait<c type="kk">/</c> de sorte que cela s’est amassé jusqu’à 125 francs environ en y deduisant les 10 que tu as envoyé par bon de poste<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">C’est pour de la couleur<c type="kk">/</c> de la toile<c type="kk">/</c> des cadres &amp; chassis<c type="kk">/</c> mon voyage de l’autre jour à Arles<c type="kk">/</c><ptr target="#note-t-4"/> un vetement de toile et reparations divers<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">J’use ici 2 couleurs<c type="kk">/</c> le blanc de ceruse et du bleu ordinaire mais en assez grande quantité<c type="kk">/</c> et la toile c’est lorsque je veux travailler sur de la toile non preparée et plus forte.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Cela tombe mal juste à cette époque où volontiers j’aurais repété mon voyage à Arles. etc.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Cela dit je te raconterai que nous avons quelques journees d’automne superbes et que j’en profite. J’ai quelques études<c type="kk">/</c> entre autre un murier tout jaune sur terrain pierreux se détachant sur le bleu du ciel dans laquelle étude je crois que tu verras que j’ai trouvé la trace de Monticelli.<ptr target="#note-t-5"/> Tu auras reçu l’envoi de toiles que je t’ai expediées Samedi dernier<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Cela me surprend beaucoup que M. Isaacson veut faire un article sur des etudes de moi<c type="kp">_</c><ptr target="#note-t-7"/> Volontiers je l’engagerais à attendre encore<c type="kk">/</c> son article n’y perdrait absolument rien et avec encore une annee de travail je pourrais j’espere lui mettre sous les yeux des choses plus caracteristiques avec davantage de volonté dans le dessin<c type="kk">/</c> davantage de connaissance de cause quant au midi provencal.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">M. Peyron a été bien bon de causer de mon affaire en ces termes-là – j’ai pas osé lui demander d’aller à Arles de ces jours ci<c type="kk">/</c> ce dont j’aurais très grande envie<c type="kk">/</c> croyant qu’il desapprouverait<c type="kp">_</c>– Non pas cependant que je soupçonnais que lui crut à un rapport entre mon voyage précédent et la crise qui l’a suivi de près<c type="kp">_</c>– Le cas est que par là il y a quelques personnes que je sentais et sens de nouveau le besoin de revoir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Tout en n’ayant pas ici dans le midi comme le bon Prevot<ptr target="#note-t-8"/> une maitresse qui m’y enchaîne<c type="kk">/</c> involontairement je me suis attaché aux gens et aux chôses<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Et à présent que provisoirement je reste encore ici et à ce qui est probable y passerai l’hiver – au printemps – à la belle saison n’y resterai je pas aussi<c type="kp">_</c>– Cela dependra surtout de la santé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Ce que tu dis d’Auvers m’est neamoins une perspective très agreable et soit plus tot soit plus tard sans chercher plus loin il faudrait arreter cela. Si je viens dans le nord<c type="kk">/</c> meme en supposant que chez ce Docteur il n’y eût pas de place il est probable que celui là trouverait sur la recommandation du pere Pissaro et de la tienne soit un logement dans une famille<c type="kk">/</c> soit tout bonnement à l’auberge.<ptr target="#note-t-9"/> La chose principale est de connaitre le medecin pour qu’on ne tombe pas en cas de crise dans les mains de la police pour être transporté de force dans un asile.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Et je t’assure que le Nord m’interessera comme un pays neuf<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Mais enfin pour le moment il n’y a donc rien qui nous presse absolument.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Je me reproche d’etre tant en retard pour de la correspondance<c type="kk">/</c> je voudrais ecrire à Isaacson<c type="kk">/</c> à Gauguin et à Bernard<c type="kp">_</c> Mais écrire ne va pas toujours et le travail presse d’ailleurs<c type="kp">_</c> Oui je voudrais dire à Isaacson que en attendant encore il ferait bien<c type="kk">/</c> il n’y a pas encore là-dedans ce que avec continuation de santé j’espère atteindre<c type="kp">_</c> C’est pas la peine de mentionner quoi que ce soit de mon travail actuellement<c type="kp">_</c> Quand je serai de retour<c type="kk">/</c> à la rigueur cela formera une espèce d’ensemble “Impressions de la Provence”<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Mais que veut il dire à present lorsqu’il faut encore accentuer les oliviers<c type="kk">/</c> les figuiers<c type="kk">/</c> les vignes<c type="kk">/</c> les cyprès<c type="kk">/</c> toutes choses caracteristiques ainsi que les Alpines qui doivent atteindre davantage de caractère<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Comme j’aimerais voir ce qu’ont rapporté Gauguin et Bernard<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">J’ai une etude de deux peupliers jaunis sur fond de montagnes<ptr target="#note-t-10"/> et une vue du parc ici<c type="kk">/</c> effet d’automne<c type="kk">/</c> où il y a un peu de dessin plus naif et plus – chez soi<c type="kp">_</c>–<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Enfin il est difficile de quitter un pays avant de prouver par quelque chôse qu’on l’a senti et aimé.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Si je reviens dans le nord je me propose de faire un tas d’etudes de grec<c type="kk">/</c> tu sais des etudes <hi rend="italics">peintes</hi> avec du blanc et du bleu et un peu d’orangé seulement comme en plein air<c type="kp">_</c><ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Il me <hi rend="italics">faut</hi> dessiner et chercher du style. J’ai vu hier chez l’aumonier d’ici un tableau qui me causait une impression<c type="kp">_</c> Une dame provencale au visage intelligent et de race<c type="kk">/</c> en robe rouge.<ptr target="#note-t-13"/> Une figure comme celles auquelles pensait Monticelli<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">C’etait pas sans grands defauts mais il y avait de la simplicité et comme c’est triste à voir combien on en a derogé ici comme nous de la nôtre en Hollande.</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Je t’écris à la hâte pour ne pas attendre de répondre à ta bonne lettre<c type="kk">/</c> esperant que tu ecriras de nouveau sans tarder longtemps<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">j’ai encore vu de fort beaux motifs pour demain – dans les montagnes<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Bien des chôses à Jo et aux amis<c type="kk">/</c> surtout remercie à l’occasion le père Pissaro de son renseignement qui certes sera utile<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">Et en te serrant les deux mains<c type="kk">/</c> crois moi</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.27" n="27">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.28" n="28">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I was longing for your letter and so I was very happy to receive it, and to see from it that you’re well, as are <rs type="person" ref="bio.xml#_416">Jo</rs> and the friends you speak of.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I must ask you to send me the whites I asked for <hi rend="italics">as soon</hi> as possible,<ptr target="#note-t-2"/> and to add to them some canvas, 5 metres or 10, whichever suits. Then I must begin by telling you a piece of rather vexing news, as I see it. It’s that during the stay here there have been a few expenses which I thought <rs type="person" ref="bio.xml#_568">Mr Peyron</rs> had notified you about as they occurred, which he told me the other day he hadn’t done, with the result that it has mounted up to around 125 francs, deducting from it the 10 you sent by postal order.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">It’s for paint, canvas, frames and stretching frames, my trip the other day to Arles,<ptr target="#note-t-4"/> a piece of linen clothing, and various repairs.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m using two colours here, lead white and ordinary blue, but in quite large quantities, and the canvas, that’s for when I want to work on unprepared, stronger canvas.</p>
+<p rend="indent" xml:id="p.en.6" n="6">This comes unfortunately just at this time when I would gladly have repeated my trip to Arles etc.</p>
+<p rend="indent" xml:id="p.en.7" n="7">That said, I’ll tell you that we’re having some superb autumn days, and that I’m taking advantage of them. I have a few studies, among others a mulberry tree, all yellow on stony ground standing out against the blue of the sky, in which study I think that you’ll see that I’ve found <rs type="person" ref="bio.xml#_1240">Monticelli</rs>’s track.<ptr target="#note-t-5"/> You’ll have received the consignment of canvases I sent you last Saturday.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">It surprises me a lot that <rs type="person" ref="bio.xml#_1103">Mr Isaäcson</rs> wants to do an article on studies of mine.<ptr target="#note-t-7"/> I’d willingly urge him to wait a little longer, his article would lose absolutely nothing by it, and with another year of work I could hope to put more characteristic things in front of him with more willpower in the drawing, more knowledge of the Provençal south. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.9" n="9"><rs type="person" ref="bio.xml#_568">Mr Peyron</rs> was very kind to talk of my case in those terms – I haven’t dared ask him to go to Arles one of these days, which I’d very much like to do, believing that he would disapprove. Not, though, that I suspected that he believed there was a connection between my previous trip and the crisis that closely followed it. The thing is that there are a few people over there whom I felt and once again feel the need to see again.</p>
+<p rend="indent" xml:id="p.en.10" n="10">While I don’t have here in the south, like good <rs type="person" ref="bio.xml#_1275">Prévost</rs> ,<ptr target="#note-t-8"/> a mistress who holds me captive, I couldn’t help becoming attached to people and things.</p>
+<p rend="indent" xml:id="p.en.11" n="11">And now that I’m staying on here for the time being, and will most probably spend the winter here – in the spring – in the fine season, shall I not stay here too? That will depend on my health above all.</p>
+<p rend="indent" xml:id="p.en.12" n="12">What you say of Auvers is nevertheless a very agreeable prospect to me, and sooner or later that ought to be fixed without seeking further. If I come to the north, even supposing that there’s no room in this <rs type="person" ref="bio.xml#_389">Doctor</rs>’s home, it’s probable that he would, on <hi rend="italics">père</hi> <rs type="person" ref="bio.xml#_1268">Pissarro</rs>’s recommendation and your own, find either board with a family or quite simply at the inn.<ptr target="#note-t-9"/> The main thing is to know the doctor so that, in the event of a crisis, one doesn’t fall into the hands of the police and isn’t forcibly carried off into an asylum.</p>
+<p rend="indent" xml:id="p.en.13" n="13">And I can assure you that the north will interest me like a brand-new country. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">But anyway, for the moment there’s therefore nothing that’s absolutely hurrying us.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I reproach myself for being so behind with my correspondence, I’d like to write to <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs type="person" ref="bio.xml#_831">Bernard</rs>. But writing doesn’t always come, and what’s more, work is pressing. Yes, I’d like to say to Isaäcson that he would do well to wait longer, there isn’t yet that in it that I hope to attain if my health continues. It’s not worth mentioning anything about my work at the moment. When I’m back, at best it will form a kind of ensemble, ‘Impressions of Provence’.</p>
+<p rend="indent" xml:id="p.en.16" n="16">But what does he want to say now when the olive trees, the fig trees, the vineyards, the cypresses must be more accentuated, all characteristic things, the same as the Alpilles, which must get more character.</p>
+<p rend="indent" xml:id="p.en.17" n="17">How I’d like to see what <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs type="person" ref="bio.xml#_831">Bernard</rs> have brought back.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I have a study of two yellowed poplars on a background of mountains,<ptr target="#note-t-10"/> and a view of the park here, autumnal effect, some of the draughtsmanship of which is more naive and more – at home.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">Anyway, it’s difficult to leave a land before having something to prove that one has felt and loved it. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">If I come back to the north I plan to do a whole lot of Greek studies, you know, <hi rend="italics">painted</hi> studies with white and blue and only a little orange, just like in the open air.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">I <hi rend="italics">must</hi> draw and seek style. Yesterday at the <rs type="person" ref="bio.xml#_211">almoner</rs>’s here I saw a painting that made an impression on me. A Provençal lady with an intelligent, pure-bred face, in a red dress.<ptr target="#note-t-13"/> A figure like the ones <rs type="person" ref="bio.xml#_1240">Monticelli</rs> thought of.</p>
+<p rend="indent" xml:id="p.en.22" n="22">It wasn’t without great faults, but there was simplicity in it, and how sad it is to see how much they have degenerated from it here, as we have from ours in Holland.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I’m writing to you in haste so as not to wait to answer your kind letter, hoping that you’ll write again without delaying long.</p>
+<p rend="indent" xml:id="p.en.24" n="24">I’ve seen more very beautiful subjects for tomorrow – in the mountains.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Kind regards to <rs type="person" ref="bio.xml#_416">Jo</rs> and to our friends, above all when you get the chance thank <hi rend="italics">père</hi> <rs type="person" ref="bio.xml#_1268">Pissarro</rs> for his information, which will certainly be useful.</p>
+<p rend="indent" xml:id="p.en.26" n="26">Shaking both your hands, believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">Ever yours,</p>
+<p xml:id="p.en.28" n="28">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Because Vincent writes that he is answering Theo’s letter straightaway <ref target="#l-130">(l. 130)</ref> – this was <ref target="let807.xml">letter 807</ref> of 4 October – we have dated this letter to Saturday, 5 October 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Third consignment of paintings from Saint-Rémy <ref target="let806.xml">(806)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml">letter 807</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For this order, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let806.xml">see letter 806</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo had sent this 10-francs postal order shortly before 29 July; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let793.xml">see letter 793</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh’s visit to Arles had taken place shortly before 14 July (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let789.xml">see letter 789</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mulberry tree </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2847">F 637 / JH 1796</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh is referring to the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">third</hi> consignment of paintings from Saint-Rémy; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let806.xml">see letter 806</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>’s plans to write an article about Van Gogh, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml">see letter 807</ref>. It can no longer be ascertained whether there was any connection between Isaäcson’s efforts to publish a piece on Van Gogh and the financial support Theo was giving him at this time: what is certain is that Isaäcson received a total of 345 francs from Theo between June and October 1889. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book</hi> 2002, pp. 56-63, 152-153.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Vincent is referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1275">Charles Eugène Prévost</rs>; Theo owned one of his paintings: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2216">Lady with a dog</rs></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let658.xml#n-9">see letter 658, n. 9.</ref> Nothing is known about his mistress.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Pissarro</rs> had promised to approach <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_389">Dr Paul Gachet</rs> in Auvers-sur-Oise (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml">see letter 807</ref>). At the end of March 1890, Theo met Gachet, who agreed to treat Vincent. Vincent finally left the asylum on 16 May, and after spending a few days in Paris, arrived on 20 May to take up residence at the Auberge Ravoux in Auvers.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Poplars in the mountains </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2848">F 638 / JH 1797</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>This work is presumably different from the two views of the garden and the asylum that Van Gogh mentions in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let810.xml">letter 810</ref>. Perhaps it is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees in the garden of the asylum</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_895">F 640 / JH 1800</rs>), which can be said to have a certain draughtsman-like quality.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>By ‘Greek studies’ Van Gogh means studies after plaster casts. In Paris he had painted a series of such studies in the colours named here; see cat. Amsterdam 2011. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let839.xml">letter 839</ref>, in which he says he would ‘draw Greek casts again’.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The almoner of the asylum was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_211">E. de Tamisier</rs>. The portrait (by an anonymous painter) was of his mother, Madame Armand de Tamisier, née Elisabeth Lazau-Audibert (present whereabouts unknown; photograph Amsterdam, Van Gogh Museum, Archives Vincent van Gogh Foundation). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2294">Ill. 2294</rs>. In 1960 it was still present in the asylum of Saint-Paul-de-Mausole, according to a letter from Edgar Leroy (Archives communales de Saint-Rémy. E.32. D. fol. 62).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

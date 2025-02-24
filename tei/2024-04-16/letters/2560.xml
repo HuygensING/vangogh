@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Anthon van Rappard. The Hague, Sunday, 13 August 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let256"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b8345 V/2006</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>256</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>R11</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>257</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-08-13">Sunday, 13 August 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anthon van Rappard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8345" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001590_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001590_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001590_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8345" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001590_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001590_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001590_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Zondag avond</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Amice Rappard,</p>
+
+<p xml:id="p.nl.3" n="3">Zeer verblijdde mij Uw schrijven dat ik gisteren avond ontving. Ik had er reeds naar uitgezien doch dacht wel ge ergens aan de sjouwerij waart<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">’t Geen ge me van Drenthe<ptr target="#note-t-1"/> vertelt interesseert mij – ik ken Drenthe volstrekt niet door zelf er geweest te zijn – wel door ’t geen Mauve &amp; Termeulen b.v. er van hebben meegebragt.<ptr target="#note-t-2"/> Ik stel ’t mij voor als Noord Brabant <hi rend="italics">toen</hi> <hi rend="italics">ik jong was</hi><c type="kk">/</c> zoo’n jaar of 20 geleden. Als jongen herinner ik mij de hei en de kleine boerderijtjes<c type="kk">/</c> de weefgetouwen, de spinnewielen, nog precies zóó gezien te hebben als ik ze nu op de teekeningen van Mauve &amp; Termeulen zie. Nu is dat gedeelte van Brabant waar ik bekend ben reeds enorm veranderd door ontginningen en door industrie<c type="kp">_</c><ptr target="#note-t-3"/> Ik voor mij zie nu niet zonder een zekeren weemoed een nieuwe kroeg met rood pannen dak op menig plekje waar ik mij herinner een leemen hut met bemost rietdak te hebben zien staan.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Er zijn sedert beetwortelsuikerfabrieken, sporen, heigrond ontginningen, &amp;c<c type="kp">_</c> gekomen die lang zoo pittoresk niet zijn.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Enfin – maar wat wel in me zal blijven is iets van de strenge poezij van de echte hei. En die echte hei schijnt dus in Drente nog net zoo te bestaan als vroeger de Brabantsche was.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Toch is er nog enorm veel moois ook nu in Brabant – herinner U ’t Heike maar eens waar we zamen geweest zijn.<ptr target="#note-t-5"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Uwe schetsjes in den brief vind ik zeer goed. in dat kerkhof vooral vind ik veel karakter.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Mij aangaande<c type="kk">/</c> ten gevolge van een bezoek van mijn broer<c type="kk">/</c> die mijn aquarellen zag<c type="kk">/</c> ben ik ook druk aan ’t schilderen.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Eigentlijk gezegd geloof ik niet dat men aan mijn eerste geschilderde studies zou zeggen dat het mijn eerste waren.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Want ’t valt me niets vreemd en ik heb er groote ambitie in.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Gisteren avond heb ik in de Rijswijksche weilanden een aardig effekt gevonden.– Vlakke groene weilanden waardoor een zwarten kolenweg gaat met een sloot er langs<c type="kp">_</c>– De zon gaat vuurrood onder – een boertje sjokt naar huis – ver weg een boerenwoning<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Verder heb ik een kleine marine – en brokken Duingrond – een rij knotwilgen<c type="kk">/</c> een aardappelveld en zoo voorts.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Het schilderen is mij zoo sympathiek dat ’t me veel moeite zal kosten om niet <hi rend="italics">altijd</hi> te schilderen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Het is iets mannelijkers dan aquarelleeren en er is meer poezij in.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ge weet waarschijnlijk dat er op ’t oogenblik hier eene expositie is van de Holl<c type="kp">_</c> Teekenmaatschappij<c type="kp">_</c><ptr target="#note-t-8"/> Daar zijn fameus mooie zaken.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Er is een vrouw aan ’t weefgetouw van Mauve<ptr target="#note-t-9"/> die ik niet uit ’t hoofd kan krijgen. Een oud moedertje van Israels<ptr target="#note-t-10"/> dito. Neuhuys<c type="kk">/</c><ptr target="#note-t-11"/> Maris<c type="kk">/</c><ptr target="#note-t-12"/> Du Chatel<c type="kk">/</c><ptr target="#note-t-13"/> ter Meulen<ptr target="#note-t-14"/> en een massa anderen<c type="kk">/</c><ptr target="#note-t-15"/> Weissenbruch<ptr target="#note-t-16"/> niet te vergeten.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Er is een alleraardigst portret van Weissenbr. door Israels<c type="kk">/</c> zoo echt en typig dat ik ’t U niet zeggen kan.<ptr target="#note-t-17"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Er is ook een heele mooie groote marine v<c type="kp">_</c> Mesdag en twee Zwitsersche dingen van hem die ik nog al bête vind ofschoon er een zekere brutaalheid in is – doch niet doorgezet en niet gevoeld.<ptr target="#note-t-18"/> Maar de groote marine vind ik superbe.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Van Willem Maris een alleraardigste Zeug met een legio biggen<c type="kp">_</c><ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">En een Jaap Maris – een zeer groot stadsgezigt<ptr target="#note-t-20"/> zoo kras als Delftsche v.d<c type="kp">_</c> Meer.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Er was eenigen tijd geleden nog eene Tentoonstelling van Fransche kunst uit particuliere verzamelingen<c type="kk">/</c><ptr target="#note-t-21"/> Daubigny – Corot – <hi rend="italics">Jules Dupré</hi><c type="kk">/</c> Jules Breton<c type="kk">/</c> Courbet<c type="kk">/</c> Diaz<c type="kk">/</c> Jacque<c type="kk">/</c> <hi rend="italics">Th. Rousseau</hi><c type="kk">/</c> waar ik tegelijk zeer geanimeerd werd – en toch een zekere melankolie voelde als ik dacht aan het den een na den ander verdwijnen van die trouwe veteranen<c type="kp">_</c>– Corot is er niet meer<c type="kk">/</c> Th<c type="kp">_</c> Rousseau<c type="kk">/</c> Millet – Daubigny<c type="kk">/</c> ze rusten van hun werk. Jules Breton<c type="kk">/</c> <hi rend="italics">Jules Dupré</hi><c type="kk">/</c> Jacque<c type="kk">/</c> Ed<c type="kp">_</c> Frère<c type="kk">/</c> ze zijn er nog maar hoe lang zullen ze nog in hun blouse rondwandelen. Ze zijn allen reeds bejaard en staan met een been in ’t graf. En hun opvolgers – zijn ze die eerste eigentlijke moderne meesters waard<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Alleen reden te meer om de zaken krachtig aan te grijpen &amp; niet te verslappen.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het nieuwe atelier dat ik heb bevalt mij goed en ik vind mijn stof hier vlak in de buurt. Hartelijk hoop ik ge vroeger of later eens komen zult &amp; zeer verlangend blijf ik steeds iets van Uw werk te zien of te vernemen per brief.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Mijn broer laat U ook groeten<c type="kk">/</c> ik vertelde hem gij zeer druk aan den gang waart.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Het gaat mij zoo als U<c type="kk">/</c> in dit opzigt dat ik weinig correspondeer in dezen tijd &amp; schrijf U nu ook in haast<c type="kp">_</c> Heb het goed &amp; voorspoed in alle opzigten &amp; geloof me<c type="kk">/</c> met een handdruk in gedachten</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.27" n="27">t. à t.</p>
+
+<p xml:id="p.nl.28" n="28">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Sunday evening</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear friend <rs type="person" ref="bio.xml#_1306">Rappard</rs>,</p>
+<p xml:id="p.en.3" n="3">I was delighted by your letter, which I received yesterday evening. I had already been looking forward to it, but thought you were toiling away somewhere.</p>
+<p rend="indent" xml:id="p.en.4" n="4">What you tell me about Drenthe<ptr target="#note-t-1"/> is interesting — I don’t know Drenthe at all from having been there myself, only through what <rs type="person" ref="bio.xml#_323">Mauve</rs> and <rs type="person" ref="bio.xml#_1212">Ter Meulen</rs>, for instance, have brought back.<ptr target="#note-t-2"/> I imagine it as being like North Brabant <hi rend="italics">when I was young</hi>, about 20 years ago. I remember as a boy seeing the heath and the small farmhouses, the looms and the spinning wheels exactly as I see them now in drawings by Mauve and Ter Meulen. The part of Brabant I know well has since changed enormously through land reclamation and industry.<ptr target="#note-t-3"/> It isn’t without a certain nostalgia that I now see a new tavern with a red tiled roof at many places where I remember seeing a wattle-and-daub hut with a moss-covered, thatched roof. </p>
+<p rend="indent" xml:id="p.en.5" n="5">Since then have come sugar-beet factories, railways, heath reclamations, &amp;c., which are much less picturesque.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Well, what will remain in me is something of the austere poetry of the true heathland. And it seems that the true heath still exists in Drenthe just as it used to in Brabant. </p>
+<p rend="indent" xml:id="p.en.7" n="7">Yet there’s still a great deal of beauty left in Brabant — just think of Het Heike, where we went together.<ptr target="#note-t-5"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.8" n="8">I think your sketches in the letter are very good. There’s a lot of character in the churchyard in particular. </p>
+<p rend="indent" xml:id="p.en.9" n="9">As for me, as the result of a visit by my brother, who saw my watercolours, I too am busily painting. </p>
+<p rend="indent" xml:id="p.en.10" n="10">Actually, I don’t believe that anyone seeing my first painted studies would say that they were my first. </p>
+<p rend="indent" xml:id="p.en.11" n="11">For I don’t find it in the least alien, and I’m very interested in it. </p>
+<p rend="indent" xml:id="p.en.12" n="12">Yesterday evening I found an interesting effect in the Rijswijk meadows. Flat green meadows through which a black cinder road passes with a ditch beside it. The sun goes down fiery red — a peasant trudges home — far-off a peasant cottage.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I also have a small seascape — and pieces of dune ground — a row of pollard willows, a potato field and so on.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">I find painting so appealing that I’ll have to make a great effort not to paint <hi rend="italics">all the time</hi>.</p>
+<p rend="indent" xml:id="p.en.15" n="15">It’s rather more manly than watercolour, and has more poetry to it. </p>
+<p rend="indent" xml:id="p.en.16" n="16">You probably know that at present there’s an exhibition here by the Dutch Drawing Society.<ptr target="#note-t-8"/> There are some truly beautiful things. </p>
+<p rend="indent" xml:id="p.en.17" n="17">There’s a woman at the loom by <rs type="person" ref="bio.xml#_323">Mauve</rs><ptr target="#note-t-9"/> that I can’t get out of my head. An old mother by <rs type="person" ref="bio.xml#_1107">Israëls</rs><ptr target="#note-t-10"/> ditto. <rs type="person" ref="bio.xml#_154 bio.xml#_1248">Neuhuys</rs>,<ptr target="#note-t-11"/> <rs type="person" ref="bio.xml#_1201 bio.xml#_1203">Maris</rs>,<ptr target="#note-t-12"/> <rs type="person" ref="bio.xml#_941">Du Chattel</rs>,<ptr target="#note-t-13"/> <rs type="person" ref="bio.xml#_1212">Ter Meulen</rs><ptr target="#note-t-14"/> and a mass of others,<ptr target="#note-t-15"/> not forgetting <rs type="person" ref="bio.xml#_1443">Weissenbruch</rs>.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">There’s a lovely portrait of <rs type="person" ref="bio.xml#_1443">Weissenbruch</rs> by <rs type="person" ref="bio.xml#_1107">Israëls</rs>; I can’t tell you how lifelike and quintessential it is.<ptr target="#note-t-17"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> </p>
+<p rend="indent" xml:id="p.en.19" n="19">There’s also a very beautiful large seascape by <rs type="person" ref="bio.xml#_1218">Mesdag</rs>, and two Swiss things by him that I find rather inane, though they have a certain boldness — but not pursued and not felt.<ptr target="#note-t-18"/> But the large seascape is superb. </p>
+<p rend="indent" xml:id="p.en.20" n="20">By <rs type="person" ref="bio.xml#_1201">Willem Maris</rs> a delightful sow with a host of piglets.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">And a <rs type="person" ref="bio.xml#_1203">Jaap Maris</rs> — a very big townscape<ptr target="#note-t-20"/> as strong as <rs type="person" ref="bio.xml#_1421">Vermeer of Delft</rs>.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Some time ago there was also an exhibition of French art from private collections<ptr target="#note-t-21"/> — <rs type="person" ref="bio.xml#_976">Daubigny</rs>, <rs type="person" ref="bio.xml#_971">Corot</rs>, <hi rend="italics"><rs type="person" ref="bio.xml#_986">Jules Dupré</rs></hi>, <rs type="person" ref="bio.xml#_899">Jules Breton</rs>, <rs type="person" ref="bio.xml#_962">Courbet</rs>, <rs type="person" ref="bio.xml#_992">Diaz</rs>, <rs type="person" ref="bio.xml#_1117">Jacque</rs>, <hi rend="italics"><rs type="person" ref="bio.xml#_1332">T. Rousseau</rs></hi> — which at once stimulated me and yet made me feel a little melancholy, when I thought of how the faithful veterans have vanished one by one. Corot is no more. T. Rousseau, <rs type="person" ref="bio.xml#_1226">Millet</rs>, Daubigny — they’re resting from their work. Jules Breton, <hi rend="italics">Jules Dupré</hi>, Jacque, <rs type="person" ref="bio.xml#_1023">E. Frère</rs>, they’re still with us, but how long will they still be going around in their smocks? They’re all already old and have one foot in the grave. And their successors — are they worthy of those first modern masters? </p>
+<p rend="indent" xml:id="p.en.23" n="23">All the more reason to get on with things vigorously and not to slacken. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </p>
+<p rend="indent" xml:id="p.en.24" n="24">The new studio I have pleases me greatly and I find my subject matter here in the neighbourhood. I sincerely hope you’ll come here sooner or later, and I very much want to see some of your work or hear about it by letter.</p>
+<p rend="indent" xml:id="p.en.25" n="25">My brother sends his regards. I told him you were working very busily. </p>
+<p rend="indent" xml:id="p.en.26" n="26">I’m in the same position as you in the sense that I write few letters these days, and indeed am writing in haste now. I wish you well and good fortune in every respect, and believe me, with a handshake in thought,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">Ever yours,</p>
+<p xml:id="p.en.28" n="28">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Zondag avond’. The works that Van Gogh says he has done are the same as those mentioned in <ref target="let255.xml">letter 255</ref>, with the addition of at least one new work. So the letter must have been written soon after <ref target="let255.xml">letter 255</ref>, which we have dated Thursday, 10 and Friday, 11 August. The next Sunday was 13 August 1882.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit early in August <ref target="let253.xml">(253)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Purchase of extra drawing and painting materials <ref target="let253.xml">(253)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> was in Drenthe with the painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1442">L.W.R. Wenckebach</rs>. See exhib. cat. Amsterdam 1974, p. 12.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Mauve</rs>’s last visit to Drenthe, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let175.xml">see letter 175</ref>. It is not known where and when <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1212">François Pieter ter Meulen</rs> spent time in Drenthe, only that he must have been there very regularly. See Van der Lubbe 1999, p. 75; exhib. cat. Assen 1997, p. 74.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Brabant became highly industrialized in the second half of the nineteenth century; see Van den Eerenbeemt 1977, pp. 60-124.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The promotion of heath reclamation, the rise of new branches of industry, and the accompanying extension of the infrastructure had far-reaching effects on the appearance of the landscape of Brabant. The railway network grew substantially from 1862, and sugar-beet factories were built in Princenhage and Zevenbergen and elsewehere. See Van den Eerenbeemt 1977, especially pp. 15-17, 69, 110-111.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> had stayed with the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">Van Gogh family</rs> in Etten in the summer of 1881: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let168.xml">see letter 168</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>This painting of a cinder road is unknown; Van Gogh sketched it in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let257.xml">letter 257</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+    
+<p>The paintings ‘small seascape’ and ‘pieces of dune ground’ are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Beach with fishing boats</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2383">F 2 / JH 173</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dunes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2385">F 2a / JH 176</rs>) respectively. The ‘row of pollard willows’ and ‘potato field’, both mentioned before in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let255.xml">letter 255</ref>, are unknown (the sketch enclosed with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let255.xml">letter 255</ref> gives an impression of the potato field). The ‘and so on’ must refer in any case to the ‘cinder road’ mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let255.xml">letter 255</ref>, which must be a different work from the cinder road by evening referred to in the present letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-44">ll. 44-49</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-6">n. 6</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The ‘Zevende tentoonstelling van teekeningen door de gewone- en eereleden van de Hollandsche Teeken-Maatschappij’ (Seventh exhibition of drawings by the ordinary and honorary members of the Dutch Drawing Society) took place from 11 August to 12 September 1882 at the Academy of Fine Arts building on Prinsessegracht. A total of 136 works were on show. See exhib. cat. The Hague 1882-1. The whereabouts of practically all the drawings discussed is unknown.</p>
+
+<p rend="indent">The Hollandsche Teeken-Maatschappij was founded in 1876 by several members of Pulchri Studio, among them <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_872">B.J. Blommers</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1107">J. Israëls</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">J.H. Maris</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">A. Mauve</rs>. The aim was to obtain greater recognition for the watercolour as an autonomous work of art, partly by organizing annual exhibitions. In this way it was hoped to promote sales. The society was associated with the dealers Goupil &amp; Cie; for many years <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">H.G. Tersteeg</rs> was its secretary and one of those responsible for choosing the works exhibited. Most of the members were established artists; the criteria for admission were stringent. See Stolwijk 1998, pp. 107-111.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Anton Mauve</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_280"><hi rend="italics">Spinster</hi></rs> (Spinner), p. 11, cat. no. 70 (present whereabouts unknown). Cf. in this connection the sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Spinner</hi> (Toledo, Toledo Museum of Art).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1107">Jozef Israëls</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Moeder Jopje in hare woning</hi> (Mother Jopje in her dwelling), p. 10, cat. no. 49 (present whereabouts unknown). The work is known through <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Binnenhuis </hi>(Interior) engraved by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1563">Leopold Löwenstam</rs>, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Kunstkronijk</hi> 13 (1872), NS, between p. 2 and 3. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_191">Ill. 191</rs>. See Dekkers 1994, C292 (n. 3) and p. 450.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>It is not clear which Neuhuys is being referred to here. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1248">Johannes Albert Neuhuys</rs> was represented in the exhibition by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_281"><hi rend="italics">Voor den spiegel</hi></rs> (Before the mirror), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_282"><hi rend="italics">Binnenhuis te Laren</hi></rs> (Interior at Laren) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_283"><hi rend="italics">Bij een schoenlapper</hi></rs> (At a shoe repairer’s), and his brother <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_154">Jozef Hendrikus Neuhuys</rs> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_284"><hi rend="italics">Avond</hi></rs> (Evening), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_285"><hi rend="italics">Molen</hi></rs> (Mill) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brug </hi>(Bridge), p. 12, cat. nos. 94-99.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Work by both <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Willem Maris</rs> was shown: by the former <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_287"><hi rend="italics">Een wolkeffekt</hi></rs> (A cloud effect), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_288"><hi rend="italics">Hooiladen</hi></rs>( Hay stacking), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_289"><hi rend="italics">Winter</hi></rs> (Winter), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_290"><hi rend="italics">Eene étude van Knorr</hi></rs> (An étude by Knorr), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_291"><hi rend="italics">Een duo</hi></rs> (A duo) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_292"><hi rend="italics">Bij de duinen</hi></rs> (In the dunes), p. 10, cat. nos. 58-63; by Willem: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_293"><hi rend="italics">Opgeschrikt</hi></rs> (Startled), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_294"><hi rend="italics">Melkbocht</hi></rs> (Milking yard), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_295"><hi rend="italics">Zeug met biggen</hi></rs> (Sow with piglets) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_296"><hi rend="italics">Weide met vee</hi></rs> (Meadow with cattle), p. 10-11, cat. nos. 64-67.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The works exhibited by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_941">F.J. van Rossum du Chattel</rs> were: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_297"><hi rend="italics">Nigtevecht</hi></rs> (Nigtevecht), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_298"><hi rend="italics">Zomer</hi></rs> (Summer) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_299"><hi rend="italics">Tegen den avond</hi></rs> (Towards evening),<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>p. 9, cat. nos. 30-32.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Three works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1212">F.P. ter Meulen</rs> were exhibited, all with the title <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_300"><hi rend="italics">In het bosch van Saint Germain</hi></rs> (In the wood of St Germain), p. 12, cat. nos. 85-87.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Besides several other Dutch artists, the 49 exhibitors included artists from Belgium, Italy, France and England. </p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1443">J.H. Weissenbruch</rs> was represented by three landscapes and a seascape: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_301"><hi rend="italics">Boomrijk landschap</hi></rs> (Wooded landscape), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_302"><hi rend="italics">Strand</hi></rs> (Beach), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_303"><hi rend="italics">Landschap in de omstreken van Loosduinen</hi></rs> (Landscape in the surroundings of Loosduinen) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_304"><hi rend="italics">Onder de boomen</hi></rs> (Under the trees), p. 15, cat. nos. 133-136.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1107">Jozef Israëls</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> The painter J.H. Weissenbruch</hi> (Groningen, Groninger Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_202">Ill. 202</rs>. (p. 10, cat. no. 51).</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>By the large seascape Van Gogh probably means <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1218">H.W. Mesdag</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_305"><hi rend="italics">Aankomende pinken</hi></rs> (Pinks coming in) – the second work, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_306"><hi rend="italics">Avond op het Hollandsche Diep</hi></rs> (Evening on the Hollands Diep), is a river view (present whereabouts unknown)<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">.</hi> Although he refers to two ‘Swiss things’, the two other works by Mesdag depict scenes in Norway: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Waterfall at Trolhetta (Norway)</hi> (private collection) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1939">Ill. 1939</rs>) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_307"><hi rend="italics">Eenzaamheid (Noorwegen)</hi></rs> (Solitariness (Norway)), p. 11, cat. nos. 81-84. Cf. Poort 1989, pp. 217, 527.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1201">Maris</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_295"><hi rend="italics">Sow with piglets</hi></rs>, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-12">n. 12.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Of the titles by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob Maris</rs> (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-12">n. 12</ref>) in the catalogue, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_287"><hi rend="italics">Een wolkeffect</hi></rs> (A cloud effect) (cat. no. 58) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_289"><hi rend="italics">Winter</hi></rs> (Winter)<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>(cat. no. 60) are the likeliest candidates. The former may have been the watercolour <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_308"><hi rend="italics">Townscape</hi></rs> (Amsterdam, Rijksprentenkabinet). See exhib. cat. Haarlem 2003, p. 140, cat. no. 45.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>For this exhibition of French art, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let246.xml#n-12">see letter 246, n. 12.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

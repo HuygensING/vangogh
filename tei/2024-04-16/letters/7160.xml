@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Vincent van Gogh and Paul Gauguin to Emile Bernard. Arles, Thursday, 1 or Friday, 2 November 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let716"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b9122 V/2020</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>716</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>B19a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>721</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-12-01">Thursday, 1 or Friday, 2 November 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Emile Bernard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/716_1r/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/716_1r/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/716_1r/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/716_1v/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/716_1v/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/716_1v/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher copain Bernard</p>
+
+<p xml:id="p.fr.2" n="2">Ces jours ci nous avons beaucoup travaillé et entre temps j’ai lu le rêve de Zola<c type="kk">/</c><ptr target="#note-t-1"/> ce qui fait que je n’ai guère eu le temps d’écrire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Gauguin m’intéresse beaucoup comme homme – beaucoup<c type="kp">_</c>– Il m’a depuis longtemps semblé que dans notre sale métier de peintre nous avons le plus grand besoin de gens ayant des mains et des estomacs d’ouvrier<c type="kp">_</c>– Des gouts plus naturels – des tempéraments plus amoureux et plus charitables – que le boulevardier parisien décadent et crevé<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Or ici sans le moindre doute nous nous trouvons en présence d’un être vierge à instincts de fauve<c type="kp">_</c> Chez Gauguin le sang et le sexe prevalent sur l’ambition. Mais suffit<c type="kk">/</c> tu l’as vu de près plus longtemps que moi<c type="kk">/</c> seulement voulais en quelques mots dire premieres impressions.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Ensuite je ne pense pas que cela t’epatera beaucoup si je te dis que nos discussions tendent à traiter le sujet terrible d’une association de certains peintres<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Cette association<c type="kk">/</c> doit ou peut elle avoir oui ou non un caractère commercial<c type="kp">_</c> Nous ne sommes encore arrivé à aucun resultat et n’avons point encore mis le pied sur un continent nouveau<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Or moi qui ai un pressentiment d’un nouveau monde<c type="kk">/</c> qui crois certes à la possibilité d’une immense renaissance de l’art. Qui crois que cet art nouveau aura les tropiques pour patrie<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Il me semble que nous mêmes ne servons que d’intermédiaires<c type="kp">_</c> Et que ce ne sera qu’une genération suivante qui réussira à vivre en paix. Enfin<c type="kk">/</c> tout cela<c type="kk">/</c> nos devoirs et nos possibilités d’action ne sauraient nous devenir plus clairs que par l’expérience même.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">J’ai été un peu surpris de ne pas encore avoir reçu tes études promises en échange des miennes.<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Maintenant ce qui t’interessera – nous avons fait quelques excursions dans les bordels et il est probable que nous finirons par aller souvent travailler là<c type="kp">_</c>– Gauguin a dans ce moment en train une toile du même 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>café de nuit que j’ai peint aussi mais avec des figures vues dans les bordels<c type="kp">_</c><ptr target="#note-t-4"/> Cela promet de devenir une belle chôse.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Moi j’ai fait deux études d’une chûte des feuilles dans une allée de peupliers et une troisieme étude de l’ensemble de cette allee<c type="kk">/</c> entièrement jaune<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Je déclare ne pas comprendre pourquoi je ne fais pas d’études de figure<ptr target="#note-t-6"/> alors que théoriquement il m’est parfois si difficile de concevoir la peinture de l’avenir comme autre chose qu’une nouvelle serie de puissants portraitistes simples et comprehensibles à tout le grand public. Enfin peutetre je vais sous peu me mettre à faire les bordels.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je laisse une page pour Gauguin qui probablement va t’ecrire aussi et te serre bien la main en pensee<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.13" n="13">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.14" n="14">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.15" n="15">Milliet le sous off. Zouaves est parti pour l’Afrique et aimerait bien que tu lui ecrives un de ces jours<c type="kp">_</c>–</p>
+
+<p xml:id="p.fr.16" n="16"><supplied><hi rend="italics">Continued by Paul Gauguin</hi></supplied></p>
+
+
+<p xml:id="p.fr.17" n="17">Vous ferez bien en effet de lui écrire quelles sont vos intentions afin qu’il prenne les devants pour vous 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>préparer la voie<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">M<hi rend="super">r</hi> Milliet<c type="kk">/</c> <hi rend="italics">sous lieutenant de</hi> <hi rend="italics">Zouaves</hi><c type="kk">/</c> Guelma<c type="kk">/</c> Afrique<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">N’écoutez pas Vincent, il a comme vous savez l’admiration facile et l’indulgence dito<c type="kp">_</c>– Son idée sur l’avenir d’une génération nouvelle aux tropiques comme peintre me paraît absolument juste et je conti-<c type="shy">-</c>nue à avoir l’intention d’y retourner quand je trouverai les moyens.<ptr target="#note-t-7"/> Qui sait<c type="kk">/</c> un peu de chance?–</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Vincent a fait deux études de feuilles tombantes dans une allée qui sont dans ma chambre et que vous aimeriez bien. sur toile à sac très grosse mais très bonne.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Envoyez de vos nouvelles et de tous les copains<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.22" n="22">t –</p>
+
+<p xml:id="p.fr.23" n="23">Paul Gauguin</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear old <rs type="person" ref="bio.xml#_831">Bernard</rs>,</p>
+<p xml:id="p.en.2" n="2">We’ve done a great deal of work these past few days, and in the meantime I’ve read <rs type="person" ref="bio.xml#_836">Zola</rs>’s Le rêve,<ptr target="#note-t-1"/> so I’ve hardly had time to write. </p>
+<p rend="indent" xml:id="p.en.3" n="3"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> interests me greatly as a man — greatly. For a long time it has seemed to me that in our filthy job as painters we have the greatest need of people with the hands and stomach of a labourer. More natural tastes — more amorous and benevolent temperaments — than the decadent and exhausted Parisian man-about-town. </p>
+<p rend="indent" xml:id="p.en.4" n="4">Now here, without the slightest doubt, we’re in the presence of an unspoiled creature with the instincts of a wild beast. With <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, blood and sex have the edge over ambition. But enough of that, you’ve seen him close at hand longer than I have, just wanted to tell you first impressions in a few words.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Next, I don’t think it will astonish you greatly if I tell you that our discussions are tending to deal with the terrific subject of an association of certain painters. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> Ought or may this association have a commercial character, yes or no? We haven’t reached any result yet, and haven’t so much as set foot on a new continent yet. Now I, who have a presentiment of a new world, who certainly believe in the possibility of a great renaissance of art. Who believe that this new art will have the tropics for its homeland.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">It seems to me that we ourselves are serving only as intermediaries. And that it will only be a subsequent generation that will succeed in living in peace. Anyway, all that, our duties and our possibilities for action could become clearer to us only through actual experience. </p>
+<p rend="indent" xml:id="p.en.7" n="7">I was a little surprised not yet to have received the studies that you promised in exchange for mine.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Now something that will interest you — we’ve made some excursions in the brothels, and it’s likely that we’ll eventually go there often to work. At the moment <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has a canvas in progress of the same 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> night café that I also painted, but with figures seen in the brothels.<ptr target="#note-t-4"/> It promises to become a beautiful thing.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I’ve made two studies of falling leaves in an avenue of poplars, and a third study of the whole of this avenue, entirely yellow.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">I declare I don’t understand why I don’t do figure studies,<ptr target="#note-t-6"/> while theoretically it’s sometimes so difficult for me to imagine the painting of the future as anything other than a new series of powerful portraitists, simple and comprehensible to the whole of the general public. Anyway, perhaps I’ll soon get down to doing brothels.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’ll leave a page for <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, who will probably also write to you, and I shake your hand firmly in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">Ever yours,</p>
+<p xml:id="p.en.13" n="13">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14"><rs type="person" ref="bio.xml#_515">Milliet</rs> the 2nd lieut. Zouaves has left for Africa, and would be very glad if you were to write to him one of these days.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15"><supplied><hi rend="italics">Continued by <rs type="person" ref="bio.xml#_1039">Paul Gauguin</rs></hi></supplied></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">You will indeed do well to write him what your intentions are, so that he could take steps beforehand to 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> prepare the way for you.</p>
+<p rend="indent" xml:id="p.en.17" n="17"><rs type="person" ref="bio.xml#_515">Mr Milliet</rs>, <hi rend="italics">second lieutenant of Zouaves</hi>, Guelma, Africa.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Don’t listen to Vincent; as you know, he’s prone to admire and ditto to be indulgent. His idea about the future of a new generation in the tropics seems absolutely right to me as a painter, and I still intend going back there when I find the funds.<ptr target="#note-t-7"/> A little bit of luck, who knows?</p>
+<p rend="indent" xml:id="p.en.19" n="19">Vincent has done two studies of falling leaves in an avenue, which are in my room and which you would like very much. On very coarse, but very good sacking.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Send news of yourself and of all the pals.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Yours,</p>
+<p xml:id="p.en.22" n="22"><rs type="person" ref="bio.xml#_1039">Paul Gauguin</rs> </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter must have preceded <ref target="let717.xml">letter 717</ref> to Theo, written about 3 November, in which Van Gogh reported that he had begun the painting of the red vineyard. In the present letter he gives quite a detailed description of his current projects, but does not mention this painting, so it may be assumed that he had not yet started on it. On the other hand, this letter could not have been written before 1 November, because that was the day Milliet left for Africa (see <ref target="#l-73">ll. 73-74</ref> and <ref target="let714.xml">letter 714</ref>). For these reasons we have dated the letter to Thursday, 1 or Friday, 2 November 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bernard gave this letter to Aurier when he was writing the article ‘Les isolés: Vincent van Gogh’ for the <hi rend="italics">Mercure de France</hi> (<ref target="let845.xml">see letter 845</ref>), in which he incorporated a passage from this letter (<ref target="#n-2">see n. 2</ref>).</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Consignment of studies to exchange with the group of painters in Pont-Aven <ref target="let698.xml">(698)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bernard’s military service <ref target="let575.xml">(575)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_279">Le rêve</ref></hi> (The dream) (1888), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Emile Zola</rs>’s most recent novel in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_417">Rougon-Macquart</ref></hi> series, was published on 11 October 1888. It is the story of the orphan Angélique Marie, who spends her time embroidering the lives of saints and dreaming of a knight in shining armour. He appears in the person of Félicien. At the height of her happiness, however, after the nuptial mass, she dies in her husband’s arms. Losing touch with reality and coping with disillusion, including disappointments with catastrophic outcomes, are recurring themes in Zola’s work.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_521">Aurier</rs> reworked this passage in his article ‘Les isolés: Vincent van Gogh’, which appeared in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mercure de France</hi> of January 1890, to provide the following characterization of Van Gogh: ‘a dreamer, an exalted believer, a devourer of beautiful Utopias, who lives on ideas and illusions. For a long time he has taken delight in imagining a renovation of art made possible through a displacement of civilization: an art of tropical regions.’ (un rêveur, un croyant exalté, un dévoreur de belles utopies, vivant d’idées et de songes. Longtemps, il s’est complu à imaginer une rénovation d’art, possible par un déplacement de civilisation: un art des régions tropicales). See also Rewald 1978, p. 342 and n. 74.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh used the plural, so apparently <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> had told him that he had taken two works from Van Gogh’s consignment, in which case he must have chosen two of the following three works: ‘Red sunset’,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2686">F 578 / JH 1538</rs>), and an unidentified work (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let698.xml#n-1">see letter 698, n. 1</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Paul Gauguin</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Night café</hi>,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Arles</hi>, 1888 (W318/W305) (Moscow, Pushkin State Museum of Fine Arts). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2240">Ill. 2240</rs>. Van Gogh’s painting of the Café de la Gare is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The night café </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2711">F 463 / JH 1575</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The two studies of falling leaves are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Alyscamps (‘Leaf-fall’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2741">F 486 / JH 1620</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Alyscamps (‘Leaf-fall’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2742">F 487 / JH 1621</rs>). Van Gogh describes the location in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml">letter 717</ref>.</p>
+
+<p rend="indent">The ‘entirely yellow’ study is probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Alyscamps</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2743">F 568 / JH 1622</rs>). It could also be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Alyscamps</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_783">F 569 / JH 1623</rs>), although there the yellow is less dominant.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The last figure pieces that Van Gogh had made – apart from his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait</hi>, which he traded with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> – dated from September: the portraits of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Eugène Boch</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_515">Lieutenant Milliet</rs> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2710">F 462 / JH 1574</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2720">F 473 / JH 1588</rs>, respectively).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had lived with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1148">Laval</rs> on Martinique from May to November 1887; in Arles he was making plans to return to the tropics. He finally left for Tahiti on 1 April 1891. See exhib. cat. Washington 1988, pp. 45, 50, 205.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Soon after arriving in Arles, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> bought 20 metres of ‘very strong canvas’, as Vincent informed Theo in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml">letter 717</ref>. It was coarse jute, which Van Gogh and Gauguin divided equally and worked on almost exclusively until they ran out of it in December. For the paintings made on this jute, see exhib. cat. Chicago 2001, pp. 354-369.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

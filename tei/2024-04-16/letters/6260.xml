@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Willemien van Gogh. Arles, between Saturday, 16 and Wednesday, 20 June 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let626"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b704 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>626</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>W4</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>633</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-06-16">between Saturday, 16 and Wednesday, 20 June 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Willemien van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000956_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000956_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000956_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000956_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000956_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000956_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 2 not found." xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000957_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000957_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000957_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 2 not found." xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000957_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000957_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000957_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Lieve Zuster,</p>
+
+<p xml:id="p.nl.2" n="2">wel bedankt voor uw brief waarnaar ik reeds had verlangd, ik durf mij niet naar mijn gevoel te laten gaan om U dikwijls te schrijven of dit uit te lokken uwerzijds<c type="kp">_</c> Al die correspondentie draagt niet altijd bij om ons die zenuwachtig van gestel zijn krachtig te houden in gevallen van eventueele onderdompelingen in de melankolie van de soort die ge noemt in uw brief en die ik zelf zoo nu en dan ook heb. Een kennis van me beweerde dat le meilleur traitement pour toutes les maladies c’est de les traiter avec le plus profond mépris.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Het middel tegen die onderdompelingen die ge noemt groeit voor zoover mij bekend niet onder de bekende geneeskrachtige kruiden. ik gebruik niet te min groote hoeveelheden slechte koffij in zulke gevallen, niet omdat zulks erg goed is voor een reeds gehavend gebit doch omdat mijn sterke verbeeldingskracht in deze me in staat stelt een geloofsvertrouwen – een afgodendienaar<c type="kk">/</c> Christen of antropophaag waardig – te hebben in de opvroolijkende werking van voornoemd vocht. Gelukkigerwijs voor mijn medeschepselen heb ik tot heden mij zorgvuldig onthouden hen dit of dergelijke middelen als doeltreffend te recommandeeren. De zon van hier<c type="kk">/</c> <hi rend="italics">dat</hi> is iets anders<c type="kk">/</c> en als men eens een tijd lang wijn drinkt die althans voor een deel uit druiven geperst is. Ik verzeker U dat de menschen bij ons blind zijn als mollen en schuldig dom dat zij er niet meer werk van maken naar Indie of ergens anders waar de zon schijnt te gaan. Het is niet goed maar één ding te weten<c type="kk">/</c> men raakt daar verstompd van<c type="kp">_</c> Men moet niet rusten voor men ook het tegenovergestelde weet.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Wat gij zegt van verschoonende omstandigheden<c type="kk">/</c> dat zij het feit van iets verkeerds gedaan te hebben of iets te bederven helaas niet wegnemen<c type="kk">/</c> is erg waar.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Nu<c type="kk">/</c> denk eens aan onze vaderlandsche geschiedenis<c type="kk">/</c> rise &amp; fall of the Dutch republic<c type="kk">/</c><ptr target="#note-t-1"/> en gij zult begrijpen wat ik meen<c type="kk">/</c> wij moeten niet te veel toegeven aan de verschoonende omstandigheid van niet kunnen &amp;c<c type="kp">_</c><c type="kk">/</c> het is minder kristelijk (in den zin waarin men tegenwoordig het verslapt) maar het is beter voor ons en misschien zelfs voor anderen. En energie wekt energie<c type="kk">/</c> en omgekeerd<c type="kk">/</c> lamheid verlamt anderen.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">We leven nu hier in een schilder wereld waar het onuitsprekelijk lam en ellendig is<c type="kp">_</c> De tentoonstellingen<c type="kk">/</c> de winkels voor schilderijen<c type="kk">/</c> alles alles is bezet door lui die alle geld onderscheppen<c type="kp">_</c> En ge moet niet denken dat dit een verbeelding van me is<c type="kp">_</c> Men geeft veel geld voor ’t werk als de schilder zelf dood is<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p xml:id="p.nl.7" n="7">En men stelt de levende schilders altijd achteruit met den doodslaander van het werk dergenen die er niet meer zijn.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik weet dat wij hiertegen niets kunnen om het te veranderen. men moet dus in vredes naam er zich in troosten óf een soort protectie te hebben óf een rijke vrouw veroveren of zoo iets<c type="kk">/</c> anders kan men niet werken. Al wat men hoopt van onafhankelijkheid door zijn werk<c type="kk">/</c> van invloed op anderen<c type="kk">/</c> daar komt glad niets van.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">En toch is het een zeker pleizier een schilderij te maken<c type="kk">/</c> en toch zijn er juist nu hier een stuk of 20 schilders<c type="kk">/</c> allen meer schuld dan geld hebbende &amp;c<c type="kp">_</c><c type="kk">/</c> allen met een levensgedrag zoowat als dat van de straathonden<c type="kk">/</c> die misschien meer dan de heele officieele tentoonstelling zullen beteekenen in zoover de manier van werken in de toekomst aangaat<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Het voornaamste kenmerk van een schilder is<c type="kk">/</c> stel ik mij voor<c type="kk">/</c> <hi rend="italics">te kunnen schilderen</hi>; zij die kunnen schilderen<c type="kk">/</c> zij die het het beste kunnen<c type="kk">/</c> zijn de kiemen van iets wat nog lang zal blijven bestaan<c type="kk">/</c> net zoo lang als er oogen zullen zijn die genieten van iets wat eigenaardig mooi is.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Nu spijt het mij wel voortdurend dat men zich niet rijker kan maken door harder te werken – integendeel<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Indien men dat kon toch<c type="kk">/</c> zou men veel meer kunnen uitrigten<c type="kk">/</c> zich kunnen associeeren met anderen<c type="kk">/</c> wat al niet. Want nu is ieder gebonden aan de gelegenheid die hij heeft om aan den kost te komen en is men lang niet precies vrij<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ge spreekt er van “of ik iets ingezonden had op Arti”<ptr target="#note-t-2"/> – zeker niet – alleen Theo heeft aan de Heer Tersteeg een bezending schilderijen van impressionisten gezonden en daar was er ook een van mij bij.<ptr target="#note-t-3"/> Het heeft echter slechts uitgewerkt dat noch Tersteeg noch de artisten<c type="kk">/</c> naar Theo hoorde<c type="kk">/</c> er iets in gevonden hadden.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Dat is nu wel erg begrijpelijk want het is geregeld hetzelfde<c type="kk">/</c> men heeft van de impressionisten gehoord<c type="kk">/</c> men stelt er zich veel van voor en.... als men ze voor t’eerst ziet is men bitter en bitter teleurgesteld en vindt het slordig<c type="kk">/</c> leelijk<c type="kk">/</c> slecht geschilderd<c type="kk">/</c> slecht geteekend<c type="kk">/</c> slecht van kleur<c type="kk">/</c> al wat miserabel is<c type="kp">_</c> Dat was mijn eigen eerste indruk ook toen ik met de idees van Mauve en Israels en andere knappe schilders in Parijs kwam. En als er te Parijs een tentoonstelling is enkel van impressionisten<c type="kk">/</c> geloof ik een massa bezoekers er bitter teleurgesteld en zelfs verontwaardigd van terugkomen<c type="kk">/</c> net op de zelfde manier als de brave Hollanders in der tijd gestemd waren als zij uit de kerk komende een oogenblik later een redenatie van Domela Nieuwenhuis of andere socialisten bijwoonden.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">En toch – ge weet het – in 10 of 15 jaar tijd viel dat heele gebouw van een nationalen godsdienst en – de socialisten én zijn er nog én zullen er nog lang zijn<c type="kk">/</c> al hooren noch gij noch ik heel erg tot een der beide rigtingen.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.16" n="16">De kunst nu – de officieele kunst – en haar opvoeding<c type="kk">/</c> leiding<c type="kk">/</c> organisatie<c type="kk">/</c> is suf en vermolmd als den godsdienst die we zien vallen – en zij zal niet duren al zijn er nog zooveel tentoonstellingen<c type="kk">/</c> ateliers<c type="kk">/</c> scholen &amp;c.<c type="kk">/</c> zal niet duren evenmin als de tulpehandel.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Doch dit gaat ons niet aan<c type="kk">/</c> we zijn noch stichters van iets nieuws noch geroepen instandhouders te zijn van iets ouds.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Maar dit blijft – een schilder is iemand die schildert zoo als een eigentlijk bloemenliefhebber iemand is die van de planten houd en ze zelf kweekt<c type="kk">/</c> en <hi rend="italics">niet</hi> de tulpehandelaar<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">En dus die stuk of 20 schilders die men impressionisten noemt<c type="kk">/</c> al zijn een paar hunner tamelijk rijk geworden en tamelijk groote lui in de wereld – toch<c type="kk">/</c> voor ’t meerendeel zijn het arme donders die in koffijhuizen leven<c type="kk">/</c> in goedkoope herbergen logeeren<c type="kk">/</c> van den eenen dag op den anderen leven.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Maar – in één dag schilderen al die 20 die ik U daar noem al wat hun voor den neus komt en beter dan menig groot heer in de kunstwereld veel naam hebbende.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Ik zeg dit om U te doen begrijpen wat voor soort band mij hecht aan de fransche schilders die men de impressionisten noemt – dat ik veel hunner persoonlijk ken en van hen houd.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">En verder dat ik in mijn eigen techniek dezelfde idees betreffende de kleuren heb waar indertijd in Holland zelfs ik over dacht.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Korenbloemen met witte chrysantecums<ptr target="#note-t-a"/> en een stuk of wat goudsbloemen<c type="kp">_</c>– Ziedaar een motief in blaauw en oranje<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Heliotrope en geele rozen<c type="kk">/</c> motief in lilas en geel<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Klaprozen of roode geraniums in sterk groene bladeren<c type="kk">/</c> motief in rood en groen.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Ziedaar <hi rend="italics">gronden </hi>die men verder kan onderverdeelen<c type="kk">/</c> kan uitwerken. maar genoeg om U te laten zien zonder schilderij dat er kleuren zijn die elkaar doen schitteren<c type="kk">/</c> die een <hi rend="italics">paar</hi> uitmaken<c type="kk">/</c> elkaar completeeren als man en vrouw.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">De heele theorie U uit te leggen zou vrij wat schrijven kosten maar toch<c type="kk">/</c> het ware te doen.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">De kleeren<c type="kk">/</c> de behangselpapieren<c type="kk">/</c> wat al niet zou men vrij wat aardiger maken door rekening te houden met de wetten der kleuren.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ge begrijpt dat Israels en Mauve<c type="kk">/</c> die geen heele kleuren gebruikten<c type="kk">/</c> die altijd in grijs werkten<c type="kk">/</c> behoudens alle respect en liefde niet voldoen aan het verlangen van kleur van tegenwoordig.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Nog iets: iemand die werkelijk viool of piano spelen kan is als mensch dunkt me magtig amusant. Hij neemt zijn viool en begint te spelen en een heel gezelschap geniet een avond lang<c type="kp">_</c>– Dat moet een schilder ook kunnen.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">En dit doet me wel eens pleizier<c type="kk">/</c> te werken buiten als er iemand bijstaat<c type="kp">_</c>– Men bevindt zich b.v. in het koren. welnu in den tijd van een paar uur moet men dat korenveld en de lucht er boven en ’t verschiet in de verte kunnen schilderen. Iemand die dat bijwoont houdt wel eens daarna zijn mond digt over de onhandigheid der impressionisten en hun slecht schilderen<c type="kk">/</c> ziet ge. Maar wij tegenwoordig hebben zelden kennissen die genoeg belang stellen om eens mee te gaan<c type="kp">_</c>– Maar als zij het doen dan zijn ze wel eens ingepakt ook.</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Stel daar nu tegenover de lui die een atelier<c type="kk">/</c> maanden tijd<c type="kk">/</c> weet ik wat meer noodig hebben om iets te maken<c type="kk">/</c> après tout maar al te dikwijls vrij suf<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Kunt ge U niet begrijpen dat er iets is dan in de nieuwe manier. En dit wou ik er bij – op een morgen of op een middag wou ik een portret kunnen schilderen en trouwens ik heb dat wel eens gedaan.</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Dit werk neemt volstrekt niet weg dat op andere schilderijen men langer kunne werken. ik stuurde U gisteren per post een teekening die de eerste krabbel is van een nog al groot schilderij<c type="kp">_</c><ptr target="#note-t-7"/> </p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Maar is ’t niet curieus dat<c type="kk">/</c> zoo als ik U daar zeg<c type="kk">/</c> er zijn zeker een twintigtal lui die in een uur of wat een portret kunnen schilderen waar karakter in zit – haast nooit vraagt men er een – een stuk of 20 lui die welk landschap ook op welk uur van den dag met welk effekt van kleur ook op staanden voet zonder aarzelen kunnen doen – niemand staat bij hen<c type="kk">/</c> ze werken steeds alleen. Als echter iedereen zulks wist – maar ziedaar<c type="kk">/</c> de toestanden zijn zoo weinig bekend. Alleen<c type="kk">/</c> ik verbeeld me dat een geslacht later of in een der latere geslachten dit beslist werken zonder aarzelen<c type="kk">/</c> het juist meten in een oogwenk<c type="kk">/</c> het handig mengen van de kleur<c type="kk">/</c> het teekenen bliksemsnel – er zal een geslacht komen dat dit niet alleen zal doen zooals wij nu<c type="kk">/</c> onbemind<c type="kk">/</c> maar met een publiek dat er van gediend wil zijn én voor portret van personen én voor portret van landschap of binnenhuis<c type="kp">_</c></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.36" n="36">ik schrijf U echter veel te veel over het schilderen<c type="kk">/</c> alleen ik wilde er zoodoende op komen U te doen begrijpen dat het nog al van gewigt is dat Theo het zoo ver gekregen heeft dat in het huis waar hij dirigeert tegenwoordig voortdurend een tentoonstelling van impressionisten is.<ptr target="#note-t-8"/> ’t Volgend jaar zal nog al gewigtig zijn. Even als in de litteratuur de franschen de baas zijn onweerlegbaar<c type="kk">/</c> zoo is het in ’t schilderen ook<c type="kk">/</c> er zijn in de moderne kunsthistorie namen als Delacroix<c type="kk">/</c> Millet<c type="kk">/</c> Corot<c type="kk">/</c> Courbet<c type="kk">/</c> Daumier<c type="kk">/</c> die al wat in andere landen is geproduceerd domineeren. Doch de kliek schilders die tegenwoordig aan t’hoofd staat in het officieele<c type="kk">/</c> teert op de lauweren door die vroegeren behaald en is op zich zelf van veel minder kaliber. <hi rend="italics">Die</hi> kunnen dus op de aanstaande Wereldtentoonstelling niet veel bijdragen om de fransche kunst die belangrijkheid te laten die ze tot heden heeft<c type="kp">_</c> De aandacht niet van het publiek – dat natuurlijk alles bekijkt zonder naar de geschiedenis te vragen – maar de aandacht van wie op de hoogte zijn<c type="kk">/</c> zal ’t volgend jaar getrokken worden door de retrospectieve tentoonstelling van de schilderijen van de groote lui die reeds dood zijn en door de impressionisten<c type="kp">_</c> Ook dat zal nog niet dadelijk de omstandigheden waarin de laatsten zich bevinden veranderen maar wel zal het er toe bijdragen om althans de idees te verspreiden en nog wat meer animo te geven. De suffe schoolmeesters die nu in de jury van den Salon zijn<c type="kk">/</c> zullen echter niet eens de impressionisten toelaten. Deze zullen dat echter ook geenszins begeeren en op eigen houtje exposeeren. Als ge nu nagaat dat ik tegen dien tijd minstens een 50 tal schilderijen wil hebben<c type="kk">/</c> welligt voelt ge dan dat ik die niet exposeer zoo zachtjes aan toch mijn part meewerk voor een veldslag waar men althans dit voor heeft dat<c type="kk">/</c> indien men er in meedoet<c type="kk">/</c> men niet voor een <hi rend="italics">prijs</hi> of medaille hoeft te vreezen als een zoete jongen. Zij zijn hier ook wel eerzuchtig maar toch is er een verschil en hier beginnen velen te begrijpen hoe belagchelijk het is zich afhankelijk te stellen van de opinie van anderen over wat men doet<c type="kp">_</c> Ik heb het land om over me zelf te schrijven en ik weet niet waarom ik het doe. Misschien om U te antwoorden op uw vragen<c type="kp">_</c> ge ziet wat ik gevonden heb<c type="kk">/</c> mijn werk<c type="kk">/</c> en ge ziet ook wat ik niet gevonden heb<c type="kk">/</c> al de rest die tot ’t leven hoort. En de toekomst? of geheel en al abstract worden voor wat ’t werk niet is of.... ik durf over dat `of ´ niet uitweiden wegens ’t zoowel beter als erger wezen kan dan dat gemiddelde<c type="kk">/</c> uitsluitend een werkmachine te worden<c type="kk">/</c> ongeschikt &amp; ongevoelig voor al de rest. Dat gemiddelde zou ik zoo tamelijk wel me in kunnen schikken en in afwachting is het zoo<c type="kk">/</c> ik zit juist nog in een zelfden rommelboel als altijd.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Zeg eens<c type="kk">/</c> van rommel gesproken<c type="kp">_</c> Het is misschien de moeite waard wat er goeds is in den rommel die<c type="kk">/</c> naar Theo zegt<c type="kk">/</c> nog van mij ergens in Breda op een zolder is<c type="kk">/</c> nog te redden<c type="kp">_</c> ik durf ’t U echter niet vragen en misschien is ’t verloren geraakt<c type="kk">/</c> tob er dus niet voor<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">maar dit is de kwestie<c type="kp">_</c> ge weet<c type="kk">/</c> Theo heeft verl. jaar een heele partij houtsneden meegebragt<c type="kp">_</c> Toch mankeeren er een paar van de beste portefeuilles en de rest is minder goed<c type="kk">/</c> juist omdat het geen geheel meer is<c type="kp">_</c> Natuurlijk worden houtsneden uit illustraties hoe langer hoe zeldzamer naarmate de jaargangen ouder worden. Genoeg<c type="kk">/</c> geheel onverschillig laat die rommel mij niet<c type="kk">/</c> zoo is er b.v<c type="kp">_</c> een exemplaar Gavarni<c type="kk">/</c> Mascarade Humaine<c type="kk">/</c><ptr target="#note-t-10"/> een boek <hi rend="italics">Anatomy for artists</hi><c type="kk">/</c><ptr target="#note-t-11"/> enfin eenige dingen die eigentlijk veel te goed zijn om te verliezen<c type="kp">_</c> Ik beschouw ze echter vooruit als verloren<c type="kk">/</c> wat er nog van teregt komt is zuiver winst. ik wist toen ik wegging niet dat het zoo voorgoed zou zijn<c type="kp">_</c> Want het werk in Nuenen ging niet slecht en had slechts noodig voort te gaan<c type="kp">_</c> <hi rend="italics">ik mis altijd nog</hi> <hi rend="italics">mijn modellen</hi> die voor mij gegroeid waren en waar ik nog mee dweep<c type="kk">/</c> had ik die hier nu – ik was zeker mijn 50 schilderijen raak zouden zijn. Begrijpt gij dat<c type="kk">/</c> ik ben niet boos op de menschenwereld omdat zij vinden dat ik dit of dat ben – daar geef ik ze vooruit gaarne ten volle gelijk in<c type="kk">/</c> maar het verdriet me dat ik geen magt genoeg heb om te laten poseeren wat ik wil, waar ik wil en zoo lang of zoo kort als ik wil. <hi rend="italics">Daar</hi> en niet in de technische moeielijkheid zit het bezwaar dat ik dien te eindigen<c type="kk">/</c> te overwinnen. En heden ben ik een landschapschilder waar ik eigentlijk voor portret geschikter ben<c type="kp">_</c> Het zou me dus weinig verwonderen indien ik nog eens van manier veranderde. Een schilder – Chaplin – die de portretten van de mooiste vrouwen van Parijs magtig mooi schildert<c type="kk">/</c> dames in boudoirs met of zonder toilet<c type="kk">/</c> heeft krachtige land<c type="shy">-</c>schappen en kuddes varkens op de hei geschilderd. Wil maar zeggen men moet doen wat voor de hand ligt en zijn techniek vasthouden<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Als gij in mijn bereik waart zoudt gij vrees ik aan het schilderen moeten gelooven. Er zijn parijsche dames<c type="kk">/</c> altans een werkelijk goed<c type="kk">/</c> bij de impressionisten – zelfs 2 goede<c type="kp">_</c><ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">En als ik er aan denk hoe juist de nieuwe manier de vrouwen op ’t spoor zou helpen die niet in preciesigheid <hi rend="italics">kunnen</hi> treden<c type="kk">/</c> die muziekaal voelen, dan spijt het me wel eens ouder en leelijker te worden dan mijn belang meebrengt<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Het is erg braaf van Theo dat hij U heeft geinviteerd eens naar Parijs te komen – ik weet niet wat voor indruk het op U maken zou<c type="kp">_</c>– De eerste keer dat ik het zag voelde ik vooral de triestigheden die men niet weg kan waaien<c type="kk">/</c> even min als de ziekenlucht in het hospitaal<c type="kk">/</c> al houdt men het nog zoo helder<c type="kp">_</c> En later is me dat bij gebleven<c type="kk">/</c> toch heb ik later een begrip gekregen van hoe het een broeikas is van idees en hoe de lui er alles uit het leven zoeken te halen wat er met mogelijkheid in is. Andere steden worden er klein bij en het schijnt zoo groot als de zee<c type="kp">_</c> Maar men laat er altijd een heel stuk leven achter. En dit is zeker<c type="kk">/</c> <hi rend="italics">niets is er frisch</hi>. Daarom<c type="kk">/</c> als men er van daan komt vind men een massa dingen elders uitmuntend<c type="kp">_</c></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Erg blij ben ik er om dat gij uw gezondheid weer terug hebt<c type="kk">/</c> men doet alles onwillekeurig en zonder ’t zich op t’oogenblik zelf te begrijpen verkeerd als men ziek is<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">De zon hier zoudt ge <hi rend="italics">denk ik</hi> volstrekt <hi rend="italics">niet</hi> onaangenaam vinden<c type="kk">/</c> ik voel me best er bij op t’heetst van den dag buiten te werken. het is een drooge heldere warmte<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">De kleur is hier heel fijn eigentlijk<c type="kk">/</c> als het groen frisch is is het een rijk groen zooals wij ’t in ’t noorden zelden zien<c type="kk">/</c> kalm. Als het verbrandt en bestuift wordt het niet leelijk maar dan krijgt een landschap toonen van goud van allerlei kleur<c type="kk">/</c> groengoud<c type="kk">/</c> geelgoud<c type="kk">/</c> rosgoud<c type="kk">/</c> dito brons<c type="kk">/</c> koper<c type="kk">/</c> enfin van citroengeel af tot de dofgeele kleur van b.v. een hoop gedorscht graan<c type="kp">_</c> Dat met het blaauw – vanaf het diepste bleu de roi in ’t water tot dat van vergeet mij nieten<c type="kp">_</c> Cobalt vooral<c type="kk">/</c> helder klaar blaauw – groenblaauw en violetblaauw.</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Natuurlijk lokt dit oranje uit – een door de zon verbrand gezigt <hi rend="italics">doet</hi> oranje; verder<c type="kk">/</c> wegens ’t vele geel spreekt het violet dadelijk – een rieten schutting of grijs rieten dak of een omgewerkte akker doet veel violetter dan bij ons. Verder<c type="kk">/</c> zoo als ge reeds vermoedt<c type="kk">/</c> de menschen zijn hier dikwijls mooi<c type="kp">_</c> In een woord<c type="kk">/</c> ik geloof dat het leven hier ietwat dankbaarder is dan op menige andere plaats<c type="kp">_</c> Alleen het komt me voor dat de lui wat aan ’t verslappen zijn<c type="kk">/</c> wat te veel in de decadence van zorgeloosheid<c type="kk">/</c> onverschilligheid<c type="kk">/</c> terwijl indien zij energieker waren denkelijk het land meer zou opleveren. ik heb niet veel gelezen in den laatsten tijd<c type="kk">/</c> toch madame Chrysantème van Pierre Loti<c type="kp">_</c><ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">ook l’abbe Constantin van Ohnet<c type="kk">/</c> vreesselijk lief en hemelsch<c type="kk">/</c> zoo dat zelfs zijn maitres des forges<c type="kk">/</c> ook wel wat aan dien kant reeds<c type="kk">/</c> er nog verdachter door wordt.<ptr target="#note-t-14"/> ik lees hier zelfs soms uit geeuwhonger met woede de krant<c type="kk">/</c> maar maak hier niet uit op dat ik behoefte aan lezen heb. Juist niet erg omdat ik liever zelf wat bekijk doch het is eenmaal een gewoonte een paar uur te lezen s’avonds<c type="kk">/</c> dus onwillekeurig voelt men dat men iets mist<c type="kk">/</c> maar dat dit niet hinderlijk is kunt ge uit op maken dat hetgeen men ziet interessant is.</p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">Ik ben een week aan de middellandsche zee geweest<c type="kk">/</c> gij zoudt dat mooi vinden. Hetgeen hier mij treft en wat mij ’t schilderen hier aantrekkelijk maakt is de helderheid van de lucht<c type="kk">/</c> gij <hi rend="italics">kunt</hi> niet weten wat dat is omdat we bij ons dat juist niet hebben – maar op een uur afstand onderscheid men de kleur van de dingen<c type="kk">/</c> het grijsgroen van olijfboomen en het grasgroen van de wei b.v. en het rose lilas van een omgewerkt land; bij ons zien we een vage grijze lijn aan den horizon<c type="kk">/</c> hier is tot wijd wijd weg de lijn scherp en den vorm te onderkennen. Dit geeft een idée van ruimte en lucht<c type="kp">_</c></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.48" n="48">Ik ben nu toch zoo over mijn eigen bezig<c type="kk">/</c> nu wil ik ook eens kijken of ik nu mijn eigen portret er niet in kan schrijven. Vooreerst stel ik op den voorgrond dat een zelfde persoon mijns inziens stof tot erg uiteenloopende portretten oplevert<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.49" n="49">Ziehier een opvatting van het mijne die ’t resultaat is van een portret dat ik in den spiegel schilderde en dat Theo heeft: Een roze grijs gelaat met groene oogen<c type="kk">/</c> aschkleurig haar<c type="kk">/</c> rimpels in voorhoofd en om den mond<c type="kk">/</c> stijf houterig<c type="kk">/</c> een zeer rooden baard<c type="kk">/</c> vrij ongeredderd en triest<c type="kk">/</c> maar de lippen zijn vol<c type="kk">/</c> een blaauwe kiel van grof linnen en een palet met citroengeel<c type="kk">/</c> vermilloen<c type="kk">/</c> veroneesgroen<c type="kk">/</c> cobaltblaauw<c type="kk">/</c> enfin alle kleuren<c type="kk">/</c> behalve den oranje baard<c type="kk">/</c> op het palet<c type="kk">/</c> de eenige heele kleuren echter<c type="kp">_</c> De figuur tegen een graauwwitten muur.<ptr target="#note-t-15"/> gij zult zeggen dat dit ietwat lijkt op b.v. het gezigt van – de dood – in het boek van v. Ede<c type="kk">/</c> of zoo iets – goed<c type="kk">/</c> maar enfin<c type="kk">/</c> is zoo’n figuur<ptr target="#note-t-16"/> – en ’t is niet makkelijk zichzelf te schilderen – niet in alle geval <hi rend="italics">iets anders</hi> dan een photografie? En ziet ge – dit heeft het impressionisme – m.i. voor boven de rest<c type="kk">/</c> het is niet banaal en men zoekt een diepere gelijkenis dan die van den fotograaf.–</p>
+
+<p rend="indent" xml:id="p.nl.50" n="50">Nu tegenwoordig zie ik in zoover er anders uit dat ik noch haar noch baard meer bezit<c type="kk">/</c> zijnde deze beiden steeds glad afgeschoren<c type="kk">/</c> verder van groengrijs rose is mijn gelaatskleur grijs oranje geworden en heb ik een wit pak in plaats van een blaauw en ben steeds stoffig<c type="kk">/</c> steeds verder bevracht als een stekelvarken<c type="kk">/</c> met stokken<c type="kk">/</c> schilderezel, doek, en verdere koopwaar. alleen de groene oogen zijn eender gebleven maar een andere kleur in het portret is natuurlijkerwijs een geele stroohoed als een hannikemaaier<ptr target="#note-t-17"/> – en een zeer zwart pijpje<c type="kp">_</c> ik woon in een klein geel huis met groene deur en blinden<c type="kk">/</c> van binnen gewit – op de witte muren – zeer sterk gekleurde japansche teekeningen<ptr target="#note-t-18"/> – roode plavuizen op den vloer – het huis in de volle zon – en een sterk blaauwe lucht er boven en – de schaduw midden op den dag veel korter dan bij ons.– Enfin – maar kunt ge U niet begrijpen dat men met eenige vegen zóó iets schilderen kan<c type="kk">/</c> maar tevens kunt ge u niet begrijpen dat sommige lui zeggen “het doet al te vreemd”<c type="kk">/</c> zonder te noemen hen die het niets of afschuwelijk vinden. Als het nu eenmaal lijkt<c type="kk">/</c> maar anders lijkt dan de godvruchtige fotograaf met zijn zwarte schimmen – daar alleen is ’t om te doen.– ik houd volstrekt niet veel van de heer Vosmaer en ben hardvochtig genoeg weinig om s’mans verwisseling van het tijdelijke met het eeuwige te geven<c type="kp">_</c>–<ptr target="#note-t-19"/> Het is erg goed dat gij en moe maar liever U een tuin hebt aangeschaft<c type="kk">/</c> met katten<c type="kk">/</c> katers<c type="kk">/</c> musschen en vliegen<c type="kk">/</c> dan een trap meer er op na te houden.<ptr target="#note-t-20"/> Ik heb mij nooit aan het trappen klimmen te Parijs kunnen wennen en had altijd duizeling in een afschuwelijke nachtmerrie die mij hier verlaten heeft maar die ginder geregeld terugkwam<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.51" n="51">Ik zou indien ik deze brief niet op de post deed hem bepaald verscheuren als ik hem eerst eens over las – ik lees hem dus niet over en ik betwijfel de leesbaarheid<c type="kk">/</c> ik heb niet altijd tijd tot schrijven.</p>
+
+<p rend="indent" xml:id="p.nl.52" n="52">ik geloof dat er niets in dezen brief staat en kan niet begrijpen hoe ik hem dan zoo lang heb gekregen<c type="kp">_</c> Bedank moe voor haar brief<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.53" n="53">Ik bestemde sedert lang een geschilderde studie voor U en gij zult die krijgen ook<c type="kp">_</c><ptr target="#note-t-21"/> ik ben bang dat per post men U<c type="kk">/</c> al frankeer ik<c type="kk">/</c> voor onvoldoende frankeering zou laten betalen<c type="kk">/</c> zooals de bloemen uit Menton<c type="kk">/</c><ptr target="#note-t-22"/> en dit is nog grooter – maar Theo zal er zeker U een sturen<c type="kk">/</c> als ik er niet om denk vraag er hem dan om<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.54" n="54">In gedachten U en moe omhelsd<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.55" n="55">uw liefh<c type="kp">_</c></p>
+
+<p xml:id="p.nl.56" n="56">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.57" n="57">Theo werkt voor al de impressionisten<c type="kk">/</c> voor allen heeft hij wat gedaan en verkocht en zal dat zeker blijven doen. maar juist dit een &amp; ander dat ik U schrijf over de kwestie zal U doen zien hoe hij iets heel anders is dan de gewone handelaars die om de schilders niets geven.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.58" n="58"><hi rend="italics">is de teekening voldoende gefrankeerd geweest</hi><c type="kp">_</c>
+schrijf me dat omdat ik het dien te weten.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear sister,</p>
+<p xml:id="p.en.2" n="2">Many thanks for your letter, which I’d been looking forward to; I daren’t give way to my desire to write to you often or to encourage this on your part. All this correspondence doesn’t always help to keep us, who are of a nervous disposition, strong in cases of possible immersions in melancholy of the kind you refer to in your letter and which I myself have too every now and then. A friend of mine asserted that the best treatment for all ills is to treat them with the most profound contempt.</p>
+<p rend="indent" xml:id="p.en.3" n="3">The remedy for the immersions you refer to doesn’t, as far as I know, grow among the usual medicinal herbs. Nonetheless I drink large quantities of bad coffee in such cases, not because this is very good for already bad teeth but because my strong powers of imagination in this respect enable me to have a religious faith — worthy of an idolater, Christian or anthropophagus — in the cheering effect of the aforementioned fluid. Fortunately for my fellow creatures I have so far carefully refrained from recommending this or similar remedies to them as being efficacious. The sun here, <hi rend="italics">that</hi> is something else, and if for a while one just drinks wine that at least in part has been pressed from grapes. I assure you that the people in our country are as blind as moles and criminally stupid because they don’t make more effort to go to the Indies or somewhere else where the sun shines. It’s not good to know only one thing; it stultifies one. One shouldn’t rest until one also knows the opposite.</p>
+<p rend="indent" xml:id="p.en.4" n="4">What you say about extenuating circumstances, that sadly they don’t take away the fact of having done something wrong or spoiled something, is very true.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Well, just think of our national history, rise and fall of the Dutch republic,<ptr target="#note-t-1"/> and you’ll understand what I mean, we mustn’t give way too much to the extenuating circumstance of not being able &amp;c., it’s less Christian (in the sense in which people water it down these days), but it’s better for us and perhaps even for others. And energy generates energy, and conversely paralysis paralyzes others.</p>
+<p rend="indent" xml:id="p.en.6" n="6">We’re now living here in a world of painting where it’s unspeakably paralyzed and wretched. The exhibitions, the shops for paintings, everything, everything is occupied by people who all intercept money. And you mustn’t think that I’m imagining this. People pay a lot for the work when the painter himself is dead. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> And people always disparage living painters by pointing unanswerably to the work of those who are no longer with us.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I know that we can’t do anything to change this. For the sake of peace one must therefore resign oneself to it, or have some sort of patronage or captivate a rich woman or something, otherwise one can’t work. Everything one hopes for in terms of independence through one’s work, of influence on others, absolutely nothing comes of it.</p>
+<p rend="indent" xml:id="p.en.8" n="8">And yet it’s something of a pleasure to make a painting, and yet there are 20 or so painters here right now, all of them having more debts than money &amp;c., all of them with a way of life something like that of curs, who will perhaps mean more than the whole official exhibition in so far as the future manner of working is concerned.</p>
+<p rend="indent" xml:id="p.en.9" n="9">The principal characteristic of a painter, I imagine, is <hi rend="italics">to paint really well</hi>; those who can paint, those who can do it best, are the germs of something that will continue to exist for a long time, just as long as there are eyes that enjoy something that is singularly beautiful.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Well I constantly regret that one can’t make oneself richer by working harder — on the contrary.</p>
+<p rend="indent" xml:id="p.en.11" n="11">If one actually could do that, one would be able to accomplish much more, be able to associate with others, and what not. For now everyone is bound by his opportunity to earn his living, and one is far from free, exactly.</p>
+<p rend="indent" xml:id="p.en.12" n="12">You talk about ‘whether I had submitted something to Arti’<ptr target="#note-t-2"/> — certainly not – only Theo sent Mr <rs type="person" ref="bio.xml#_787">Tersteeg</rs> a consignment of paintings by Impressionists and there was one of mine in it.<ptr target="#note-t-3"/> However, all that transpired was that neither Tersteeg nor the artists, so Theo heard, had found anything in it.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Well that’s very understandable because it’s always the same, people have heard of the Impressionists, they have great expectations of them... and when they see them for the first time they’re bitterly, bitterly disappointed and find them careless, ugly, badly painted, badly drawn, bad in colour, everything that’s miserable. That was my first impression, too, when I came to Paris with the ideas of <rs type="person" ref="bio.xml#_323">Mauve</rs> and <rs type="person" ref="bio.xml#_1107">Israëls</rs> and other clever painters. And when there’s an exhibition in Paris of Impressionists alone, I believe a host of visitors come back from it bitterly disappointed and even indignant, in just the same mood as the good Hollanders were at the time when, coming out of church, they attended a lecture by <rs type="person" ref="bio.xml#_334">Domela Nieuwenhuis</rs> or other socialists a moment later.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">And yet — you know — in the space of 10 or 15 years that whole edifice of a national religion fell and — the socialists are still there and will be there for a long time, although neither you nor I belong very much to either persuasion. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">Well art — official art — and its education, management, organization, is as stultified and mouldering as the religion we see falling — and it won’t last, however many exhibitions, studios, schools &amp;c. there may be, won’t last any more than tulip mania.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">But this doesn’t concern us, we’re neither founders of something new nor called upon to be preservers of something old.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But this remains — a painter is someone who paints, just as a genuine flower lover is someone who loves plants and grows them himself, and <hi rend="italics">not</hi> the tulip dealer.</p>
+<p rend="indent" xml:id="p.en.18" n="18">And so those 20 or so painters whom people call Impressionists, although a few of them have become fairly rich and fairly big men in the world — all the same, the majority of them are poor souls who live in coffee houses, lodge in cheap inns, live from one day to the next.</p>
+<p rend="indent" xml:id="p.en.19" n="19">But — in one day all those 20 whom I mentioned to you paint everything they set eyes on, and better than many a great man who has a big reputation in the art world.</p>
+<p rend="indent" xml:id="p.en.20" n="20">I say this to get you to understand what sort of tie binds me to the French painters whom people call the Impressionists — that I know many of them personally and like them.</p>
+<p rend="indent" xml:id="p.en.21" n="21">And furthermore that in my own technique I have the same ideas concerning colour, which even I was thinking about when I was still in Holland.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Cornflowers with white chrysanthemums and a few marigolds. There you have a motif in blue and orange.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Heliotrope and yellow roses, motif in lilac and yellow.</p>
+<p rend="indent" xml:id="p.en.24" n="24">Poppies or red geraniums in bold green leaves, motif in red and green.</p>
+<p rend="indent" xml:id="p.en.25" n="25">There you have <hi rend="italics">basics</hi> that one can subdivide further, can elaborate, but enough to show you without a painting that there are colours that make each other shine, that make a <hi rend="italics">couple</hi>, complete each other like man and wife.</p>
+<p rend="indent" xml:id="p.en.26" n="26">Explaining the whole theory to you would take quite a lot of writing, but still, it could be done. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">Clothes, wallpaper, what couldn’t one make a good deal nicer by taking account of the laws of colour.</p>
+<p rend="indent" xml:id="p.en.28" n="28">You understand that <rs type="person" ref="bio.xml#_1107">Israëls</rs> and <rs type="person" ref="bio.xml#_323">Mauve</rs>, who didn’t use whole colours, who always worked in grey, do not, with the greatest respect and love, satisfy the present-day longing for colour.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">Something else: someone who can really play the violin or piano is, it seems to me, a mightily entertaining person. He picks up his violin and starts to play, and a whole gathering enjoys it all evening long. A painter has to be able to do that too.</p>
+<p rend="indent" xml:id="p.en.30" n="30">And this sometimes gives me pleasure, to work outside when someone’s looking on. One is in the wheat, say. Well then, in the space of a few hours one has to be able to paint that wheatfield and the sky above it and the prospect in the distance. Anyone who watches that will certainly keep his mouth shut afterwards about the clumsiness of the Impressionists and their bad painting, you see. But nowadays we seldom have acquaintances who are interested enough to come along now and again. But when they do, then they’re sometimes won over for good.</p>
+<p rend="indent" xml:id="p.en.31" n="31">Now contrast that with the fellows who need a studio, months and months, and I don’t know what else to make something — only too often rather dull, after all that.</p>
+<p rend="indent" xml:id="p.en.32" n="32">Can’t you understand then that there’s something in the new manner? And I also want this — I want to be able to paint a portrait in a morning or an afternoon, and I’ve done that now and again, as a matter of fact.</p>
+<p rend="indent" xml:id="p.en.33" n="33">This work definitely doesn’t alter the fact that one can work longer on other paintings. Yesterday I sent you by post a drawing that’s the first scratch for quite a large painting.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.34" n="34">But isn’t it curious that, as I said to you just then, there are at least a score of fellows who in an hour or so can paint a portrait with character in it — people hardly ever ask for one — 20 or so fellows who can do whatever landscape you please, at whatever hour of the day, with whatever colour effect you please, on the spot, without hesitation — nobody looks on, they always work alone. If only everyone knew this, though — but you see the circumstances are so little known. Only I imagine that a generation later or in one of the later generations — this working decisively without hesitation, measuring correctly in an instant, skilful mixing of the colour, drawing at lightning speed — a generation will come that will do this not as we do now, alone, unloved, but with a public that will like it both for portraits of people and for portraits of landscapes or interiors. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">However, I’m writing to you much too much about painting, only by doing so I wanted to get you to understand that it’s rather important that Theo has got things to the point that in the firm he manages there’s always an exhibition of Impressionists nowadays.<ptr target="#note-t-8"/> Next year will be rather important. Just as the French are undeniably the masters in literature, so it is in painting too, in modern art history there are names like <rs type="person" ref="bio.xml#_982">Delacroix</rs>, <rs type="person" ref="bio.xml#_1226">Millet</rs>, <rs type="person" ref="bio.xml#_971">Corot</rs>, <rs type="person" ref="bio.xml#_962">Courbet</rs>, <rs type="person" ref="bio.xml#_977">Daumier</rs>, who dominate everything that was produced in other countries. Yet the clique of painters who currently stand at the head of the official art world is resting on the laurels won by those earlier men, and is in itself of much lesser calibre. So <hi rend="italics">they</hi> can’t do much at the forthcoming World Exhibition to help French art retain that importance it’s had until now. Next year the attention, not of the public — who naturally look at everything without wondering about the history — but the attention of those who are well informed, will be attracted by the retrospective exhibition of the paintings of the great men who are already dead, and by the Impressionists. Even that won’t immediately change the circumstances in which the latter find themselves, but it will at least help to disseminate the ideas and generate a bit more enthusiasm. The dull schoolmasters who are now on the selection committee for the Salon won’t even admit the Impressionists though. The latter won’t want that anyway, though, and will exhibit on their own. When you realize that I want to have at least 50 or so paintings by then, you’ll perhaps see that I, who don’t exhibit, will nevertheless slowly and steadily play my part in a battle of which one can at least say this, that if one takes part in it, one doesn’t have to fear a <hi rend="italics">prize</hi> or medal like a good boy. They’re ambitious here too, but still there’s a difference, and many here are beginning to understand how ridiculous it is to make oneself dependent on the opinion of others about what one does. I detest writing about myself and I don’t know why I do it. Perhaps to give you answers to your questions. You see what I’ve found, my work, and you also see what I haven’t found, everything else that’s part of life. And the future? Either become wholly abstracted from whatever isn’t the work or... I dare not elaborate on that ‘or’ because becoming nothing but a work machine, unfit for and indifferent to all the rest, could be either better or worse than that average. I could quite easily resign myself to that average, and for the time being the fact is I’m still in exactly the same junk heap as ever. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.36" n="36">By the way, talking of junk. It might still be worth while salvaging anything any good from the junk of mine which, so Theo says, is still somewhere in an attic in Breda, but I daren’t ask it of you and perhaps it’s been lost, so don’t worry about it.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.37" n="37">But this is the question. You know Theo brought a whole batch of woodcuts with him last year? Even so, a few of the best portfolios are missing and the rest isn’t as good precisely because it’s no longer complete. Obviously woodcuts from illustrated magazines get rarer and rarer as the volumes get older. Enough, this junk doesn’t leave me completely indifferent; for instance, there’s a copy of <rs type="person" ref="bio.xml#_1043">Gavarni</rs>’s Mascarade humaine,<ptr target="#note-t-10"/> a book <hi rend="italics">Anatomy for artists</hi>,<ptr target="#note-t-11"/> in short, a few things that are actually much too good to lose. I consider them as lost in advance, though; anything that still turns up is pure gain. I didn’t know when I left that it would be for good like this. Because the work wasn’t going badly in Nuenen and it was only a matter of going on with it. <hi rend="italics">I still miss</hi> my models who were made for me and whom I still adore; if only I had them here now — I’m sure my 50 paintings would hit the mark. Do you understand that I’m not angry with the human race because they think I’m this or that — I freely admit in advance that they’re absolutely right, but it saddens me that I don’t have enough power to get what I want to pose for me, where I want and for as long or as short as I want. The problem I have to bring to an end, to overcome, lies <hi rend="italics">there</hi> and not in the technical difficulty. And today I’m a landscape painter whereas I’m actually more suited to portraits. So it wouldn’t surprise me much if I were to change style again sometime. A painter — <rs type="person" ref="bio.xml#_938">Chaplin</rs> — who paints the portraits of the most beautiful women in Paris mightily well, ladies in boudoirs dressed or undressed, has painted powerful landscapes and herds of pigs on the moors. What I’m saying is one has to do what lies to hand and hold fast to one’s technique.</p>
+<p rend="indent" xml:id="p.en.38" n="38">If you were within my reach you would, I fear, have to get down to painting. There are Parisian ladies among the Impressionists, at least one really good — even 2 good ones.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.39" n="39">And when I think how the new manner could help to put the women who are<hi rend="italics"> incapable</hi> of precision, who feel musically, on the right track, then I sometimes regret getting older and uglier than is in my interest.</p>
+<p rend="indent" xml:id="p.en.40" n="40">It’s very good of Theo to have invited you to come to Paris — I don’t know what sort of impression it would make on you. The first time I saw it I felt above all the miseries that one cannot wave away, any more than the smell of sickness in the hospital, however clean it may be kept. And that stayed with me later, but later I gained an understanding of how it’s a hotbed of ideas, and how the people try to get everything out of life that could possibly be in it. Other cities shrink by comparison, and it seems as big as the sea. But one always leaves a whole piece of life behind there. And this is certain, <hi rend="italics">nothing is fresh there</hi>. That’s why, when one comes from there, one finds a mass of things elsewhere excellent. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.41" n="41">I’m very glad that you’ve recovered your health; one does everything unwittingly and wrongly, without understanding it oneself, when one’s ill.</p>
+<p rend="indent" xml:id="p.en.42" n="42">You would <hi rend="italics">not</hi>, <hi rend="italics">I think</hi>, find the sun here unpleasant at all; I feel fine working outside in the hottest part of the day. It’s a dry, clean heat.</p>
+<p rend="indent" xml:id="p.en.43" n="43">The colour here is actually very fine; when the vegetation is fresh it’s a rich green the like of which we seldom see in the north, calm. When it gets scorched and dusty it doesn’t become ugly, but then a landscape takes on tones of gold of every shade, green-gold, yellow-gold, red-gold, ditto bronze, copper, in short from lemon yellow to the dull yellow colour of, say, a pile of threshed grain. That with the blue — from the deepest royal blue in the water to that of forget-me-nots. Cobalt above all, bright clear blue — green-blue and violet-blue.</p>
+<p rend="indent" xml:id="p.en.44" n="44">Naturally this induces orange — a face tanned by the sun <hi rend="italics">looks</hi> orange; further, because of all the yellow, the violet really speaks — a wicker fence or grey thatched roof or a ploughed field look much more violet than at home. Further, as you already suspect, the people here are often handsome. In a word, I believe that life here is rather more rewarding than in many other places. Only it seems to me that the people are getting a little slack here, slipping a little too much onto the downward slope of carelessness, indifference, whereas if they were more energetic the land would probably yield more. I haven’t read much lately, except Madame Chrysanthème by <rs type="person" ref="bio.xml#_704">Pierre Loti</rs>.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.45" n="45">Also L’abbé Constantin by <rs type="person" ref="bio.xml#_719">Ohnet</rs>, terribly sweet and heavenly, so that even his Mâitre de forges, already tending that way, becomes even more suspect.<ptr target="#note-t-14"/> Sometimes, out of ravenous hunger, I even read the newspaper here with fury, but don’t take this to mean that I have a need to read. On the contrary, in fact, because I prefer to look at things myself. But it’s simply become a habit to read for a few hours in the evening, so one can’t help feeling that one’s missing something, but you can tell that this isn’t irksome from the fact that what one sees is interesting. I spent a week by the Mediterranean, you would think it beautiful. What strikes me here and what makes painting here attractive to me is the clarity of the air, you <hi rend="italics">can’t</hi> know what that is because it’s precisely what we don’t have at home — but at an hour’s distance one can make out the colour of things, the grey-green of olive trees and the grass green of the meadow, for instance, and the pink-lilac of ploughed land; at home we see a vague grey line on the horizon; here the line is sharp and the shape recognizable from far, far away. This gives an idea of space and air. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.46" n="46">Since I’m now so occupied with myself, I’d also like to see if I can’t make my own portrait in writing. First I start by saying that to my mind the same person supplies material for very diverse portraits.</p>
+<p rend="indent" xml:id="p.en.47" n="47">Here’s an impression of mine, which is the result of a portrait that I painted in the mirror, and which Theo has: a pink-grey face with green eyes, ash-coloured hair, wrinkles in forehead and around the mouth, stiffly wooden, a very red beard, quite unkempt and sad, but the lips are full, a blue smock of coarse linen, and a palette with lemon yellow, vermilion, Veronese green, cobalt blue, in short all the colours, except of the orange beard, on the palette, the only whole colours, though. The figure against a grey-white wall.<ptr target="#note-t-15"/> You’ll say that this is something like, say, the face of — death — in <rs type="person" ref="bio.xml#_588">Van Eeden</rs>’s book<ptr target="#note-t-16"/> or some such thing – very well, but anyway isn’t a figure like this — and it isn’t easy to paint oneself — in any event <hi rend="italics">something different</hi> from a photograph? And you see — this is what Impressionism has — to my mind — over the rest, it isn’t banal, and one seeks a deeper likeness than that of the photographer.</p>
+<p rend="indent" xml:id="p.en.48" n="48">I look different nowadays, in so far as I no longer have either hair or beard, both being always shaved off close; further, my complexion has changed from green-grey pink to grey-orange, and I have a white suit instead of a blue one, and am always dusty, always more laden like a porcupine with sticks, easel, canvas, and other merchandise. Only the green eyes have remained the same, but another colour in the portrait, naturally, is a yellow straw hat like a grass-mower<ptr target="#note-t-17"/> — and a very black pipe. I live in a little yellow house with green door and shutters, whitewashed inside — on the white walls — very brightly coloured Japanese drawings<ptr target="#note-t-18"/> — red tiles on the floor — the house in the full sun — and a bright blue sky above it and — the shadow in the middle of the day much shorter than at home. Anyway — but can’t you understand that one can paint something like that with a few strokes, but at the same time can’t you understand that some people say ‘it looks too strange’, not to mention the ones who find it nothing or abominable? If it just looks like it, but looks different from the work of the pious photographer with his black shadows — it should be done for that reason alone. I really don’t like <rs type="person" ref="bio.xml#_842">Mr Vosmaer</rs> at all, and am callous enough not to care much about the man’s exchange of the temporary for the eternal.<ptr target="#note-t-19"/> It’s a very good thing that you and <rs type="person" ref="bio.xml#_524">Ma</rs> have acquired a garden, with cats, tomcats, sparrows and flies, rather than have an extra flight of stairs.<ptr target="#note-t-20"/> I could never get used to climbing the stairs in Paris, and was always dizzy in a dreadful nightmare that has left me here, but recurred regularly there.</p>
+<p rend="indent" xml:id="p.en.49" n="49">Were I not to put this letter in the post I would certainly tear it up if I read it over first — so I won’t read it over and I doubt the legibility, I don’t always have time to write.</p>
+<p rend="indent" xml:id="p.en.50" n="50">I don’t think there’s anything in this letter and can’t understand how I managed to make it so long. Thank <rs type="person" ref="bio.xml#_524">Ma</rs> for her letter.</p>
+<p rend="indent" xml:id="p.en.51" n="51">A long time ago I meant you to have a painted study, and you shall get it.<ptr target="#note-t-21"/> I’m afraid that by post, even if I pay the postage, they’ll make you pay excess postage, like the flowers from Menton,<ptr target="#note-t-22"/> and this is even bigger — but Theo will certainly send you one, if I don’t think about it, ask him for it.</p>
+<p rend="indent" xml:id="p.en.52" n="52">Embracing <rs type="person" ref="bio.xml#_407">you</rs> and <rs type="person" ref="bio.xml#_524">Ma</rs> in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.53" n="53">Your loving</p>
+<p xml:id="p.en.54" n="54">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.55" n="55">Theo works for all the Impressionists, he’s done something for and sold for all of them, and will certainly go on doing so. But just these few things that I write to you about the matter will show you how he’s something very different from the run of dealers, who care nothing for the painters.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.56" n="56"><hi rend="italics">Was there enough postage on the drawing?</hi> Write and tell me that, because I ought to know.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In <ref target="let625.xml">letter 625</ref>, dated around 15 and 16 June, Vincent told Theo that a letter from home had just been delivered. In the present letter he thanks his sister Willemien (and indirectly his mother) for that letter. The fact that Van Gogh goes at length into his motives for painting, says he has painted landscapes although he really sees himself as more of a portrait painter, but does <hi rend="italics">not</hi> say anything about making the portrait of the Zouave, places the letter before 21 June, when he embarked on the portrait sittings (<ref target="let629.xml">letter 629</ref>). On these grounds we have dated the letter between Saturday, 16 and Wednesday, 20 June 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The consignment of paintings for Tersteeg <ref target="let589.xml">(589)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh’s ambition to exhibit work at the 1889 World Exhibition <ref target="let590.xml">(590)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s plan to get Willemien and Lies to come and stay with him in Paris <ref target="let615.xml">(615)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Visit to Saintes-Maries <ref target="let617.xml">(617)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_714">John Lothrop Motley</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_39">The Rise of the Dutch Republic. A History</ref></hi>. London 1856. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let043.xml#n-2">letter 43, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The second exhibition of the Nederlandsche Etsclub, which opened in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arti et Amicitiae</hi> in Amsterdam on 1 June 1888. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let611.xml#n-5">letter 611, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Seine with the Clichy</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2553">F 303 / JH 1323</rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let589.xml#n-4">see letter 589, nn. 4</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let589.xml#n-9">9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The Dutch minister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_334">Ferdinand Domela Nieuwenhuis</rs> was very active in politics. He left the church in 1879 and devoted himself to fighting for human rights. The countless speeches in which he expounded his socialist – and later anarchist – views were widely known. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Domela Nieuwenhuis,</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">van christen tot anarchist</hi>. Ed. A. de Jong. Bussum 1982, and Altena 1997.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Tulip mania refers to the speculative buying and selling of a product, not for the sake of the goods but solely for profit. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let409.xml#n-5">See letter 409, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘chrysantemums’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For the pigments used by the artists of the Hague School, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let595.xml#n-13">see letter 595, n. 13.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This was probably the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2619">F 1484 / JH 1438</rs>): this preliminary study for the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>), which measures 73 x 92 cm, once belonged to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, p. 20 (n. 33).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Theo had regularly exhibited and dealt in work by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Pissarro</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_981">Degas</rs> and others since 1887.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>When the family moved from Nuenen, the things that Vincent had left behind when he went to Antwerp, including wood engravings and books, were stored in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_197">Adrianus Schrauwen</rs>’s attic in Breda. See exhib. cat. Breda 2003, pp. 11-18. See also the postscript to <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let642.xml">letter 642</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh had owned <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1043">Gavarni</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_237">La mascarade humaine</ref> </hi>since 1882 and repeatedly quoted from it in his letters.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1199">John Marshall</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_203">Anatomy for artists</ref> </hi>(1878), which Van Gogh bought in 1884 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let465.xml#n-6">see letter 465, n. 6</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh is probably referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1783">Mary Cassatt</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1784">Berthe Morisot</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Loti</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_481">Madame Chrysanthème</ref></hi> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let628.xml#n-20">see letter 628, n. 20.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Van Gogh’s attribution of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_486">L’abbé Constantin</ref></hi> (1882) to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_719">Georges Ohnet</rs> is based on a misconception; the novel was by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_652">Ludovic Halévy</rs>. (The same erroneous attribution occurs in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let687.xml">letter 687</ref>.) The negative tone of Van Gogh’s opinion would appear to be more in line with the general criticism of Ohnet than with the views about Halévy (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let557.xml">letter 557</ref>). </p>
+
+<p rend="indent">It is not surprising that he describes the romantic love story as ‘terribly sweet and heavenly’, because it is obvious from the outset that the two lovers, Jean and Bettina, will overcome their problems and eventually be together. The popular book did not go unnoticed among Van Gogh’s family and friends either. Theo sent <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Lies</rs> a copy on 13 October 1885, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_282">Andries Bonger</rs> wrote to his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_22 bio.xml#_23">parents</rs> about Halévy on 22 December 1883 (FR b903 and b1779). There was also a copy in Uncle Vincent’s estate.</p>
+
+<p rend="indent">Ohnet’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_439">Le maître de forges</ref></hi> (1882), the third volume in the series ‘Les batailles de la vie’, is a conventional love story; the concept is simple and the writing saccharine. It is the story of an aristocratic woman who marries a rich man, not a member of the aristocracy, for his money. While her contempt for him gradually turns into love, his love for her vanishes in the face of her distant attitude.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait as a painter</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2943">F 522 / JH 1356</rs>). Van Gogh later inserted the words ‘alle kleuren’ (all the colours) and ‘op het palet’ (on the palette) in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-329">l. 329</ref>, evidently because he did not consider his explanation clear enough, although even this did not help to clarify things altogether. What he meant to say was that all the whole colours could be seen on the palette (that is to say the three primary and the three secondary colours). He called the orange that he used for the beard an exception because it is the only colour present on the palette in two tints (one dark orange-red and a lighter one). See cat. Amsterdam 2011.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>A reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_588">Frederik van Eeden</rs>’s book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_461">De kleine Johannes</ref></hi> (for the book see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let579.xml#n-4">letter 579, n. 4</ref>). Van Gogh compares his self-portrait with the face of Hein, who personifies death in the novel. The description of his appearance reads in part: ‘He had deep-set eyes ... and wiped the cold sweat from the pale, bony forehead. Motionless and shy, Johannes stared into the deep-set eyes, which were fastened on him. They were very serious and dark, yet not cruel, not hostile’; and ‘The pale face was lit erratically by the fitful glow, so that the eyes formed great dark pools’ (The Hague 1887, pp. 123-124, 139).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>A ‘hannekemaaier’ is a grass-mower, an agricultural labourer of German origin.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Van Gogh started pinning prints like these on his wall when he was in Antwerp (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let545.xml">letter 545</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>Evidently <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> had mentioned the death of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_842">Carel Vosmaer</rs>; the writer had died on 12 June 1888. Van Gogh had previously registered his disapproval of Vosmaer: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let452.xml#n-5">see letter 452, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> moved from Nieuwe Ginnekenstraat to Nieuwe Haagdijk in Breda in April 1888. See exhib. cat. Breda<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>2003, pp. 16-17.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>It emerges from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml">letter 590</ref> that Vincent had intended the study <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sprig of almond blossom in a glass with a book</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2566">F 393 / JH 1362</rs>) for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>. She also once owned the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard bordered by cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2586">F 554 / JH 1388</rs>). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2001, p. 20 (n. 33).</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>It appears from the family correspondence that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_853">Aunt Cornelie</rs> sometimes sent fresh flowers from Menton in the south of France, where they were staying (FR b2235 and b2250).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

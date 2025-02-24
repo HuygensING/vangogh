@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Friday, 13 July 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let639"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b550 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>639</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>509</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>643</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-07-13">on or about Friday, 13 July 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0550" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000738_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000738_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000738_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0550" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000738_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000738_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000738_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo</p>
+
+<p xml:id="p.fr.2" n="2">je viens de t’expédier par la poste un rouleau contenant 5 grands dessins à la plume.<ptr target="#note-t-1"/> tu as un 6<hi rend="super">me</hi> de cette serie de Mont-Majour. Un groupe de pins très sombre et la ville d’Arles dans le fond.<ptr target="#note-t-2"/> Ensuite j’espère y ajouter une vue d’ensemble de la ruine (dans les petits dessins tu en as un croquis hâtif)<c type="kp">_</c><ptr target="#note-t-3"/> Ne pouvant pas dans ce moment où nous entamons la combinaison avec Gauguin être utile du côté argent<c type="kk">/</c> j’ai fait tout ce que j’ai pu pour montrer par le travail que je prends la chôse à coeur.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Selon moi les deux vues de la Crau et de la campagne du côté des bords du Rhône sont ce que j’ai fait de mieux de ma plume.<ptr target="#note-t-4"/> Thomas les veut-il par hasard<c type="kk">/</c><ptr target="#note-t-5"/> il ne les peut pas avoir à moins de 100 fr<c type="kp">_</c> pièce<c type="kp">_</c> Dussé-je lui donner les <hi rend="italics">trois</hi> autres <hi rend="italics">comme cadeau</hi> dans ce cas<c type="kk">/</c> puisque nous sommes pressés d’avoir de l’argent. Mais nous ne pouvons les donner à moins<c type="kk">/</c> cela coûte cela. Et tout le monde n’aurait pas la patience de se faire boulotter par les moustiques<c type="kk">/</c> de lutter contre cette agaçante contrariété du mistral continuel<c type="kk">/</c> sans compter que j’ai passé les journées dehors avec un peu de pain et de lait<c type="kk">/</c> cela étant trop loin pour retourner à tout moment à la ville.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je t’ai déjà plus d’une fois dit combien la Camargue et la Crau – sauf une différence de couleur et de limpidité de l’atmosphère – me fait penser à l’antique Hollande du temps de Ruysdael. Il me semble que ces deux sites de la campagne plate couvertes de vignes et de champs de chaumes vue d’en haut t’en donneront une idée<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je t’assure que j’en suis fatigué de ces dessins<c type="kk">/</c> j’ai commencé une peinture aussi – mais pas moyen avec le mistral de la faire<c type="kk">/</c> absolument pas possible.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Voici maintenant pour cette toile – j’ai comparé la nouvelle toile de Tasset à fr<c type="kp">_</c> 4.50 au prix de la même qualité chez Bourgeois – (c’est dans son catalogue que j’avais déniché le prix de la toile ordinaire<c type="kk">/</c> 40 fr<c type="kp">_</c> les 20 mètres carrées)<c type="kp">_</c> Eh bien – encore une fois Tasset n’a pas compté plus cher<c type="kk">/</c> c’était <hi rend="italics">exactement</hi> le même prix.<ptr target="#note-t-7"/> Suit de cela que chez Tasset nous devons pouvoir également avoir la toile ordinaire à 2 francs le mètre carré et dans la suite nous ferons bien de prendre celle là qui pour les études est certes assez bonne.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Ecris moi un petit mot s.v.p. de suite pour savoir si les dessins soient arrivés en bon état<c type="kk">/</c> on m’a encore engueulé à la poste que c’était trop grand et je crains qu’on fasse difficulté à Paris peut-être. Tout de même ils les ont pris ce qui m’a fait plaisir car après la fête du 14 Juillet<ptr target="#note-t-8"/> tu ne seras pas mécontent peut-<c type="shy">-</c>être de te rafraichir l’oeil sur l’étendue de cette <hi rend="italics">Crau</hi><c type="kp">_</c> Le charme que ces campagnes vastes ont pour moi est bien intense<c type="kp">_</c> Aussi je n’ai senti aucun <hi rend="italics">ennui</hi> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>malgré des circonstances essentiellement ennuyeuses<c type="kk">/</c> le mistral et les moustiques. Si une vue fait oublier ces petites misères-là il faut qu’il y ait quelquechôse<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Tu vois cependant qu’il n’y a aucun <hi rend="italics">effet</hi><c type="kk">/</c> c’est à premiere vue une carte geographique<c type="kk">/</c> un plan stratégique quant à la <hi rend="italics">facture</hi>. Je me suis d’ailleurs promené là <hi rend="italics">avec un peintre</hi> qui disait: voila ce qui serait embêtant à peindre.<ptr target="#note-t-9"/> Seulement voila bien 50 fois que je vais à Mont Majour pour regarder cette vue plate – <hi rend="italics">ai-je tort</hi>.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je m’y suis aussi promené avec quelqu’un qui n’était <hi rend="italics">pas peintre</hi> et comme je lui disais: tiens pour moi cela est beau et infini comme la mer<c type="kk">/</c> il répond – et il la connait la mer – moi j’aime cela <hi rend="italics">mieux</hi> que la mer parceque c’est aussi infini et pourtant on sent que c’est <hi rend="italics">habité</hi>.<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Comme j’en ferais un tableau si ce sacré vent n’y était pas. C’est là ce qui est désolant ici quant on plante son chevalet quelquepart. Et c’est bien pour cela que les etudes peintes ne sont pas aussi faites que les dessins. la toile tremble toujours.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Pour dessiner cela ne me gêne pas.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Est ce que tu as lu M<hi rend="super">me</hi> Chrysantême<c type="kk">/</c> cela m’a bien donné à penser que les vrais japonais n’ont <hi>rien sur les murs</hi>. la description du cloitre ou de la pagode où il n’y a <hi rend="italics">rien</hi> (les dessins<c type="kk">/</c> curiosités<c type="kk">/</c> sont cachés dans des tiroirs)<c type="kp">_</c> Ah c’est donc comme ça qu’il faut regarder une japonaiserie – dans une piece bien claire<c type="kk">/</c> toute nue<c type="kk">/</c> ouverte sur le paysage<c type="kp">_</c><ptr target="#note-t-11"/> Veux tu en faire l’épreuve avec ces deux dessins de la Crau et des bords du Rhone <hi>qui n’ont pas</hi> <hi>l’air japonais</hi> et qui peutêtre le sont plus que d’autres réellement.– Regardes les dans un café bien clair où il n’y ait rien d’autre en tableaux – ou dehors. Il y faudrait peutêtre une bordure de roseau comme une baguette. Ici je travaille moi dans un intérieur nu<c type="kk">/</c> 4 murs blancs et des pavés rouges par terre. Si j’insiste que tu regardes ces deux dessins ainsi c’est que je voudrais tant te donner <hi>une idée vraie</hi> de la simplicité de la nature d’ici. Enfin – à cause de Gauguin<c type="kk">/</c> si on montrait les dessins<c type="kk">/</c> aussi la moisson et le Zouave<c type="kk">/</c><ptr target="#note-t-12"/> à Thomas.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Poignée de main et merci des 12 tubes blanc de zinc que Tasset vient d’envoyer.<ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">Je suis curieux si Mouries se rappellera des endroits<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo</p>
+<p xml:id="p.en.2" n="2">I’ve just sent you by post a roll containing 5 large pen drawings.<ptr target="#note-t-1"/> You have a 6th of this Montmajour series. A group of very dark pines and the town of Arles in the background.<ptr target="#note-t-2"/> Later I hope to add a general view of the ruin (you have a hasty croquis of it among the small drawings).<ptr target="#note-t-3"/> Being unable, at this moment when we’re embarking on the partnership with <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, to be of use on the money side, I’ve done all I could to show through work that I take the matter to heart.</p>
+<p rend="indent" xml:id="p.en.3" n="3">As I see it, the two views of the Crau and the countryside along the banks of the Rhône are the best I’ve done with my pen.<ptr target="#note-t-4"/> Should <rs type="person" ref="bio.xml#_780">Thomas</rs> by chance want them?<ptr target="#note-t-5"/> He can’t have them for less than 100 francs each. Even if I had to give him the <hi rend="italics">three </hi>others<hi rend="italics"> as a gift </hi>in that case, as we’re in urgent need of money. But we can’t give them for less, that’s what it costs. And not everyone would have the patience to let themselves be eaten up by the mosquitoes, and to struggle against this infuriating nuisance of the constant mistral, not to mention that I’ve spent whole days out of doors with a bit of bread and some milk, it being too far to be going back to town all the time.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’ve already told you more than once how much the Camargue and the Crau — apart from a difference in colour and the clearness of the atmosphere — make me think of the old Holland of <rs type="person" ref="bio.xml#_1333">Ruisdael</rs>’s day. It seems to me that these two sites in the flat countryside, covered with vines and stubble fields, seen from above, will give you an idea of it. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">I assure you that I’m tired out by these drawings; I’ve started a painting too — but no means of doing it with the mistral, absolutely impossible.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Now about this canvas — I’ve compared <rs type="person" ref="bio.xml#_785">Tasset</rs>’s new canvas at 4.50 francs with the price for the same quality from <rs type="person" ref="bio.xml#_302">Bourgeois</rs> — (it’s in his catalogue that I tracked down the price of ordinary canvas, 40 francs per 20 square metres). Ah, well, once again Tasset hasn’t charged any more; it was <hi rend="italics">exactly </hi>the same price.<ptr target="#note-t-7"/> Follows from that that we also ought to be able to have ordinary canvas at 2 francs per square metre at Tasset’s, and in future we’ll do well to take that, which is certainly good enough for studies.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Please write me a short line straightaway, to know if the drawings have arrived in good condition; they gave me a piece of their mind again at the post office because it was too big, and I’m afraid they’ll perhaps make problems in Paris. All the same, they took them, which pleased me, because after the 14 July holiday<ptr target="#note-t-8"/> you’ll perhaps not be unhappy about refreshing your eye on the expanses of this <hi rend="italics">Crau</hi>. The appeal that these vast landscapes have for me is very intense. And so I’ve felt no <hi rend="italics">annoyances</hi> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> in spite of some essentially annoying circumstances, the mistral and the mosquitoes. If a view makes one forget those little vexations, there must be something in it.</p>
+<p rend="indent" xml:id="p.en.8" n="8">However, you see there’s no <hi rend="italics">effect</hi>, at first sight it’s a map, a strategic plan as far as <hi rend="italics">workmanship</hi> goes<hi rend="italics">.</hi> Besides, I also went for a walk there <hi rend="italics">with a painter, </hi>who said: now there’s something that would be bothersome to paint.<ptr target="#note-t-9"/> But it must be 50 times that I’ve been to Montmajour to look at this flat view — <hi rend="italics">am I wrong</hi>?</p>
+<p rend="indent" xml:id="p.en.9" n="9">I also went for a walk there with someone who was <hi rend="italics">not a painter</hi>, and as I said to him: look, to me that’s as beautiful and infinite as the sea, he replied — and he knows it, the sea — I like that <hi rend="italics">better </hi>than the sea because it’s just as infinite and yet you feel it’s <hi rend="italics">inhabited.</hi><ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">How I’d make a painting of it if there wasn’t this bloody wind! That’s the thing that’s annoying here when you plant your easel somewhere. And it’s definitely for that reason that the painted studies aren’t as finished as the drawings. The canvas shakes all the time.</p>
+<p rend="indent" xml:id="p.en.11" n="11">For drawing it doesn’t bother me. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Have you read Madame Chrysanthème? It really gave me a lot to think about, that the real Japanese have <hi>nothing on their walls</hi>. The description of the cloister or pagoda where there’s <hi rend="italics">nothing </hi>(the drawings, the curiosities, are hidden in drawers). Ah, so that’s how you have to look at a japonaiserie — in a nice bright room, completely bare, open to the landscape.<ptr target="#note-t-11"/> Would you like to try it out with these two drawings of the Crau and the banks of the Rhône <hi>which don’t look japanese</hi> and which are perhaps more so than others, in fact? Look at them in a nice bright café where there’s nothing else in the way of paintings — or out of doors. There should perhaps be a reed frame like a thin strip of wood. Myself, I work here in a bare interior, 4 white walls and red tiles on the floor. If I insist on your looking at these two drawings this way it’s because I would like so much to give you <hi>a true idea</hi> of the simplicity of nature in these parts. Lastly — because of <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, what if we were to show the drawings, the harvest and the Zouave as well,<ptr target="#note-t-12"/> to Thomas?</p>
+<p rend="indent" xml:id="p.en.13" n="13">Handshake, and thank you for the 12 tubes of zinc white that <rs type="person" ref="bio.xml#_785">Tasset</rs> has just sent.<ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Ever yours,</p>
+<p xml:id="p.en.15" n="15">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">I’m curious to know if <rs type="person" ref="bio.xml#_1233">Mourier</rs> will remember the places.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter must have been written not too long after <ref target="let638.xml">letter 638</ref>, which dates from 9 or 10 July: in that one Van Gogh wrote that he had three finished drawings, now he has five. He also says that ‘after the 14 July holiday’ <ref target="#l-47">(l. 47)</ref> Theo will probably be glad to refresh his eye on the drawings he has just sent. The letter in any event dates from before <ref target="let640.xml">letter 640</ref>, which was written on Sunday, 15 July – in that one Van Gogh reiterates that he has sent the drawings. On these grounds we have dated the present letter on or about Friday, 13 July 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mourier-Petersen’s stay with Theo <ref target="let623.xml">(623)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The rock of Montmajour with pine trees</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2665">F 1447 / JH 1503</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees, Montmajour </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2324">F - / JH add. 3</rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let637.xml">see letter 637</ref>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Hill with the ruins of Montmajour</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Abbey </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2666">F 1446 / JH 1504</rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let638.xml">see letter 638</ref>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Crau seen from Montmajour </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2147">F 1420 / JH 1501</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape near Montmajour with a train </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2148">F 1424 / JH 1502</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of Arles from a hill </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2618">F 1452 / JH 1437</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let617.xml">see letters 617</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let618.xml">618</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This general view of the ruin was meant to complete the set of six drawings (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let637.xml">see letter 637</ref>), but Van Gogh never got round to doing it. The drawing Theo already had was <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The ruins of Montmajour </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2615">F 1417 / JH 1434</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let613.xml">see letter 613</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Crau seen from Montmajour </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2147">F 1420 / JH 1501</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape near Montmajour with a train </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2148">F 1424 / JH 1502</rs>). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2147">Ill. 2147</rs>- <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2148">2148</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh hoped that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_780">Thomas</rs>, who had some of his paintings in his shop (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let718.xml">see letter 718</ref>), would give him an advance on his saleable work and repeatedly urged Theo to approach him. However, his efforts were fruitless.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunset at Montmajour</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3106">F - / JH -</rs>), which he had done two weeks earlier on Montmajour (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let636.xml">see letter 636</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For the paint supplier <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_302">Bourgeois</rs> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let366.xml#n-9">see letter 366, n. 9.</ref> Van Gogh also compared the prices charged by the different firms in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let635.xml">letters 635</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let631.xml">631</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>14 July is the French national holiday commemorating the storming of the Bastille (14 July 1789), the start of the French Revolution.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This was probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs>; at any rate it appears from the postscript that he knew the places around Arles depicted in the drawings.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>It can be inferred from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let638.xml">letters 638</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let641.xml">641</ref> that Van Gogh meant the Zouave lieutenant <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_515">Milliet</rs>, with whom he had spent a day on Montmajour. Milliet had been in Tonkin (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let623.xml">see letter 623</ref>) and was thus familiar with the sea.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Loti</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_481">Madame Chrysanthème</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let628.xml#n-20">letter 628, n. 20.</ref> It contains the following passage about houses with bare interiors and the view over the countryside: ‘What is immediately striking in Japanese interiors is the meticulous cleanliness and the icy-white starkness. I am taken up to the first floor on immaculate matting, without a crease, without pattern, without a mark, to a large room containing nothing, absolutely nothing. The paper walls are made out of sliding frames which can roll behind one another or disappear if required – and one whole side of the apartment opens up into a veranda looking out over the green countryside and the grey sky’ (Ce qui frappe dès l’abord, dans ces intérieurs japonais, c’est la propreté minutieuse, et la nudité blanche, glaciale. Sur des nattes irréprochables, sans un pli, sans un dessin, sans une souillure, on me fait monter au première étage, dans une grande pièce où il n’y a rien, absolument rien. Les murs en papier sont composés de châssis à coulisse, pouvant rentrer les uns dans les autres, au besoin disparaître, – et tout un côté de l’appartement s’ouvre en véranda sur la campagne verte, sur le ciel gris) (see Loti 1990, chapter 3, p. 60).</p>
+
+<p rend="indent">‘The description of the cloister or pagoda where there’s nothing’ refers to chapter 40, where it says that the monks’ cells are completely empty, with just a few unframed sketches on the walls: ‘nothing else, no seats, no cushions, no furniture. It is the ultimate in desired simplicity, in elegance crafted from nothing’ (rien de plus; pas de sièges, pas de coussins, pas de meubles. C’est le comble de la simplicité cherchée, de l’élégance faite avec du néant) (Loti 1990, pp. 172-173).</p>
+
+<p rend="indent">Van Gogh’s fascination with the Japanese approach to art derives from the following passage: ‘For he who has a few notions of Japanese style, my mother-in-law’s interior will reveal to him alone a refined person; total starkness, just two or three little screens placed here and there – a teapot, a vase containing lotus flowers, nothing else ... There are little hiding places everywhere, small niches and cupboards, ingeniously and unexpectedly hidden behind the immaculate uniformity of white paper panels ... In France, we have objets d’art to enjoy them; here they shut them away, neatly labelled in a sort of mysterious, underground apartment, with iron gratings, which is called a godoun’ (Pour qui a quelques notions de japonerie, l’intérieur de ma belle-mère révèle à lui seul une personne raffinée: nudité complète; à peine deux ou trois petits paravents posés çà et là, – une théière, un vase où trempent des lotus; rien de plus ... Il y a partout des petites cachettes, des petites niches, des petits placards, dissimulés de la manière la plus ingénieuse et la plus inattendue sous l’uniformité immaculée des panneaux de papier blanc ... En France, on a des objets d’art pour en jouir; ici, pour les enfermer, bien étiquetés, dans une sorte d’appartement mystérieux, souterrain, grillé en fer, qu’on appelle godoun) (Loti 1990, chapter 35, p. 157).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2620">F 1483 / JH 1439</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Seated Zouave</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2654">F 1443 / JH 1485</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">See letters 625</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let630.xml">630</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let636.xml">letter 636</ref> Van Gogh commented that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> had not sent enough zinc white in the previous batch.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

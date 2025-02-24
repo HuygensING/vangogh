@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 18 February 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let747"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b624 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>747</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>577</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>751</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-02-18">Monday, 18 February 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0624" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000853_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000853_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000853_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0624" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000853_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000853_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000853_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Tant que mon esprit manquait tout à fait d’assiette c’eut été en vain que j’aurais essayé de t’écrire pour répondre à ta bonne lettre. Je viens aujourd’hui de retourner provisoirement chez moi, j’espère pour de bon<c type="kp">_</c><ptr target="#note-t-1"/> Il y a tant de moments où je me sens tout à fait normal<c type="kk">/</c> et justement il me semblerait que<c type="kk">/</c> si ce que j’ai n’est qu’une maladie particulière du pays<c type="kk">/</c> il faut tranquillement attendre ici jusqu’à que cela soit fini. même si cela se répétait encore (ce qui ne sera pas le cas mettons)<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Mais voici ce que je dis une fois pour toutes à toi et à M. Rey. Si tôt ou tard il serait désirable que j’aille à Aix comme il en a déjà été question<ptr target="#note-t-2"/> – d’avance j’y consens et m’y soumettrai<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Mais dans ma qualité de peintre et d’ouvrier il n’est loisible à personne<c type="kk">/</c> même pas à toi ou au médecin<c type="kk">/</c> de faire une telle démarche sans me prévenir et me consulter <hi rend="italics">moi</hi> là-dedans aussi<c type="kk">/</c> parceque ayant jusqu’à présent toujours gardé ma presence d’esprit relative<ptr target="#note-t-3"/> pour mon travail<c type="kk">/</c> c’est mon droit de dire alors 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>(ou au moins d’avoir une opinion sur) ce qui serait le mieux<c type="kk">/</c> de garder mon atelier ici ou de déménager à Aix tout-à-fait<c type="kp">_</c> Cela afin d’éviter les frais et les pertes d’un déménagement tant que possible et de ne le faire qu’en cas d’urgence absolue.–</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Il parait que les gens d’ici ont une légende qui leur fait avoir peur de la peinture et que dans la ville on a causé de cela<c type="kp">_</c>–<ptr target="#note-t-4"/> Bon.– Moi je sais qu’en Arabie c’est la même chôse et pourtant nous avons des tas de peintres en Afrique n’est ce pas.– Ce qui prouve qu’avec un peu de fermeté on peut modifier ces préjugés ou au moins faire sa peinture quand même<c type="kp">_</c> Le malheur est que moi je suis assez porté à être impressionné<c type="kk">/</c> à sentir moi-<c type="shy">-</c>même les croyances d’autrui et à ne pas toujours blaguer sur le fond de vérité qu’il puisse y avoir dans l’absurde<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Gauguin d’ailleurs est comme cela aussi<c type="kk">/</c> comme tu l’auras pu observer<c type="kk">/</c> et lui-même était également fatigué lors de son séjour par je ne sais quel malaise.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Moi ayant déjà sejourné plus d’un an ici<c type="kk">/</c> ayant entendu dire à peu près tout le mal possible de moi<c type="kk">/</c> de Gauguin<c type="kk">/</c> de la peinture en général<c type="kk">/</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>pourquoi ne prendrais je pas les chôses telles quelles en attendant l’issue ici.–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Où puis j’aller pire que là où j’ai déjà été à deux reprises – au cabanon<c type="kp">_</c>–<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Les avantages que j’ai ici sont que comme dirait Rivet – d’abord – “ils sont tous malades” ici et alors au moins je ne me sens pas seul<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Puis comme tu le sais bien <hi rend="italics">j’aime</hi> <hi rend="italics">tant Arles</hi> quoique Gauguin aie bigrement raison de l’appeler la plus sale ville de tout le midi.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Et j’ai trouvé tant d’amitié déjà chez les voisins<c type="kk">/</c><ptr target="#note-t-6"/> chez M. Rey<c type="kk">/</c> d’ailleurs chez tout le monde à l’hospice<c type="kk">/</c> que réellement je préférerais être toujours malade ici que d’oublier la bonté qu’il y a dans les mêmes gens qui ont les préjugés les plus incroyables à l’égard des peintres et de la peinture ou dans tous les cas n’en ont aucune idée claire et saine comme nous autres.–</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Puis à l’hospice ils me connaissent maintenant et si cela me reprendrait cela se passerait en silence et ils sauraient à l’hospice que faire. Etre traité par d’autres médecins je n’en ai aucunément le désir ni en sens le besoin.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Le seul désir que j’aurais c’est de pouvoir continuer à gagner de mes mains ce que je dépense<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Koning m’a écrit une lettre très bien en disant que lui et un ami viendraient probablement dans le midi avec moi pour longtemps<c type="kp">_</c> Cela en réponse à une lettre que je lui avais écrite il y a quelques jours.<ptr target="#note-t-7"/> Moi je n’ose plus engager les peintres à venir ici après ce qui m’est arrivé<c type="kk">/</c> ils risquent de perdre la tête comme moi. Même chôse pour de Haan et Isaacson.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Qu’ils aillent à Antibes<c type="kk">/</c> Nice<c type="kk">/</c> Menton<c type="kk">/</c> c’est peut-être plus sain.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">La mère et la soeur m’ont également écrit<c type="kk">/</c> la dernière etait bien navrée de la malade qu’elle a soignée.<ptr target="#note-t-8"/> à la maison on est bien bien content de ton mariage.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Sache le bien qu’il ne faut pas trop te préoccuper de moi ni te faire du mauvais sang<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Cela doit probablement avoir son cours et nous ne pourrions pas avec des précautions changer grand chôse à notre sort.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Encore une fois cherchons à gober notre sort tel qu’il vient. La soeur m’a écrit que ta fiancée venait loger pour quelque temps à la maison<c type="kp">_</c><ptr target="#note-t-9"/> Cela c’est bien fait. Eh bien je te serre la main bien bien de tout coeur et ne nous decourageons pas. crois moi</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">t.à.t.</p>
+
+<p xml:id="p.fr.21" n="21">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.22" n="22">bien des chôses à Gauguin<c type="kk">/</c> j’espère qu’il va m’écrire<c type="kk">/</c> moi je lui ecrirai aussi<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.23" n="23">adresse lettre prochaine Place Lamartine<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">As long as my mind was so out of sorts it would have been fruitless to try and write to you to reply to your kind letter. Today I’ve just returned home for the time being, I hope for good.<ptr target="#note-t-1"/> There are so many moments when I feel completely normal, and actually it would seem to me that, if what I have is only a sickness peculiar to this area, I should wait quietly here until it’s over. Even if it were to happen again (which, let’s say, won’t be the case).</p>
+<p rend="indent" xml:id="p.en.3" n="3">But here is what I’m saying once and for all to you and to <rs type="person" ref="bio.xml#_637">Mr Rey</rs>. If sooner or later it were desirable that I should go to Aix, as has already been suggested<ptr target="#note-t-2"/> – I consent in advance and will submit to it.</p>
+<p rend="indent" xml:id="p.en.4" n="4">But in my capacity as painter and workman it isn’t permissible for anyone, not even you or the doctor, to take such a course of action without warning me and consulting me <hi rend="italics">myself</hi> about it too, because as up to now I’ve always kept my relative presence of mind<ptr target="#note-t-3"/> for my work, it’s my right to say then 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> (or at least to have an opinion on) what would be best, to keep my studio here or to move completely to Aix. That in order to avoid the expenses and the losses of a move as much as possible, and not to do it except in the event of an absolute emergency.</p>
+<p rend="indent" xml:id="p.en.5" n="5">It appears that the people around here have a legend that makes them afraid of painting and that people talked about that in the town.<ptr target="#note-t-4"/> Good. As for me, I know that it’s the same thing in Arabia, and yet we have heaps of painters in Africa, don’t we? Which proves that with a little firmness one can alter these prejudices, or at least do one’s painting all the same. The unfortunate thing is that I’m rather inclined to be impressed, to feel the beliefs of other people myself and not always to laugh at the foundation of truth that there may be in the absurd.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Besides, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> is like that too, as you were able to observe, and was himself also tired out at the time of his stay by some malaise or other.</p>
+<p rend="indent" xml:id="p.en.7" n="7">As I’ve already been staying here for more than a year, and have heard people say pretty much all the bad things possible about me, about <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, about painting in general, <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> why shouldn’t I take things as they are and wait for the outcome here.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Where can I go that’s worse than where I’ve already been twice – the isolation cell.<ptr target="#note-t-5"/> The advantages that I have here are, as <rs type="person" ref="bio.xml#_640">Rivet</rs> would say – first – ‘they’re all sick’ here, and so at least I don’t feel alone.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Then, as you well know, <hi rend="italics">I love Arles so much</hi>, although <rs type="person" ref="bio.xml#_1039">Gauguin</rs> is darned right to call it the filthiest town in all of the south.</p>
+<p rend="indent" xml:id="p.en.10" n="10">And I’ve found so much friendship already from the <rs type="person" ref="bio.xml#_647 bio.xml#_648 bio.xml#_382 bio.xml#_383 bio.xml#_52 bio.xml#_329">neighbours</rs>,<ptr target="#note-t-6"/> from <rs type="person" ref="bio.xml#_637">Mr Rey</rs>, from everyone at the hospital for that matter, that really I’d prefer to be always ill here than to forget the kindness there is in the same people who have the most incredible prejudices towards painters and painting, or in any case have no clear and healthy idea whatsoever about it as we do.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Then at the hospital they know me now, and if this were to come on again it would pass in silence, and at the hospital they’d know what to do. I have absolutely no desire to be treated by other doctors, nor do I feel the need for it. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">The only desire I might have is to be able to continue to earn with my own hands what I spend.</p>
+<p rend="indent" xml:id="p.en.13" n="13"><rs type="person" ref="bio.xml#_1145">Koning</rs> has written me a very kind letter, saying that he and a friend would probably come to the south with me for a long time. That in response to a letter I wrote him a few days ago.<ptr target="#note-t-7"/> I no longer dare to urge painters to come here after what has happened to me, they run the risk of losing their heads like me. The same thing for <rs type="person" ref="bio.xml#_1075">De Haan</rs> and <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Let them go to Antibes, Nice, Menton, it’s perhaps healthier.</p>
+<p rend="indent" xml:id="p.en.15" n="15"><rs type="person" ref="bio.xml#_524">Mother</rs> and our <rs type="person" ref="bio.xml#_407">sister</rs> also wrote to me, the latter was very upset about the sick <rs type="person" ref="bio.xml#_627">woman</rs> she was caring for.<ptr target="#note-t-8"/> At home they’re very pleased about your marriage.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Be well aware that you mustn’t preoccupy yourself with me too much, nor fret yourself.</p>
+<p rend="indent" xml:id="p.en.17" n="17">It must probably run its course, and we couldn’t change very much about our fate with precautions.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Once again, let’s try to seize our fate in whatever form it comes. Our <rs type="person" ref="bio.xml#_407">sister</rs> wrote to me that your <rs type="person" ref="bio.xml#_416">fiancée</rs> would come to stay with them for a while.<ptr target="#note-t-9"/> That is well done. Ah well, I shake your hand most heartily, and let us not be discouraged. Believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Ever yours,</p>
+<p xml:id="p.en.20" n="20">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Warm regards to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, I hope he’s going to write to me, I’ll write to him too.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Address next letter place Lamartine.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">This letter, which arrived in Paris on the evening of Tuesday, 19 February, was forwarded by Theo to Jo Bonger on 20 February. See <hi rend="italics">Brief happiness</hi> 1999, p. 172. We have therefore dated it to Monday, 18 February 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">De Haan’s stay with Theo <ref target="let711.xml">(711)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Around 4 February 1889 Van Gogh suffered a second mental breakdown. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Rev. Frédéric Salles</rs> informed Theo on 7 February that Vincent had been readmitted to hospital that day, and that the doctors advised him to have himself admitted to an asylum. Salles wrote: ‘For three days he has thought he is being poisoned and just sees poisoners and victims of poison everywhere. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1926">The cleaning woman</rs>, who is showing considerable devotion in caring for him, faced with his more than abnormal condition, felt it her duty to tell others, and neighbours brought it to the attention of the police ... Today, according to the cleaning woman, he has refused all food; he hardly spoke yesterday and this morning and sometimes his behaviour frightened this poor woman who told me that she wouldn’t be able to go on looking after him in this state’ (Depuis trois jours il se croit empoisonné et ne voit partout que des empoisonneurs ou des empoisonnés. La femme de ménage qui le soigne avec un certain dévouement, en présence de son état plus qu’anormal, a cru de son devoir de signaler la chose, qui a été par les voisins portée à la connaissance du commissaire central ... Aujourd’hui, à ce qui m’a dit la femme de ménage, il s’est réfusé à prendre la moindre nourriture; toute la journée d’hier et la matinée d’aujourd’hui il a peu parlé et son attitude a quelquefois inspiré de crainte à cette pauvre femme qui m’a déclaré qu’en l’état elle ne pouvait plus continuer à lui accorder ses soins.) (FR b1046).</p>
+    
+<p rend="indent">On 12 February <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Dr Rey</rs> wrote to Theo: ‘The first day, he was greatly overexcited, and his delirium was general. He no longer recognised me or Mr Salles. Since yesterday, however, I have noted a perceptible improvement. He is less delirious, and he recognises me. He talks to me about painting, but sometimes he loses his train of thought and speaks nothing but disjointed words and jumbled phrases’ (FR b1057). For this letter, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#id12February1889">see <hi rend="italics">Documentation</hi>, 12 February 1889.</ref> </p>
+    
+<p rend="indent">Acting on the orders of chief of police <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_174">Joseph d’Ornano</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml">see letter 750</ref>), the doctor <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_58">Albert Delon</rs> examined Van Gogh on 7 February. Delon was a member of the hospital board and employed as a doctor by the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bureau de bienfaisance</hi> (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’indicateur marseillais</hi> 1889). He wrote the following in his report: ‘I found this man in a state of extreme excitement, suffering from a true delirium, pronouncing incoherent words, only momentarily recognising the people around him. He is subject in particular to auditory hallucinations (he hears voices uttering reproaches against him) and to an idée fixe, according to which he is supposed to have been the victim of an attempted poisoning. This patient’s condition appears very serious to us, and appears to require close surveillance and treatment in a special asylum, as his mental faculties are profoundly impaired.’ (J’ai trouvé cet homme dans un état d’exaltation complet, en proie à un véritable délire, prononçant des paroles incohérentes, ne reconnaissant que par instants les personnes qui l’entourent. Il est particulièrement en proie à des hallucinations de l’ouïe (il entend des voix qui lui adressent des reproches) et à une idée fixe, d’après laquelle il aurait été victime d’une tentative d’empoisonnement. L’état de ce malade nous paraît fort grave et nous semble nécessiter une surveillance vigilante ainsi qu’un traitement dans un asile spécial, car ses facultés mentales sont profondément altérées.) (ACA). For a photograph of the report, see Van Gogh à Arles. Dessins 1888-1889. Documents originaux, photographies. Exhib. cat. Arles (Fondation Vincent van Gogh), 2003. Arles 2003, p. 62.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Regarding the plans to transfer Van Gogh to an asylum in Aix-en-Provence, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let745.xml#n-6">see letter 745, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh added ‘relative’ later.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This is no doubt Van Gogh’s own interpretation. It is true that people were afraid of him, because a short while later residents of the neighbourhood demanded that he be confined (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml">see letter 750</ref>). As far as we know, there was no specific legend in Arles that instilled a fear of painting. What Van Gogh says here about the attitude of people in southern France and Arabic countries towards art and artists is a well-known <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">topos</hi>. Cf. Kris and Kurz 1979, pp. 147, 151. In connection with Van Gogh’s remark, Merlhès quotes a letter written by the painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1300">Henri Regnault</rs> 20 years earlier, in which he writes about a superstition prevailing among the gypsies in Spain, which forbade them to have their portraits made, fearing it would cause them to die. See Merlhès 1989, p. 221 (n. 2).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>For Van Gogh’s first confinement in the padded cell, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let743.xml#n-10">see letter 743, n. 10.</ref> On 7 February he had again been placed in ‘a private cell’ (une cellule particulière), as <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs> wrote to Theo (FR b1046).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Regarding Van Gogh’s neighbours, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let744.xml#n-6">see letter 744, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let746.xml">letter 746</ref> of 15 February; Van Gogh’s letter of ‘a few days ago’ was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let740.xml">letter 740</ref>, written on or about 22 January.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> and her sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Elisabeth</rs> were nursing <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_627">Catharina du Quesne van Bruchem-Van Willis</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let426.xml#n-1">see letter 426, n. 1</ref>), who died a short time later, on 17 May 1889.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> stayed from 21 February to 7 March with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> in Breda. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness</hi> 1999 pp. 174, 198.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

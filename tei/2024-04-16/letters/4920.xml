@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, Thursday, 9 April 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let492"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b437 V/1962, d281 V/1971 and d282 V/1971</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>492</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>399</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>495</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-04-09">Thursday, 9 April 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0437" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000583_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000583_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000583_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0437" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000583_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000583_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000583_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0281" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001659_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001001659_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0281" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001659_02_n/full/max/0/default.jpg"/>
+<zone xml:id="extra-1">
+<graphic url="https://example.com/iiif/VGM001001659_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0282" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001660_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-6">
+<graphic url="https://example.com/iiif/VGM001001660_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0282" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001660_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-3">
+<graphic url="https://example.com/iiif/VGM001001660_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Het heeft mij eenigzins verwonderd nog niet eens een woordje van U ontvangen te hebben. Ge zult zeggen<c type="kk">/</c> ge hadt het nu te druk daaraan te denken – en dat kan ik dan ook wel begrijpen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Het is reeds laat – maar ik wilde U nog eens zeggen dat ik regt hartelijk hoop dat voortaan de correspondentie weer wat levendiger zal worden dan ze den laatsten tijd wel was<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Hierbij gaan twee krabbels naar een paar studies die ik maakte<c type="kk">/</c><ptr target="#note-t-1"/> terwijl ik tevens bezig ben op nieuw aan die boeren om een schotel aardappels.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Ik kom er daarnet van thuis – en heb bij het lamplicht nog gewerkt er aan – ofschoon ik het bij dag ditmaal heb aangezet.</p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.6" n="6">Ziehier hoe de compositie nu geworden is<c type="kp">_</c> Ik heb het op een vrij groot doek geschilderd en zooals de schets nu is<c type="kk">/</c> zit geloof ik er wel leven in<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Maar ik weet toch zeker dat b.v. C.M<c type="kp">_</c> spreken zou van – misteekend &amp;c<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Weet ge wat daartegen bepaald gezegd kan worden<c type="kp">_</c>– dat de mooie lichteffekten in de natuur eischen men zeer snel werke<c type="kp">_</c> Nu weet ik wel dat de groote meesters vooral in de periode van hun rijpe ervaring én wisten af te maken én het leven wisten te behouden.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Maar dat is iets wat ik vooreerst zeker niet zoo zal kunnen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Op het punt waar ik nu sta echter<c type="kk">/</c> zie ik kans om een gevoelde impressie te geven van wat ik zie.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Niet altijd letterlijk precies – veeleer nooit precies – want men ziet de natuur door zijn eigen temperament<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Wat ik U nu zou willen aanraden is ’t volgende<c type="kk">/</c> laat de tijd niet voorbijgaan – laat mij zooveel werken als maar eenigzins mogelijk is – en bewaar de studies van nu af aan allen bij U<c type="kp">_</c> Ik wil er echter liever nog geen een van teekenen want ik zou ze niet graag als schilderijen in de wandeling<ptr target="#note-t-a"/> hebben<c type="kk">/</c> die men later als men wat naam mogt maken terug dient te koopen.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Maar het is goed dat gij ze laat kijken want ge zult zien dat we den een of den anderen dag iemand vinden die hetzelfde wil doen wat ik U voorstel<c type="kk">/</c> n.l. een verzameling studies maken<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik ben voornemens om geregeld s’morgens uit te gaan en ’t eerste ’t beste dat ik de lui op ’t veld of in huis zie doen maar aan te pakken<c type="kp">_</c> Zooals ik trouwens nu ook doe<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Gij zoekt nieuwe idees voor den kunsthandel<c type="kk">/</c> het idee <hi rend="italics">goed</hi> te zijn voor de liefhebbers is niet nieuw doch het is er een dat <hi rend="italics">nooit</hi> <hi rend="italics">oud wordt</hi>. Zoo ook securiteit geven – bij een koop. En ik vraag U<c type="kk">/</c> is een liefhebber er niet beter aan toe wanneer hij van een schilder b.v. 20 zeer uiteenloopende schetsen heeft voor den zelfden prijs die hij billijkerwijs zou moeten betalen voor één schilderij dat af was<c type="kk">/</c> zoo dat het als handelsartikel in de wandeling kon komen<c type="kp">_</c> Als ik in uw positie was<c type="kk">/</c> ik zou<c type="kk">/</c> wegens gij toch veel jonge schilders die nog geen naam hebben kent<c type="kk">/</c> ook eens beproeven <hi rend="italics">geschilderde studies</hi> in den eigentlijken handel te brengen – niet als schilderijen doch opgezet op de een of andere manier<c type="kk">/</c> op verguld Bristol b.v. of zwart of donker rood<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Maar ik sprak daar van <hi rend="italics">securiteit</hi> geven<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Niet <hi rend="italics">alle</hi> schilders maken veel studies – maar velen toch<c type="kk">/</c> en vooral de jongeren moeten het zoo veel mogelijk doen niet waar. Wie de studies van een schilder heeft kan wel zoo goed als zeker zijn (dat komt mij althans zoo voor) dat er een band is tusschen den schilder en hem die niet makkelijk zoo maar uit een gril kan worden gebroken<c type="kp">_</c>–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Er zijn menschen niet waar<c type="kk">/</c> die schilders in den tijd dat zij nog niet verdienen protegeeren – goed<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Maar hoe dikwijls gebeurt het niet dat zulks beroerd eindigt – voor beide partijen onaangenaam. Eenerzijds omdat de protecteur onvoldaan is over geld dat gansch in ’t water is of althans schijnt. Andererzijds omdat de schilder meer vertrouwen<c type="kk">/</c> meer geduld en belangstelling meent te mogen vergen dan men geven wil. Maar in de meeste gevallen is het door nonchalance van beide zijden dat de misverstanden ontstaan<c type="kp">_</c> Ik hoop dat dit tusschen ons niet het geval zal wezen<c type="kp">_</c>– En ik hoop dat langzamerhand mijn studies U wat nieuwen moed zullen geven. Noch gij noch ik zijn tijdgenooten van dat geslacht dat Gigoux in dat boek dat ik van U las teregt “les vaillants” noemt<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Maar in <hi rend="italics">dezen</hi> tijd het enthousiasme van <hi rend="italics">toen</hi> te houden is niet te min geraden naar ’t mij voorkomt<c type="kk">/</c> want dat het geluk de dapperen begunstigt<ptr target="#note-t-5"/> is toch wel dikwijls waar en wat daar ook van zij – van het geluk of “la joie? de vivre”<ptr target="#note-t-6"/> namelijk – men moet werken en durven<c type="kk">/</c> wil men wezentlijk leven<c type="kp">_</c> En ik zeg<c type="kk">/</c> laat ons veel schilderen en productief zijn en <hi>ons zelf zijn met</hi> <hi>gebreken en kwaliteiten</hi> – ik zeg ons – omdat het geld van U dat ik weet U moeite genoeg kost me te verschaffen<c type="kk">/</c> U regt geeft om als er iets goeds in mijn werk komt het voor de helft als uw eigen creatie te beschouwen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Tracht eens iemand van le chat noir<ptr target="#note-t-7"/> te spreken en te vragen of zij een krabbel van die aardappeleters willen<c type="kk">/</c> en indien ja<c type="kk">/</c> op welke grootte want dat is me onverschillig.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Gegroet, met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.23" n="23">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.24" n="24">Vincent</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/><figure facs="zone-sketch-2" n="B"/>
+<pb f="3r" n="6" xml:id="pb-orig-3r-6" facs="#zone-pb-3r-6"/><figure facs="zone-sketch-3" n="C"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">It has surprised me a little not to have received even a single word from you. You’ll say you’ve been too busy to think about it — and I can very well understand that.</p>
+<p rend="indent" xml:id="p.en.3" n="3">It’s already late — but I wanted to tell you once more that I whole-heartedly hope that from now on the correspondence will again become livelier than it has been recently. </p>
+<p rend="indent" xml:id="p.en.4" n="4">Herewith two scratches after a couple of studies that I made,<ptr target="#note-t-1"/> while at the same time I’m working on those peasants around a dish of potatoes again.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’ve just come home from there — and have worked on it further by lamplight — although this time I started it in daylight.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">See, this is what the composition has now become. I’ve painted it on a fairly large canvas, and as the sketch is now, I believe there’s life in it.<ptr target="#note-t-2"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">But I know for certain that <rs type="person" ref="bio.xml#_422">C.M.</rs>, for instance, would speak of — badly drawn &amp;c.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Do you know what can definitely be said to counter that? That the beautiful effects of the light in nature require one to work very fast. Now I know very well that the great masters were able both to finish <hi rend="italics">and</hi> to maintain the vitality, particularly in the period of their mature experience.</p>
+<p rend="indent" xml:id="p.en.10" n="10"> But that’s something I certainly won’t be able to do like that for the time being.</p>
+<p rend="indent" xml:id="p.en.11" n="11">At the point where I now am, though, I see a chance of giving a felt impression of what I see.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Not always literally exactly — rather never exactly — for one sees nature through one’s own temperament.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">What I’d like to advise now is the following: don’t let the time slip by — let me work as much as is in any way possible — and keep all the studies from now on yourself. I’d rather not sign any of them yet, though, because I wouldn’t like to have them circulating like paintings, so that one would have to buy them back later should one make something of a name.</p>
+<p rend="indent" xml:id="p.en.14" n="14">But it’s good that you’re showing them, because you’ll see that some day we’ll find someone who wants to do what I’m suggesting to you, that is, make a collection of studies.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">I mean to go out regularly in the mornings and just tackle whatever I see the people doing in the fields or at home. As I do now anyway.</p>
+<p rend="indent" xml:id="p.en.16" n="16">You’re looking for new ideas for the art trade; the idea of being <hi rend="italics">fair</hi> to the art lovers isn’t new, but it’s one that<hi rend="italics"> never grows old</hi>. So, too, giving security — on a purchase. And I ask you, isn’t an art lover better off when he has, say, 20 very diverse sketches by a painter for the same price that he would reasonably have to pay for one painting that was finished so that it could be put into circulation as a saleable commodity? If I were in your position, because after all you know a lot of young painters who haven’t yet made a name, I’d just try once to put <hi rend="italics">painted studies</hi> on the market proper — not as paintings, but mounted somehow or other, on gilt Bristol, say, or black or dark red.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But I spoke there about giving <hi rend="italics">security</hi>.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Not <hi rend="italics">all</hi> painters make a lot of studies — but many do, and the young ones in particular have to do it as much as possible, don’t they? Anyone who owns a painter’s studies can be as good as certain (at least so it seems to me) that there’s a bond between the painter and him that can’t easily be broken just on a whim.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">There are people, aren’t there, who support painters during the time when they aren’t yet earning — very well.</p>
+<p rend="indent" xml:id="p.en.20" n="20">But how often does it happen that such a thing ends badly — unpleasantly for both parties? On the one hand because the patron is dissatisfied about money that’s wholly wasted, or at least seems to be. On the other hand because the painter feels entitled to ask for more trust, more patience and interest than people are prepared to give. But in most cases it’s carelessness on both sides that gives rise to the misunderstandings. I hope that this won’t be the case between us. And I hope that gradually my studies will give you some new courage. Neither you nor I are contemporaries of that generation that <rs type="person" ref="bio.xml#_613">Gigoux</rs> rightly calls ‘the valiant ones’ in that book of yours that I read.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">But maintaining the enthusiasm of <hi rend="italics">those days</hi> at <hi rend="italics">this</hi> time is nonetheless advisable, it seems to me, because it’s often true that fortune favours the bold,<ptr target="#note-t-5"/> and be this as it may — about fortune or ‘la joie (?) de vivre’,<ptr target="#note-t-6"/> that is — one must work and be bold if one really wants to live. And I say, let’s paint a lot and be productive, and <hi>be ourselves with faults and qualities</hi> — I say us — because the money from you that I know causes you trouble enough to provide for me, gives you the right, if anything good happens in my work, to consider half of it as your own creation.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Try to talk to someone at Le Chat Noir<ptr target="#note-t-7"/> and ask them whether they want a scratch of those potato eaters and, if so, what size, because it makes no difference to me.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Regards, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">Yours truly,</p>
+<p xml:id="p.en.25" n="25">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.27" n="27"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">
+<pb f="3r" n="6" xml:id="pb-trans-3r-6" facs="#zone-pb-3r-6"/></p>
+<p xml:id="p.en.29" n="29"><figure facs="zone-sketch-3" n="C"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh says he is working on a new painting of ‘peasants around a dish of potatoes’ <ref target="#l-13">(ll. 13-14)</ref>. He must have started it on Thursday, 9 April, since in his next letter he wrote that he had worked on this study for three days and on ‘Saturday evening’ had been able to go no further because the paint was not yet dry. Working back from that Saturday, 11 April, the present letter must have been written on Thursday, 9 April 1885. Since it was ‘already late’ when he wrote it, <ref target="#l-7">(l. 7)</ref> this letter must have been written after <ref target="let491.xml">letter 491</ref>, which was posted in the morning of the same day.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The death of Mr van Gogh <ref target="let486.xml">(486)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Preparations for <hi rend="italics">The potato eaters</hi> <ref target="let490.xml">(490)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+      
+<p>These were probably the small enclosed sketches <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Man and a woman planting potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_147">F 1225 / JH 729</rs>) and<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Two women working in the fields </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_145">F 1228 / JH 730</rs>). The first sketch is after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Man and a woman planting potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2503">F 129a / JH 727</rs>) on which Van Gogh worked on 9 April; the study after which the second sketch was made is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_146">F - / JH 735</rs>) is based on the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2506">F 78 / JH 734</rs>). The ‘fairly large canvas’ measures 72 x 93 cm.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>An allusion to ‘Un coin de la nature vu à travers d’un temperament’ in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_311">Mes haines</ref></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let361.xml#n-9">See letter 361, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘in omloop’ (in circulation).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_613">Gigoux</rs> uses the term ‘hommes vaillaints’ to describe the generation of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>, seeking recognition, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_407">Causeries sur les artistes de mon temps</ref></hi> (Gigoux 1885, p. 68). Van Gogh refers to this again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let515.xml">letter 515</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>See for this saying <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let406.xml#n-10">letter 406, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh added ‘or ... vivre’ (of ... vivre) later. This may be an allusion to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_408">La joie de vivre</ref></hi>, which he read at about this time. Sund regards the question mark as ‘in keeping with the cynical manner in which Zola applied this standard expression of ebullient hedonism to a disparaging account of human existence as a series of thwarted ambitions and unfulfilled desires.’ See Sund 1992, p. 112.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The satirical weekly magazine <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Chat Noir</hi> was published from 1882 to 1895 and featured modern arts and literature; it was associated with the cabaret of the same name in Paris’s rue Laval. Each issue was four pages; one or more drawings or prints were reproduced on page three. Van Gogh probably hoped to be considered for this.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

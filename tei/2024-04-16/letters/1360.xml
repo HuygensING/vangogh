@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Amsterdam, Monday, 3 and Tuesday, 4 December 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let136"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b134 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>136</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>115</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>135</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-12-03">Monday, 3 and Tuesday, 4 December 1877</date>
+                            <placeName>Amsterdam</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0134" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000867_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000867_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000867_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0134" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000867_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000867_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000867_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Amsterdam 4 December 1877</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Zooeven kom ik terug van een bezoek bij Ds Jeremie Meyes, ditmaal vond ik Hem t’huis maar Hij moest naar den Kerkeraad,<ptr target="#note-t-1"/> dus sprak ik Hem maar even, zag ook Mevrouw en de twee jongste kinderen,<ptr target="#note-t-2"/> en Mevrouw las mij een gedeelte uit een brief van hun zoon die op het instituut aan den Helder is<c type="kk">/</c><ptr target="#note-t-3"/> voor. Nu ik zelf in het oordeel van examens ben<ptr target="#note-t-4"/> heb ik hart en gevoel voor anderen die daar in zijn en ik kan uit enkele uitdrukkingen wel zoo eenigzins mij voorstellen hoe zij het hebben.─ Ieder die wil geraken tot eene maatschappelijke betrekking moet door een tijd van groote moeielijkheden en inspanning heen, het slagen kan van kleinigheden afhangen. Zegt of schrijft men op een examen een woord verkeerd dan kan dat de oorzaak zijn van mislukking.─ “All things are full of labour<c type="kk">/</c> man cannot utter it”<ptr target="#note-t-5"/> ─ dat is een waar woord en als men al te zeer doordacht over de gevaren van allerlei aard waar door men is omringd ─ iedereen die geen examen hoeft te doen evengoed als wien dat wacht, dan zou men duizelig worden, en dan kwam men er zoo goed als zeker niet, en zou haast geen voet durven verzetten.─ Het is wel goed dat uit den Bijbel eene stem tot ons spreekt die versterkt met woorden als “Uw hart worde niet ontroerd”<c type="kk">/</c><ptr target="#note-t-6"/> “hebt geloof in God”.─<ptr target="#note-t-7"/></p>
+
+<p xml:id="p.nl.4" n="4">Het is ook goed om te zien op zulken die geslaagd zijn en door de moeielijkheden zijn heengekomen<c type="kk">/</c> meer dan op zulken die er voor zijn bezweken.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">De menschen maken het moeielijk maar God geeft den zegen. God kan in een mensch werken dat hij duizende preeken schrijft en uitspreekt ─ dat is iets goeds en den moeite waard ─ en ik hoop dat dat mijn deel zal zijn<ptr target="#note-t-8"/> ─ de Prediker sprak van ijdelheid der ijdelheden<c type="kk">/</c> alles is ijdelheid<c type="kk">/</c><ptr target="#note-t-9"/> en Paulus die was droevig maar altijd blijde<ptr target="#note-t-10"/> van “de dwaas<c type="shy">-</c>heid der prediking”<ptr target="#note-t-11"/> maar ondertusschen predikte Hij toch maar en hield niet op en telkens weer staat er “Wij liepen”<ptr target="#note-t-12"/> en Jezus vooral zeide dat Hij werkte zoo lang het dag was eer de nacht kwam waarin niemand werken kan<c type="kk">/</c><ptr target="#note-t-13"/> en dat Zijn Vader werkte tot nu toe en Hij werkte ook.<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Hoorde gisteren D<hi rend="super">s</hi> Laurillard in de Noorderkerk<ptr target="#note-t-15"/> over Hand<c type="kp">_</c> <hi>iv</hi>:32<c type="kk">/</c> En de menigte van degenen die geloofden was één hart en ééne ziel en niemand zeide dat iets van hetgene hij had zijn eigen was, maar alle dingen waren hun gemeen.─</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Hij heeft een heerlijk talent, telkens nieuwe opvatting<ptr target="#note-t-16"/> en alles vol geest en leven, er is iets eigenaardigs<c type="kk">/</c> iets “evergreens”<c type="kk">/</c><ptr target="#note-t-17"/> iets van het onverderfelijke altijd jeugdig en vurige der geestdrift<c type="kk">/</c> van die zelfde die ook in Pa is. Ik geloof zoo dat meer dan eenig predikant hier Hij zijn geheele hart op zijn <hi rend="italics">Werk</hi> heeft gezet.─ Wie dat doet die doet wijs geloof ik en zal het langst staande blijven en zal in andere opzigten en aangelegenheden toch gezegend zijn.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Natuurlijk weet Gij dat Oom Hein is overleden, wij mogen wel Goddank zeggen, omdat het einde betrekkelijk kalm was en de verlossing eindelijk is gekomen. Als zoo iets gebeurt hoort men soms opregter gedachten uit vele harten dan bij voorvallen van minder ernstigen aard en dan hoort men van velen zeggen “het leven is kort”.─<ptr target="#note-t-18"/> Het beste wat wij kunnen vragen is misschien in de beslissende uren van dat leven juist te kiezen en het regte woord te spreken.─ Pa heeft zooals Gij ook reeds zult hebben gehoord weer spit in den rug gehad, in een zijner laatste brieven schreef Pa over het trouwen van Marijn Aertsen<c type="kp">_</c> Pa heeft bij die gelegenheid gepreekt over Jezus had Maria en hare Zuster en Lazarus lief.<ptr target="#note-t-19"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Als Gij kunt schrijf dan zoo spoedig mogelijk wanneer Gij naar Etten denkt te gaan en of wij het zoo kunnen schikken dat wij zamen reizen. Zeer gaarne zou ik van de gelegenheid van die reis willen gebruik maken nog een trein over te blijven te Haarlem en vooral ook om te Dordrecht nog stil te blijven<c type="kp">_</c><ptr target="#note-t-20"/> Heel graag zou ik willen wij zamen nog naar Dordt gingen<c type="kk">/</c> zou dat niet kunnen.─</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Heb pas eenige geschriften die ik wel zoo goed mogelijk verzekeren wilde<c type="kk">/</c> laten binden<c type="kk">/</c> het was een prettig gevoel toen ik ze t’huis kreeg, gaf ze in eene binderij hier vlak bij in een van de naauwe straten van Kattenburg<c type="kk">/</c> daar worden allerlei godsdienstige werken uitgegeven<ptr target="#note-t-21"/> en de winkel hoort aan twee broeders die er uitzien dat<ptr target="#note-t-a"/> zij mij aan twee dingen deden denken onwillekeurig, namelijk aan kerkuilen en aan de leeuwenkoppen op de deuren.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Heb nog al veel geloopen deze week<c type="kk">/</c> het kan geen kwaad de stad zoowat te kennen.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Had vandaag toen ik zat te werken voor mij liggen een blad uit de Cours de Dessin Bargue<c type="kk">/</c> 1<hi rend="super">re</hi> partie N<hi rend="super">o</hi> 39<c type="kk">/</c> Anne de Bretagne.<ptr target="#note-t-22"/> Dat hing reeds te Londen op mijn kamer met N<hi rend="super">o</hi> 53<ptr target="#note-t-23"/> en toen hing “Un jeune Citoyen”<ptr target="#note-t-24"/> tusschen beiden<c type="kk">/</c> wat ik in het begin schoon en goed vond dat vind ik nu ook nog zoo.─</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">De uitdrukking op dat gezigt van die bewuste Anne de Bretagne is edel en doet aan de zee en rotsachtige kusten denken. Ik zou hare geschiedenis wel eens willen weten. Het is een waar koningskind.<ptr target="#note-t-25"/> De Lemud zou hare figuur wel goed hebben geteekend.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Wel heel graag zou ik hebben wij ook te Haarlem zamen konden zijn, schrijf in elk geval wanneer en voor hoe lang Gij verlof zoudt kunnen krijgen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Jongen ik verlang zoo naar Kerstmis en naar huis en naar U; als Gij schrijft denk dan om op te geven wat ik u vroeg aangaande die lithographieën<c type="kp">_</c><ptr target="#note-t-26"/></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Breng maar zooveel Gij kunt van Uwe prenten mede, al ken ik ze<c type="kk">/</c> ik zie ze nog weer graag eens terug.─</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">t’Is een aardig gezin dat van D<hi rend="super">s</hi> Meyes ─ maar zoo als Pa is toch geen der predikanten<c type="kp">_</c> Zijn werk is geniaal en bovendien een <hi rend="italics">beter</hi> man dan Pa is<c type="kk">/</c> zal niet ligt worden gevonden want Hij weet zich zelf te bedwingen en te regeeren en te doen wat goed en pligt is<c type="kk">/</c> meer dan Zijn eigen wil.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Na de kerk ll. Zondag ontmoette ik die bewuste persoon die in den boekhandel van Centen is<c type="kk">/</c> met Wien Gij hebt gereisd en die ook ik bij Braat en ook hier heb ontmoet.<ptr target="#note-t-27"/> Heb hem aangesproken en zoo als Gij mij hadt verzocht uwe groete gedaan. Hij was ook bij D<hi rend="super">s</hi> Laurillard geweest. En dezen morgen zag en sprak ik hem ook weer aan het Postkantoor. Hij laat u groeten. Voor ik van U wist wie het was had zijn voorkomen mij reeds dikwijls getroffen, ik zou wel wat meer van hem willen weten. </p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Zoo is er weer bijna een jaar voorbij waarin voor mij heel wat gebeurde en met dank<c type="shy">-</c>baarheid zie ik er op terug. Als ik den tijd bij Braat doorgebragt en de maanden van studie hier zoo in ’t algemeen overzie dan zijn dat waarlijk twee goede dingen. Jongen als ik de volgende Kerstmis eens op de academie was en reeds door de eerste moeielijkheden van het begin heen evenals ik nu door het begin van latijn en grieksch ben<c type="kk">/</c> wat zou ik blij zijn<c type="kp">_</c> Undefessus favente Deo<c type="kk">/</c> “onvermoeid met Gods gunst”<c type="kk">/</c> dat is wel een goeden staat om in te zijn en een woord dat Mendes lief heeft,<ptr target="#note-t-28"/> hij sprak er mij over verl. zaturdag.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Schreef heden aan Harry Gladwell en deed ook Uwe groeten<c type="kk">/</c> ik hoop dat hij naar huis zal gaan met Kerstmis.─<ptr target="#note-t-29"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+  
+<p rend="indent" xml:id="p.nl.21" n="21">Heb heden voor Uw S<hi rend="super">t</hi> Niklaas<ptr target="#note-t-30"/> U gezonden twee kaarten uit Stieler<c type="kk">/</c> n.l. the British Isles en Normandie &amp; Bretagne.<ptr target="#note-t-31"/> <hi rend="italics">Hang ze eens een tijd op uwe kamer</hi>, beloof mij dat Gij dat zult doen, ik heb ze beiden nog al zorgvuldig nageteekend zoo als Gij weet en die van Engeland zelfs tweemaal<c type="kk">/</c> op die het best uitviel schreef ik de verdeeling van het land en de namen in t’Latijn en veranderde de omliggende landen zooals zij in den tijd der Romeinen waren, b.v. het meer Flevo in plaats van de Zuiderzee. Om dat te doen ging ik eenige morgens vroeger dan gewoonlijk naar Mendes en vergeleek daar mijne kaart met die van Britannia<c type="kk">/</c> Caledonia en Ierne in den Atlas Antiquus van Sprüner Menke.<ptr target="#note-t-32"/> Deze heb ik dus niet meer noodig en voor U is het goed ze eens een tijd onder de oogen te hebben<c type="kp">_</c> Bij D<hi rend="super">s</hi> Meyes aan huis hoorde ik ook over dien atlas van Stieler spreken<c type="kp">_</c> Zijn zoon die op t’instituut te Helder is heeft den atlas kompleet en schreef o.a<c type="kp">_</c> in zijn laatsten brief hij de wereldkaart<ptr target="#note-t-33"/> had nageteekend<c type="kp">_</c> Gij weet misschien dat oom Cor hem ook heeft liggen in de kamer waar dat groote Sch<hi rend="super">ij</hi> van Bernier<ptr target="#note-t-34"/> hangt. Zag bij Oom onlangs eene groote teekening v<c type="kp">_</c> Bosboom<c type="kk">/</c> Sacristie<c type="kk">/</c><ptr target="#note-t-35"/> ook twee van Mej<c type="kp">_</c> v<c type="kp">_</c> Bosse die zeer mooi waren<c type="kk">/</c> vooral die welke een boerenerf voorstelde. Dan zult Gij tegelijk met de kaarten ontvangen Gruson<c type="kk">/</c> Histoire des Croisades.<ptr target="#note-t-36"/> Gaf datzelfde boekje ook aan Mendes die er mede is ingenomen;─ al zoudt Gij geen tijd hebben om het van ’t begin tot het eind te lezen<c type="kk">/</c> blader het dan toch van ’t begin tot het eind door<c type="kk">/</c> dan zullen de schoonste passages U van zelf in ’t oog vallen. Als het werk van Thijs Maris mooi is dan is dit het ook. Stuurde aan Cor voor zijn S<hi rend="super">t</hi> Nicolaas, daar Oom Jan een kistje naar Etten zond, eene lith<c type="kp">_</c> naar J. Maris<c type="kk">/</c> voorstellende een Meiske dat van het kerkhof af komt dat men met de grafsteenen en het kerkje op den achtergrond ziet<c type="kp">_</c> Bij een van de grafzerken zit een monnik<c type="kp">_</c><ptr target="#note-t-37"/></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Hebt Gij die niet<c type="kk">/</c> ruil dan met Cor tegen eene andere lithographie.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Quand il n’y a plus rien il y en a toujours encore<c type="kk">/</c> zegt het spreekwoord en dat ondervond ik van morgen, toen ik dacht dat ik aan niemand een St Niklaas kon geven, want voor allen heb ik toch nog wat gevonden, al is ’t niet veel, Pa en Moe hebben eene kaart die ik teekende.─<ptr target="#note-t-38"/></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het begint reeds te schemeren en het gezigt uit het raam naast mij op de werf is onbeschrijfelijk schoon met dat laantje van populieren waarvan de slanke vormen en dunne takjes zoo fijn zich afteekenen tegen de grijze avondlucht<c type="kk">/</c> en dan het oude gebouw van het magazijn in het water<ptr target="#note-t-39"/> dat zoo stil is als “de wateren des ouden vijvers” waarvan in het boek van Jesaja wordt gesproken,<ptr target="#note-t-40"/> de muren van dat magazijn zijn beneden aan het water geheel groen en verweerd.─ Dan beneden het tuintje en het hek daaromheen met de rozenstruiken en overal op de werf de zwarte figuurtjes der werklieden en ook het hondje<c type="kp">_</c> Zooeven ook het figuur van Oom Jan met Zijn lang grijs haar toen Hij waarschijnlijk eens de rondte<ptr target="#note-t-b"/> ging doen<c type="kp">_</c> In de verte de masten der schepen in het dok<c type="kk">/</c> vooraan de Atjeh<ptr target="#note-t-41"/> geheel zwart en de grijs en roode monitors<ptr target="#note-t-42"/> en juist worden hier en daar de lantaarns aangestoken.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">En daar gaat nu juist de bel en komt de heele stroom werklieden naar de poort toe en tegelijk de lantaarnopsteker om de lantaarn op het plein achter het huis aan te steken.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Heb Ds Laurillard eenigen tijd geleden bij de viering van het Avondmaal ook zoo goed hooren spreken over den tekst “Het Woord des kruizes is eene kracht Gods”<ptr target="#note-t-43"/> omdat het is het woord der waarheid dat de gedachten van vele harten openbaar maakt<c type="kk">/</c> omdat het is het woord des Eeuwigen Levens,<ptr target="#note-t-44"/> het woord dat uit den mond Gods uitgaat waarbij de mensch zal leven en niet bij brood alleen<c type="kk">/</c><ptr target="#note-t-45"/> met het leven dat meer is dan het voedsel<ptr target="#note-t-46"/> hetwelk is God te kennen<c type="kk">/</c> den Eenigen Waarachtigen God en Jezus Christus Dien Hij gezonden heeft<c type="kk">/</c><ptr target="#note-t-47"/> en omdat Hemel en aarde zullen voorbijgaan maar het Woord des Kruizes geenszins zal voorbijgaan<c type="kp">_</c><ptr target="#note-t-48"/> Hebt Gij ooit van Zijne boeken gezien<c type="kp">_</c> “Uit de Cel”<ptr target="#note-t-49"/> moet o.a<c type="kp">_</c> zeer mooi zijn en dit stukje uit Rust een weinig<ptr target="#note-t-50"/> heeft mij getroffen:</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.27" n="27"><hi rend="italics">Wat Gode ’t meest behaagt</hi></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.28" n="28">Een zekere gevallen Engel zou in gunst weer opgenomen worden in den Hemel, als hij derwaarts bragt de gave, die aan God het meest behaagt.─ Verblijd door die toezegging en vol van hope wendde hij zich toen naar de aarde. Hij zweefde over een veld, waar een woeste en hevige strijd werd gevoerd<c type="kp">_</c> ’t Was een strijd tusschen de benden van een tiran en eene schare van dapperen die kampten voor de vrijheid van hunne haardsteden en altaren. Moedig streden zij maar met ongunstigen uitslag<c type="kp">_</c> Hunne rijen werden echter vreeselijk gedund, en ten laatste was slechts één man van hen over. Getroffen door den volhardenden moed van dezen held en zijn gewezen medestanders bood de dwingeland hem aanzien en eer. Het antwoord was een pijlschot<c type="kp">_</c> Maar dat pijlschot mistte zijn doel, en oogenblikkelijk werd de heldhaftige vriend der vrijheid ter neder geslagen. De gevallen Engel daalde neer bij zijn lijk en nam een drop van zijn bloed, en dacht dat dat wel de gave zou zijn die hem weer toegang geven zou tot den door hem verbeurden Hemel. Maar aan de Hemelpoort vernam hij dat hij nog eens moest zoeken. Want dat er iets anders<c type="kk">/</c> iets hoogers nog was.─ Na weinige oogenblikken zweefde hij over een bosch. Vanuit dat bosch klonken kermende en klagende toonen hem tegen<c type="kp">_</c> Hij kwam naderbij en zag daar een jongeling liggen, met een tint als van lood op het ingevallen gelaat. ’t Was een offer van de pest. Die jongeling was de stad uitgeslopen, opdat de maagd die hij liefhad en die hem beminde, niet mogt sterven, door in de nabijheid te komen van hem. Maar Zij zocht en zij vond hem.─ Toen ontstond er een treffende strijd tusschen Liefde en Liefde. Zijne liefde naar haar riep, als waanzinnig: ga weg! en hare liefde voor hem antwoordde met standvastigheid: neen! Zoo stierven die beiden te zamen.─ De gevallen Engel ving den laatsten zucht, die over hare lippen kwam, op en spoedde zich daarmee omhoog, in de zekere hoop dat deze gaaf hem den Hemel zou openen. Maar aan de Hemelpoort vernam hij dat hij nog eens moest zoeken, dat er iets anders, iets hoogers nog was. Ten derden male richtte nu de teleurgestelde Geest zijne vlugt naar de aarde.─ Daar zag hij onder zich een lagchend en liefelijk landschap, beschenen door de schuine stralen der langzaam ten ondergang neigende zon. Een aanvallig knaapje sprong opgeruimd en vrolijk daar rond, nu eens zich heenwendende naar eene bekoorlijke bloem, dan weder een kleurigen vlinder vervolgend<c type="kp">_</c> Weldra kwam daar een ruiter aan, die bij eene daar aanwezige beek van zijn paard steeg, dat bezweet was en hijgde. Zijn gelaat drukte woestheid uit, en had in alle trekken iets stuitends, iets dat van boosheid sprak. Maar bij den aanblik van het kind kwam er eene zachtere uitdrukking op, en het had iets diep weemoedigs, toen het woord aan zijne lippen ontsnapte: Kind! ik was eenmaal zoo als gij! Daar klepte een klokje. ’t Was een klokje dat opriep tot het avondgebed.─ Het kind knielde neder en bad. Toen werd het hart van den woestaard verbrijzeld, en bij den smartekreet: Zoo heeft mijne Moeder mij ook leeren bidden! schoot er eensklaps een traan uit zijn oog. De gevallen Engel nam dien traan van zijne ruige wang af, en vloog er mede weg naar den Hemel. En, ja! die traan des berouws was de gave, die God ─ Die geen lust heeft in den dood des zondaars maar daarin dat hij zich bekeere en leve<ptr target="#note-t-51"/> ─ veel meer dan iets anders behaagde. De balling zag den Hemel weer voor zich opengedaan.─<ptr target="#note-t-52"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.29" n="29">Gij zult het dezer dagen wel zeer druk hebben waarschijnlijk<c type="kk">/</c> is er echter een oogenblikje schrijf dan eens, en vooral<c type="kk">/</c> zoodra Gij kunt bepalen wanneer Gij naar Etten zult gaan<c type="kk">/</c> zorg dan dat ik het weet. Zou het niet kunnen wij nog eens zamen naar Dordt gingen Vrijdag of Zaturdag vóór Kerstmis, het is goed om van de reizen en togten die men moet doen maar zooveel mogelijk te profiteeren. Heb zegen bij alles wat Gij doet en als het kan goede brieven op St Niklaas. Groet uwe huisgenooten hartelijk<c type="kk">/</c> ook de familie Tersteeg<c type="kk">/</c> Haanebeek en van Stockum als Gij er mogt komen. Kent de Hr Tersteeg die kaarten van Stieler? à Dieu Theo, als ik misschien niet meer schrijf voor wij elkaar ontmoeten bij leven en welzijn, dan tot ziens. Ontvang een hartelijken handdruk in gedachten en geloof mij steeds</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">Uw liefh. broer</p>
+
+<p xml:id="p.nl.31" n="31">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.32" n="32">Oom Jan laat U groeten<c type="kk">/</c> ook Oom en Tante Stricker.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Amsterdam, 4 December 1877</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">I’ve just returned from a visit to the <rs type="person" ref="bio.xml#_575">Rev. Jeremie Meijjes</rs>, this time I found him at home but he had to go to the Church Council,<ptr target="#note-t-1"/> so I only spoke to him briefly, also saw his wife and the <rs type="person" ref="bio.xml#_167 bio.xml#_168">two youngest children</rs>,<ptr target="#note-t-2"/> and <rs type="person" ref="bio.xml#_219">his wife</rs> read me part of a letter from <rs type="person" ref="bio.xml#_163">their son</rs> who is at the institute in Den Helder.<ptr target="#note-t-3"/> Now that I’m undergoing the ordeal of exams myself,<ptr target="#note-t-4"/> I sympathize with others in the same position, and from several remarks I can imagine how they are doing to some extent. Anyone aspiring to a position in society must go through a time of great difficulties and exertion, success can depend on little things. If one says or writes a wrong word in an exam it can be the cause of failure. ‘All things are full of labour, man cannot utter it’<ptr target="#note-t-5"/> — those are true words, and if one thought too much about the dangers of all kinds that surround one – all those who don’t have to take exams no less than those for whom that lies in store, one would become dizzy, and then one would almost certainly not pass, and would almost not dare to do a thing. It is indeed good that a voice speaks to us from the Bible, strengthening us with words like ‘Let not your heart be troubled’,<ptr target="#note-t-6"/> ‘have faith in God’.<ptr target="#note-t-7"/> It is also good to look at those who have succeeded and have got through the difficulties more than at those who succumbed to them.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Man makes things difficult but God gives the blessing. God can work in a person so that he can write and deliver thousands of sermons — that is something good and worthwhile — and I hope that that will be my portion<ptr target="#note-t-8"/> — the Preacher spoke of vanity of vanities, all is vanity,<ptr target="#note-t-9"/> and Paul was sorrowful yet alway rejoicing<ptr target="#note-t-10"/> because of ‘the foolishness of preaching’,<ptr target="#note-t-11"/> but in the meantime He went on preaching anyway and never stopped, and it is written again and again ‘we came’,<ptr target="#note-t-12"/> and Jesus above all said that He worked while it was day, before night came, when no man can work,<ptr target="#note-t-13"/> and that His Father worketh hitherto and He had too.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Heard the <rs type="person" ref="bio.xml#_53">Rev. Laurillard</rs> yesterday in the Noorderkerk<ptr target="#note-t-15"/> on Acts <hi>iv</hi>:32, And the multitude of them that believed were of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; but they had all things common.</p>
+<p rend="indent" xml:id="p.en.6" n="6">He has a wonderful talent, a new approach<ptr target="#note-t-16"/> each time, and everything very spirited and lively, there is something special, something ‘evergreen’,<ptr target="#note-t-17"/> something of the imperishable, ever-youthful and fiery passion that is also in <rs type="person" ref="bio.xml#_526">Pa</rs>. I so believe that he, more than any other minister here, has put his whole heart into his <hi rend="italics">Work</hi>. He who does that does wisely, I believe, and will keep going the longest, and will indeed be blessed in other respects and circumstances.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Of course you know that <rs type="person" ref="bio.xml#_399">Uncle Hein</rs> died, thank God, we may well say, because the end was relatively calm and the deliverance came at last. When something like this happens, one sometimes hears more sincere thoughts from many hearts than in cases of a less serious nature, and then one hears many saying ‘life is short’.<ptr target="#note-t-18"/> The best that we can ask, perhaps, is to choose correctly and to speak the right words in the decisive hours of that life. <rs type="person" ref="bio.xml#_526">Pa</rs> has had lumbago again, as you’ll already have heard, in one of his last letters Pa wrote about the marriage of <rs type="person" ref="bio.xml#_244">Marijn Aertsen</rs>. On that occasion Pa gave a sermon on Jesus loved Mary and her sister, and Lazarus.<ptr target="#note-t-19"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">If you can, write and tell me as soon as possible when you plan to go to Etten and whether we could arrange to travel together. I’d very much like to take the opportunity of this trip to stay in Haarlem until the next train, and especially also to stop a while in Dordrecht.<ptr target="#note-t-20"/> I’d like very much for us to go to Dordrecht again together, couldn’t that be arranged?</p>
+<p rend="indent" xml:id="p.en.9" n="9">Have just had some writings bound that I wanted to preserve as well as possible, it was a nice feeling when I received them at home, I gave them to a bindery near here in one of the narrow streets of Kattenburg, where all kinds of religious works are published,<ptr target="#note-t-21"/> and the shop belongs to two brothers whose appearance immediately made me think of two things, namely church owls and the lion’s heads on doors.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Have walked rather a lot this week, it can’t do any harm to get to know the city a little.</p>
+<p rend="indent" xml:id="p.en.11" n="11">While working today I had lying before me a sheet from <rs type="person" ref="bio.xml#_851">Bargue</rs>’s Cours de dessin, 1st part, No. 39, Anne of Brittany.<ptr target="#note-t-22"/> That was already hanging in my room in London with No. 53,<ptr target="#note-t-23"/> and ‘A young citizen’<ptr target="#note-t-24"/> was then hanging between them. What I found beautiful and good in the beginning I still find to be so.</p>
+<p rend="indent" xml:id="p.en.12" n="12">The expression on the face of that Anne of Brittany is noble and reminiscent of the sea and rugged coasts. I’d like to know her story. She’s truly a beautiful woman.<ptr target="#note-t-25"/> De Lemud would surely have drawn her figure well.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’d really like very much for us to be together in Haarlem, write in any case when and for how long you could get leave.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Old boy, I long so much for Christmas and home and you; when you write, remember to report what I asked you regarding those lithographs.<ptr target="#note-t-26"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">Bring as many of your prints as you can, even if I know them, I’d still like to see them again.</p>
+<p rend="indent" xml:id="p.en.16" n="16">It’s a nice family, that of <rs type="person" ref="bio.xml#_575 bio.xml#_219">the Rev. Meijjes</rs> — but none of the ministers is really like <rs type="person" ref="bio.xml#_526">Pa</rs>. His work is brilliant, and besides, a <hi rend="italics">better</hi> man than Pa will not easily be found, for he knows how to keep himself in check and to control himself and to do what is good and dutiful, more than his own will.</p>
+<p rend="indent" xml:id="p.en.17" n="17">After church last Sunday I met that person who works in Centen’s bookshop, with whom you travelled and whom I’ve also met at <rs type="person" ref="bio.xml#_306">Braat</rs>’s, and here too.<ptr target="#note-t-27"/> Talked with him and gave him your regards, as you had asked me. He had also been to the <rs type="person" ref="bio.xml#_53">Rev. Laurillard</rs>. And this morning I saw and spoke to him again at the Post Office. He sends you his regards. His appearance had already struck me often, before you told me who he was, I’d like to know more about him.</p>
+<p rend="indent" xml:id="p.en.18" n="18">So almost another year has gone by in which much has happened to me, and I look back on it with thankfulness. If I look back in general on the time spent at <rs type="person" ref="bio.xml#_306">Braat</rs>’s and the months of study here, then those are truly two good things. Old boy, if I were at university next Christmas, and already through the first difficulties of the beginning, just as I am now through the beginning of Latin and Greek, how happy I should be. Undefessus favente Deo, ‘tirelessly with God’s grace’, that is certainly a good state to be in, and a phrase that <rs type="person" ref="bio.xml#_520">Mendes</rs> is fond of,<ptr target="#note-t-28"/> he mentioned it last Saturday.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Wrote to <rs type="person" ref="bio.xml#_394">Harry Gladwell</rs> today and also gave him your regards. I hope that he’ll go home for Christmas.<ptr target="#note-t-29"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Sent you today for St Nicholas<ptr target="#note-t-30"/> two maps from <rs type="person" ref="bio.xml#_1374">Stieler</rs>, namely the British Isles and Normandy and Brittany.<ptr target="#note-t-31"/> <hi rend="italics">Hang them up in your room for a while</hi>, promise me you’ll do it, I’ve copied them both quite carefully, as you know, and the one of England twice in fact, on the one that turned out best I wrote the division of the country and the names in Latin, and changed the surrounding countries to what they were in Roman times, such as Lake Flevo instead of Zuiderzee. To do it I went to <rs type="person" ref="bio.xml#_520">Mendes</rs> earlier than usual on several mornings, and there compared my map with those of Britannia, Caledonia and Ierne in <rs type="person" ref="bio.xml#_1366">Spruner</rs>-<rs type="person" ref="bio.xml#_1367">Menke</rs>’s Atlas antiquus.<ptr target="#note-t-32"/> So I don’t need these any more, and it’s good for you to have them to look at for a while. At <rs type="person" ref="bio.xml#_575 bio.xml#_219">the Rev. Meijjes</rs>’s I also heard them talking about Stieler’s atlas. His <rs type="person" ref="bio.xml#_163">son</rs>, who’s at the institute in Den Helder, has the complete atlas and wrote in his last letter, among other things, that he had copied the map of the world.<ptr target="#note-t-33"/> Perhaps you know that <rs type="person" ref="bio.xml#_422">Uncle Cor</rs> also has one lying in the room in which that large painting by <rs type="person" ref="bio.xml#_198">Bernier</rs><ptr target="#note-t-34"/> is hanging. Recently saw at Uncle’s a large drawing by <rs type="person" ref="bio.xml#_884">Bosboom</rs>, Sacristy,<ptr target="#note-t-35"/> also two by <rs type="person" ref="bio.xml#_885">Miss van Bosse</rs> that were very beautiful, especially the one of a farmstead. Then, along with the maps, you’ll be getting <rs type="person" ref="bio.xml#_622">Gruson</rs>, Histoire des croisades.<ptr target="#note-t-36"/> Also gave that book to <rs type="person" ref="bio.xml#_520">Mendes</rs>, who liked it; even if you don’t have time to read it from beginning to end, at least leaf through it from beginning to end, then the most beautiful passages will catch your eye of their own accord. If the work of <rs type="person" ref="bio.xml#_1202">Thijs Maris</rs> is beautiful, then this is too. Since <rs type="person" ref="bio.xml#_410">Uncle Jan</rs> sent a box to Etten, sent to <rs type="person" ref="bio.xml#_420">Cor</rs> for St Nicholas a lithograph after <rs type="person" ref="bio.xml#_1203">J. Maris</rs> of a girl coming from the cemetery, which one sees in the background with the gravestones and the little church. A monk sits by one of the gravestones.<ptr target="#note-t-37"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">If you don’t have that one, swap it with <rs type="person" ref="bio.xml#_420">Cor</rs> for another lithograph.</p>
+<p rend="indent" xml:id="p.en.22" n="22">When there’s nothing else, there’s always something more, goes the proverb, and I experienced that this morning, when I thought that I couldn’t give anyone a St Nicholas present, because I nonetheless found something for everyone, even though it’s not much, <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> have a map that I drew.<ptr target="#note-t-38"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">It’s already growing dark, and the view of the yard from the window beside me is indescribably beautiful, with that avenue of poplars whose slender forms and thin branches stand out so delicately against the grey evening sky, and then the old building with the arsenal in the water<ptr target="#note-t-39"/> that is as still as ‘the water of the old pool’ that is spoken of in the book of Isaiah,<ptr target="#note-t-40"/> the walls of that arsenal are completely green and weathered at the bottom at water level. Then, below, the little garden and the fence around it with rosebushes, and everywhere in the yard the little black figures of the workers, and also the little dog. Just now, too, the figure of <rs type="person" ref="bio.xml#_410">Uncle Jan</rs> with his long grey hair, probably going to make the rounds. In the distance the masts of the ships in the dock, in front the Atjeh,<ptr target="#note-t-41"/> completely black, and the grey and red gun-turrets,<ptr target="#note-t-42"/> and here and there the street-lamps are just being lit.</p>
+<p rend="indent" xml:id="p.en.24" n="24">There goes the bell, and the whole stream of workers is coming towards the gate, and with them the lamplighter to light the street-lamp in the square behind the house.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">Also heard the <rs type="person" ref="bio.xml#_53">Rev. Laurillard</rs> a while ago at the celebration of the Lord’s Supper, speaking so well on the text ‘the preaching of the cross is the power of God’,<ptr target="#note-t-43"/> because they are words of truth that reveal the thoughts of many hearts, because they are the words of Eternal Life,<ptr target="#note-t-44"/> the word that proceedeth from the mouth of God by which man shall live and not by bread alone,<ptr target="#note-t-45"/> with the life that is more than meat,<ptr target="#note-t-46"/> which is to know God, the only true God, and Jesus Christ, Whom He hath sent,<ptr target="#note-t-47"/> and because heaven and earth shall pass away,<ptr target="#note-t-48"/> but the preaching of the cross shall not pass away. Have you ever seen any of his books? ‘Uit de cel’<ptr target="#note-t-49"/> must be very beautiful, for instance, and I was moved by this passage from Rust een weinig:<ptr target="#note-t-50"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26"><hi rend="italics">That which pleases God the most</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">A certain fallen angel would again be taken up to heaven in grace if he brought thither the gift that pleases God the most. Gladdened by that promise and full of hope, he then turned towards the earth. He hovered over a field, where a fierce and violent battle was being fought. It was a battle between a tyrant’s crew and a host of valiant men fighting for their freedom of hearths and altars. They fought courageously but with an unfavourable outcome. Their ranks, however, were sorely depleted, and at last only one man was left. Moved by the stubborn valour of this hero and his late fellows, the despot offered him prestige and honour. The answer was an arrow-shot. But that arrow-shot missed its mark, and the valiant friend of freedom was immediately struck down. The fallen angel descended to his body and took a drop of his blood, and thought that this would surely be the gift that would ensure his entrance to the heaven barred to him. But at the gates of heaven he was told that he would have to search again. Because there was something else, something even more exalted. A few moments later he was hovering over a wood. From that wood the sounds of moaning and groaning came to him. He approached and saw a youth lying there, whose hollow-cheeked face was the colour of lead. He was a victim of the plague. This youth had stolen away from the town, so that the maiden he loved and who loved him would not die by coming near him. But she looked for and found him. Then there arose a touching battle between Love and Love. His love for her called out, as though insane: go away! and her love for him answered with resolve: no! Thus they died both of them together. The fallen angel caught the last sigh that crossed her lips and raced upward with it, in the certain hope that this gift would open up heaven to him. But at the gates of heaven he was told that he would have to search again, that there was something else, something even more exalted. For the third time the disappointed spirit flew down to earth. He saw below him a smiling and lovely landscape, illuminated by the slanting rays of the slowly setting sun. A delightful little boy was jumping around there, lighthearted and merry, now turning towards a charming flower, then running after a colourful butterfly. Presently a horseman rode up and dismounted at a stream there, his horse sweating and panting. His face wore a fierce expression, and all his features had something shocking about them, something that spoke of anger. But at the sight of the child it took on a softer expression, and there was something deeply melancholy about it when the words escaped from his lips: Child! I was once like you! Then a bell tolled. It was a bell that called to evening prayer. The child knelt down and prayed. Then the heart of the brute was crushed, and uttering the heart-rending cry: My mother also taught me to pray like that, all of a sudden a tear spouted from his eye. The fallen angel took the tear from his rough cheek and flew off with it to heaven. And yes! that tear of remorse was the gift, which pleased God — who hath no pleasure in the death of the sinner, but that he turn from his way and live<ptr target="#note-t-51"/> — much more than anything else. The exile saw heaven open up for him again.<ptr target="#note-t-52"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">You will probably be very busy these days, but if you have a moment, write then, and above all, as soon as you decide when you’ll be going to Etten, be sure to let me know. Wouldn’t it be possible for us to go to Dordrecht again together the Friday or Saturday before Christmas? It’s good to benefit as much as possible from the journeys and trips one must make. May you be blessed in everything you do and, if possible, receive good St Nicholas letters. Give my warm regards to your housemates, also to the <rs type="person" ref="bio.xml#_787 bio.xml#_788">Tersteeg family</rs>, <rs type="person" ref="bio.xml#_442 bio.xml#_443">Haanebeeks</rs> and <rs type="person" ref="bio.xml#_768 bio.xml#_769">Van Stockums</rs>, if you happen to go there. Does Mr Tersteeg know <rs type="person" ref="bio.xml#_1374">Stieler</rs>’s maps? Adieu, Theo, if perhaps I don’t write again before we see each other, all being well, then goodbye for now. Accept a hearty handshake in thought, and believe me ever</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">Your loving brother</p>
+<p xml:id="p.en.30" n="30">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.31" n="31"><rs type="person" ref="bio.xml#_410">Uncle Jan</rs> sends you his regards, also <rs type="person" ref="bio.xml#_317 bio.xml#_318">Uncle and Aunt Stricker</rs>.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Amsterdam 4 December 1877’. This date is a Tuesday, but the remark ‘Heard the Rev. Laurillard yesterday in the Noorderkerk’ <ref target="#l-28">(l. 28)</ref> suggests that the letter was begun on Monday, 3 December and not dated until it was continued on Tuesday, which was something Van Gogh often did in this period. The transition from Monday to Tuesday could be between <ref target="#l-57">l. 57</ref> and <ref target="#l-75">l. 75</ref>, since here he says ‘last Sunday’ (and not ‘yesterday’).</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uncle Hein died on 26 November 1877 <ref target="let134.xml">(134)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The solemnization of the marriage of Marijn Aertsen <ref target="let135.xml">(135)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Meeting of the governing council of a Protestant congregation.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The two youngest children of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_575 bio.xml#_219">Posthumus Meijjes and his wife</rs> were <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_167">Egbert Johannes Wernhardt</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_168">Catharina</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_163">Reinier Posthumus Meijjes</rs> was in training in The Hague in the Koninklijke Marine (Royal Navy); he later became lieutenant at sea of the first class. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gedenkboek honderd jarig bestaan der adelborsten-opleiding te Willemsoord 1854-1954</hi>. Ed. P.S. van ’t Haaff and M.J.C. Klaassen. Bussum 1954, p. 109, no. 595.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The entrance examinations required for the study of theology.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+  Eccl. 1:8.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+  John 14:1.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  Mark 11:22.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Cf. Eccl. 2:10 and Eccl. 5:17 (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">KJ</hi> Eccl. 5:18).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  Eccl. 1:2.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  2 Cor. 6:10.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  1 Cor. 1:21.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Cf. Acts 16:11 and Acts 21:1; ‘we came’ occurs several times in Acts.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+  John 9:4.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+  John 5:17.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>On Sunday, 2 December 1877, the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">Rev. Laurillard</rs> conducted the 10 a.m. service in the Noorderkerk.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">Laurillard</rs> was famous for originality in his choice of text (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">BWPGN</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+  
+<p>Presumably an allusion to a passage in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Charles Dickens</rs>’s <ref target="biblio.xml#lit_532"><hi rend="italics">The haunted man</hi></ref> (1848), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let104.xml#n-103">see letter 104, n. 103.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Cf. Job 14:1 and ‘Ars longa, vita brevis’, the first aphorism of Hippocrates, a doctor of antiquity (cf. also Seneca, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De brevitate vitae</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">I</hi>, 1).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>
+  John 11:5. Van Gogh wrote ‘Mary’ where the Bible has ‘Martha’.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Obviously Vincent wanted to visit the museums in Haarlem and Dordrecht (together with Theo, as emerges later on in the letter).</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>On the opposite side of the Kattenburgerbrug (Kattenburg Bridge) lie the Oostelijke Eilanden (Eastern Islands) of Kattenburg, Wittenburg and Oostenburg, separated from one another by three wide canals and a number of side-streets.  None of the bookbinders listed in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adresboek</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">1876-1877</hi> (pp. 523-524) lived in this neighbourhood.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Die er zodanig uitzien dat’ (whose appearance makes me think of).</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>
+      <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin. Avec le concours de J.-L. Gérôme</hi></ref>. Paris 1868-1870 by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Charles Bargue</rs> was a series of drawing examples published by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_825">Goupil &amp; Cie</rs> as loose leaves. Vol. 1, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Modèles d’après la bosse</hi>, which consisted of 70 plates, concentrated on the drawing of plaster casts. The example of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Anne of Brittany</hi>, after the sculpture by Jean Juste de Tours, came from this volume (no. 39). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_527">Ill. 527</rs>. Vol. 2, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Modèles d’après les maîtres</hi>, comprised 67 drawn copies after great masters. See Chetham 1976, pp. 255, 259; and ‘Modèles et ouvrages spéciaux pour l’enseignement des arts du dessin’ in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cat. Goupil</hi> 1877.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Plate 53 in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Charles Bargue</rs>’s <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin</hi></ref> is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jeune femme. Moulage sur nature</hi> (Young woman. Cast). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1863">Ill. 1863</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1050">Jules Goupil</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1855"><hi rend="italics">A young citizen of the year <hi>v</hi></hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let132.xml#n-17">see letter 132, n. 17.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>In 1491, Anne of Brittany, the daughter of the last duke François <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ii</hi> (of Brittany), married King Charles <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">viii</hi>, and after his death Louis <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xii</hi> (in 1498). The Dutch expression ‘een waar koningskind’ (literally: a true child of a king) means ‘an especially beautiful child’.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml#l-81">See letter 135, ll. 81-86</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>It is not known to whom this refers.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Read: ‘indefessus (or indefessi)’. This line is quoted again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let143.xml">letter 143</ref>. It is not known how <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_520">Mendes</rs> became acquainted with this adage; in any case, the Amsterdam bookseller Frederik Muller used it as his motto from 1875 onwards. See Marja Keyser <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al</hi>., <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Frederik Muller (1817-1881). Leven &amp; werken</hi>. Zutphen 1996, pp. 72-73.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>The Londoner <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_394">Harry Gladwell</rs> was still working in Paris.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>Regarding the feast of St Nicholas, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let059.xml#n-1">see letter 59, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>For the <ref target="biblio.xml#lit_167"><hi rend="italics">Hand-Atlas</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let134.xml#n-6;">see letter 134, n. 6;</ref> the map of the British Isles was no. 45 and that of Normandy and Brittany no. 34.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+  
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1366 bio.xml#_1367">Spruner-Menke</rs>, <ref target="biblio.xml#lit_166"><hi rend="italics">Atlas antiquus</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let134.xml#n-5">see letter 134, n. 5.</ref> ‘Britannia et Hibernia’, which Van Gogh copied, is map no. 18 (Amsterdam, Universiteitsbibliotheek). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1350">Ill. 1350</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p><ref target="biblio.xml#lit_167">Stieler 1876</ref> contains two maps of the world, nos. 6 and 7, which show the most important air currents and gulf streams.</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+
+<p>Van Gogh is probably referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_198">Camille Bernier</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_122"><hi rend="italics">Bestiaux sous arbres</hi></rs> (Cattle beneath the trees), which measures 105 x 175 cm (present whereabouts unknown; sold at auction in Amsterdam (Mak van Waay), 23 February 1971, cat. no. 37). Cf. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Tableaux modernes &amp; aquarelles. Catalogue des cabinets importants formés par Mr. J. Wurfbain par Mr. Dr. A.W.C. Brens (Collection mise aux enchères à cause de départ) et par Mr. C.M. van Gogh (Cabinet mis en vente, le propiétaire s’étant retiré des affaires)</hi>. Amsterdam (Frederik Muller &amp; Co.), 23 February 1892, p. 3, cat. no. 10 (no ill.). (Lugt<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>1938-1987, no. 50514).</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>It is impossible to determine which drawing by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_884">Johannes Bosboom</rs> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs> had at this time; four drawings with ‘sacristy’ in the title are known. Since <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_123"><hi rend="italics">Sacristy of the church at Bergen</hi></rs> (1848) was already in Fodor’s collection when the Museum Fodor first opened in 1863, this cannot have been the one intended (see cat. Amsterdam 1863, p. 46, cat. no. 293). The others are <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_124"><hi rend="italics">Sacristy at Boxmeer</hi> </rs>(1850 or slightly later, ‘large watercolour’), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_125"><hi rend="italics">Sacristy with a pillar in the middle</hi></rs> (c. 1860, no mention of measurements) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_126"><hi rend="italics">Sacristy at Alkmaar</hi></rs> (31 x 42.4 cm). See Marius and Martin 1917, pp. 130, 132, 138; and exhib. cat. Delft 1958, p. 13, cat. no. 22.</p>
+                        </note>
+                        
+                    
+                        <note n="36" xml:id="note-t-36">
+                            
+  
+<p>The drawings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_885">Maria Philipina Bilders-Van Bosse</rs> have not been traced. For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_622">Gruson</rs>’s <ref target="biblio.xml#lit_168"><hi rend="italics">Histoire des croisades. Racontée à la jeunesse</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let134.xml#n-16">see letter 134, n. 16</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="37" xml:id="note-t-37">
+                            
+
+<p>For the lithograph <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1804"><hi rend="italics">Returning from the cemetery</hi></rs> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob Maris</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let114.xml#n-3">see letter 114, n. 3.</ref> The figure in the background seems more like a mourning woman than a ‘monk’, as Van Gogh supposed. </p>
+                        </note>
+                        
+                    
+                        <note n="38" xml:id="note-t-38">
+                            
+
+<p>In addition to the lithograph for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_420">Cor</rs> and the map for his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs>, Van Gogh sent a present to Etten for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>, namely a Dutch translation of the book <ref target="biblio.xml#lit_171"><hi rend="italics">Hermann und Dorothea</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_611">J.W. von Goethe</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs> received ‘a couple of testaments’ (prayer books with parts of the New Testament, perhaps supplemented by other liturgical texts or hymns), and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Elisabeth</rs> received <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_512">H.C. Andersen</rs>’s <ref target="biblio.xml#lit_63"><hi rend="italics">Vertellingen van de maan</hi></ref> (FR b2572, b2575 and b2576). Van Gogh continued to be fascinated by maps; a year later he made, at his father’s request, five maps of Palestine for use in his father’s confirmation classes. One of them, ‘Palestina. Het Heilige Land’ (Palestine. The Holy Land), is reproduced in Stokvis 1926, facing p. 1; see FR b2448.</p>
+                        </note>
+                        
+                    
+                        <note n="39" xml:id="note-t-39">
+                            
+
+<p>The Naval Arsenal on the island of Kattenburg; this building, which was designed for the Amsterdam admiralty by Daniël Stalpaert, was completed in 1658. See Sjoerd de Meer, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">’s Lands Zeemagazijn</hi>. Zutphen 1994.</p>
+                        </note>
+                        
+                    
+                        <note n="40" xml:id="note-t-40">
+                            
+
+<p>
+  Isa. 22:11.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘rounds’.</p>
+                        </note>
+                        
+                    
+                        <note n="41" xml:id="note-t-41">
+                            
+
+<p>The modern steam-powered propeller-driven ship <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Atjeh</hi>, launched on 6 December 1876, had only recently – on 1 November 1877, in fact – been put into service (The Hague, Collectie Instituut voor Maritieme Historie, Marinestaf). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1864">Ill. 1864</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="42" xml:id="note-t-42">
+                            
+
+<p>The gun turrets, which were grey, were painted with red stripes.</p>
+                        </note>
+                        
+                    
+                        <note n="43" xml:id="note-t-43">
+                            
+
+<p>
+  1 Cor. 1:18.</p>
+                        </note>
+                        
+                    
+                        <note n="44" xml:id="note-t-44">
+                            
+
+<p>
+  John 6:68.</p>
+                        </note>
+                        
+                    
+                        <note n="45" xml:id="note-t-45">
+                            
+
+<p>
+  Matt. 4:4.</p>
+                        </note>
+                        
+                    
+                        <note n="46" xml:id="note-t-46">
+                            
+
+<p>
+  Matt. 6:25 and Luke 12:23.</p>
+                        </note>
+                        
+                    
+                        <note n="47" xml:id="note-t-47">
+                            
+
+<p>
+  John 17:3.</p>
+                        </note>
+                        
+                    
+                        <note n="48" xml:id="note-t-48">
+                            
+
+<p>
+  Matt. 24:35, Mark 13:31 and Luke 21:33.</p>
+                        </note>
+                        
+                    
+                        <note n="49" xml:id="note-t-49">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">E. Laurillard</rs>, <ref target="biblio.xml#lit_172"><hi rend="italics">Uit de cel. Schetsen en beelden uit de gevangenis</hi></ref>. Amsterdam 1876 (From the cell. Sketches and stories from prison). In this devotional book, Laurillard describes more than 40 visits to the prison and talks he had with prisoners, by means of which he hoped to foster understanding for the prison system. Some of the chapters close with moralizing maxims. It is possible that Van Gogh had been urged to read this book by his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs>, who knew it and had written about it enthusiastically to Theo in September. In the words of Mr van Gogh: ‘Could you not get hold of a book by Laurillard: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Uit de cel</hi>. We read it recently. It is touchingly beautiful and rich in short, revealing aphorisms, which one would wish to remember and apply to oneself as well as to others’. Mrs van Gogh added to this: ‘We read such a wonderful book, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Uit de cel</hi>, oh how great things arise from small causes, no wonder Jesus gives us the lesson for life, Watch and pray so that you come not into temptation. My dear Theo, you already know the seriousness of life. Old boy, don’t forget to look at your book for the lesson for the day, and to strengthen your faith in God’ (FR b2555 and b2556, 21 September 1877). Vincent gave Mr van Gogh a copy of the book for his birthday in 1884 (FR b2252).</p>
+                        </note>
+                        
+                    
+                        <note n="50" xml:id="note-t-50">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">E. Laurillard</rs>, <ref target="biblio.xml#lit_174"><hi rend="italics">Rust een weinig. Oudejaarsavond-gedachten</hi></ref>. Amsterdam 1869 (2nd ed. 1872) (Rest a little. Thoughts on New Year’s Eve). This book by the minister-writer is a mixture of devotional aphorisms and reflections, in both prose and verse.</p>
+                        </note>
+                        
+                    
+                        <note n="51" xml:id="note-t-51">
+                            
+
+<p>
+  Ezek. 33:11; Van Gogh added the phrase ‘who hath... and live’.</p>
+                        </note>
+                        
+                    
+                        <note n="52" xml:id="note-t-52">
+                            
+
+<p>As appearing in <ref target="biblio.xml#lit_174"><hi rend="italics">Rust een weinig</hi></ref>. Amsterdam 1869, pp. 141-143. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_53">Laurillard</rs> based his text on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_711">Moore</rs>’s ‘Paradise and the Peri’ (from ‘Lalla Rookh’). See Moore 1910, pp. 394-401.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

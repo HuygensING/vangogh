@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Friday, 29 March 1889. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let753"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b629 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>753</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>582</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>757</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-03-29">Friday, 29 March 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0629" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000859_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000859_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0629" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000859_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000859_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000859_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">avant que tu ne partes encore quelques mots<c type="kp">_</c> de ces jours ci cela va bien. Avant-hier &amp; hier j’ai sorti une heure en ville pour chercher de quoi travailler. En allant chez moi j’ai pu constater que les voisins proprement dits<c type="kk">/</c> ceux que je connais<c type="kk">/</c> n’ont pas été du nombre de ceux qui avaient fait cette petition.<ptr target="#note-t-1"/> Quoi qu’il en soit d’ailleurs j’ai vu que j’avais encore des amis dans le nombre.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">M. Salles en cas de besoin se fait fort de me trouver d’ici quelques jours un apartement dans un autre quartier<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’ai fait venir encore quelques livres pour avoir quelques idées solides dans la tête. j’ai relu la case de l’oncle Tom – tu sais le livre de Beecher Stowe sur l’esclavage<ptr target="#note-t-2"/> – les contes de Noel de Dickens<ptr target="#note-t-3"/> et j’ai donné à M<c type="kp">_</c> Salles Germinie Lacerteux.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Et voila que pour la 5<hi rend="super">me</hi> fois je reprends ma figure de la Berceuse.<ptr target="#note-t-5"/> Et lorsque tu verras cela tu me donneras raison que ce n’est qu’une chromolithographie de Bazar et encore cela n’a même pas le mérite d’être photographiquement correct dans les proportions ou dans quoi que ce soit.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Mais enfin je cherche à faire une image tel qu’un matelot qui ne saurait pas peindre en imaginerait lorsqu’en pleine mer il songe à une femme d’à terre<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">à l’hospice ils sont très très prévenants pour moi de ces jours ci<c type="kk">/</c> ce qui – comme bien d’autres chôses – me confond et me rend un peu confus.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Maintenant je m’imagine que tu préférais te marier sans toutes les ceremonies et felicitations d’un mariage et suis bien sûr d’avance que tu les eviteras autant que possible.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Si tu vois Koning ou d’autres et surtout les cousines Mauve &amp; Lecomte<ptr target="#note-t-6"/> n’oublie pas de leur dire bien le bonjour de ma part<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Comme ces trois derniers mois me paraissent étranges. Tantot des angoisses morales sans nom<c type="kk">/</c> puis des moments où le voile du temps et de la fatalité des circonstances pour l’espace d’un clin d’oeil semblait s’entre ouvrir<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Certes après tout tu as raison<c type="kk">/</c> bigrement raison – même en faisant la part à l’espérance il s’agit d’accepter la réalité bien désolante probablement.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">J’espère me rejeter tout à fait dans le travail qui est en retard.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Ah il ne faut pas que j’oublie de te dire une chôse à laquelle j’ai très souvent pensée. Par hasard tout à fait dans un article d’un vieux journal je trouvais une parole écrite sur une antique tombe dans les environs d’ici à Carpentras.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Voici cette epitaphe très très très vieille<c type="kk">/</c> du temps mettons de la Salambo de Flaubert<ptr target="#note-t-7"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.15" n="15">“Thebe<c type="kk">/</c> fille de Thelhui<c type="kk">/</c> prêtresse d’Osiris<c type="kk">/</c> qui ne s’est jamais plaint de personne”<c type="kp">_</c><ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">Si tu voyais Gauguin tu lui raconterais cela<c type="kp">_</c>– Et je songeais à une femme fânée<c type="kk">/</c> tu as chez toi l’étude de cette femme qui avait des yeux si étranges<c type="kk">/</c> que j’avais rencontree par un autre hasard<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Qu’est ce que c’est que ça “elle ne s’est jamais plaint de personne”<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Imaginez une éternité parfaite<c type="kk">/</c> pourquoi pas – mais n’oublions pas que la <hi rend="italics">réalité</hi> dans les vieux siècles a cela.... “et elle ne s’est jamais plaint de personne”<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Te rappelles tu qu’un Dimanche le brave Thomas venait nous voir et qu’il disait<c type="kk">/</c> ah mais – c’est-il des femmes comme cà qui vous font bander<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Non cela ne fait pas précisément toujours bander mais enfin – de temps en temps dans la vie on se sent épaté comme si on prenait racine dans le sol.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Maintenant tu me parles du “vrai midi” et moi je disais que enfin il me semblait que c’était plutôt à des gens plus complets que moi d’y aller.–<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Le “vrai midi”<c type="kk">/</c> n’est ce pas un peu là où l’on trouverait une raison<c type="kk">/</c> une patience<c type="kk">/</c> une sérénité suffisante pour devenir comme cette bonne “Thèbe – fille de Telhui – prêtresse d’Osiris – qui ne s’est jamais plaint de personne”.</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">À côté de cela je me sens je ne sais quel être ingrat<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">A toi et à ta femme à l’occasion de ton mariage voilà le bonheur<c type="kk">/</c> la sérénité que je demanderais pour vous deux<c type="kk">/</c> d’avoir intérieurement ce vrai midi-là dans l’âme.</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Si je veux que cette lettre parte aujourd’hui faut que je la termine<c type="kp">_</c> poignée de main<c type="kk">/</c> bon voyage<c type="kk">/</c> bien des choses à la mere &amp; la soeur<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.26" n="26">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.27" n="27">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">A few more words before you leave. Things are going well these days. The day before yesterday and yesterday I went into town for an hour to find things to work with. When I went home I was able to learn that the real neighbours, those whom I know, weren’t among those who got up that petition.<ptr target="#note-t-1"/> However it may be, anyway I saw that I still had friends among them.</p>
+<p rend="indent" xml:id="p.en.3" n="3">If need be <rs type="person" ref="bio.xml#_663">Mr Salles</rs> is pretty sure he can find me an apartment in another district in a few days.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’ve had another few books brought in order to have a few solid ideas in my mind. I’ve re-read La case de l’oncle Tom — you know, the book by <rs type="person" ref="bio.xml#_1465">Beecher Stowe</rs> on slavery<ptr target="#note-t-2"/> — <rs type="person" ref="bio.xml#_580">Dickens</rs>’s Contes de Noël,<ptr target="#note-t-3"/> and I’ve given Mr Salles Germinie Lacerteux.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">And here I am, going back to my figure of the Berceuse for the 5th time.<ptr target="#note-t-5"/> And when you see it you’ll agree with me that it’s nothing but a chromolithograph from a penny bazaar, and what’s more, it doesn’t even have the merit of being photographically correct in the proportions or in anything.</p>
+<p rend="indent" xml:id="p.en.6" n="6">But anyway, I’m trying to make an image such as a sailor who couldn’t paint would imagine it when he was in the middle of the sea and thought of a woman on land.</p>
+<p rend="indent" xml:id="p.en.7" n="7">They’re very, very attentive to me at the hospital these days, which — like many other things — mixes me up and makes me a little confused.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Now I imagine that you’d prefer to marry without all the ceremonies and congratulations of a wedding, and am quite sure in advance that you’ll avoid them as much as possible.</p>
+<p rend="indent" xml:id="p.en.9" n="9">If you see <rs type="person" ref="bio.xml#_1145">Koning</rs> or others, and above all cousins <rs type="person" ref="bio.xml#_321">Mauve</rs> and <rs type="person" ref="bio.xml#_322">Lecomte</rs>,<ptr target="#note-t-6"/> don’t forget to give them my warm regards.</p>
+<p rend="indent" xml:id="p.en.10" n="10">How strange these last three months appear to me. Sometimes nameless moral anguish, then moments when the veil of time and of the inevitability of circumstances seemed to open up a little way for the space of a blink of an eye. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.11" n="11">Certainly, you’re right after all, darned right — even allowing for hope, one probably has to accept the rather distressing reality.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I hope to throw myself back completely into work, which has fallen behind.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Ah, I mustn’t forget to tell you a thing I’ve often thought about. Utterly by chance, in an article in an old newspaper, I found a line written on an ancient tomb at Carpentras, near here.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Here is this very, very, very old epitaph, let’s say from the time of <rs type="person" ref="bio.xml#_596">Flaubert</rs>’s Salammbô:<ptr target="#note-t-7"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">‘Thebe, daughter of Telhui, priestess of Osiris, who never complained about anyone.’<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">If you were to see <rs type="person" ref="bio.xml#_1039">Gauguin</rs> you could tell him that. And I was thinking of a faded woman, at your place you have the study of that woman who had such strange eyes, whom I met by another chance.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">What does it mean, that ‘she never complained about anyone’?</p>
+<p rend="indent" xml:id="p.en.18" n="18">Imagine a perfect eternity, why not — but let’s not forget that <hi rend="italics">reality</hi> in the old centuries has that... ‘and she never complained about anyone.’ 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">Do you remember that one Sunday good old <rs type="person" ref="bio.xml#_780">Thomas</rs> came to see us and said, ah but — is it women like that who give you a hard-on?</p>
+<p rend="indent" xml:id="p.en.20" n="20">No, that doesn’t always produce a hard-on precisely, but anyway — from time to time in life one feels amazed, as if one was taking root in the ground.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Now you talk to me of the ‘real south’ and as for me, I was saying that after all it seemed to me that it was rather for people who were more complete than me to go there.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Is the ‘real south’ not to some degree the place where one might find a reason, a patience, a serenity sufficient to become like that good ‘Thebe — daughter of Telhui — priestess of Osiris — who never complained about anyone’?</p>
+<p rend="indent" xml:id="p.en.23" n="23">Beside that I feel like some kind of unworthy being.</p>
+<p rend="indent" xml:id="p.en.24" n="24">To you and your <rs type="person" ref="bio.xml#_416">wife</rs> on the occasion of your marriage that is the happiness, the serenity I would ask for you two, to have that true south inwardly, in your souls.</p>
+<p rend="indent" xml:id="p.en.25" n="25">If I want this letter to leave today I must end it. Handshake, bon voyage, kind regards to <rs type="person" ref="bio.xml#_524">Mother</rs> and <rs type="person" ref="bio.xml#_407">Sister</rs>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Ever yours,</p>
+<p xml:id="p.en.27" n="27">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent writes: ‘A few more words before you leave’ (<ref target="#l-1*">l. 1*</ref>) and ‘If I want this letter to leave today I must end it’ <ref target="#l-97">(ll. 97-98)</ref>. Theo took the night train to the Netherlands on 30 March, which is why we have dated the letter, as did Jo van Gogh-Bonger in <hi rend="italics">Brieven </hi>1914 – she perhaps relied on a postmark – to Friday, 29 March 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s journey to the Netherlands in connection with his marriage <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The petition of the neighbourhood residents in Arles <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Possible move to another part of town <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+    
+<p>Van Gogh must be referring to the café proprietor <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_382">Joseph Ginoux</rs> and his wife, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_383">Marie</rs>, who were friends of his. Ginoux had not signed the petition, but the statement he made to the police confirmed the neighbours’ complaints about Van Gogh’s indecent behaviour. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-2">See letter 750, nn. 2</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-3">3</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#idbefore27February 1889"><hi rend="italics">Documentation</hi>, shortly before 27 February 1889</ref>, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2278">Ill. 2278</rs>-<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2280">2280</rs>. </p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1465">Beecher Stowe</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_192">Uncle Tom’s cabin</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let152.xml#n-9">see letter 152, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_580">Charles Dickens</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_119">Christmas books</ref> </hi>(1843-1845) contained five Christmas stories: ‘<ref target="biblio.xml#lit_333">A Christmas carol</ref>’, ‘<ref target="biblio.xml#lit_529">The chimes</ref>’, ‘<ref target="biblio.xml#lit_530">The cricket on the hearth</ref>’, ‘<ref target="biblio.xml#lit_531">The battle of life</ref>’ and ‘<ref target="biblio.xml#lit_532">The haunted man</ref>’. The book was published in French as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Contes de Noël. Traduits de l’anglais avec l’autorisation de l’auteur sous la direction de P. Lorain.</hi> Paris n.d.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Edmond and Jules de Goncourt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_449">Germinie Lacerteux</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let574.xml#n-5">see letter 574, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Preceding his hospitalization on 26 February, Van Gogh had painted four versions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’)</hi>: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2775">F 508 / JH 1671</rs>,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2773">F 505 / JH 1669</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2776">F 507 / JH 1672</rs>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let748.xml#n-2">See letter 748, n. 2.</ref> The fifth and last version, which is the one discussed here, was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2762">F 504 / JH 1655</rs>. See Hoermann Lister 2001, p. 73.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_321">Jet Mauve-Carbentus</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_322">Anna Lecomte-Carbentus</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_596">Flaubert</rs>’s historical novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_297">Salammbô</ref> </hi>(1863) takes place in ancient Carthage. It is the story of rebellious mercenaries at the end of the First Punic War (264-241 BC). Their indignation at their paltry pay causes them to launch an attack on Carthage. They threaten the capital with the help of African tribes, but ultimately suffer a crushing defeat at the hands of Hamilkar Barkas.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>This refers to the so-called ‘Pierre de Carpentras’ (Musée de Carpentras), the Carpentras Stele, commemorating Taba, daughter of Tahapi, an Aramaean lady who was a convert to Osiris. The inscription is in Aramaic and is translated into Latin in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Corpus Inscriptionum Semiticarum</hi>. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ab academia inscriptionum et litterarum humaniorum conditum atque digestum. Pars 2. Inscriptiones aramaicae.</hi> Paris 1889, tab. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xiii</hi>, no. 141. The stone dates from the period between the end of the 5th century and the 3rd century BC.</p>
+
+<p rend="indent">The museum provides the following translation: ‘Blessed be you, Taba, daughter of Tahapi, who have achieved perfection with the god Osiris. You have done no evil deed and you have maligned no one on this earth. May Osiris in person bless you. Receive the waters in the house of Osiris. [Be received at the table of Osiris[?]. Pray, my love, and [be perfect[?] among souls dear to the god’. (Bénie sois-tu Taba, fille de Tahapi, parvenue à la perfection auprès du dieu Osiris. Tu n’as accompli aucune mauvaise action et tu n’as jamais calomnié personne sur cette terre. Qu’Osiris en personne te bénisse. Reçois les eaux chez Osiris. [Sois reçue à la table d’Osiris[?]. Prie, mon amour, et [sois parfaite[?] parmi les âmes chères au dieu).</p>
+
+<p rend="indent">Van Gogh probably copied the deviant spellings of the names from the untraced ‘old newspaper’ in which he read about this. He mentions the inscription again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let764.xml">letters 764</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let785.xml">785</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This is possibly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Portrait of a woman </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_804">F 357 / JH 1216</rs>). It is not known who the woman was, but she was also the model for the nude studies <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_803">F 1404 / JH 1213</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_807">F 329 / JH 1215</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_808">F 330 / JH 1214</rs>, and possibly <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_971">F 328 / JH 1212</rs>. See cat. Amsterdam 2001, pp. 252-253 and cat. Otterlo 2003, pp. 165-167. According to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, this lady was a ‘pierreuse’ (streetwalker) ‘picked up by Vincent, and who was very willing to agree to pose for him’ (récoltée par Vincent qui voulut bien consentir à poser pour lui). See Paul Gachet, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Souvenirs de Cézanne et de Van Gogh</hi>. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Auvers 1873-1890</hi>. Paris 1928, unpaginated.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>On this subject, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml">see letter 752</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

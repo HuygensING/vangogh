@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nieuw-Amsterdam, on or about Monday, 15 October 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let396"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b362 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>396</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>339</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>404</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1883-10-15">on or about Monday, 15 October 1883</date>
+                            <placeName>Nieuw-Amsterdam</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000468_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000468_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000468_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000468_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000468_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000468_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000469_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000469_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000469_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000469_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000469_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000469_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000470_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000470_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0362 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000470_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000470_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Nu ik er reeds eens over geschreven heb<c type="kk">/</c> dacht ik er sedert buiten op de hei nog eens over. ’t Zelfde wat reeds menigmaal ik gedacht heb.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">En onder de oude en onder de moderne schilders doet zich telkens ’t verschijnsel voor van twee broers die schilder zijn<c type="kk">/</c> waarvan het werk uiteenloopt minder dan <hi rend="italics">evenwijdig</hi> loopt<c type="kp">_</c> Ze zijn heel verschillend doch vullen elkaar volkomen aan. Neem de Ostades<c type="kk">/</c> Adriaan &amp; Isaac. Enfin ge begrijpt vanzelf<c type="kk">/</c> een menigte gevallen. De van Eycks ook al<c type="kp">_</c> En Jules &amp; Emile Breton in den tegenwoordigen tijd<c type="kk">/</c> om maar enkelen te noemen.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">En zoo heel dikwijls reeds heb ik gedacht het zoo almagtig pleizierig werken moet zijn zamen en men beiden ook juist daarom zoo productief kan zijn omdat men elkaar steunt en veel melankolieke tijden vervallen. Ik kan niet genoeg U herhalen kerel – op zijn dertigste jaar <hi rend="italics">begint</hi> men pas. Ga de historie van de lui na<c type="kk">/</c> zelfs veel die van jongs af schilderden veranderen dan eerst<c type="kk">/</c> worden eerst dan zich zelf<c type="kp">_</c>– Ik wil alleen dat gij dat een &amp; ander in aanmerking neemt. Nu weet ik men staat voor de kwestie – brood<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Niet verkeerd maar heel regt vind ik de redeneering<c type="kk">/</c> ik moet eten<c type="kk">/</c> ergens wonen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Goed<c type="kk">/</c> best<c type="kk">/</c> maar een ding vraag ik elkeen die zegt<c type="kk">/</c> ik heb de middelen niet – die vraag is: Vriend wat zijn uw eischen<c type="kk">/</c> hoe hoog stelt ge Uw peil<c type="kp">_</c> Is uw karakter er naar dat ge er zoo over denkt als b<c type="kp">_</c>v<c type="kp">_</c> Corot<c type="kk">/</c> die zich niet geneerde om als hij uit dineeren kon een brood bij den bakker te koopen en in ’t veld op te eten<c type="kp">_</c><ptr target="#note-t-1"/> Enfin zich weten te behelpen en niet in ’t minst hechten aan de routine van ’t leven<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Gij zijt au fond juist zoo en zoudt in een massa dingen perfect U schikken<c type="kp">_</c> En al is dan de kwestie “brood” niet beslist<c type="kk">/</c> ze is een boel opgehelderd<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Als ik nu denk over de mogelijkheid of onmogelijkheid van Uw komen naar hier<c type="kk">/</c> nu of later<c type="kk">/</c> en ga berekenen<c type="kk">/</c> dan kom ik tot de conclusie dat wij zamen <hi rend="italics">weinig</hi> meer of <hi rend="italics">niet</hi> meer noodig hebben dan ik alleen. En bovendien<c type="kk">/</c> ik voor mij geloof vast dat ik door U in zoo veel dingen opwekking zou krijgen<c type="kk">/</c> steun zou vinden door met U te praten en te overleggen<c type="kk">/</c> wrijving van gedachten &amp;c<c type="kp">_</c><c type="kk">/</c> dat ik beter zou kunnen werken.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Nu is er om zoo te zeggen geen dag of ik maak ’t een of ’t ander. Juist al doende leerende kan ’t niet anders of ik moet toch vorderen<c type="kk">/</c> iedere teekening die men maakt<c type="kk">/</c> iedere studie die men schildert is een stap<c type="kp">_</c> Het gaat nu wel als op een weg<c type="kk">/</c> men ziet het torentje aan ’t eind doch ’t terrein golft<c type="kk">/</c> zoo als men denkt er te zijn is er alweer een eind dat men eerst niet zag en ook al weer er bij komt<c type="kp">_</c> Evenwel men nadert<c type="kp">_</c>– Over nog een tijd<c type="kk">/</c> langer of korter<c type="kk">/</c> ik weet het niet hoe lang<c type="kk">/</c> dan zal ik op een punt komen dat ik aan ’t verkoopen ga<c type="kp">_</c>– Goed<c type="kk">/</c> is ’t eenmaal zoo ver<c type="kk">/</c> zal dit niet ten halve zijn want ik werk niet ten halve. En ik voer verschillende dingen tegelijk op<c type="kk">/</c> ik zal meer dan een pees op mijn boog<c type="kk">/</c> meer dan een pijl hebben ook daarom<c type="kp">_</c>– Ziedaar wat ik van mijn kant in de kloof “brood” kan werpen. Het kan verkeeren met mij en als ik nu met al mijn sjouwen niets nog verkoop – ik herzeg<c type="kk">/</c> dat kan verkeeren<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Wij zouden <hi rend="italics">moeten</hi> hebben<c type="kk">/</c> laat ons stellen als minimum<c type="kk">/</c> 150 frs per maand<c type="kk">/</c> liever 200<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Daarvoor zou crediet gevonden moeten worden<c type="kk">/</c> niet zonder waarborg maar dien waarborg zou zijn ons werk<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Laat ons nu stellen wij nog 2 jaar moeten werken voor het verdienen grif gaat en meer wordt dan de uitgaven zóó dat we kunnen aflossen.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.13" n="13">200 frs per maand over 2 jaar is 24 x 200 frs = 2400 frs<c type="kp">_</c> Ziedaar<c type="kk">/</c> maak er 1500 gulden van.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Tot waarborg daarvan is<c type="kk">/</c> dat – ik spreek nu van U &amp; mij als zamen doende – wij al zelf veel er in geworpen hebben en een zekeren grondslag hebben gelegd. Dat wat ik kan<c type="kk">/</c> kan ik<c type="kk">/</c> sommige dingen van teekenen<c type="kk">/</c> ja ook sommige dingen van schilderen zelfs zijn bij mij er vast in en niet in ’t minst toevallig maar door opregt werken verkregen. Ik zeg<c type="kk">/</c> een waarborg te meer dat wij niet in de lucht schermen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Hoor eens Theo<c type="kk">/</c> ik zou niet met U kunnen praten als gij niet een zeker zelfvertrouwen<c type="kk">/</c> een zekere zelfkennis hadt<c type="kp">_</c>– Als ik U wel eens heb gezegd vroeger reeds dat gij au fond artist zijt<c type="kk">/</c> hoe langer hoe meer word ik in dat gevoelen versterkt. Ge zult zeggen “ik kan niets maken” – ja <hi rend="italics">nu</hi> natuurlijk niet maar werk eens een jaar<c type="kk">/</c> laat de eerste dingen eens wat opgehelderd zijn en met de grootste sereniteit zult ge het voelen dat ja<c type="kk">/</c> niet ieder misschien door eigen sjouwerij schilder kan worden als zekere geestesrigting de zijne niet is<c type="kk">/</c> doch van U zelf zoudt gij ontwaren die geestesrigting van bespiegeling<c type="kk">/</c> van denken en analyseeren<c type="kk">/</c> van <hi rend="italics">voelen</hi> van ’t schoone in de natuur wel degelijk de Uwe is en gij daarom artist zijn kunt wegens gij activiteit en energie hebt<c type="kk">/</c> die echter nu een andere rigting uitgaat zoo dat voor de kunst niets kan overschieten. Maar die zelfde activiteit beweegkracht zijnde voor uw gevoel voor het schoone<c type="kk">/</c> zou tot resultaat geven een waarachtig schilder.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ik zal nog eens even terugkomen op de kwestie “brood”<c type="kp">_</c> Een boel dingen waar men van zegt<c type="kk">/</c> het kan niet<c type="kk">/</c> die kunnen toch<c type="kp">_</c>–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Laat ik nu eens voor een oogenblik mogen veronder<c type="shy">-</c>stellen dat gij op een moment waart waarop gij veranderen moest – (ge zijt nu nog niet op dat moment<c type="kk">/</c> ik veronderstel het maar voor een oogenblik)<c type="kp">_</c> Dan kunt ge een betrekking krijgen in een andere zaak. goed<c type="kk">/</c> maar Uw toekomst verder op<c type="kk">/</c> niet den voorgrond maar het tweede plan<c type="kk">/</c> den horizon<c type="kk">/</c> is die helder<c type="kp">_</c> Hij komt mij magtig in duisternis voor<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Neem eveneens als gij schilder wordt de verdere toekomst<c type="kk">/</c> de duisternis is daar niet doch wel is die vlakbij<c type="kk">/</c> onmiddelijk op ’t eerste plan<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Eigen activiteit kan U schilder maken en anderen zullen U dat niet verhinderen kunnen doch eigen activiteit kan in zake kunsthandel wel eens niet ’t artikel zijn zekere<c type="kk">/</c> ook nieuwe<c type="kk">/</c> patroons mogten verlangen op momenten waarop ze zelf in den rats zitten vooral. Met al Uw eigen activiteit zoudt ge kunnen vervallen in ’t geval van Wisselingh die ook wel degelijk actief is en was bij G&amp;C<hi rend="super">ie</hi><c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Veel dingen waarvan men zegt<c type="kk">/</c> het kan niet<c type="kk">/</c> kunnen au fond toch zeide ik. Waarom zouden wij als de omstandigheden het meebragten dat het <hi rend="italics">moest</hi><c type="kk">/</c> niet kunnen wonen bij Pa<c type="kp">_</c>– Ik zeg niet voor niets<c type="kk">/</c> doch in geval wij eens niet voor zooveel als noodig zou zijn om het hier in Drenthe uit te vieren konden crediet krijgen. Maar laat dat daar en houd U aan het eerstgenoemde. Een harden dobbel zouden we hebben doch door ’t pleizier van zamen te zijn<c type="kk">/</c> door zamen in die onuitsprekelijk schoone natuur te leven<c type="kk">/</c> bovenal door ’t bewustzijn van <hi rend="italics">twee handwerkslui</hi> te zijn<c type="kk">/</c> kerel wat zou het almagtig pleizierig zijn. Zoo almagtig pleizierig dat ik er niet aan durf denken haast en het toch niet laten kan al komt dat geluk mij te enorm voor<c type="kk">/</c> voor U zoowel als voor me zelf<c type="kk">/</c> daar wij er niet aan gewend zijn dat we <hi rend="italics">pleizier</hi> in ons leven hebben en iets voelen als was dat meer voor anderen – niet voor ons.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Wij zouden moeten hebben f<c type="kp">_</c> 1500 crediet<c type="kp">_</c> Waar en hoe<c type="kk">/</c> ik weet het niet of er aankomen aan zijn zou<c type="kp">_</c> Waar die goed voor zouden zijn zal ik U nader berekenen. Wij zouden met den man hier een accoord maken voor 2 jaar<c type="kk">/</c> vast een deel vooruit betalen desnoods<c type="kk">/</c> ik denk dat hij voor f<c type="kp">_</c> 1000 het doen zou ons beiden gedurende die twee jaar te eten te geven<c type="kk">/</c> ons deze kamer waar ik nu woon te laten<c type="kk">/</c> enfin van alle huisselijke zorg zouden wij dan af zijn gedurende 2 jaar en rustig &amp; kalm kunnen werken.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">twee jaar is heel wat<c type="kk">/</c> is al wat in de gegevenen gij zult noodig hebben om op een zekere hoogte te komen. Wij hebben dan nog over om een groote partij verf op te doen<c type="kk">/</c> ons flink te installeeren.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Weinig dingen kunnen dan ons van streek brengen of van ons plan af<c type="kk">/</c> of iets ande<supplied>rs</supplied><c type="kp">_</c> Wij <hi rend="italics">moeten</hi> dan en kunnen dan.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Wij hebben ons leven verzekerd voor zooveel voedsel &amp; dak aangaat en kunnen niet meer terug maar moeten<c type="kk">/</c> moeten<c type="kk">/</c> moeten vooruit en het winnen<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">U aangaande zoo zou ik denken gij anders moest doen dan ik deed<c type="kp">_</c>– Het mijne is nu gepasseerd<c type="kk">/</c> ik heb ’t gedaan tot heden zoo als ik ’t gedaan heb maar ik wou dat gij direkt gingt schilderen vooral<c type="kk">/</c> <hi rend="italics">ik weet wel wat gij hier maken zoudt willen</hi><c type="kp">_</c> Ik zou willen dat <hi rend="italics">gij</hi> direkt aanpaktet landschappen in den geest van <hi rend="italics">Michel </hi>die ik telkens en telkens zie<c type="kk">/</c> geheel en al Michel<c type="kk">/</c> absoluut <hi rend="italics">dat</hi> is het hier<c type="kk">/</c> zoudt opvatten. Ik maak mij sterk U daartoe op den weg te kunnen helpen. Wat gij dan later wilt<c type="kk">/</c> het zal zich uitwijzen doch ik zeg<c type="kk">/</c> ik meen U daartoe op den weg te kunnen helpen omdat ik zelf dezer dagen dingen in dat genre aangreep<c type="kk">/</c> waarvan ik niet beweer het Michels zijn doch wel durf zeggen dat als gij dat zoover weet<c type="kk">/</c> gij van zelf Uw weg wel vinden zult verder<c type="kp">_</c></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Ik voor mij<c type="kk">/</c> <hi rend="italics">vooral als gij hier waart</hi><c type="kk">/</c> zou meer en meer op figuur me concentreeren<c type="kp">_</c> Ik zal U even die landschappen op krabbelen die ik op ’t ezel heb.<ptr target="#note-t-5"/></p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/><figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.27" n="27">Ziedaar ’t genre van studies die ik zoude verlangen gij direkt aangreept. Het landschap groot leeren aankijken in zijn eenvoudige lijnen en tegenstellingen van licht &amp; bruin. ’t Bovenste zag ik heden<c type="kk">/</c> was geheel &amp; al Michel. Die grond was superbe in de natuur. Mijn studie is mij nog niet rijp genoeg maar het effekt greep mij aan en was wel qua licht &amp; bruin zoo als ik het U hier teeken<c type="kp">_</c></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Het onderste is<c type="kk">/</c> met een teer groen korenveldje op den voorgrond &amp; verwelkte grassen achter ’t huisje &amp; hoopen turf<c type="kk">/</c> weer een doorkijkje op de heide en de lucht heel licht. Zie<c type="kk">/</c> waar ik op komen wil is<c type="kk">/</c> in dat genre zoudt gij moeten beginnen en zoudt dunkt mij wel doen van ’t begin af aan volstrekt niet uitsluitend te teekenen.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ik meen in vollen<c type="kk">/</c> vollen ernst al wat ik U hier schrijf<c type="kk">/</c> ik heb er al zoo lang over gedacht<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">En zou er niet over gesproken hebben als alles goed gebleven was met G&amp;C<hi rend="super">ie</hi> doch nu in de gegevenen ligt het alleen aan mijn eigen miserable finanties dat ik niet nog veel beslister zeg<c type="kk">/</c> kom direkt naar hier<c type="kp">_</c> Meer woorden dan dat zou ik anders niet gebruiken<c type="kp">_</c> Het land is superbe<c type="kk">/</c> superbe<c type="kk">/</c> alles roept U toe: schilder! Zóó echt en zoo gevarieerd<c type="kp">_</c>– Zie kerel<c type="kk">/</c> hoe ’t ook loope<c type="kk">/</c> zijn er niet altijd overal finantieele bezwaren en waar zijn ze minder groot dan hier<c type="kk">/</c> en waar of hoe ter wereld kan een tijd van strijd tot meer definitieven vrede leiden. Tot grooten vrede die geen mensch meer verstoren kan. Ik voor mij kan niet meer zeggen dan dat ik al mijn eigen studies in pand tot waarborg wil geven tot teruggave van hetgeen we voor de eerste twee jaar absoluut noodig hebben. Bovendien het geld hebben wij niet alles in eens noodig. Mij dunkt het moet kunnen gevonden worden<c type="kp">_</c> Ik stel het minimum omdat en gij en ik zeer zuinig ’t zouden aanleggen.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Nu<c type="kk">/</c> mij aangaande<c type="kk">/</c> ik heb een boel plannen maar ik wou ook wel voor mij zelf dat ik nog eens een uitgaaf van een honderd gulden kon doen om mijn gereedschap te verbeteren<c type="kp">_</c> En ik wou ik vast wist dat ik hier b.v<c type="kp">_</c> twee jaar quand même zou kunnen zijn<c type="kp">_</c> Ik heb nu nog zoo weinig vastigheid voor die toekomst en wenschte ik dat zeker wist<c type="kk">/</c> dat ik niet weer weg zou moeten over een tijdje<c type="kp">_</c></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Het plan dat ik zoo hier opstel kan gewijzigd worden<c type="kp">_</c> De grond er van blijft<c type="kk">/</c> dunkt me<c type="kk">/</c> wij moeten ons voor twee jaar zóó bolwerken dat we rust hebben kunnen<c type="kp">_</c> Als die twee jaar om zijn zal ik wel zoo ver zijn dat ik ger<supplied>ege</supplied>ld verdien en hoop ik vast werk heb tegen zulke condities dat en gij en ik op de zelfde wijs voortgaan kunnen. Het plan is eenvoudig genoeg<c type="kp">_</c> U aangaande zou er ook wel wat gepraat worden maar er zouden 6 uren gaans <hi rend="italics">Michels</hi> liggen tusschen het armzalige stadje Hoogeveen en U dus zoudt ge er wel geen de minste last van hebben niet waar<c type="kp">_</c> Gij zoudt uit alles uit zijn en tegen dat ge 30 jaar waart zou zelfs het huis Goupil iets als een droom U toeschijnen en gij niet begrijpen gij in der tijd daar chef op den Boulevard waart en beleefd behandeld werd<c type="kk">/</c> altijd beleefd door M. l’administrateur general. Betreffende dat ik n. Parijs zou komen<c type="kk">/</c> och ’t is ook al de mijl op zeven dunkt mij<c type="kk">/</c> ofschoon als ’t beter schikt<c type="kk">/</c> best – maar dat staat zoo geheel &amp; al in verband tot de verandering van U<c type="kk">/</c> en <hi rend="italics">als</hi> gij verandert <hi rend="italics">anders</hi> als schilder worden<c type="kk">/</c> zou ik zoo vreezen in ’t eind het er toch van komen moest &amp; intusschen ’t al weer bezwaarlijker was<c type="kp">_</c> En zou het dan niets zijn dat gij geheel &amp; al zoudt opfrisschen en U vernieuwen hier<c type="kp">_</c>– Door &amp; door<c type="kk">/</c> weet ge – door en door alles<c type="kk">/</c> alles vernieuwen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Ik kan niet anders schrijven dan ik schrijf<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Gij zijt man van zaken<c type="kk">/</c> juist omdat gij het zijt geloof ik niet gij met prejugé dit een &amp; ander wegwerpen zult. Er zijn toch altijd overal finantieele bezwaren en zorgen<c type="kk">/</c> ontloopen kan men die nergens en in den grond is dit iets solides daar het U tot handwerksman maakt<c type="kp">_</c> Is dat achteruit – neen het is niet achteruit en mij dunkt het is de regte weg<c type="kp">_</c>– Het zou een mannendaad<c type="kk">/</c> een daad die <hi rend="italics">foi</hi> de charbonnier<ptr target="#note-t-6"/> vereischt zijn<c type="kp">_</c> Welnu ik zeg<c type="kk">/</c> heb die foi de charbonnier. Nu kerel<c type="kk">/</c> met een handdruk</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.35" n="35">t. à t.</p>
+
+<p xml:id="p.nl.36" n="36">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.37" n="37">Schrijf maar weer eens heel spoedig<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p xml:id="p.nl.38" n="38">Denk om Barbizon<c type="kk">/</c> die historie is subliem<c type="kp">_</c> Die daar oorspronkelijk begonnen toen ze er kwamen – lang niet allen waren uiterlijk wat ze au fond wel waren<c type="kp">_</c> Het land vormde hen<c type="kk">/</c> zij wisten alleen: in stad deugt het niet<c type="kk">/</c> ik moet naar buiten<c type="kk">/</c> zij dachten<c type="kk">/</c> stel ik me voor: ik moet werken leeren<c type="kk">/</c> iets heel anders<c type="kk">/</c> ja tegenovergestelds worden van wat ik nu ben. Zij zeiden<c type="kk">/</c> nu deug ik niet<c type="kk">/</c> ik ga mij vernieuwen in de natuur. Voor mij zelf redeneer ik ten minste zoo<c type="kk">/</c> en al zou ik n. Parijs gaan als het absoluut moest &amp; ook daar wel wat te doen vinden – oneindig<c type="kk">/</c> oneindig beter vind ik mijn toekomst hier. Theo Uw geval is curieus<c type="kk">/</c> almagtig interessant. Durven – wagen – ja dat moet ge<c type="kk">/</c> foi de charbonnier hebben quand même en malgre<c type="kk">/</c> ja dat moet ge<c type="kp">_</c> Maar denk nu in alle koelbloedigheid over Uw hoogst curieuse positie<c type="kp">_</c>– Ik kan nu niet ten halve spreken kerel – houd het mij ten goede – ik moet het maar zeggen zoo als ’t me voorkomt<c type="kp">_</c>– Ge ziet een weg in den kunsthandel – dat maakt U voor zoover ik mij voorstel tot iets<c type="kk">/</c> om een goede te noemen<c type="kk">/</c> als Wisselingh<c type="kp">_</c>– Ik heb veel respect voor Wisselingh<c type="kk">/</c> ik houd van hem<c type="kk">/</c> al wat ge wilt doch ik zou <hi>zelfs nu nog</hi> tot hem willen zeggen<c type="kk">/</c> kerel wordt nog schilder<c type="kp">_</c> Ge zijt veel te eerlijk voor den tegenwoordigen kunsthandel<c type="kk">/</c> veel te knap &amp;c. Nu is ’t niet den tijd daarvoor<c type="kp">_</c> Als gij nu integendeel <hi rend="italics">meer</hi> doorzet nog<c type="kk">/</c> <hi rend="italics">meer</hi> nog eigen activiteit<c type="kk">/</c> eigen <hi rend="italics">handwerk</hi> zoekt en zegt<c type="kk">/</c> ik aarzel niet<c type="kk">/</c> ik waag het<c type="kk">/</c> ik steek van wal naar “la haute mer”<c type="kk">/</c> direkt krijgt ge een zekeren somberen ernst – iets magtig serieus rijst op van binnen – men kijkt de stille kust aan<c type="kk">/</c> goed<c type="kk">/</c> ze is heel aardig – doch ’t geheim der diepte<c type="kk">/</c> ’t intieme<c type="kk">/</c> serieuse charme van den Oceaan<c type="kk">/</c> van ’t artisten leven – met het <hi>Quelque Chose là-haut</hi><ptr target="#note-t-7"/> er boven<c type="kk">/</c> heeft U te pakken<c type="kp">_</c>– Goed – ge zijt geen Wisselingh meer – ge zijt iets heel anders<c type="kp">_</c>– Gij persoonlijk zijt dat wat het kleine schuitje is in een marine van Jules Dupré<c type="kp">_</c><ptr target="#note-t-8"/> Ge zijt kleiner maar ge zijt grooter – ge zijt artist en ge kunt niets – ja wel<c type="kk">/</c> Uw daad van overgave<c type="kk">/</c> die heeft U reeds veranderd – Uw eigen onmagt of magt doet het hier niet<c type="kp">_</c>– Neen de vernieuwing des levens<ptr target="#note-t-9"/> maakt uw heele natuur anders<c type="kk">/</c> uw gedachten en inzigten anders<c type="kk">/</c> zoo dat gij er liever over zwijgt en werkt. Uw werk is leelijk – goed – laat het leelijk zijn – ’t zal U wel hinderen doch niet ontmoedigen<c type="kp">_</c>– Na een tijd van scharrelen<c type="kk">/</c> ziedaar een krabbeltje met een je ne sais quoi er in – goed<c type="kk">/</c> dat is de voorbode<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Het dobbert – nu denkt ge: ’t zal gaan<c type="kk">/</c> dan denkt ge: ’t zal nooit lukken<c type="kk">/</c> maar hoe langer hoe meer leert gij foi de charbonnier hebben<c type="kk">/</c> dat wordt vaster ook al blijven er momenten van bittere melankolie.</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">De dingen van kunst worden weldra zoo serieus dat wat de menschen er over zeggen een soort ravengekras wordt<c type="kp">_</c>– Tot U spreekt de heide<c type="kk">/</c> naar die stille stem van de natuur luistert gij en de natuur wordt soms wat minder vijandig<c type="kk">/</c> ten laatste zijt ge haar vriend<c type="kp">_</c> Dan is uw werk ook mooi en kalm<c type="kp">_</c> 
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>Maar de natuur vordert een zekere overgave en zij vordert een periode van worstelen met haar.</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Ik kan niet anders<c type="kk">/</c> als ik door en door opregt spreek moet ik zeggen<c type="kk">/</c> Theo wordt schilder<c type="kk">/</c> zie er uit te breken en kom naar Drenthe<c type="kp">_</c> De lui zullen misbaar maken misschien doch gij zult er niet veel van hooren<c type="kk">/</c> 6 uren gaans landschappen van Michel liggen tusschen U en de gewone wereld.</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Gij zoudt wakker worden en als ge opstond U bevinden bij een open boeren turfvuur en een kinderwieg er bij<c type="kp">_</c> Gij zoudt daar beter denken en het <hi rend="italics">anche io</hi> van Correggio voelen – ik ben ook een schilder.<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">ze zouden zeggen<c type="kk">/</c> ge zijt het niet – ge zoudt antwoorden<c type="kk">/</c> zoo – zoo<c type="kp">_</c>– Nu<c type="kk">/</c> <hi rend="italics">als</hi> gij hier waart – ik moet nu niet U na praten maar al mee ’t zelfde zeggen dat gij mij schrijft – als ge hier waart<c type="kk">/</c> ik zou een kameraad hebben en daardoor zou mij het werk beter vlotten. Zonder vrienden zoudt ge toch niet zijn. Rappard zoudt ge spoedig heel veel beter dan vroeger mee in joviaal rapport zijn<c type="kk">/</c> Wisselingh zou U ook trouw blijven – al zou hij U het waarschijnlijk afraden<c type="kp">_</c>– Als ge hier waart ik zou spoediger productief worden<c type="kk">/</c> ik zeg ’t zelfde<c type="kk">/</c> het is voor mij alleen te groot<c type="kk">/</c> ik durf het haast alleen niet aan<c type="kp">_</c> Ik moet een persoon hebben om mee te overleggen<c type="kp">_</c> Die weet wat een schilderij is<c type="kp">_</c> Wat mij te Parijs ’t meest aantrekt<c type="kk">/</c> waar ik ’t meest aan hebben zou voor mijn vooruitgang<c type="kk">/</c> is toch het zamenzijn met U<c type="kk">/</c> het wrijving hebben van gedachten met iemand die weet wat een schilderij is<c type="kk">/</c> die het raisonable van het zoeken begrijpt. Omdat gij te Parijs zijt vind ik Parijs goed en als ik zoo minder alleen was zou het me beter vlotten<c type="kk">/</c> <hi rend="italics">zelfs</hi> daar. Genoeg hierover voor ’t moment<c type="kp">_</c> Ik zeg niet dat het te doen zou zijn als wij ons boerenbrood niet betalen konden en onze werkplaats<c type="kp">_</c> Doch met dat wat ik noem als minimum zou ik voor mij de onmogelijkheid zeer gedecideerd doorschrappen.</p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">Ik heb een eenvoudig plan voor mij zelf<c type="kk">/</c> ik ga naar buiten en maak wat me frappeert<c type="kk">/</c> laat mij doortrekken van heilucht<c type="kk">/</c> geloof ik zelf over een tijd frisscher<c type="kk">/</c> nieuwer<c type="kk">/</c> beter zal zijn<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Toe kerel<c type="kk">/</c> kom mee schilderen op de hei<c type="kk">/</c> ’t aardappelveld<c type="kk">/</c> kom eens mee achter den ploeg en den schaapherder loopen – kom mee in ’t vuur kijken – laat U eens doorwaaien door den storm die over de hei waait<c type="kp">_</c> Breek er uit<c type="kp">_</c> Ik weet de toekomst niet<c type="kk">/</c> hoe die anders zou zijn of niet<c type="kk">/</c> of alles ons voor den wind zou gaan<c type="kp">_</c> Maar ik kan toch niet anders spreken<c type="kp">_</c> Zoek het niet te Parijs<c type="kk">/</c> zoek het niet in Amerika<c type="kk">/</c> dat is alles hetzelfde<c type="kk">/</c> precies eeuwig ’t zelfde. Verander inderdaad<c type="kk">/</c> zoek het op de hei<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Gegroet<c type="kk">/</c> schrijf spoedig<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.47" n="47">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.48" n="48">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Now I’ve already written about it once, I’ve thought about it again since then, out on the heath. The same thing I’ve already thought about many times.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Both among the old and among the modern painters there’s the constantly recurring phenomenon of two brothers who are painters, whose work diverges less than it runs <hi rend="italics">parallel</hi>. They’re very different, yet complement each other perfectly. Take the Ostades, <rs type="person" ref="bio.xml#_1261">Adriaan</rs> and <rs type="person" ref="bio.xml#_1260">Isaac</rs>. Anyway, you know very well, of course: a multitude of cases. The <rs type="person" ref="bio.xml#_1016 bio.xml#_1017">Van Eyck</rs>s as well. And <rs type="person" ref="bio.xml#_899">Jules</rs> and <rs type="person" ref="bio.xml#_951">Emile Breton</rs> in the present day, to mention just a few.</p>
+<p rend="indent" xml:id="p.en.4" n="4">And I’ve already thought so very often that it must be so almighty pleasant to work together, and both could be so productive for the very reason that one supports the other and many melancholy times disappear. I can’t repeat to you enough, old chap — one is just <hi rend="italics">beginning</hi> in one’s thirtieth year. Look at the history of those people; even many of them who painted from an early age only change then, only become themselves then. I just want you to consider these things. Now I know that one is faced with the question — bread.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I don’t think it wrong, but quite right to reason: I have to eat, live somewhere.</p>
+<p rend="indent" xml:id="p.en.6" n="6">All right, fine, but there’s one thing I ask everyone who says, I don’t have the means — that question is: My friend, what are your demands, how high do you set your standard? Is your character such that you think the same about it as <rs type="person" ref="bio.xml#_971">Corot</rs>, say, who wasn’t embarrassed, if he could dine out, to buy a loaf from the baker and eat it in the fields?<ptr target="#note-t-1"/> In short, managing to make do and not clinging in the least to life’s routine.</p>
+<p rend="indent" xml:id="p.en.7" n="7">This is precisely what you are <hi rend="italics">au fond</hi>, and you would adapt perfectly to a host of things. And even if the question of ‘bread’ hasn’t been resolved, it has been largely cleared up.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">When I think now about the possibility or impossibility of your coming here, now or later, and start working it out, then I come to the conclusion that together we’d need <hi rend="italics">little</hi> more or <hi rend="italics">no</hi> more than I alone. And besides, for myself I firmly believe that I would receive stimulation from you in so many things, would find support by talking and discussing things with you, friction of ideas &amp;c., that I would be able to work better.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Now not a day passes, so to speak, but that I make one thing or another. I can’t help but make progress precisely through learning by doing; every drawing one makes, every study one paints is a step. It’s true that it’s like going along a road, one can see the steeple in the distance, but the land undulates, so that when one thinks one is there, there’s another stretch that one didn’t see at first and which is added on. However, one does get nearer. In a while, longer or shorter, I don’t know how long, I’ll reach a point where I start selling. Very well, once I’ve reached that point, it won’t be by halves for I don’t do things by halves. And I’m doing different things at the same time; I’ll have more than one string to my bow, and hence more than one arrow too. So you see what I for my part can throw into the ‘bread’ gulf. Things can change for me, and if I’m still not selling now, with all my hard graft — I repeat, that can change.</p>
+<p rend="indent" xml:id="p.en.10" n="10">We’d <hi rend="italics">have</hi> to have, let’s say, 150 francs a month as a minimum, preferably 200.</p>
+<p rend="indent" xml:id="p.en.11" n="11"> Credit would have to be found for that, not without a security, but that security would be our work.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Let’s say that we’d have to work for another 2 years before we start to earn quickly, and more than the outgoings, so that we can pay off the debt.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">200 francs a month over 2 years is 24 x 200 francs = 2,400 francs. Let’s call it 1,500 guilders.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">The guarantee of this — I’m talking now about you and me working together — is that we’ll already have thrown a lot into it ourselves and have laid a certain foundation. What I can do, I can do, some aspects of drawing, yes and even some aspects of painting are firmly ingrained in me, and not in the least coincidentally but acquired through honest work. I say, yet another guarantee that we aren’t just talking hot air.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Listen Theo, I wouldn’t be able to talk to you if you didn’t have a certain self-confidence, a certain self-knowledge. I may already have told you before that, <hi rend="italics">au fond</hi>, you’re an artist, as time goes by that feeling gets stronger and stronger in me. You’ll say ‘I can’t make anything’ — well of course you can’t <hi rend="italics">now</hi>, but just work for a year, wait till the initial things have become a little clearer, and you’ll feel with the greatest serenity that, yes, perhaps not everyone can become a painter through his own hard graft if he doesn’t have a certain turn of mind, but for yourself you would discover that you really do have that turn of mind of reflection, of thinking and analyzing, of <hi rend="italics">feeling</hi> the beauty in nature, and that you therefore can be an artist, because you have a desire to work and energy, although they’re now going in another direction, so that nothing can be left for art. But were that same desire to work to be the driving force behind your feeling for beauty, the result would be a true painter.</p>
+<p rend="indent" xml:id="p.en.16" n="16">I’ll just return briefly to the ‘bread’ question. A lot of things that people say can’t be done actually can.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">Let me just suppose for a moment that you were at a point where you had to change — (you aren’t at that point yet, I’m just supposing it for a moment). Then you could get a position in another firm. Very well, but your more distant future, not the foreground but the background, the horizon, is that bright? It seems to me to be very much in darkness.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Take, similarly, the more distant future if you become a painter; the darkness isn’t there but it’s close by, right in the foreground.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Your own diligence can make you a painter, and other people won’t be able to stop you, but in the art business your own diligence may well not be the article that certain bosses, even new ones, might require, particularly at times when they themselves have got the wind up. With all your own diligence you could end up like <rs type="person" ref="bio.xml#_821">Wisselingh</rs>, who’s also very diligent and was with G&amp;Cie.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.20" n="20"> I said many things that people say can’t be done actually can be when you come down to it. Why shouldn’t we be able to live with <rs type="person" ref="bio.xml#_526">Pa</rs> if circumstances meant that we <hi rend="italics">had to</hi>? I don’t say for nothing, but in the event that we couldn’t get as much credit as we’d need to last out here in Drenthe. But never mind that and concentrate on the former. We’d have a hard struggle, but the pleasure of being together, living together in this inexpressibly beautiful nature, above all the consciousness of being <hi rend="italics">two craftsmen</hi>, old chap, how almighty pleasant it would be. So almighty pleasant that I scarcely dare think of it and yet can’t help myself, although that happiness seems too tremendous to me, for you as well as for me myself, since we aren’t accustomed to having <hi rend="italics">pleasure</hi> in our lives, and feel as if that were more for other people — not for us. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.21" n="21"> We’d have to have 1,500 guilders credit. I don’t know where and how it would be possible to come by it. I’ll work out for you what it would buy. We’d make an arrangement for 2 years with the man here, if necessary pay a sum in advance, I think that he’d do it for 1,000 guilders, give us both food for those two years, let us this room I’m living in now; in short, we’d be free of all domestic cares for 2 years and could work in peace and quiet.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Two years is a long time, is all you’ll need in the circumstances to reach a certain level. We’d then have enough left over to lay in a big batch of paint, to set ourselves up properly.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Few things could then upset us or divert us from our plan, or anything else. Then we <hi rend="italics">must</hi> and then we can. </p>
+<p rend="indent" xml:id="p.en.24" n="24">We’ll have assured our lives as far as food and shelter are concerned, and can no longer go back but must, must, must go forward and win.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">As for you, I would think that you must do other than I did. Mine is in the past, I did what I did up to today, but I wish above all that you would start painting straightaway; <hi rend="italics">I do know what you’d want to make here</hi>. I would like <hi rend="italics">you</hi> to get down straightaway to landscapes conceived in the spirit of <hi rend="italics"><rs type="person" ref="bio.xml#_1228">Michel</rs></hi>, which I see over and over again, wholly and utterly Michel, <hi rend="italics">that</hi> is absolutely what it is here. I’m pretty sure I would be able to help you on the way. Time will tell what you want later but, as I say, I believe I’d be able to help you on the way because I’ve been tackling things in that genre myself in the last few days; I don’t pretend that they’re Michels, but I do dare say that once you’ve gone that far you’ll find your own way from there. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">For my part, <hi rend="italics">particularly if you were here</hi>, I would concentrate more and more on the figure. I’ll just scribble down for you the landscapes I have on the easel.<ptr target="#note-t-5"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">You see here the genre of studies that I’d like you to tackle straightaway. To learn to take a broad view of the landscape in its simple lines and contrast of light and shade. I saw the top one today, was wholly and utterly <rs type="person" ref="bio.xml#_1228">Michel</rs>. That earth was superb in reality. I don’t think my study is mature enough yet, but the effect made an impression on me, and as far as light and shade are concerned it was as I draw it here for you.
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.30" n="30">The bottom one, with a little delicate green wheatfield in the foreground and withered grasses behind the cottage and stacks of peat, is another glimpse of the heath, and the sky very light. You see, what I’m getting at is that you ought to start in that genre, and would do well from the outset, it seems to me, definitely not to draw exclusively.</p>
+<p rend="indent" xml:id="p.en.31" n="31">I mean everything I write to you here in absolute, absolute earnest, I’ve already thought about it for so long. </p>
+<p rend="indent" xml:id="p.en.32" n="32">And wouldn’t have spoken about it if everything had remained well at G&amp;Cie, but now, in the circumstances, it’s only because of my own wretched finances that I don’t say even more decidedly, come here straightaway. Otherwise I wouldn’t say anything more than that. The country is superb, superb, everything calls out to you: paint! So distinctive and so varied. Look, old chap, however things go, aren’t there always financial difficulties everywhere, and where are they less than here, and where or how on earth can a time of struggle lead to a more permanent peace? To a great peace that no one can disturb. For myself, I can say no more than that I’m willing to pledge all my own studies as security for the repayment of what we absolutely need for the first two years. What’s more, we don’t need all the money at once. I think it must be possible to find it. I suggest the minimum because both you and I would arrange things very economically.</p>
+<p rend="indent" xml:id="p.en.33" n="33">Now, as far as I’m concerned, I have a lot of plans, but for myself I do wish that I could spend a hundred guilders to improve my equipment. And I wish that I knew for certain that I would be able to be here for two years, say, come what may. At the moment I have so little security for the future, and I wish that I knew for sure that I wouldn’t have to leave here again in a while. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.34" n="34">The plan I’m just setting out here can be changed. It seems to me that the fundamental point remains that we must manage things for two years such that we can have peace. Once the two years are up, I’ll have reached a point where I’ll be earning regularly, and I hope I’ll have regular work on such conditions that both you and I could continue in the same way. The plan is simple enough. There would be talk about you, too, but there would be 6 hours’ walking through <hi rend="italics"><rs type="person" ref="bio.xml#_1228">Michel</rs>s</hi> between the miserable little town of Hoogeveen and you, so you wouldn’t be in the least bit bothered by it, would you? You would be done with all of it, and by the time you’re 30 even the house of Goupil would seem to you to be something out of a dream, and you wouldn’t understand how you were once the boss on the boulevard and were treated civilly, always civilly by <hi rend="italics">M. l’administrateur général.</hi> About my coming to Paris, oh, it’s a roundabout way, it seems to me, although if it’s more convenient, very well — but it’s so wholly and entirely bound up with the change you make, and <hi rend="italics">if</hi> you change <hi rend="italics">other</hi> than becoming a painter, I really fear that it would nevertheless have to come to that in the end, and meanwhile it would have become even more problematic. And would it then not be something for you to refresh yourself and renew yourself wholly and entirely here. Through and through, you know, renew everything, everything, through and through.</p>
+<p rend="indent" xml:id="p.en.35" n="35">I cannot write other than as I write.</p>
+<p rend="indent" xml:id="p.en.36" n="36">You’re a man of business; precisely because that’s what you are I don’t believe you’ll reject all this out of prejudice. After all, there are always financial difficulties and concerns, one can’t escape them anywhere, and fundamentally this is something solid, since it will make you into an artisan. Is that a backward step? No, it isn’t a backward step, and it seems to me that it’s the right way. It would be the act of a man, an act that calls for collier’s <hi rend="italics">faith</hi>.<ptr target="#note-t-6"/> Well then, I say, have that collier’s faith. Now, old chap, with a handshake</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.37" n="37">Ever yours</p>
+<p xml:id="p.en.38" n="38">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">Do write again very soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.40" n="40">
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p xml:id="p.en.41" n="41">Think of Barbizon, that’s a wonderful story. The ones who originally started there when they got there – by no means all of them were outwardly what they really were <hi rend="italics">au fond</hi>. The country shaped them, all they knew was: it’s no good in the city, I must go to the country; I imagine they thought, I must learn to work, become something entirely different, yes, the opposite of what I am now. They said, I’m no good now, I’m going to renew myself in nature. At least, that’s how I reason, and although I’d go to Paris if it was absolutely necessary, and also find something to do there — I believe my future here is infinitely, infinitely better. Theo, your case is curious, almighty interesting. Dare — risk — yes, that’s what you must do; have collier’s faith all the same and even so, yes, you must have. But think now quite coolly about your highly curious position. I can’t mince my words now, old chap — don’t hold it against me — I just have to say it as it seems to me. You see a way in the art trade — as far as I can see that makes you something like <rs type="person" ref="bio.xml#_821">Wisselingh</rs>, to mention a good man. I have great respect for Wisselingh, I like him, what you will, but <hi>even now</hi> I’d like to say to him, old chap, become a painter even now. You’re much too honest for the present-day art trade, much too clever &amp;c. Now is not the time for it. If, on the contrary, you now persevere even <hi rend="italics">more</hi>, seek your own diligence, your own <hi rend="italics">craft</hi> even <hi rend="italics">more</hi> and say, I won’t hesitate, I’ll risk it, I’ll push off from the shore into the open sea, you’ll get a certain sombre seriousness straightaway — something mightily serious rises up from inside — one looks at the calm shore, very well, it’s very pleasant — but the secret of the deep, the intimate, serious charm of the Ocean, of the artist’s life — with the <hi>Something on high</hi><ptr target="#note-t-7"/> above it — has taken hold of you. Very well — you aren’t a Wisselingh any more — you’re something very different. You personally are what the little boat is in a seascape by <rs type="person" ref="bio.xml#_986">Jules Dupré</rs>.<ptr target="#note-t-8"/> You are smaller but you are bigger — you’re an artist and you can do nothing — sure enough, your act of submission has already changed you — your own impotence or power is irrelevant here. No, the renewal of life<ptr target="#note-t-9"/> makes your whole nature different, your thoughts and insights different, so that you would rather keep silent about it, and work. Your work is ugly — fine — let it be ugly — it will annoy but not discourage you. After scrabbling around for a while, lo and behold a scratch with a <hi rend="italics">je ne sais quoi</hi> in it — fine — that’s the portent.</p>
+<p rend="indent" xml:id="p.en.42" n="42">It bobs up and down — now you think: it will happen, then you think: it will never work, but the longer you go on the more you’ll learn to have collier’s faith. It will become more resolute even if there are still moments of bitter melancholy.</p>
+<p rend="indent" xml:id="p.en.43" n="43">Matters of art soon become so serious that what people say about it is like the croaking of ravens. The heath speaks to you, you listen to that still voice of nature, and nature sometimes becomes a little less hostile; ultimately you are her friend. Then your work is beautiful and calm too.
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> But nature demands some kind of submission, and she demands a period of wrestling with her.</p>
+<p rend="indent" xml:id="p.en.44" n="44">I can’t do anything else, if I speak honestly through and through I have to say, Theo, become a painter, find a way to break out and come to Drenthe. People may make a fuss, but you won’t hear much of it, a 6-hour walk through <rs type="person" ref="bio.xml#_1228">Michel</rs> landscapes lies between you and the everyday world.</p>
+<p rend="indent" xml:id="p.en.45" n="45">You would awaken, and when you got up you would find yourself by a peasant’s open peat fire with a cradle beside it. You would think better there and feel <rs type="person" ref="bio.xml#_961">Correggio</rs>’s <hi rend="italics">anche io</hi> — I too am a painter.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.46" n="46">They’d say, you aren’t — you would reply, well, well. Now, <hi rend="italics">if </hi>you were here — I mustn’t echo you now, but all things considered say the same as you write to me — if you were here, I would have a comrade, and as a result my work would make better progress. You wouldn’t be without friends. You would soon have a very much more jovial rapport with <rs type="person" ref="bio.xml#_1306">Rappard</rs> than before, <rs type="person" ref="bio.xml#_821">Wisselingh</rs> would also remain loyal to you — although he’d probably advise you against it. If you were here, I would become productive sooner, I say the same, it’s too big for me on my own, I scarcely dare attempt it on my own. I must have someone to discuss things with. Who knows what a painting is. The thing that attracts me most about Paris, that would be of most use in my progress, is actually being with you, having that friction of ideas with someone who knows what a painting is, who understands the reasonableness of the quest. I think Paris is all right because you’re in Paris, and if consequently I were less alone I would get on faster, <hi rend="italics">even </hi>there. Enough about this for the moment. I don’t say that it could be done if we couldn’t afford to pay for our coarse bread and our workplace. But with what I mentioned as the minimum, I for one would very definitely cross off the impossibility.</p>
+<p rend="indent" xml:id="p.en.47" n="47">I have a simple plan for myself; I’ll go out and make whatever strikes me, fill my lungs with heathland air, believe that in a while I’ll be fresher, newer, better myself.</p>
+<p rend="indent" xml:id="p.en.48" n="48">Come on, old chap, come and paint with me on the heath, in the potato field, come and walk with me behind the plough and the shepherd — come and stare into the fire with me — just let the storm that blows across the heath blow through you. Break out. I don’t know the future, how it could be different or not, whether everything will go well for us. But all the same I can’t speak otherwise. Don’t look for it in Paris, don’t look for it in America, it’s all the same, always exactly the same. Change indeed, look for it on the heath.</p>
+<p rend="indent" xml:id="p.en.49" n="49">Regards, write soon, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.50" n="50">Ever yours,</p>
+<p xml:id="p.en.51" n="51">Vincent </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">From the content of the letter it appears that Van Gogh returns here for the first time to the issue of Theo’s becoming a painter, so that the two of them would go forward together as two craftsmen. This means that the letter must have been written not too long after <ref target="let393.xml">letter 393</ref>. After that letter, however, Van Gogh wrote first about his trip to Hoogeveen (on Friday, 12 and on or about Sunday, 14 October; <ref target="let394.xml">letters 394</ref> and <ref target="let395.xml">395</ref>). The present letter must moreover precede <ref target="let397.xml">letter 397</ref> because Van Gogh included a letter sketch in that one, noting ‘This was a very different field from the one I scribbled for you yesterday, but this is the singular thing about it here, always precisely the same and yet just that variation’ <ref target="let397.xml#l-203">(ll. 203-205)</ref>. We suggest that he is referring there to the first sketch in the present letter. On these grounds we have dated the letter on or about Monday, 15 October 1883.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tensions between Theo and his employers <ref target="let392.xml">(392)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s idea of going to America <ref target="let392.xml">(392)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This anecdote was most probably taken from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Corot, souvenirs intimes</hi>, which contains an account of how <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Corot</rs> would tell his would-be pupils that they would sometimes have to be content with very little to eat: ‘See if you can dine on a big scrap of bread bought from the baker at sundown, as has happened to me more than once. The next morning, I would look at myself in the mirror, feeling my cheeks, – they were the same as the previous day; – the regime is therefore not so risky, and I recommend it to you, if need be.’ (Voyez si vous pouvez dîner avec un gros chiffon de pain acheté le soir chez le boulanger à soleil couché, comme cela m’est arrivé plus d’une fois. Le lendemain matin, je me regardais dans le miroir en tâtant mes joues, – elles étaient comme la veille; – le régime n’est donc pas si dangereux, et je vous le recommande, au besoin.) See Dumesnil 1875, p. 53.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>24 x 200 francs makes 4800 francs, which at that time was equivalent to about 2400 <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">guilders </hi>(and not francs as Van Gogh writes). The sum that Van Gogh subsequently rounds off to ‘1500 guilders’ must therefore have been the sum <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">per year </hi>– 1200 guilders.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh believed that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_821">Elbert Jan van Wisselingh</rs> had difficulty keeping going as an independent art dealer in the unfavourable climate in the art trade in Paris; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let393.xml">letters 393</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let397.xml">397</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let398.xml">398</ref>; however, very little is known about the two years that Van Wisselingh spent in Paris. Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let331.xml#n-3">letter 331, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh added this last sentence (‘We’ll ... win’) later.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Letter sketch B, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Farm with stacks of peat</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_117">F - / JH 422</rs>) is after the painting of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2448">F 22 / JH 421</rs>. The location, like that in the unknown painting of a ploughman after which Van Gogh made letter sketch A, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ploughman with a stooping woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_116">F - / JH 422</rs>), may have been Heerendijk, in the distance, opposite the lodging-house. See Dijk and Van der Sluis 2001, pp. 189, 224-227.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>See for ‘collier’s faith’: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let286.xml#n-17">letter 286, n. 17.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>See for this expression: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let288.xml#n-15">letter 288, n. 15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+      
+<p>Cf. in this context <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_986">Dupré</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Crotoy</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1763">Fisherman’s boat and small fishing vessels</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let066.xml#n-7">letters 66, n. 7</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let98.xml#n-17">98, n. 17.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Cf. Rom. 6:4, Rom. 8:1-4 and Rom. 12:2.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_961">Correggio</rs>’s saying ‘anch’io sono pittore’: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let214.xml#n-3">letter 214, n. 3.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

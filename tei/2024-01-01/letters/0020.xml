@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Friday, 13 December 1872.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let002"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b2 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>002</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>2</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>002</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1872-12-13">Friday, 13 December 1872</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0002 r" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000002_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000002_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0002 v" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000002_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000002_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">den Haag 13 December 1872.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Dat was een goed nieuws, dat ik daar uit Pa’s brief las.<ptr target="#note-t-1"/> Van harte wensch ik er je geluk mede.–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik twijfel niet of je zult er wel pleizier in krijgen, het is zoo’n mooie zaak.–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Het zal een heele verander<supplied>ing</supplied> voor je zijn.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Het doet mij zooveel genoegen dat wij nu beiden in het zelfde vak &amp; in de zelfde zaak zijn;<ptr target="#note-t-2"/> wij moeten maar druk met elkaar correspondeeren.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik hoop zoo dat ik je nog zien zal, voor je vertrek, wij zullen dan nog veel te bepraten hebben.–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik geloof dat Brussel wel een heel pleizierige stad is maar het zal toch vreemd zijn in het begin.–</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Schrijf mij in alle geval eens <supplied>sp</supplied>oedig. </p>
+
+<p rend="indent" xml:id="p.nl.10" n="10"><supplied>En</supplied> nu adieu, dit is maar een enkel <supplied>wo</supplied>ordje in haast, maar ik moest <supplied>je</supplied> toch eens zeggen dat het mij zooveel genoegen deed. </p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Heb het goed &amp; geloof mij steeds</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.12" n="12">je liefh<c type="kp">_</c> broêr</p>
+
+<p xml:id="p.nl.13" n="13">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.14" n="14">Ik beklaag je dat je iederen dag naar Oisterwijk moet in dit hondenweer. Groeten van de familie Roos.–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">The Hague, 13 December 1872.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">That was good news that I just read in <rs type="person" ref="bio.xml#_526">Pa</rs>’s letter.<ptr target="#note-t-1"/> My hearty congratulations.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I don’t doubt that it will give you pleasure, it’s such a fine firm.</p>
+<p rend="indent" xml:id="p.en.5" n="5">It will be a big change for you.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m so glad that both of us are now in the same line of business, and in the same firm;<ptr target="#note-t-2"/> we must correspond often. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I hope so much to see you before you leave, we’ll have a lot to talk about.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I believe that Brussels is a very pleasant city, though it will seem strange at first.</p>
+<p rend="indent" xml:id="p.en.9" n="9">At all events, write to me soon.</p>
+<p rend="indent" xml:id="p.en.10" n="10">And now adieu, these are only a few words written in haste, but I just had to tell you how very glad I was.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I wish you well, and believe me ever,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">Your loving brother</p>
+<p xml:id="p.en.13" n="13">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">I pity your having to go to Oisterwijk every day in this beastly weather. Regards from <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘den Haag 13 December 1872.’</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The news was that on 1 January 1873 Theo was to start work at the Brussels branch of the art dealer Goupil &amp; Co., 58 rue Montagne de la Cour (Hofbergstraat).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Gogh worked as an assistant at the Hague branch of Goupil &amp; Co. located at Plaats 14. </p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Monday, 13 February 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let204"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b195 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>204</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>174</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>203</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-02-13">Monday, 13 February 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0195" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000222_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000222_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000222_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0195" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000222_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000222_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000222_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">13 Feb. 82</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Ofschoon ik wel eenigzins een brief van U verwacht dezer dagen zoo schrijf ik toch weer eens.–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik hoorde een &amp; ander aangaande U van den Heer Tersteeg toen die terug kwam uit Parijs.– Hij zeide mij dat het U goed ging &amp; scheen nog al in zijn schik over zijne reis. Toen ik bij hem was had ik een paar teekeningen &amp; daarvan zeide hij dat ze beter waren dan de vorigen &amp; zeide mij nog dat ik eens een paar kleine weer maken moest. Daar ben ik nu aan bezig<c type="kp">_</c> En ook heb ik gewerkt aan een nieuwe penteekening van een oud vrouwtje dat zit te breien<c type="kp">_</c><ptr target="#note-t-1"/> En ik geloof dat die ook beter is dan die van dezen zomer<c type="kk">/</c> ten minste er is meer toon in. Als ik eens een paar penteekeningen heb die terdeeg raak zijn dan geloof ik daar nog een liefhebber voor te weten.–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Ik heb ook dezer dagen eens aan C.M. geschreven dat ik hier een atelier had gehuurd &amp; hoopte dat wanneer hij eens te s’Hage kwam hij mij dit zou doen weten of eens zou komen kijken. Oom Cent heeft mij dezen zomer ook gezegd dat als ik eens een teekening had<c type="kk">/</c> wat kleiner dan die van dezen zomer<ptr target="#note-t-2"/> en meer aquarel<c type="kk">/</c> ik die maar eens zenden moest<c type="kk">/</c> dan zou hij die van me nemen. Misschien is de tijd werkelijk niet ver meer af dat ik door mijn werk wat geld in den zak zal krijgen dat ik hoog noodig heb<c type="kk">/</c> juist om nog serieuser de zaak te kunnen aanpakken.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Als gij het kunt te weten komen moet gij toch mij eens mededeelen wat voor soort teekeningen men aan de illustraties<ptr target="#note-t-a"/> zou kunnen kwijt raken. Mij dunkt ze moeten daar penteekeningen van typen uit het volk kunnen gebruiken &amp; ik zou er zoo graag op beginnen te werken om iets te maken dat geschikt was voor reproductie. Ik denk niet dat alle teekeningen direkt op de blokken worden geteekend<c type="kk">/</c> er zal wel een middel bestaan om op het blok een facsimilé te krijgen.<ptr target="#note-t-3"/> Evenwel ik weet er het regte niet van.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Soms verlang ik er zoo erg naar om U eens te zien &amp; te spreken<c type="kk">/</c> zoudt gij nog in lang<ptr target="#note-t-b"/> niet in Holland komen. Pa had U geloof ik nog half &amp; half op zijn verjaardag<ptr target="#note-t-4"/> verwacht.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Het deed mij veel pleizier dat de Heer Tersteeg de teekeningen wat beter vond, nu<c type="kk">/</c> ik begin nu ook weer wat t’huis te raken met mijn model en dat is juist de reden waarom ik er nu nog mee moet doorzetten.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">In de twee laatste studies heb ik het karakter veel meer gevat<c type="kk">/</c> dat hebben mij allen gezegd die ze zagen. Tegenwoordig ga ik nog al eens teekenen met Breitner<c type="kk">/</c> een jong schilder die in kennis is met Rochussen zooals ik met Mauve.<ptr target="#note-t-5"/> Hij teekent heel handig en heel anders weer dan ik, en wij maken dikwijls zamen typen in de volksgaar<c type="shy">-</c>keuken of de wachtkamer &amp;c.<ptr target="#note-t-6"/> Hij komt nog al eens bij mij op ’t atelier om houtgravures te zien &amp; ik bij hem ook. Hij heeft het atelier dat Apol vroeger had bij Siebenhaar.<ptr target="#note-t-7"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.10" n="10">verl. Week ben ik op een Kunstbeschouwing geweest op Pulchri waar schetsen waren van Bosboom en van Henkes.<ptr target="#note-t-8"/> Zeer mooi; van Henkes waren er verscheiden grootere figuren dan men gewoonlijk van hem ziet. Hij moest die maar meer maken dunkt me.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Weissenbruch is ook eens bij me geweest.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik kijk al iederen dag uit naar een brief van U want ik hoop dat gij mij dezer dagen wat zult sturen.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Wij moeten het nog een tijdje uithouden kerel, en volhouden<c type="kk">/</c> gij zoowel als ik en dan zullen we er allebei nog wel eens pleizier van hebben ook.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik ben toch zoo blij dat ik het figuur doorgezet heb, tot dus ver. Als ik landschap alleen gemaakt had<c type="kk">/</c> ja dan zou ik misschien nu reeds iets maken dat voor een prijsje te verkoopen was doch dan zou ik later toch weer vast raken. Terwijl het figuur wel omslagtiger is en een meer gecompliceerde zaak doch het is solidener, geloof ik op den langen duur.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">de <hi rend="italics">Bock</hi> kwam van middag eens hier<c type="kk">/</c> juist terwijl ik naar ’t model zat te werken &amp; toen hij ’t model zag<c type="kk">/</c> ja toen begon hij te zeggen dat hij toch ook wel trek zou hebben om figuur te gaan teekenen doch hij doet het maar niet.– Hij heeft echter onlangs een mooie teekening gemaakt.<ptr target="#note-t-9"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.16" n="16">In Uw vorigen brief hebt gij mij iets gezegd omtrent de kwestie dat gij voor den inventaris klaar was geen geld kondt opnemen.<ptr target="#note-t-10"/> Maar mogt gij het niet hebben wees dan zoo goed en schrijf er de Heer Tersteeg direkt over want ik heb niet meer dan een gulden of drie over en het is reeds bijna half Februarij.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Dus wacht ik in alle geval een brief van U dezer dagen.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Ik geloof dat ik in de laatste teekeningen de proportie veel beter heb dan in de vorige en dat is juist hetgeen mij de ergste fout toescheen in mijn teekeningen tot nog toe doch daarin komt goddank verandering en dan ben ik voor niets meer bang.–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">à dieu Theo, schrijf spoedig<c type="kk">/</c> ontvang in gedachten een hartelijken handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.20" n="20">t. à t.</p>
+
+<p xml:id="p.nl.21" n="21">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">13 Feb. 82</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Even though I’m rather expecting a letter from you one of these days, I’ll write again anyway.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I heard a few things about you from <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> when he returned from Paris. He told me that you were doing well, and he seemed to be rather pleased with his trip. When I went to see him I had a couple of drawings, and he said that they were better than the last ones and told me that I should again make a couple of small ones. I’m working on those now. And I’ve also been working on a new pen drawing of an old woman knitting.<ptr target="#note-t-1"/> And I believe it’s better than last summer’s, at least it has more tone. When I have a couple of pen drawings that have turned out quite well, I believe I know an art lover who will take them.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I also wrote to <rs type="person" ref="bio.xml#_422">C.M.</rs> the other day to say I’d rented a studio here, and hoped that when he came to The Hague he’d let me know, or come and have a look. <rs type="person" ref="bio.xml#_423">Uncle Cent</rs> also told me last summer that if I have a drawing, a little smaller than those of last summer<ptr target="#note-t-2"/> and with more watercolour, I should simply send it and he would take it. Perhaps the time will soon come when my work will put some money in my pocket, which I’m badly in need of, precisely in order to tackle things more seriously.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">If you can find out about it, you must tell me what kind of drawings one might be able to sell to the illustrated magazines. It seems to me they could use pen drawings of types of the people, and I’d like so much to start working on them, in order to make something suitable for reproduction. I don’t think that all drawings are drawn directly on the blocks, there must be some means of getting a facsimile onto the block.<ptr target="#note-t-3"/> Though I don’t rightly know.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Sometimes I long so very much to see you and talk to you, will it be a long time before you come to Holland? I believe <rs type="person" ref="bio.xml#_526">Pa</rs> half expected you to come for his birthday.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">I was very glad that <rs type="person" ref="bio.xml#_787">Mr Tersteeg </rs>found the drawings a little better, well, I’m also beginning to feel more at home with my model, and that’s precisely the reason why I must continue with her now.</p>
+<p rend="indent" xml:id="p.en.9" n="9">In the last two studies I captured the character much better, everyone who saw them said so. At the moment I quite often go to draw with <rs type="person" ref="bio.xml#_903">Breitner</rs>, a young painter who’s acquainted with <rs type="person" ref="bio.xml#_1320">Rochussen</rs> as I am with <rs type="person" ref="bio.xml#_323">Mauve</rs>.<ptr target="#note-t-5"/> He draws very skilfully and very differently from me, and we often draw types together in the soup kitchen or the waiting room &amp;c.<ptr target="#note-t-6"/> He sometimes comes to my studio to look at woodcuts, and I go to see the ones he has as well. He has the studio that <rs type="person" ref="bio.xml#_76">Apol</rs> used to have at <rs type="person" ref="bio.xml#_699">Siebenhaar</rs>’s.<ptr target="#note-t-7"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Last week I went to an art viewing at Pulchri which had sketches by <rs type="person" ref="bio.xml#_884">Bosboom</rs> and <rs type="person" ref="bio.xml#_1083">Henkes</rs>.<ptr target="#note-t-8"/> Very beautiful; there were a number of drawings by Henkes, larger figures than one usually sees from him. He ought to make more of them, I think.</p>
+<p rend="indent" xml:id="p.en.11" n="11"><rs type="person" ref="bio.xml#_1443">Weissenbruch</rs> also came to see me.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I look forward every day to a letter from you, because I hope you’ll send me something one of these days.</p>
+<p rend="indent" xml:id="p.en.13" n="13">We must stick it out for a while, old chap, and persevere, you as well as I, and then we’ll both get pleasure from it sometime.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I’m really very glad that I’ve gone on with the figure so far. If I’d been making only landscapes, perhaps I’d already be making something that would fetch a price, but later on I’d end up getting stuck anyway. Although the figure is more difficult and a more complicated matter, I believe it’s more solid in the long run.</p>
+<p rend="indent" xml:id="p.en.15" n="15">De <hi rend="italics"><rs type="person" ref="bio.xml#_868">Bock</rs></hi> came here this afternoon just as I was working from the model, and when he saw the model he started saying that he’d quite like to draw figures too; all the same, he doesn’t do it. He recently made a beautiful drawing, though.<ptr target="#note-t-9"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">In your last letter you told me something about the matter of your not being able to have any money before the inventory was finished.<ptr target="#note-t-10"/> But if you don’t have it, be so good as to write to <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> about it immediately, because I have only three guilders or so left and it’s already nearly the middle of February.</p>
+<p rend="indent" xml:id="p.en.17" n="17">So at all events I’m expecting a letter from you any day now.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I believe that I’ve got the proportions much better in my last drawings than in the previous ones, and that’s exactly what seemed to me to be the worst fault in my drawings up to now, but that’s changing, thank God, and then I won’t be afraid of anything.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Adieu Theo, write soon, accept in thought a hearty handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">Ever yours,</p>
+<p xml:id="p.en.21" n="21">Vincent </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘13 Feb. 82’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This pen-and-ink drawing is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>In the summer of 1881 Van Gogh usually drew on large sheets, varying in size from c. 30-50 cm x c. 50-60 cm. </p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Illustrated magazines.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh wonders how drawings are transferred to wood-blocks in order to made wood engravings.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘binnenkort’ (soon).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> had celebrated his 60th birthday on 8 February 1882.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_903">George Hendrik Breitner</rs> was one of the most talented pupils of the Dutch history painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1320">Charles Rochussen</rs>. Rochussen advised Breitner to attend classes at the Academy in The Hague. See exhib. cat. Amsterdam 1994-2, p. 24.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_903">Breitner</rs> later revealed the trouble Van Gogh could cause in such situations. According to his own account, Breitner made discreetly small sketches in a sketchbook of modest size, whereas Van Gogh made large drawings, working frantically with a carpenter’s pencil. See exhib. cat. The Hague 1990, pp. 156, 162 (ill.). The surviving drawings, however, bear no traces of this working method. Regarding the soup kitchen, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let200.xml#n-4">see letter 200, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_699">Christiaan Siebenhaar</rs> was a fencing teacher who had a fencing hall at Juffrouw Idastraat 16. Other rooms in this house were rented out as studios. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_903">Breitner</rs> was registered as living at this address in 1882-1883. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adresboek 1882-1883</hi>; exhib. cat. The Hague 1990, p. 156; and Hefting 1970, p. 102 (n. 3).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>It cannot be ascertained which ‘sketches’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_884">Bosboom</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1083">Henkes</rs> were on display at this viewing, which must have taken place on Saturday, 11 February 1882 in the ‘Hofje van Nieuwkoop’ (See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Archief Pulchri</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Archief Hardenberg</hi> in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">GAH</hi>, inv. no. 59.1-479). Henkes is known for his genre pieces situated in middle-class interiors, workshops and factories, as well as for his townscapes.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>It is not known which of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_868">De Bock</rs>’s drawings Van Gogh is referring to here.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Theo’s salary was tied to the sales and profits he made as the manager of the boulevard Montmartre branch. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book</hi> 2002.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

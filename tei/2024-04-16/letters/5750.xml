@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Emile Bernard. Paris, about December 1887.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let575"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>New York</settlement>
+                                        <institution>Thaw Collection</institution>
+                                        
+                                        <idno>The Morgan Library &amp; Museum</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>575</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>B1</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>578</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1887-12">about December 1887</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Emile Bernard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/575_1r/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/575_1r/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/575_1r/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/575_1v/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/575_1v/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/575_1v/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">54 Rue Lepic.<ptr target="#note-t-1"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Mon cher copain Bernard,</p>
+
+<p xml:id="p.fr.3" n="3">je sens le besoin de te demander pardon de t’avoir lâché si brusquement l’autre jour.<ptr target="#note-t-2"/> Ce que par la présente je fais donc sans tarder. Je te recommande de lire les légendes russes de Tolstoï<ptr target="#note-t-3"/> et je t’aurai aussi l’article sur Eug<c type="kp">_</c> Delacroix dont je t’ai parlé.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je suis moi tout de même allé chez Guillaumin<c type="kk">/</c> mais dans la soirée<c type="kk">/</c> et j’ai pensé que peut-être toi ne sais pas son adresse qui est 13 Quai d’Anjou.<ptr target="#note-t-5"/> Je crois que comme homme Guillaumin a les idées mieux en place que les autres et que si tous étaient comme lui on produirait davantage de bonnes choses et aurait moins de temps et d’envie de se manger le nez.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je persiste à croire que, non pas parceque moi je t’ai engueulé mais parceque cela deviendra ta propre conviction, je persiste à croire que tu t’apercevras que dans les ateliers non seulement on n’apprend pas grand chose quant à la peinture mais encore pas grand chôse de bien en tant que savoir vivre<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Et qu’on se trouve obligé d’apprendre à vivre comme à peindre sans avoir recours aux vieux trucs et trompe l’oeil d’intrigants<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je ne pense pas que ton portrait de toi-meme sera ton dernier ni ton meilleur<ptr target="#note-t-6"/> – quoique en somme ce soit terriblement toi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Dites donc – en somme ce que je cherchais l’autre jour à t’expliquer revient à ceci<c type="kp">_</c>– Pour eviter les généralités permets moi de prendre un exemple sur le vif<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Si tu es brouillé avec un peintre<c type="kk">/</c> par exemple avec Signac et qu’en consequence de cela tu dis – si Signac expose là où j’expose je retire mes toiles – et si tu le dénigres<c type="kk">/</c> alors il me semble que tu agis pas aussi bien que tu pourrais agir<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Car il est mieux d’y regarder longtemps avant de juger si categoriquement et de refléchir<c type="kk">/</c> la réflection nous faisant apercevoir à nous-même<c type="kk">/</c> en cas de brouille<c type="kk">/</c> pour notre propre compte autant de torts que notre adversaire et à celui ci autant de raison d’être que nous puissions en desirer pour nous<c type="kp">_</c>–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Si donc tu as deja réflechi que Signac et les autres qui font du pointillé font avec cela assez souvent de très belles choses –</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Au lieu de dénigrer celles-là il faut surtout en cas de brouille les estimer et en parler avec sympathie.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Sans cela on devient sectaire étroit soi-même et l’équivalent de ceux qui n’estiment pour rien les autres et se croient les seuls justes.–</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Ceci s’étend même aux académiciens car prends par exemple un tableau de Fantin Latour – surtout l’ensemble de son oeuvre<c type="kp">_</c>– Eh bien – voila quelqu’un qui ne s’est pas insurgé et est-ce que cela l’empêche<c type="kk">/</c> ce je ne sais quoi de calme et de juste qu’il a<c type="kk">/</c> d’etre un des caracteres les plus indépendants existants<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Je voulais encore te dire un mot pour ce qui regarde le service militaire que tu seras obligé de faire<c type="kp">_</c>–<ptr target="#note-t-8"/> Il faut absolument que tu t’occupes dès à présent de cela<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Directement pour bien t’informer de ce que l’on peut faire en pareil cas<c type="kk">/</c> pour garder le droit de travailler d’abord<c type="kk">/</c> pour pouvoir choisir une garnison &amp;c<c type="kp">_</c> Mais indirectement en soignant ta santé<c type="kp">_</c> il ne faut pas y arriver 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>trop anémique ni trop énervé si tu y tiens à sortir de là plus fort<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Je ne considère pas cela comme un tres grand malheur pour toi que tu sois obligé de partir soldat mais comme une épreuve très grave de laquelle si tu en sors tu en sortiras un très grand artiste<c type="kp">_</c> D’ici là fais tout ce que tu peux pour te fortifier car il te faudra joliment du nerf<c type="kp">_</c> Si pendant cette année tu travailles beaucoup je crois que tu peux bien arriver à avoir un certain stock de toiles<c type="kk">/</c> desquelles on cherchera à t’en vendre<c type="kk">/</c> sachant que tu auras besoin d’argent de poche pour te payer des modèles<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Volontiers je ferai mon possible pour faire que ce que l’on a commencé dans la salle reussisse<ptr target="#note-t-9"/> mais je crois que la premiere condition pour reussir c’est de laisser là les petites jalousies<c type="kk">/</c> il n’y a que l’union qui fait la force<c type="kp">_</c> L’interêt commun vaut bien qu’on y sacrifie l’égoisme<c type="kk">/</c> le chacun pour soi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Je te serre bien la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">54 rue Lepic.<ptr target="#note-t-1"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear old <rs type="person" ref="bio.xml#_831">Bernard</rs>,</p>
+<p xml:id="p.en.3" n="3">I feel the need to beg your pardon for leaving you so abruptly the other day.<ptr target="#note-t-2"/> Which I therefore do herewith, without delay. I recommend that you read <rs type="person" ref="bio.xml#_829">Tolstoy</rs>’s Les Légendes Russes,<ptr target="#note-t-3"/> and I’ll also let you have the article on <rs type="person" ref="bio.xml#_982">E. Delacroix</rs> that I’ve spoken to you about.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I, for my part, did go to <rs type="person" ref="bio.xml#_1065">Guillaumin</rs>’s anyway, but in the evening, and I thought that perhaps you didn’t know his address, which is 13 quai d’Anjou.<ptr target="#note-t-5"/> I believe that, as a man, Guillaumin has sounder ideas than the others, and that if we were all like him we’d produce more good things and would have less time and inclination to be at each other’s throats.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I persist in believing that — not because I gave you a piece of my mind but because it will become your own conviction — I persist in believing that you’ll realize that in the studios not only does one not learn very much as far as painting goes, but not much that’s good in terms of <hi rend="italics">savoir vivre</hi>, either. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> And that one finds oneself obliged to learn to live, as one does to paint, without resorting to the old tricks and <hi rend="italics">trompe l’oeil</hi> of schemers. </p>
+<p rend="indent" xml:id="p.en.6" n="6">I don’t think your portrait of yourself will be your last, or your best<ptr target="#note-t-6"/> — although all in all it’s frightfully you.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Look here — briefly, what I was trying to explain to you the other day comes down to this. In order to avoid generalities, let me take an example from life.</p>
+<p rend="indent" xml:id="p.en.8" n="8">If you’ve fallen out with a painter, with Signac, for example, and if as a result you say: if <rs type="person" ref="bio.xml#_1350">Signac</rs> exhibits where I exhibit, I’ll withdraw my canvases  — and if you run him down, then it seems to me that you’re not behaving as well as you could behave.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Because it’s better to take a long look at it before judging so categorically, and to reflect, reflection making us see in ourselves, when there’s a falling out, as many faults on our own side as in our adversary, and in him as many justifications as we might desire for ourselves. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">If, therefore, you’ve already considered that <rs type="person" ref="bio.xml#_1350">Signac</rs> and the others who are doing pointillism often make very beautiful things with it —</p>
+<p rend="indent" xml:id="p.en.11" n="11">Instead of running those things down, one should respect them and speak of them sympathetically, especially when there’s a falling out.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Otherwise one becomes a narrow sectarian oneself, and the equivalent of those who think nothing of others and believe themselves to be the only righteous ones.</p>
+<p rend="indent" xml:id="p.en.13" n="13"> This extends even to the academic painters, because take, for example, a painting by <rs type="person" ref="bio.xml#_1015">Fantin-Latour</rs> — and above all his entire oeuvre. Well then — there’s someone who hasn’t rebelled, and does that prevent him, that indefinable calm and righteousness that he has, from being one of the most independent characters in existence?</p>
+<p rend="indent" xml:id="p.en.14" n="14">I also wanted to say a word to you about the military service that you’ll be required to do.<ptr target="#note-t-8"/> You must absolutely see to that now.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Directly, in order to inform yourself properly about what one can do in such an event; first to retain the right to work, to be able to choose a garrison, &amp;c. But indirectly, by taking care of your health. You mustn’t arrive there 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> too anaemic or too agitated if you want to emerge from it stronger. </p>
+<p rend="indent" xml:id="p.en.16" n="16">I don’t see it as a very great misfortune for you that you have to join the army, but as a very grave ordeal, from which, if you emerge from it, you’ll emerge a very great artist. Until then, do all you can to build yourself up, because you’ll need quite a bit of spirit. If you work hard that year, I believe that you may well succeed in having a fair stock of canvases, some of which we’ll try to sell for you, knowing that you’ll need pocket money to pay for models.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I’ll gladly do all I can to make a success of what was started in the dining-room,<ptr target="#note-t-9"/> but I believe that the first condition for success is to put aside petty jealousies; it’s only unity that makes strength. It’s well worth sacrificing selfishness, the ‘each man for himself’, in the common interest.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I shake your hand firmly. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh organized an exhibition that was held in November or December 1887. The formulation ‘I’ll gladly do all I can to make a success of what was started in the dining-room’ (<ref target="#l-94">l. 94-95</ref>) seems to imply that the exhibition had now closed, which is why we have dated the letter to around December 1887.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>See for this address: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let569.xml">letter 569</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>It transpires further on in the letter that Van Gogh and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> had had a difference of opinion about the usefulness of a studio training for a painter (Van Gogh felt that there was little an artist could learn in those surroundings), and about Bernard’s attitude towards the Neo-Impressionist <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Paul Signac</rs>. Bernard did not want to exhibit together with Signac. Van Gogh, however, was concerned with a more common interest.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_829">Tolstoy</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_457">A la recherche du bonheur</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let574.xml#n-19">letter 574, n. 19.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This was probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_742">Théophile Silvestre</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_415">Eugène Delacroix. Documents nouveaux</ref></hi> (1864), which Van Gogh also refers to as an article elsewhere. We know that on one occasion he lent it to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let735.xml">see letter 735</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>That was indeed <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Armand Guillaumin</rs>’s address. It had previously been the studio of the painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Charles-François Daubigny</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It is not known which of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>’s self-portraits he is referring to. </p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+    
+<p>In the course of 1887 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_328">Anquetin</rs> had demonstratively distanced themselves from the Pointillism of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs>. They developed a ‘synthetizing’ style that became known as Cloisonnism and was heavily influenced by Japanese printmaking. Line and contour governed their work, and as regards colour they sought the solution in simplified, large areas instead of small dots. Cf. exhib. cat. Toronto 1981 and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let620.xml#n-11">letter 620, nn. 11</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let620.xml#n-12">12.</ref></p>
+
+<p rend="indent">Whereas Bernard rejected the Neo-Impressionists, Van Gogh wanted to involve them with the group of artists who had exhibited together in Restaurant du Chalet: ‘This group, to which he wished to introduce Seurat and Signac, was not to survive; its life was therefore limited to this single presentation’ (Ce groupe auquel il voulait rattacher Seurat et Signac, ne devait pas vivre; son existence se borna donc à cette unique présentation). See Bernard 1994, vol. 1, pp. 241-242. The exhibition in Restaurant du Chalet is mentioned later in the letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-9">see n. 9</ref> below). </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>’s military service was a regular topic of conversation. In 1888 it seemed for a while that he would have to go to Algeria, but in the end he was not called up. </p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>In November-December 1887, Van Gogh organized an exhibition of painters of the ‘Petit Boulevard’ – <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_328">Anquetin</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1392">Toulouse-Lautrec</rs> and himself – in Grand Bouillon-Restaurant du Chalet, 43, avenue de Clichy. See exhib. cat. Paris 1988, p. 33. For the ‘Petit Boulevard’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let584.xml#n-6">see letter 584, n. 6.</ref> According to Bernard, the show was ‘an endeavour on Van Gogh’s part alone’ (une tentative de Van Gogh seul). See Bernard 1994, vol. 1,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>p. 242.</p>
+
+<p rend="indent">Bernard wrote about the room: ‘The room referred to here is the dining-room of a working-class restaurant on avenue de Clichy, whose owner Vincent had won over, and which he had turned into an exhibition of our paintings. Unfortunately, this socialist exhibition of our inflammatory canvases came to a rather sorry end. There was a violent altercation between the owner and Vincent, which made Vincent decide to take a hand-barrow without delay and cart the whole exhibition to his studio in rue Lepic. Obviously, the art of the Petit Boulevard had not been understood by its Barnum.’ (La salle dont il est question ici est celle d’un restaurant populaire de l’avenue de Clichy dont Vincent avait conquis le patron et qu’il avait transformée en exposition de nos tableaux. Par malheur, cette exhibition socialiste de nos toiles incendiaires se termina assez piteusement. Il y eut une altercation violente entre le patron et Vincent, ce qui décida ce dernier à prendre sans retard une charette à bras et à porter toute l’exposition à son atelier de la rue Lepic. Evidemment l’art du petit boulevard n’avait pas été compris de son barnum). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lettres à Bernard</hi> 1911, p. 75.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

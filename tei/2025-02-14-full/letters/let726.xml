@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Theo van Gogh. Arles, Monday, 17 or Tuesday, 18 December 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let726"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b611 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>726</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>564</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>730</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-12-17">Monday, 17 or Tuesday, 18 December 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 0611" xml:id="surf-pb-1r">
+<graphic url="VGM001000832_01_n"/>
+<zone xml:id="zone-pb-1r-1" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001000832_01_n"/></zone>
+<zone xml:id="zone-pb-1r-4" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001000832_01_n"/></zone></surface>
+<surface n="b 0611" xml:id="surf-pb-1v">
+<graphic url="VGM001000832_02_n"/>
+<zone xml:id="zone-pb-1v-2" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001000832_02_n"/></zone>
+<zone xml:id="zone-pb-1v-3" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001000832_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">Mon cher Theo,</p><lb n="1*" xml:id="l-1s"/>
+
+<p xml:id="p.orig.2" n="2">Gauguin et moi avons hier été <lb n="2" xml:id="l-2"/>à Montpellier pour y voir le musée et surtout <lb n="3" xml:id="l-3"/>la salle Brias<ptr target="#note-t-1"/> – il y a là beaucoup de portraits <lb n="4" xml:id="l-4"/>de Brias<c type="kk">,</c> par Delacroix<c type="kk">,</c><ptr target="#note-t-2"/> par Ricard<c type="kk">,</c><ptr target="#note-t-3"/> par Courbet<c type="kk">,</c><ptr target="#note-t-4"/> <lb n="5" xml:id="l-5"/>par Cabanel<c type="kk">,</c><ptr target="#note-t-5"/> par Couture<c type="kk">,</c><ptr target="#note-t-6"/> par Verdier<c type="kk">,</c><ptr target="#note-t-7"/> par Tassaert<c type="kk">,</c><ptr target="#note-t-8"/> <lb n="6" xml:id="l-6"/>par d’autres encore.<ptr target="#note-t-9"/> Après il y a des tableaux <lb n="7" xml:id="l-7"/>de Delacroix<c type="kk">,</c><ptr target="#note-t-10"/> de Courbet<c type="kk">,</c><ptr target="#note-t-11"/> de Giotto<c type="kk">,</c><ptr target="#note-t-12"/> de Paul Potter<c type="kk">,</c><ptr target="#note-t-13"/> <lb n="8" xml:id="l-8"/>de Botticelli<c type="kk">,</c><ptr target="#note-t-14"/> de Th<c type="kp">.</c> Rousseau<c type="kk">,</c><ptr target="#note-t-15"/> bien beaux.</p><lb n="9" xml:id="l-9"/>
+
+<p rend="indent" xml:id="p.orig.3" n="3">Brias était un bienfaiteur d’artistes et je ne <lb n="10" xml:id="l-10"/>te dirai que ceci<c type="kp">.</c> Dans le portrait de Delacroix<c type="kk">,</c> <lb n="11" xml:id="l-11"/>c’est un monsieur à barbe<c type="kk">,</c> cheveux roux <lb n="12" xml:id="l-12"/>qui a bigrement de la ressemblance avec toi <lb n="13" xml:id="l-13"/>ou avec moi et qui m’a fait penser à cette <lb n="14" xml:id="l-14"/>poésie de Musset... partout où j’ai <lb n="15" xml:id="l-15"/>touché la terre – un malheureux vêtu <lb n="16" xml:id="l-16"/>de noir auprès de nous venait s’asseoir <lb n="17" xml:id="l-17"/>qui nous regardait comme un frère<c type="kp">.</c><ptr target="#note-t-16"/> <lb n="18" xml:id="l-18"/>Cela te ferait le même effet j’en suis sûr<c type="kp">.</c></p><lb n="19" xml:id="l-19"/>
+
+<p rend="indent" xml:id="p.orig.4" n="4">Je te prierais bien d’aller voir à cette <lb n="20" xml:id="l-20"/>librairie où l’on vend les lithographies artistes <lb n="21" xml:id="l-21"/>anciens et modernes<ptr target="#note-t-17"/> si tu serais à même d’y avoir <lb n="22" xml:id="l-22"/>sans frais considérables la lithographie d’après <lb n="23" xml:id="l-23"/>Delacroix “le Tasse dans la prison des fous”<ptr target="#note-t-18"/> <lb n="24" xml:id="l-24"/>puisqu’il me paraitrait que cette figure-là (de Delacroix) doit avoir <lb n="25" xml:id="l-25"/>des rapports avec ce beau portrait de Brias.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/><lb n="26" xml:id="l-26"/>
+
+<p rend="indent" xml:id="p.orig.5" n="5">il y a là de Delacroix encore une etude de <lb n="27" xml:id="l-27"/>mulâtresse (que Gauguin a copiée dans le temps)<c type="kk">,</c><ptr target="#note-t-19"/> <lb n="28" xml:id="l-28"/>les Odalisques<c type="kk">,</c><ptr target="#note-t-20"/> Daniel dans la fosse aux lions<c type="kp">.</c><ptr target="#note-t-21"/></p><lb n="29" xml:id="l-29"/>
+
+<p rend="indent" xml:id="p.orig.6" n="6">de Courbet 1 <hi rend="italics">les demoiselles de village</hi><c type="kk">,</c> <lb n="30" xml:id="l-30"/>magnifique<c type="kk">,</c> une femme nue de dos. une autre à terre<c type="kk">,</c> dans un paysage.<ptr target="#note-t-22"/> <lb n="31" xml:id="l-31"/>2 La fileuse<ptr target="#note-t-23"/> (superbe) et encore un tas <lb n="32" xml:id="l-32"/>de Courbets. Enfin<c type="kk">,</c> tu dois savoir que <lb n="33" xml:id="l-33"/>cette collection existe ou bien connaitre des <lb n="34" xml:id="l-34"/>gens qui ont vu cela et par conséquent <lb n="35" xml:id="l-35"/>être à même d’en causer. Je n’insiste <lb n="36" xml:id="l-36"/>donc pas sur le musée (sauf sur des dessins et bronzes <lb n="36a" xml:id="l-36a"/>Barye!)<c type="kp">.</c><ptr target="#note-t-24"/></p><lb n="37" xml:id="l-37"/>
+
+<p rend="indent" xml:id="p.orig.7" n="7">Gauguin et moi causons beaucoup de <lb n="38" xml:id="l-38"/>Delacroix<c type="kk">,</c> Rembrandt &amp;c.</p><lb n="39" xml:id="l-39"/>
+
+<p rend="indent" xml:id="p.orig.8" n="8">La discussion est d’une <hi rend="italics">électricité</hi> <lb n="40" xml:id="l-40"/><hi rend="italics">excessive</hi>. nous en sortons parfois <lb n="41" xml:id="l-41"/>la tête fatiguée comme une batterie <lb n="42" xml:id="l-42"/>électrique après la décharge<c type="kp">.</c></p><lb n="43" xml:id="l-43"/>
+
+<p rend="indent" xml:id="p.orig.9" n="9">Nous avons été en pleine magie <lb n="44" xml:id="l-44"/>car comme le dit si bien Fromentin<c type="kk">,</c> <lb n="45" xml:id="l-45"/>Rembrandt est surtout magicien<ptr target="#note-t-25"/> et Delacroix <lb n="45a" xml:id="l-45a"/>un homme de dieu<c type="kk">,</c> de tonnerre de Dieu et de <lb n="45b" xml:id="l-45b"/>foutre la paix au nom de dieu<c type="kp">.</c></p><lb n="46" xml:id="l-46"/>
+
+<p rend="indent" xml:id="p.orig.10" n="10">Je t’écris cela rapport à nos amis <lb n="47" xml:id="l-47"/>les Hollandais de Haan et Isaacson <lb n="48" xml:id="l-48"/>qui ont tant cherché et aimé Rembrandt<c type="kk">,</c> <lb n="49" xml:id="l-49"/>afin de vous encourager à poursuivre les <lb n="50" xml:id="l-50"/>recherches.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/><lb n="51" xml:id="l-51"/>
+
+<p rend="indent" xml:id="p.orig.11" n="11">Il ne faut pas se décourager là-dedans<c type="kp">.</c> <lb n="52" xml:id="l-52"/>Tu connais l’étrange et superbe portrait <lb n="53" xml:id="l-53"/>d’homme par Rembrandt de la galerie <lb n="54" xml:id="l-54"/>Lacaze<c type="kk">,</c><ptr target="#note-t-26"/> j’ai dit à Gauguin que pour <lb n="55" xml:id="l-55"/>moi je voyais là-dedans un certain trait de <lb n="56" xml:id="l-56"/>famille ou de race avec Delacroix ou avec <lb n="57" xml:id="l-57"/>lui<c type="kk">,</c> Gauguin<c type="kp">.</c></p><lb n="58" xml:id="l-58"/>
+
+<p rend="indent" xml:id="p.orig.12" n="12">Moi, je ne sais pourquoi, appelle toujours <lb n="59" xml:id="l-59"/>ce portrait “<hi rend="italics">le voyageur</hi>” ou <hi rend="italics">l’homme</hi> <lb n="60" xml:id="l-60"/><hi rend="italics">venant de loin</hi>.</p><lb n="61" xml:id="l-61"/>
+
+<p rend="indent" xml:id="p.orig.13" n="13">Cela c’est une idée équivalente et paralèle <lb n="62" xml:id="l-62"/>à ce que je t’ai déjà dit à toi-même<c type="kk">,</c> <lb n="63" xml:id="l-63"/>de regarder toujours le portrait de Six <lb n="64" xml:id="l-64"/>vieux. le beau portrait au gant <lb n="65" xml:id="l-65"/>pour ton avenir<c type="kk">,</c> et l’eauforte <lb n="66" xml:id="l-66"/>de Rembrandt<c type="kk">,</c> Six lisant près d’une fenetre <lb n="67" xml:id="l-67"/>dans un rayon de soleil<c type="kk">,</c> pour ton passé <lb n="68" xml:id="l-68"/>et ton présent<c type="kp">.</c><ptr target="#note-t-27"/></p><lb n="69" xml:id="l-69"/>
+
+<p rend="indent" xml:id="p.orig.14" n="14">Voilà où nous en sommes<c type="kp">.</c></p><lb n="70" xml:id="l-70"/>
+
+<p rend="indent" xml:id="p.orig.15" n="15">Gauguin me disait ce matin lorsque je lui <lb n="71" xml:id="l-71"/>demandais comment il se sentait: “qu’il <lb n="72" xml:id="l-72"/>se sentait revenir sa nature ancienne” <lb n="73" xml:id="l-73"/>ce qui m’a fait bien plaisir<c type="kp">.</c><ptr target="#note-t-28"/></p><lb n="74" xml:id="l-74"/>
+
+<p rend="indent" xml:id="p.orig.16" n="16">moi venant ici l’hiver passé fatigué et <lb n="75" xml:id="l-75"/>presqu’évanoui cérébralement, avant de pouvoir 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/><lb n="76" xml:id="l-76"/>commencer à me refaire j’ai un peu souffert <lb n="77" xml:id="l-77"/>intérieurement aussi.</p><lb n="78" xml:id="l-78"/>
+
+<p rend="indent" xml:id="p.orig.17" n="17">Comme je voudrais qu’un jour tu voies ce <lb n="79" xml:id="l-79"/>musée de Montpellier<c type="kk">,</c> il y a des <lb n="80" xml:id="l-80"/>chôses bien belles!</p><lb n="81" xml:id="l-81"/>
+
+<p rend="indent" xml:id="p.orig.18" n="18">Dis cela à de Gas<c type="kk">,</c><ptr target="#note-t-29"/> que Gauguin <lb n="82" xml:id="l-82"/>et moi avons été voir le portrait <lb n="83" xml:id="l-83"/>de Brias par Delacroix à Montpellier <lb n="84" xml:id="l-84"/>car il faut hardiment croire que <hi rend="italics">ce qui est est</hi><c type="kk">,</c> <lb n="85" xml:id="l-85"/>et le portrait de Brias par Delacroix nous <lb n="86" xml:id="l-86"/>ressemble à toi et à moi comme un nouveau frère<c type="kp">.</c></p><lb n="87" xml:id="l-87"/>
+
+<p rend="indent" xml:id="p.orig.19" n="19">Pour ce qui est de fonder la vie en <lb n="88" xml:id="l-88"/>copains des peintres<c type="kk">,</c> on voit des chôses si <lb n="89" xml:id="l-89"/>drôles et je termine par ce que tu <lb n="90" xml:id="l-90"/>dis toujours<c type="kk">,</c> qui vivra verra<c type="kp">.</c></p><lb n="91" xml:id="l-91"/>
+
+<p rend="indent" xml:id="p.orig.20" n="20">Tu peux leur dire tout cela à nos amis <lb n="92" xml:id="l-92"/>Isaacson et de Haan et même leur <lb n="93" xml:id="l-93"/>lire hardiment cette lettre<c type="kk">,</c> je leur aurais <lb n="94" xml:id="l-94"/>déjà écrit si je avais senti la <lb n="95" xml:id="l-95"/>force électrique nécessaire<c type="kp">.</c></p><lb n="96" xml:id="l-96"/>
+
+<p rend="indent" xml:id="p.orig.21" n="21">De la part de Gauguin comme <lb n="97" xml:id="l-97"/>de la mienne bonne poignee <lb n="98" xml:id="l-98"/>de main bien vigoureuse <lb n="99" xml:id="l-99"/>à vous autres tous<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="100" xml:id="l-100"/>
+
+<p xml:id="p.orig.22" n="22">t.à.t.</p><lb n="101" xml:id="l-101"/>
+
+<p xml:id="p.orig.23" n="23">Vincent</p>
+<space unit="lines" quantity="1"/><lb n="102" xml:id="l-102"/>
+
+<p xml:id="p.orig.24" n="24">Si tu crois que Gauguin ou moi <lb n="103" xml:id="l-103"/>nous ayons la <hi rend="italics">facilité</hi> du travail<c type="kk">,</c> <lb n="104" xml:id="l-104"/>le travail est pas toujours commode. <lb n="105" xml:id="l-105"/>et que les amis Hollandais ne se découragent pas plus que <lb n="106" xml:id="l-106"/>nous dans leurs difficultés<c type="kk">,</c> c’est que je leur souhaite et à toi aussi<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1">My dear Theo,</p>
+<p xml:id="p.trans.2" n="2">Yesterday <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I went to Montpellier to see the museum there, and especially the <rs type="person" ref="bio.xml#_312">Bruyas</rs> room<ptr target="#note-t-1"/> — there are many portraits of Bruyas, by <rs type="person" ref="bio.xml#_982">Delacroix</rs>,<ptr target="#note-t-2"/> by <rs type="person" ref="bio.xml#_1315">Ricard</rs>,<ptr target="#note-t-3"/> by <rs type="person" ref="bio.xml#_962">Courbet</rs>,<ptr target="#note-t-4"/> by <rs type="person" ref="bio.xml#_917">Cabanel</rs>,<ptr target="#note-t-5"/> by <rs type="person" ref="bio.xml#_966">Couture</rs>,<ptr target="#note-t-6"/> by <rs type="person" ref="bio.xml#_1398">Verdier</rs>,<ptr target="#note-t-7"/> by <rs type="person" ref="bio.xml#_1379">Tassaert</rs>,<ptr target="#note-t-8"/> by others too.<ptr target="#note-t-9"/> After that there are paintings by Delacroix,<ptr target="#note-t-10"/> Courbet,<ptr target="#note-t-11"/> <rs type="person" ref="bio.xml#_1048">Giotto</rs>,<ptr target="#note-t-12"/> <rs type="person" ref="bio.xml#_1278">Paul Potter</rs>,<ptr target="#note-t-13"/> <rs type="person" ref="bio.xml#_886">Botticelli</rs>,<ptr target="#note-t-14"/> <rs type="person" ref="bio.xml#_1332">T. Rousseau</rs>,<ptr target="#note-t-15"/> very fine.</p>
+<p rend="indent" xml:id="p.trans.3" n="3"><rs type="person" ref="bio.xml#_312">Bruyas</rs> was a benefactor to artists, and this is all I’ll say to you: in the <rs type="person" ref="bio.xml#_982">Delacroix</rs> portrait, he’s a gentleman with a beard, red hair, who looks damnably like you or me, and who made me think of that poem by <rs type="person" ref="bio.xml#_715">Musset</rs>... everywhere I touched the earth, an unfortunate man dressed in black came to sit beside us, a man who looked at us like a brother.<ptr target="#note-t-16"/> It would have the same effect on you, I’m sure.</p>
+<p rend="indent" xml:id="p.trans.4" n="4">I’d really ask you to go and see, at that bookshop where they sell lithographs of ancient and modern artists,<ptr target="#note-t-17"/> if you could manage to get the lithograph after <rs type="person" ref="bio.xml#_982">Delacroix</rs>’s ‘Tasso in the madhouse’<ptr target="#note-t-18"/> without great expense, since it would seem to me that this figure (by Delacroix) must have some relationship to this fine <rs type="person" ref="bio.xml#_312">Bruyas</rs> portrait. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.trans.5" n="5">They have other <rs type="person" ref="bio.xml#_982">Delacroix</rs>s there, a study of a mulatto woman (which <rs type="person" ref="bio.xml#_1039">Gauguin</rs> once copied),<ptr target="#note-t-19"/> the Odalisques,<ptr target="#note-t-20"/> Daniel in the lions’ den.<ptr target="#note-t-21"/></p>
+<p rend="indent" xml:id="p.trans.6" n="6">By <rs type="person" ref="bio.xml#_962">Courbet</rs>, first, <hi rend="italics">The village girls</hi>, magnificent, a nude woman seen from the back, another on the ground, in a landscape.<ptr target="#note-t-22"/> Second, The woman spinning<ptr target="#note-t-23"/> (superb), and a whole load more Courbets. Anyway, you must know that this collection exists, or else know people who have seen it, and consequently be able to talk about it. So I shan’t insist on the museum (except for the <rs type="person" ref="bio.xml#_476">Barye</rs> drawings and bronzes!)<ptr target="#note-t-24"/></p>
+<p rend="indent" xml:id="p.trans.7" n="7"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I talk a lot about <rs type="person" ref="bio.xml#_982">Delacroix</rs>, <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> &amp;c.</p>
+<p rend="indent" xml:id="p.trans.8" n="8">The discussion is <hi rend="italics">excessively electric</hi>. We sometimes emerge from it with tired minds, like an electric battery after it’s run down.</p>
+<p rend="indent" xml:id="p.trans.9" n="9">We’ve been right in the midst of magic, for as <rs type="person" ref="bio.xml#_1019">Fromentin</rs> says so well, <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> is above all a magician<ptr target="#note-t-25"/> and <rs type="person" ref="bio.xml#_982">Delacroix</rs> a man of God, of God’s thunder and bugger off in the name of God. </p>
+<p rend="indent" xml:id="p.trans.10" n="10">I’m writing this to you with reference to our friends, the Dutchmen <rs type="person" ref="bio.xml#_1075">De Haan</rs> and <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>, who have so sought and loved <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, in order to encourage you to pursue the researches.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.trans.11" n="11">One mustn’t get discouraged about that. You know the strange and superb portrait of a man by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> at the <rs type="person" ref="bio.xml#_480">La Caze</rs> gallery,<ptr target="#note-t-26"/> I told <rs type="person" ref="bio.xml#_1039">Gauguin</rs> that, for me, I saw in it a certain family or racial resemblance to <rs type="person" ref="bio.xml#_982">Delacroix</rs>, or to him, Gauguin.</p>
+<p rend="indent" xml:id="p.trans.12" n="12">I don’t know why, but I always call that portrait ‘<hi rend="italics">the traveller</hi>’ or ‘<hi rend="italics">the man coming from far away</hi>’.</p>
+<p rend="indent" xml:id="p.trans.13" n="13">That’s an equivalent and parallel idea to what I’ve already told you, always to look at the portrait of old <rs type="person" ref="bio.xml#_1481">Six</rs>. The fine portrait with the glove for your future, and the <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> etching, Six reading by a window in a ray of sunlight, for your past and your present.<ptr target="#note-t-27"/></p>
+<p rend="indent" xml:id="p.trans.14" n="14">That’s the stage we’re at.</p>
+<p rend="indent" xml:id="p.trans.15" n="15"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> said to me this morning, when I asked him how he felt: ‘that he could feel his old self coming back’, which gave me great pleasure.<ptr target="#note-t-28"/></p>
+<p rend="indent" xml:id="p.trans.16" n="16">As for me, coming here last winter, tired and almost fainting mentally, I too suffered a little inside before I was able 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> to begin to remake myself.</p>
+<p rend="indent" xml:id="p.trans.17" n="17">How I’d like you to see that museum in Montpellier some day, there are some really beautiful things there!</p>
+<p rend="indent" xml:id="p.trans.18" n="18">Say so to <rs type="person" ref="bio.xml#_981">Degas</rs>,<ptr target="#note-t-29"/> that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I have been to see the portrait of <rs type="person" ref="bio.xml#_312">Bruyas</rs> by <rs type="person" ref="bio.xml#_982">Delacroix</rs> at Montpellier, for we must boldly believe that <hi rend="italics">what is, is</hi>, and the portrait of Bruyas by Delacroix resembles you and me like a new brother.</p>
+<p rend="indent" xml:id="p.trans.19" n="19">As regards setting up a life with painters as pals, you see such odd things and I’ll end with what you always say, time will tell.</p>
+<p rend="indent" xml:id="p.trans.20" n="20">You can tell all this to our friends <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> and <rs type="person" ref="bio.xml#_1075">De Haan</rs>, and even boldly read them this letter, I would already have written to them if I’d felt the necessary electric force.</p>
+<p rend="indent" xml:id="p.trans.21" n="21">On behalf of <rs type="person" ref="bio.xml#_1039">Gauguin</rs> as well as myself, a good, hearty handshake to you all.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.22" n="22">Ever yours,</p>
+<p xml:id="p.trans.23" n="23">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.24" n="24">If you think that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> or I have a <hi rend="italics">facility</hi> in our work, the work isn’t always accommodating. And for the <rs type="person" ref="bio.xml#_1103 bio.xml#_1075">Dutchmen</rs> not to get discouraged in their difficulties any more than we do, that’s what I wish for them, and for you too.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original manuscript</p>
+                    	</note>
+                    
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p>This letter and one from Gauguin to Theo were sent together; <ref target="#n-28">see n. 28.</ref></p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The Musée Fabre in Montpellier, a city about 70 km to the west of Arles, housed the collection of <rs type="person" ref="bio.xml#_312">Alfred Bruyas</rs>. This wealthy collector had become known mainly as the Maecenas of <rs type="person" ref="bio.xml#_962">Gustave Courbet</rs>. In 1868 Bruyas donated part of his collection to the Musée Fabre, and his bequest followed in 1876. The Bruyas Collection contains 142, principally French, contemporary paintings (including 17 portraits of Bruyas), 48 drawings and 17 bronzes.</p>
+
+<p rend="indent"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> had visited the Musée Fabre in 1884 and had written about it in his <hi rend="italics">Avant et après</hi>: ‘I made, as a young man, a journey to the south, and at Montpellier I visited that famous museum, constructed by and endowed with the entire collection of Mr Bruyas’ (Je fis, jeune homme, un voyage dans le Midi, et à Montpellier je visitai ce fameux musée construit et donné avec toute la collection par M. Brias). After describing the masterpieces on display there, including paintings mentioned by Van Gogh in the present letter, he goes on to say: ‘A good many years later I returned in the company of Vincent to visit the museum again. What a change! Most of the old drawings had disappeared, and everywhere in their place [were] the Acquisitions of the State, 3rd prize. <rs type="person" ref="bio.xml#_917">Cabanel</rs> and all his school had invaded the museum’ (Bien des années plus tard, je revins en compagnie de Vincent visiter à nouveau ce musée. Quel changement! La plupart des dessins anciens avaient disparu et de toutes parts à leur place, des Acquisitions de l’État, 3e médaille. Cabanel et toute son école avaient envahi le musée). See Gauguin 1923, pp. 221-222. </p>
+
+<p rend="indent">Following Merlhès, as well as Druick and Zegers, we have placed the visit to Montpellier on Sunday, 16 or Monday, 17 December. The railway journey lasted 2½ to 3 hours, so Van Gogh and Gauguin probably travelled back and forth in one day to avoid paying for a hotel. On Sunday and Monday the museum was open to the public both morning and afternoon, on Thursday only from 9.00 to 11.00. Although Baedeker also says that the museum was open ‘to foreign visitors on other days as well’ (encore les autres jours pour les étrangers), it is less likely that Van Gogh and Gauguin took advantage of this opportunity. See Baedeker 1889-2; Merlhès 1989, pp. 227, 228 (n. 1), and exhib. cat. Chicago 2001, pp. 390 (n. 256), 391 (n. 258, 259, 265).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs type="person" ref="bio.xml#_982">Eugène Delacroix</rs>, <hi rend="italics">Alfred Bruyas</hi>, 1853 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_76">Ill. 76</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs type="person" ref="bio.xml#_1315">Louis Gustave Ricard</rs>, <hi rend="italics">Alfred Bruyas</hi> (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_1272">Ill. 1272</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The Musée Fabre had three portraits of <rs type="person" ref="bio.xml#_312">Bruyas</rs> by <rs type="person" ref="bio.xml#_962">Courbet</rs>, one dating from 1853, half-length: <hi rend="italics">Alfred Bruyas, or</hi> <hi rend="italics">Tableau-Solution</hi>, <rs type="artwork" ref="artwork.xml#ill_732">Ill. 732</rs>, and two from 1854, namely <hi rend="italics">Alfred Bruyas, or</hi> <hi rend="italics">Bruyas unwell</hi>, <rs type="artwork" ref="artwork.xml#ill_2266">Ill. 2266</rs> and <hi rend="italics">Alfred Bruyas in profile</hi>, <rs type="artwork" ref="artwork.xml#ill_2267">Ill. 2267</rs>. Bruyas is also portrayed in Courbet’s <hi rend="italics">Bonjour monsieur Courbet </hi>of 1854 (all in Montpellier, Musée Fabre).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs type="person" ref="bio.xml#_917">Alexandre Cabanel</rs>, <hi rend="italics">Alfred Bruyas</hi>, 1846 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_666">Ill. 666</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs type="person" ref="bio.xml#_966">Thomas Couture</rs>, <hi rend="italics">Mr Bruyas</hi>, 1850, <rs type="artwork" ref="artwork.xml#ill_2288">Ill. 2288</rs>, and <hi rend="italics">Mr Bruyas</hi>, 1850 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_2268">Ill. 2268</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs type="person" ref="bio.xml#_1398">Marcel-Antoine Verdier</rs>, <hi rend="italics">Christ crowned with thorns</hi>, 1852 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_1401">Ill. 1401</rs>. Verdier gave Christ the facial features of <rs type="person" ref="bio.xml#_312">Bruyas</rs>. See cat. Montpellier 1926, p. 240.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs type="person" ref="bio.xml#_1379">Octave Tassaert</rs>, <hi rend="italics">Bruyas</hi>, <rs type="artwork" ref="artwork.xml#ill_1366">Ill. 1366</rs>, <hi rend="italics">Bruyas</hi>, <rs type="artwork" ref="artwork.xml#ill_2269">Ill. 2269</rs> and <hi rend="italics">Bruyas in his home</hi>, <rs type="artwork" ref="artwork.xml#ill_2270">Ill. 2270</rs> (Montpellier, Musée Fabre).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Portraits of <rs type="person" ref="bio.xml#_312">Bruyas</rs> ‘by others too’ must refer to the three portraits by <rs type="person" ref="bio.xml#_1822">Auguste Glaize</rs>. See cat. Montpellier 1926, pp. 175-176, cat. nos. 575, 576, 579.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>The museum had nine paintings by <rs type="person" ref="bio.xml#_982">Delacroix</rs>, and a copy after his self-portrait by Andrieu. See cat. Montpellier 1926, pp. 144-149, cat. nos. 459-468.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>There were thirteen paintings by <rs type="person" ref="bio.xml#_962">Courbet</rs>. See cat. Montpellier 1926, pp. 130-136, cat. nos. 420-431, 434.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The small panel Van Gogh is referring to is <hi rend="italics">The death and assumption of the Virgin</hi> (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_2271">Ill. 2271</rs>. In those days it was still attributed to <rs type="person" ref="bio.xml#_1048">Giotto</rs>, now to the ‘School of Giotto’. See cat. Montpellier 1926, pp. 21-22, cat. no. 70.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p><rs type="person" ref="bio.xml#_1278">Paulus Potter</rs>, <hi rend="italics">Cows in the pasture</hi>, 1648 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_2272">Ill. 2272</rs>. See cat. Montpellier 1926, p. 81, cat. no. 267.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+      <hi rend="italics">The Virgin with the Child and the infant Saint John</hi> (Avignon, Musée du Petit Palais, dépôt du Musée du Louvre). <rs type="artwork" ref="artwork.xml#ill_613">Ill. 613</rs>. The attribution is now ‘School of <rs type="person" ref="bio.xml#_886">Botticelli</rs>’.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The Musée Fabre owned three paintings by <rs type="person" ref="bio.xml#_1332">Théodore Rousseau</rs>. See cat. Montpellier 1926, pp. 226-227, cat. nos. 743-745.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>A reference to the 18th verse of <rs type="person" ref="bio.xml#_715">Musset</rs>’s poem ‘<ref target="biblio.xml#lit_38">La nuit de Décembre</ref>’ (The night of December):</p><space unit="lines" quantity="1"/>
+
+<p rend="indent">Where e’er I touched the earth,</p>
+
+<p rend="indent">Upon my road there came to sit </p>
+
+<p rend="indent">A poor man dressed all in black</p>
+
+<p rend="indent">As like to me as were we brothers.</p>
+<space unit="lines" quantity="1"/>
+
+<p rend="indent">(Partout où j’ai touché la terre,</p>
+
+<p rend="indent">Sur ma route est venu s’asseoir</p>
+
+<p rend="indent">Un malheureux vêtu de noir</p>
+
+<p rend="indent">Qui me ressemblait comme un frère.)</p><space unit="lines" quantity="1"/>
+
+<p>In 1875 Van Gogh had copied this verse, with variations, in a poetry album for Theo. See Pabst 1988, p. 24, and <ref target="let039.xml#n-3">letter 39, n. 3.</ref></p>
+
+<p rend="indent"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> included the last two lines in an adapted version in his letter to <rs type="person" ref="bio.xml#_1357">Schuffenecker</rs> of about 20 December 1888, in which he wrote the following about his painting Human miseries: ‘It is a woman. With both hands under her chin she is not thinking of very much, but feels consolation on this piece of earth (nothing but earth), flooded by the red triangle of the sun in the vines. And a woman dressed in black passes by, looking at her like a sister.’ (C’est une femme. Les deux mains sous le menton elle pense à peu de chose, mais sent la consolation sur cette terre (rien que la terre) que le soleil inonde dans les vignes avec son triangle rouge. Et une femme habillée de noir passe, qui la regarde comme une soeur.) See Correspondance Gauguin 1984, pp. 306, 527-528 (n. 320); cf. also exhib. cat. Chicago 2001, p. 194.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>It is not known which bookshop in Paris this refers to.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Van Gogh is referring to a lithograph after <hi rend="italics">Tasso in the Hospital of St Anne in Ferrara</hi> (<ref target="let673.xml">see letter 673</ref>). <rs type="person" ref="bio.xml#_1575">Adolphe Mouilleron</rs> made one in 1844 (in reverse). <rs type="artwork" ref="artwork.xml#ill_2273">Ill. 2273</rs>. See Johnson 1981-1989, vol. 1, p. 92, cat. no. 106. </p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs type="person" ref="bio.xml#_982">Delacroix</rs>, <hi rend="italics">Aline, the mulatto woman</hi>, 1821 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_72">Ill. 72</rs>. <rs type="person" ref="bio.xml#_1039">Gauguin</rs> had made the painting <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_794">The mulatto woman, copy after Delacroix</rs></hi> (W158/W27) after this work. See Wildenstein<hi rend="italics"> </hi>2001, pp. 186-187, cat. no. 158.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs type="person" ref="bio.xml#_982">Delacroix</rs>, <hi rend="italics">The odalisques</hi>, better known as <hi rend="italics">Algerian women in their apartments</hi>, 1847-1849 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_74">Ill. 74</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p><rs type="person" ref="bio.xml#_982">Delacroix</rs>,<hi rend="italics"> Daniel in the lions’ den</hi>, c. 1849-1850 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_67">Ill. 67</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p><rs type="person" ref="bio.xml#_962">Courbet</rs>, <hi rend="italics">Female bathers</hi>, 1853 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_729">Ill. 729</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Courbet, <hi rend="italics">The sleeping spinner</hi>, 1853 (Montpellier, Musée Fabre). <rs type="artwork" ref="artwork.xml#ill_730">Ill. 730</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>The museum owned seventeen bronzes and three watercolours by <rs type="person" ref="bio.xml#_476">Antoine-Louis Barye</rs>. See cat. Montpellier 1926, p. 266, cat. nos. 878-894, and Jean Claparède, <hi rend="italics">Montpellier, Musée Fabre. Dessins de la collection Alfred Bruyas</hi>. Paris 1962, cat. nos. 11-13.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>It was <rs type="person" ref="bio.xml#_707">Jules Michelet</rs> who called <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> a ‘magician’ (<ref target="let534.xml#n-16">see letter 534, n. 16</ref>). Fromentin spoke of Rembrandt in <hi rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref> </hi>– possibly in imitation of <rs type="person" ref="bio.xml#_607">Théophile Gautier</rs> – as a ‘visionary’ and ‘miracle-worker’ (see Fromentin 1902, pp. 391, 367, and Thoré 1858-1860, vol. 1, p. 201, who quotes Gautier from <hi rend="italics">Le Moniteur Universel</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>For the portrait <hi rend="italics"><rs type="artwork" ref="artwork.xml#ill_2159">Young man with a walking stick</rs></hi>, which is no longer considered a <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, <ref target="let536.xml#n-9">see letter 536, n. 9.</ref> <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, too, later referred to the painting in <hi rend="italics">Avant et après</hi> as<hi rend="italics"> </hi>‘Rembrandt’s portrait of a traveller’ (le portrait du voyageur de Rembrandt). See Gauguin 1923, p. 183.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+      
+<p>For <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi rend="italics"><rs type="artwork" ref="artwork.xml#ill_1736">Jan Six, reading in front of the window</rs> </hi>and <hi rend="italics"><rs type="artwork" ref="artwork.xml#ill_1737">Jan Six</rs></hi>, <ref target="let047.xml#n-8">see letter 47, nn. 8</ref> and <ref target="let047.xml#n-9">9.</ref> Vincent had also held up the latter portrait as an example in <ref target="let615.xml">letter 615</ref> to Theo.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Judging by this passage, <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s recovery was accompanied by an improvement in the atmosphere in the Yellow House. Gauguin retracted his earlier resolution to return to Paris (<ref target="let724.xml#n-1">see letter 724, n. 1</ref>) in a letter that must have been enclosed with the present one (as emerges from the closing lines of the quotation): ‘Please consider my trip to Paris as something imaginary and therefore the letter that I wrote you as a bad dream ... We have been to Montpellier and Vincent is writing you his impressions.’ (Veuillez considérer mon voyage à Paris comme une chose imaginaire et par conséquent la lettre que je vous ai écrite comme un mauvais rêve ... Nous avons été à Montpellier et Vincent vous écrit ses impressions.’ See <hi rend="italics">Correspondance Gauguin </hi>1984, pp. 301-302.</p>
+
+<p rend="indent">On 22 December Gauguin wrote to <rs type="person" ref="bio.xml#_1357">Schuffenecker</rs>, telling him why he had decided to stay in Arles after all: ‘You await me with open arms, I thank you for that, but unfortunately I am not coming yet. My situation here is difficult; I owe Van Gogh and Vincent a great deal and despite certain differences of opinion, I cannot resent a good heart that is sick, and that needs me. Do you remember the life of <rs type="person" ref="bio.xml#_723">Edgar Poe</rs>, who became an alcoholic as a result of grief and a nervous condition? One day I shall explain it fully. In any case I am staying here, but my departure will always be slumbering.’ (Vous m’attendez à bras ouverts, je vous en remercie mais malheureusement je ne viens pas encore. Ma situation ici est pénible; je dois beaucoup à Van Gog et Vincent et malgré quelque discorde je ne puis en vouloir à un coeur excellent qui est malade qui souffre et me demande. Rappelez-vous de la vie d’Edgar Poë qui par suite de chagrins, d’état nerveux était devenu alcoolique. Un jour je vous expliquerai à fond. En tous cas je reste ici, mais mon départ sera toujours à l’état latent.) See Merlhès 1989, p. 238.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>Since late 1886 Theo had been dealing in the work of <rs type="person" ref="bio.xml#_981">Degas</rs>. It emerges from a number of undated letters written by Degas to Theo (FR b1145-1152) that they kept in touch and that Theo visited Degas in his studio. See also Thomson in exhib. cat. Amsterdam 1999, p. 107, and Kendall 1999, p. 38.</p>
+
+<p rend="indent">Theo had probably written something about Degas to Vincent that was similar to what he wrote to his sister <rs type="person" ref="bio.xml#_407">Willemien</rs> on 6 December 1888: ‘Degas is terribly pleased with <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s work. So much so that he even wants to go to Arles to visit him. “They are the happy ones!” says Degas, speaking of Vincent and Gauguin, “that is life”. I don’t need to tell you what that means, coming from the great Degas, who himself understands life in its fullness’ (FR b916).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

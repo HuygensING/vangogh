@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Thursday, 22 August 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let797"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b649 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>797</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>601</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>798</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-08-22">Thursday, 22 August 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0649" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000885_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000885_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000885_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0649" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000885_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000885_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000885_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Théo,</p>
+
+<p xml:id="p.fr.2" n="2">Je remercie Jo beaucoup de m’avoir écrit<ptr target="#note-t-1"/> et sachant que tu désires que je t’ecrive un mot je te fais savoir qu’il m’est fort difficile d’écrire tant j’ai la tête derangée<c type="kp">_</c><ptr target="#note-t-2"/> Donc je profite d’un intervalle<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Monsieur le D<hi rend="super">r</hi> Peyron est bien bon pour moi et bien patient<c type="kp">_</c> Tu conçois que j’en suis affligé très profondement de ce que les attaques sont revenues alors que je commencais déjà à espérer que cela ne reviendrait pas<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Tu feras peut etre bien d’ecrire un mot à M. le D<hi rend="super">r</hi> Peyron pour dire que le travail à mes tableaux m’est un peu nécessaire pour me remettre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Car ces journées sans rien faire et sans pouvoir aller dans la chambre qu’il m’avait désignée pour y faire ma peinture me sont presqu’intolérables<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai reçu catalogue de l’exposition Gauguin<c type="kk">/</c> Bernard<c type="kk">/</c> Schuffenecker &amp;c<c type="kp">_</c><c type="kk">/</c> que je trouve intéressant<c type="kp">_</c><ptr target="#note-t-3"/> G. m’a aussi écrit une bonne lettre toujours un peu vague et obscure mais enfin je dois dire que je leur donne bien raison d’avoir exposé entre eux.–</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Durant bien des jours j’ai été <hi rend="italics">absolument egaré</hi> comme à Arles<c type="kk">/</c><ptr target="#note-t-4"/> tout autant sinon pire et il est à présumer que ces crises reviendront encore dans la suite<c type="kk">/</c> c’est ABOMINABLE<c type="kp">_</c> Depuis 4 jours je n’ai pas pu manger ayant la gorge enflée<c type="kp">_</c> Ce n’est pas pour trop m’en plaindre<c type="kk">/</c> j’espère<c type="kk">/</c> que je te dis ces détails mais pour te prouver que je ne suis pas encore en état d’aller à Paris ou à Pont Aven à moins que ce serait à Charenton<c type="kp">_</c><ptr target="#note-t-5"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Il parait que je ramasse des saletés et que je les mange<c type="kk">/</c> quoique mes souvenirs de ces mauvais moments soient vagues et qu’il me paraisse qu’il y ait du louche<c type="kk">/</c> toujours pour la même raison qu’ils ont ici je ne sais quel prejugé contre les peintres<c type="kp">_</c>–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je ne vois plus de possibilité d’avoir courage ou bon espoir mais enfin ce n’est pas d’hier que nous sachions que le métier n’est pas gai<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Quand même cela me fait plaisir que tu aies reçu cet envoi d’ici<c type="kk">/</c> les paysages<c type="kp">_</c>–<ptr target="#note-t-7"/> Merci surtout de cette eau forte d’après Rembrandt<c type="kp">_</c><ptr target="#note-t-8"/> C’est surprenant et pourtant cela me fait encore penser à l’homme au baton de la galerie Lacaze<c type="kp">_</c><ptr target="#note-t-9"/> Veux tu me faire un tres très grand plaisir<c type="kk">/</c> alors 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>envois en un exemplaire à Gauguin<c type="kp">_</c> Puis la brochure Rodin et Claude Monet est bien intéressante<c type="kp">_</c><ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Cette crise nouvelle<c type="kk">/</c> mon cher frère<c type="kk">/</c> m’a prise dans les champs et lorsque j’etais en train de peindre par une journée de vent. Je t’enverrai la toile<c type="kk">/</c> que j’ai achevée quand même<c type="kp">_</c><ptr target="#note-t-11"/> Et juste<ptr target="#note-t-a"/> c’était un essai plus sobre de couleur mate sans apparence<c type="kk">/</c> des verts rompus<c type="kk">/</c> des rouges et des jaunes ferrugineux d’ocre<c type="kk">/</c> ainsi que je te le disais que par moments je sentais envie de recommencer avec une palette comme dans le nord<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je t’enverrai cette toile dès que pourrai. Bonjour<c type="kk">/</c> merci de toutes tes bontés<c type="kk">/</c> bonne poignée de main à toi et à Jo et naturellement à Cor s’il est encore là<c type="kp">_</c><ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.13" n="13">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">La mere et Wil m’ont ecrit également une lettre fort bien<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.15" n="15">Tout en n’aimant pas outre mesure le livre de Rod j’ai pourtant fait une toile de ce passage où il parle des montagnes et cabanes noiratres<c type="kp">_</c><ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">(L’ami Roulin m’a ecrit aussi<c type="kp">_</c>)<ptr target="#note-t-14"/></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I thank <rs type="person" ref="bio.xml#_416">Jo</rs> very much for writing to me,<ptr target="#note-t-1"/> and knowing that you wish me to write you a line I’m letting you know that it’s very difficult for me to write, so disturbed is my mind.<ptr target="#note-t-2"/> So I’m taking advantage of an interval.</p>
+<p rend="indent" xml:id="p.en.3" n="3"><rs type="person" ref="bio.xml#_568">Dr Peyron</rs> is really kind to me and really patient. You can imagine that I’m very deeply distressed that the attacks have recurred when I was already beginning to hope that it wouldn’t recur.</p>
+<p rend="indent" xml:id="p.en.4" n="4">You’ll perhaps do well to write a line to <rs type="person" ref="bio.xml#_568">Dr Peyron</rs> to say that working on my paintings is quite necessary to me for my recovery.</p>
+<p rend="indent" xml:id="p.en.5" n="5">For these days, without anything to do and without being able to go into the room he had allocated me for doing my painting, are almost intolerable to me.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I’ve received catalogue of the <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, <rs type="person" ref="bio.xml#_831">Bernard</rs>, <rs type="person" ref="bio.xml#_1357">Schuffenecker</rs> &amp;c. exhibition, which I find interesting.<ptr target="#note-t-3"/> G. also wrote me a kind letter, still a little vague and obscure, but anyway I must say that I think they’re quite right to have exhibited among themselves.</p>
+<p rend="indent" xml:id="p.en.7" n="7">For many days I’ve been <hi rend="italics">absolutely distraught</hi>, as in Arles,<ptr target="#note-t-4"/> just as much if not worse, and it’s to be presumed that these crises will recur in the future, it is ABOMINABLE. I haven’t been able to eat for 4 days, as my throat is swollen. It’s not in order to complain too much, I hope, if I tell you these details, but to prove to you that I’m not yet in a fit state to go to Paris or to Pont-Aven unless it were to Charenton.<ptr target="#note-t-5"/>
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">It appears that I pick up filthy things and eat them, although my memories of these bad moments are vague, and it appears to me that there’s something shady about it, still for the same reason that they have I don’t know what prejudice against painters here.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">I no longer see any possibility for courage or good hope, but anyway it wasn’t yesterday that we found out that this profession isn’t a happy one.</p>
+<p rend="indent" xml:id="p.en.10" n="10">All the same it gives me pleasure that you’ve received that consignment from here, the landscapes.<ptr target="#note-t-7"/> Thank you above all for that etching after <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>.<ptr target="#note-t-8"/> It’s surprising, and yet it makes me think again of the man with the staff in the <rs type="person" ref="bio.xml#_480">La Caze</rs> gallery.<ptr target="#note-t-9"/> If you want to do me a very, very great pleasure, then 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> send a copy of it to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>. Then the <rs type="person" ref="bio.xml#_1319">Rodin</rs> and <rs type="person" ref="bio.xml#_1222">Claude Monet</rs> brochure is really interesting.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">This new crisis, my dear brother, came upon me in the fields, and when I was in the middle of painting on a windy day. I’ll send you the canvas, which I nevertheless finished.<ptr target="#note-t-11"/> And it was precisely a more sober attempt, matt in colour without looking impressive, broken greens, reds and rusty ochre yellows, as I told you that from time to time I felt a desire to begin again with a palette like the one in the north.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I’ll send you that canvas as soon as I can. Good-day, thank you for all your kindnesses, good handshake to you and to <rs type="person" ref="bio.xml#_416">Jo</rs>, and naturally to <rs type="person" ref="bio.xml#_420">Cor</rs> if he’s still there.<ptr target="#note-t-12"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14"><rs type="person" ref="bio.xml#_524">Mother</rs> and <rs type="person" ref="bio.xml#_407">Wil</rs> have also written me a very nice letter.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Whilst not liking <rs type="person" ref="bio.xml#_732">Rod</rs>’s book excessively, I’ve nevertheless done a canvas of that passage in which he speaks of the darkish mountains and huts.<ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">(Our friend <rs type="person" ref="bio.xml#_647">Roulin</rs> has written to me too.)<ptr target="#note-t-14"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">On 23 August 1889, Jo van Gogh-Bonger wrote to Willemien van Gogh that she and Theo had received from Vincent a letter written in pencil (FR b944). This must have been the present letter, even though it is written in black chalk. On the 24th Theo added a note to Jo’s in which he made the following remark: ‘Fortunately yesterday a letter from himself again in which he has high praise for his treatment and the doctor’ (<ref target="#n-2">see n. 2</ref>). If Vincent’s letter arrived in Paris on 23 August, this one must have been written on Thursday, 22 August 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter is written in black chalk.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">First attack in Saint-Rémy <ref target="let793.xml">(793)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">First consignment of paintings from Saint-Rémy <ref target="let789.xml">(789)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The Volpini exhibition <ref target="let779.xml">(779)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let795.xml">letter 795</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo wrote about this to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘The news from Vincent is very bad these last few days, or rather for about two weeks we had nothing but a single letter from the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">doctor</rs>. He appears to have been thoroughly ill again. Fortunately yesterday a letter from himself again in which he has high praise for his treatment and the doctor, but he feels dreadfully how awful it is not to be on sure ground’ (FR b924, 24 August 1889).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This was the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Catalogue de l’exposition de peintures du groupe impressionniste et synthétiste</hi> (see exhib. cat. Paris 1889-5).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Regarding Van Gogh’s previous attacks, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-4">see letter 750, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+  
+<p>In the town of Charenton-Saint-Maurice (now Saint-Maurice, Val-de-Marne) there was a well-known mental institution. Van Gogh mentions it again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let834.xml">letters 834</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let863.xml">863</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+  
+<p>Van Gogh not only ate filthy things he picked up from the ground but also tried to poison himself by eating paint and drinking turpentine, as emerges from the ‘monthly notes’ recorded by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Dr Peyron</rs> in the admissions register of Saint-Rémy. (See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le grand registre de l’asile de Saint-Rémy </hi>in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#id8May1889"><hi rend="italics">Documentation</hi>, 8 May 1889</ref>.)  This was probably why he was not allowed to go to his studio. Van Gogh had previously written about the Provençal people’s prejudice against painters (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let747.xml#n-4">see letter 747, n. 4</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Theo had thanked Vincent for the consignment in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let793.xml">letter 793</ref>. On 23 August 1889 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>: ‘How can it be, Wil, that of all the paintings I see at Theo’s, including so many that I find very strange indeed, it is always Vincent’s that I understand the best and find beautiful? ... Oh, if only he weren’t so far away, like this one can’t do anything for him!’ (FR b944, 23 August 1889).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Theo must have sent Vincent the etching by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_965">Courtry</rs> after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_344">The archangel Raphael</rs></hi> (then attributed to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let781.xml#n-4">see letter 781, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>For the portrait <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2159">Young man with a walking stick</rs></hi> (no longer attributed to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let536.xml#n-9">see letter 536, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Theo had sent Vincent the catalogue of the exhibition of works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1319">Rodin</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs> at Georges Petit’s. The catalogue contained the articles ‘Claude Monet’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_706">Octave Mirbeau</rs> and ‘Auguste Rodin’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_616">Gustave Geffroy</rs>. See exhib. cat. Paris 1889-6. The article on Monet is mentioned again in the following letter; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let798.xml">see letter 798</ref>. It is a revised and expanded version (concentrating on the exhibition) of Mirbeau’s contribution in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Figaro</hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let754.xml">see letter 754</ref>. Geffroy’s article offers an overview of the life and work of Rodin – at first a controversial artist who in 1877 was even accused of ‘moulage sur nature’ (making a cast of the body), but since revered as one of the greatest sculptors of his time. Geffroy has particular praise for the emotions expressed by Rodin’s statues and the way in which he plumbs the depths of his models’ personalities.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml">Letter 805</ref> reveals that this was <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Entrance to a quarry </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2852">F 744 / JH 1802</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘justement’.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_420">Cor</rs> had been staying with Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> in Paris (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let795.xml">see letter 795</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_732">Rod’</rs>s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_318">Le sens de la vie</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let783.xml#n-5">see letter 783, n. 5.</ref> Van Gogh is referring to the passage in which Rod describes the huts of the mountain dwellers: ‘their wooden huts are small and dark, meagre shelters against the terrible cold of their winters, heated by enormous, stiflingly hot stoves made of stone, pierced only by narrow windows through which barely pass thin rays of light and faint breaths of air’ (leurs chalets de bois sont petits et noirs, minces abris contre les froids terribles de leurs hivers, chauffés par d’énormes poêles en pierre étouffants, troués seulement d’étroites fenêtres où filtrent à peine de minces rayons de lumière et des filets d’air). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le sens de la vie</hi>, book 3 (‘Altruisme’), chapter 5 (‘A la montagne’). Paris 1889, p. 223. The painting in question is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Alpilles with a hut </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2823">F 622 / JH 1766</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs>’s letter is <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let796.xml">letter 796</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

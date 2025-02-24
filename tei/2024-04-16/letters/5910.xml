@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Sunday, 1 April 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let591"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b512 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>591</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>472</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>592</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-04-01">on or about Sunday, 1 April 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0512" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000688_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000688_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000688_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0512" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000688_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000688_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000688_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo<c type="kk">/</c></p>
+
+<p xml:id="p.fr.2" n="2">merci de ta lettre ainsi que du billet de f<hi rend="super">r</hi> 50 y-inclus. J’aurais à t’écrire à mon aise mais dois le faire en grande hâte<c type="kp">_</c>– D’abord toujours encore Tersteeg<c type="kp">_</c>– Suis très-content de ce que ton envoi parte Lundi et en somme peut-être aussi de ce qu’il s’y trouve une toile de moi<c type="kp">_</c>–<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Cependant celle là ne compte pas puisque j’espère que tu trouveras bien ce que je viens de faire &amp; dont la conséquence sera qu’une nouvelle toile de moi s’en aille en Hollande<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’avais travaillé une toile de 20 en plein air dans un verger – un terrain lilas labouré<c type="kk">/</c> une cloture en roseaux – deux pêchers roses contre un ciel glorieux bleu et blanc<c type="kp">_</c><ptr target="#note-t-2"/> Probable<ptr target="#note-t-a"/> le meilleur paysage que j’aie fait. Au moment où je l’ai rapporté chez moi je reçois de la part de notre soeur un écrit Hollandais dédié à la mémoire de Mauve avec son portrait (fort bien le portrait)<c type="kk">/</c> le texte mal et disant rien – eauforte jolie.<ptr target="#note-t-3"/> Seulement un je ne sais quoi m’a empoigné et serré la gorge 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>d’émotion et j’ai écrit sur mon tableau</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5"><hi rend="italics">Souvenir de Mauve</hi></p>
+
+<p xml:id="p.fr.6" n="6"><hi rend="italics">Vincent &amp; Theo</hi><ptr target="#note-t-4"/> </p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">et si tu le trouves bien tel quel nous l’enverrons à nous deux à M<hi rend="super">me</hi> Mauve.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">J’ai exprès pris la meilleure etude que j’aie fabriquée ici<c type="kk">/</c> je sais pas ce qu’ils en diront chez nous mais cela nous est égal<c type="kp">_</c> Il me semblait qu’il fallait en mémoire de Mauve quelque chôse et de tendre et de très gai et non pas une étude dans une gamme plus sérieuse que cela<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.9" n="9">“<hi rend="italics">Ne crois pas que les morts soient morts</hi></p>
+
+<p xml:id="p.fr.10" n="10"><hi rend="italics">Tant qu’il y aura des vivants</hi></p>
+
+<p xml:id="p.fr.11" n="11"><hi rend="italics">Les morts vivront</hi><c type="kk">/</c><hi rend="italics"> les morts vivront</hi>”<c type="kp">_</c><ptr target="#note-t-5"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.12" n="12">C’est comme ça que je sens la chôse<c type="kk">/</c> pas plus triste que cela<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">En outre de cela j’ai maintenant encore 4 ou 5 autres études de vergers<ptr target="#note-t-6"/> et vais commencer une toile de 30 du même sujet<c type="kp">_</c><ptr target="#note-t-7"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Ce blanc de zinc que j’emploie maintenant ne sèche point<c type="kp">_</c> Si tout était sec je ferais un envoi immédiatement<c type="kp">_</c> Seulement tous les jours sont bons maintenant<c type="kk">/</c> non quant au temps<c type="kk">/</c> il y a au contraire 3 jours de vent sur une journée tranquilles<c type="kk">/</c> mais quant aux motifs de vergers fleuris<c type="kp">_</c>– j’ai beaucoup de mal en peignant à cause du vent mais j’attache mon chevalet à des piquets plantés dans le terrain<ptr target="#note-t-8"/> et travaille quand même<c type="kk">/</c> c’est trop beau<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Maintenant continue ferme les relations avec Tersteeg<c type="kp">_</c> Succes ou pas<c type="kk">/</c> dans un an je suis porté à croire que cela y sera.–</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Il me semble que Tersteeg &amp; non pas Reid doive maintenant fonder l’exposition impressioniste en Angleterre.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Je n’aime aucunement la façon d’agir de Reid à notre égard<c type="kk">/</c> il me semble drole que Guillaumin et toi ne se soient pas déjà arrangés pour annuler la vente du tableau 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>en question<c type="kp">_</c><ptr target="#note-t-9"/> Tu peux hardiment dire de ma part à Guillaumin que tel est décidement mon avis<c type="kk">/</c> et tant dans l’intérêt de G. lui-meme que dans l’intéret des affaires en général<c type="kp">_</c> <hi rend="italics">le prix</hi> <hi rend="italics">etait déjà derisoire</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Ou bien Reid<c type="kk">/</c> après ce qui s’est passé<c type="kk">/</c> doit acheter ferme<c type="kk">/</c> ou bien les artistes doivent lui fermer la porte au nez<c type="kp">_</c> J’ai vu ça comme ça dans le temps et réflexion faite je vois encore la chôse comme ça<c type="kp">_</c> Pour 300 francs on compromet les ventes prochaines<c type="kk">/</c> mais c’est très malheureux<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Y a-t-il moyen que tu l’achètes pour nous<c type="kk">/</c> le tableau en question<c type="kp">_</c><ptr target="#note-t-10"/> Faudrait que Tersteeg sache tout ce qui est de l’affaire Reid et qu’il sache qu’il a un concurrent pour l’affaire Angleterre et qu’on préfererait que ce soit lui qui le fasse<c type="kp">_</c>– D’ailleurs ça me regarde pas<c type="kk">/</c> ça regarde – la maison Boussod Val. à laquelle vous appartenez<c type="kk">/</c> Tersteeg &amp; toi<c type="kp">_</c>– En grande hâte<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">t. à. t.</p>
+
+<p xml:id="p.fr.21" n="21">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.22" n="22">Bien le bonjour à Koning &amp; à demain j’espère si j’ai le temps d’écrire<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter and for the 50-franc note enclosed in it. I would have things to write to you at leisure but have to do so in great haste. First of all, <rs type="person" ref="bio.xml#_787">Tersteeg</rs> once again. Am very pleased that your consignment goes off on Monday and after all, perhaps also because there’s a canvas of mine in it.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">However, that one doesn’t count, because I hope you’ll think what I’ve just done is good and that it will mean a new canvas of mine goes off to Holland.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’d worked on a no. 20 canvas in the open air in an orchard — ploughed lilac field, a reed fence — two pink peach trees against a glorious blue and white sky.<ptr target="#note-t-2"/> Probably the best landscape I’ve done. Just as I brought it home I received from our sister a piece in Dutch dedicated to <rs type="person" ref="bio.xml#_323">Mauve</rs>’s memory, with his portrait (really good, the portrait), the text poor and saying nothing — pretty etching.<ptr target="#note-t-3"/> But something or other grabbed hold of me and made my throat tight 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> with emotion, and I wrote on my painting</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5"><hi rend="italics">Souvenir de Mauve</hi></p>
+<p xml:id="p.en.6" n="6"><hi rend="italics">Vincent &amp; Theo</hi><ptr target="#note-t-4"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">and if you think it’s good as it stands we’ll send it to <rs type="person" ref="bio.xml#_321">Mrs Mauve</rs> in both our names.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I deliberately took the best study I’ve made here, I don’t know what they’ll say about it back home, but that’s neither here nor there to us. It seemed to me that in memory of <rs type="person" ref="bio.xml#_323">Mauve</rs> we needed something that was both tender and very cheerful and not a study in a more serious key than that. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">‘<hi rend="italics">Don’t believe that the dead are dead.</hi></p>
+<p xml:id="p.en.10" n="10"><hi rend="italics">While there are people still alive</hi> </p>
+<p xml:id="p.en.11" n="11"><hi rend="italics">The dead will live, the dead will live</hi>’<hi rend="italics">.</hi><ptr target="#note-t-5"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">That’s how I feel the thing, no sadder than that.</p>
+<p rend="indent" xml:id="p.en.13" n="13">In addition to that I now have another 4 or 5 studies of orchards<ptr target="#note-t-6"/> and I’m going to start a no. 30 canvas of the same subject.<ptr target="#note-t-7"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">This zinc white that I’m using now doesn’t dry. If everything was dry I’d send a consignment at once. Only the days are all good now, not in terms of the weather, on the contrary, there are 3 windy days for one still one, but as for the subjects of orchards in blossom. I have a lot of trouble painting because of the wind, but I fix my easel to pegs stuck in the ground<ptr target="#note-t-8"/> and work anyway, it’s too beautiful.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Now be steadfast in keeping up relations with <rs type="person" ref="bio.xml#_787">Tersteeg</rs>. Success or not, in a year I’m inclined to believe it will be there.</p>
+<p rend="indent" xml:id="p.en.16" n="16">It seems to me that <rs type="person" ref="bio.xml#_787">Tersteeg</rs> and not <rs type="person" ref="bio.xml#_623">Reid</rs> should now set up the Impressionist exhibition in England.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I don’t at all like <rs type="person" ref="bio.xml#_623">Reid</rs>’s way of behaving towards us, it seems funny to me that you and <rs type="person" ref="bio.xml#_1065">Guillaumin</rs> haven’t already arranged to cancel the sale of the painting 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> in question.<ptr target="#note-t-9"/> You can tell Guillaumin boldly from me that that’s my firm opinion, and as much in the interests of G. himself as in the interests of business in general. <hi rend="italics">The price was already derisory.</hi></p>
+<p rend="indent" xml:id="p.en.18" n="18">Either <rs type="person" ref="bio.xml#_623">Reid</rs>, after what has happened, should buy outright, or the artists should shut the door in his face. That’s how I’ve seen it in the past, and on further reflection I still see it like that. For 300 francs we’re compromising further sales, but it’s very sad.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Is there any way for you to buy it for us, the painting in question?<ptr target="#note-t-10"/> <rs type="person" ref="bio.xml#_787">Tersteeg</rs> should know all about the <rs type="person" ref="bio.xml#_623">Reid</rs> business, and know he has a competitor in the England business and that we’d prefer him to be the one who does it. Anyway, that’s not my affair, it’s that of the firm of <rs type="person" ref="bio.xml#_797">Boussod Valadon</rs>, to which you belong, you and Tersteeg. In great haste.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">Ever yours,</p>
+<p xml:id="p.en.21" n="21">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Warm regards to <rs type="person" ref="bio.xml#_1145">Koning</rs>, and till tomorrow I hope, if I have time to write.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for his letter and the enclosed money. This must have been the allowance of about Sunday, 1 April, since he tells Theo that he had recently received a letter from Willemien, to which he had replied immediately with <ref target="let590.xml">letter 590</ref> of about 30 March; the present letter must therefore have been written later. We have consequently dated it on or about Sunday, 1 April 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Efforts to interest Tersteeg in modern art <ref target="let580.xml">(580)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to deal in modern art in England <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Disagreement with Reid <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Koning’s stay with Theo <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The consignment to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> included <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Seine with the Clichy</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2553">F 303 / JH 1323</rs>); it arrived in The Hague on 6 April (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let589.xml#n-4">see letter 589, n. 4</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘Souvenir de Mauve’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394 / JH 1379</rs>); see further on this work: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml#n-5">letter 590, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Probablement’.<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+      
+<p>The weekly newspaper <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Portefeuille</hi> had published an article dedicated to the memory of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Mauve</rs>, which also appeared in an extended offprint. It must have been this offprint that Van Gogh had received from his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">sister</rs>, because it had the portrait of Mauve on the first page, whereas this was not printed in the paper. See E. Rittner Bos, ‘In memoriam Anton Mauve, overl. 6 februari 1888’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Portefeuille. Kunst- en Letterbode</hi> 9 (1887-1888), vol. 1, pp. 647-648. The offprint was titled <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">In memoriam A. Mauve</hi> (Amsterdam, Van Gogh Museum Library) and also contained Hendrik Adriaan Christiaan Dekker, ‘A. Mauve’ (originally in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Portefeuille. Kunst- en Letterbode</hi> 9 (1887-1888), vol. 1, pp. 237-239) and an epilogue. The portrait survived in the estate (t*1371). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2176">Ill. 2176</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For the altered inscription on the painting, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml#n-7">see letter 590, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The opening and closing lines of the song that Miarka, the central character in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_727">Jean Richepin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_465">Miarka, la fille à l’ourse</ref></hi>, sings ‘in a sad, soft voice, through the rain and through her tears’ (une voix triste et douce, à travers la pluie et à travers ses larmes). 5th ed. Paris n.d., livre quatrième, p. 237. The poem was set to music by Ernst Amédée Chausson, as the first of his ‘Deux chansons de Miarka’, op. 17, 1888.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml">letter 590</ref> Van Gogh said he was working on six studies. These probably included – besides the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pink peach trees</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">(‘Souvenir de Mauve’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2577">F 394/ JH 1379</rs>) mentioned above – <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard with apricot trees in blossom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2585">F 553 / JH 1387</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard with apricot trees in blossom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2581">F 556 / JH 1383</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Peach tree in blossom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2592">F 557 / JH 1397</rs>); the rest cannot be identified. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml#n-4">See letter 590, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>We do not know of a no. 30 work from this period, nor a no. 25 canvas (which Van Gogh sometimes described as a no. 30). Van Gogh probably postponed his plan, since in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let593.xml">letter 593</ref> he said he was waiting for an absorbent no. 30 canvas. See further <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let594.xml#n-2">letter 594, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let628.xml">letter 628</ref> to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs>, where a passage about the same method is illustrated with a sketch.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+      
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs> evidently wanted to buy a work from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs> at a low price, and the latter had complained to Theo (cf. undated letter from Guillaumin to Theo, sale Piasa, Hôtel Drouot, Paris, 20 November 2008,  lot 201).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>We do not know whether Theo did indeed buy <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs>’s work at this time. There were four Guillaumins in his estate; two of them, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_670">Self-portrait with palette</rs></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_671">Portrait of a young woman</rs></hi>, are now in the Van Gogh Museum. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, p. 22, and cat. Amsterdam 1987, pp. 350-351.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

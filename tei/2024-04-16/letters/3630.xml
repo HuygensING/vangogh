@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh, The Hague, Sunday, 22 July 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let363"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b324 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>363</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>301</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>366</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1883-07-22">Sunday, 22 July 1883</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000409_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000409_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000409_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000409_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000409_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000409_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000410_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000410_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000410_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000410_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000410_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000410_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000411_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000411_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0324 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000411_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000411_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Voor Uw schrijven<c type="kk">/</c> voor het ingeslotene dank ik U<c type="kk">/</c> ofschoon ik een gevoel van droefheid niet kan onderdrukken over wat ge zegt<c type="kk">/</c> “betreffende ’t vervolg kan ik U weinig hoop geven”. Bedoeld ge dat uitsluitend ten opzigte van het finantieele<c type="kk">/</c> ik zou er ’t hoofd niet om laten hangen<c type="kk">/</c> maar moet ik het opvatten als slaande op mijn werk<c type="kk">/</c> weet ik niet regt hoe ik het verdiend heb. Het treft net dat ik U de proeven van photos naar een paar van mijn laatste teekeningen kan sturen<c type="kk">/</c> welke ik U al eerder beloofd had doch niet halen kon omdat ik platzak was.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik weet niet hoe ge dat woord bedoeld hebt<c type="kk">/</c> ik kan ’t ook niet weten<c type="kk">/</c> Uw brief is te kort<c type="kk">/</c> maar ’t gaf me een onverwachten stoot regt in de borst<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Maar ik wou wel eens weten hoe het er mee gesteld is<c type="kk">/</c> of gij iets in me hebt opgemerkt dat ik niet vorderde of zoo.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Betreffende ’t finantieele, zult ge U herinneren gij mij schreeft over slechte tijden maanden geleden<c type="kk">/</c> mijn antwoord was: goed, reden om van weerskanten dubbel ons best te doen; zie gij me te zenden het uiterst noodige<c type="kk">/</c> ik zal er achterheenzitten om weer een eind op te schieten zoo dat we misschien bij de illustraties iets plaatsen kunnen. Sedert zette ik diverse grootere composities op touw waarin meer een sujet was dan in enkele figuurstudies.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Zoo valt nu mijn eerste zending photos om desnoods te kunnen toonen aan den een of ander zamen met Uw “voor ’t vervolg kan ik U weinig hoop geven”. Is er iets bijzonders???</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik ben wat zenuwachtig er over<c type="kk">/</c> ge moet eens spoedig weer schrijven. Nu<c type="kk">/</c> de photos zooals ge ziet zijn <hi>Zaaier</hi> – <hi>aardappelwroeters</hi> – <hi>Turfstekers</hi>. Nu heb ik er nog anderen gemaakt<c type="kk">/</c> <hi>Zandgroeve</hi><c type="kk">/</c><ptr target="#note-t-2"/> <hi>onkruidverbranders</hi><c type="kk">/</c><ptr target="#note-t-3"/> <hi>Mestvaalt</hi><c type="kk">/</c><ptr target="#note-t-4"/> <hi>Aardappelwroeter</hi> 1 figuur,<ptr target="#note-t-5"/> <hi>Kolenladers</hi><c type="kk">/</c><ptr target="#note-t-6"/> en nu heb ik op Schevening deze week gewerkt aan <hi>Nettenverstellen</hi> (Scheveningsche vischersvrouwen)<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">En nog twee grootere composities van Duinwerkers<ptr target="#note-t-8"/> (een van welke ik nog eens aan Tersteeg liet zien) die<c type="kk">/</c> ofschoon er nog veel aan te sjouwen zal zijn<c type="kk">/</c> toch datgene zijn wat ik ’t liefst zou voleindigen.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Lange rijen spitters – arme lui van stadswege aan ’t werk gezet – voor een stuk duingrond dat omgespit moet worden. Maar dat te maken is enorm zwaar<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">In <hi rend="italics">Turfspitters</hi> ziet ge een eerste idee ervan. Ik zou er zoo melankoliek niet over zijn broer<c type="kk">/</c> als gij er niet iets bij zeidet dat me zorg geeft. Gij zegt “laat ons hopen op betere tijden”.–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Zie<c type="kk">/</c> dat is een van die dingen waar men mee op moet passen m.i. <hi rend="italics">Hoop hebben op betere</hi> <hi rend="italics">tijden moet niet een gevoel zijn maar</hi> <hi rend="italics">een iets doen in het heden</hi><c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Mijn doen is in zoover afhankelijk van uw doen dat als gij met zenden zoudt verminderen ik niet voort kan en desperaat zou zijn.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Juist omdat ik de hoop op betere tijden levendig in me voelde<c type="kk">/</c> bleef ik er met alle kracht me in werpen – in ’t werk van ’T “HEDEN” –</p>
+
+<p xml:id="p.nl.14" n="14">zonder verder over die toekomst te denken anders dan dezelve overgevende in ’t vertrouwen er loon na ’t werk zoude zijn<c type="kk">/</c> ofschoon de onkosten op eten<c type="kk">/</c> drinken<c type="kk">/</c> kleeren moesten bezuinigd worden<c type="kk">/</c> telkens<c type="kk">/</c> week aan week<c type="kk">/</c> meer en meer. Ik stond nu voor kwestie naar Schevening gaan<c type="kk">/</c> voor kwestie schilderen<c type="kp">_</c>– Ik dacht: kom<c type="kk">/</c> doorzetten<c type="kp">_</c>– Maar nu zou ik wenschen niet begonnen te zijn kerel<c type="kk">/</c> want het zijn onkosten meer en ik heb het niet. De weken gingen voorbij<c type="kk">/</c> vele<c type="kk">/</c> vele weken en maanden in den laatsten tijd dat telkens de onkosten iets zwaarder waren dan ik met alle tobben en hoofdbreken en uitzuinigen kon bij houden<c type="kp">_</c> Zoo als ’t geld van U komt moet ik er niet alleen 10 dagen mee rondkomen doch zooveel direkt af betalen dat die 10 dagen die voor de borst staan van den eersten af on ne peut plus mager zijn. En de vrouw moet ’t kind de borst geven en ’t kind is sterk en groeit en ze zit er dikwijls mee er geen zog is<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Nu<c type="kk">/</c> ik zit in ’t duin of ergens anders ook met een enorm gevoel van flaauwigheid bij tijden omdat er niets inkomt.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Schoenen gelapt en kapot van allen &amp; meer andere petites misères<ptr target="#note-t-10"/> die maken men rimpels krijgt<c type="kp">_</c> Enfin – ’t zou niets zijn Theo<c type="kk">/</c> als ik maar de gedachte kon houden: toch zal ’t gaan<c type="kk">/</c> doorzetten maar<c type="kp">_</c> Nu echter is ’t woordje van U “ik kan voor ’t vervolg u weinig hoop geven” voor mij iets als “<hi rend="italics">the hair that breaks</hi> <hi rend="italics">the camels back at last</hi>”<c type="kp">_</c> De last is wel eens zòò zwaar dat het eene haartje meer het beest tegen den grond doet vallen.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Nu que faire<c type="kp">_</c>– Blommers zag en sprak ik op Schevening reeds tweemaal en hij zag een paar dingen van me en vroeg me eens bij hem te komen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Ik maakte eenige geschilderde studies daar<c type="kk">/</c> een brok zee<c type="kk">/</c> een aardappelland<c type="kk">/</c> een veld met nettenverstelders<c type="kk">/</c> en hier t’huis een kerel in ’t aardappelland die kool plant op de leege plekken tusschen ’t aardappelloof<c type="kk">/</c><ptr target="#note-t-11"/> en dan onder handen de groote teekening van ’t netten boeten<c type="kk">/</c> zooals ze ’t noemen.<ptr target="#note-t-12"/> Maar mijn lust voel ik vergaan<c type="kk">/</c> men heeft behoefte aan een vast punt ergens. Zie<c type="kk">/</c> dat ge me zegt<c type="kk">/</c> hoop maar op de toekomst<c type="kk">/</c> is net als of ge zelf geen hoop meer hebt betreffende mij<c type="kp">_</c> Is dat zoo<c type="kp">_</c>– Ik kan ’t niet helpen<c type="kk">/</c> ik ben niet prettig<ptr target="#note-t-a"/> door de zorg en ik wou dat ge maar eens hier waart.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Gij zegt dat de autographies<ptr target="#note-t-13"/> wat mager zijn van effekt<c type="kk">/</c> het verwondert me niet in ’t minst als ik denk dat t’physiek van iemand op zijn werk influenceert en mijn leven is te droog en te mager<c type="kp">_</c> waarachtig Theo<c type="kk">/</c> ter wille van ’t werk zouden we een beetje beter moeten gegeten hebben maar ’t kon er niet af en het zal zoo blijven als ik niet een klein beetje meer ruimte krijg op een of andere manier<c type="kp">_</c> Daarom<c type="kk">/</c> toe laat de photos eens kijken aan Buhot of zoo als ge zelf niet sturen kunt en, zie een debouché te vinden door hem, als ’t kan.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Ik heb er haast berouw van dat ik weer ben gaan schilderen want als ik er niet mee vorderen kan wou ik liever ik ’t maar daargelaten had. Nu<c type="kk">/</c> het gaat niet zonder verf en verf kost duur en omdat ik nog wat moet betalen aan Leurs &amp; Stam kan ik niet laten oploopen. En ik schilder zoo graag. Nu ik weer bezig was kreeg ik in dingen van verl. jaar weer meer pleizier en heb weer geschilderde dingen in ’t atelier gehangen. De zee<c type="kk">/</c> waar ik vreeselijk veel van houd<c type="kk">/</c> zij dient met schilderen geattaqueerd te worden<c type="kk">/</c> anders heeft men er geen vat op.–</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Zie Theo<c type="kk">/</c> ik hoop maar dat gij den moed niet opgeeft<c type="kk">/</c> maar waarachtig<c type="kk">/</c> als ge gaat spreken van “geen hoop geven voor ’t vervolg” dan word ik melankoliek want gij moet den moed en de energie hebben om te zenden<c type="kk">/</c> anders zit ik vast zonder dat ’t in mijn magt is om vort te komen<c type="kk">/</c> want die vrienden konden zijn zijn vijandig geworden en schijnen ’t te willen blijven.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Denk er eens over na dat ik toch niets deed dat dit motiveeren kon eigentlijk<c type="kk">/</c> althans niet motiveeren kon dat Mauve b.v. of Tersteeg of C.M. zoo koel zijn niet eens iets te willen zien of een woord spreken<c type="kp">_</c> ik vind ’t menschelijk men over ’t een of ander en froid gerake maar ’t en froid zijn aan te houden zelfs nu er meer dan een jaar passeert en na herhaalde pogingen om ’t bij te leggen<c type="kk">/</c> is niet aardig.</p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Zoo eindig ik voor heden met de vraag<c type="kk">/</c> Theo toen in ’t begin gij tot mij spraakt over ’t schilderen<ptr target="#note-t-14"/> en we hadden toen kunnen vooruitzien ’t werk van nu<c type="kk">/</c> zouden we geaarzeld hebben te vinden dat het regt was ik schilder zou worden (of teekenaar dan<c type="kk">/</c> wat doet het er toe)? Ik geloof niet dat we toen geaarzeld zouden hebben om door te zetten als we b.v. deze photos hadden kunnen vooruitzien<c type="kk">/</c> niet waar<c type="kk">/</c> want er moet toch een schildershand en -oog zijn wil men zoo’n geval uit het duin in een of anderen vorm creeëren. Nu echter is het dikwijls ik zoo beroerd me gevoel als ik de lui antipathiek zie blijven en koud<c type="kk">/</c> dat ik den moed verlies. Nu<c type="kk">/</c> ik redresseer me dan weer en ga weer aan ’t werk en lach er om<c type="kk">/</c> en omdat ik in ’t heden werk en geen dag laat omgaan 
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>zonder te werken<c type="kk">/</c> geloof ik dat ik wel degelijk hoop heb op de toekomst<c type="kk">/</c> ofschoon ik ’t gevoel daarvan niet heb want ik zeg het U<c type="kk">/</c> er schiet me geen spacie in mijn hersens over om over de toekomst te philosopheeren<c type="kk">/</c> zij ’t om me van streek te brengen zij ’t om me te troosten<c type="kp">_</c> het heden vasthouden en niet laten voorbijgaan zonder te zien er iets uit te halen<c type="kk">/</c> ziedaar wat ik geloof pligt te zijn.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Tracht gij U dus ook ten opzigte van mij te houden aan het heden en laat ons volhouden wat we kunnen volhouden<c type="kk">/</c> liever heden dan morgen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Toch Theo<c type="kk">/</c> hoeft ge me niet te sparen als ’t een kwestie is van geld alleen en als gij als vriend en broer maar ietwat sympathie voor ’t werk houdt<c type="kk">/</c> verkoopbaar of onverkoopbaar. Als dat ’t geval maar is: dat ik in dit opzigt uw sympathie<ptr target="#note-t-15"/> houden mag<c type="kk">/</c> dan kan ’t me bitter weinig schelen en dan moeten we kalm en koelbloedig raadschaften. Dan<c type="kk">/</c> als er geen hoop is voor ’t vervolg in ’t finantieele zou ik proponeeren een verhuizing naar buiten<c type="kk">/</c> op een dorp <hi rend="italics">geheel buiten</hi> uithalende de helft van huishuur en voor ’t zelfde geld als men hier voor slecht betaald<c type="kk">/</c> goed en gezond eten<c type="kk">/</c> noodig voor de vrouw en de kleintjes en voor mij eigentlijk ook<c type="kp">_</c> <hi rend="italics">Tevens</hi> nog voordeelen hebbende voor modellen misschien<c type="kp">_</c></p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Ge weet<c type="kk">/</c> verl. zomer heb ik geschilderd – verscheiden studies heb ik nu weer eens opgehangen omdat bij ’t maken van nieuwen ik er weer oog op kreeg er toch iets in was<c type="kp">_</c> Indirekt hielp dat schilderen me voor mijn teekenwerk gedurende de wintermaanden en ’t voorjaar, en voerde ik dat op tot deze laatste teekeningen toe. Nu echter voel ik weer ’t goed zou zijn een tijd te schilderen en ik dat noodig heb om tooniger te worden<c type="kk">/</c> ook in de teekeningen. Ik had plan de wijven die in ’t gras netten zitten te verstellen tamelijk groot te schilderen maar op Uw woord zie ik er van af tot ik U spreek<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Ik heb nog drukjes van de autographies gekregen doch ook nog zwak<c type="kk">/</c> maar de man zegt me<ptr target="#note-t-16"/> hij er eigentlijk meer inkt op had moeten doen en er me nog beteren zal geven.<ptr target="#note-t-17"/> N’importe<c type="kk">/</c> ik heb er eens een proef mee genomen om in klein formaat als voor illustratie croquis te maken. Och Theo<c type="kk">/</c> ik zou veel meer kunnen vorderen als ik ’t wat ruimer kon hebben<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Maar ik weet er niets op te verzinnen<c type="kk">/</c> overal stuit ik op onkosten. Als ik de historie van dezen of genen schilder lees zoo zie ik ze toch allen geld noodig hadden en beroerd werden als zij niet vort konden.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Schrijf eens spoedig want ik ben niet prettig en in tweestrijd of ik Schevening durf doorzetten<c type="kk">/</c> dat met kosten aan schildergerij gepaard gaat.</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Ik had gehoopt ge wat zoudt hebben kunnen sturen – nu<c type="kk">/</c> in elk geval<c type="kk">/</c> vooral als ge geen geld hebt moet ge me eens spoedig schrijven want ’t is een toer moed te houden in de gegevenen.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Ik vind de teekeningen waarnaar de photos zijn nog niet diep genoeg van toon<c type="kk">/</c> nog niet genoeg de emotie die de natuur opwekt weergevende<c type="kk">/</c> maar als ge dit vergelijkt bij ’t geen ik mee ben begonnen<c type="kk">/</c> met de figuren van vroeger<c type="kk">/</c> zoo meen ik mij niet te vergissen er een rigting van vorderen in is en dien stroom mogen we niet loslaten<c type="kk">/</c> dus laat ons zien door te sjouwen. </p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Ik wou ge maar eens kwaamt. Schrijf in elk geval spoedig<c type="kp">_</c> adieu<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.33" n="33">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.34" n="34">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.35" n="35">Ik vind het niet goed Theo<c type="kk">/</c> om uit te geven meer dan men ontvangt – maar als ’t een kwestie is van werkstaken of doorwerken zoo ben ik voor ’t doorwerken tot het uiterste<c type="kp">_</c> Millet en de andere voorgangers hebben doorgezet tot den deurwaarder toe<c type="kk">/</c> of sommigen hebben gevangen gezeten of zijn moeten verhuizen her- en derwaarts<c type="kk">/</c> doch ik zie in hen niet dat zij hebben gestopt<c type="kp">_</c> En bij mij is ’t nog maar in ’t begin maar als een donkere schaduw zie ik het in de verte en maakt ’t me soms het werken somber.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.36" n="36">Ik heb Breitner nog gesproken sedert, over die drie aangezette composities.<ptr target="#note-t-18"/> Het was wel zoo iets van dat hij ze in een moment van van streek zijn had gemaakt. Hij zeide mij hij er spijt van had ze zoo gemaakt te hebben en liet mij een veranderde compositie zien van den dronkaard en studies van gemeene straatwijven<ptr target="#note-t-19"/> die oneindig beter waren. En ik zag ook een paar in wording zijnde aquarellen en een schilderij van een hoefsmederij<ptr target="#note-t-20"/> die met een bedaarder en juister hand en hoofd waren gedaan. Ik las een boek dat hij me leende<c type="kk">/</c> <hi rend="italics">Soeur Philomen</hi> van de <hi rend="italics">Goncourt</hi> die Gavarni schreef. De geschiedenis passeert in een gasthuis<c type="kk">/</c> erg goed.<ptr target="#note-t-21"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I thank you for your letter, and for the enclosure, although I can’t suppress a feeling of sadness over what you say, ‘as for the future, I can give you little hope’. If you mean that only in relation to financial matters, I wouldn’t be downcast, but if I’m to take it as applying to my work, I really don’t see how I deserve that. It just so happens that I can now send you the prints of photos after a few of my recent drawings, which I promised you earlier but couldn’t manage because I was flat broke.<ptr target="#note-t-1"/> </p>
+<p rend="indent" xml:id="p.en.3" n="3">I don’t know how you intended those words, nor can I know. Your letter is too brief, but it gave me an unexpected blow right in the chest. </p>
+<p rend="indent" xml:id="p.en.4" n="4">But I would like to know what the position is, whether you noticed something in me, that I wasn’t making progress or something. </p>
+<p rend="indent" xml:id="p.en.5" n="5">As for financial matters, you’ll remember writing to me months ago about bad times. My answer was: very well, a reason for us to do our very best on both sides; see that you send me the absolutely essential, I’ll get on with making more progress so that perhaps we can place something with the illustrated magazines. I’ve since made a start on various large compositions in which there was more of a subject than in studies of single figures. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">So now my first consignment of photos to be shown to someone or other if needed coincides with your ‘as for the future, I can give you little hope’. Is there something in particular??? </p>
+<p rend="indent" xml:id="p.en.7" n="7">I’m rather nervous about this. You must write again soon. Well, as you see, the photos are <hi>Sower</hi> — <hi>potato grubbers</hi> — <hi>Peat diggers</hi>. I’ve now done some more, <hi>Sand quarry</hi>,<ptr target="#note-t-2"/> <hi>weed burners</hi>,<ptr target="#note-t-3"/> <hi>Dung-heap</hi>,<ptr target="#note-t-4"/> <hi>Potato grubber</hi> 1 figure,<ptr target="#note-t-5"/> <hi>Coal loaders</hi>,<ptr target="#note-t-6"/> and at Scheveningen this week I worked on <hi>Mending nets</hi> (Scheveningen fishermen’s wives).<ptr target="#note-t-7"/> </p>
+<p rend="indent" xml:id="p.en.8" n="8">And two larger compositions of Dune workers<ptr target="#note-t-8"/> (one of which I showed to <rs type="person" ref="bio.xml#_787">Tersteeg</rs> again) which, although they’ll require a lot more labour, are still what I’d most like to complete. </p>
+<p rend="indent" xml:id="p.en.9" n="9">Long rows of diggers — poor fellows set to work by the city — in front of a piece of dune land that’s to be dug over. But to do that is terribly difficult. </p>
+<p rend="indent" xml:id="p.en.10" n="10"><hi rend="italics">Peat diggers</hi> gives you a first idea of it. I wouldn’t be so melancholy about it, brother, if you hadn’t added something that worries me. You say ‘let’s hope for better times’.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">You see, that’s one of the things one must be careful about, in my view. <hi rend="italics">Hoping for better times mustn’t be a feeling but a doing something in the present</hi>.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">My doing depends on your doing, in the sense that if you were to reduce what you send I couldn’t go on and would be desperate. </p>
+<p rend="indent" xml:id="p.en.13" n="13">Precisely because I felt the hope of better times alive within me, I continued to throw myself into it with all my strength — into the work of THE ‘PRESENT’ — without thinking about that future other than to trust that work would bring its reward, although the spending on food, drink, clothes had to be reduced again and again, week after week, more and more. I was faced by the question of going to Scheveningen, the question of painting. I thought: come, press ahead. But now I wish I hadn’t begun, old chap, for it means extra expenses and I don’t have it. The weeks passed, many, many weeks and months of late, when each time the expenses were slightly more than I could keep up with, even with all the fretting and worrying and economizing. So when the money arrives from you, not only do I have to manage on it for 10 days but I immediately have to pay out so much that in those 10 days that lie ahead one couldn’t be in a more meagre situation from the outset. And the <rs type="person" ref="bio.xml#_463">woman</rs> must breastfeed the <rs type="person" ref="bio.xml#_466">child</rs>, and the child is strong and growing, and she’s often worried because there’s no milk.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">I, too, have an enormous feeling of faintness at times in the dunes or elsewhere, because there’s nothing coming in. </p>
+<p rend="indent" xml:id="p.en.15" n="15">Everyone’s shoes patched and worn out and other petty vexations<ptr target="#note-t-10"/> that give one wrinkles. Anyway — it would be nothing, Theo, if only I could hold on to the thought: it will work all the same, just press on. But now to me your words ‘as for the future, I can give you little hope’ are like ‘<hi rend="italics">the hair that breaks the camel’s back at last</hi>’. The burden is sometimes so heavy that one hair more makes the animal fall to the ground.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Well, what to do? I’ve seen and spoken to <rs type="person" ref="bio.xml#_872">Blommers</rs> twice already in Scheveningen, and he saw a few things of mine and asked me to call on him sometime. </p>
+<p rend="indent" xml:id="p.en.17" n="17">I did some painted studies there, a bit of sea, a potato field, a field with women mending nets, and here at home a chap in the potato field planting cabbage in the empty spaces between the potato leaves,<ptr target="#note-t-11"/> and then I’m working on the large drawing of beeting the nets,<ptr target="#note-t-12"/> as they call it. But I feel my enjoyment fading, one needs a fixed point somewhere. You see, the fact that you say to me, just have hope for the future, is as if you yourself no longer have any hope for me. Is that so? I can’t help it, I feel unwell because of the worry, and I just wish you were here.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">You say that the effect of the autographs<ptr target="#note-t-13"/> is rather meagre. That doesn’t surprise me in the least when I consider that someone’s physical state influences his work, and my life is too dry and too meagre. Honestly, Theo, for the sake of the work we ought to have eaten a little better, but we couldn’t afford it and things will stay like that if I don’t get a little more leeway by one means or another. So do show the photos to <rs type="person" ref="bio.xml#_910">Buhot</rs> or someone if you can’t arrange it yourself, and try to find a market through him, if you can. </p>
+<p rend="indent" xml:id="p.en.19" n="19">I almost regret starting to paint again, for if I can’t make any progress I would rather I had given it up. It can’t be done without paint, and paint is dear, and because I still owe <rs type="person" ref="bio.xml#_491">Leurs</rs> and <rs type="person" ref="bio.xml#_204">Stam</rs> some money I can’t run up a bill. And I like painting so much. Now that I was doing it again I took more pleasure in things from last year, and have hung painted things in the studio again. The sea, which I love very dearly, needs to be attacked with painting, otherwise one has no grip on it.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Look, Theo, I just hope that you aren’t losing heart, but truly, if you’re going to talk about ‘giving no hope for the future’ then I feel sad, for you must have the courage and the energy to send, otherwise I’ll be stuck and powerless to move forward, for those who could be friends have become hostile, and appear to want to stay like that. </p>
+<p rend="indent" xml:id="p.en.21" n="21">Consider the fact that, after all, I’ve done nothing that could justify this, at any rate not explain why <rs type="person" ref="bio.xml#_323">Mauve</rs>, say, or <rs type="person" ref="bio.xml#_787">Tersteeg</rs> or <rs type="person" ref="bio.xml#_422">C.M.</rs> are so cool as not to want to see anything or say a word. I find it human that a coolness may arise over one thing or another, but to maintain the coolness now that more than a year has passed, and after repeated attempts at reconciliation, is not kind.
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Thus I end for today with the question, Theo, when in the beginning you spoke to me about painting,<ptr target="#note-t-14"/> and if we could have foreseen then the work now, would we have hesitated to think it was right that I should become a painter (or draughtsman then, what difference does it make?)? I don’t believe that we’d have hesitated to press ahead if we could have foreseen these photos, for instance, would we?, for a painter’s hand and eye are needed after all if one wants to create such a scene in the dunes in one form or another. But now I often feel so wretched when I see people remaining so apathetic and cold that I lose heart. Well, then I recover again and go back to work and smile about it, and because I work in the present and don’t let a day go by 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/> without working, I believe that I do indeed have hope for the future, although it doesn’t feel like that because, as I say, there’s no room left in my brain for philosophizing about the future, either to upset me or to console me. Holding on to the present and not letting it pass by without managing to get something out of it — now that’s what I believe duty is.</p>
+<p rend="indent" xml:id="p.en.23" n="23">So you should also try to hold on to the present with respect to me, and let’s persevere with what we can persevere with, preferably today rather than tomorrow.</p>
+<p rend="indent" xml:id="p.en.24" n="24">But you needn’t spare me, Theo, if it’s just a question of money, and if you, as friend and brother, retain some sympathy for the work, saleable or unsaleable. As long as that’s the case, that I still retain your sympathy in this respect,<ptr target="#note-t-15"/> then it matters precious little to me, and we must confer calmly and coolly. Then, if there’s no hope for the future financially, I would propose a move to the country, saving half the rent in a village <hi rend="italics">deep in the country</hi>,<hi rend="italics"> </hi>and for the same amount of money that one pays here for bad food getting good, healthy food, which is needed for the woman and the little ones, and for me too in fact. <hi rend="italics">Also</hi> having advantages perhaps for models.
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">As you know, last summer I painted — now I’ve hung up several studies again, because when I was doing new ones I saw that there was something in them after all. Painting helped me indirectly with my drawing during the winter months and the spring, and I worked that up right until these recent drawings. Now, though, I feel it would be good to paint again for a while, and I need that to become richer in tone, in the drawings too. I had planned to paint the women sitting in the grass mending the nets in a fairly large format, but after what you said I’ll wait until I’ve spoken to you. </p>
+<p rend="indent" xml:id="p.en.26" n="26">I’ve received small prints of the autographs, but weak ones, yet the man tells me<ptr target="#note-t-16"/> he ought really to have put on more ink and that he’ll give me better ones.<ptr target="#note-t-17"/> No matter, I’ve experimented with doing a croquis in a small format as if for an illustrated magazine. Oh, Theo, I could make much more progress if I was a little better off. </p>
+<p rend="indent" xml:id="p.en.27" n="27">But I can’t think of a way out, I come up against expenses on all sides. When I read the life story of one painter or another, I see that in fact they all needed money, and were miserable when they couldn’t carry on. </p>
+<p rend="indent" xml:id="p.en.28" n="28">Write soon, for I’m not well and in two minds as to whether I dare go ahead with Scheveningen, which will involve the costs of painting materials.
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">I had hoped that you would have been able to send something — well, in any event, especially if you have no money, you must write to me soon, for it’s quite a feat to keep one’s spirits up in the circumstances.</p>
+<p rend="indent" xml:id="p.en.30" n="30">I think the drawings from which the photos have been taken aren’t yet deep enough in tone, not yet depicting the emotion nature evokes sufficiently, but if you compare this with what I began with, the earlier figures, I believe I’m not mistaken in seeing signs of progress and we mustn’t let go of that advance, so let us toil on. </p>
+<p rend="indent" xml:id="p.en.31" n="31">I wish you could come. Write soon in any case. Adieu, with a handshake. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.32" n="32">Ever yours,</p>
+<p xml:id="p.en.33" n="33">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.34" n="34">I don’t think it right, Theo, to spend more than one receives — but if it’s a question of stopping or carrying on working, I’m for carrying on to the end. <rs type="person" ref="bio.xml#_1226">Millet</rs> and other predecessors carried on right up to the bailiff, and some went to prison or had to move hither and thither, yet I don’t see in them that they stopped. And with me it’s still only the beginning, but I see it in the distance like a dark shadow, and it sometimes makes working sombre. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.35" n="35">I’ve spoken to <rs type="person" ref="bio.xml#_903">Breitner</rs> again, about those three compositions in progress.<ptr target="#note-t-18"/> It was indeed so that he had done them in a moment when he was out of sorts. He told me that he regretted doing them like that, and showed me an altered composition of the drunkard and studies of low street women<ptr target="#note-t-19"/> that were infinitely better. And I also saw some watercolours in the making and a painting of a farrier’s<ptr target="#note-t-20"/> that were done with a calmer and more correct hand and head. I read a book he lent me, <hi rend="italics"><ref target="biblio.xml#lit_350">Soeur Philomène</ref></hi> by De <hi rend="italics"><rs type="person" ref="bio.xml#_617 bio.xml#_618">Goncourt</rs></hi>, who wrote <ref target="biblio.xml#lit_224">Gavarni</ref>. The story is set in a hospital, very good.<ptr target="#note-t-21"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">This letter immediately precedes <ref target="let364.xml">letter 364</ref>, in which Vincent comes back to a remark by Theo (about a gloomy future) that is central to the present letter. <ref target="let364.xml">Letter 364</ref> is headed ‘Sunday evening’ and it appears from <ref target="#l-59">ll. 59-60</ref> there that he also wrote to Theo ‘early this morning’; thus that was the present letter. In it he thanks Theo for sending money, which must have been the third remittance of July, and so the letter dates from Sunday, 22 July 1883. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Storage of painting materials at De Bock’s <ref target="let360.xml">(360)</ref> </p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Planned visit by Theo (<ref target="let361.xml">361</ref>)</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>These were three photographs of the drawings <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Peat diggers in the dunes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2437">F 1031 / JH 363</rs>); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Potato grubbers</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2442">F 1034 / JH 372</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sower</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2443">F 1035 / JH 374</rs>): <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let362.xml#n-7">see letter 362, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+    
+<p>Van Gogh thinks that the drawings listed here, which he had mentioned before, could also be photographed. The first drawing would have had the same subject as the sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The sandpit at Dekkersduin near The Hague</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_95">F 1028 / JH 367</rs>), which Vincent had sent to Theo with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let348.xml">letter 348</ref>. The drawings, which Van Gogh also calls ‘team of workmen labouring’, are mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let348.xml">letters 348</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let357.xml">357</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This may be the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weed burners</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_511">F 1035a / JH 375</rs>). The drawing is mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let361.xml">letter 361</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh made two – unknown – versions of a drawing with a dung-heap; they are mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let350.xml">letters 350</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let357.xml">357</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This drawing of a potato-grubbing old man is not known; it is mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let358.xml">letter 358</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>This drawing of coal loaders is not known; it is mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let354.xml">letters 354</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let357.xml">357</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The ‘large drawing’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-118">(l. 118)</ref> with women mending nets is not known. With this subject Van Gogh goes back to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Women mending nets in the dunes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2386">F 7 / JH 178</rs>) done a year earlier. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>These two larger drawings with compositions of dune workers are not known. One of them is the ‘row of diggers’ that he had shown to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let356.xml">letter 356</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+    
+<p>This emphasis on ‘doing’ would have been inspired by what Van Gogh had read about ‘action’ in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_563">Carlyle</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let356.xml#n-7">see letters 356, n. 7</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let312.xml#n-2">312, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+    
+<p>For the origin of this borrowing from the book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_222">Petites misères de la vie humaine</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_748">Old Nick</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_745">Grandville</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let178.xml#n-6">see letter 178, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>These paintings of ‘a bit of sea’, ‘a potato field’, ‘a field with women mending nets’ and a man planting cabbage in a potato field are not known.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+    
+<p>The unknown drawing of women repairing nets mentioned earlier (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-7">see n. 7</ref> above).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Niet wel’ (Unwell).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+    
+<p>Prints of the lithographs drawn in autographic ink. Vincent must have sent his brother the lithographs <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weed burners</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3029">F 1660 / JH 377</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gardener near a gnarled apple tree </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3030">F 1659 / JH 379</rs>). See Van Heugten and Pabst 1995, pp. 61-73, 95-96 and exhib. cat. Vienna 1996, pp. 148-150, cat. nos. 46-47.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The fact that Theo had suggested to Vincent that he should become a painter or draughtsman was mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let214.xml">letter 214</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Van Gogh first wrote ‘respect’ (‘achting’) instead of ‘sympathy’.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>It is possible that this reads ‘nu’ (now) instead of ‘me’ (me).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+    
+<p>Five and four impressions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gardener by an apple tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3030">F 1659 / JH 379</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Burning weeds</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3029">F 1660 / JH 377</rs>) respectively are known; some of them are indeed poorly printed. See Van Heugten and Pabst 1995, pp. 61-73, 95-96, cat. nos. 7-8.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>These three studies by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_903">Breitner</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_635">Charge of the hussars</rs></hi>, a drunkard and a flower market, were mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let361.xml">letter 361</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>For studies of street women by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_903">Breitner</rs>, cf. the sheet <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_515">Studies of women</rs></hi> (Otterlo, Kröller-Müller Museum). See Hefting 1970, cat. no. 225-d.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Two paintings by Breitner with this subject are known from the period 1881-1883. The first is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Een hoefsmid te Brabant</hi> (A farrier in Brabant) (private collection), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_633">Ill. 633</rs>, which was shown in 1883 at the Living Masters exhibition at <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arti et Amicitiae</hi> in Amsterdam. In view of the date, this was probably the work that Van Gogh saw. The second is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De hoefsmid (aan de Haringkade te ’s-Gravenhage)</hi> (The farrier (on Haringkade in The Hague)) (private collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2114">Ill. 2114</rs>. This dates from 1881. Cf. Hefting 1970, cat. nos. 33, 35.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>Van Gogh knew the brothers <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Edmond and Jules de Goncourt</rs> through their book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_224">Gavarni, l’homme et l’oeuvre</ref></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let174.xml">see letter 174</ref>). Their novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_350">Soeur Philomène</ref></hi> (1861) is about the orphan Marie Gaucher, who has to spend her adolescence in a convent, where she undergoes religious raptures and self-chastisement. After being rejected by her first love Henri, she goes to work in a hospital as Nurse Philomène. She begins a relationship with assistant doctor Barnier, but their happiness is shattered when his ex-love is admitted to the hospital and dies. Barnier then commits suicide.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

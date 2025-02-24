@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Tuesday, 23 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let711"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b729 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>711</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T2</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>716</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1888-10-23">Tuesday, 23 October 1888</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0729" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000986_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000986_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001000986_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0729" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000986_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000986_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-4">
+<graphic url="https://example.com/iiif/VGM001000986_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Goupil &amp; C<hi rend="super">o</hi></p>
+
+<p xml:id="p.fr.2" n="2">Tableaux Objets d’Art</p>
+
+<p xml:id="p.fr.3" n="3">Boussod, Valadon &amp; C<hi rend="super">ie</hi></p>
+
+<p xml:id="p.fr.4" n="4">Successeurs</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">19, Boulevard Montmartre, Paris</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.6" n="6">Adr.Télégr.Boussoval.Paris.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">le 23 Oct<c type="kp">_</c> 1888</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.8" n="8">Mon cher Vincent,</p>
+
+<p xml:id="p.fr.9" n="9">J’apprends avec peine que tu ne te trouves pas bien. Tu dois avoir trop travaillé &amp; oublié par là de soigner ton corps comme il le faut. Je suis content que ta lettre<ptr target="#note-t-1"/> soit arrivée encore aujourd’hui car tout à l’heure j’aurais été parti pour Bruxelles<ptr target="#note-t-2"/> &amp; tu aurais eu à attendre au moins encore deux jours. Quel financier 
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>que tu fais! ce qui me chagrine c’est qu’avec tout cela tu te trouves toujours dans la misère, par ce que tu ne peux pas t’empêcher de faire pour les autres. J’aimerais bien te voir plus égoiste jusqu’à ce que tu sois en équilibre. Tu comprends que le père Thomas m’a envoyé promener<c type="kk">/</c> il faudrait que cela soit toi-même – qui eût fait la démarche<c type="kk">/</c> &amp; encore. Maintenant tâchons de nous en tirer tout de même, les autres viendront<c type="kk">/</c> tout seul, nous chercher. Ce qui te feras plaisir c’est que j’ai vendu le grand tableau de Gauguin, les Bretonnes<c type="kk">/</c><ptr target="#note-t-3"/> qui a été déposé chez Diot.<ptr target="#note-t-4"/> Je lui envoie pour cela f<hi rend="super">s </hi>500– &amp; il sera donc à flot pour l’instant, mais viendra t il te rejoindre? Cette 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>semaine de Haan vient rester avec moi<ptr target="#note-t-a"/>, dont je suis bien aise, car il est probable que c’est lui qui fera d’içi quelque temps le noyau du groupe des jeunes içi.<ptr target="#note-t-5"/> Dans ta lettre précedente tu as l’air de croire que ces gens ont le tranchant des questions d’art de la façon des Hollandais,<ptr target="#note-t-6"/> mais c’est de ma faute que tu aies eu cette impression. Quand je te disait qu’il savent analiser un tableau en faisant la part de sentiment<c type="kk">/</c> de la technique etc<c type="kp">_</c> je n’ai pas voulu dire autant qu’ils séparent les qualites, mais plustot je voulais te dire la singulière clareté d’esprit qu’ils ont de ne pas confondre les choses. Surtout Isacson m’a l’air d’un vrai savant. Ils ont reçu des tableaux &amp; études faites en Hollande<c type="kk">/</c> fort bien, mais un peu noir. Ils ont 
+<pb f="1v" n="4" xml:id="pb-orig-1v-4" facs="#zone-pb-1v-4"/>l’intention de rester l’hiver à Paris &amp; de partir pour la campagne aussitôt que le temps permet de travailler dehors.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je pense être de retour de Bruxelles Vendredi ou Samedi &amp; je t’écrirai prochainement plus à mon aise. J’espère que ce n’est pas grave ce que tu as &amp; que tu ne perdra pas courage même si Gauguin ne venait pas.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.11" n="11">À toi</p>
+
+<p xml:id="p.fr.12" n="12">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">[Letterhead: Goupil and Boussod Paris]</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">23 Oct. 1888</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">My dear Vincent,</p>
+<p xml:id="p.en.4" n="4">It pains me to learn that you’re not well. You must have worked too much and that way forgotten to take care of your body as one should. I’m glad that your letter<ptr target="#note-t-1"/> came today and no later, because I would soon have left for Brussels,<ptr target="#note-t-2"/> and you’d have had to wait another two days, at least. What a financier 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/> you are! What distresses me is that even so, you’re still in poverty, because you can’t stop yourself doing things for others. I’d be very glad to see you more selfish until you’re on an even keel. You understand that <hi rend="italics">père</hi> <rs type="person" ref="bio.xml#_780">Thomas</rs> has sent me packing; it should have been you — who took the initiative, and even then. Now let’s try to get ourselves out of it anyway; others will come looking for us of their own accord. What will please you is that I’ve sold <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s large painting, the Breton women,<ptr target="#note-t-3"/> which had been deposited with <rs type="person" ref="bio.xml#_335">Diot</rs>.<ptr target="#note-t-4"/> I’m sending him 500 francs for it and so he’ll be solvent for the moment, but will he come to join you? This 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> week <rs type="person" ref="bio.xml#_1075">De Haan</rs> is coming to live with me, which I’m delighted about, because it’s likely that some time from now it will be he who will form the nucleus of the group of young people here.<ptr target="#note-t-5"/> In your previous letter you seem to believe that these people have the edge in questions of art in the manner of the Dutch,<ptr target="#note-t-6"/> but it’s my fault if you had this impression. When I told you that they knew how to analyze a painting by taking account of the sentiment, technique, etc., I didn’t want to go so far as to say that they separate these qualities, but rather I wanted to tell you the unusual clarity of mind that they have in not confusing things. <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>, especially, strikes me as a real scholar. They’ve received paintings and studies made in Holland; very good, but a bit dark. They 
+<pb f="1v" n="4" xml:id="pb-trans-1v-4" facs="#zone-pb-1v-4"/> intend to stay in Paris for the winter and to leave for the country as soon as the weather’s good enough for working outside.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I expect to be back from Brussels on Friday or Saturday, and I’ll write to you shortly at greater leisure. I hope that what’s wrong with you isn’t serious and that you won’t lose heart, even if <rs type="person" ref="bio.xml#_1039">Gauguin</rs> didn’t come.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Yours,</p>
+<p xml:id="p.en.7" n="7">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘le 23 Oct_ 1888’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attempts to sell work through Thomas <ref target="let639.xml">(639)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let709.xml">letter 709</ref>, in which Vincent told Theo about his exhaustion and asked for extra money because of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s impending arrival (in his last letter (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let710.xml">710</ref>) he did not write about his health, so this cannot be the one meant here).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo probably made this trip specifically to reconnoitre the market for modern paintings in Brussels. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> wrote to him on 27 October 1888: ‘I hope that your little journey has been useful as regards the cause which you have so nobly undertaken’ (J’espère que votre petit voyage a été bon pour la cause que vous avez si noblement entreprise). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin </hi>1984, p. 266.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Paul Gauguin</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton women chatting</hi>, 1886 (W 237/ W 201) (Munich, Bayerische Staatsgemäldesammlungen, Neue Pinakothek). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_117">Ill. 117</rs>. Theo had sold the work to Dupuis for 600 francs the day before. See Wildenstein<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>2001, p. 303 and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin</hi> 1984, p. 512.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>At this time the art dealer<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_335"> Aimé François Désiré Diot</rs> had his gallery at 43 rue Laffitte. See exhib. cat. Paris 1988, p. 356.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘habiter chez moi’.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> moved in with Theo on 28 October (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let713.xml">see letter 713</ref>). Theo wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> on 6 December 1888 that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs> was also spending every evening with them. ‘They are both very smart fellows as far as their brains are concerned, so that it’s interesting company. Because De Haan is delicate he stays home almost all the time, which means that rather more people come to us and we have a very agreeable time’ (FR b916). De Haan went to Pont-Aven in the first half of April 1889 (FR b1040); his departure was prompted by Theo’s impending move. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness </hi>1999, p. 130.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Probably a reference to what Vincent had written in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let707.xml">letter 707</ref>: ‘It’s precisely a failing of the Dutch to call one thing absolutely good and another absolutely bad, when it’s nowhere near as inflexible as that’.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

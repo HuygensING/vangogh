@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, between about Thursday, 16 and on or about Monday, 20 March 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let212"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b203 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>212</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>182</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>211</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-03-16">between about Thursday, 16 and on or about Monday, 20 March 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0203 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000232_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000232_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000232_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0203 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000232_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000232_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000232_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0203 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000233_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000233_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000233_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0203 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000233_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000233_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000233_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Ik dacht er later over na dat het U welligt zonderling moet voorgekomen zijn in mijn laatsten brief een uitdrukking te vinden omtrent eene zaak waarover ik U tot dusverre nooit gesproken had &amp; wel eene uitdrukking op vrij beslisten toon<c type="kk">/</c> n.l. zoo iets als: Theo gooi den heelen boel naar de weerga en wordt schilder. Er zit een fameus paysagiste in U. Het moge zoo wezen dat dit woord mij in een moment ontviel waarop mijn hartstogten wat opgewekt waren. Doch dat neemt niet weg dat het hiermede is als met andere dingen die ik wel eens in drift of als een of andere hartstogt is opgewekt<c type="kk">/</c> mijns ondanks mij laat ontglippen. Het is er n.l. zoo mee dat ’t geen ik alsdan zeg dingen zijn die ik lang heb opgekropt en die ik dan uitspreek<c type="kk">/</c> soms in ruwe termen. Maar ofschoon ik in bedaardere stemming het in betere woorden zou zeggen of ’t voor me zelven houden<c type="kk">/</c> is het zeer zeker ik vooral in bedaarde stemming zeer gedecideerd van die meening ben.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3"><hi rend="italics">Het is er nu uit dus het blijft er uit</hi><c type="kk">/</c> ik heb het eindelijk eens gezegd mijns ondanks – onwillekeurig – in ruwe woorden enfin – maar ge weet mijn intieme gedachte. En als ik schreef “blijf iets beters dan HGT” en als ik te kennen gaf dat ik de kunsthandelaars in ’t algemeen niet heel hoog schatte – inderdaad dat zijn dingen die ik wel voor me zelven had kun<c type="shy">-</c>nen houden – maar nu mijn zwijgen gebroken is en ik sprak – ja dan spreek ik zoo.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.4" n="4">H.G.T. aangaande<c type="kk">/</c> ’k heb ZEd. gekend in een eigenaardige periode van zijn leven<c type="kk">/</c> toen hij pas “er boven op was gekomen” zooals men dat uitdrukt<c type="kk">/</c> en bovendien pas getrouwd.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">De indruk die hij toen op me maakte was sterk – hij was een praktisch man – fameus handig en opgewekt<c type="kk">/</c> energiek in kleine &amp; groote dingen bovendien<c type="kk">/</c> er ging als ’t ware poezij – maar van de echte onsentimenteele soort van hem uit. Ik had toen zoo’n respect voor hem dat ik mij altijd op een afstand hield &amp; ik beschouwde hem als een wezen met hoogere organisatie als de mijne.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Sedert – sedert – sedert – heb ik wel eens getwijfeld – meer &amp; meer – en toch nooit had ik de courage het scalpel van analyse en op den keper beschouwen in hem te zetten. Nu evenwel<c type="kk">/</c> op een moment waarin ik zeer op mijn qui vive moet zijn en ter wille van wie het ook zij mijn carriere niet mag bederven<c type="kk">/</c> heeft bovengenoemd scalpel hem niet ontzien. En terwijl ik in zijn kantoortje zat of met hem sprak in de schilderijzaal met een zeer alledaagsche uitdrukking op mijn gezigt en ik hem een paar zeer gewone vragen deed<c type="kk">/</c> toen nam ik mijn opmetingen zoo koelbloedig als ik kon.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik had gedacht dat hij iemand was die zich het air gaf van een geldman<c type="kk">/</c> van een homme du monde<c type="kk">/</c> enfin ik weet het niet in één enkel woord te zeggen<c type="kk">/</c> ge zult mijn bedoeling denk ik wel vatten<c type="kk">/</c> en die achter dat ijzeren masker veel gevoel en een warm hart verborg.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Doch ik bevond dat harnas geweldig dik te zijn<c type="kk">/</c> zóó dik dat ik nog niet met zekerheid kan bepalen of de man massief van metaal<c type="kk">/</c> ’t zij staal ’t zij zilver is of dat er heel heel diep in dat ijzer nog een klein vakje is waar een menschenhart in klopt.– Is er geen hart in hem dan houdt werkelijk mijn affectie voor hem radikaal op en er komt voor in de plaats een “qu’est ce que tu me fais-toi? tu m’agaces”<c type="kp">_</c> Zoodat over een half jaar of een jaar hij mij of totaal koel zal laten of – of – misschien vind ik een manier om meer met ZEd<c type="kp">_</c> op te schieten. Intusschen – is hij voor mij een ZEd. In dien term denkt men niet aan iemand voor wien men warme sympathie gevoelt<c type="kp">_</c> ZEd. drukt uit iets afgezaagds<c type="kp">_</c> Genoeg<c type="kp">_</c>– Suffit<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Theo ik ben gedecideerd geen landschapschilder<c type="kk">/</c> als ik landschappen maken zal<c type="kk">/</c> er zal altijd iets figuurachtigs in zijn<hi rend="italics"><c type="kp">_</c>–</hi></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Het is evenwel dunkt mij erg goed dat er ook menschen zijn die essentieel “paysagiste” zijn<c type="kp">_</c> En het preoccupeert me sterk dat gij een zoodanig persoon zijn mogt – sans le savoir. Evenzeer preoccupeert me het omgekeerde. n.l.<c type="kk">/</c> Theo zijt gij inderdaad essentieel een handelaar?</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Als ik de stelling bewijzen moest<c type="kk">/</c> welligt keerde ik het om en bewees haar uit het ongerijmde.<ptr target="#note-t-2"/> Quoi qu’il en soit<c type="kk">/</c> denk er eens over na<c type="kk">/</c> ik hoef U niet te zeggen<c type="kk">/</c> verzin eer ge begint te schilderen<c type="kk">/</c> doch misschien neemt ge ’t me niet kwalijk als ik zeg<c type="kk">/</c> Theo tot heden zijt ge vrij te doen<c type="kk">/</c> te laten wat ge wilt doch wanneer 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>gij ooit met de Heeren G&amp;C<hi rend="super">ie</hi> een zoodanig accoord maakt dat gij belooft Uw heele leven in hun zaak te blijven dan zijt ge geen vrij man meer.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">En – ’t komt mij voor dat de mogelijkheid bestaat dat er een moment in ’t leven komt waarin men zich berouwt zich dusdanig verbonden te hebben<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Gij zult zonder twijfel tot mij zeggen<c type="kk">/</c> er kan een oogenblik komen waarop sommigen spijt krijgen schilder geworden te zijn. En wat zou ik daarop kunnen zeggen mij aangaande. Zij die spijt krijgen zijn zulken die in ’t begin solide studie verzuimen en jagen en reppen om haantje de voorste te zijn. Enfin de mannen van den dag zijn mannen van één dag doch wie zooveel geloof heeft en liefde dat hij juist pleizier heeft in ’t geen anderen vervelend vinden<c type="kk">/</c> n<c type="kp">_</c>l. de studie van anatomie<c type="kk">/</c> perspectief &amp; proportie<c type="kk">/</c> die blijven staan en rijpen langzaam maar zeker.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Toen ik in geldverlegenheid mij zelven een oogenblik vergat en dacht<c type="kk">/</c> ik zal zien maar iets te maken wat een zeker aspect heeft, toen was het resultaat deplorable<c type="kk">/</c> ik kon dat niet – en Mauve werd teregt boos op me en zei<c type="kk">/</c> dat’s de weg niet. verscheur die dingen. En dat klonk mij eerst te hard doch later knipte ik ze zelf kapot. Doch toen ik nu serieuser ging teekenen toen had Tersteeg aanmerking en werd boos – en zag goede dingen in mijn teekeningen over ’t hoofd en vroeg pardoes nu reeds “verkoopbare”<c type="kp">_</c> Enfin gij ziet hieruit meteen dat er onderscheid is tusschen Mauve &amp; Tersteeg. Mauve is hoe langer hoe serieuser<c type="kk">/</c> hoe meer men over hem nadenkt<c type="kk">/</c> en kan Tersteeg die proef doorstaan. Ik hoop ja doch betwijfel of hij dermate steek houd als M. En hoe is het met degenen die in den grond serieus zijn al hebben ze dikwijls iets onaangenaams – men gaat van hen houden en raakt met hen t’huis – met wie niet serieus genoeg is begint men zich te vervelen.–</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Gij moet ook niet denken dat ik over t’hoofd gezien heb de verandering van finantieele omstandigheden die eene verandering van carrière voor U ten gevolge zou hebben.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Doch ’t geen mij over deze zaak tot U doet spreken is dat ik ofschoon in ’t midden van finantieele moeielijkheden toch gevoel dat niets solidener is dan een “handwerk” in den letterlijken zin van werken met de handen.– Als gij schilder werd zou één van de dingen die U verwonderen zouden<c type="kk">/</c> zijn dat het schilderen &amp; wat daaraan verbonden is werkelijk een tamelijk zwaar werk is uit een physiek oogpunt<c type="kk">/</c> de inspanning van den geest<c type="kk">/</c> de tobberij met den kop niet meegerekend wordt er eene tamelijke krachtsinspanning voor vereischt en dat dag aan dag.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Nu voor heden spreek ik er niet meer over<c type="kk">/</c> alleen zeg ik nog dit: Dan wanneer ge naar Holland komen zult zou ik graag eens niet maar voor een half uur doch b.v. een heelen morgen alleen spreken met U over praktische dingen die ik geleerd heb hetzij door eigen oefening hetzij door Mauve of anderen<c type="kk">/</c> net als of ik het U moest uitleggen om het U te leeren. Ik hoop dat gij daar niet op tegen zult hebben – in ’t ergste geval verveelt ge U dien morgen maar misschien zal het U niet vervelen. Alleen hoop ik ge alsdan niet onderwijl aan het “verkoopen” van schilderijen zult denken doch aan het “how to <hi rend="italics">do</hi> it”<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">En dat ge het niet als een temptatie van den duivel zult considereeren<c type="kp">_</c> Enfin<c type="kk">/</c> nous verrons.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Kunt gij mij zoo omstreeks ’t eind dezer maand wat geld sturen<c type="kk">/</c> het zal mij zeer welkom zijn. Tegen dien tijd hoop ik ook de 12 voor C.M<c type="kp">_</c> klaar te hebben. Als hij ze dadelijk betaalt 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>geeft dat me f<c type="kp">_</c> 30 in den zak. Komt daar van U wat bij dan zou ik het wagen een paar hemden &amp; onderbroeken te koopen waaraan ik zeer zeer behoefte heb. Aangezien de hemden &amp;c<c type="kp">_</c> die ik heb in deplorablen staat beginnen te verkeeren en ik er maar zeer weinigen bezit<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Ik heb sedert ik U schreef steeds met die zelfde modellen gewerkt en ik moet zeggen dat ik blij ben zoodanige gevonden te hebben. Ik ben bezig om koppen te teekenen<c type="kk">/</c><ptr target="#note-t-4"/> ook moet ik, doch ’t kan alles niet op eens, handen en voeten teekenen<c type="kk">/</c> hoog noodig<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">En als ’t zomer wordt &amp; het bezwaar van koude wegvalt moet ik noodwendig op de een of andere manier wat studies van naakt maken. Niet precies akademische standen. Maar ik wou b.v. zoo almagtig graag eens b.v. naakt model hebben voor een spitter of naaister<c type="kp">_</c> Van voren<c type="kk">/</c> van achteren<c type="kk">/</c> van bezijden. Om goed den vorm te leeren zien en voelen door de kleeren heen en zich de actie te expliceeren. Ik reken dat een stuk of 12 studies<c type="kk">/</c> 6 mannen 6 vrouwen<c type="kk">/</c> me al veel licht zouden geven. Iedere studie kost een dag werk.– De moeielijkheid zit hem echter ook terdeeg in het vinden van modellen tot dat doeleinde en als ik het vermijden kon zou ik het willen vermijden op ’t atelier naakt model te hebben om andere modellen niet schuw te maken. 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>De vrees “dat ze zich nakend uit moeten kleeden” is gewoonlijk het eerste scrupule dat men moet uit den weg werken als men iemand aanklampt om te poseeren. Althans dat was reeds meer dan eens mijn ondervinding hier. Zelfs had ik het met een stokouden man, die trouwens waarschijnlijk zeer Ribera achtig<ptr target="#note-t-5"/> zou geweest zijn als naakt model<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Doch après tout zoek ik niet Ribera en vooral niet Salvator Rosa<c type="kk">/</c><ptr target="#note-t-6"/> ik zie de dingen zoo niet. Zelfs van Decamps ben ik niet enthousiast<c type="kk">/</c> ik ben niet op mijn gemak voor hun schilderijen en kan me er niet indenken zonder een gevoel van iets te missen en te verliezen. Dan nog liever Goya of Gavarni ofschoon die beiden “<hi rend="italics">Nada</hi>” zeggen. Als hoogste woord?? “Nada” beteekent dunkt me net precies hetzelfde als dat woord van Salomo<c type="kk">/</c> Vanité des vanités<c type="kk">/</c> tout est Vanité<c type="kk">/</c> doch daarop kan ik ’t hoofd niet neer leggen zonder nachtmerrie.<ptr target="#note-t-7"/> Enfin.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Het is evenwel te laat om te philosopheeren aangezien ik morgen om half zes op moet van wege de timmerman even een karweitje bij me doen komt voor hij naar zijn werk gaat.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Dus wel te rusten &amp; geloof dat ik het zeer serieus meen als ik U over dat schilderen van U spreek<c type="kk">/</c> à dieu<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.25" n="25">t. à t.</p>
+
+<p xml:id="p.nl.26" n="26">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.27" n="27">Ik heb nog weer twee teekeningetjes voor C.M<c type="kp">_</c> gemaakt<c type="kk">/</c> een brokje Scheveningsche weg en zandwerkers in de duinen.<ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p xml:id="p.nl.28" n="28">Nu ik Tersteeg het geld terug gegeven heb vrees ik dat als de huisbaas<ptr target="#note-t-9"/> komt in ’t eind van Maart ik niet veel voor hem hebben zal<c type="kp">_</c> Daarom is het dat als gij kunt ik wel wenschen zou gij tegen ’t eind van Maart wildet zenden wat ge zenden kunt.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Theo zondag ben ik nog weer eens bij de Bock<ptr target="#note-t-10"/> geweest – ik weet niet waarom doch telkens als ik weer bij hem kom voel ik hetzelfde<c type="kk">/</c> die kerel is te zwak<c type="kk">/</c> hij komt er niet – tenzij hij verandere<c type="kk">/</c> tenzij – tenzij – ik vind iets uitgeputs<c type="kk">/</c> iets blasé<c type="kk">/</c> iets onopregts in hem dat mij beklemt<c type="kk">/</c> er is iets teringachtigs in de atmosfeer bij hem aan huis.–<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">En toch – het loopt niet in ’t oog – en er zijn er weinigen die over hem denken als ik onder zijn kennissen misschien.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Enfin. Toch maakt hij soms mooie dingen<c type="kk">/</c> niet zonder charme en gratie althans<c type="kk">/</c> doch ça suffit-il?</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Er wordt zoo veel gevorderd dat het schilderen tegenwoordig haast een veldtogt is<c type="kk">/</c> een militaire campagne<c type="kk">/</c> een strijd of oorlog<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thinking it over later, I thought it might possibly have seemed strange to you to find in my last letter a remark about something I’d never discussed with you before, a remark, moreover, in a rather peremptory tone, namely something like: Theo, let it all go hang and become a painter. There’s a great landscapist in you. It may well be that these words slipped out at a time when my emotions were somewhat aroused. But that doesn’t mean that it isn’t the same with this as it is with other things that sometimes escape my lips in spite of myself, in anger or if some emotion or other is aroused. The fact is that what I say at such times are things I’ve kept bottled up for a long time, which I then say, sometimes in rough terms. But even though I’d express it better in a calmer mood, or keep it to myself, it’s absolutely certain that I’m most decidedly of that opinion, particularly in a calm mood.</p>
+<p rend="indent" xml:id="p.en.3" n="3"><hi rend="italics">Now it’s out, so out it will stay</hi>, I finally said it in spite of myself – I couldn’t help it – in rough words anyhow – but you know my secret thoughts. And if I wrote ‘remain something better than <rs type="person" ref="bio.xml#_787">HGT</rs>’ and if I gave you to understand that I don’t think very highly of art dealers in general – it’s true that those are things I could have kept to myself – but now that I’ve broken the silence and spoken – well, then, this is how I speak. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">As regards <rs type="person" ref="bio.xml#_787">H.G.T.</rs>, I knew His Hon. during a remarkable period in his life, when he’d only just ‘worked his way up’, as they say, and was newly married as well.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">The impression he made on me then was a strong one – he was a practical man – extremely clever and lively, energetic in small and large things as well, he radiated poetry, as it were, but of the true, unsentimental kind. Then I had such respect for him that I always kept my distance, and I considered him a being of a higher order than myself.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Since – since – since – I’ve sometimes doubted – more and more – and yet I never had the courage to take the scalpel of analysis and scrutiny to him. Now, though, at a time when I must be very much on the <hi rend="italics">qui vive</hi> and mustn’t spoil my career for anyone’s sake, the above-mentioned scalpel hasn’t spared him. And while I was sitting in his little office or speaking to him in the gallery with a very ordinary expression on my face, asking him a couple of very ordinary questions, I was taking the measure of him as cold-bloodedly as I could.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I’d thought that he was someone who gave himself the air of a money man, of a man of the world – anyway I don’t know how to say it in one word, I think you’ll understand what I mean, who had a lot of feeling and a warm heart hidden behind that iron mask. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">But I found that armour to be incredibly thick, so thick that I can’t say for certain whether the man is made of solid metal, be it steel or silver, or whether deep, deep down in that iron there’s still some small corner in which a human heart beats. If there’s no heart in him then my affection for him comes to an abrupt end, and instead there’s a ‘what are you doing to me? you irritate me’. So that in half a year or a year he’ll either leave me completely cold or – or  perhaps – I’ll find a way to get along better with His Hon. Meanwhile – he’s His Hon. to me. One doesn’t think in those terms of someone for whom one feels warm sympathy. His Hon. suggests something boring. Enough. Enough.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Theo, I’m certainly no landscape painter, if I were to make landscapes there would always be something of the figure about them.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I think it very good, though, that there are also people who are essentially landscapists. And it preoccupies me greatly that you might be just such a person – without knowing it. The opposite preoccupies me just as much. Namely, Theo, are you in fact essentially a dealer?</p>
+<p rend="indent" xml:id="p.en.11" n="11">If I had to prove the theory, I’d perhaps turn it round and reduce it to an absurdity.<ptr target="#note-t-2"/> Be that as it may, think about it sometime, I don’t have to tell you to think it over before beginning to paint, but perhaps you won’t hold it against me if I say: Theo, until now you’ve been free to do whatever you like, but if 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> you ever make an agreement with Messrs G&amp;Cie in which you promise to remain with their firm for the rest of your life, you’ll no longer be a free man.</p>
+<p rend="indent" xml:id="p.en.12" n="12">And – it appears to me that there’s a possibility that there will come a time in one’s life when one regrets having bound oneself in that way.</p>
+<p rend="indent" xml:id="p.en.13" n="13">You’ll no doubt say to me, the time may come when some will regret having become painters. And, for my part, what could I say to that? Those who come to regret it are those who neglect serious study in the beginning and rush helter-skelter to get to the top. At any rate, the men of the day are men of <hi rend="italics">one</hi> day, but anyone who has so much faith and love that he takes pleasure precisely in what others think tedious, namely the study of anatomy, perspective and proportion, they remain, and mature slowly but surely.</p>
+<p rend="indent" xml:id="p.en.14" n="14">When, short of money, I forgot myself for a moment and thought, I’ll simply try and make something that has a certain look, the result was appalling, I couldn’t do it – and <rs type="person" ref="bio.xml#_323">Mauve</rs> rightly got angry at me and said: that’s not the way, tear those things up. And at first that sounded too harsh to me, but later I cut them up myself. But then when I started drawing more seriously, <rs type="person" ref="bio.xml#_787">Tersteeg</rs> criticized it and got angry – and overlooked the good things in my drawings and demanded ‘saleable’ ones right away. Anyway, you immediately see from this that there’s a difference between Mauve and Tersteeg. Mauve is increasingly serious, the more one thinks about him, but can Tersteeg stand the test? I hope so, but doubt whether he’ll stand up to scrutiny as well as M. And how is it with those who are at bottom serious, even though they often have something unpleasant about them? – one begins to love them and starts to feel at home with them – one gets bored with those who aren’t serious enough. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">You mustn’t think that I’ve overlooked the change in financial circumstances that a change of career would mean for you.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Yet what impels me to speak to you about this is that I feel, even beset by financial difficulties, that nothing is more solid than ‘handiwork’, in the literal sense of working with the hands. If you became a painter, one of the things that would amaze you is that painting and everything connected with it is really rather hard work from a physical point of view; quite apart from the mental exertion, turning things over in one’s mind, it requires a fair amount of effort, and that day after day.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Well, I shan’t talk about it any more today, only to say this: when you come to Holland I’d like to talk to you alone, not for half an hour but for an entire morning, for instance, about some practical things I’ve learned, whether through practising on my own or through <rs type="person" ref="bio.xml#_323">Mauve</rs> or others, as if I had to explain them to you in order to teach you. I hope that you won’t object – at worst you’ll be bored that morning, but perhaps it won’t bore you. I only hope that, then, in the meantime, you won’t be thinking of ‘selling’ paintings but of ‘how to <hi rend="italics">do</hi> it’.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">And that you won’t consider it a temptation of the devil. Well, we’ll see.</p>
+<p rend="indent" xml:id="p.en.19" n="19">If you could send me some money around the end of this month it would be very welcome. Around that time I also hope to have the 12 for <rs type="person" ref="bio.xml#_422">C.M.</rs> finished. If he pays for them straightaway 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> that will put 30 guilders in my pocket. If something from you is added to that, I’d venture to buy a couple of shirts and underwear, which I need very, very badly. Seeing as the shirts &amp;c. that I have are getting into a deplorable state, and I have very few anyway.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Since I wrote to you I’ve been working always with the same models, and I must say I’m glad to have found ones like them. I’m busy drawing heads,<ptr target="#note-t-4"/> I must also – though it can’t all be done at once – draw hands and feet, it’s really high time.</p>
+<p rend="indent" xml:id="p.en.21" n="21">And when summer comes and the cold is no longer an obstacle, I simply must make some studies of the nude one way or another. Not exactly academic poses. But I wanted, for instance, so very, very much to have, for example, a nude model for a digger or seamstress. From the front, from the back, from the side. To learn to see and sense the shape through the clothing and get a clear idea of the movement. I reckon that 12 or so studies, 6 men, 6 women, would already give me a great deal of insight. Each study costs a day’s work. The difficulty also lies very much in finding models for this purpose, and if I could avoid it I’d like to avoid having a nude model in the studio, so as not to make other models timid. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> The fear ‘that they have to strip naked’ is usually the first scruple to be overcome when approaching someone about posing. At least I’ve had this experience here more than once. I even had it with a very old man, who, incidentally, would probably have been very <rs type="person" ref="bio.xml#_1317">Ribera</rs>-like<ptr target="#note-t-5"/> as a nude model.</p>
+<p rend="indent" xml:id="p.en.22" n="22">But after all I’m not looking for <rs type="person" ref="bio.xml#_1317">Ribera</rs>, and still less <rs type="person" ref="bio.xml#_1324">Salvator Rosa</rs>,<ptr target="#note-t-6"/> I don’t see things that way. I’m not even enthusiastic about <rs type="person" ref="bio.xml#_979">Decamps</rs>, I’m not at ease in front of their paintings, and can’t dwell on them without feeling that I’m missing or losing sight of something. I’d sooner <rs type="person" ref="bio.xml#_1055">Goya</rs> or <rs type="person" ref="bio.xml#_1043">Gavarni</rs>, then, even though they both say ‘<hi rend="italics">Nada</hi>’. As the last word?? ‘Nada’, it seems to me, means exactly the same as those words of Solomon, Vanity of vanities, all is vanity, but I can’t sleep on that without having nightmares.<ptr target="#note-t-7"/> Oh well.</p>
+<p rend="indent" xml:id="p.en.23" n="23">It’s too late for philosophizing, though, considering I have to get up tomorrow at half past five, because the carpenter is coming to do a little job for me before he goes to work.</p>
+<p rend="indent" xml:id="p.en.24" n="24">So good-night and believe me, I mean it very seriously when I speak to you about your becoming a painter, adieu.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">Ever yours,</p>
+<p xml:id="p.en.26" n="26">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">I’ve made two more small drawings for <rs type="person" ref="bio.xml#_422">C.M.</rs>, a bit of Scheveningseweg and sand workers in the dunes.<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p xml:id="p.en.29" n="29">Now that I’ve given <rs type="person" ref="bio.xml#_787">Tersteeg</rs> his money back I’m afraid that when the <rs type="person" ref="bio.xml#_63">landlord</rs><ptr target="#note-t-9"/> comes round at the end of March I won’t have much for him. That’s why I’d like you to send whatever you can towards the end of March, if you could.</p>
+<p rend="indent" xml:id="p.en.30" n="30">Theo, Sunday I went to see <rs type="person" ref="bio.xml#_868">De Bock</rs><ptr target="#note-t-10"/> again – I don’t know why, but each time I go to see him I feel the same: that chap’s too weak, he won’t succeed – unless he changes, unless – unless – I find something worn out, something blasé, something insincere about him that oppresses me, there’s something consumptive about the atmosphere in his house.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.31" n="31">And yet – it’s not really obvious – and perhaps there are few among his acquaintances who think of him as I do.</p>
+<p rend="indent" xml:id="p.en.32" n="32">Oh well. Still, he sometimes makes lovely things, not without charm and grace at any rate, but is that enough?</p>
+<p rend="indent" xml:id="p.en.33" n="33">So much is demanded that nowadays painting is almost an offensive, a military campaign, a battle or war.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">This letter follows <ref target="let211.xml">letter 211</ref> of 11 March, since Vincent harks back to a topic mentioned there, namely that Theo should become a landscape painter and let the rest ‘go hang’ <ref target="#l-3">(ll. 3-8)</ref>. The letter must precede <ref target="let213.xml">letter 213</ref> of 24 March, because in that letter Vincent says that he has meanwhile finished the drawings for Uncle Cor (which he was still in the process of making when he wrote the present letter).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Since his previous letter he has ‘always’ been working with the same models <ref target="#l-178">(l. 178)</ref>, which suggests that a number of days have elapsed. That the period between this letter and the following one again encompassed a number of days is indicated by the opening of the following letter: ‘I’ve been working hard <hi rend="italics">these last few days</hi>’ (our italics). Even though a precise date cannot be given, the letter must have been written some time between about Thursday, 16 and Monday, 20 March. It is unlikely, however, to have been written on Saturday, 18 March, because Van Gogh says that ‘tomorrow’ the carpenter will be coming at half past five in the morning ‘before he goes to work’ <ref target="#l-222">(ll. 222-224)</ref>.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">A remark made at the end of the letter (<ref target="#l-230">ll. 230</ref> ff.) seems to be a later addition.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent tries to persuade Theo to become a painter <ref target="let211.xml">(211)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Strained relations with Tersteeg <ref target="let208.xml">(208)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uncle Cor’s first order for drawings <ref target="let210.xml">(210)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is using the members of the Hoornik family as models <ref target="let207.xml">(207)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>See <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let211.xml#n-20">letter 211, n. 20</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">reductio ad absurdum</hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let190.xml#n-3">see letter 190, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For the expression ‘How (not) to do it’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let179.xml#n-3">see letter 179, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>It is not known which drawings Van Gogh refers to here as ‘heads’, though <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman with a white bonnet </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2355">F 1009a / JH 106</rs>) could have been one of them. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let224.xml#n-10">letter 224, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The Spanish painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1317">José de Ribera</rs> is known for his painstaking studies of nudes, especially of old, remorseful people and folk types.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The Italian artist <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1324">Salvator Rosa</rs> gained renown for his paintings and prints of soldiers, folk types and satyrs.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>In this passage Van Gogh explains that even though he places <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1055">Goya</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1043">Gavarni</rs> above the previously mentioned artists, the way in which they make an absolute truth of human vanity goes too far in his view.</p>
+
+<p rend="indent">Van Gogh refers here to a passage in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">De Goncourt</rs>’s <ref target="biblio.xml#lit_224"><hi rend="italics">Gavarni, l’homme et l’oeuvre</hi></ref>, which describes how Gavarni (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La mascarade humaine</hi>) denounces hypocrisy (through the misanthrope Thomas Vireloque): ‘appearing, where he is seated on the heap of rubble, to be tracing on the ground with his stick the terrifying word <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Nada</hi>, written in Goya’s etching by the terrible spectre of the nothingness of the tomb’ (semblant, sur le tas de pierres de démolition où il est assis, tracer avec son bâton, par terre, l’effrayant <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Nada</hi> qu’écrit, dans l’eau-forte de Goya, le terrible revenant du néant de la tombe). See Goncourt 1873, p. 355. The biblical passage referred to is Eccl. 1:2.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Scheveningseweg</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2361">F 920 / JH 113</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sand diggers in the dunes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2362">F 922 / JH 114</rs>). The verso of the second drawing displays a pencil sketch of people digging and the inscription ‘workers in the dunes’ (according to an article in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Telegraaf</hi>, 28 April 1998).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_63">Adrianus Johannes van der Drift</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>This name was crossed out in black ink. It is not known who did this; earlier editions of the letters simply printed the name.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>In 1882 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_868">De Bock</rs> was living at Kanaalweg 9 in Scheveningen. He did not have an adequate studio there, however, so he also rented a room on the first floor of the house at Van Stolkweg 20, now 22 (‘Villa Germania’), where A.G.H. Hazelhoff Roelfzema, Pieter Josselin de Jong and Willem de Zwart also worked. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Bock</hi> 1991, p. 21.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

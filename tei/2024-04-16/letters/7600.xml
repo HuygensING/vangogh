@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Sunday, 21 April 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let760"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b632 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>760</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>585</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>763</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-04-21">Sunday, 21 April 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000862_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000862_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000862_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000862_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000862_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000862_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000863_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000863_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000863_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000863_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000863_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000863_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000864_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000864_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0632 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000864_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000864_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">tu seras probablement de retour à Paris à l’heure qu’arrivera cette lettre<c type="kp">_</c><ptr target="#note-t-1"/> Je te souhaite bien du bonheur à toi et à ta femme<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Merci beaucoup de ta bonne lettre et du billet de 100 francs qu’elle contenait.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’ai payé sur 65 francs que je lui dois<c type="kk">/</c><ptr target="#note-t-2"/> 25 francs seulement à mon proprietaire<c type="kk">/</c><ptr target="#note-t-3"/> ayant eu à payer d’avance 3 mois de loyer d’une chambre où je n’habiterai pas mais où j’ai remisé mes meubles<c type="kk">/</c><ptr target="#note-t-4"/> et ayant en outre eu une dizaine de francs de frais divers de démenagement &amp;c<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Puis comme mes vêtements étaient dans un etat pas trop brillant – qu’en sortant dans la rue il devenait nécessaire d’avoir quelque chose de neuf – j’ai pris un complet de 35 francs et 4 francs pour 6 paires de chaussettes<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Ainsi il me reste du billet encore quelques francs seulement et il faut que fin du mois je paye encore le propriétaire<c type="kk">/</c> quoiqu’on puisse le faire attendre quelques jours de plus ou de moins<c type="kp">_</c> A l’hospice il y a<c type="kk">/</c> après avoir réglé jusqu’aujourd’hui<c type="kk">/</c> encore à peu près pour le reste du mois de l’argent que j’y ai encore en dépot.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">A la fin du mois je désirerais aller encore à l’hospice des aliénés à St<c type="kp">_</c> Remy ou une autre institution de ce genre dont monsieur Salles me parlait<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Excusez moi d’entrer dans des details pour raisonner tant<ptr target="#note-t-6"/> le pour ou le contre d’une telle demarche<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Cela me casserait beaucoup la tête d’en causer<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Suffira j’espère que je dise que je me sens décidemment incapable de recommencer à reprendre un nouvel atelier et d’y rester<ptr target="#note-t-a"/> seul<c type="kk">/</c> ici à Arles ou ailleurs – cela revient au même – pour le moment – j’ai essayé de me faire à l’idée de recommencer pourtant – pour le moment pas possible<c type="kp">_</c> J’aurais peur de perdre la faculté de travailler qui me revient maintenant en me forçant<c type="kk">/</c> et ayant en outre toutes les autres responsabilites sur le dos<c type="kk">/</c> d’avoir un atelier.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Et provisoirement je désire rester interné autant pour ma propre tranquilité que pour celle des autres<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Ce qui me console un peu c’est que je commence à considerer la folie comme une maladie comme une autre et accepte la chose comme telle tandis que dans les crises memes 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>il me semblait que tout ce que je m’imaginais était de la realité<c type="kp">_</c> Enfin justement je ne veux pas y penser ni en causer. Fais moi grace des explications – mais à toi<c type="kk">/</c> à M<hi rend="super">essr</hi> Salles et Rey je demande de faire en sorte que fin du mois ou commencement du mois de Mai j’aille là-bas comme pensionnaire interné<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Recommencer cette vie de peintre de jusqu’à présent<c type="kk">/</c> isolé dans l’atelier tantôt et sans autre ressource pour se distraire que d’aller dans un café ou un restaurant avec toute la critique des voisins &amp;c<c type="kp">_</c><c type="kk">/</c> <hi>je ne peux pas</hi><c type="kp">_</c> Aller vivre avec une autre personne<c type="kk">/</c> fut ce un autre artiste – difficile – très difficile – on prend sur soi une trop grande responsabilité<c type="kp">_</c> Je n’ose pas même y penser<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Enfin commencons par 3 mois<c type="kk">/</c> nous verrons après<c type="kp">_</c> Or la pension doit y etre d’environ 80 francs et je ferai un peu de peinture et de dessin<c type="kp">_</c> Sans y mettre tant de fureur que l’autre année<c type="kp">_</c> 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>Ne te chagrine pas pour tout cela<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Voilà de ces jours ci<c type="kk">/</c> en déménageant<c type="kk">/</c> en transportant tous mes meubles<c type="kk">/</c> en emballant les toiles que je t’enverrai<c type="kk">/</c> c’etait triste mais il me semblait surtout triste qu’avec tant de fraternité tout cela m’avait été donné par toi et que tant d’années durant c’était pourtant toi seul qui me soutenait et puis d’être obligé de revenir te dire toute cette triste histoire... mais il m’est difficile d’exprimer cela comme je le sentais<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">la bonté que tu as eue pour moi n’est pas perdue puisque tu l’as eue et cela te reste<c type="kk">/</c> alors même que les résultats matériels seraient nuls cela te reste pourtant à plus forte raison mais je ne peux pas dire cela comme je le sentais<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Maintenant tu comprends bien que si l’alcool a ete certainement une des grandes causes de ma folie c’est alors venu tres lentement et s’en irait lentement ausi<c type="kk">/</c> en cas que cela s’en aille bien entendu. Ou si cela vient de fumer<c type="kk">/</c> meme chôse<c type="kp">_</c></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais j’espererais seulement que cela – cette guérison – l’affreuse superstition de certaines gens au sujet de l’alcool<c type="kk">/</c> de façon qu’ils se font eux mêmes prévaloir de ne jamais boire ou fumer<c type="kp">_</c> Il nous est déjà recommander de ne pas mentir ni voler &amp; de ne pas commettre autres grands ou petits crimes et cela devient trop compliqué s’il était absolument indispensable de ne rien posséder que des vertus dans une societé dans laquelle nous sommes très indubitablement enracinés<c type="kk">/</c> qu’elle soit bonne ou mauvaise.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Je t’assure que de ces jours étranges où bien des choses me paraissent drôle parceque ma cervelle est agitee<c type="kk">/</c> je ne déteste pas dans tout cela le père Pangloss<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Mais tu me rendras service en traitant carrément la question avec M<c type="kp">_</c> Salles et M<c type="kp">_</c> Rey<c type="kp">_</c></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Il me semblerait qu’avec une pension d’une soixantequinzaine de francs par mois il doit y avoir moyen de m’interner de facon que j’y aie tout ce qu’il me faut<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Puis j’y tiendrais beaucoup<c type="kk">/</c> si la chôse est possible<c type="kk">/</c> de pouvoir dans la journee sortir pour aller dessiner ou peindre dehors<c type="kp">_</c> Vu qu’ici je sors tous les jours maintenant et que je crois que cela peut continuer.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">En payant plus je t’avertis que je serais moins heureux. La compagnie des autres malades<c type="kk">/</c> tu le comprends<c type="kk">/</c> ne m’est pas du tout desagreable<c type="kk">/</c> me distrait au contraire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">La nourriture ordinaire me va tout à fait bien<c type="kk">/</c> surtout si on me donnerait un peu davantage de vin là-bas comme ici que d’habitude<c type="kk">/</c> un demi litre au lieu d’un quart par exemple<c type="kp">_</c></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Mais un apartement séparé<c type="kk">/</c> c’est à savoir comment seront les règlements d’une institution comme cela. Sache que Rey est surchargé de travail<c type="kk">/</c> surchargé<c type="kp">_</c><ptr target="#note-t-8"/> s’il t’écrit ou M<c type="kp">_</c> Salles mieux vaut faire tout droit comme ils disent<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Enfin il faut en prendre son parti mon brave<c type="kk">/</c> les maladies de notre temps ce n’est en somme que comme de juste qu’ayant vécu des annees en sante relativement bonne<c type="kk">/</c> tôt ou tard nous en ayons notre part. Pour moi tu sens assez que je n’aurais pas précisement choisi la folie s’il y avait à choisir mais une fois qu’on a une affaire comme ça on ne peut plus l’attrapper. Cependant il y aura peutetre en outre encore la consolation de pouvoir un peu continuer à travailler à de la peinture. Comment feras tu pour ne pas dire à ta femme ni trop de bien ni trop de mal de Paris et d’un tas de chôses<c type="kp">_</c> Te sens tu d’avance tout à fait capable de garder tout juste la juste mesure toujours à tout point de vue<c type="kp">_</c>–</p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.fr.26" n="26">Je te serre bien la main en pensée<c type="kk">/</c> je ne sais pas si je t’ecrirai bien bien souvent parceque toutes mes journees ne sont pas claires assez pour ecrire un peu logiquement<c type="kp">_</c> Toutes tes bontes pour moi je les ai trouvé plus grandes que jamais aujourd’hui<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">je ne peux pas te le dire comme je le sens mais je t’assure que cette bonté-<c type="shy">-</c>là a été d’un bon aloi et si tu n’en vois pas les resultats mon cher frère ne te chagrine pas pour cela<c type="kk">/</c> ta bonté te demeurera<c type="kp">_</c> Seulement reporte sur ta femme cette affection tant que possible<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Et si nous correspondons un peu moins tu verras que si elle est telle que je la crois<c type="kk">/</c> qu’elle te consolera<c type="kp">_</c> Voilà ce que j’espère.</p>
+
+<p rend="indent" xml:id="p.fr.29" n="29">Rey est un bien brave homme<c type="kk">/</c> terriblement travailleur toujours à la besogne. Quelles gens les medecins d’aprésent!</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.fr.30" n="30">Si tu vois Gauguin ou si tu lui ecris dis lui bien des chôses de ma part.</p>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Je serai bien content d’avoir quelques nouvelles de ce que tu dis de la mère et de la soeur et si elles vont bien<c type="kk">/</c> dis leur de prendre mon histoire ma foi comme une chose de laquelle elles ne doivent pas s’affliger hors mesure car je suis malheureux relativement mais enfin j’ai peutêtre malgré cela encore des années à peu près ordinaires devant moi: C’est une maladie comme une autre et actuellement presque tous ceux que nous connaissons dans nos amis a quelque chôse. Ainsi est ce la peine d’en parler? Je regrette de donner de l’embaras à M<c type="kp">_</c> Salles<c type="kk">/</c> à Rey<c type="kk">/</c> surtout aussi à toi<c type="kk">/</c> mais que veux tu – la tete n’est pas d’aplomb assez pour recommencer comme auparavant – alors il s’agit de ne plus causer des scènes en public et naturellement un peu calmé maintenant<c type="kk">/</c> je sens tout à fait que j’étais dans un état malsain moralement et physiquement.<ptr target="#note-t-9"/> Et les gens ont alors été bons pour moi<c type="kk">/</c> ceux dont je me rappelle et le reste<c type="kk">/</c> enfin j’ai causé de l’inquietude et si j’avais été dans un etat normal tout cela n’aurait pas de cette facon eu lieu<c type="kp">_</c> adieu<c type="kk">/</c> ecris quand tu pourras<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.32" n="32">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.33" n="33">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo</p>
+<p xml:id="p.en.2" n="2">You’ll probably be back in Paris when this letter arrives.<ptr target="#note-t-1"/> I wish you and your <rs type="person" ref="bio.xml#_416">wife</rs> lots of happiness.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Thanks very much for your kind letter and for the 100-franc note it contained.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Out of the 65 francs which I owe him,<ptr target="#note-t-2"/> I’ve paid my <rs type="person" ref="bio.xml#_755">landlord</rs><ptr target="#note-t-3"/> only 25 francs, having had to pay 3 months’ rent in advance on a room where I shan’t live but where I’ve stored my furniture,<ptr target="#note-t-4"/> and having in addition had around ten francs in various removal expenses &amp;c.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Then, since my clothes were in not too brilliant a state – so that when I went out into the street it became necessary to have something new – I took a 35-franc suit and 4 francs for 6 pairs of socks. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> Thus I have only a few francs left out of the note, and at the end of the month I must pay the <rs type="person" ref="bio.xml#_755">landlord</rs> again, although we could make him wait a few days, more or less. At the hospital, after having settled the bill up to today, there’s still almost enough for the rest of the month from the money I still have on deposit there.</p>
+<p rend="indent" xml:id="p.en.6" n="6">At the end of the month I’d still wish to go to the mental hospital at St-Rémy or another institution of that kind, which <rs type="person" ref="bio.xml#_663">Mr Salles</rs> has told me about.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Forgive me for not going into details to weigh up<ptr target="#note-t-6"/> the pros and the cons of such a course of action. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">It would strain my mind a great deal to talk about it.</p>
+<p rend="indent" xml:id="p.en.9" n="9">It will, I hope, suffice to say that I feel decidedly incapable of starting to take a new studio again and living there alone, here in Arles or elsewhere – it comes down to the same thing – for the moment – I’ve nevertheless tried to make up my mind to begin again – for the moment not possible. I’d be afraid of losing the faculty of working, which is coming back to me now, by forcing myself to have a studio, and also having all the other responsibilities on my back.</p>
+<p rend="indent" xml:id="p.en.10" n="10">And for the time being I wish to remain confined, as much for my own tranquillity as for that of others.</p>
+<p rend="indent" xml:id="p.en.11" n="11">What consoles me a little is that I’m beginning to consider madness as an illness like any other and accept the thing as it is, while during the actual crises 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> it seemed to me that everything I was imagining was reality. Anyway, in fact I don’t want to think or talk about it. Excuse the explanations – but I ask you, and Messrs <rs type="person" ref="bio.xml#_663">Salles</rs> and <rs type="person" ref="bio.xml#_637">Rey</rs>, to act so that at the end of the month or the beginning of the month of May I may go there as a confined boarder.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Beginning again this painter’s life I’ve led up to now, isolated in the studio sometimes, and without any other source of entertainment than to go to a café or a restaurant with all the criticism of the neighbours &amp;c., <hi>I can’t do it</hi>. Going to live with another person, even another artist – difficult – very difficult – one takes too great a responsibility upon oneself. I dare not even think of it.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Anyhow, let’s begin with 3 months, afterwards we’ll see. Now the cost of board must be around 80 francs and I’ll do a little painting and drawing. Without putting as much fury into it as the other year. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> Don’t get upset about all this.</p>
+<p rend="indent" xml:id="p.en.14" n="14">So there you have it, these days have been sad, moving house, transporting all my furniture, packing up the canvases which I’ll send you, but above all it seemed sad to me that all that had been given to me by you with so much brotherly affection, and that for so many years, it was however you alone who supported me, and then to be obliged to come back to tell you all this sad story... but it’s difficult for me to express that as I felt it.</p>
+<p rend="indent" xml:id="p.en.15" n="15">The kindness you have had for me isn’t lost, since you have had it and you still have it, so even if the material results should be nil, you still have that all the more, but I can’t say that as I felt it.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Now you well understand that if alcohol was certainly one of the great causes of my madness, then it came very slowly and would go away slowly too, should it go, of course. Or if it comes from smoking, same thing. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">But I would hope only that it – this recovery... The frightful superstition of certain people on the subject of alcohol, so that they prevail upon themselves never to drink or smoke. We’re already advised not to lie or steal and not to commit other great or small crimes, and it becomes too complicated if it was absolutely indispensable not to possess anything but virtues in a society in which we’re very indubitably rooted, be it good or bad.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I assure you that these strange days in which many things seem odd to me because my brain is shaken up, I don’t hate <hi rend="italics">père</hi> Pangloss in all of this.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">But you’ll do me a service by tackling the question forthrightly with <rs type="person" ref="bio.xml#_663">Mr Salles</rs> and <rs type="person" ref="bio.xml#_637">Mr Rey</rs>. 
+    <pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">It would seem to me that with a boarding cost of around seventy-five francs a month there must be a way of confining me such that I have all I need.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Then I’d very much wish, if the thing is possible, to be able to go out in the daytime to go and draw or paint outside. Seeing as I go out here every day now, and I think that may continue.</p>
+<p rend="indent" xml:id="p.en.22" n="22">I warn you that by paying more I’d be less happy. The company of the other sick people, you understand, isn’t at all disagreeable to me, on the contrary it distracts me.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Ordinary food suits me perfectly well, especially if, like here, I could be given a little more wine than usual down there, half a litre instead of a quarter, for example. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">But a separate apartment, it remains to be seen what the rules of an institution like that will be. Be aware that <rs type="person" ref="bio.xml#_637">Rey</rs> is overburdened with work, overburdened.<ptr target="#note-t-8"/> If he or <rs type="person" ref="bio.xml#_663">Mr Salles</rs> writes to you, it’s better to do exactly what they say.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Anyway, my dear fellow, we must accept it, the illnesses of our time, all in all it’s only fair that having lived for years in relatively good health, sooner or later we have our share of them. As for me, you’ll feel a little that I wouldn’t exactly have chosen madness if there had been a choice, but once one has something like that one can’t catch it any more. However, in addition there will still perhaps be the consolation of being able to continue to work on some painting a little. What will you do so as not to say to your wife either too many good or too many bad things about Paris and of a heap of things? Do you feel in advance completely able to keep exactly the right measure always, from every point of view? 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">I shake your hand heartily in thought, I don’t know if I’ll write to you very, very often, because all my days aren’t clear enough to write somewhat logically. All your kindnesses for me, I’ve found them greater than ever today.</p>
+<p rend="indent" xml:id="p.en.27" n="27">I can’t tell you it as I feel it, but I assure you that that kindness has been of great worth, and if you don’t see its results, my dear brother, don’t be upset about it, you will still have your kindness. Only transfer this affection onto your <rs type="person" ref="bio.xml#_416">wife</rs> as much as possible.</p>
+<p rend="indent" xml:id="p.en.28" n="28">And if we correspond a little less you’ll see that if she is as I think she is, she will console you. That’s what I hope.</p>
+<p rend="indent" xml:id="p.en.29" n="29"><rs type="person" ref="bio.xml#_637">Rey</rs> is a really good fellow, terribly hard-working, always at the daily grind. What people today’s doctors are! 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.30" n="30">If you see <rs type="person" ref="bio.xml#_1039">Gauguin</rs> or if you write to him, give him my kind regards.</p>
+<p rend="indent" xml:id="p.en.31" n="31">I’ll be very happy to have a little news of what you say about <rs type="person" ref="bio.xml#_524">Mother</rs> and <rs type="person" ref="bio.xml#_407">Sister</rs> and whether they’re well, tell them to take my story, my word, as a thing they mustn’t upset themselves about excessively, for I’m relatively unfortunate, but in spite of that, after all, I perhaps still have some almost ordinary years ahead of me: it’s an illness like any other, and currently almost all those we know among our friends have something. So is it worth talking about? I regret causing trouble to <rs type="person" ref="bio.xml#_663">Mr Salles</rs>, to <rs type="person" ref="bio.xml#_637">Rey</rs>, especially also to you, but what can one do – the mind isn’t steady enough to begin again like before – so it’s a matter of no longer causing scenes in public, and naturally being a little calmer now, I feel completely that I was in an unhealthy state, mentally and physically.<ptr target="#note-t-9"/> And people were kind to me then, those I remember and the rest, anyhow I’ve caused anxiety, and if I’d been in a normal state all of this wouldn’t have happened in that way. Adieu, write when you can.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.32" n="32">Ever yours,</p>
+<p xml:id="p.en.33" n="33">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jo van Gogh-Bonger, who possibly had a postmark to rely on, dated the letter to ‘21 April 1889’ (<hi rend="italics">Brieven </hi>1914). Because this dating agrees with Theo’s remark in <ref target="let762.xml">letter 762</ref> of 24 April that he received the present letter ‘yesterday’ <ref target="#l-5">(l. 5)</ref>, we have dated it to Sunday, 21 April 1889. That was Easter Sunday, the day Vincent was supposed to leave the Yellow House (<ref target="let754.xml">see letter 754</ref>). Appropriately enough, he writes here that he has meanwhile stored his furniture <ref target="#l-13">(ll. 13-14)</ref>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> arrived in Paris on Saturday, 20 April; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let762.xml">see letter 762</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The 65 francs was the rent for three months for the Yellow House (February–April). Since December Van Gogh had rented the whole house for 21.50 francs a month (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let735.xml">see letter 735</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The owner of the Yellow House was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_225">Marie Louise Verdier</rs>; Van Gogh paid his rent to Verdier’s agent, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_755">Bernard Soulè</rs>, who was in charge of the building. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-19">See letter 602, n. 19.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh stayed in hospital until his departure for Saint-Rémy on 8 May. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let767.xml">Letter 767</ref> and correspondence with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_382">Joseph</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_383">Marie Ginoux</rs> reveals that he had stored his furniture with them in the Café de la Gare. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs> had informed Theo on 19 April 1889: ‘For the time being the furniture has been sent to the house of a neighbour, to whom your brother has paid three months’ rent for this purpose, 18 francs in all’ (Pour le moment les meubles sont remises chez un voisin auquel votre frère a payé trois mois de location pour cet objet, en tout 18 f.) (FR b1050).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The institution, a ‘private establishment dedicated to the treatment of insane persons of both sexes’ (établissement privé consacré au traitement des aliénés des deux sexes), was housed in the former monastery of Saint-Paul-de-Mausole, just outside Saint-Rémy-de-Provence, about 25 km north-east of Arles. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs> told Theo about it in the above-mentioned letter of 19 April, and sent him a prospectus (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let762.xml#n-2">see letter 762, n. 2</ref>). Regarding this asylum, see Leroy 1948 and Jean-Marc Boulon, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vincent van Gogh à Saint-Paul-de-Mausole</hi>. Marseille 2003.</p>
+
+<p rend="indent">At the beginning of May 1889, Theo wrote the following to their <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">mother</rs>: ‘Various letters from Vincent report that he feels very well physically. He is gradually beginning to realize, however, that he has received a blow and therefore feels the need for treatment. With his full cooperation and through the agency of the Rev. Salles, it has now been decided that he will undergo treatment for a while at St Rémy, not far from Arles, where there is an institution at which 45 patients receive nursing care. The Rev. Salles went there himself to see what it was like, and put me in touch with the director. That Rev. Salles is exemplary. May V. benefit from it’ (FR b940). </p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It is possible that Van Gogh wrote ‘tout’ instead of ‘tant’.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘vivre’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For the philosopher Pangloss from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_844">Voltaire</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_445">Candide</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-3">see letter 568, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Rey</rs> was occupied by such things as the smallpox epidemic raging in Arles from October 1888 until the end of April 1889; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let735.xml#n-15">see letter 735, n. 15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh is referring to his first nervous breakdown on 23 December 1888, at which time he cut off his left ear and caused a lot of commotion in the neighbourhood. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let728.xml#n-1">See letter 728, n. 1.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Anthon van Rappard. Nuenen, on or about Tuesday, 18 August 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let528"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b8389 a-c V/2006</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>528</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>R57</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>529</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-08-18">on or about Tuesday, 18 August 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Anthon van Rappard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001651_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001651_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001651_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001651_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001651_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001651_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001652_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001001652_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001652_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001001652_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001653_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001001653_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-10">
+<graphic url="https://example.com/iiif/VGM001001653_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 8389 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001653_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001001653_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-9">
+<graphic url="https://example.com/iiif/VGM001001653_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Amice Rappard,</p>
+
+<p xml:id="p.nl.2" n="2">Uw schrijven ontvang ik zooeven en croquis van uw Sch<hi rend="super">ij</hi><c type="kp">_</c>–<ptr target="#note-t-1"/> Het is zeker een mooi motief &amp; de compositie heb ik niets op tegen wat equilibre aangaat<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Mag ik één ding zeggen – wat ik <hi rend="italics">niet</hi> zeggen zou als ’t schij <hi rend="italics">af</hi> was en dus moeielijk te veranderen – wat ik <hi rend="italics">wel</hi> zeg waar zekere wijzigingen die de <hi rend="italics">lijnen</hi> <hi rend="italics">niet</hi> regardeeren welligt met voordeel kunnen aangebracht worden<c type="kp">_</c>– Ziehier – het figuur in ’t midden van ’t schilderij – de vrouw met den hark – Goed op zijn plaats<c type="kk">/</c> maar – het opharken van de plaats is een actie die dunkt me te zeer <hi rend="italics">bijzaak</hi> is dan dat een <hi rend="italics">hoofdfiguur</hi> ze moet verrigten<c type="kp">_</c>– Liever zag ik voor mij om die reden ’t figuur midden in – op den voorgrond – <hi rend="italics">steenen dragende</hi> (dat eene actie zijnde hier zeer expressief en karakteristiek<c type="kk">/</c> gemotiveerd door ’t ensemble)<c type="kk">/</c> ’t figuur op ’t <hi rend="italics">tweede</hi> plan (dat nu steenen draagt (en een secondaire plaats in de compositie inneemt)) gaf ik liever de hark in de hand<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Kan dit? in respect tot den gang van ’t werk? Indien niet – denk dan eens als ge wilt over de kwestie – want mij dunkt ze is niet zonder belang – en er zou aanmerking op gemaakt kunnen worden<c type="kp">_</c> Dat ’t figuur <hi rend="italics">overeind</hi> staat daar is <hi rend="italics">goed</hi><c type="kk">/</c> maar – <hi rend="italics">zonder</hi> de lijnen te veranderen – is er geen interessanter <hi rend="italics">actie</hi> te verzinnen?– Houd me s.v.p. dit ten goede – ik geloof niet dat het kwaad doen is<c type="kk">/</c> als een sch<hi rend="super">ij</hi> in ontwerp is zulke dingen in overweging te geven<c type="kp">_</c>– Ik geloof niet dat dit U met geweld <hi rend="italics">mijn</hi> idees opdringen zij<c type="kp">_</c>– Vooral indien ’t sch<hi rend="super">ij</hi> groot wordt van afmeting is mijns inziens het een kwestie van zeer veel belang de <hi rend="italics">acties</hi> expressief zijn<c type="kp">_</c>– Ik weet dat dit is <hi rend="italics">veel</hi> eischen – ik weet dat de lijnen en het equilibre der lijnen hier de wet mogen stellen<c type="kp">_</c>–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Maar die lijnen kunnen welligt mooi en rustig blijven. Enfin – ik geloof dat het <hi rend="italics">kan</hi> wezen ik <hi rend="italics">geen</hi> ongelijk heb in dit opzigt – en het geldt Uw hoofdfiguur – dus ik durfde niet laten te zeggen wat mijn impressie was<c type="kp">_</c>– Als het niet al te veel vergen is zou ik nog in bedenking willen geven eene der steenendraagsters alsdan te laten <hi rend="italics">bukken</hi> &amp; de steenen neerleggen<c type="kk">/</c> opdat beiden niet ’t zelfde uitrichten<c type="kp">_</c>– Maar dit komt op ’t zelfde neer aangezien dan <hi rend="italics">twee</hi> <hi rend="italics">bukkende</hi> figuren zouden ontstaan. <hi rend="italics">En dat doet er minder toe après tout</hi><c type="kp">_</c> Maar de <hi>eerste</hi> opmerking is wat ik eigentlijk vooral voel<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Wat mijn werk aangaat<c type="kk">/</c> het geval van die aardappeleters waarvan gij de lithografie zaagt is een motief dat ik trachtte te schilderen<c type="kk">/</c> medegesleept zijnde door de eigenaardige verlichting van de groezelige hut<c type="kp">_</c>–<ptr target="#note-t-3"/> Het staat in een zóó laag gamma dat de <hi rend="italics">lichte</hi> kleuren<c type="kk">/</c> op wit papier b.v. gesmeerd<c type="kk">/</c> wel inktvlekken zouden lijkenen – op het doek doen ze als lichten wegens de groote krachten die er tegen staan<c type="kk">/</c> b.v. pruissisch blaauw zoo maar zonder menging er op gezet<c type="kp">_</c>– Dat bij attentie daarop ik de vorm der <hi rend="italics">torsen</hi> uit het oog verloren heb is mijn eigen kritiek<c type="kp">_</c>– Koppen en handen waren echter met veel zorg gedaan en – daar die ’t voornaamste waren en de rest geheel haast donker (dus als effekt <hi rend="italics">gansch iets anders</hi> dan de lithografie) ben ik misschien meer te excuseeren dan ge denkt dit geschilderd te hebben zóó als ik het deed<c type="kp">_</c>– En trouwens<c type="kk">/</c> het eigentlijke sch<hi rend="super">ij</hi> is anders ook van teekening dan ’t zij de ruwe schets die ik er nog van heb<ptr target="#note-t-4"/> &amp; die ik in de hut s’avonds bij een lampje maakte<c type="kk">/</c> of ’t zij de lithografie.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik wilde U dan nog zeggen dat ik sedert ge hier waart een vrij groot aantal koppen schilderde en nog al veel figuren van boeren<c type="kk">/</c> spitters<c type="kk">/</c> wieders<c type="kk">/</c> oogsters teekende<c type="kp">_</c>– Dat bij dat alles hetzij direkt hetzij indirect mij bezig hield de groote kwestie – kleur<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik bedoel de <hi>breking</hi> der kleuren<c type="kk">/</c> rood met groen<c type="kk">/</c> blaauw met oranje<c type="kk">/</c> geel met violet<c type="kp">_</c>– Het steeds zamengaan der complementaire kleuren<c type="kk">/</c> hun invloed op elkaar<c type="kp">_</c>– Waarvan de natuur even vol is als van licht &amp; bruin.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Een andere kwestie – waar ik dagelijks me in verdiep – is juist die waarvan gij – ik meen ten onregte – beweerdet ik ze verwaarloos: het weergeven van den vorm in haar modelé<c type="kk">/</c> haar groote lijnen &amp; massas<c type="kk">/</c> waarbij men niet in de <hi rend="italics">eerste</hi> maar in de <hi rend="italics">laatste</hi> plaats aan contour denkt<c type="kp">_</c> Zie hierbij een paar croquis van kleine composities – die ik beiden geschilderd heb<c type="kk">/</c> ik heb meest in vrij klein formaat gewerkt dezen laatsten tijd.–<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Daar ik mijn attentie blijf concentreeren bepaald op de <hi rend="italics">boertjes</hi><c type="kk">/</c> is het landschap een ding dat ik regelregt dagelijks van doen heb<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Toen Wenkebach bij me is geweest had ik juist eenige hutten geschilderd.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik heb inzake houtsneden niets nieuws<c type="kk">/</c> letterlijk<c type="kk">/</c> dan – 4 groote composities van <hi rend="italics">Lhermitte</hi><c type="kp">_</c>–<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Die man is voor mij MILLET II in den <hi rend="italics">vollen</hi> zin van ’t woord<c type="kk">/</c> ik dweep met zijn werk als met dat van Millet zelf<c type="kp">_</c>– Ik vind zijn genie evenboortig met dat van Millet I<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Mijn broer is hier geweest nu pas<c type="kk">/</c> hij heeft mij enkele dingen verteld betreffende wat in Parijs aan de orde van den dag is<c type="kk">/</c> die ik heel gelukkig vind<c type="kp">_</c> Het succes van de tentoonstelling Eug<c type="kp">_</c> Delacroix<c type="kp">_</c><ptr target="#note-t-8"/> Dan interesseerde mij wat hij vertelde van Raffaelli<c type="kk">/</c> een figuurschilder<c type="kk">/</c> en Claude Monet<c type="kk">/</c> een <hi rend="italics">landschapschilder</hi> <hi>colorist</hi><c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Overigens ge zult zelf er ’t uwe van merken – het is minder een <hi rend="italics">goude</hi> dan wel een ijzeren eeuw voor de schilders – ik bedoel<c type="kk">/</c> het is niet precies makkelijk om te blijven bestaan ook zelfs maar<c type="kp">_</c>– Ten minste wat mij aangaat<c type="kk">/</c> het is misère ouverte – alleen met dat al is mijn moed en misschien ook mijn kracht eer meer dan minder dan vroeger<c type="kp">_</c>– Meen niet gij de eenige zijt die meent of meendet, naar ge wilt, mij te moeten critiseeren tot algeheele omverhaling toe – integendeel het is zoo plus minus het eenige wat ik tot nog toe ondervind<c type="kp">_</c>– Juist om die reden dat ge de eenige niet zijt of waart die slechts zóó spreekt<c type="kk">/</c> staat <hi rend="italics">Uw</hi> critiek in verband met andere critiek<c type="kk">/</c> waartegen ik mijnerzijds eene convictie van raison d’être te hebben voor mijn streven tegen over stel – en – meer en meer zal blijven stellen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">De reden waarom ik – ofschoon ik niet op <hi rend="italics">mijn</hi> zin gestaan heb maar U <hi rend="italics">uw</hi> zin heb gegeven – de reden waarom ik begon met U in overweging te geven – algeheele terugname Uwer critiek<c type="kk">/</c> was niet dat despotiek ik Uwe meeningen zoude verlangen te buigen of te breken<c type="kp">_</c> In geenen deele was zulks mijn bedoeling<c type="kk">/</c> ofschoon gij ’t alzoo opvattet.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Ziehier details die volkomen juist zijn. ik heb tegen U uitgevaren over pleisterteekenen en zelfs moet ik rondweg bekennen ik er nog toe in staat zou zijn<c type="kp">_</c><ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">En over andere kwesties – ik kan niet altijd bedaard er bij blijven<c type="kk">/</c> het is me soms of men me aan mijn lijf komt<c type="kk">/</c> zóó voel ik me soms vast aan de kwestie en zóó is soms mijn overtuiging een stuk van mezelf<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">het is waar dat in die lithografie en in veel ander werk zeker ook fouten zijn. Maar ik zelf bewijs in ander werk duidelijk genoeg wat ik zoek dan dat men geregtigd zij of te goeder trouw wanneer men anders dan in zijn geheel en breeder er over oordeelt – rekening houdende met het doel &amp; streven – n.l. <hi rend="italics">het schilderen van boeren in hun entourage</hi> – le paysan chez soi<c type="kp">_</c><ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Nu noemt gij dat ensemble van mijn werk <hi>uiterst zwak</hi> en toont lang en breed aan de fouten de kwaliteiten overtreffen.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Zóó over mijn werk<c type="kk">/</c> zóó over mijn persoon<c type="kp">_</c> 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>Welnu en dat accepteer ik <hi rend="italics">niet</hi><c type="kk">/</c> bepaald <hi rend="italics">niet</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Het werk in kwestie<c type="kk">/</c> ’t schilderen van de boeren<c type="kk">/</c> is een zóó zwaar werk dat de <hi rend="italics">uiterst zwakken</hi> van zelf wel er niet eens aan beginnen.– En ik ben er ten minste aan begonnen en heb zekere fondamenten gelegd<c type="kk">/</c> wat niet precies ’t makkelijkst is van de karwei! En in teekenen en in schilderen heb ik sommige vaste en nuttige dingen beet<c type="kk">/</c> vaster dan ge denkt amice. Maar ik maak steeds <hi rend="italics">wat ik</hi> <hi rend="italics">nog niet kan</hi> om het te leeren kunnen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Maar ’t verveelt mij en U hierover te schrijven<c type="kp">_</c>– Ik eindig met te zeggen<c type="kk">/</c> de arbeid is moeielijk en wijs is het dat de lui die boeren en ’t volk schilderen<c type="kk">/</c> in plaats van te twisten de handen ineen slaan zoo veel maar mogelijk is<c type="kp">_</c>– Eendragt maakt magt en <hi rend="italics">wat men te</hi> <hi rend="italics">bestrijden heeft is niet elkaar</hi> maar die lui welke den voortgang van de idees waarvoor <hi>Millet</hi> en anderen van een vorig geslacht vochten en baanbrekers waren<c type="kk">/</c> ook nu nog in deze periode in den weg staan.– Niets hindert meer dan ’t fatale twisten onderling<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">En wat U en mij betreft<c type="kk">/</c> laat dit uit zijn want ons doel is één zelfde<c type="kp">_</c>–</p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Maar mijn motief was juist dat Uw streven en het mijne<c type="kk">/</c> al zijn die <hi rend="italics">niet hetzelfde</hi><c type="kk">/</c> evenwel eer <hi rend="italics">evenwijdig</hi> loopen dan lijnregt tegenovergesteld zijn<c type="kp">_</c>– En waar als <hi rend="italics">rigting</hi> en in principe er punten van overeenkomst genoeg zijn en denk ik blijven zullen<c type="kk">/</c> kwam het mij voor dat Uwe critiek als ensemble inconsequent was<c type="kk">/</c> <hi rend="italics">in hare toepassing op mij</hi><c type="kk">/</c> met het karakter van uw eigen werk<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Wij hebben met elkaar gemeen dat wij onze motieven zoeken in ’t hart van ’t volk en dan hebben we gemeen een behoefte – om hetzij als <hi rend="italics">doel</hi> hetzij als <hi rend="italics">middel</hi> – uit de werkelijkheid onze studies te halen<c type="kp">_</c>– En dat – is <hi rend="italics">veel</hi> gemeen hebben met elkaar<c type="kp">_</c> En <hi rend="italics">au fond</hi><c type="kk">/</c> of hetzij wat techniek van teekenen hetzij wat techniek van schilderen aangaat wij <hi rend="italics">tegengesteld</hi> zouden zijn<c type="kk">/</c> ik voor mij ben daar niet van overtuigd<c type="kp">_</c> Gij zijt mij in veel dingen vooruit<c type="kk">/</c> dat spreek ik niet tegen<c type="kk">/</c> maar ik geloof toch gij te ver gingt<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Maar wat hier ook van zij – hetgeen ik wenschelijk acht is dat om reden van dat als wij willen en het zoeken<c type="kk">/</c> we elkaar weerkeerig misschien tot nut en tot steun kunnen zijn – en omdat eendragt magt maakt – we vrienden moeten blijven<c type="kp">_</c>–</p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Wat techniek betreft – ik zoek nog naar veel dingen en het gaat mij zóó dat al vind ik er sommigen<c type="kk">/</c> er oneindig veel overblijft dat ik mankeer<c type="kp">_</c> Maar – toch weet ik <hi rend="italics">waarom ik werk zooals</hi> <hi rend="italics">ik werk</hi> – en grond mij in mijn zoeken op soliden bodem<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ik zeide het onlangs nog tegen Wenkebach<c type="kk">/</c> dat ik geen schilder kende die zooveel fouten had als ik – maar dat zulks mij met dat al <hi rend="italics">niet</hi> overtuigde dat ik radicaal verkeerd zou zijn<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Het is met mij een geval soms als: ’t product van twee negatieven is <hi rend="italics">positief</hi><c type="kp">_</c> Neem welke teekening of welke studie van me die ge wilt<c type="kk">/</c> juist die welke ik zelf met betrekkelijke rust U zou wijzen<c type="kp">_</c>– En – zoowel in de teekening als in de kleur of toon zullen fouten zijn die een <hi>realist</hi> <hi rend="italics">niet ligt maken</hi> <hi rend="italics">zou</hi><c type="kp">_</c>– Bepaalde onjuistheden waarvan ik zelf overtuigd ben<c type="kk">/</c> die ik des noods zelf misschien soms krasser dan anderen zal wijzen<c type="kp">_</c>– Onjuistheden soms of onvolkomenheden<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">En toch geloof ik dat – <hi rend="italics">al blijf ik steeds</hi> <hi rend="italics">werk leveren</hi> waarin men<c type="kk">/</c> indien men begeert vooral juist van dien kant en met dat doel het te beschouwen<c type="kk">/</c> <hi rend="italics">fouten</hi> kan aanwijzen –</p>
+
+<p xml:id="p.nl.32" n="32">het een zeker eigen leven en raison d’être zal hebben dat die fouten overdonderen zal – in het oog van hen die karakter en het <hi rend="italics">de dingen door den geest laten gaan</hi> apprecieeren<c type="kp">_</c>– 
+<pb f="3v" n="9" xml:id="pb-orig-3v-9" facs="#zone-pb-3v-9"/>En met al mijn fouten zal men mij nog zoo makkelijk <hi rend="italics">niet</hi> overdonderen als men denkt. Ik weet te goed welk doel ik beoog<c type="kk">/</c> ik ben te vast en zeker overtuigd dat ik après tout op een regten weg ben – wanneer ik wil schilderen wat ik voel en voelen wat ik schilder – dan dat ik mij veel bekommer om wat de lui van mij zeggen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Toch maakt het mij soms het leven zeer moeielijk en – ik acht het zeer wel mogelijk sommige lui later spijt zullen hebben van dingen die ze hetzij van me zeiden hetzij tegenwerking of onverschilligheid waar ze me mede donderden<c type="kp">_</c>– Wat ik er tegen doe is mij zóó terugtrekken dat ik letterlijk geen andere lui meer zie dan – de boertjes – waar ik direkt mee te maken heb om ze te schilderen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">En dit zal mijn systeem blijven en ’t kan zelfs best zijn ik binnen kort mijn atelier opgeef en in een hut ga wonen<c type="kk">/</c> zóó dat ik niets meer hoor of zie van wie zich beschaafde lui noemen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Waar ik tot U zeg en het meen dat ik echter wel vrienden wil blijven<c type="kk">/</c> is het omdat ik in U een streven zie dat ik zeer hoog acht<c type="kp">_</c>– Gij gaat goed diep in ’t volk en gij hebt wilskracht om het door te voeren<c type="kp">_</c>– Wanneer ik zeg<c type="kk">/</c> we kunnen weerkeerig elkaar misschien tot nut en tot steun zijn – dan zeg ik zulks 
+<pb f="3r" n="10" xml:id="pb-orig-3r-10" facs="#zone-pb-3r-10"/>omdat<c type="kk">/</c> in geval gij <hi rend="italics">niet</hi> toegeeft aan conventies<c type="kk">/</c> gij denkelijk als gij meer bekend wordt welligt nog meer <hi rend="italics">brutale</hi> dingen zult maken en dan er een bepaald gevecht kan komen met schilderijen van de eene rigting tegen de andere<c type="kp">_</c>– En in zulk een geval kan het goed zijn verschillende schilders eendragtig handelen. Van een anderen kant – ik geloof niet dat het nutteloos is van gedachten te wisselen en elkaars werk te zien<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.36" n="36">Ziehier nog een derde krabbeltje naar eene studie van gisteren.<ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.37" n="37"><hi rend="italics">Gegroet</hi> – de aanmerking over de handeling van de vrouw in ’t midden van uw compositie voel ik me gedrongen U in consideratie te geven<c type="kk">/</c> overigens vind ik de compositie zeer verstandig en ’t heele plan sympathiek<c type="kp">_</c> Als ge Wenkebach ziet<c type="kk">/</c> wil hem s.v.p<c type="kp">_</c> groeten<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.38" n="38">b<c type="kp">_</c> à v<c type="kp">_</c></p>
+
+<p xml:id="p.nl.39" n="39">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.40" n="40">Ge ziet aan mijn croquis dat ik voor mij me nogal moeite geef juist om actie – bezig zijn – <hi rend="italics">iets doen</hi> in mijn figuurtjes te krijgen.</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">ik vind het goed dat op uw compositie er althans één reeds <hi rend="italics">bukt</hi><c type="kk">/</c> het – <hi rend="italics">aan den gang zijn van het werk</hi> is iets misschien wat <hi rend="italics">veel</hi> verticale lijnen in de compositie moeielijker uit te drukken zou maken<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear friend <rs type="person" ref="bio.xml#_1306">Rappard</rs>,</p>
+<p xml:id="p.en.2" n="2">I just received your letter and croquis of your painting.<ptr target="#note-t-1"/> It’s certainly a good subject, and I have nothing against the composition as regards balance.</p>
+<p rend="indent" xml:id="p.en.3" n="3">May I say one thing — which I would <hi rend="italics">not</hi> say if the painting was <hi rend="italics">finished</hi> and consequently difficult to alter — which I <hi rend="italics">do</hi> say since certain changes that do <hi rend="italics">not</hi> concern the <hi rend="italics">lines</hi> could be made to advantage? Look — the figure in the middle of the painting — the woman with the rake. Good in its place, but — raking the yard is an action that’s too much of a <hi rend="italics">minor detail</hi> for a <hi rend="italics">central figure</hi> to be carrying out, it seems to me. For this reason, for my part I would rather see the figure in the middle — in the foreground — <hi rend="italics">carrying bricks</hi> (that being a very expressive and characteristic action here, accounted for by the whole thing). I would rather put the rake in the hands of the figure in the <hi rend="italics">middle ground</hi> (who is now carrying bricks (and occupies a secondary place in the composition)).<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">Is this possible? In respect to the progress of the work? If not — just think if you will about the question — for it seems to me that it’s not unimportant — and comments could be made about it. The fact that the figure is <hi rend="italics">upright</hi> there is <hi rend="italics">good</hi>, but — <hi rend="italics">without</hi> altering the lines — isn’t there a more interesting <hi rend="italics">action</hi> you could think of? Don’t hold this against me, please — I don’t think it can do any harm to put forward things like this for consideration when a painting is being planned. I don’t think that this is forcibly pressing <hi rend="italics">my</hi> ideas on you. Making the <hi rend="italics">actions</hi> expressive is an extremely important matter, in my view, particularly if the painting is to be a large format. I know this is asking <hi rend="italics">a lot</hi> — I know that the lines and the balance of the lines may lay down the law here. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">But those lines may well remain beautiful and tranquil. Anyway — I believe that it <hi rend="italics">may</hi> be that I’m <hi rend="italics">not</hi> wrong in this respect — and it’s about your central figure — so I didn’t dare not say what my impression was. If it’s not asking too much, I’d like to suggest having one of the brick-carriers <hi rend="italics">stoop</hi> and put down the bricks, so that they aren’t both doing the same. But it comes to the same thing, since there would then be <hi rend="italics">two stooping figures</hi>. <hi rend="italics">And after all, that doesn’t matter so much.</hi> But the <hi>first</hi> comment is actually what I feel above all.</p>
+<p rend="indent" xml:id="p.en.6" n="6">As regards my work, the thing with those potato eaters that you saw the lithograph of is a subject that I tried to paint, carried away by the singular lighting of the dingy cottage.<ptr target="#note-t-3"/> It’s in such a low spectrum that the <hi rend="italics">light</hi> colours, smeared on white paper, say, would look like ink blots — they appear as lights on the canvas because of the strong forces that are opposed to them, for instance Prussian blue laid on just as it is, without mixing. My own criticism is that while paying attention to this I lost sight of the shape of the <hi rend="italics">torsos</hi>. Heads and hands were done with great care, though, and — since these were the most important and the rest almost entirely dark (so <hi rend="italics">really quite different</hi> in effect from the lithograph), it may perhaps be more excusable of me than you think to have painted it as I did. And besides, the drawing in the actual painting is also different from either the rough sketch that I still have of it<ptr target="#note-t-4"/> and which I made in the cottage in the evening by the light of a small lamp, or the lithograph. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I also wanted to tell you that since you were here I’ve painted a fairly large number of heads, and drawn quite a lot of figures of peasants, diggers, weeders, reapers. That in all this, either directly or indirectly, the great question occupied me — colour.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I mean the <hi>breaking</hi> of the colours, red with green, blue with orange, yellow with violet. Always how the complementary colours go together, their influence on each other. Of which nature is as full as of light and shade.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Another question — which I’m engrossed in every day — is precisely the one that you — I think unjustly — asserted that I neglect: the rendering of the modelling of the form, its main lines and masses, where one thinks of outline in the <hi rend="italics">last</hi> place, not the <hi rend="italics">first</hi>. See herewith a couple of croquis of small compositions — both of which I’ve painted. I’ve mostly been working in a fairly small format lately.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">As I continue to focus my attention specifically on the <hi rend="italics">peasants</hi>, the landscape is something that I’m involved with every single day.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I had just painted some cottages when <rs type="person" ref="bio.xml#_1442">Wenckebach</rs> came to see me.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I have literally nothing new as regards woodcuts, apart from — 4 large compositions by <hi rend="italics"><rs type="person" ref="bio.xml#_1179">Lhermitte</rs></hi>.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">To me, that man is <rs type="person" ref="bio.xml#_1226">MILLET</rs> II in the <hi rend="italics">full</hi> sense of the word; I idolize his work as I do that of Millet himself. I think his genius on a par with that of Millet I. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">My brother was here just recently, he told me several things about what’s going on in Paris that I find very encouraging. The success of the <rs type="person" ref="bio.xml#_982">Eugène Delacroix</rs> exhibition.<ptr target="#note-t-8"/> Then I was interested in what he told me about <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>, a figure painter, and <rs type="person" ref="bio.xml#_1222">Claude Monet</rs>, a <hi>colourist</hi><hi rend="italics"> landscape painter</hi>.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">For the rest, you’ll notice it for yourself — it’s not so much a <hi rend="italics">golden</hi> as an iron age for painters — I mean it’s not exactly easy to even stay alive. At least as far as I’m concerned, it’s sheer destitution — only with all that, my courage and perhaps my powers, too, are greater rather than less than before. Don’t think you’re the only one who thinks or thought — as you will — he had to criticize me to the point of total destruction — on the contrary, it’s pretty much the only thing I’ve experienced so far. Precisely because you aren’t or weren’t the only one who speaks solely like this, <hi rend="italics">your</hi> criticism is related to other criticism, which, for my part, I counter with a conviction of having a <hi rend="italics">raison d’être</hi> for my endeavours — and — will continue to counter more and more.</p>
+<p rend="indent" xml:id="p.en.16" n="16">The reason why I — although I didn’t insist on <hi rend="italics">my</hi> way but let you have <hi rend="italics">your</hi> way — the reason why I started by asking you to consider — complete retraction of your criticism, wasn’t that I despotically wanted to bend or break your opinions. That wasn’t my intention in the least, although that’s how you took it. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">Here are details that are perfectly correct. I let fly at you about drawing plaster models, and I even have to confess frankly that I’d be capable of doing it again.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">And about other questions — I can’t always sit quietly by; it sometimes seems to me as if people are physically touching me, so bound to the question do I sometimes feel and so much is my conviction sometimes a part of myself.</p>
+<p rend="indent" xml:id="p.en.19" n="19">It’s true that there are definitely faults in the lithograph and in much other work, too. But in other work I prove too clearly what I’m seeking for people to be justified or acting in good faith when they do other than judge it as a whole and more broadly — taking into account the aim and endeavour — namely <hi rend="italics">to paint peasants in their setting</hi> — the peasant at home.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Now you call that totality of my work <hi>extremely weak</hi>, and demonstrate at great length that the faults outnumber the qualities.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Thus about my work, thus about my person. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> Well now, I do <hi rend="italics">not</hi> accept that, definitely <hi rend="italics">not</hi>.</p>
+<p rend="indent" xml:id="p.en.22" n="22">The work in question, painting the peasants, is such laborious work that the <hi rend="italics">extremely weak</hi> would never even embark on it. And I have at least embarked on it and have laid certain foundations, which isn’t exactly the easiest part of the job! And I’ve grasped some solid and useful things in drawing and in painting, more firmly than you think, my dear friend. But I keep on making <hi rend="italics">what I can’t do yet</hi> in order to learn to be able to do it.</p>
+<p rend="indent" xml:id="p.en.23" n="23">But it bores me and you to write about this. I’ll end by saying the labour is hard, and it would be wise for the fellows who paint peasants and the common people to join hands as much as is possible instead of quarrelling. Unity is strength, and <hi rend="italics">what we should be fighting is not one another</hi> but those fellows who, even now in this period, stand in the way of the progress of the ideas for which <hi><rs type="person" ref="bio.xml#_1226">Millet</rs></hi> and others of a previous generation fought and were pioneers. Nothing is more obstructive than this fatal quarrelling among ourselves.</p>
+<p rend="indent" xml:id="p.en.24" n="24">And as for you and me, let this be at an end, for our objective is the same. 
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">But my reason was precisely that your endeavour and mine, although they’re <hi rend="italics">not the same</hi>, nonetheless run <hi rend="italics">parallel</hi> rather than being diametrically opposed. And while as a <hi rend="italics">direction</hi> and in principle there are points of agreement enough and, I think, will continue to be, it occurred to me that your criticism as a whole was inconsistent, <hi rend="italics">in its application to me</hi>, with the character of your own work.</p>
+<p rend="indent" xml:id="p.en.26" n="26">We have in common with each other that we seek our subjects in the heart of the people, and then we have in common a need — either as an <hi rend="italics">objective</hi> or as a <hi rend="italics">means</hi> — to take our studies from reality. And that — is having <hi rend="italics">a lot</hi> in common with each other. And <hi rend="italics">at bottom</hi>, as to whether we’re <hi rend="italics">opposed</hi> in regard to either drawing technique or painting technique, I for my part am not convinced of that. You’re ahead of me in many things, I don’t deny it, but I still believe you went too far.</p>
+<p rend="indent" xml:id="p.en.27" n="27">But be that as it may — what I consider desirable is that because if we want to and try to we could perhaps be of use and give support to each other — and because unity is strength — we must remain friends. 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">As regards technique — I’m still searching for many things and with me it’s the case that, although I find some of them, there remain infinitely many that I lack. But — all the same, I know <hi rend="italics">why I work as I work</hi> — and base my search on solid ground.</p>
+<p rend="indent" xml:id="p.en.29" n="29">I said to <rs type="person" ref="bio.xml#_1442">Wenckebach</rs> recently that I didn’t know a painter who had as many faults as I have — but that for all that it did <hi rend="italics">not</hi> convince me that I’m radically wrong.</p>
+<p rend="indent" xml:id="p.en.30" n="30">With me it’s sometimes a matter of: two negatives making a <hi rend="italics">positive</hi>. Take whichever study or drawing of mine you like, even the one I’d point out to you myself with relative equanimity. And — there’ll be mistakes both in the drawing and in the colour or tone that a <hi>realist</hi> <hi rend="italics">wouldn’t readily make</hi>. Certain inaccuracies of which I’m convinced myself, which if need be I myself will sometimes point out more severely than other people. Inaccuracies sometimes, or imperfections.</p>
+<p rend="indent" xml:id="p.en.31" n="31">And yet I believe that — <hi rend="italics">even if I keep producing work</hi> in which people, if they want to look at it precisely from that angle and with that aim, can find <hi rend="italics">faults</hi> — it will have a certain life of its own and <hi rend="italics">raison d’être</hi> that will overwhelm those faults — in the eyes of those who appreciate character and <hi rend="italics">mulling things over in their minds</hi>. 
+<pb f="3v" n="9" xml:id="pb-trans-3v-9" facs="#zone-pb-3v-9"/> And with all my faults, people <hi rend="italics">won’t</hi> find it as easy to overwhelm me as they think. I know too well what aim I have in view, I’m too absolutely and utterly convinced that I am, after all, on the right path — when I want to paint what I feel and feel what I paint — to worry too much about what people say of me.</p>
+<p rend="indent" xml:id="p.en.32" n="32">All the same, it sometimes makes life very difficult for me and — I consider it very possible that some people will later regret either the things they said about me, or the opposition or indifference with which they plagued me. What I do in response is withdraw so much that I literally don’t see anybody other than — the peasants — with whom I’m directly concerned in order to paint them.</p>
+<p rend="indent" xml:id="p.en.33" n="33">And this will remain my system, and it may even very well be that before long I’ll give up my studio and go and live in a cottage, so that I no longer hear or see anything of those who call themselves civilized people.</p>
+<p rend="indent" xml:id="p.en.34" n="34">When I say to you that I want to remain friends, and mean it, though, it’s because I see in you an endeavour that I regard very highly. You go deep into the people and you have the strength of will to carry it through. When I say we could perhaps be of use and give support to each other — then I say it 
+<pb f="3r" n="10" xml:id="pb-trans-3r-10" facs="#zone-pb-3r-10"/> because, in the event that you <hi rend="italics">don’t</hi> submit to conventions, you will probably, as you become better known, possibly make even <hi rend="italics">bolder</hi> things, and then it could come to a positive clash between paintings of one school and another. And in such circumstances it could be a good thing for various painters to act in unison. From another angle — I don’t think it’s useless to share ideas and see one another’s work.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.35" n="35"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.36" n="36">Here’s a third little scratch of a study I did yesterday.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.37" n="37"><hi rend="italics">Regards</hi> — I feel obliged to offer the comment about the action of the woman in the middle of your composition for your consideration; for the rest I think the composition very sensible and the whole design sympathetic. When you see <rs type="person" ref="bio.xml#_1442">Wenckebach</rs>, would you please give him my regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.38" n="38">Yours truly,</p>
+<p xml:id="p.en.39" n="39">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.40" n="40">You can see from my croquis that, for my part, I take a lot of trouble specifically to get action — being occupied — <hi rend="italics">doing something</hi> — into my figures.</p>
+<p rend="indent" xml:id="p.en.41" n="41">I think it’s good that one figure in your composition, at any rate, is already <hi rend="italics">stooping</hi> — <hi rend="italics">being in the process of working</hi> is perhaps something that <hi rend="italics">a lot of</hi> vertical lines in the composition would make harder to express. </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">We have dated the letter on or about Tuesday, 18 August 1885; for this <ref target="let527.xml">see letter 527</ref>, <hi rend="italics">Date</hi>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s reaction to the lithograph of <hi rend="italics">The potato eaters</hi> <ref target="let503.xml">(503)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s visit to Nuenen <ref target="let452.xml">(452)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Meeting with Wenckebach <ref target="let516.xml">(516)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit to Nuenen <ref target="let510.xml">(510)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> was working on <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Workers at the Ruimzicht brickyard </hi>(Utrecht, Centraal Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_331">Ill. 331</rs>. This large work measures 183 x 300 cm. The sketch of it that he sent Van Gogh is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> did not act on this suggestion.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The lithograph <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2135">F 1661 / JH 737</rs>) after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2510">F 82 / JH 764</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2506">F 78 / JH 734</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>From the end of the letter it is clear that Van Gogh enclosed sketches after drawings of figures, but we do not know which they were. On the basis of the subject (figures that ‘<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">are doing something</hi>’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-304">(l. 304)</ref>), and because of their small size (17.5 x 10.5 cm) <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman standing near a ditch</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_576">F 1292 / JH 882</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Man loading a cart</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_577">F 1335 / JH 883</rs>) would seem to qualify, but they have not been folded, which makes it unlikely that they were ever in a standard envelope, and their date is uncertain.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>See for these paintings of cottages: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let513.xml#n-1">letter 513, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Over the past months Van Gogh had acquired four prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1179">Léon Augustin Lhermitte</rs>: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_216">Les bûcherons</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let484.xml">letter 484</ref>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2137">Hirondelles ou le jardinage</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let496.xml">letter 496</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let500.xml">500</ref>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2138">Le labourage</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let496.xml">496</ref>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_213">Les amoureux ou Idylle</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let502.xml">letter 502</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>See for this <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Exposition Eugène Delacroix</hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let461.xml#n-2">letter 461, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Theo was evidently trying to bring his brother round to more modern ideas by way of these artists. He particularly admired <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1279">Raffaëlli</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>; moreover on 7 April 1885 he had sold his first Monet for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs>; later in the eighteen-eighties Theo gradually dealt in more and more works by both these artists. See Richard Thomson’s ‘Theo van Gogh. An honest broker’ in exhib. cat. Amsterdam 1999, pp. 60-148.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh must be referring to his comment in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let526.xml">letter 526</ref>: ‘does one learn it from the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">plaster statue copiers</hi> and at the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">art academy</hi>. I believe: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">not</hi>’.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Vincent had also previously written to Theo about ‘les paysans chez eux’ (‘the peasants at home’) (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let493.xml">letter 493</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Two women digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_151">F - / JH 879</rs>) is after the painting of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2523">F 97 / JH 876</rs>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

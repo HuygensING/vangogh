@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Saturday, 27 or Sunday, 28 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let714"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b605 V/1968</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>714</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>558b</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>719</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-10-27">Saturday, 27 or Sunday, 28 October 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0605" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000825_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000825_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000825_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0605" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000825_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000825_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000825_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ton mandat de 50 francs que je viens de recevoir<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je savais bien que Gauguin avait voyagé mais j’ignorais qu’il était vrai marin<c type="kk">/</c> il a passé par toutes les difficultés<c type="kk">/</c> il a été vrai gabier dans la hune et vrai matelot.<ptr target="#note-t-2"/> Cela me donne pour lui un terrible respect et dans sa personne encore une plus absolue confiance. il a<c type="kk">/</c> s’il faut le comparer à quelque chôse<c type="kk">/</c> des rapports avec ces pêcheurs d’Islande de Loti.<ptr target="#note-t-3"/> Je crois que cela te fera le meme effet qu’à moi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Maintenant nous avons naturellement déjà travaillé<c type="kk">/</c> il a une negresse en train et un grand paysage d’ici<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Ce qu’il racconte de la Bretagne est fort intéressant et Pont aven est un pays bien épatant. Certes tout y est mieux<c type="kk">/</c> plus large<c type="kk">/</c> plus beau qu’ici. D’un caractere plus solennel et surtout plus entier et plus defini que la petite nature rabougrie<c type="kk">/</c> brulée<c type="kk">/</c> de la Provence. C’est égal<c type="kk">/</c> lui comme moi aime pourtant ce qu’il voit et surtout est intrigué par les arlésiennes.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Cette semaine j’ai fait une nouvelle étude d’un semeur<c type="kk">/</c> le paysage tout plat<c type="kk">/</c> la figure petite et vague<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Ensuite j’ai fait une autre étude de champ labouré avec la souche d’un vieil if<c type="kp">_</c> Comme ceci.<ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.8" n="8">Et voilà tout. Comment vas tu et as tu fait quelque chôse à Bruxelles.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je suis toujours bien content de savoir que tu ne sois plus seul dans l’apartement.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je me sens encore le cerveau fatigué et sec mais je me porte mieux cette semaine que la quinzaine précedente<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Ce que Gauguin racconte des tropiques 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>me semble merveilleux<c type="kp">_</c> Certes là est l’avenir d’une grande renaissance de la peinture. Démandes un peu aux nouveaux amis Hollandais<ptr target="#note-t-8"/> s’ils y ont jamais songé combien il serait intéressant si quelques peintres Hollandais fonderaient une ecole coloriste à Java<c type="kp">_</c> S’ils entendaient Gauguin décrire les pays chauds certes cela leur donnerait envie tout droit de faire cela. Tout le monde n’est pas libre et dans des conditions à pouvoir emigrer<c type="kp">_</c> Mais comme il y aurait des chôses à faire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je regrette de ne pas avoir dix ou vingt ans de moins<c type="kk">/</c> certes j’irais.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Maintenant peu probable que je bouge du littoral et la petite maison jaune ici à Arles demeurera ce qu’elle est<c type="kk">/</c> une station intermediaire entre l’Afrique &amp; les tropiques et les gens du nord.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Il est maintenant assez probable que Bernard ira en Afrique où il sera avec Milliet qui te dit bien le bonjour et va partir le 1<hi rend="super">r</hi> Novembre.<ptr target="#note-t-9"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Le soir surtout<c type="kk">/</c> avec le gaz<c type="kk">/</c> j’aime bien l’aspect de l’atelier.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Si jamais tu trouves encore des Daumier n’oublie pas de mettre la main dessus<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Et je crois que le soir nous y amènerons des voisins et amis et que le soir nous travaillerons comme le jour tout en causant<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Des portraits de gens eclairés au gaz cela me parait toujours une chose à faire.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je te serre bien la main et ecris nous bientôt<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.21" n="21">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thank you for your money order for 50 francs, which I’ve just received.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I did know that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> had travelled, but I didn’t know he was a real seaman; he’s been through all the difficulties, he was a real topman on the topmast and a real sailor.<ptr target="#note-t-2"/> That gives me a tremendous respect for him, and an even more absolute confidence in his personality. He has — if he’s to be compared with something — links with those Icelandic fishermen of <rs type="person" ref="bio.xml#_704">Loti</rs>’s.<ptr target="#note-t-3"/> I believe that it’ll make the same impression on you as on me.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Now we’ve done some work already, of course; he has a negress on the go, and a big landscape of this region.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">What he tells me about Brittany is very interesting, and Pont-Aven is a quite amazing part of the world. Of course, everything there is better, bigger, more beautiful than here. Of a more solemn character, and above all more of a whole and more defined than the small, stunted, scorched countryside of Provence. Be that as it may, he, like me, nevertheless likes what he sees, and is particularly intrigued by the Arlésiennes. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">This week I did a new study of a sower; the landscape utterly flat, the figure small and blurred.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">Then I did another study of ploughed field with the stump of an old yew. Like this.<ptr target="#note-t-6"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8"><figure facs="zone-sketch-1" n="A"/></p>
+<p xml:id="p.en.9" n="9"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">And that’s all. How are you, and did you do anything in Brussels?<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I’m still very glad to know that you’re no longer alone in the apartment.</p>
+<p rend="indent" xml:id="p.en.12" n="12">My brain feels tired and dry again, but I’m better this week than the previous fortnight.</p>
+<p rend="indent" xml:id="p.en.13" n="13">What <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has to say about the tropics 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> seems wonderful to me. There, certainly, is the future of a great renaissance of painting. Just ask your new Dutch <rs type="person" ref="bio.xml#_1075 bio.xml#_1103">friends</rs><ptr target="#note-t-8"/> if they’ve ever thought how interesting it would be if a few Dutch painters were to found a colourist school in Java. If they heard Gauguin describe the hot countries they’d certainly feel like doing that straightaway. Not everyone is free and in a position to be able to emigrate. But what things there would be to do!</p>
+<p rend="indent" xml:id="p.en.14" n="14">I regret not being ten or twenty years younger; I’d certainly go.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Now not very likely that I’ll move from the coast, and the little yellow house here in Arles will remain what it is, a halfway house between Africa and the tropics and the people of the north.</p>
+<p rend="indent" xml:id="p.en.16" n="16">It’s now quite likely that <rs type="person" ref="bio.xml#_831">Bernard</rs> will go to Africa, where he’ll be with <rs type="person" ref="bio.xml#_515">Milliet</rs>, who greets you warmly and will leave on the 1st November.<ptr target="#note-t-9"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">In the evening especially, with the gaslight, I like the look of the studio very much.</p>
+<p rend="indent" xml:id="p.en.18" n="18">If you ever find any more <rs type="person" ref="bio.xml#_977">Daumier</rs>s, don’t forget to get your hands on them.</p>
+<p rend="indent" xml:id="p.en.19" n="19">And I believe that in the evening we’ll bring neighbours and friends here, and that in the evening we’ll work as in the daytime, chatting as we do so.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Portraits of people lit by gaslight — that always seems to me a thing to do.</p>
+<p rend="indent" xml:id="p.en.21" n="21">I shake your hand firmly, and write to us soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Ever yours,</p>
+<p xml:id="p.en.23" n="23">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript </p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent writes that he has just received a money order for 50 francs (<ref target="#l-1*">ll. 1*-2</ref>); Theo had said on 27 October that he would send it. It was not until <ref target="let715.xml">letter 715</ref> that Vincent replied to Theo’s letter of 27 October (<ref target="let713.xml">letter 713</ref>), which he had consequently not received when he wrote the present letter. It is not possible to say for certain whether the money order arrived the same day – the 27th. We have therefore dated the present letter Saturday, 27 or Sunday, 28 October 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was accompanied by a letter to Theo from Gauguin (GAC 7), who wrote: ‘Your brother has just received your telegraphed money order, but as he has lots of things to write to you about, he will follow on from my letter’. (Votre frère vient de recevoir votre mandat télégraphique mais comme il a beaucoup de choses à vous écrire il fera suite à ma lettre). See Merlhès, <hi rend="italics">Correspondance Gauguin </hi>1984, p. 266.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">De Haan’s stay with Theo <ref target="let711.xml">(711)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bernard’s military service <ref target="let575.xml">(575)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Theo said on 27 October that he would send this; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let713.xml">see letter 713</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let616.xml#n-2">See letter 616, n. 2,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s seamanship.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Pierre Loti</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_502">Pêcheur d’Islande</ref></hi> (1886) is a novel about the hard, dangerous life of Breton fishermen, who fished in Icelandic waters. The story centres on the love between the fisherman Yann and the middle-class girl Gaud. At first Yann rejects her, but she remains faithful to him in her thoughts. When it is discovered on her father’s death that he had frittered away his fortune, the gulf between them narrows and they find each other again. They marry six days before Yann goes back to sea for months. It is to be his last voyage, from which he would not return.</p>
+
+<p rend="indent">Since Theo sent <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_761">Caroline van Stockum-Haanebeek</rs> a copy of this book with such ‘masterly descriptions of nature’ on 10 July 1887 (FR b727), there is a good chance that Vincent also read it at this time.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This painting of a negress is not known. Technical research has demonstrated that the ‘big landscape of this region’ was<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Farmhouse in Arles</hi>, 1888 (W315/W308) (Indianapolis Museum of Art. Gift in memory of William Ray Adams). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2237">Ill. 2237</rs>. See exhib. cat. Chicago 2001, pp. 165-166.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sower </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_200">F - / JH 1619</rs>) is after the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sower </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2739">F 494 / JH 1617</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ploughed field with a tree-trunk (‘The furrows’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_201">F - / JH 1619</rs>) is after the painting of the same title <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2740">F 573 / JH 1618</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let711.xml#n-2">See letter 711, n. 2,</ref> for Theo’s trip to Brussels.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_515">Milliet</rs> was due to go to Guelma in Algeria.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

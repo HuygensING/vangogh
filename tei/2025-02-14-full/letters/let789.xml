@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Sunday, 14 or Monday, 15 July 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let789"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b648 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>789</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>600</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>792</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-07-14">Sunday, 14 or Monday, 15 July 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 0648" xml:id="surf-pb-1r">
+<graphic url="VGM001000884_01_n"/>
+<zone xml:id="zone-pb-1r-1" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001000884_01_n"/></zone></surface>
+<surface n="b 0648" xml:id="surf-pb-1v">
+<graphic url="VGM001000884_02_n"/>
+<zone xml:id="zone-pb-1v-2" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001000884_02_n"/></zone>
+<zone xml:id="zone-pb-1v-3" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001000884_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">Mon cher Theo,</p><lb n="1*" xml:id="l-1s"/>
+
+<p xml:id="p.orig.2" n="2">demain je t’enverrai <lb n="2" xml:id="l-2"/>petite vitesse un rouleau de toiles<c type="kp">.</c> <lb n="3" xml:id="l-3"/>Il y en a quatre c. à d. les suivantes</p>
+<space unit="lines" quantity="1"/><lb n="4" xml:id="l-4"/>
+      
+<p xml:id="p.orig.3" n="3">1 Vue d’Arles<c type="kk">,</c> vergers en fleur<ptr target="#note-t-1"/></p><lb n="5" xml:id="l-5"/>
+      
+<p xml:id="p.orig.4" n="4">2 Le lierre<ptr target="#note-t-2"/></p><lb n="6" xml:id="l-6"/>
+      
+<p xml:id="p.orig.5" n="5">3 Les lilas<ptr target="#note-t-3"/></p><lb n="7" xml:id="l-7"/>
+      
+<p xml:id="p.orig.6" n="6">4 Maronniers roses au jardin des plantes à Arles<ptr target="#note-t-4"/></p>
+<space unit="lines" quantity="1"/><lb n="8" xml:id="l-8"/>
+
+<p xml:id="p.orig.7" n="7">qui se tiendront avec les autres que tu <lb n="9" xml:id="l-9"/>as déjà tels que la vigne rouge &amp; verte<c type="kk">,</c><ptr target="#note-t-5"/> <lb n="10" xml:id="l-10"/>le jardin<c type="kk">,</c><ptr target="#note-t-6"/> la moisson<c type="kk">,</c><ptr target="#note-t-7"/> le ciel étoilé<c type="kp">.</c><ptr target="#note-t-8"/></p><lb n="11" xml:id="l-11"/>
+
+<p rend="indent" xml:id="p.orig.8" n="8">J’y joins encore 7 études qui sont sèches <lb n="12" xml:id="l-12"/>mais qui sont plutôt des études d’après <lb n="13" xml:id="l-13"/>nature que des motifs de tableaux.</p><lb n="14" xml:id="l-14"/>
+
+<p rend="indent" xml:id="p.orig.9" n="9">Et ainsi est-il toujours<c type="kk">,</c> il faut en faire <lb n="15" xml:id="l-15"/>plusieurs avant qu’on trouve un ensemble <lb n="16" xml:id="l-16"/>ayant de la tenue. Maintenant <lb n="17" xml:id="l-17"/>voici les sujets de ces 7 études.</p><lb n="18" xml:id="l-18"/>
+
+<p rend="indent" xml:id="p.orig.10" n="10">Les iris<ptr target="#note-t-9"/> – Vue de la maison de Santé à S<hi rend="super">t</hi> Remy<c type="kk">,</c><ptr target="#note-t-10"/> <lb n="19" xml:id="l-19"/>toiles de 30. Pêchers en fleur (Arles)<c type="kk">,</c><ptr target="#note-t-11"/> <lb n="20" xml:id="l-20"/>Prairies (Arles)<c type="kk">,</c><ptr target="#note-t-12"/> Oliviers (S<hi rend="super">t</hi> Remy)<c type="kk">,</c><ptr target="#note-t-13"/> <lb n="21" xml:id="l-21"/>Vieux Saules (Arles)<c type="kk">,</c><ptr target="#note-t-14"/> Verger en fleur<c type="kp">.</c><ptr target="#note-t-15"/></p><lb n="22" xml:id="l-22"/>
+
+<p rend="indent" xml:id="p.orig.11" n="11">Maintenant le prochain envoi qui suivra <lb n="23" xml:id="l-23"/>sous peu sera composé surtout de champs de <lb n="24" xml:id="l-24"/>blé et de vergers d’oliviers<c type="kp">.</c></p><lb n="25" xml:id="l-25"/>
+
+<p rend="indent" xml:id="p.orig.12" n="12">Ainsi que tu vois j’ai été prendre à Arles ces <lb n="26" xml:id="l-26"/>toiles. le surveillant d’ici<ptr target="#note-t-16"/> m’a accompagné<c type="kp">.</c> <lb n="27" xml:id="l-27"/>Nous avons eté chez M. Salles qui était parti <lb n="28" xml:id="l-28"/>en vaccances pour deux mois<c type="kk">,</c> puis à l’hospice <lb n="29" xml:id="l-29"/>pour voir M. Rey que je n’ai pas trouvé non <lb n="30" xml:id="l-30"/>plus. Alors nous avons passé la journée <lb n="31" xml:id="l-31"/>avec mes ci devant voisins<ptr target="#note-t-17"/> ainsi que <lb n="32" xml:id="l-32"/>ma femme de menage de dans le temps<ptr target="#note-t-18"/> et quelques <lb n="33" xml:id="l-33"/>autres<c type="kp">.</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/><lb n="34" xml:id="l-34"/>
+
+<p rend="indent" xml:id="p.orig.13" n="13">On s’attache beaucoup aux gens qu’on a vus <lb n="35" xml:id="l-35"/>étant malade et cela m’a fait un monde <lb n="36" xml:id="l-36"/>de bien de revoir de certaines personnes <lb n="37" xml:id="l-37"/>qui ont été bons &amp; indulgents pour moi <lb n="38" xml:id="l-38"/>alors. Quelqu’un m’a dit que M<c type="kp">.</c> Rey avait <lb n="39" xml:id="l-39"/>passé un examen et avait été à Paris<ptr target="#note-t-19"/> mais <lb n="40" xml:id="l-40"/>le concierge de l’hospice disait ne pas le <lb n="41" xml:id="l-41"/>savoir. Je suis curieux de savoir <lb n="42" xml:id="l-42"/>si tu l’aurais vu car il avait projeté <lb n="43" xml:id="l-43"/>aller voir l’exposition et te rendre <lb n="44" xml:id="l-44"/>visite alors. Le médecin d’ici<ptr target="#note-t-20"/> n’ira peutêtre <lb n="45" xml:id="l-45"/>pas à Paris<c type="kk">,</c> il souffre beaucoup de <lb n="46" xml:id="l-46"/>sa goutte.</p><lb n="47" xml:id="l-47"/>
+
+<p rend="indent" xml:id="p.orig.14" n="14">J’ai encore reçu le second envoi de toiles &amp; <lb n="48" xml:id="l-48"/>de couleurs et je t’en remercie beaucoup<c type="kp">.</c><ptr target="#note-t-21"/> <lb n="49" xml:id="l-49"/>La dernière toile que j’ai faite est une <lb n="50" xml:id="l-50"/>vue de montagnes avec en bas une <lb n="51" xml:id="l-51"/>cabane noiratre dans des oliviers.<ptr target="#note-t-22"/></p><lb n="52" xml:id="l-52"/>
+
+<p rend="indent" xml:id="p.orig.15" n="15">Je m’imagine que tu seras bien <lb n="53" xml:id="l-53"/>absorbé par la pensée à l’enfant à venir<c type="kk">,</c> <lb n="54" xml:id="l-54"/>je suis bien content que le cas soit tel<c type="kk">,</c> <lb n="55" xml:id="l-55"/>avec le temps j’ose croire que tu <lb n="56" xml:id="l-56"/>trouveras ainsi beaucoup de sérénité <lb n="57" xml:id="l-57"/>intérieure<c type="kp">.</c> Qu’à Paris on prend comme <lb n="58" xml:id="l-58"/>une seconde nature<c type="kk">,</c> qu’en outre les preoccupations <lb n="59" xml:id="l-59"/>d’affaires et d’art font qu’on soit moins fort <lb n="60" xml:id="l-60"/>que des paysans<c type="kk">,</c> n’empêche pas que <lb n="61" xml:id="l-61"/>par les liens d’avoir femme et enfant <lb n="62" xml:id="l-62"/>on se rattache quand même à cette 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/><lb n="63" xml:id="l-63"/>nature plus simple et plus vraie <lb n="64" xml:id="l-64"/>dont l’ideal nous hante parfois.</p><lb n="65" xml:id="l-65"/>
+
+<p rend="indent" xml:id="p.orig.16" n="16">Quelle histoire cette vente Sécretan<c type="kp">.</c></p><lb n="66" xml:id="l-66"/>
+
+<p rend="indent" xml:id="p.orig.17" n="17">Cela me fait toujours plaisir que les Millet <lb n="67" xml:id="l-67"/>se tiennent.<ptr target="#note-t-23"/> mais combien désirerais je <lb n="68" xml:id="l-68"/>voir davantage de bonnes reproductions <lb n="69" xml:id="l-69"/>de Millet. pour que cela aille au peuple<c type="kp">.</c> <lb n="70" xml:id="l-70"/>L’oeuvre est surtout sublime considérée <lb n="71" xml:id="l-71"/>dans son ensemble et de plus en plus <lb n="72" xml:id="l-72"/>cela deviendra difficile de s’en faire une idée <lb n="73" xml:id="l-73"/>alors que les tableaux se dispersent.</p><lb n="74" xml:id="l-74"/>
+
+<p rend="indent" xml:id="p.orig.18" n="18">Je regrette de ne pas pouvoir ajouter <lb n="75" xml:id="l-75"/>le champ de blé avec le faucheur<ptr target="#note-t-24"/> à cet <lb n="76" xml:id="l-76"/>envoi<c type="kp">.</c></p><lb n="77" xml:id="l-77"/>
+
+<p rend="indent" xml:id="p.orig.19" n="19">Ecris moi bientôt un mot<c type="kp">.</c></p><lb n="78" xml:id="l-78"/>
+
+<p rend="indent" xml:id="p.orig.20" n="20">Poignée de main à toi et à Jo.</p>
+<space unit="lines" quantity="1"/><lb n="79" xml:id="l-79"/>
+
+<p xml:id="p.orig.21" n="21">t. à t<c type="kp">.</c></p><lb n="80" xml:id="l-80"/>
+
+<p xml:id="p.orig.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1">My dear Theo,</p>
+<p xml:id="p.trans.2" n="2">Tomorrow I’ll send you a roll of canvases by goods train. There are four of them, i.e. the following</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.3" n="3">1 View of Arles, orchards in blossom<ptr target="#note-t-1"/></p>
+<p xml:id="p.trans.4" n="4">2 The ivy<ptr target="#note-t-2"/></p>
+<p xml:id="p.trans.5" n="5">3 The lilacs<ptr target="#note-t-3"/></p>
+<p xml:id="p.trans.6" n="6">4 Pink chestnut trees in the botanical gardens in Arles<ptr target="#note-t-4"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.7" n="7">which will hold their own with the ones you already have, such as the red and green Vineyard,<ptr target="#note-t-5"/> The garden,<ptr target="#note-t-6"/> The harvest,<ptr target="#note-t-7"/> The starry sky.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.trans.8" n="8">I’m also enclosing another 7 studies which are dry but which are studies after nature rather than subjects for paintings.</p>
+<p rend="indent" xml:id="p.trans.9" n="9">And that’s how it always is, you have to do several of them before you find a whole with character. Now here are the subjects of these 7 studies.</p>
+<p rend="indent" xml:id="p.trans.10" n="10">The irises<ptr target="#note-t-9"/> – View of the asylum at St-Rémy,<ptr target="#note-t-10"/> no. 30 canvases. Peach trees in blossom (Arles),<ptr target="#note-t-11"/> Meadows (Arles),<ptr target="#note-t-12"/> Olive trees (St-Rémy),<ptr target="#note-t-13"/> Old willows (Arles),<ptr target="#note-t-14"/> Orchard in blossom.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.trans.11" n="11">Now the next consignment, which will follow shortly, will consist mainly of wheatfields and olive groves.</p>
+<p rend="indent" xml:id="p.trans.12" n="12">As you can see, I’ve been to Arles to fetch these canvases. The orderly from here<ptr target="#note-t-16"/> accompanied me. We went to <rs type="person" ref="bio.xml#_663">Mr Salles</rs>’s house, who had gone away on holiday for two months, then to the hospital to see <rs type="person" ref="bio.xml#_637">Mr Rey</rs>, whom I didn’t find either. So we spent the day with my former neighbours,<ptr target="#note-t-17"/> as well as my charwoman from those days<ptr target="#note-t-18"/> and a few others.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.trans.13" n="13">One becomes very attached to people one has seen while ill, and it did me a world of good to see some people again who were kind and indulgent towards me then. Someone told me that <rs type="person" ref="bio.xml#_637">Mr Rey</rs> had taken an examination and had been to Paris,<ptr target="#note-t-19"/> but the porter at the hospital said he didn’t know. I’m curious to know if you might have seen him, for he had planned to go and see the exhibition and then pay you a visit. The <rs type="person" ref="bio.xml#_568">doctor</rs> from here<ptr target="#note-t-20"/> will perhaps not go to Paris, he suffers a great deal from his gout.</p>
+<p rend="indent" xml:id="p.trans.14" n="14">I’ve also received the second consignment of canvases and colours, and I thank you very much for them.<ptr target="#note-t-21"/> The latest canvas I’ve done is a view of mountains with a darkish hut among olive trees at the bottom.<ptr target="#note-t-22"/></p>
+<p rend="indent" xml:id="p.trans.15" n="15">I imagine that you’ll be very absorbed by thoughts of the child to come, I’m very pleased that this should be so, with time I dare believe that you’ll thus find much inner serenity. The fact that one takes on a kind of second nature in Paris, that moreover preoccupations with business and art make one less strong than the peasants, doesn’t prevent one, through the bonds of having wife and child, from reattaching oneself all the same to that 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> simpler and truer nature whose ideal sometimes haunts us.</p>
+<p rend="indent" xml:id="p.trans.16" n="16">What a business, that <rs type="person" ref="bio.xml#_697">Secrétan</rs> sale.</p>
+<p rend="indent" xml:id="p.trans.17" n="17">It always pleases me that the <rs type="person" ref="bio.xml#_1226">Millet</rs>s are holding their own.<ptr target="#note-t-23"/> But how I would like to see more good reproductions of Millet. So that it can reach the common folk. The body of work is above all sublime considered as a whole, and it will become more and more difficult to form an idea of it when the paintings are dispersed.</p>
+<p rend="indent" xml:id="p.trans.18" n="18">I’m sorry not to be able to add the Wheatfield with the reaper<ptr target="#note-t-24"/> to this consignment.</p>
+<p rend="indent" xml:id="p.trans.19" n="19">Write me a line soon.</p>
+<p rend="indent" xml:id="p.trans.20" n="20">Handshake to you and <rs type="person" ref="bio.xml#_416">Jo</rs>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.21" n="21">Ever yours,</p>
+<p xml:id="p.trans.22" n="22">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>The present letter and <ref target="let790.xml">letter 790</ref>, which were sent together, must have been written in this order on the same day. In the first line of <ref target="let790.xml">letter 790</ref>, Van Gogh says that he is ‘writing ... again today’, and refers later on to a painting that is in the consignment announced in the present letter. Cf. also Dorn 1990, pp. 529-530.</p>
+<p rend="indent">The dating of the two letters is determinable owing to the fact that Van Gogh writes in <ref target="let790.xml">letter 790</ref> that he is working on <hi rend="italics">Wheatfield with sheaves and rising moon </hi>(<rs type="artwork" ref="artwork.xml#ill_2820">F 735 / JH 1761</rs>). He must have painted the moonrise on the evening of 13 July (see Olson <hi rend="italics">et al.</hi> 2003). Because Theo already responded to the letters on 16 July (<ref target="let792.xml">see letter 792</ref>), they must date from Sunday, 14 or Monday, 15 July 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p>This letter and <ref target="let790.xml">letter 790</ref> were sent at the same time, together with a letter to Gauguin which has not survived; cf. also <ref target="let790.xml#n-1">letter 790, n. 1.</ref></p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p>Jo’s pregnancy <ref target="let786.xml">(786)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi rend="italics">Orchard in blossom with a view of Arles</hi> (<rs type="artwork" ref="artwork.xml#ill_2781">F 516 / JH 1685</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi rend="italics">Trees with ivy in the garden of the asylum</hi> (<rs type="artwork" ref="artwork.xml#ill_2789">F 609 / JH 1693</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi rend="italics">Lilacs</hi> (<rs type="artwork" ref="artwork.xml#ill_2788">F 579 / JH 1692</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi rend="italics">Avenue of chestnut trees in blossom</hi> (<rs type="artwork" ref="artwork.xml#ill_2785">F 517 / JH 1689</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi rend="italics">The green vineyard </hi>(<rs type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>) and <hi rend="italics">The red vineyard </hi>(<rs type="artwork" ref="artwork.xml#ill_2745">F 495 / JH 1626</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Probably <hi rend="italics">The public garden (‘The poet’s garden’) </hi>(<rs type="artwork" ref="artwork.xml#ill_2713">F 468 / JH 1578</rs>), which Van Gogh viewed as a pendant to <hi rend="italics">Avenue of chestnut trees in blossom</hi> (<rs type="artwork" ref="artwork.xml#ill_2785">F 517 / JH 1689</rs>). <ref target="let767.xml#n-7">See letter 767, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      <hi rend="italics">The harvest </hi>(<rs type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi rend="italics">Starry night over the Rhône </hi>(<rs type="artwork" ref="artwork.xml#ill_2723">F 474 / JH 1592</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi rend="italics">Irises </hi>(<rs type="artwork" ref="artwork.xml#ill_2787">F 608 / JH 1691</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+      <hi rend="italics">The garden of the asylum </hi>(<rs type="artwork" ref="artwork.xml#ill_2791">F 734 / JH 1698</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi rend="italics">La Crau with peach trees in blossom </hi>(<rs type="artwork" ref="artwork.xml#ill_2779">F 514 / JH 1681</rs>). Its size – 65.5 x 81.5 cm – means that it is a no. 25 canvas.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+      <hi rend="italics">Field with flowers under a stormy sky</hi> (<rs type="artwork" ref="artwork.xml#ill_2606">F 575 / JH 1422</rs>). It measures 59.5 x 70 cm (slightly smaller than a no. 20 canvas).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This was presumably <hi rend="italics">Olive trees </hi>(<rs type="artwork" ref="artwork.xml#ill_3067">F 714 / JH 1858</rs>), measuring 51.1 x 65.4 cm (no. 15 canvas). Specifying that the first two works are ‘no. 30 canvases’ implies that the others are smaller, so he cannot be referring to the three olive groves on no. 30 canvases (<rs type="artwork" ref="artwork.xml#ill_2818">F 585</rs>, <rs type="artwork" ref="artwork.xml#ill_2803">F 712</rs> and <rs type="artwork" ref="artwork.xml#ill_2819">F 715</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+      <hi rend="italics">Road with pollard willows </hi>(<rs type="artwork" ref="artwork.xml#ill_2786">F 520 / JH 1690</rs>), measuring 55 x 65 cm (no. 15 canvas).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+      <hi rend="italics">Orchard in blossom with a view of Arles </hi>(<rs type="artwork" ref="artwork.xml#ill_2780">F 515 / JH 1683</rs>), measuring 50.5 x 65 cm (no. 15 canvas).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>This was possibly <rs type="person" ref="bio.xml#_791">Charles-Elzéard Trabuc</rs>, the chief orderly who posed for Van Gogh two months later (<ref target="let800.xml">letter 800</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Regarding Van Gogh’s neighbours at Arles, <ref target="let744.xml#n-6">see letter 744, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p><rs type="person" ref="bio.xml#_1926">Thérèse Balmoissière</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>A letter from <rs type="person" ref="bio.xml#_637">Rey</rs> to Theo of 30 December 1888 reveals that he had to defend his doctoral thesis in Paris. <ref target="let736.xml#n-15">See letter 736, n. 15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs type="person" ref="bio.xml#_568">Théophile Peyron</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>This is the order placed in <ref target="let783.xml">letter 783</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>
+      <hi rend="italics">The Alpilles with a hut </hi>(<rs type="artwork" ref="artwork.xml#ill_2823">F 622 / JH 1766</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Various <rs type="person" ref="bio.xml#_1226">Millet</rs>s were sold at the <rs type="person" ref="bio.xml#_697">Secrétan</rs> auction: the paintings <hi rend="italics"><rs type="artwork" ref="artwork.xml#ill_1697">The angelus</rs></hi> (no. 63) and <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_852">Returning from the fountain</rs></hi> (no. 64), and the pastels <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_853">Peasant watering two cows</rs></hi> (no. 100) and <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_854">The shepherdess</rs></hi> (no. 101). They sold for 553,000 francs (to the State), 20,600, 26,000 and 25,200, respectively (see ‘Resumé du catalogue’). See auct. cat. Paris 1889 (Lugt 1938-1987, no. 48407). Cf. also <ref target="let785.xml#n-8">letter 785, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>
+      <hi rend="italics">Reaper </hi>(<rs type="artwork" ref="artwork.xml#ill_2813">F 617 / JH 1753</rs>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Paul Signac to Vincent van Gogh. Cassis, Monday, 8 April 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let755"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1324 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>755</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>583a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>759</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Paul Signac</rs>
+                            <date when="1889-04-08">Monday, 8 April 1889</date>
+                            <placeName>Cassis</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1324" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001318_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001318_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1324 V/1962" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001318_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001318_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher ami</p>
+
+<p xml:id="p.fr.2" n="2">Après avoir erré sur la côte, je me suis fixé à Cassis.<ptr target="#note-t-1"/> Je vous envoie mon adresse afin que vous me puissiez donner de vos bonnes nouvelles<c type="kp">_</c>– J’ai écrit à votre frère, il ne m’a point encore répondu<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je vous serre bien cordialement la main<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.4" n="4">Votre P. Signac</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">2 Place de la Republique – Cassis<c type="kp">_</c></p>
+    <space unit="lines" quantity="1"/><pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear friend,</p>
+<p xml:id="p.en.2" n="2">After wandering along the coast, I’ve settled in Cassis.<ptr target="#note-t-1"/> I’m sending you my address so that you can give me good news about yourself. I’ve written to your brother, he hasn’t replied to me yet.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I shake your hand most cordially.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.4" n="4">Your <rs type="person" ref="bio.xml#_1350">P. Signac</rs></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">2 place de la République – Cassis.</p><pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Postmarked Cassis: ‘8 avril 89’.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Ten-centime postcard. Postmarked on the side of the address: ‘CASSIS BOUCHES-DU-RHONE 2E | 8 AVRIL 89’, and on the side of the text: ‘ARLES BOUCHES DU RHONE 1E | 10 AVRIL 89’. The address reads: ‘<hi rend="italics">[M]</hi>onsieur Vincent Van Gogh/ à l’Hotel Dieu/ Arles’.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>On his way from Paris to the South, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs> had visited Van Gogh on 23 and 24 March (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml">see letter 752</ref>). Cassis is south-east of Marseille, on the Mediterranean Sea.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs>’s letter to Theo, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml#n-1">see letter 752, n. 1.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

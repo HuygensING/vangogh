@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>Theo van Gogh to Vincent van Gogh. Paris, Monday, 23 June 1890. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let890"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b765 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>890</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T38</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>895</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1890-06-23">Monday, 23 June 1890</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 0765" xml:id="surf-pb-1r">
+<graphic url="VGM001001033_01_n"/>
+<zone xml:id="zone-pb-1r-1" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001033_01_n"/></zone>
+<zone xml:id="zone-pb-1r-4" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001001033_01_n"/></zone></surface>
+<surface n="b 0765" xml:id="surf-pb-1v">
+<graphic url="VGM001001033_02_n"/>
+<zone xml:id="zone-pb-1v-2" ulx="0" uly="0" lrx="50" lry="100">
+<graphic url="VGM001001033_02_n"/></zone>
+<zone xml:id="zone-pb-1v-3" ulx="50" uly="0" lrx="100" lry="100">
+<graphic url="VGM001001033_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.1" n="1">le 23 Juin 1890</p>
+<space unit="lines" quantity="1"/><lb n="2" xml:id="l-2"/>
+
+<p xml:id="p.orig.2" n="2">Mon Cher Vincent,</p><lb n="3" xml:id="l-3"/>
+
+<p xml:id="p.orig.3" n="3">J’ai à t’écrire quelque <lb n="4" xml:id="l-4"/>chose qui je pense te fera plaisir. <lb n="5" xml:id="l-5"/>Hier j’ai été d’abord au Salon avec <lb n="6" xml:id="l-6"/>Bock<ptr target="#note-t-a"/> qui est venu ensuite déjeuner <lb n="7" xml:id="l-7"/>après quoi nous avons vu tes tableaux. <lb n="8" xml:id="l-8"/>Il les aime beaucoup et il m’a l’air <lb n="9" xml:id="l-9"/>de les comprendre. Comme tu avais <lb n="10" xml:id="l-10"/>dit que tu ferais volontiers un échange <lb n="11" xml:id="l-11"/>avec lui, quand j’ai vu qu’il préférait <lb n="12" xml:id="l-12"/>la toile que tu as faite après la lecture <lb n="13" xml:id="l-13"/>du livre de Rod,<ptr target="#note-t-1"/> je lui ai dit qu’il pouvait 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/><lb n="14" xml:id="l-14"/>prendre celle là en échange d’un tableau <lb n="15" xml:id="l-15"/>de lui. Il semblait ravi &amp; mettait <lb n="16" xml:id="l-16"/>à ta disposition tout ce qu’il avait<c type="kp">.</c> <lb n="17" xml:id="l-17"/>Je suis allé avec lui voir ce qu’il <lb n="18" xml:id="l-18"/>avait avec lui &amp; il y avait là-dedans <lb n="19" xml:id="l-19"/>une toile de 20 environ faite à Frameries <lb n="20" xml:id="l-20"/>dans le Borinage, représentant l’usine <lb n="21" xml:id="l-21"/>de Crachet &amp; Pecry, que peutêtre tu te <lb n="22" xml:id="l-22"/>rappeleras<c type="kk">,</c> toute la fabrique est dans la <lb n="23" xml:id="l-23"/>fumée &amp; la vapeur &amp; se détache en sombre <lb n="24" xml:id="l-24"/>avec des reflets de soleils très vifs sur un <lb n="25" xml:id="l-25"/>côté contre les blés verts. Le ciel est très <lb n="26" xml:id="l-26"/>lumineux.<ptr target="#note-t-2"/> Je trouve que surtout le motif <lb n="27" xml:id="l-27"/>&amp; l’intention de ce qu’il a voulu faire <lb n="28" xml:id="l-28"/>sont remarquables. Ce n’est pas très <lb n="29" xml:id="l-29"/>habile ni puissant, mais très sincère, comme <lb n="30" xml:id="l-30"/>le garçon lui-même. Si cette toile ne te plait <lb n="31" xml:id="l-31"/>pas il la changera volontiers contre une <lb n="32" xml:id="l-32"/>autre, mais cela m’étonnerait si tu ne <lb n="33" xml:id="l-33"/>l’aimais pas du tout. Le Salon est désolant<c type="kk">,</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/><lb n="34" xml:id="l-34"/>il n’y a presque rien qui ne soit pas <lb n="35" xml:id="l-35"/>profondément ennuyeux. Tu avais <lb n="36" xml:id="l-36"/>cependant bien jugé pour le Quost. <lb n="37" xml:id="l-37"/>Si j’avais à choisir c’est celui là que <lb n="38" xml:id="l-38"/>je prendrais. Ce sont des fleurs de paques.<ptr target="#note-t-3"/> <lb n="39" xml:id="l-39"/>C’est très doux &amp; harmonieux &amp; tout de <lb n="40" xml:id="l-40"/>même il y a de la couleur. Les Jeannin <lb n="41" xml:id="l-41"/>sont bien aussi, mais ce sont des pétards<c type="kp">.</c><ptr target="#note-t-4"/></p><lb n="42" xml:id="l-42"/>
+
+<p rend="indent" xml:id="p.orig.4" n="4">L’autre jour j’ai vu Quost &amp; je lui ai <lb n="43" xml:id="l-43"/>parlé de toi. Je lui disais que tu aimais <lb n="44" xml:id="l-44"/>beaucoup son talent, ce qui lui faisait bien <lb n="45" xml:id="l-45"/>plaisir disait il. Si tu viens à Paris <lb n="46" xml:id="l-46"/>tu ne dois pas manquer d’aller le <lb n="47" xml:id="l-47"/>voir, il sera très content quand tu <lb n="48" xml:id="l-48"/>viendras le voir, soit au jardin soit <lb n="49" xml:id="l-49"/>chez lui.<ptr target="#note-t-5"/> Et maintenant il faut que <lb n="50" xml:id="l-50"/>je te dise quelque chose sur ton eau <lb n="51" xml:id="l-51"/>forte.<ptr target="#note-t-6"/> C’est une vraie eau forte de peintre<c type="kp">.</c> <lb n="52" xml:id="l-52"/>Pas de raffinement de procédé, mais <lb n="53" xml:id="l-53"/>un dessin fait sur métal. J’aime beaucoup 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/><lb n="54" xml:id="l-54"/>ce dessin. Bock aussi l’aimait. C’est <lb n="55" xml:id="l-55"/>amusant que D<hi rend="super">r </hi>Gachait ait cette <lb n="56" xml:id="l-56"/>presse, les peintres aquafortistes se <lb n="57" xml:id="l-57"/>plaignent toujours qu’ils sont forcés <lb n="58" xml:id="l-58"/>d’aller chez l’imprimeur pour les essais<c type="kp">.</c></p><lb n="59" xml:id="l-59"/>
+
+<p rend="indent" xml:id="p.orig.5" n="5">Je trouve qu’Auvers a beaucoup de <lb n="60" xml:id="l-60"/>bien &amp; je voudrais bien que tu sois de <lb n="61" xml:id="l-61"/>cet avis. Nous nous réjouissons déjà dans <lb n="62" xml:id="l-62"/>l’idée de venir bientôt chez toi<c type="kp">.</c></p><lb n="63" xml:id="l-63"/>
+
+<p rend="indent" xml:id="p.orig.6" n="6">Pour différents raison, 1° pour te voir<c type="kk">,</c> 2<hi rend="super">e</hi> <lb n="64" xml:id="l-64"/>pour voir ton travail<c type="kk">,</c> 3° pour la belle nature <lb n="65" xml:id="l-65"/>&amp; 4° parce que j’espère que voir de la <lb n="66" xml:id="l-66"/>campagne me donnera des forces pour <lb n="67" xml:id="l-67"/>beaucoup pouvoir travailler. L’exposition <lb n="68" xml:id="l-68"/>Raffaelli est terminée<c type="kk">,</c><ptr target="#note-t-7"/> maintenant les gens <lb n="69" xml:id="l-69"/>s’en vont tous à la campagne &amp; je ne <lb n="70" xml:id="l-70"/>perds pas beaucoup de ne pas être là.</p><lb n="71" xml:id="l-71"/>
+
+<p rend="indent" xml:id="p.orig.7" n="7">Sous ce pli je te mets f<hi rend="super">r </hi>50.– La semaine dernière <lb n="72" xml:id="l-72"/>Jo a dû rester couchée tout le temps mais <lb n="73" xml:id="l-73"/>heureusement c’est passé maintenant. Le petit <lb n="74" xml:id="l-74"/>va bien. Bien bonjour aussi de Jo &amp; du petit<c type="kp">.</c></p>
+<space unit="lines" quantity="1"/><lb n="75" xml:id="l-75"/>
+
+<p xml:id="p.orig.8" n="8">tout à toi</p><lb n="75*" xml:id="l-75s"/>
+
+<p xml:id="p.orig.9" n="9">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.trans.1" n="1">23 June 1890</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.2" n="2">My dear Vincent,</p>
+<p xml:id="p.trans.3" n="3">I have something to write to you which I think will give you pleasure. Yesterday I was first at the Salon with <rs type="person" ref="bio.xml#_869">Boch</rs>, who then came to lunch, after which we saw your paintings. He likes them very much, and it seems to me that he understands them. As you had said that you would willingly do an exchange with him, when I saw that he preferred the canvas you did after reading <rs type="person" ref="bio.xml#_732">Rod</rs>’s book,<ptr target="#note-t-1"/> I told him that he could 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> take that one in exchange for a painting of his. He seemed delighted, and put everything he had at your disposal. I went with him to see what he had with him, and among them was a canvas of around no. 20 done at Frameries in the Borinage, depicting the factory of Crachet &amp; Pecry, which perhaps you remember, the whole factory is in smoke and steam and stands out darkly with very bright reflections of the sun on one side against the green wheat. The sky is very luminous.<ptr target="#note-t-2"/> I think that above all the subject and the intention of what he wanted to do are remarkable. It’s neither very skilful nor powerful, but very sincere, like the fellow himself. If you don’t like this canvas he’ll willingly change it for another, but it would astonish me if you didn’t like it at all. The Salon is pitiful, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> there’s almost nothing there that isn’t profoundly boring. You, though, judged well as regards the <rs type="person" ref="bio.xml#_1282">Quost</rs>. If I had to choose one that’s the one I’d take. It is Easter flowers.<ptr target="#note-t-3"/> It’s very gentle and harmonious, and all the same there’s colour in it. The <rs type="person" ref="bio.xml#_1112">Jeannin</rs>s are good too, but they’re full of bluster.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.trans.4" n="4">I saw <rs type="person" ref="bio.xml#_1282">Quost</rs> the other day and I spoke to him about you. I was telling him that you liked his talent very much, which pleased him very much, he said. If you come to Paris you mustn’t fail to go and see him, he’ll be very pleased when you come to see him, either in the garden or at his place.<ptr target="#note-t-5"/> And now I must tell you something about your etching.<ptr target="#note-t-6"/> It’s a real painter’s etching. No refinement in the procedure, but a drawing done on metal. I like 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> this drawing very much. <rs type="person" ref="bio.xml#_869">Boch</rs> also liked it. It’s amusing that <rs type="person" ref="bio.xml#_389">Dr Gachet</rs> has this press, painters who make etchings are always complaining that they have to go to the printer for the proofs.</p>
+<p rend="indent" xml:id="p.trans.5" n="5">I think that Auvers has a lot of good, and I would very much like you to be of that opinion. We’re already looking forward with a great deal of pleasure to coming to see you soon.</p>
+<p rend="indent" xml:id="p.trans.6" n="6">For different reasons, first to see you, secondly to see your work, thirdly for the beautiful nature, and fourthly because I hope that seeing the countryside will give me strength for being able to work a great deal. The <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> exhibition is finished,<ptr target="#note-t-7"/> now the people are all going to the country and I’m not losing much by not being there.</p>
+<p rend="indent" xml:id="p.trans.7" n="7">I’m enclosing 50 francs for you with this letter. Last week <rs type="person" ref="bio.xml#_416">Jo</rs> had to stay in bed all the time, but fortunately it’s gone now. The <rs type="person" ref="bio.xml#_418">little one</rs> is well. Warm regards, also from Jo and the little one.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.8" n="8">Ever yours,</p>
+<p xml:id="p.trans.9" n="9">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>Letter headed: ‘le 23 Juin 1890’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Boch’.</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <hi rend="italics">The Alpilles with a hut</hi> (<rs type="artwork" ref="artwork.xml#ill_2823">F 622 / JH 1766</rs>), <ref target="let798.xml#n-8">see letter 798, n. 8.</ref> For <rs type="person" ref="bio.xml#_732">Rod</rs>’s <hi rend="italics"><ref target="biblio.xml#lit_318">Le sens de la vie</ref></hi>, <ref target="let783.xml#n-5">see letter 783, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs type="person" ref="bio.xml#_869">Eugène Boch</rs>, <hi rend="italics">The Agrappe mine in Frameries, Borinage (The Crachet-Pecry mine) </hi>(Amsterdam, Van Gogh Museum). <rs type="artwork" ref="artwork.xml#ill_595">Ill. 595</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For <rs type="person" ref="bio.xml#_1282">Ernest Quost</rs>, <hi rend="italics"><rs type="artwork" ref="artwork.xml#ill_324">Easter flowers</rs></hi>, which was exhibited at the Salon des Artistes français, <ref target="let866.xml#n-10">see letter 866, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs type="person" ref="bio.xml#_1112">Georges Jeannin</rs> was represented at the Salon by the paintings <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_925">The centenarian</rs></hi> and <hi rend="italics"><rs type="artwork" ref="artwork.xml#noill_926">Camellias and tulips</rs></hi>. See exhib. cat Paris 1890-1, p. 100, nos. 1275-1276.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs type="person" ref="bio.xml#_1282">Quost</rs> lived at 74 rue de Rochechouart in Montmartre. He had a garden where he grew flowers. Van Gogh must have known the place; he noted Quost’s address in the sketchbook from the beginning of his time in Paris (Cat. Amsterdam 2011, p. 236, n. 2).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi rend="italics">Doctor Gachet with a pipe</hi> (<rs type="artwork" ref="artwork.xml#ill_2921">F 1664 / JH 2028</rs>). The original copper plate is preserved in the Musée d’Orsay in Paris. See Van Heugten and Pabst 1995, pp. 79-86, 99-106.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For the exhibition of <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>’s work, which had lasted until 21 June 1890, <ref target="let876.xml#n-1">see letter 876, n. 1.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

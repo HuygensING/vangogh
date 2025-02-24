@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Hendrik Jan Furnée. Nuenen, Wednesday, 5 August 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let523"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b458 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>523</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>419a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>524</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-08-05">Wednesday, 5 August 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Hendrik Jan Furnée</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000612_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000612_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000612_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000612_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000612_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000612_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000613_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000613_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000613_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000613_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458c V/1962" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000614_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000614_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0458c V/1962" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000614_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000614_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Mijnheer Furnee,</p>
+
+<p xml:id="p.nl.2" n="2">In antwoord op Uw briefkaart wil ik U een &amp; ander in overweging geven.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik schreef U hoe na het overlijden van mijn vader ik hier op mij zelf ben gaan wonen<c type="kk">/</c> en verzocht U te wachten dat ik spoedig U remitteeren zou.<ptr target="#note-t-a"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Maar ziehier<c type="kk">/</c> misschien weet U dat tot heden ik geholpen werd door mijn broeder die kunsthandelaar is te Parijs. Met mijn werk vorder ik echter<c type="kk">/</c> de kans op verkoop staat voor mij beter dan vroeger maar tevens is het juist het moment waarop finantieele hulp van anderen geheel ophoudt en ik uitsluitend op mijn eigen werk slechts rekenen kan. Het overlijden van mijn vader en mijn verlangen om geheel op mij zelf te staan zijn twee veranderingen die mij voor ’t oogenblik nog armer maken dan vroeger<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">En ziehier – gesteld U trekt op mij een wissel<c type="kk">/</c> welnu ik <hi rend="italics">kan</hi> niet betalen<c type="kp">_</c> contant geld<c type="kk">/</c> indien ik het heb<c type="kk">/</c> is nu eens 10<c type="kk">/</c> dan eens 5 gulden en om dat nog te verdienen moet ik weer op nieuw doek<c type="kk">/</c> verf<c type="kk">/</c> penseelen betalen<c type="kp">_</c>– Dus indien U disponeerdet<c type="kk">/</c> zoudt U tot het uiterste moeten overgaan (indien U uw geld vordert) van mijn meubels &amp; wat ik verder heb<c type="kk">/</c> te verkoopen.<ptr target="#note-t-1"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Die bestaan uit een paar oude stoelen<c type="kk">/</c> een werktafel van ruwhout en<c type="kk">/</c> in een woord<c type="kk">/</c> zijn dermate zonder waarde dat alles op een dorp als hier bij elkaar zeker geen f<c type="kp">_</c> 10.- opbrengt.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Wat wint U zoo doende? Wilt U dit doen<c type="kk">/</c> zou mij vrij onverschillig wezen<c type="kk">/</c> maar de weg om uw geld te krijgen is het gedecideerd niet<c type="kk">/</c> maar als U wacht zoo betaal ik U ten volle.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Indien U disponeerdet en deze geweldigen maatregel naamt – wel<c type="kk">/</c> ’t ware nog in mijn voordeel.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9"><hi>Ik heb maar één ding</hi> en dat wordt beter en beter<c type="kk">/</c> dat zijn mijn schilderijen en teekeningen.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ik hoor daarvan zoowel goed als kwaad zeggen en ieder kan er van denken wat men wil. Wat die nu betreft – als zijnde het eenige waar ik U mede betalen kan – wat wilt U<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Wilt U wachten tot ik wat verkoop en mijne rekening vereffenen? <hi rend="italics">goed</hi><c type="kk">/</c> ik ben niet oneerlijk<c type="kk">/</c> betalen <hi rend="italics">zal</hi> ik U<c type="kk">/</c> als ik ’t maar heb.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Wilt U dat ik U van mijn werk toezend opdat U zelf het eens aan liefhebbers kondt toonen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Niets ware mij liever.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Geerfd heb ik – geen cent<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Vooreerst was mijn vader niet rijk en tweedens heeft niemand van de kinderen zijn aandeel gevorderd.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Mij dunkt dat U er niets aan verliest met te probeeren of U mogelijk succes hebt met mijn schilderwerk. Ik ben bereid U dat te zenden en dat zou U misschien niet tegenvallen<c type="kp">_</c> En kon zelfs aanleiding worden ik niet alleen U betalen kon doch ook nog meer verf kon nemen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Om verf ben ik even verlegen als om geld tegenwoordig.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Daar ik <hi rend="italics">zeer bang ben voor schuld</hi> laat ik niet hoog oploopen<c type="kk">/</c> ik koop zeer weinig en à contant en gebruik slechts verf<ptr target="#note-t-3"/> die ik hier laat wrijven.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Indien ik U moet laten wachten<c type="kk">/</c> het is omdat ik zelf zeker harder moet wachten dan U<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Wat disponeeren betreft<c type="kk">/</c> ik zeg U uitdrukkelijk dat ik U volstrekt niet om gratie verzoek maar dat U tot het uiterste zoudt moeten gaan<c type="kk">/</c> en ik zeg<c type="kk">/</c> ’t ware in mijn voordeel want ik bezit letterlijk niets dan mijn gereedschap<c type="kp">_</c> Wil in alle geval op mijn schrijven antwoorden<c type="kp">_</c> Want weet dit<c type="kk">/</c> dat natuurlijk indien U disponeert<c type="kk">/</c> U zoodoende Uw doel <hi rend="italics">niet</hi> bereikt en ik dan later U beslist niet betaal<c type="kk">/</c> daar alsdan U Uwe regten verliest. Maar <hi rend="italics">U zult betaald worden</hi> indien U hetzij beproeven wilt Uwerzijds iets van mijn werk voor me te plaatsen<c type="kk">/</c> hetzij indien U afwacht tot ik wat verkoop van hetgeen ik heb staan. Ik betuig er U mijn leedwezen over maar de omstandigheden die ik U mededeel zijn mijn excuus<c type="kp">_</c> Het gaat mij echter niet slecht <hi rend="italics">en U moet vooral niet desperaat</hi> <hi rend="italics">wezen over uw geld</hi><c type="kk">/</c> het zal teregt komen doch ik moet zelf harder en langer wachten dan U.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Na groete<c type="kk">/</c> achtend</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.22" n="22">Uw dr.</p>
+
+<p xml:id="p.nl.23" n="23">Vincent van Gogh</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.24" n="24">Een laatste woord nog<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Als ik oneerlijk was<c type="kk">/</c> ware zeker geen moment geschikter om van enkele kleine schulden af te komen dan U Uw wissel te laten trekken en verder te laten komen wat wil<c type="kp">_</c> Doch ik behoef nog niet al te zeer te vreezen voor het betrekkelijk zeer weinige dat ik te betalen heb. Ik werk te hard dan dat ik te vergeefs zou werken. Indien ik zeg tot U en tot Leurs<c type="kk">/</c> die ook nog een f<c type="kp">_</c> 25 van mij hebben moet<c type="kk">/</c> kom met uw wissels! dan zijt <hi rend="italics">U</hi><c type="kk">/</c> niet <hi rend="italics">ik</hi> de verliezende partij<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Weet eens en voor altijd dat ik voor wissels bepaald niet bang ben<c type="kp">_</c> Ik betaal zoo goed als alles contant en ik regel mijn behoeften dermate naar mijn geld dat ik er soms weken ben zonder een gulden uit te geven<c type="kk">/</c> tenzij voor een brood.– Verleden jaar heb ik een leelijke zaak gehad met eene decoratie van een eetkamer die ik voor iemand maakte die mij niet betaalde. Als U nagaat dat ondanks alle inspanning ik het te kort daardoor ontstaan nog niet te boven ben 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>– de verf die ik van U en Leurs verleden jaar had was daarvoor – begrijpt U het jaar voor mij niet gunstig is geweest<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Vrienden heb ik niet – maar toch zeg ik U<c type="kk">/</c> wees niet desperaat over uw geld!</p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Kunt U echter zelf er iets aan doen om mijn werk te laten kijken te s’Hage – Dat ware ’t beste<c type="kk">/</c> en zoodoende zoudt U tegelijk misschien en u zelf en ook mij helpen<c type="kp">_</c>– Ik vraag geen hooge prijzen<c type="kk">/</c> de som in kwestie is niet groot<c type="kp">_</c> En ik stel U voor dus het te beproeven. Geld heb ik <hi rend="italics">niet</hi><c type="kk">/</c> <hi rend="italics">minder dan ooit</hi><c type="kk">/</c> want het is voor mij de periode waarin ik me onafhankelijk maak van alle subsidie.</p>
+    <space unit="lines" quantity="1"/><pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/><pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Dear <rs type="person" ref="bio.xml#_370">Mr Furnée</rs>,</p>
+<p xml:id="p.en.2" n="2">In response to your postcard, I should like to put a number of things to you for your consideration.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I wrote to you how, after my <rs type="person" ref="bio.xml#_526">father</rs>’s death, I came to live alone here, and asked you to wait, that I would soon remit to you.</p>
+<p rend="indent" xml:id="p.en.4" n="4">But look, perhaps you know that until now I’ve been helped by my brother, who is an art dealer in Paris. I am progressing with my work, though, my chances of selling are better than before, but at the same time it is precisely the moment when financial assistance from others ceases altogether, and I can only count on my own work. My <rs type="person" ref="bio.xml#_526">father</rs>’s death and my desire to stand entirely on my own are two changes that have made me even poorer for the moment than I was before.</p>
+<p rend="indent" xml:id="p.en.5" n="5">And look — suppose you draw a bill of exchange on me, well I <hi rend="italics">cannot</hi> pay. Cash, if I have it, is 10 guilders one time, 5 guilders another time, and in order to earn that I have to pay for canvas, paint, brushes again. So if you demand payment, you would have to go to the extreme (if you demand your money) of selling my furniture and whatever else I have.<ptr target="#note-t-1"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">They consist of a couple of old chairs, a rough wooden worktable and, in a word, are so worthless that the whole lot would certainly not even fetch 10 guilders in a village like this.</p>
+<p rend="indent" xml:id="p.en.7" n="7">What do you gain by so doing? If you want to do this, it would be of little concern to me, but it is decidedly not the way to get your money, but if you wait, I will pay you in full.</p>
+<p rend="indent" xml:id="p.en.8" n="8">If you demand payment and take this drastic measure — well, it would be to my advantage.</p>
+<p rend="indent" xml:id="p.en.9" n="9"><hi>I only have one thing</hi> and that is getting better and better, that is my paintings and drawings.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I hear both good and ill said of them, and everyone can think of them what they will. As to them — as being the only things with which I can pay you — what do you want?</p>
+<p rend="indent" xml:id="p.en.11" n="11">Do you want to wait until I sell something and settle my account? <hi rend="italics">Very well</hi>, I’m not dishonest; I <hi rend="italics">will</hi> pay you, just as soon as I have it.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Do you want me to send you some of my work so that you can show it to art lovers?</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’d like nothing better.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I have inherited — not a penny.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Firstly my <rs type="person" ref="bio.xml#_526">father</rs> was not rich, and secondly none of the children has claimed his share.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">It seems to me that you have nothing to lose by trying whether you might have success with my painting. I’m prepared to send it to you and perhaps it would not disappoint you. And might even be the cause of my not only being able to pay you, but also to take more paint.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I’m as hard up for paint as for money at present.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Since I <hi rend="italics">am very afraid of debt</hi> I don’t let it mount up; I buy very little and for cash, and only use paint<ptr target="#note-t-3"/> that I get ground here.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">If I have to make you wait, it’s because I myself certainly have to wait more patiently than you.</p>
+<p rend="indent" xml:id="p.en.20" n="20">As regards demanding payment, I tell you expressly that I am absolutely not asking for clemency, but you would have to go to the extreme. And as I say, it would be to my advantage because I own literally nothing but my tools. Please reply to my letter, in any event. For you should know that of course if you demand payment, you will <hi rend="italics">not</hi> achieve your objective that way, and then I would certainly not pay you later, since you would lose your rights. But <hi rend="italics">you will be paid</hi> either if you are willing to try on your part to place some of my work for me, or if you wait until I sell something of what I have on hand. I express my regret about it, but the circumstances I inform you of are my excuse. Things are not going badly for me, though, <hi rend="italics">and you must above all not despair about your money</hi>, it will be all right, but I shall have to wait more patiently and longer than you.</p>
+<p rend="indent" xml:id="p.en.21" n="21">I respectfully remain,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Your servant</p>
+<p xml:id="p.en.23" n="23">Vincent van Gogh</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.25" n="25"><hi rend="italics"> </hi>Just one last word.</p>
+<p rend="indent" xml:id="p.en.26" n="26">If I were dishonest, certainly no moment could be more suitable for getting out of a number of small debts by letting you draw your bill, and then just awaiting events. But I don’t yet have too much to fear for the relatively very little that I have to pay. I work too hard to be working in vain. If I say to you and to <rs type="person" ref="bio.xml#_491">Leurs</rs>, who also has to have about 25 guilders from me, go ahead with your bills! then <hi rend="italics">you</hi>, not <hi rend="italics">I</hi> are the losing party.</p>
+<p rend="indent" xml:id="p.en.27" n="27">Be aware once and for all that I’m definitely not afraid of bills. I pay cash for virtually everything, and I tailor my needs to my money such that I sometimes go weeks without spending a guilder, except for a loaf. Last year I had an unfortunate business with a decoration for a dining room, which I made for someone who didn’t pay me. When you consider that, despite every effort, I have still not got over the deficit that this caused 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> — the paint I had from you and <rs type="person" ref="bio.xml#_491">Leurs</rs> last year was for that — you’ll understand that the year hasn’t been good for me.</p>
+<p rend="indent" xml:id="p.en.28" n="28">I don’t have friends — but nonetheless I tell you, do not despair about your money!</p>
+<p rend="indent" xml:id="p.en.29" n="29">However, if you could do something yourself about getting my work seen in The Hague — that would be best, and in that way you would perhaps help both yourself and me, too, at the same time. I don’t ask high prices; the sum in question isn’t large. And so I suggest you try it. I<hi rend="italics"> </hi>do <hi rend="italics">not</hi> have money, <hi rend="italics">less than ever</hi>, since for me this is the period when I am making myself independent of all subsidies.</p><pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/><pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Date of postmark: Wednesday, 5 August 1885.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The envelope of this letter has survived. 5-cent postage stamp. On the front is the postmark ‘NUNEN-STATION 8-12 N /5 AUG 85’, and on the back ‘’sGRAVENHAGE 12-6 V / 6 AUG 85’. The address reads: ‘WelEd. Heer Furnée/ Korte Poten/ <hi rend="italics">s’Hage.</hi>’</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The death of Mr van Gogh <ref target="let486.xml">(486)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Set of decorations for Hermans <ref target="let453.xml">(453)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘geld aan u zou overmaken’ (would transfer money to you).</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh had left things behind in The Hague when he moved to Drenthe.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+    
+<p>Van Gogh did indeed give up his share of the estate. In March 1889 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_401">Elisabeth</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> made their shares available to Vincent – evidently they had still not used the money (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let506.xml#n-21">see letter 506, n. 21</ref> and  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let749.xml#n-1">letter 749, n. 1</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh deleted ‘de minste kwaliteit’ (the poorest quality) before the word ‘paint’.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

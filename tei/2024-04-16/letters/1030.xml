@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Dordrecht, Monday, 26 February 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let103"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b103 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>103</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>86</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>103</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-02-26">Monday, 26 February 1877</date>
+                            <placeName>Dordrecht</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0103" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000110_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000110_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000110_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0103" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000110_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000110_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000110_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Dordrecht 26 Feb<hi rend="super">ij</hi> 1877</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">De uren die wij zamen waren zijn spoedig om geweest<c type="kk">/</c><ptr target="#note-t-1"/> dat wegje achter het station waar wij de zon zagen ondergaan over de velden, en de avondlucht spiegelen in de slooten en waar die oude met mos begroeide boomstammen staan en het molentje in de verte<c type="kk">/</c> daar zal ik nog wel eens wandelen met de gedachte aan U.–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Hierbij die photographie “the Huguenot”<c type="kk">/</c><ptr target="#note-t-2"/> hang die op Uw kamertje.– De geschiedenis kent Gij, hoe een jong man, op den dag die den St Bartholomeus nacht vooraf ging, door zijn meisje, dat wist wat er des nachts gebeuren zou, werd gewaarschuwd,– hoe zij Hem het teeken waaraan de Katholieken zouden te herkennen zijn, een witten band om den arm, wilde doen dragen.– Dat wilde hij echter niet doen, zijn Godsdienstig geloof en zijn Plicht waren hem liever dan zijn <hi rend="italics">meisje</hi>.–<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Weet niet of ik U reeds vroeger dat gedicht van Longfellow zond dat ik hierbij overschrijf<c type="kk">/</c><ptr target="#note-t-4"/> het heeft mij dikwijls zeer aangetrokken, en zal het U misschien ook doen.–</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ben blij dat wij nog zamen de schilderijen van Scheffer<ptr target="#note-t-5"/> hebben gezien, s’avonds ben ik naar Mager toe<c type="shy">-</c>geweest die bij den voorlezer van de Luthersche kerk woont in een echt oud Hollandsch huis.<ptr target="#note-t-6"/> Hij heeft daar een aardige kamer, wij zaten nog een heelen tijd zamen 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>te praten, hij vertelde van Menton<ptr target="#note-t-7"/> en van een Kersfeest dat hij daar had bijgewoond en ik vertelde hem uit “de wijde wijde wereld”,<ptr target="#note-t-8"/> dat is toch zoo’n mooi boek.–</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Dank er voor dat Gij gisteren naar hier kwaamt en laten wij maar zoo min mogelijk geheimen voor elkaar blijven hebben.–<ptr target="#note-t-9"/> Daar zijn wij broeders voor.–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Heb vandaag nog al druk werk gehad<c type="kk">/</c> eene menigte kleinigheden – maar die hooren tot den plicht – als men geen gevoel van plicht had<c type="kk">/</c> wie zou dan zijne gedachten ook maar eenigzins bij elkaar kunnen houden maar door het gevoel van plicht worden de dingen geheiligd en aaneengeschakeld en maken veel kleinen één groot.–</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Schrijf eens spoedig hoe gij zijt t’huis gekomen en of het wandelen en de reis U niet opgebroken is.– Ben verlangend naar een brief van U<c type="kk">/</c> ook om te hooren of Gij naar Etten gaat.–</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ontvang in gedachten een handdruk en geloof mij</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.11" n="11">Uw liefh. broer</p>
+
+<p xml:id="p.nl.12" n="12">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p xml:id="p.nl.13" n="13"><hi rend="italics">The light of stars.</hi><ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.14" n="14">The night is come, but not too soon,</p>
+
+<p xml:id="p.nl.15" n="15">And sinking silently</p>
+
+<p xml:id="p.nl.16" n="16">All silently the little moon</p>
+
+<p xml:id="p.nl.17" n="17">Drops down beneath the sky.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.18" n="18">There is no light in earth or heaven</p>
+
+<p xml:id="p.nl.19" n="19">But the cold light of stars</p>
+
+<p xml:id="p.nl.20" n="20">And the first watch of night is given</p>
+
+<p xml:id="p.nl.21" n="21">To the red planet Mars<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.22" n="22">Is it the tender star of love</p>
+
+<p xml:id="p.nl.23" n="23">The star of love and dreams</p>
+
+<p xml:id="p.nl.24" n="24">Oh no! from that blue tent above</p>
+
+<p xml:id="p.nl.25" n="25">A hero’s armour gleams.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.26" n="26">And earnest thoughts within me rise</p>
+
+<p xml:id="p.nl.27" n="27">When I behold afar</p>
+
+<p xml:id="p.nl.28" n="28">Suspended in the evening skies</p>
+
+<p xml:id="p.nl.29" n="29">The shield of that red star.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">O star of strength I see thee stand</p>
+
+<p xml:id="p.nl.31" n="31">And smile upon my pain</p>
+
+<p xml:id="p.nl.32" n="32">Thou beckonest with thy mailed hand</p>
+
+<p xml:id="p.nl.33" n="33">And I am strong again.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.34" n="34">Within my breast there is no light</p>
+
+<p xml:id="p.nl.35" n="35">But the red light of stars</p>
+
+<p xml:id="p.nl.36" n="36">I give the first watch of the night</p>
+
+<p xml:id="p.nl.37" n="37">To the red planet Mars.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.38" n="38">The star of the unconquered will</p>
+
+<p xml:id="p.nl.39" n="39">He rises in my breast</p>
+
+<p xml:id="p.nl.40" n="40">Serene and resolute and still</p>
+
+<p xml:id="p.nl.41" n="41">And calm and selfpossessed.–</p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.nl.42" n="42">And thou too, whosoe’er thou art</p>
+
+<p xml:id="p.nl.43" n="43">That readest this brief psalm</p>
+
+<p xml:id="p.nl.44" n="44">As one by one thy hopes depart</p>
+
+<p xml:id="p.nl.45" n="45">Be resolute and calm.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.46" n="46">O, fear not in a world like this</p>
+
+<p xml:id="p.nl.47" n="47">And thou shalt know ere long</p>
+
+<p xml:id="p.nl.48" n="48">Know, how sublime a thing it is</p>
+
+<p xml:id="p.nl.49" n="49">To suffer and be strong.–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.50" n="50">As being sorrowful yet always rejoicing<c type="kp">_</c></p>
+
+<p xml:id="p.nl.51" n="51"><hi rend="italics">Als droevig zijnde maar altijd blijde</hi><c type="kp">_</c><ptr target="#note-t-11"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.52" n="52">After years of city toil</p>
+
+<p xml:id="p.nl.53" n="53">I hear the old church bells</p>
+
+<p xml:id="p.nl.54" n="54">They sing a strange new song</p>
+
+<p xml:id="p.nl.55" n="55">Whilst the old song in my memory dwells</p>
+
+<p xml:id="p.nl.56" n="56">A strange new song, with strange new words</p>
+
+<p xml:id="p.nl.57" n="57">That many sorrows bring</p>
+
+<p xml:id="p.nl.58" n="58">And sorrowful I once again</p>
+
+<p xml:id="p.nl.59" n="59">Will rejoice at what they sing.<ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.60" n="60">On this man will I look, saith the Lord, even on him that is poor and needy and sorrowful and that trembleth at My word.–<ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.61" n="61">Vader wij bidden U niet dat Gij ons uit de wereld weg neemt maar dat Gij ons bewaart voor den booze.–<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.nl.62" n="62">De Heer is Uw bewaarder<c type="kk">/</c> de Heer is uwe schaduw aan Uwe regterhand<c type="kp">_</c><ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.nl.63" n="63">De Heer is niet verre van een iegelijk onzer.<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.nl.64" n="64">Als èèn lid lijdt dan lijden alle leden mede.–<ptr target="#note-t-17"/> Verbind Gij o Heer ons innig aan elkaar en laat de Liefde tot U dien band meer en meer versterken.–<ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.nl.65" n="65">En Mozes nam den staf Gods in de hand.–<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.nl.66" n="66">De duivel is nooit zoo zwart of men kan hem nog wel onder de oogen zien.–<ptr target="#note-t-20"/></p>
+
+<p rend="indent" xml:id="p.nl.67" n="67">Dezelfde mond die sprak “wees opregt als de duiven” liet er ook onmiddelijk op volgen: “en voorzichtig als de slangen”.–<ptr target="#note-t-21"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.68" n="68">Komt allen tot Mij<c type="kk">/</c> gij die vermoeid en belast zijt en Ik zal u ruste geven<c type="kp">_</c></p>
+
+<p xml:id="p.nl.69" n="69">Neemt mijn juk op en leert van Mij dat ik zacht-moedig ben en ne<c type="shy">-</c>derig van hart, want mijn juk is zacht en mijn last is ligt.<ptr target="#note-t-22"/> Zoo iemand achter Mij wil komen die verloochene zich zelve en neme zijn kruis op en volge Mij.<ptr target="#note-t-23"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.70" n="70">Zoo wie niet haat ook zelfs zijn eigen leven die kan Mijn discipel niet zijn.<ptr target="#note-t-24"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.71" n="71">En gij zoo wanneer gij bid ga in uwe binnen kamer en de deur gesloten hebbende bid tot Uw Vader die in het verbor<c type="shy">-</c>gen ziet.–<ptr target="#note-t-25"/> Zalf Uw hoofd en wasch uw aangezicht, opdat het van de menschen niet gezien worde, en Uw Vader die in het verborgen ziet zal het U in het openbaar vergelden.–<ptr target="#note-t-26"/> Wij weten niet wat wij bidden zullen maar de Geest zelf bidt voor ons met onuitsprekelijke zuchtingen<ptr target="#note-t-27"/> opdat ons geloof niet ophoude wanneer onze ziel zeer begeerd wordt om te worden gezift als de tarwe.–<ptr target="#note-t-28"/> Omdat gij Zonen zijt heeft God den Geest Zijns Zoons uitgezonden in Uwe harten die in ons roept<c type="kk">/</c> Abba Vader.–<ptr target="#note-t-29"/> Uw Vader weet wat gij van noode hebt<c type="kk">/</c> ook voor gij hem bidt.<ptr target="#note-t-30"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.72" n="72">Het kind vertrouwt zich aan zijn Vader,</p>
+
+<p xml:id="p.nl.73" n="73">Dat is die vader waard.–</p>
+
+<p xml:id="p.nl.74" n="74">Uw Vader toch wien hebt gij nader</p>
+
+<p xml:id="p.nl.75" n="75">In Hemel of op aard.<ptr target="#note-t-31"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.76" n="76">En Hij ging in het midden van hen door en zeide<c type="kk">/</c><ptr target="#note-t-32"/> Mijne ure is nog niet gekomen.–<ptr target="#note-t-33"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.77" n="77">In het koninkrijk der Hemelen trouwen zij niet en worden zij niet ten huwelijk gegeven.<ptr target="#note-t-34"/> In Christus is noch man noch vrouw maar Hij is alles en in allen.<ptr target="#note-t-35"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Dordrecht, 26 Feb. 1877</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">The hours we spent together passed quickly,<ptr target="#note-t-1"/> that small path behind the station where we saw the sun going down over the fields and the evening sky reflected in the ditches, and where those old moss-covered tree-trunks are standing, and the little mill in the distance – I’ll walk there again and think of you.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Herewith the photograph of ‘The Huguenot’;<ptr target="#note-t-2"/> hang it up in your room. You know the story, how a young man, on the day before St Bartholomew’s Eve, was warned by his girl, who knew what would happen that night, how she wanted him to wear the sign by which Catholics were recognized, a white arm-band. He didn’t want to do it, though, his religious beliefs and his duty were dearer to him than his <hi rend="italics">girl</hi>.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Don’t know if I already sent you that poem by <rs type="person" ref="bio.xml#_696">Longfellow</rs> which I herewith copy out,<ptr target="#note-t-4"/> it has often held a strong attraction for me, and will perhaps for you, too.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Am glad that we saw <rs type="person" ref="bio.xml#_1339">Scheffer</rs>’s paintings<ptr target="#note-t-5"/> together; that evening I went to see <rs type="person" ref="bio.xml#_507">Mager</rs>, who lives with the lay reader of the Lutheran church in a truly old Dutch house.<ptr target="#note-t-6"/> He has a nice room there, we sat together for a long time 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> talking, he told me about Menton<ptr target="#note-t-7"/> and about a Christmas he had spent there, and I told him about ‘The wide, wide world’,<ptr target="#note-t-8"/> which is such a beautiful book.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Thanks for coming here yesterday, and do let’s carry on having as few secrets as possible.<ptr target="#note-t-9"/> We’re brothers, after all.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Had rather a lot of work today, a great many trifling matters – but they’re my duty – if one had no sense of duty, who would be able to collect his thoughts at all, but a sense of duty sanctifies things and joins them together, and turns many small things into one large one.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Write soon about how you got home, and whether that walk and the journey didn’t exhaust you too much. Am longing for a letter from you, also to hear whether you’ll be going to Etten.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Accept in thought a handshake, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.11" n="11">Your loving brother,</p>
+<p xml:id="p.en.12" n="12">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.en.14" n="14"><hi rend="italics">The light of stars.</hi><ptr target="#note-t-10"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">The night is come, but not too soon,</p>
+<p xml:id="p.en.16" n="16">And sinking silently</p>
+<p xml:id="p.en.17" n="17">All silently the little moon</p>
+<p xml:id="p.en.18" n="18">Drops down beneath the sky.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">There is no light in earth or heaven</p>
+<p xml:id="p.en.20" n="20">But the cold light of stars</p>
+<p xml:id="p.en.21" n="21">And the first watch of night is given</p>
+<p xml:id="p.en.22" n="22">To the red planet Mars.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">Is it the tender star of love</p>
+<p xml:id="p.en.24" n="24">The star of love and dreams</p>
+<p xml:id="p.en.25" n="25">Oh no! from that blue tent above</p>
+<p xml:id="p.en.26" n="26">A hero’s armour gleams.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">And earnest thoughts within me rise</p>
+<p xml:id="p.en.28" n="28">When I behold afar</p>
+<p xml:id="p.en.29" n="29">Suspended in the evening skies</p>
+<p xml:id="p.en.30" n="30">The shield of that red star.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.31" n="31">O star of strength I see thee stand</p>
+<p xml:id="p.en.32" n="32">And smile upon my pain</p>
+<p xml:id="p.en.33" n="33">Thou beckonest with thy mailed hand</p>
+<p xml:id="p.en.34" n="34">And I am strong again.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.35" n="35">Within my breast there is no light</p>
+<p xml:id="p.en.36" n="36">But the red light of stars</p>
+<p xml:id="p.en.37" n="37">I give the first watch of the night</p>
+<p xml:id="p.en.38" n="38">To the red planet Mars.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">The star of the unconquered will</p>
+<p xml:id="p.en.40" n="40">He rises in my breast</p>
+<p xml:id="p.en.41" n="41">Serene and resolute and still</p>
+<p xml:id="p.en.42" n="42">And calm and selfpossessed.</p><space unit="lines" quantity="1"/><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p xml:id="p.en.43" n="43">And thou too, whosoe’er thou art</p>
+<p xml:id="p.en.44" n="44">That readest this brief psalm</p>
+<p xml:id="p.en.45" n="45">As one by one thy hopes depart</p>
+<p xml:id="p.en.46" n="46">Be resolute and calm.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.47" n="47">O, fear not in a world like this</p>
+<p xml:id="p.en.48" n="48">And thou shalt know ere long</p>
+<p xml:id="p.en.49" n="49">Know, how sublime a thing it is</p>
+<p xml:id="p.en.50" n="50">To suffer and be strong.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.51" n="51"><hi rend="italics">As sorrowful, yet alway rejoicing</hi>.<ptr target="#note-t-11"/> <ptr target="#note-t-a"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.52" n="52">After years of city toil</p>
+<p xml:id="p.en.53" n="53">I hear the old church bells</p>
+<p xml:id="p.en.54" n="54">They sing a strange new song</p>
+<p xml:id="p.en.55" n="55">Whilst the old song in my memory dwells</p>
+<p xml:id="p.en.56" n="56">A strange new song, with strange new words</p>
+<p xml:id="p.en.57" n="57">That many sorrows bring</p>
+<p xml:id="p.en.58" n="58">And sorrowful I once again</p>
+<p xml:id="p.en.59" n="59">Will rejoice at what they sing.<ptr target="#note-t-12"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.60" n="60">On this man will I look, saith the Lord, even on him that is poor and needy and sorrowful and that trembleth at My word.<ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.61" n="61">Father, we pray not that Thou shouldest take us out of the world, but that Thou shouldest deliver us from the evil.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.62" n="62">The Lord is thy keeper: the Lord is thy shade upon thy right hand.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.63" n="63">The Lord is not far from every one of us.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.64" n="64">And whether one member suffer, all the members suffer with it.<ptr target="#note-t-17"/> O Lord, join us intimately to one another and let our Love for Thee make that bond ever stronger.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.65" n="65">And Moses took the rod of God in his hand.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.66" n="66">The devil is never so black that one cannot look him in the face.<ptr target="#note-t-20"/></p>
+<p rend="indent" xml:id="p.en.67" n="67">The same lips that spoke ‘be harmless as doves’ followed it immediately with ‘and wise as serpents’.<ptr target="#note-t-21"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.68" n="68">Come unto Me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of Me that I am meek and lowly in heart, for my yoke is easy, and my burden is light.<ptr target="#note-t-22"/> If any man will come after Me, let him deny himself, and take up his cross, and follow Me.<ptr target="#note-t-23"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.69" n="69">If any man hate not, even his own life also, he cannot be My disciple.<ptr target="#note-t-24"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.70" n="70">But thou, when thou prayest, enter into thy closet, and when thou hast shut the door, pray to thy Father which seeth in secret.<ptr target="#note-t-25"/> Anoint thine head, and wash thy face, that thou appear not unto men, and thy Father, which seeth in secret, shall reward thee openly.<ptr target="#note-t-26"/> We know not what we should pray, but the Spirit itself maketh intercession for us with groanings which cannot be uttered,<ptr target="#note-t-27"/> that our faith may not fail when our soul greatly desires to be sifted as wheat.<ptr target="#note-t-28"/> Because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying in us, Abba, Father.<ptr target="#note-t-29"/> Your Father knoweth what things ye have need of, before ye ask him.<ptr target="#note-t-30"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.71" n="71">The child puts great faith in his Father</p>
+<p xml:id="p.en.72" n="72">As befits the father’s worth.</p>
+<p xml:id="p.en.73" n="73">For who is closer than thy Father</p>
+<p xml:id="p.en.74" n="74">In Heaven or on earth?<ptr target="#note-t-31"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.75" n="75">And He passed through the midst of them and said,<ptr target="#note-t-32"/> Mine hour is not yet come.<ptr target="#note-t-33"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.76" n="76">In the kingdom of Heaven they neither marry, nor are given in marriage.<ptr target="#note-t-34"/> In Christ there is neither male nor female: but He is all, and in all.<ptr target="#note-t-35"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Dordrecht 26 Febij 1877’.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh later added several passages; see <hi rend="italics">Textual Notes</hi>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Acting on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs>’s advice, Theo had gone to visit Vincent on Sunday, 25 February, as we learn later on in the letter; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let107.xml#n-1">see letter 107, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Photograph of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_114"><hi rend="italics">The Huguenot</hi></rs> by Sir <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1227">John Everett Millais</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let011.xml#n-4">see letter 11, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1227">Millais</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Huguenot</hi> is based on a story derived from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1659">Giacomo von Meyerbeer</rs>’s opera <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les huguenots</hi> (1836). Millais himself explained his intentions with an accompanying text: ‘A Huguenot on St Bartholomew’s day refusing to shield himself from danger by wearing the Roman Catholic badge. When the clock of the Palais de Justice shall sound upon the great bell at daybreak, then each good Catholic must bind a strip of white linen round his arm, and place a fair white cross in his cap.’ The night of 23-24 August 1872 saw the beginning of the St Bartholomew’s Day Massacre in Paris, in which many Huguenots (French Protestants) lost their lives. See Engen 1995, p. 54 and Ash 1996, text accompanying plate 12.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_696">Henry Wadsworth Longfellow</rs>, ‘<ref target="biblio.xml#lit_90">The light of stars</ref>’, see <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-53">ll. 53-89</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>After <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Scheffer</rs> donated his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1783"><hi rend="italics">Christ in Gethsemane</hi></rs> to the Dordrechts Museum in 1857, the museum managed in a short time, through donations and bequests, to add a great many works by this artist to its collection. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Museum Ary Scheffer. Catalogus der kunstwerken en andere voorwerpen, betrekking hebbende op Ary Scheffer en toebehoorende aan [het] Dordrechts Museum</hi>. Dordrecht 1934; exhib. cat. Dordrecht 1990, pp. 67-70; and cat. Dordrecht 1992, p. 18.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_507">Nicolaas Mager</rs>, a member of the Dutch Reformed (Nederlands Hervormde) Congregation, was one of Vincent’s co-workers at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_291">Blussé &amp; Van Braam</rs>. He registered officially as a resident of Dordrecht on 18 November 1875, and went to live with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_633 bio.xml#_634">the Rijkens</rs> in Tolbrugstraat. Two years later he was living in the house of J. Henning at Vriesestraat, Wijk D 1030, which was next to the Lutheran Church.  Henning was the sexton and lay reader of the Evangelical Lutheran Congregation. At the time he had plans, which he outlined to Theo, to go and work as an assistant for Goupil (FR b2529). Civil registration records show that Mager left Dordrecht officially on 6 May 1879 and moved to Arnhem. Cf. Molendijk 1990, p. 5.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The town of Menton was a popular health resort on the French Riviera. (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent</rs> spent the winter there every year.)</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_839">Elizabeth Wetherell</rs>, <ref target="biblio.xml#lit_68"><hi rend="italics">The wide, wide world</hi></ref>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let080.xml#n-5">see letter 80, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This remark refers to Theo’s infatuation with a woman of low social standing who already had a child. Although Theo apparently felt responsible for her, a proper relationship was impossible: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">Mr and Mrs van Gogh</rs> learned of the affair and, on 7 March, had voiced their objections (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let111.xml#n-8">see letter 111, n. 8</ref>). Mrs van Gogh, referring to Job 38:11, attempted to impress the following upon Theo: ‘imagine that you had not experienced all those sad troubles, you would perhaps have gone on making yourself unhappy, recognize His voice: hitherto and no further. Why should you be lost?’ (FR b2511). A week later she wrote again about this woman ‘who may not be for you’ and tried to console him (FR b2513, 14 March 1877).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_696">Longfellow</rs>’s ‘<ref target="biblio.xml#lit_90">The light of stars</ref>’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let092.xml#n-21">see letter 92, n. 21.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  2 Cor. 6:10. Vincent writes ‘alway’ instead of ‘always’.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Van Gogh added the English translation himself.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+  
+<p>Opening lines from the poem ‘<ref target="biblio.xml#lit_473">Old bells</ref>’ by Guy Roslyn (pseudonym of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1714">Joshua Hatton</rs>) in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Village verses etc.</hi> London (Moxon &amp; Co.) 1876, pp. 3-4. With a few textual changes:</p><space unit="lines" quantity="1"/>
+ 
+<p>‘After years of city toil I hear the village bells;</p>
+  
+<p>They sing a new song while the old song in my mem’ry dwells –</p>
+  
+<p>A strange new song, with strange new words that many sorrows bring;</p>
+  
+<p>would that I could hear again the song they used to sing’.</p><space unit="lines" quantity="1"/>
+  
+<p>The closing lines suggest that it might be an adaptation of 2 Cor. 6:10.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Cf. Isa. 66:2. Vincent wrote ‘on’ instead of ‘to’ twice, and ‘needy and sorrowful’ instead of ‘of a contrite spirit’.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+  John 17:15.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+  Ps. 121:5.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>
+  Acts 17:27.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>
+  1 Cor. 12:26.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>A prayer written and often recited in the family circle by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let113.xml">see letter 113</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>
+  Exod. 4:20.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Cf. for this proverb: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let099.xml#n-6">letter 99, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>Christ in Matt. 10:16.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>Cf. Matt. 11:28-30.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>
+  Matt. 16:24.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>Cf. Luke 14:26.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>
+  Matt. 6:6.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>Cf. Matt. 6:17-18.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>Cf. Rom. 8:26.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Cf. Luke 22:32 and Luke 22:31.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>Cf. Gal. 4:6.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>
+  Matt. 6:8.</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>
+  Hymn 56:4.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>
+  Luke 4:30; cf. John 8:59.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>
+  John 2:4.</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+
+<p>Cf. Mark 12:25.</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>
+  Gal. 3:28 and Col. 3:11.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Auvers-sur-Oise, Tuesday, 24 June 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let891"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b692V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>891</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>644</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>896</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1890-06-24">Tuesday, 24 June 1890</date>
+                            <placeName>Auvers-sur-Oise</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0692" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000940_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000940_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0692" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000940_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000940_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000940_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">merci beaucoup de ta lettre et du billet de fr. 50 qu’elle contenait. L’échange que tu as fait avec Bock<ptr target="#note-t-a"/> est très bien<ptr target="#note-t-1"/> et suis bien curieux de voir comment il fait à présent<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’espère que la santé de Jo va mieux puisque tu dis qu’elle a été indisposé. Certes il faut venir ici le plus tôt possible, la nature est bien bien belle ici et je languis de vous revoir tous.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">M. Peyron m’a écrit il y a deux jours. ci joint sa lettre. je lui ai dit qu’il me semblait suffisant de donner aux garçons une dizaine de francs.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Maintenant les toiles de là-bas sont arrivées<c type="kk">/</c> les Iris ont bien séché et j’ose croire que tu y trouveras quelquechôse;<ptr target="#note-t-3"/> ainsi il y a aussi encore des roses<c type="kk">/</c><ptr target="#note-t-4"/> un champ de blé<c type="kk">/</c><ptr target="#note-t-5"/> une petite toile avec montagnes<ptr target="#note-t-6"/> et enfin un cyprès avec une étoile<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Cette semaine j’ai fait un portrait d’une jeune fille de 16 ans ou à peu près, en bleu contre fond bleu<c type="kk">/</c> la fille des gens où je loge. Je le lui ai donné ce portrait mais j’en ai fait pour toi une variante<c type="kk">/</c> une toile de 15.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Puis j’ai une toile longue d’un mètre sur 50 centimetres seulement de hauteur<c type="kk">/</c> de champs de blé<ptr target="#note-t-9"/> et une qui fait pendant d’un sous bois<c type="kk">/</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>des troncs lilas de peupliers et là-dessous de l’herbe fleurie rose<c type="kk">/</c> jaune<c type="kk">/</c> blanche et verts divers<c type="kp">_</c><ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Enfin un effet de soir – deux poiriers touts noirs contre ciel jaunissant. avec des bles et dans le fond violet le château encaissé dans la verdure sombre.<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Le Hollandais<ptr target="#note-t-12"/> travaille assez assidument mais se fait encore illusion sur l’originalité de sa manière de voir<c type="kk">/</c> considérablement. Il fait des études à peu près comme en faisait Koning. un peu de gris<c type="kk">/</c> un peu de vert avec un toit rouge<c type="kk">/</c> une route blanchissante<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Que faut il dire dans un cas comme cela, s’il a de l’argent alors certes il fait bien de faire de la peinture. mais s’il faut qu’il intrigue beaucoup pour en vendre je le plains d’en faire<c type="kk">/</c> de la peinture<c type="kk">/</c> comme d’autres d’en acheter à un prix relativement trop elevé. Là<c type="kk">/</c> si pourtant il travaille seulement bien assidument tous les jours<c type="kk">/</c> il arriverait. Mais seul ou avec des peintres qui travaillent peu il ne ferait pas grand chose je crois.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’espère faire semaine prochaine le portrait de M<hi rend="super">lle</hi> Gachet<ptr target="#note-t-13"/> et peut être aurai je une fille de la campagne à poser aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je suis content de ce que Bock me fait cet échange car je trouvais qu’ils avaient bien payé un peu cher relativement l’autre toile<ptr target="#note-t-14"/> étant des amis<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’aimerais beaucoup un peu plus tard venir à Paris quelques jours<c type="kk">/</c> précisement pour aller une fois chez Quost<c type="kk">/</c> chez Jeannin<c type="kk">/</c> un ou deux autres. je voudrais bien que tu eusses un Quost et il y aurait probablement moyen d’en echanger un.<ptr target="#note-t-15"/> Gachet viendra aujourd’hui voir les toiles du midi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Prospérité avec le petit et bonne poignée de main en pensée à toi et à Jo.–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks very much for your letter and for the 50-franc note it contained. The exchange you made with <rs type="person" ref="bio.xml#_869">Boch</rs> is very good,<ptr target="#note-t-1"/> and am very curious to see what sort of thing he’s making at present.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I hope that <rs type="person" ref="bio.xml#_416">Jo</rs>’s health is better, since you say that she’s been indisposed. Indeed, you must come here as soon as possible, nature is very, very beautiful here, and I’m longing to see you all again.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_568">Mr Peyron</rs> wrote to me two days ago. His letter is enclosed. I told him that it seemed to me sufficient to give the lads ten francs or so.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Now the canvases from down there have arrived, the Irises have dried well and I dare believe that you’ll find something in them;<ptr target="#note-t-3"/> thus there are also some roses,<ptr target="#note-t-4"/> a wheatfield,<ptr target="#note-t-5"/> a little canvas with mountains<ptr target="#note-t-6"/> and finally a cypress with a star.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">This week I’ve done a portrait of a young <rs type="person" ref="bio.xml#_609">girl</rs> of 16 or so, in blue against a blue background, the daughter of the people where I’m lodging. I gave her that portrait but I’ve done a variant for you, a no. 15 canvas.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.7" n="7"> Then I have a canvas one metre long by only 50 centimetres high, of fields of wheat,<ptr target="#note-t-9"/> and one that makes a pendant of undergrowth, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> lilac trunks of poplars, and underneath them some flower-dotted grass, pink, yellow, white and various greens.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Finally a night effect – two completely dark pear trees against yellowing sky with wheatfields, and in the violet background the castle encased in the dark greenery.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">The <rs type="person" ref="bio.xml#_1095">Dutchman</rs><ptr target="#note-t-12"/> is working quite assiduously, but still deludes himself considerably about the originality of his way of seeing. He does studies a little like <rs type="person" ref="bio.xml#_1145">Koning</rs> did, a little grey, a little green with a red roof, a whitening road.</p>
+<p rend="indent" xml:id="p.en.10" n="10">What can you say in a case like that, if he has money then certainly he does right to do painting. But if he has to scheme a lot to sell them I feel sorry for him doing it, painting, as I pity others for buying it at a price that’s relatively too high. If, though, he just works assiduously every day, he might get there. But alone or with painters who work little he wouldn’t do much, I think.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I hope to do <rs type="person" ref="bio.xml#_391">Miss Gachet</rs>’s portrait next week,<ptr target="#note-t-13"/> and perhaps I’ll also have a country girl to pose too.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I’m pleased that <rs type="person" ref="bio.xml#_869">Boch</rs> is doing this exchange with me, for I thought that, relatively, they’d paid a little too much for the other canvas,<ptr target="#note-t-14"/> being friends.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’d very much like to come to Paris for a few days a little later, precisely in order to go and see <rs type="person" ref="bio.xml#_1282">Quost</rs> once, to see <rs type="person" ref="bio.xml#_1112">Jeannin</rs>, one or two others. I’d very much like you to have a Quost, and there would probably be a way of exchanging one.<ptr target="#note-t-15"/> <rs type="person" ref="bio.xml#_389">Gachet</rs> will come today to see the canvases from the south.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Good fortune with the<rs type="person" ref="bio.xml#_418"> little one</rs>, and good handshake in thought for you and <rs type="person" ref="bio.xml#_416">Jo</rs>.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for the money he sent and his letter of 23 June. Because Jo van Gogh-Bonger dated the letter to 24 June 1890 in <hi rend="italics">Brieven </hi>1914, and she possibly had a postmark to rely on, we have maintained this dating.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">We assume the letter is complete, even though the signature is lacking. Van Gogh enclosed an unknown letter from Peyron.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Boch’.</p>
+                        </note>
+                        
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The painting obtained through an exchange was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Eugène Boch</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_595">The Agrappe mine in Frameries, Borinage (The Crachet-Pecry mine)</rs></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let890.xml#n-2">See letter 890, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Peyron</rs>’s letter to Vincent and his reply to it are not known; the doctor must have written about the final settling of accounts, among other things. Peyron’s letter of 1 July 1890 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let895.xml">letter 895</ref>) is his response to the letter Vincent says he has written here.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Irises in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2905">F 680 / JH 1978</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Irises in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2904">F 678 / JH 1977</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Roses</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2903">F 681 / JH 1976</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Roses</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">in a vase</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2906">F 682 / JH 1979</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Green wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2800">F 718 / JH 1727</rs>). See cat. Otterlo 2003, p. 291.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape in the neighbourhood of Saint-Rémy</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3107">F 726 / JH 1874</rs>), which measures 33 x 41 cm. Another possibility is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard in blossom at the foot of the Alpilles </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2795">F 723 / JH 1722</rs>), which measures 37.5 x 30.5 cm.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Road with a cypress and a star</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2907">F 683 / JH 1982</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adeline Ravoux </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2926">F 768 / JH 2035</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adeline Ravoux </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2927">F 769 / JH 2037</rs>). The latter, measuring 71.5 x 53 cm and therefore a no. 15 canvas, did in fact come into Theo’s possession. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_609">Adeline</rs>, the eldest daughter of the innkeepers <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_610 bio.xml#_612">Mr and Mrs Ravoux</rs>, was 13 years old. Sixty-three years after the event, she wrote about posing for Van Gogh. See Ravoux 1957, and Hulsker 1990-1, p. 428.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This was <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2928">F 775 / JH 2038</rs>); Van Gogh included letter sketches after it in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let893.xml">letters 893</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let896.xml">896</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Couple walking between rows of poplars</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2930">F 773 / JH 2041</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape at twilight</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2929">F 770 / JH 2040</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1095">Anton Hirschig</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This resulted in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marguerite Gachet at the piano</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2932">F 772 / JH 2048</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>For <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The red vineyard</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2745">F 495 / JH 1626</rs>), for which Boch’s sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna</rs> had paid 400 francs, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let875.xml#n-2">see letter 875, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The exchange probably never took place. The estate does, however, contain a landscape drawing by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1282">Quost</rs>.</p>
+
+<p rend="indent">Quost’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with hollyhock</hi>, c. 1881-1890, must once have been in Theo’s possession as well, given its dedication: ‘A Theo van Gogh / Ce tableau qu’aime tant mon ami Vincent / Bien amicalement / E. Quost’ (To Theo van Gogh / This painting that my friend Vincent loves so much / Best wishes / E. Quost). The painting disappeared from the family collection but was acquired in 1996 by the Vincent van Gogh Foundation (Amsterdam, Van Gogh Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2304">Ill. 2304</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Van Gogh Museum Journal</hi>. Amsterdam and Zwolle 1996, p. 203.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

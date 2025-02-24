@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Monday, 24 March 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let442"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b397 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>442</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>363a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>444</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-03-24">on or about Monday, 24 March 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000521_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000521_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000521_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000521_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000521_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000521_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000522_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000522_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000522_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000522_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000523_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000523_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0397 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000523_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000523_01_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">omdat het <hi rend="italics">kan</hi> zijn dat ge niet goed hebt begrepen wat ik U in der tijd heb gevraagd en opdat er later geen sprake meer kunne zijn van iets verkeerd verstaan te hebben of zooiets<c type="kk">/</c> zeg ik het nog eens<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Eind Januarij of begin Februarij schreef ik U dat juist bij het terugkomen thuis wat al te duidelijk het mij in ’t oog was gevallen dat het geld ’t welk ik gewoonlijk van U ontvang werd beschouwd ten eenemale als iets PRECAIRS primo<c type="kk">/</c> ten tweede als<c type="kk">/</c> ja ik zal ’t maar noemen<c type="kk">/</c> een genadegift aan een sukkel<c type="kp">_</c><ptr target="#note-t-1"/> Terwijl ik constateeren kon deze beschouwing zelfs aan personen die er absoluut <hi rend="italics">niets</hi> mee te maken hebben – b.v. de eerzame inboorlingen van dit gewest – werd medegedeeld – en b.v. ik 3 maal in een week door mij toen absoluut vreemde personen hoorde vragen “hoe komt dat nu dat gij niet verkoopt”<c type="kp">_</c>– In hoeverre het dagelijks leven prettig is als men dat zoo telkens merkt<c type="kk">/</c> laat ik aan U over<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Nu komt er bij dat ik reeds dezen zomer besloten was – wegens gij mij toen den teugel eens liet voelen dat het in mijn belang was ik mij schikte naar dit &amp; dat<ptr target="#note-t-2"/> – U van mijn kant eens te laten voelen dat als men ’t me lastig maakte met veel aan dien teugel te morrelen<c type="kk">/</c> <hi rend="italics">ik U den teugel wel in handen</hi> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/><hi rend="italics">wou laten doch niet zelf aan ’t eind er van</hi> <hi rend="italics">vast</hi> – in andere woorden – als ik niet in ’t privé vrij ben bedank ik U voor die subsidie. Enfin dat mijn <hi rend="italics">werk</hi> (<hi rend="italics">niet mijn privé</hi> <hi rend="italics">leven</hi>) zou zijn ’t geen waar het van af hing of ik in ’t finantieele<c type="kk">/</c> althans wat de frs 150<c type="kp">_</c>- betreft<c type="kk">/</c> er boven op bleef of niet<c type="kp">_</c> Dit een en ander resumeerende zeide ik, in brief van eind Januarij, dat ik het niet wou houden precies zoo als tot heden<c type="kk">/</c> <hi rend="italics">zonder</hi> eenige bepaalde overeenkomst namelijk<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Dat ik echter wel wou – heel graag zelfs wou – niets liever dan dat – op de zelfde wijs doorgaan mits met een bepaalde afspraak van levering van werk<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">En dat om daar de proef mee te nemen ik tegen Maart een &amp; ander zou zenden<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Uw antwoord was ontwijkend<c type="kk">/</c> zeker was het niet ronduit iets als: Vincent ik billijk deze en die grieven en ik vind het goed wij de afspraak maken gij mij maandelijks teekeningen zult zenden 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>welke ge beschouwen kunt als het equivalent der frs 150 welke ik gewoon ben U te zenden<c type="kk">/</c> zoodat dit geld door U kan beschouwd worden als verdiend geld<c type="kp">_</c> Ik merkte zeer zeker op gij <hi rend="italics">niet</hi> schreeft iets als het bovenstaande eenvoudigweg<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Nu<c type="kk">/</c> ik dacht<c type="kk">/</c> ik zal tegen Maart een &amp; ander zenden evenwel en kijken hoe het loopt<c type="kp">_</c>– Ik zond toen 9 stuks aquarellen en 5 stuks penteekeningen<c type="kk">/</c><ptr target="#note-t-3"/> schreef U ik nog een 6<hi rend="super">de</hi> penteekening had<ptr target="#note-t-4"/> en de geschilderde studie van den ouden toren waarnaar in der tijd ge speciaal verlangdet<c type="kp">_</c>–<ptr target="#note-t-5"/> Maar nu ik zie Uw expressies <hi rend="italics">even</hi> vaag blijven kan ik niet anders dan meest beslist U zeggen dit geen manier van doen is.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Wat betreft mijn werk<c type="kk">/</c> tot heden was het inderdaad blijkbaar zoo dat gij het liever niet dan wel hadt ik iets zond<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Is dat nu nog zoo – wel dan moet dunkt me of ik uw protectie niet waard zijn of gij wat al te brooddronken denken over mijn teekeningen<c type="kp">_</c>–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Mijn voorstel tot geregelde levering van werk <hi rend="italics">heb ik ook nu nog niet ingetrokken</hi><c type="kp">_</c> Als ik spreek over de zaak dat ik verlang de frs 150 of wat het ook zij<c type="kk">/</c> meer of minder te mogen beschouwen als equivalent van wat ik U zend<c type="kk">/</c> is dit nog <hi rend="italics">betrekkelijk</hi> een zeer privé zaak en blijven we nog gansch en al buiten de kwestie van of mijn werk al dan niet <hi rend="italics">handels</hi>waarde heeft<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Doch ik ben dan meer verantwoord tegenover jan en alleman<c type="kk">/</c> van wie ik niet hoef af te wachten ze me rentenieren verwijten of – <hi rend="italics">absoluut</hi> beschouwen als “<hi rend="italics">hebbende</hi> GEEN <hi rend="italics">middel van bestaan</hi>”<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Tevens<c type="kk">/</c> van Uw kant is het een bewijs van vertrouwen in mijn toekomst<c type="kk">/</c> hetwelk ik U echter zeer zeker niet zal trachten <hi rend="italics">af te dwingen</hi> – en ik herzeg U dat wat gij in dezen beslist<c type="kk">/</c> aan het verleden niets zal toe of af doen en dat ik Uw hulp in ’t verleden <hi rend="italics">zeer</hi> <hi rend="italics">zeker niet</hi> zal negeeren en wel degelijk zal op prijs stellen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Doch geheel vrijwillig hebt ge te beslissen of onze relatie blijven zal of niet<c type="kk">/</c> in de toekomst – b.v. voor het loopende jaar<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Ik eindig met de verzekering echter dat indien gij weigert te treden in mijn voorstel om U geregeld werk te leveren (gij kunt met dat werk doen of laten wat ge wilt wat betreft het al dan niet er mee te handelen<c type="kk">/</c> doch ik sta in elk geval er toch op dat gij het van tijd tot tijd laat zien zooals ge in ’t heele begin reeds en m.i<c type="kp">_</c> teregt deedt)<c type="kk">/</c> dat dan ik eene separatie zoude doorzetten<c type="kp">_</c>– Het komt mij voor dat de eer er mee gemoeid is – dus <hi>of</hi> <hi rend="italics">die wijziging</hi> <hi>of</hi> – <hi rend="italics">uit</hi><c type="kp">_</c>– Gegroet<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">b. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.18" n="18">Wat ik later ook niet verkies te hooren zou wezen dat deze of die afspraak meer een opvatting van mij zou zijn dan de bedoeling van den anderen<c type="kk">/</c> n.l. Uw kant. Ge weet dat ge me zeidet C.M<c type="kp">_</c> dezen zomer zoo iets heeft gezegd tot U van mij<c type="kp">_</c>– Ik heb daardoor geleerd het zaak was tittels op de i te zetten waar het afspraken geldt<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Ik geloof dat wegens ik reeds vroeger herhaaldelijk over deze wijziging U schreef<c type="kk">/</c> nu nog eens resumeerende het alles klaar en duidelijk genoeg is uiteengezet 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>en dat van mijn kant ik ook wel mag verzoeken om een klaar ja of een klaar neen<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p xml:id="p.nl.20" n="20">Dat ik U de 6<hi rend="super">e</hi> penteekening nog niet stuurde is omdat ik<c type="kk">/</c> even als ik er op sta dat gij mijn werk nu en dan laat zien<c type="kk">/</c> ook voortaan Rappard eens iets van me zal laten kijken<c type="kk">/</c> daar hij nog al lui kent – en die teekening was toen bij R. en zou ik teruggekregen hebben doch hij heeft ze nog met twee andere penteekeningen “<hi rend="italics">wintertuin</hi>”<c type="kp">_</c><ptr target="#note-t-6"/></p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Nu<c type="kk">/</c> en de geschilderde studie heb ik U reeds een woord over gezegd in een vorigen brief<c type="kk">/</c> dat ik gedecourageerd was die te zenden omdat als ge in die uit Drenthe niets vindt<c type="kk">/</c> geloof ik deze U ook niet bevallen zou<c type="kp">_</c>–<ptr target="#note-t-7"/> Het komt mij – in mijn herinnering – voor dat er bij de Drenthsche eenigen zijn die als ik er weer voorzat ik juist zoo zou doen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Voor de loopende maand<c type="kk">/</c> wat ik U anders in April zou gezonden hebben<c type="kk">/</c> had ik reeds de volgende teekeningen<c type="kk">/</c> <hi rend="italics">Wintertuin</hi> –<ptr target="#note-t-8"/> <hi rend="italics">Knotberken</hi> –<ptr target="#note-t-9"/> <hi rend="italics">Populierenlaan</hi> –<ptr target="#note-t-10"/> de <hi rend="italics">IJsvogel</hi><c type="kp">_</c>–<ptr target="#note-t-11"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Because it’s <hi rend="italics">possible</hi> that you didn’t properly understand what I asked you before, and so that there can’t be any question later of having misunderstood something or anything like that, I say it again.</p>
+<p rend="indent" xml:id="p.en.3" n="3">At the end of January or beginning of February I wrote to you that, on coming home, it became all too evident to me that the money which I usually received from you was regarded firstly as something PRECARIOUS, secondly as, yes, what I’ll call a gift of charity to a poor nincompoop.<ptr target="#note-t-1"/> While I could observe that this opinion was even imparted to people who have absolutely <hi rend="italics">nothing</hi> to do with it — for instance the respectable natives of these parts — and, for example, 3 times in one week I heard people who were then complete strangers to me ask, ‘why is it that you don’t sell?’ Just how pleasant everyday life is when one sees this all the time, I leave to you.</p>
+<p rend="indent" xml:id="p.en.4" n="4">In addition to this, I had already made up my mind this summer — on account of your letting me feel the reins then, that it was in my interests to go along with this and that<ptr target="#note-t-2"/> — just to let you feel that, for my part, if you made it difficult for me by fiddling with those reins a lot, <hi rend="italics">I would leave the reins in your hands</hi> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> <hi rend="italics">but not be on the end of them myself</hi> — in other words — if I’m not at liberty in my private life, I decline this allowance from you. In short that my <hi rend="italics">work</hi> (<hi rend="italics">not my private life</hi>) should be what determined whether or not I stayed on my feet financially, at least as far as the 150 francs are concerned. Summing these things up, I said in a letter at the end of January that I didn’t want to keep it exactly as it was until today, namely <hi rend="italics">without</hi> any specific agreement.</p>
+<p rend="indent" xml:id="p.en.5" n="5">That I would like, though — would even like very much — nothing better than that — to go on in the same way, provided there’s a specific agreement about supplying work.</p>
+<p rend="indent" xml:id="p.en.6" n="6">And that to try this out I would send one thing and another by March.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Your answer was evasive, it certainly wasn’t something forthright like: Vincent, I appreciate all these complaints and I approve of us coming to an agreement that you will send me drawings monthly 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> which you can consider as the equivalent of the 150 francs that I usually send you, so that you can consider this money as money earned. I most certainly noticed that you simply did <hi rend="italics">not</hi> write anything like the above.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Well, I thought, I’ll send one thing and another by March anyway and see how it goes. I then sent 9 watercolours and 5 pen drawings,<ptr target="#note-t-3"/> wrote to tell you that I had a 6th pen drawing as well,<ptr target="#note-t-4"/> and the painted study of the old tower that you had especially wished for at one time.<ptr target="#note-t-5"/> But now that I see that your expressions remain <hi rend="italics">just as</hi> vague, I can do nothing other than say to you most decidedly that this is no way to behave.</p>
+<p rend="indent" xml:id="p.en.9" n="9">As far as my work is concerned, up to now it was indeed apparently the case that you would rather I didn’t send something than that I did.</p>
+<p rend="indent" xml:id="p.en.10" n="10">If that’s still the case — well, then in my view either I’m not worthy of your patronage or you think only too flippantly about my drawings. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.11" n="11"><hi rend="italics">I have still not withdrawn</hi> my proposal for a regular supply of work. When I speak of the fact that I want to be able to consider the 150 francs or whatever it may be, more or less as the equivalent of what I send you, <hi rend="italics">in this respect</hi> it’s still a very private affair, and we leave aside altogether the question of whether or not my work has <hi rend="italics">commercial</hi> value.</p>
+<p rend="indent" xml:id="p.en.12" n="12">But then I’m more justified in the view of Tom, Dick and Harry, whom I don’t have to anticipate accusing me of living off private means or — <hi rend="italics">absolutely</hi> regarding me as ‘<hi rend="italics">having</hi> NO <hi rend="italics">means of support</hi>’.</p>
+<p rend="indent" xml:id="p.en.13" n="13">At the same time, it’s a sign of confidence in my future on your part, which I most certainly won’t try to <hi rend="italics">force </hi>on you, though — and I tell you again that whatever you decide in this matter won’t change the past, and that I <hi rend="italics">most certainly won’t</hi> ignore your help in the past and really will appreciate it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">But you have to decide entirely of your own accord whether or not our relationship will endure in the future — for the current year, say.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I end with the assurance, though, that if you refuse to enter into my proposal to supply you with work regularly (you can do whatever you like with that work as regards whether or not you deal in it, although I do in any event insist that you show it from time to time as you already did at the very outset, and rightly to my mind) then I would go ahead with a separation. It seems to me that honour is at stake — so <hi>either</hi> <hi rend="italics">this change</hi> <hi>or</hi> — <hi rend="italics">finished</hi>. Regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Yours truly,</p>
+<p xml:id="p.en.17" n="17">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.19" n="19">What I prefer not to hear later would be that this or that agreement is more a notion of mine than the intention of the other side, namely yours. You know that you told me <rs type="person" ref="bio.xml#_422">C.M.</rs> said something of the sort to you about me this summer. As a result I learned that it was important to dot the i’s and cross the t’s where agreements are concerned.</p>
+<p rend="indent" xml:id="p.en.20" n="20">I believe, because I already wrote to you repeatedly about this change, that by now summing it up once again, everything has been explained plainly and clearly enough, 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> and that for my part I may also ask for a plain yes or a plain no.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p xml:id="p.en.22" n="22">The reason I haven’t sent you the 6th pen drawing yet is because, just as I insist that you show my work now and then, I’ll also occasionally let <rs type="person" ref="bio.xml#_1306">Rappard</rs> see some of my things from now on, since he knows quite a few people — and that drawing was with R. at the time and I should have got it back, but he still has it along with two other ‘<hi rend="italics">winter garden</hi>’ pen drawings.<ptr target="#note-t-6"/> 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">Well then, I’ve already dropped you a line about the painted study in a previous letter, that I was discouraged from sending it because if you don’t see anything in the ones from Drenthe I don’t think you’ll like this one either.<ptr target="#note-t-7"/> It seems to me — as I recall — that among the ones from Drenthe there are some that I would do precisely the same way if I had to do them again.</p>
+<p rend="indent" xml:id="p.en.24" n="24">For the current month I already had the following drawings, <hi rend="italics">Winter garden</hi><ptr target="#note-t-8"/> — <hi rend="italics">Pollard birches</hi><ptr target="#note-t-9"/> — <hi rend="italics">Avenue</hi> <hi rend="italics">of poplars</hi><ptr target="#note-t-10"/><hi rend="italics"> </hi>— the <hi rend="italics">Kingfisher</hi>,<ptr target="#note-t-11"/> which I would otherwise have sent you in April.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">There is no point of reference for the precise dating of this letter to Theo or the next <ref target="let443.xml">(443)</ref>. We can say, however, that they were both written in March 1884. In the case of the present letter this is clear from the passage: ‘For the current month ... which I would otherwise have sent you in April’ (<ref target="#l-144a">ll. 144</ref>a-c). The letter is a direct continuation of the negotiations to come to a business arrangement with Theo on which Vincent had embarked in <ref target="let440.xml">letter 440</ref>, which was written on or about 20 March after Theo’s allowance arrived. It can be inferred that the letter precedes <ref target="let443.xml">letter 443</ref> from the fact that the tension, which has clearly abated in the latter, is still very evident in the present letter.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">On these grounds we have spaced the two letters evenly in the remaining 11 days in March: on or about Monday, 24 March and on or about Friday, 28 March 1884 respectively.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In <hi rend="italics">De brieven</hi> 1990 the letter consisted of five sheets, two of which treated unrelated subjects and stood alone within this arrangement. We have moved these two sheets to other letters and rearranged the order of the present three remaining sheets.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The first sheet <ref target="#l-1">(ll. 1-109)</ref> has remained the same; what is now the last part <ref target="#l-124">(ll. 124-146)</ref> was previously placed <hi rend="italics">between </hi>sheets 1 and 2 <ref target="#l-110">(ll. 110-123)</ref>. We have opted to put sheets 1 and 2 together because in <ref target="#l-110">l. 110</ref> Van Gogh continues the argument about the business agreement. For the arguments for putting the other two sheets with <ref target="let434.xml">letters 434</ref> and <ref target="let440.xml">440</ref>, see <hi rend="italics">Arrangement</hi> in the notes to those letters.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Exactly what Van Gogh is referring to here is not clear. In December he raised this issue more than once. He may mean <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let422.xml">letter 422</ref>, in which he says that he does not want to continue on the same footing.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo had been critical of Vincent during his visit to The Hague in August 1883, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let375.xml">letter 375</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For the 9 watercolours, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let429.xml">see letter 429</ref>; for the 5 pen-and-ink drawings, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let430.xml">see letter 430</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2455">F 1116 / JH 462</rs>). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let434.xml#n-2">See letter 434, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>See for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The old church tower at Nuenen with a ploughman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2453">F 34 / JH 459</rs>): <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let432.xml#n-6">letter 432, n. 6.</ref> Theo had remarked that the church tower was an attractive subject the first time he came to Nuenen; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let259.xml">see letter 259</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Parsonage garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_131">F 1133 / JH 485</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Winter garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2458">F 1128 / JH 466</rs>): <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let437.xml">see letter 437</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Van Gogh had written this in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let432.xml">letter 432</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Parsonage garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2457">F 1130 / JH 465</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pollard birches</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2460">F 1240 / JH 469</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Avenue of poplars</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2456">F 1239 / JH 464</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The kingfisher</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2459">F 1135 / JH 468</rs>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, on or about Tuesday, 16 May 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let228"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b214 a-d V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>228</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>193</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>227</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-05-16">on or about Tuesday, 16 May 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000246_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000246_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000246_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000246_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000246_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000246_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000247_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000247_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000247_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000247_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000247_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000247_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000248_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000248_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000248_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000248_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000248_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000248_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 d" xml:id="surf-pb-4r">
+<graphic url="https://example.com/iiif/VGM001000249_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4r-13">
+<graphic url="https://example.com/iiif/VGM001000249_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-4r-16">
+<graphic url="https://example.com/iiif/VGM001000249_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0214 d" xml:id="surf-pb-4v">
+<graphic url="https://example.com/iiif/VGM001000249_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4v-14">
+<graphic url="https://example.com/iiif/VGM001000249_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-4v-15">
+<graphic url="https://example.com/iiif/VGM001000249_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Wil ’t mij lukken U verder inzigt te geven in ’t geen waarover ik reeds schreef zoo moet gij wel begrijpen waar de wortel zit. En ik moet van mijn bezoek te Amsterdam niets verzachten. Doch ik begin met U te verzoeken het niet als eene brutaliteit te beschouwen als ik U moet tegenspreken<c type="kp">_</c> <hi rend="italics">En U</hi> <hi rend="italics">voor alles hartelijk te danken voor de ingeslotene frs 50.–</hi> Als ik ’t niet krachtig zeg hebt ge er toch niets aan maar ik zou zwijgen indien gij op den voorgrond steldet dat ik U moet toegeven. Ik geloof niet gij zulks op den voorgrond stelt en gij zult zelf misschien ’t wel niet onnatuurlijk vinden dat er kanten zijn in ’t leven die bij U minder ontwikkeld zijn als Uw inzigt in de zaken<c type="kk">/</c> waar ik U graag dubbel en dwars als beter op de hoogte dan ik beschouw<c type="kk">/</c> en ’t niet ligt wagen zal U te zeggen<c type="kk">/</c> dit of dat is zoo niet. Integendeel<c type="kk">/</c> vooral wanneer gij ’t mij wat uitlegt gevoel ik dikwijls dat gij de dingen beter weet dan ik. Maar van den anderen kant<c type="kk">/</c> als het betreft liefde – dan sta ik soms versteld over Uwe zienswijs. En ik wil er zelfs – neem het mij niet kwalijk – iets nieuws bijvoegen. Uw laatste brief betreffende M. &amp; H.G.T. bewees mij dat in den kring en stand van M. &amp; H.G.T<c type="kp">_</c> gij vasten voet schijnt te hebben en een manier van doen die de mijne niet is – zoodat gij met hen vlot – doch ik niet<c type="kk">/</c> maar buiten dien stand ziet gij oppervlakkig en met vooroordeel<c type="kp">_</c> Want die laatste brief van U heeft mij meer te denken gegeven dan gij misschien weet. Mijn fout zit hem dunkt me hier en de eigentlijke reden van mijn afgescheept worden. Als men geen geld heeft dan is men van zelf reeds buiten kwestie en het is dus eene vergissing en kortzigtigheid van mij geweest ’t geen M. zeide letterlijk op te nemen en ook maar een oogenblik te denken<c type="kk">/</c> H.G.T. zal zich herinneren dat ik reeds zooveel moeite gehad heb.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Het geld is tegenwoordig wat het regt van den sterkste vroeger was. Iemand tegen te spreken is fataal en doet men het<c type="kk">/</c> de reactie is niet tot nadenken wekken doch men haalt zich een vuistslag op den hals. Dat wil zeggen<c type="kk">/</c> in den vorm van “ik koop niets meer van hem” of “ik help hem niet meer”.–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Dit zoo zijnde – waag ik mijn hoofd als ik U tegenspreek – maar ik weet niet Theo<c type="kk">/</c> hoe ik anders zou kunnen doen<c type="kk">/</c> moet het er af<c type="kk">/</c> ziehier mijn nek. Gij kent mijn omstandigheden en weet dat van Uwe hulp als ’t ware mijn leven of niet leven afhangt<c type="kp">_</c> Maar ik sta tusschen twee – als ik antwoord op Uw brief<c type="kk">/</c> Ja Theo gij hebt gelijk<c type="kk">/</c> ik zal Christien laten loopen<c type="kk">/</c> dan zeg ik primo eene onwaarheid door U gelijk te geven en ten tweede verbind ik mij iets afschuwelijks te doen. Als ik U tegenspreek en gij doet als H.G.T<c type="kp">_</c> en M. dan is om zoo te zeggen mijn nek er af.–</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5"><hi rend="italics">Nu</hi><c type="kk">/</c><hi rend="italics"> dan in Godsnaam maar kop af</hi> <hi rend="italics">als ’t moet</hi>.– ’t andere is nog erger.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Hier begint dus een kort geschrift waarin ik ronduit eenige dingen zal verklaren waarvan ik ’t mogelijk acht dat zij door U zoo zullen worden opgenomen dat gij mij Uwe hulp onttrekt maar ze te zwijgen om Uwe hulp te houden komt mij voor een leelijke manier van doen te zijn en ik waag liever het ergste. Lukt het mij U aan ’t verstand te brengen ’t geen gij nu geloof ik nog niet begrijpt dan zal het Christien en haar kind en mijzelf beter gaan. En om dat te bereiken moet ik wagen te zeggen wat ik zeggen zal.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Om uit te drukken wat ik gevoelde voor Kee Vos zeide ik ronduit: zij en geen ander.<ptr target="#note-t-1"/> Haar nooit neen nimmer was niet voldoende mij van haar te doen afzien.– Ik had nog hoop en ondanks dat – ’t welk ik meende te zijn een stuk ijs dat smelten zou – bleef mijne liefde levendig.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Evenwel ik had geen rust. ’t was eene spanning die ondragelijk werd omdat zij maar altijd zweeg<c type="kk">/</c> omdat ik nooit een syllabe antwoord ontving..</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Toen ging ik naar Amsterdam<c type="kp">_</c>– Aldaar werd mij gezegd..... Als gij in huis zijt dan gaat Kee het huis uit<c type="kp">_</c>– Tegenover Uw “zij en geen ander” staat haar “hij zeker niet” – uw volhouden is <hi rend="italics">walgelijk</hi><c type="kp">_</c> Ik stak mijn vingers in de vlam van de lamp en zei<c type="kk">/</c> laat mij haar zien voor zoolang als ik mijn hand in de vlam houd<c type="kk">/</c> en ’t is geen wonder dat toen later misschien H.G.T. naar mijn hand gekeken heeft.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Doch zij bliezen de lamp uit geloof ik<c type="kk">/</c> en zeiden <hi rend="italics">gij zult haar niet zien</hi>. En toen daarna had ik nog een gesprek met haar broer<ptr target="#note-t-2"/> die officieel of officieus zei dat niets dan <hi rend="italics">rijksdaalders</hi><ptr target="#note-t-3"/> iets bewerken konden. Officieel of officieus<c type="kk">/</c> ik vind ’t allebei even gemeen, en toen ik Amsterdam verliet had ik een gevoel als was ik op de slavenmarkt geweest. Zie<c type="kk">/</c> dat was mij te kras, vooral toen men sprak van mijn forceeren en ik gevoelde dat de dingen die men mij zeide doodslagers waren en dat mijn “zij en geen ander” doodgeslagen werd<c type="kp">_</c> Ik heb toen niet direkt geheel en al maar toch snel genoeg die liefde <hi rend="italics">voelen sterven</hi><c type="kk">/</c> een ledig<c type="kk">/</c> een oneindig ledig er voor in de plaats. Nu<c type="kk">/</c> gij weet, ik geloof in God<c type="kk">/</c> ik twijfelde niet aan de magt van liefde. toch<c type="kk">/</c> toen heb ik iets gevoeld van<c type="kk">/</c> Mijn God mijn God<c type="kk">/</c> waarom hebt gij mij verlaten<c type="kk">/</c><ptr target="#note-t-4"/> en ik begreep niets meer<c type="kk">/</c> ik dacht<c type="kk">/</c> heb ik mij dan bedrogen......... o God, er is geen God!<ptr target="#note-t-5"/> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Tegen die koude afschuwelijke ontvangst in Amsterdam kon ik niet tegen – bij ’t scheiden van de mart<ptr target="#note-t-a"/> leert men de kooplui kennen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Zou D<hi rend="super">s</hi> J.P.S. en D<hi rend="super">s</hi> T.v.G. van af den preekstoel als zij er in hun toga &amp; met hun grijs haar zoo eerwaardig uitzien<c type="kk">/</c> zóó durven preeken over de liefde als zij er in de binnenkamer over spreken. Zij zouden dat wel laten.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik dacht nog aan ’t woord van den profeet: “Ouden van Israel wat doet ge in ’t donker”<c type="kk">/</c><ptr target="#note-t-6"/> ’t welk woord gerigt was tot bedriegelijke priesters die zich door geld lieten influenceeren.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Suffit. Ik had toen afleiding en opbeuring door Mauve<c type="kk">/</c> ik wierp mij in mijn werk met alle kracht. Toen<c type="kk">/</c> nadat M. mij in den steek gelaten had &amp; ik eenige dagen niet wel geweest was – einde Januarij heb ik Christien ontmoet.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Gij zegt Theo<c type="kk">/</c> dat “als ik K.V. werkelijk lief gehad had ik nu dat niet doen zou.” Begrijpt gij nu echter beter dat na ’t geen te Amsterdam gezegd werd ik niet verder kon – had ik toen moeten wanhopen – waarom zou een eerlijk man wanhopen – ik ben geen slechtaard<c type="kk">/</c> ik verdien niet zoo beestachtig behandeld te worden. Nu<c type="kk">/</c> wat kunnen ze<c type="kp">_</c> ’t is waar<c type="kk">/</c> ze hebben de overhand gehad, mij toen gedwarsboomd te Amsterdam. Nu vraag ik echter verder hun advies niet meer en als meerderjarig vraag ik<c type="kk">/</c> staat het mij vrij te trouwen ja dan neen. Staat het mij vrij een werkmanspak aan te trekken en te leven als werkman ja dan neen. Aan wie ben ik verantwoording verpligt<c type="kk">/</c> wie zal probeeren mij te dwingen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Wie lust heeft mij te hinderen<c type="kk">/</c> laat hem opdokken! 
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>Ziet gij Theo, ik ben het moede en mat<c type="kp">_</c><ptr target="#note-t-8"/> Denk na en ge zult het begrijpen. Pa, Oom Stricker<c type="kk">/</c> H.G.T. en weet ik wie meer<c type="kk">/</c> noemen zich menschen van vormen &amp; beschaving en ze handelen met een grofheid<c type="kk">/</c> een jesuitisme<c type="kk">/</c> een onregtvaardigheid waarvan mijn ziel een afschuw heeft. Nooit<c type="kk">/</c> nooit een schijn of schaduw van berouw of een opregt terugkeeren om te zeggen<c type="kk">/</c> ik deed dit of dat<c type="kk">/</c> het was slecht.–</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Zij vinden te veel bijval<c type="kk">/</c> zij weten te goed dat de meeste menschen het zoo hebben willen en zij houden de wereld te vriend.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Hebben ze daar pleizier in<c type="kk">/</c> denken ze dat zij er goed mee uit zullen komen en er vrede van hebben ook in ’t eind – welnu laat hun dan hun gang gaan – ik kan hen niet stoppen. Doch ik voor mij mag &amp; moet gaan volgens mijn eigen geweten. En is mijn weg er minder regt om omdat de een of ander zegt “gij gaat van den regten weg<ptr target="#note-t-9"/> af”<c type="kp">_</c>– C.M. praat ook altijd van den regten weg net als H.G.T. en de dominés. Maar C.M<c type="kp">_</c> noemt de Groux ook een gemeene kerel<c type="kk">/</c><ptr target="#note-t-10"/> dus: wat is C.M.<c type="kk">/</c> ik laat hem praten voortaan, mijn ooren zijn het moe. Ik ga om het te vergeten in ’t zand liggen voor een ouden boomwortel en een teekening daarvan maken.<ptr target="#note-t-11"/> Met een linnen kiel aan<c type="kk">/</c> en rook mijn pijp en kijk in de diepe blaauwe lucht.... of naar het mos of het gras.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Dat calmeert mij. En evenzeer voel ik mij kalm als b.v. Christien of haar moeder poseert en ik de proportie bereken en het ligchaam met zijn lange golvende lijnen zoek te doen voelen onder de plooien van een zwarte japon.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Ik ben dan 1000 mijlen ver van C.M.<c type="kk">/</c> J.P.S.<c type="kk">/</c> H.G.T. en veel gelukkiger.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Doch... helaas dan komt de zorg en ik moet ’t zij spreken ’t zij schrijven over geld en dan begint het van voren af aan. Ik denk dan<c type="kk">/</c> H<c type="kp">_</c>G.T<c type="kp">_</c> en C<c type="kp">_</c>M. konden zooveel beter doen als zij zich niet met mijn “weg” bemoeiden maar mijn teekenen encourageerden<c type="kp">_</c> Gij zult zeggen<c type="kk">/</c> C.M. doet dat<c type="kk">/</c> maar ziehier waarom de bestelling nog niet uitgevoerd is. Mauve zeide mij<c type="kk">/</c> die Oom van je heeft het enkel gedaan om dat hij eens bij je is geweest maar ge moet wel begrijpen dat dat niets beteekent en dat het onmiddelijk weer uit zal zijn, en dan hebt ge geen mensch meer.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Gij moet weten Theo<c type="kk">/</c> <hi rend="italics">dat ik daar niet tegen kan</hi><c type="kk">/</c> wordt zoo iets me gezegd – mijn hand valt slap neer als verlamd. Vooral als C.M. toch ook al dingen gezegd heeft van vormen geloof ik<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">ik heb voor C.M. gemaakt 12 teekeningen voor f<c type="kp">_</c> 30. dus f<c type="kp">_</c> 2.50 per stuk. het is een lastige karwei waar voor meer dan f<c type="kp">_</c> 30 moeite aan zit en ik verdien niet dat ik ’t dan nog als een genade moet beschouwen of iets dergelijks. Voor de 6 anderen had ik reeds veel moeite gedaan<c type="kk">/</c> ik had er studies voor gemaakt – ’t is daarbij gebleven. <hi rend="italics">De moeite heb ik ook voor</hi> <hi rend="italics">de nieuwen reeds gehad</hi><c type="kk">/</c> het is dus geen 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>luiheid maar ik sta verlamd.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Ik redeneer dan tegen mijzelven<c type="kk">/</c> ik zal ’t me niet aan trekken maar ik ben zenuwachtig en zoo iets blijft bij me hangen en keert terug als ik er weer aan begin. Zoodat ik dan met mij zelven moet laveeren en aan ander werk werken.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Ik begrijp Mauve niet – het was vriendelijker van hem geweest als hij zich nooit met me bemoeid had. <hi rend="italics">Wat raad gij mij</hi><c type="kk">/</c><hi rend="italics"> de bestelling van C.M<c type="kp">_</c></hi> <hi rend="italics">door te zetten of niet</hi>?– ik stond als niet wetende wat te doen.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">In vroeger jaren was er een anderen toon onder de schilders – nu vreten ze elkaar op en zijn groote heeren die in villa’s wonen en intrigueeren. Ik ben liever op de Geest of in een andere achterstraat<c type="kk">/</c> graauw – armzalig – slikkerig, somber<c type="kk">/</c> maar daar verveel ik mij nooit doch in die mooie huizen embêteer ik me en zich verveelen vind ik slecht<c type="kk">/</c> dus dan zeg ik<c type="kk">/</c> daar hoor ik niet &amp; ik kom er niet meer. Goddank dat ik mijn werk heb maar om te kunnen werken heb ik nog geld noodig inplaats van te verdienen, en daar zit hem de knoop. Als ik over een jaar<c type="kk">/</c> of ik weet niet hoe lang of hoe kort<c type="kk">/</c> die Geest of een andere straat zoo teeken als ik ’t zie met die figuren van oude wijven<c type="kk">/</c> arbeiders<c type="kk">/</c> meiden<c type="kk">/</c> dan zal H<c type="kp">_</c>G.T. &amp;c<c type="kp">_</c> heel lief zijn, maar dan krijgen ze mijn “donder op” en ik zal zeggen<c type="kk">/</c> ge hebt mij in den steek gelaten toen ik in de moeite zat, vriend, ik ken u niet<c type="kk">/</c> ga weg, ge staat mij in ’t licht.–</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Och heer – waarom zou ik bang zijn – wat kan mij ’t “onbehagelijk”<c type="kk">/</c> “onverkoopbaar” van H.G.T. scheelen. Als ik eens moedeloos ben dan kijk ik naar Les bêcheurs van Millet<ptr target="#note-t-12"/> en le banc des pauvres van de Groux<ptr target="#note-t-13"/> en dan wordt H.G.T<c type="kp">_</c> zoo klein, zoo niets, en al die praatjes zoo armzalig dat ik weer in mijn humeur raak en mijn pijp aansteek en weer aan ’t teekenen ga. Maar komt op zoo’n moment<c type="kk">/</c> vroeger of later<c type="kk">/</c> iemand van de beschaving me in den weg dan zou hij wel eens dingen kunnen hooren die zoo tamelijk ontnuchterend waren.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Gij zult mij nu vragen Theo<c type="kk">/</c> of dit een en ander ook op U slaat<c type="kk">/</c> ik zeg daarop<c type="kk">/</c> Theo wie heeft mij brood gegeven en geholpen<c type="kp">_</c> ik meen gij – het slaat dus zeer zeker niet op U. Alleen komt de gedachte wel eens bij mij op<c type="kk">/</c> waarom is Theo geen schilder<c type="kk">/</c> zal hij zich in die beschaving niet eindelijk gaan vervelen. Zal hij niet later spijt hebben dat hij de beschaving maar gelaten heeft en een handwerk geleerd<c type="kk">/</c> een vrouw getrouwd<c type="kk">/</c> een kiel aangetrokken. Maar er kunnen redenen zijn die ik niet apprecieeren kan<c type="kk">/</c> dus genoeg. In zake van liefde weet ik niet of gij datgene reeds weet wat eigentlijk ’t A<c type="kp">_</c>B.C. is. Vind ge dat pretentieus van me. Ik bedoel er mede dat men ’t best voelt wat liefde is als men zit bij een ziekbed<c type="kk">/</c> soms zonder een cent in den zak. Het is geen aardbeien plukken in de lente<ptr target="#note-t-14"/> – dat duurt maar enkele dagen en de meeste maanden zijn graauw en somberder, doch in die somberheid leert men iets nieuws en soms is het mij als wist gij dat en soms denk ik<c type="kk">/</c> hij weet het niet<c type="kp">_</c></p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Ik wil het huiselijk lief en leed zelf door om het te kunnen teekenen uit eigen ondervinding. Toen ik uit Amsterdam was voelde ik mijn liefde die toch opregt<c type="kk">/</c> toch ongeveinsd was en sterk<c type="kk">/</c> letterlijk <hi rend="italics">doodgeslagen</hi> – doch na den dood staat men op uit den dood<c type="kp">_</c> Resurgam.<ptr target="#note-t-15"/> Ik heb toen Christien gevonden. Aarzelen<c type="kk">/</c> uitstellen kwam niet te pas. Er moest gehandeld worden. Als ik haar niet trouw dan was het vriendelijker van mij geweest indien ik mij maar niet met haar had bemoeid. Doch door dezen stap ontstaat er een kloof<c type="kk">/</c> ik doe dan zoo beslist als ’t maar kan wat men noemt “uit zijn stand gaan” maar dat is niet verboden en dat is niet slecht ofschoon de wereld het verkeerd noemt. Ik rigt mijn huishouden in als een arbeidershuishouden. Ik ben daar meer in t’huis<c type="kk">/</c> ik heb het reeds vroeger gewild doch het toen niet kunnen uitvoeren. Ik hoop dat gij over de kloof heen mij de hand zult blijven reiken. Ik heb gesproken over frs 150 per maand. gij zegt dat ik meer noodig heb. Wacht eens. Mijn uitgaven gingen nooit gemiddeld frs 100 per maand te boven sedert ik bij Goupil vertrok behalve als er reizen tusschenbeiden kwam. En bij Goupil had ik eerst dertig gulden en later frs 100<c type="kp">_</c></p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Nu deze laatste maanden had ik meer uitgaven doch ik heb mij moeten vestigen<c type="kk">/</c> en ik vraag het U<c type="kk">/</c> zijn die uitgaven onredelijk of buitensporig<c type="kp">_</c> Te meer als gij weet wat daar bij kwam<c type="kp">_</c> En hoe dikwijls dikwijls in die lange jaren had ik veel minder dan frs 100.– En als ik door reizen soms uitgaven had<c type="kk">/</c> heb ik mijn talen niet geleerd en mij ontwikkeld – is dat geld in ’t water.</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Nu is het noodig ik een regt pad voor mijn voeten maak.<ptr target="#note-t-16"/> Stel ik het trouwen uit dan is er iets scheefs in mijn positie dat mij tegen de borst stuit<c type="kp">_</c> Zij en ik willen ons bekrimpen en behelpen mits wij maar trouwen.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Ik ben 30<c type="kk">/</c><ptr target="#note-t-17"/> zij 32<c type="kk">/</c> dus wij beginnen niet als kinderen. Wat betreft haar moeder en haar kind<c type="kk">/</c> het laatste neemt haar smet weg; voor eene vrouw die moeder is heb ik respect en ik vraag niet naar haar verleden. Ik ben blij dat zij een kind heeft<c type="kk">/</c> daardoor juist weet zij wat zij weten moet<c type="kp">_</c> Haar moeder is zeer werkzaam en verdiende wel een ridderkruis omdat zij gedurende jaren een gezin van 8 kinderen<ptr target="#note-t-18"/> er boven op gehouden heeft. Zij zou geen afhankelijkheid willen<c type="kk">/</c> zij verdient haar onderhoud door uit werken te gaan<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Ik schrijf U s’avonds laat. Christien is niet wel en de tijd van haar vertrek naar Leiden is op handen. Gij moet ’t mij vergeven als dit schrijven slordig is want ik ben moede.<ptr target="#note-t-19"/></p>
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>
+
+<p rend="indent" xml:id="p.nl.33" n="33">En toch<c type="kk">/</c> na Uw brief wilde ik U schrijven. Te Amsterdam ben ik zoo gedecideerd geweigerd<c type="kk">/</c> zoo afgescheept dat het dolzinnig geweest ware van mij door te gaan.</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Maar had ik toen wanhopig moeten worden<c type="kk">/</c> in ’t water springen of zoo iets<c type="kp">_</c> à Dieu ne plaise<c type="kp">_</c>– Dat zou ik gedaan hebben als ik een slecht mensch geweest was.– Ik heb mij vernieuwd<c type="kk">/</c> niet expres doch omdat ik gelegenheid tot vernieuwing vond en niet weigerde op nieuw te beginnen.</p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Nu echter is het een ander geval en Christien en ik begrijpen elkaar beter<c type="kk">/</c> wij hoeven aan niemand ons te storen doch zijn er natuurlijk verre van daan de pretentie te hebben een stand te voeren.</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">De vooroordeelen van de wereld kennende weet ik dat ’t geen mij te doen staat is zelf mij terug te trekken uit den kring van mijn stand die trouwens al lang mij uitgestooten heeft. Maar dan is er ook niets meer te zeggen en verder mag men niet gaan. Mijn persoonlijke vrijheid mag men niet aantasten<c type="kk">/</c> zulks heb ik mijn Vader in der tijd vierkant genoeg gezegd bij gelegenheid van de affaire Gheel<ptr target="#note-t-20"/> waar hij me caseeren<ptr target="#note-t-b"/> wilde in een gekkenhuis.– Zij en ik zijn meerderjarig dus als Pa zich verzet dan moet hij zijne weigering maar overeenkomstig de wet opstellen en moet de regter beslissen. Ik hoop echter zulks niet noodig zal zijn en wij het wat vreedzamer zullen kunnen tot stand brengen.</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Het kan zijn ik nog een tijd wacht voor wij zamen gaan wonen in geval van al te 
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>moeielijke omstandigheden doch ook dan wil ik trouwen – zonder iemand er kennis van te geven<c type="kk">/</c> geheel in stilte<c type="kp">_</c> Maakt iemand er leven over<c type="kk">/</c> ik zal er mij niets van aan trekken. Daar zij Roomsch is is het trouwen nog eenvoudiger want de kerk is van zelf buiten kwestie<c type="kk">/</c> noch zij noch ik willen er iets mee te maken hebben. Ge zult zeggen<c type="kk">/</c> dat’s kort en bondig<c type="kp">_</c>– Que soit. Ik wil van een ding maar weten: het teekenen<c type="kk">/</c> en zij heeft ook èèn vast werk: poseeren. Ik wenschte van harte dat ’t mij mogelijk was de woning hier naast te nemen<c type="kk">/</c> die is precies groot genoeg omdat de zolder zoo is dat men er slaapvertrek van maken kan en het atelier<c type="kk">/</c> goed van grootte en licht<c type="kk">/</c> veel beter dan hier. Doch zal dat kunnen? Maar al was het maar een hok waarin ik moet gaan wonen<c type="kk">/</c> ik heb liever een korst brood bij mijn eigen haard<c type="kk">/</c> hoe arm ook<c type="kk">/</c> dan te leven zonder haar te trouwen.</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Zij weet wat armoede is<c type="kk">/</c> ik ook<c type="kk">/</c> Tersteeg weet daar geen bliksem van en gij Theo<c type="kk">/</c> weet het ook niet. Armoede heeft voor en heeft tegen<c type="kp">_</c> Ondanks armoede wagen wij het<c type="kp">_</c> De visschers weten dat de zee gevaarlijk is en de storm geducht <hi rend="italics">maar hebben nooit</hi> <hi rend="italics">kunnen inzien dat de gevaren</hi> <hi rend="italics">redenen waren om op ’t strand te</hi> <hi rend="italics">blijven kuijeren</hi>. Die wijsheid laten ze over voor wie er trek in heeft. Komt de storm – daalt de nacht – wat is erger<c type="kk">/</c> het gevaar of de vrees van het gevaar. Dan maar de werkelijkheid<c type="kk">/</c> ’t gevaar zelf. adieu Theo, het is laat. neem mij dit schrijven niet kwalijk<c type="kk">/</c> ik ben moe en wilde toch schrijven<c type="kk">/</c> ik wou dat gij ’t be<c type="shy">-</c>grijpen kondet en dat ik het duidelijker en vriendelijker wist te zeggen doch neem het niet op als eene beleediging, &amp; geloof me</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.39" n="39">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.40" n="40">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="4r" n="13" xml:id="pb-orig-4r-13" facs="#zone-pb-4r-13"/>
+
+<p xml:id="p.nl.41" n="41">Ik geloof (of liever er is een schemering van beginnen te gelooven) dat de mogelijkheid bestaat dat de gedachte “Theo zal zijn hulp intrekken indien ik hem tegenspreek” &amp;c<c type="kp">_</c> &amp;c. misschien ten eene male overbodig is. Doch Theo<c type="kk">/</c> ik heb het zoo dikwijls gezien dat dergelijke dingen gedaan werden<c type="kk">/</c> dat ik er U niet minder om achten zou en niet boos op U zijn indien gij zulks deed. Omdat ik denken zou<c type="kk">/</c> hij weet niet beter<c type="kk">/</c> ze doen allemaal zoo<c type="kk">/</c> in onnadenkendheid doch niet uit kwaadaardigheid. Indien ik Uwe hulp behoud zoo is dat iets geheel nieuws<c type="kk">/</c> een buitenkansje op ’t welk ik niet gerekend heb. Want ik heb geruimen tijd geloopen om zoo te zeggen, steeds met dat allerergste voor oogen en Christien ook omdat ik haar steeds voorgespiegeld heb: “meid<c type="kk">/</c> maar ik vrees dat er een tijd zal komen dat ik geheel broodeloos ben”. Ik heb U dat echter niet gezegd voor ’t in de rede te pas kwam. Indien gij mij Uwe hulp laat behouden dan 
+<pb f="4v" n="14" xml:id="pb-orig-4v-14" facs="#zone-pb-4v-14"/>is dat eene uitkomst<c type="kk">/</c> eene verlossing zóó ongedacht, zóó ongehoopt dat ik er geheel door van streek zou zijn van vreugde<c type="kk">/</c> en nu<c type="kk">/</c> ik durf er niet aan denken en schuif de gedachte met wilskracht van mij af<c type="kk">/</c> zelfs terwijl ik er U er over schrijf met vaste hand<c type="kk">/</c> om niet zwak te worden.</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Het geen ik dezen winter ondervond in zake Mauve is mij een les geweest waardoor ik sedert mij voorbereid heb op het ergste... een doodvonnis van U. n.l. het ophouden van Uwe hulp.</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Gij zult zeggen<c type="kk">/</c> die hulp heeft toch niet opgehouden... maar ik ontving haar met eene zekere koelheid<c type="kk">/</c> denkende<c type="kk">/</c> hij weet nog niet alles wat hij eens weten zal en voor de crisis er geweest is heb ik geen rust en blijf waken<c type="kk">/</c> bereid op ’t ergste.</p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">Nu is de crisis en ik kan nog niet beslissen<c type="kk">/</c> ik durf nog niet te hopen. Tot Christien heb ik gezegd<c type="kk">/</c> ik zal U wel brengen tot Leiden. Als ge uit Leiden terugkomt weet ik niet hoe ge mij vinden zult<c type="kk">/</c> met of zonder brood doch 
+<pb f="4v" n="15" xml:id="pb-orig-4v-15" facs="#zone-pb-4v-15"/>wat ik heb dat is van U en van ’t kind evenzeer als van mijzelf. Christien weet geen details – en vraagt ook niet<c type="kk">/</c> wetende dat ik opregt met haar doe en willende met mij zijn quand bien même. Het postcriptum in Uw laatsten brief gaf mij te denken... ik dacht hoe bedoelt hij dat.. Maar tot nu toe heb ik U steeds beschouwd als zullende waarschijnlijk U van mij afkeeren zoodra gij alles wist<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Zoodat ik leefde bij den dag maar met eene sombere vrees voor het ergste waarvan ik mij nog niet ontheven durf rekenen. Ik heb ook gewerkt bij den dag<c type="kk">/</c> niet durvende meer teeken- of schilderbehoeften bestellen dan ik bij den dag betalen kon, geen dingen van schilderen b.v. durvende te ondernemen<c type="kk">/</c> niet ’t zoo durvende aanpakken als ik doen zou indien ik er op rekende dat de verhouding met Mauve &amp; H<c type="kp">_</c>G.T<c type="kp">_</c> teregt zou komen. Denkende dat indien hun vriendelijkheid oppervlakkig was<c type="kk">/</c> hun onvriendelijkheid dieper zat en enfin<c type="kk">/</c> ’t woord van Mauve “’t is glad uit” heb ik serieus opgenomen<c type="kk">/</c> niet toen hij ’t mij zeide (want toen was ik er koel genoeg tegen in en braveerde het zooals de indianen als zij gemarteld worden zeggen “’t doet me geen zeer”) maar sedert hij mij schreef “in twee maanden bemoei ik mij niet met U.” Sedert ik het pleister kapot gooide enfin.–<ptr target="#note-t-21"/></p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Kortom, <hi rend="italics">voor mij zelf</hi> heb ik steeds gerekend<c type="kk">/</c> ik heb van Mauve en Tersteeg niets meer te wachten en ik zal God danken als Theo ’t zoo lang volhoud mij ’t noodige te zenden dat ik Christien behouden te Leiden kan brengen en dan zal ik ’t hem 
+<pb f="4r" n="16" xml:id="pb-orig-4r-16" facs="#zone-pb-4r-16"/>verklaren en zeggen<c type="kk">/</c> houd op – dit en dat heb ik gedaan.</p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">Begrijpt gij hier iets van –..</p>
+
+<p rend="indent" xml:id="p.nl.48" n="48">Zoodat ik nu U schrijf zoo als ik sprak tot Mauve toen hij zei<c type="kk">/</c> ’t is glad uit – haast uitdagend – op ’t ergste bereid – koelbloedig – sarkastisch – en toch doodelijk ernstig<c type="kk">/</c> U niet sparend<c type="kk">/</c> U hekelend om Uw vormen doch niet ligtzinnig maar..... IN DAMNED EARNEST<c type="kp">_</c>–<ptr target="#note-t-22"/> </p>
+
+<p rend="indent" xml:id="p.nl.49" n="49">Verstaat ge nu – pas doorgemaakt hebbende die vreeselijke spanning met Christien maar zij gered zijnde<c type="kk">/</c> nu mij verklarende<c type="kk">/</c> zeggende: Heeren: ziehier mijn nek – ik verklaar mij schuldig in zoover dat ik voor U allen iets achterwege gehouden heb dat geld gekost heeft maar er was een menschen<c type="shy">-</c>leven te redden en ik wilde er niet over spreken doch wilde ’t redden quand même<c type="kk">/</c> maar nu – ... ik ben als ge mij veroordeelt schuldig en zal niet protesteeren<c type="kp">_</c>– Voor Uw geld lever ik werk maar is ’t niet voldoende dan ben ik U schuldig en heb niet om terug te geven<c type="kp">_</c>– Ik ben bereid op Uwe ongenade doch niet op Uwe genade... daar heb ik nooit op gerekend en ik weet niet hoe ik ’t heb...... hoe is het ??? ik heb mij bereid op het ergste en heb niet gehoopt op iets minder erg, hoe staat het – maar spreek duidelijk.–</p>
+
+<p rend="indent" xml:id="p.nl.50" n="50">Kortom ik wist zeer wel dat ik mij in ’t oog van de wereld compromitteerde door X<hi rend="super">tn</hi> te helpen en ik rekende er of liever reken er nog niet op dat gij nog met mij zoudt willen te doen hebben nadat gij weten zoudt dat ik mij gecompromitteerd had<c type="kp">_</c>– Maar ik kon haar niet aan haar lot overlaten<c type="kk">/</c> ik wilde haar redden ofschoon mijn kop er misschien bij gewaagd was. En nu weet ik nog niet of het “POLLICE VERSO”<ptr target="#note-t-23"/> is <hi rend="italics">ja</hi> dan <hi rend="italics">neen</hi>??? indien ja: “<hi rend="italics">Morituri te salutant</hi>”<c type="kp">_</c><ptr target="#note-t-24"/> ik heb wel de duimen zien bewegen doch weet niet of zij naar boven of naar onderen wijzen.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">If I’m to give you a better understanding of what I’ve already written to you about, you’ll have to know where its origin lies. And I mustn’t tone down anything about my visit to Amsterdam. But I begin by asking you not to regard it as impertinent if I have to disagree with you. <hi rend="italics">And first of all thank you sincerely for the 50 francs you enclosed</hi>. If I don’t put it forcefully it will be no use to you, but I would keep silent if you made it a precondition that I give in. I don’t believe that you’re making such a precondition, and you yourself will perhaps not find it unnatural that there are aspects of life that are less developed in you than your understanding of business, about which I freely grant that you’re far better informed than I, and shan’t lightly dare to say to you this or that isn’t so. On the contrary, especially when you explain a little to me, I often feel that your grasp of things is better than mine. But on the other hand, when it comes to love — I’m sometimes astonished by your views. And I even want — please forgive me — to add something new. Your last letter about <rs type="person" ref="bio.xml#_323">M.</rs> and <rs type="person" ref="bio.xml#_787">H.G.T.</rs> proved to me that you appear to have a firm foothold in the circle and class of M. and H.G.T. and a way of behaving that isn’t mine, so that you get on well with them whereas I do not. But outside that class your view is superficial and prejudiced. For your last letter gave me more food for thought than you may realize. My mistake lies here, it seems to me, and this is the true reason for my being fobbed off. If one has no money, one is by definition ineligible from the start, and so it was a mistake and short-sighted of me to take what M. said literally, and to think even for a moment: H.G.T. will remember that I’ve already been through so much trouble.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">These days, money is what might is right was in the past. Contradicting someone is fatal, and if you do it their reaction is not to reflect but to give you a punch in the throat. That’s to say, in the shape of ‘I shan’t buy anything by him any more’ or ‘I won’t help him again’. </p>
+<p rend="indent" xml:id="p.en.4" n="4">This being the case, I risk my head if I argue with you but, Theo, I don’t know what else I can do — if it must go, here’s my neck. You know my circumstances and that my living or not living, as it were, depends on your help. But I’m caught in a dilemma. If I reply to your letter: Yes, Theo, you’re right, I’ll give up <rs type="person" ref="bio.xml#_463">Christien</rs>, then in the first place I’ll be telling an untruth by saying you’re right, and in the second I’ll be committing myself to do something terrible. If I contradict you, and you do the same as <rs type="person" ref="bio.xml#_787">H.G.T.</rs> and <rs type="person" ref="bio.xml#_323">M.</rs>, I get it in the neck, in a manner of speaking. </p>
+<p rend="indent" xml:id="p.en.5" n="5"><hi rend="italics">Well, in God’s name off with my head if you must</hi>. The alternative is even worse.</p>
+<p rend="indent" xml:id="p.en.6" n="6">So here begins a short text in which I’ll state some things frankly which I think you may take in such a way that you withdraw your help, but to be silent in order to keep your help seems to me a poor way to act, and I would rather risk the worst. If I can make clear to you what I believe you do not yet understand, things will go better for <rs type="person" ref="bio.xml#_463">Christien</rs> and her <rs type="person" ref="bio.xml#_467">child</rs> and myself. And to achieve that, I must venture to say what I shall say.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">To express what I felt for <rs type="person" ref="bio.xml#_776">Kee Vos</rs>, I said plainly: she and no other.<ptr target="#note-t-1"/> Her ‘no, nay, never’ wasn’t enough to make me give her up. I still had hope, and despite that — which I believed was a block of ice that would melt — my love remained strong. </p>
+<p rend="indent" xml:id="p.en.8" n="8">Yet I had no rest. The tension became unbearable because she stayed silent all the time, because I never received so much as a syllable in reply. </p>
+<p rend="indent" xml:id="p.en.9" n="9">Then I went to Amsterdam. There I was told... When you are in the house <rs type="person" ref="bio.xml#_776">Kee</rs> will leave it. Your ‘she and no other’ is opposed by her ‘certainly not him’ — your persistence is <hi rend="italics">sickening</hi>. I put my fingers in the flame of the lamp and said, let me see her for as long as I hold my hand in the flame, and it’s no wonder that later <rs type="person" ref="bio.xml#_787">H.G.T.</rs> might have looked at my hand. </p>
+<p rend="indent" xml:id="p.en.10" n="10">But they blew the lamp out, I believe, and said, <hi rend="italics">you shall not see her</hi>. And then afterwards I had a talk with her <rs type="person" ref="bio.xml#_778">brother</rs>,<ptr target="#note-t-2"/> who said, officially or unofficially, that nothing but <hi rend="italics">rijksdaalders</hi><ptr target="#note-t-3"/> would have any effect. Official or unofficial, I find both equally vile, and when I left Amsterdam I felt as if I had been on the slave market. You see, to me that was just crass, especially when they spoke of my coercion, and I felt that the things they told me were meant to beat me to death, and that my ‘she and no other’ was beaten to death. It wasn’t straightaway but still quickly enough that I <hi rend="italics">felt </hi>that love<hi rend="italics"> die</hi>, to be replaced by a void, an infinite void. Now, as you know, I believe in God, I did not doubt the power of love. But then I felt something like, My God, my God, why hast thou forsaken me?<ptr target="#note-t-4"/> And nothing made sense any more. I thought, have I deluded myself?......... O God, there is no God!<ptr target="#note-t-5"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> I couldn’t bear that horrible, cold reception in Amsterdam —people reveal their true colours when it comes to settling accounts.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Would the<rs type="person" ref="bio.xml#_318"> Rev. J.P.S.</rs> and the <rs type="person" ref="bio.xml#_526">Rev. T. v. G.</rs>, looking so respectable in their robes and with their grey hair, dare to preach about love from the pulpit the way they talk about it behind closed doors? They would not.</p>
+<p rend="indent" xml:id="p.en.12" n="12">I thought of the words of the prophet: ‘Ancients of Israel, what do ye in the dark?’,<ptr target="#note-t-6"/> words directed at deceitful priests who were influenced by bribes. </p>
+<p rend="indent" xml:id="p.en.13" n="13">Enough. I was distracted and cheered up by <rs type="person" ref="bio.xml#_323">Mauve</rs>. I threw myself into my work with all my strength. Then, after M. let me down and I was ill for a few days, at the end of January I met <rs type="person" ref="bio.xml#_463">Christien</rs>.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Theo, you say that if I had truly loved <rs type="person" ref="bio.xml#_776">K.V.</rs> I wouldn’t have done that. But now do you understand better that I couldn’t go on after what had been said in Amsterdam? — should I have despaired then? — why should an honest man despair? — I’m no blackguard, I do not deserve to be treated so dreadfully. Well, what can they do? True, they had the whip hand, they thwarted me in Amsterdam. But now I no longer ask their advice and, being of age, I ask: am I at liberty to marry, yes or no? Am I at liberty to put on a working man’s clothes and to live as a working man, yes or no? To whom am I accountable? Who will try to coerce me? </p>
+<p rend="indent" xml:id="p.en.15" n="15">If anyone wants to stop me, let him come forward! 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/> You see, Theo, I am faint and weary.<ptr target="#note-t-8"/> Think it over and you will understand. <rs type="person" ref="bio.xml#_526">Pa</rs>, <rs type="person" ref="bio.xml#_318">Uncle Stricker</rs>, <rs type="person" ref="bio.xml#_787">H.G.T.</rs> and I don’t know who else call themselves well-mannered, civilized people and they behave with a coarseness, a Jesuitism, an injustice that my soul abhors. Never ever is there a hint or shadow of remorse or an honest turning back to say, I did this or that, it was wrong. </p>
+<p rend="indent" xml:id="p.en.16" n="16">They have too much support, they know all too well that most people want to have things that way, and they keep in with everybody. </p>
+<p rend="indent" xml:id="p.en.17" n="17">If they take pleasure in that, if they think that it will work out well for them and that they’ll also be at peace with it at the end — well, let them go ahead — I can’t stop them. But for myself I may and must act according to my own conscience. And is my way less right because someone says, ‘You are straying from the right way’? <rs type="person" ref="bio.xml#_422">C.M.</rs> always talks about the right way too, just like <rs type="person" ref="bio.xml#_787">H.G.T.</rs> and the clergymen.<ptr target="#note-t-9"/> But C.M. also calls <rs type="person" ref="bio.xml#_1063">Degroux</rs> a common fellow,<ptr target="#note-t-10"/> so what is C.M.? In future I’ll let him talk; my ears are tired. To put it out of my mind, I’m going to lie in the sand in front of the roots of an old tree and draw them.<ptr target="#note-t-11"/> Wearing a linen smock and smoking my pipe and looking at the deep blue sky... or at the moss or the grass.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">That calms me down. And I feel equally calm when, for example, <rs type="person" ref="bio.xml#_463">Christien</rs> or her <rs type="person" ref="bio.xml#_464">mother</rs> poses and I work out the proportions and try to make the body with its long, undulating lines palpable under the folds of a black dress. </p>
+<p rend="indent" xml:id="p.en.19" n="19">Then I’m a thousand miles away from <rs type="person" ref="bio.xml#_422">C.M.</rs>, <rs type="person" ref="bio.xml#_318">J.P.S.</rs> and <rs type="person" ref="bio.xml#_787">H.G.T.</rs>, and much happier. </p>
+<p rend="indent" xml:id="p.en.20" n="20">But... alas, then the cares come and I have either to speak or write about money and it starts all over again. Then I think: <rs type="person" ref="bio.xml#_787">H.G.T.</rs> and <rs type="person" ref="bio.xml#_422">C.M.</rs> would do so much better if they didn’t interfere with my ‘way’ and just encouraged me to draw. You will say: C.M. does that, but let me explain why the order hasn’t been completed yet. <rs type="person" ref="bio.xml#_323">Mauve</rs> said to me: that uncle of yours only did that because he’d paid you a visit, but you should realize that it doesn’t mean anything and that immediately afterwards it will all be over, and then you won’t have anyone left. </p>
+<p rend="indent" xml:id="p.en.21" n="21">You must understand, Theo, <hi rend="italics">that I can’t bear that</hi>; if something like that is said to me, my hand goes limp as if paralyzed. Especially since <rs type="person" ref="bio.xml#_422">C.M.</rs> has also made remarks about manners, I believe.</p>
+<p rend="indent" xml:id="p.en.22" n="22">For <rs type="person" ref="bio.xml#_422">C.M.</rs> I’ve done 12 drawings for 30 guilders, that’s 2.50 apiece. It’s a tricky job involving more than 30 guilders’ worth of effort, and it isn’t fair to ask me to see it as a favour or something like that. I had already gone to a great deal of trouble for the other 6, I had done studies for them. That’s as far as I got. <hi rend="italics">I’ve already put the effort in for the new ones</hi>, so it’s not laziness 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> — I am paralyzed. </p>
+<p rend="indent" xml:id="p.en.23" n="23">Then I reason with myself: I shan’t take it to heart, but I’m nervous and a thing like that stays with me and comes back when I start work again. So that I have to change tack and work on other things.</p>
+<p rend="indent" xml:id="p.en.24" n="24">I don’t understand <rs type="person" ref="bio.xml#_323">Mauve</rs> — it would have been kinder of him never to have bothered with me. <hi rend="italics">What do you advise: should I carry on with the order for <rs type="person" ref="bio.xml#_422">C.M.</rs> or not</hi>? I didn’t know what to do.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Years ago there was a different tone among painters — now they devour each other and are fine gentlemen living in villas and intriguing. I prefer to be in Geest or another back street — drab, down at heel, muddy, sombre — but I’m never bored there, whereas I’m bored stiff in those mansions, and I think it’s a bad thing to be bored and so I say: I don’t belong there and I’m not going there any more. Thank God I have my work, but in order to work I still need money instead of earning it, and that’s the difficulty. If in a year’s time, or I don’t know how much longer or shorter, I can draw that Geest district or another street as I see it with the figures of old women, workers, girls, then <rs type="person" ref="bio.xml#_787">H.G.T.</rs> &amp;c. will be very pleasant, but then they’ll get my ‘go to hell’ and I’ll say, you left me in the lurch when I was in trouble, friend, I don’t know you, go away, you’re standing in my light. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">Oh Lord, why should I be afraid? What do I care about <rs type="person" ref="bio.xml#_787">H.G.T.</rs>’s ‘disagreeable’ and ‘unsaleable’? If occasionally I lose heart, I look at The diggers by <rs type="person" ref="bio.xml#_1226">Millet</rs><ptr target="#note-t-12"/> and The paupers’ pew by <rs type="person" ref="bio.xml#_1063">Degroux</rs><ptr target="#note-t-13"/> and then H.G.T. seems so small, so negligible, and all those remarks so pathetic that my good humour comes back and I light my pipe and get on with drawing. But if at such a moment, sooner or later, someone from civilization were to cross my path, he might just hear some things that were pretty sobering. </p>
+<p rend="indent" xml:id="p.en.27" n="27">Now you will ask, Theo, whether this applies to you too. In reply I say: Theo, who has given me bread and helped me? You, I believe, so it certainly doesn’t apply to you. Only sometimes the thought occurs to me: why isn’t Theo a painter, won’t he eventually become bored in that civilization in the end? Won’t he later be sorry that he abandoned civilization to learn a craft, marry a woman, put on a smock? But there may be reasons that I can’t appreciate, so enough. As for love, I don’t know whether you already know what its ABC really is. Do you think me arrogant? By that I mean that you feel what love is best when you sit beside a sickbed, sometimes without a penny in your pocket. This isn’t picking strawberries in the spring<ptr target="#note-t-14"/> — that only lasts a few days and most months are drab and more sombre, but in that sombreness one learns something new, and sometimes it seems to me that you know that, and sometimes I think, he doesn’t know it. 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">I want to go through the domestic joys and sorrows myself so that I can draw them from experience. After I had left Amsterdam I felt that my love, which was truly honest, truly unfeigned and strong, had been literally <hi rend="italics">beaten to death </hi>— yet after death one rises from the dead. Resurgam.<ptr target="#note-t-15"/> Then I found <rs type="person" ref="bio.xml#_463">Christien</rs>. It was no time to hesitate or delay. Action was required. If I don’t marry her, it would have been kinder of me not to have taken any interest in her. Yet through this step a gulf opens; I then ‘marry beneath my station’, as they say, as decisively as I possibly can, but that is not forbidden and not bad, even if the world calls it wrong. My domestic arrangements will be like those in a worker’s household. I’m more at home with that, I wanted to do it before but couldn’t put it into practice then. I hope that you’ll still extend your hand to me across the gulf. I mentioned 150 francs a month. You say I need more. Wait a moment. My expenses have never been more than 100 francs a month on average since I left Goupil, except for occasional travelling. And at Goupil I first had thirty guilders and later 100 francs. 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">Now, these last months I’ve had more expenses, but I’ve had to settle in, and I ask you: are these expenses unreasonable or excessive? Especially since you know what else was involved. And how often in those long years I had much less than 100 francs. And if I sometimes had expenses because of travelling, have I not improved my knowledge of languages and developed my mind? Was that money down the drain?</p>
+<p rend="indent" xml:id="p.en.30" n="30">Now I need to make a straight path for my feet.<ptr target="#note-t-16"/> If I postpone marriage, there will be something false in my position that will be repugnant to me. She and I are willing to scrimp and scrape as long as we marry.</p>
+<p rend="indent" xml:id="p.en.31" n="31">I am 30,<ptr target="#note-t-17"/> she 32, so we’re not starting out as children. As for her <rs type="person" ref="bio.xml#_464">mother</rs> and her <rs type="person" ref="bio.xml#_467">child</rs>, the latter removes her stain; I have respect for a woman who is a mother and I don’t enquire into her past. I’m glad that she has a child; because of that she knows what she should know. Her mother is very hard-working and deserves a medal for the way she has raised a family of 8 children<ptr target="#note-t-18"/> for years and kept their heads above water. She wouldn’t want there to be any dependence, she earns her living by going out to work.</p>
+<p rend="indent" xml:id="p.en.32" n="32">I’m writing to you late at night. <rs type="person" ref="bio.xml#_463">Christien</rs> is unwell and the time of her departure for Leiden is at hand. You must forgive me if my writing is sloppy, for I’m tired.<ptr target="#note-t-19"/> 
+<pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">And yet, after your letter I wanted to write to you. In Amsterdam I was so flatly refused, so fobbed off that it would have been lunacy to persist.</p>
+<p rend="indent" xml:id="p.en.34" n="34">But should I have despaired at that point? Jumped into the water or something like that? God forbid. I would have done that if I had been a bad person. I renewed myself, not on purpose but because I found an opportunity for renewal and didn’t refuse to begin again.</p>
+<p rend="indent" xml:id="p.en.35" n="35">This time, though, things are different and <rs type="person" ref="bio.xml#_463">Christien</rs> and I understand each other better. We needn’t take account of anyone, but of course are far from pretending to keep up a position. </p>
+<p rend="indent" xml:id="p.en.36" n="36">Knowing the prejudices of the world, I’m aware that what I must do is withdraw from my social circle, which cast me out long ago anyway. But then there’s nothing more to be said and one may go no further. My personal liberty may not be infringed. I told my Father that plainly enough at the time of the Geel affair,<ptr target="#note-t-20"/> when he wanted to pack me off to a madhouse. She and I are of age, so if <rs type="person" ref="bio.xml#_526">Pa</rs> is opposed he’ll have to register his refusal formally according to the law and the judge will have to decide. However, I hope that this won’t be necessary and that we can reach a resolution by rather more peaceful means.</p>
+<p rend="indent" xml:id="p.en.37" n="37">It may be that I wait a while before we start living together if our 
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/> circumstances are particularly difficult, but even then I want to get married — without telling anyone, completely quietly. If anybody makes a fuss, I won’t take any notice. Since she’s a Catholic, the wedding will be all the simpler, for the church is naturally out of the question; neither she nor I want to have anything to do with it. You will say, that’s short and to the point. So be it. I want to be concerned with one thing only, drawing, and she too has one regular occupation, posing. I sincerely wish that it were possible for me to take the house next door. It’s exactly big enough, because the attic can be turned into a bedroom and the studio is a good size and light, much better than here. But would it be possible? But even if I had to live in a hovel, I would rather have a crust of bread beside my own hearth, however poor, than live without marrying her. </p>
+<p rend="indent" xml:id="p.en.38" n="38">She knows what poverty is, so do I. <rs type="person" ref="bio.xml#_787">Tersteeg</rs> doesn’t know a damned thing about it, and neither do you, Theo. Poverty has its advantages and disadvantages. Despite poverty, we’ll take the chance. The fishermen know that the sea is dangerous and the storm fearsome, <hi rend="italics">but could never see that the dangers were a reason to continue strolling on the beach</hi>. They leave that wisdom to those to whom it appeals. When the storm comes — when night falls — what’s worse: the danger or the fear of danger? Give me reality, the danger itself. Adieu Theo, it’s late. Pardon me for this letter, I’m tired but wanted to write anyway. I wish you could understand and that I could put it in a clearer and friendlier way, but don’t take offence, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">Ever yours,</p>
+<p xml:id="p.en.40" n="40">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.41" n="41">
+<pb f="4r" n="13" xml:id="pb-trans-4r-13" facs="#zone-pb-4r-13"/></p>
+<p xml:id="p.en.42" n="42">I believe (or rather there’s a glimmer of beginning to believe) that there’s a possibility that the notion ‘Theo will withdraw his help if I argue with him’ &amp;c. &amp;c. may be utterly needless. But, Theo, I’ve seen things like that done so often that I wouldn’t respect you less and not be angry with you if you did likewise. Because I would think, he knows no better; they all behave like that, unthinkingly but not from malice. If I continue to receive your help, that will be something utterly new, a rare chance I haven’t counted on. Because for a considerable time I’ve gone around, so to speak, always with the prospect of the very worst before me, as has <rs type="person" ref="bio.xml#_463">Christien</rs>, because I continually said to her ‘Lass, I fear a time will come when I’m completely penniless’. But I haven’t said that to you before it was necessary. If you continue your help 
+<pb f="4v" n="14" xml:id="pb-trans-4v-14" facs="#zone-pb-4v-14"/> it is a solution, a deliverance, so unexpected, so undreamt-of, that I would be utterly overwhelmed by joy. And now, I daren’t think about it and resolutely push the thought away, even while I write to you about it with a steady hand, so as not to weaken.</p>
+<p rend="indent" xml:id="p.en.43" n="43">What I experienced this winter with <rs type="person" ref="bio.xml#_323">Mauve</rs> has been a lesson to me, making me prepare myself since then for the worst... a death sentence from you, that is, the ending of your help.</p>
+<p rend="indent" xml:id="p.en.44" n="44">You’ll say, but that help hasn’t stopped... but I received it with a certain reserve, thinking he doesn’t yet know everything he will know one day, and until the crisis comes I’ll have no rest and remain on guard, prepared for the worst.</p>
+<p rend="indent" xml:id="p.en.45" n="45">Now the crisis is here and I still can’t decide, I don’t dare hope yet. I’ve told <rs type="person" ref="bio.xml#_463">Christien</rs>: I’ll support you until Leiden. When you come back from Leiden, I don’t know how you’ll find me — with or without a penny — but 
+<pb f="4v" n="15" xml:id="pb-trans-4v-15" facs="#zone-pb-4v-15"/> what I have is as much yours and the <rs type="person" ref="bio.xml#_467">child</rs>’s as mine. Christien doesn’t know the details — and doesn’t ask, knowing that I deal honestly with her and wanting to be with me come what may. The postscript in your last letter made me think... I thought, how does he mean that?... But up to now I’ve always thought of you as likely to turn away from me as soon as you knew everything.</p>
+<p rend="indent" xml:id="p.en.46" n="46">So I lived by the day but with a sombre fear of the worst from which I dare not yet account myself freed. I also worked by the day, not daring to order more drawing or painting materials than I could pay for by the day, not daring to undertake anything in the way of painting, for example, not daring to tackle it as I would have done had I counted on relations with <rs type="person" ref="bio.xml#_323">Mauve</rs> and <rs type="person" ref="bio.xml#_787">H.G.T.</rs> being restored. Thinking that if their friendliness was superficial, their unfriendliness went deeper, and anyway, I took seriously what Mauve said, ‘it’s all over’, not when he said it to me (for then I took it coolly enough in a spirit of bravado like the Indians who say ‘it doesn’t hurt at all’ when they’re tortured), but since he wrote to me ‘I don’t want to have anything to do with you for two months’. Since I broke the plaster casts.<ptr target="#note-t-21"/></p>
+<p rend="indent" xml:id="p.en.47" n="47">In short, I’ve always argued <hi rend="italics">to myself</hi>: I can expect nothing more from <rs type="person" ref="bio.xml#_323">Mauve</rs> and <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, and I’ll thank God if Theo carries on sending me the needful long enough for me to support <rs type="person" ref="bio.xml#_463">Christien</rs> safely until Leiden, and then I’ll 
+<pb f="4r" n="16" xml:id="pb-trans-4r-16" facs="#zone-pb-4r-16"/> explain to him and say, stop, this is what I’ve done. </p>
+<p rend="indent" xml:id="p.en.48" n="48">Do you understand any of this?... </p>
+<p rend="indent" xml:id="p.en.49" n="49">So I’m writing to you now as I spoke to <rs type="person" ref="bio.xml#_323">Mauve</rs> when he said, ‘it’s all over’ — almost as a challenge — prepared for the worst — cold-bloodedly — sarcastically — and yet deadly serious, not sparing you, criticizing you for your conventions, yet not frivolously but... IN DAMNED EARNEST.<ptr target="#note-t-22"/> </p>
+<p rend="indent" xml:id="p.en.50" n="50">Do you understand now? Having just gone through the dreadful suspense with <rs type="person" ref="bio.xml#_463">Christien</rs>, but she having pulled through, I am now pleading, declaring, Gentlemen, here is my neck. I plead guilty in that I hid from all of you something that has cost money, but there was a human life to be saved and I wanted to save it come what may, not talk about it. But now... if you condemn me I’ll be guilty and shan’t protest. I supply work for your money, but if it isn’t enough then I’m in your debt and can’t repay you. I’m prepared for your displeasure but not for your mercy... I’ve never counted on that and I don’t know how I stand...... what is it to be??? I’ve prepared myself for the worst and not hoped for anything less bad. What’s the position? But speak clearly. </p>
+<p rend="indent" xml:id="p.en.51" n="51">In short, I knew very well that I was compromising myself in the eyes of the world by helping <rs type="person" ref="bio.xml#_463">Christien</rs>, and I did not, or rather still do not, count on your wanting to have anything to do with me after knowing that I compromised myself. But I couldn’t leave her to her fate. I wanted to save her, even though my head might be at stake. And now I still don’t know whether it’s to be ‘POLLICE VERSO’,<ptr target="#note-t-23"/> <hi rend="italics">yes</hi> or <hi rend="italics">no</hi>??? If it’s yes: ‘<hi rend="italics">Morituri te salutant</hi>’.<ptr target="#note-t-24"/> I’ve seen the thumbs move, but don’t know whether they’re pointing up or down. </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent explicitly continues with his first response to Theo’s reaction after the news about Sien, i.e. with <ref target="let227.xml">letter 227</ref>: he wants to give Theo a ‘better understanding’ <ref target="#l-2">(l. 2)</ref>. Assuming that Theo did not send a second letter in the interval, the 50 francs must have been enclosed with Theo’s letter of 13 May. Vincent had not thanked him for them in <ref target="let227.xml">letter 227</ref>, which is why he does so here ‘first of all’ (that is, before writing anything else) (<ref target="#l-7">l. 7a</ref>, which was added later).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Both the need to correct this omission and the urge to justify his actions in more detail make it likely that the letter was written shortly after <ref target="let227.xml">letter 227</ref>. The interval cannot be determined exactly, but we assume it was one or two days after <ref target="let227.xml">letter 227</ref>, thus on or about Tuesday, 16 May 1882. (See also under <hi rend="italics">Additional details</hi>.)</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The fourth sheet <ref target="#l-397">(ll. 397-508)</ref> is a different kind of paper; moreover, Van Gogh writes before the signature that it is late and he is tired. Given, however, that there is no other letter to which this sheet could more justifiably be added, it is left here, as in previous editions. It is possible nonetheless that the letter was continued at a later date. </p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh’s relationship with Sien <ref target="let224.xml">(224)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Strained relations with Mauve and Tersteeg (<ref target="let209.xml">209</ref> and <ref target="let208.xml">208</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent rejected by Kee Vos (<ref target="let179.xml">179</ref> and <ref target="let193.xml">193</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Orders for drawings from Uncle Cor (<ref target="let210.xml">210</ref> and <ref target="let214.xml">214</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="ogt_5">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh wants to move to the house next door <ref target="let222.xml">(222)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="ogt_6">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sien will give birth in Leiden <ref target="let224.xml">(224)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Based on ‘<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Elle</hi>, et non une autre’ from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_707">Jules Michelet</rs>, <ref target="biblio.xml#lit_11"><hi rend="italics">L’amour</hi></ref>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let180.xml#n-5">see letter 180, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The reference is to Kee’s brother <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_778">Johannes (Jan) Andries Stricker</rs>. Van Gogh mentioned earlier that he had spoken to his ‘learned professorial cousin Jan’ during the visit in question; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let193.xml">see letter 193</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>A rijksdaalder is 2.50 guilders.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+  Ps. 22:2; Matt. 27:46 and Mark 15:34.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Last line of <ref target="biblio.xml#lit_236"><hi rend="italics">Het gebed van den onwetende</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_710">Multatuli</rs>, quoted earlier in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let193.xml#n-22">letter 193, n. 22.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Variant of ‘markt’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Cf. Ezek. 8:12.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For this meeting, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let200.xml">letter 200</ref> of on or about 14 January: ‘I’m negotiating with a mother with a little child’. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Biblical; see Deut. 25:18; Isa. 40:28 and Isa. 40:30.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Biblical; cf. 2 Pet. 2:15.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Here a ‘common fellow’ means someone of bad character. Van Gogh referred earlier to a similar denigrating remark by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs> about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1063">Charles Degroux</rs>, and would do so again shortly afterwards: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let211.xml">see letters 211</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let236.xml">236</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let388.xml">388</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Cf. the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Study of a tree</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2371">F 933r / JH 142</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1876"><hi rend="italics">The two diggers</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let142.xml#n-18">see letter 142, n. 18.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1063">Charles Degroux</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1880"><hi rend="italics">The paupers’ pew</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let148.xml#n-12">see letter 148, n. 12.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The expression ‘picking strawberries in the spring’ comes from Theo: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let182.xml">see letter 182</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>‘I will rise again’. Taken from the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vulgate</hi>, Matt. 27:63.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>
+  Heb. 12:13.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Van Gogh was not 30; two months before he had turned 29.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_464">Maria Wilhelmina Hoornik-Pellers</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_465">Pieter Hoornik</rs> had a total of ten children. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_463">Sien</rs> was the oldest child in this Catholic family. After her father’s death in 1875, ‘the chairmaking business of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1792">Pieter Anthonie</rs>, the oldest son, supplemented what Sien and her mother could earn as seamstresses and charwomen, but in general the Hoorniks were poor and depended on public assistance or church charity ... For a time Sien and three of her brothers lived in the Catholic Orphanage as there was no adequate way to provide for them at home.’ Sien ‘relied on prostitution to survive’. See Zemel 1987, p. 353.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>Despite Van Gogh’s remark, the handwriting is not especially untidy. </p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>For the ‘Geel affair’,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let185.xml">see letter 185</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Means: ‘opbergen, wegstoppen’ (put away, hide away).</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Mauve</rs> not speaking to Van Gogh for two months and for the smashing of the plaster casts, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let219.xml">see letter 219</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>Van Gogh wrote the words <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">in damned earnest</hi> in extremely large letters and underlined them with a brush dipped in ink. The same words also occur in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let403.xml">letter 403</ref>. </p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>‘With the thumb turned down’ – in antiquity a sign from the emperor that the defeated gladiator should be killed (cf. Juvenal, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Saturae</hi> 3, 36).</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>‘Those who are about to die salute you.’ According to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1781">Suetonius</rs> (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_112">Claudius</ref></hi>, 21), these were the words spoken by the gladiators to the emperor Caesar before they entered into combat. Also quoted in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let234.xml">letter 234</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Tuesday, 10 September 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let801"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b653 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>801</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>605</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>802</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-09-10">Tuesday, 10 September 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000893_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000893_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000893_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000893_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000893_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000893_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000894_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000894_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000894_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000894_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000894_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000894_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000895_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000895_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0653 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000895_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000895_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">je trouve ta lettre<ptr target="#note-t-1"/> bien bonne<c type="kk">/</c> ce que tu dis de Rousseau et d’artistes tel que Bodmer<c type="kk">/</c> que c’est des <hi rend="italics">hommes</hi> en tout cas et de tels qu’on désirerait le monde peuplé de gens comme ça – oui certes c’est cela ce que moi je sens aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Et que J<c type="kp">_</c>H<c type="kp">_</c> Weissenbruch connaisse &amp; fasse les chemins de halage boueux<c type="kk">/</c> les saules rabougris<c type="kk">/</c> les raccourcis &amp; les perspectives savantes &amp; etranges des canaux “comme Daumier ses avocats”<c type="kk">/</c> je trouve cela parfait<c type="kp">_</c> Tersteeg a bien fait de lui acheter de son travail<c type="kk">/</c> que des gens comme ca ne se vendent pas cela vient selon moi parcequ’il y a trop de vendeurs qui cherchent à vendre autre chose<c type="kk">/</c> avec quoi ils trompent le public &amp; le devoyent<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Sais tu qu’encore aujourd’hui quand je lis par hasard l’histoire de quelqu’industriel energique ou surtout d’un editeur<c type="kk">/</c> qu’alors il me vient encore les mêmes indignations<c type="kk">/</c> les mêmes colères d’autrefois quand j’etais chez les G&amp;C<hi rend="super">ie</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">La vie se passe ainsi<c type="kk">/</c> le temps ne revient pas mais je m’acharne à mon travail<c type="kk">/</c> à cause de cela même que je sais que les occasions de travailler ne reviennent pas<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Surtout dans mon cas où une crise plus violente peut detruire à tout jamais ma capacité de peindre<c type="kp">_</c> Je me sens dans les crises lâche devant l’angoisse et la souffrance – plus lache que de juste<c type="kk">/</c> et c’est peutêtre cette lâcheté morale même qui<c type="kk">/</c> alors qu’auparavant je n’avais aucun desir de guerir<c type="kk">/</c> à présent me fait manger comme deux<c type="kk">/</c> travailler fort<c type="kk">/</c> me ménager dans mes rapports avec les autres malades de peur de retomber – enfin je cherche à guerir à present comme un qui aurait voulu se suicider<c type="kk">/</c> trouvant l’eau trop froide<c type="kk">/</c> cherche à ratrapper le bord<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">mon cher frère tu sais que je me suis rendu dans le midi et que je m’y suis lancé dans le travail pour mille raisons<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">vouloir voir une autre lumière<c type="kk">/</c> croire que regarder la nature sous un ciel plus clair peut nous donner une idee plus juste de la façon de sentir et de dessiner des Japonais. Vouloir enfin voir ce soleil plus fort parceque l’on sent que sans le connaitre on ne saurait comprendre au point de vue de l’exécution<c type="kk">/</c> de la technique<c type="kk">/</c> les tableaux de Delacroix et parceque l’on sent que les couleurs du prisme sont voilés dans de la brume dans le nord<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Tout cela reste un peu vrai. Puis lorsqu’à cela s’ajoute encore une inclinaison du coeur vers ce midi que Daudet a fait dans Tartarin<ptr target="#note-t-2"/> et que par ci par là moi j’ai trouvé aussi des amis et des choses que j’aime ici.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Comprendras tu alors que tout en trouvant horrible mon mal je sens que quand même je me suis fait des attaches un peu trop fortes ici – attaches qui peuvent faire que plus tard l’envie me reprenne de travailler ici – quand bien même il peut se faire que sous relativement peu je revienne dans le nord.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Oui car je ne te cache pas que de même que je prends à present de la nourriture avec avidité j’ai un desir terrible qui me vient de revoir les amis et de revoir la campagne du nord.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Le travail va fort bien<c type="kk">/</c> je trouve des choses que j’ai en vain cherché pendant des années et sentant cela je pense toujours à cette parole de Delacroix que tu sais<c type="kk">/</c> qu’il trouva la peinture n’ayant plus ni souffle ni dents<c type="kp">_</c><ptr target="#note-t-3"/> Eh bien moi avec la maladie mentale que j’ai<c type="kk">/</c> je pense à tant d’autres artistes moralement souffrants et je me dis que cela n’est pas un empêchement pour excercer l’etat de peintre comme si rien n’était<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Alors que je vois qu’ici les crises tendent à prendre une tournure religieuse absurde j’oserais presque croire que cela <hi rend="italics">nécessite</hi> meme un retour vers le nord<c type="kp">_</c>– Ne parlez pas trop de cela avec le médecin quand tu le verras<ptr target="#note-t-4"/> – mais je ne sais si cela ne vient pas de vivre tant de mois et à l’hospice d’Arles et ici dans ces vieux cloitres.<ptr target="#note-t-5"/> Enfin il ne faut pas que je vive dans un milieu comme cela<c type="kk">/</c> mieux vaut alors la rue. Je ne suis pas indifferent et dans la souffrance même quelquefois des pensées religieuse me consolent beaucoup. Ainsi cette fois ci pendant ma maladie il m’etait arrivé un malheur – cette lithographie de Delacroix<c type="kk">/</c> la piéta<c type="kk">/</c><ptr target="#note-t-6"/> avec d’autres feuiles etait tombée dans de l’huile et de la peinture et s’était abimée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">J’en étais triste – alors entretemps je me suis occupé à la peindre et tu verras cela un jour<c type="kk">/</c> sur une toile de 5 ou de 6 j’en ai fait une copie qui je crois est sentie<ptr target="#note-t-7"/> – d’ailleurs ayant vu il n’y a pas longtemps le Daniel et les odalisques et le portrait de Brias et la mulâtresse à Montpellier<c type="kk">/</c><ptr target="#note-t-8"/> je suis encore sous l’impression que cela m’a produit<c type="kp">_</c> Voila ce qui m’edifie ainsi que de lire un beau livre comme de Beecher Stowe ou de Dickens<c type="kp">_</c> Mais ce qui me gêne c’est de voir à tout moment de ces bonnes femmes qui croient à la vierge de Lourdes<ptr target="#note-t-9"/> et fabriquent des chôses comme ça et de se dire qu’on est prisonnier dans une administration comme ça<c type="kk">/</c> qui cultivent très volontiers ces aberrations religieuses maladives alors qu’il s’agirait de les guérir.<ptr target="#note-t-10"/> Alors je dis<c type="kk">/</c> encore mieux vaudrait aller sinon au bagne au moins au regiment.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Je me reproche ma lâcheté<c type="kk">/</c> j’aurais mieux dû defendre mon atelier<c type="kk">/</c> eussé je dû me battre avec ces gendarmes &amp; voisins.<ptr target="#note-t-11"/> D’autres à ma place se seraient servi d’un revolver et certes<c type="kk">/</c> eût on tué comme artiste des badauds comme cela<c type="kk">/</c> on aurait été acquitté<c type="kp">_</c> Là j’aurais mieux fait alors et maintenant j’ai été lâche et ivrogne<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Malade aussi mais je n’ai pas été brave<c type="kp">_</c> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Alors devant la Souffrance de ces crises je me sens tres craintif aussi et je ne sais donc si mon zèle soit autre chôse que ce que je dis<c type="kk">/</c> c’est comme celui qui veut se suicider et trouvant l’eau trop froide il lutte pour ratrapper le rivage<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais écoute – être en pension comme j’ai vu Braat dans le temps<ptr target="#note-t-12"/> – heureusement ce temps est loin<c type="kk">/</c> non et encore une fois <hi rend="italics">non</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Autre chôse serait si le père Pissaro ou Vignon par exemple voudraient me prendre chez eux<c type="kp">_</c>– Va je suis peintre moi – cela peut s’arranger et mieux vaut que l’argent aille pour nourrir des peintres qu’à les excellentes soeurs<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Hier j’ai demandé à brule pourpoint à M<c type="kp">_</c> Peyron: puisque vous allez à Paris<c type="kk">/</c> mais que diriez vous si je vous proposais de vouloir bien me prendre avec vous alors? Il a répondu d’une façon évasive – que c’etait trop vite<c type="kk">/</c> qu’il fallait t’écrire auparavant<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Mais lui est tres bon et tres indulgent pour moi et tout en n’etant pas le maitre absolu ici<c type="kk">/</c> loin de là<c type="kk">/</c> je lui dois beaucoup de libertés<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Enfin il ne faut pas seulement faire les tableaux mais aussi faut-il voir des gens et – de temps en temps par la frequentation d’autres aussi se refaire le temperament et s’aprovisionner d’idées.– Je laisse de côté l’esperance que cela ne reviendrait pas – au contraire il faut se dire que de temps en temps j’aurai une crise<c type="kp">_</c>– Mais alors on peut pour ce temps-là aller dans une maison de santé ou même à la prison communale où d’habitude il y a un cabanon<c type="kp">_</c> Ne te fais pas de mauvais sang dans aucun cas – le travail va bien et tiens<c type="kk">/</c> je ne saurais te dire combien ca me rechauffe parfois de dire<c type="kk">/</c> je vais encore faire ceci et cela<c type="kk">/</c> des champs de blé &amp;c<c type="kp">_</c>–</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.22" n="22">j’ai fait le portrait du surveillant et j’en ai une repetition pour toi<c type="kp">_</c><ptr target="#note-t-13"/> Cela fait un assez curieux contraste avec le portrait que j’ai fait de moi où le regard est vague et voilé<ptr target="#note-t-14"/> tandis que lui a quelque chose de militaire et des yeux noirs petits et vifs<c type="kp">_</c> Je lui en ai fait cadeau et je ferai aussi sa femme si elle veut poser<c type="kp">_</c><ptr target="#note-t-15"/> C’est une femme fanée, une malheureuse bien résignée et bien pas grand chôse et si insignifiant que moi j’ai grande envie de faire ce brin d’herbe poudreux là. J’ai causé quelquefois avec elle lorsque je faisais des oliviers derriere leur petit mas et alors elle me disait qu’elle ne croyait pas que j’étais malade – enfin cela tu le dirais à present aussi si tu me voyais travailler la pensée claire et les doigts si surs que j’ai dessiné sans prendre une seule mesure cette pieta de Delacroix où pourtant il y a ces quatre mains et bras en avant – gestes et tournures de corps pas précisément commodes ou simples<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Je t’en prie<c type="kk">/</c> envoie moi bientôt la toile si cela est possible et puis je crois que j’aurai besoin de 10 tubes de blanc de zinc en plus.<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Cependant je sais bien que la guerison vient<c type="kk">/</c> si on est brave<c type="kk">/</c> d’en dedans<c type="kk">/</c> par la grande resignation à la souffrance et à la mort<c type="kk">/</c> par l’abandon de sa volonté propre et de son amour propre. Mais cela ne me vient pas<c type="kk">/</c> j’aime à peindre<c type="kk">/</c> à voir des gens et des choses et tout ce qui fait notre vie – factice – si on veut. Oui la vraie vie serait dans autre chôse mais je ne crois pas que j’apartiens à cette catégorie d’âmes qui sont prêts à vivre et aussi à tout moment prêts à souffrir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Quelle drole de chôse que la <hi rend="italics">touche</hi><c type="kk">/</c> le coup de brosse<c type="kp">_</c> En plein air exposé au vent<c type="kk">/</c> au soleil<c type="kk">/</c> à la curiosité des gens<c type="kk">/</c> on travaille comme on peut<c type="kk">/</c> on remplit sa toile à la diable. Alors pourtant on attrape le vrai et l’essentiel – le plus difficile c’est ça<c type="kp">_</c>– Mais lorsqu’on reprend après un temps cette étude et qu’on arrange ses coups de brosse dans le sens des objets – certes c’est plus harmonieux et agreable à voir et on y ajoute ce qu’on a de serenité et de sourire<c type="kp">_</c></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.26" n="26">ah, jamais je ne pourrai rendre mes impressions de certaines figures que j’ai vues ici<c type="kp">_</c> Certes c’est la route où il y a du neuf la route du midi mais les hommes du nord ont du mal à pénétrer<c type="kp">_</c> Et je me vois déjà d’avance<c type="kk">/</c> le jour où j’aurai quelque succes<c type="kk">/</c> regretter ma solitude et mon navrement d’ici lorsque je vis à travers les barreaux de fer du cabanon le faucheur dans le champ en bas. A quelque chôse malheur est bon<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">Pour reussir<c type="kk">/</c> pour avoir prosperité qui dure il faut avoir un autre temperament que le mien<c type="kk">/</c> je ne ferai jamais ce que j’aurais pu et dû vouloir et poursuivre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Mais je ne peux vivre<c type="kk">/</c> ayant si souvent le vertige<c type="kk">/</c> que dans une situation de quatrieme<c type="kk">/</c> cinquieme rang. Alors que je sens bien la valeur et l’originalité et la superiorité de Delacroix<c type="kk">/</c> de Millet par ex.<c type="kk">/</c> alors je me fais fort de dire<c type="kk">/</c> oui je suis quelque chose<c type="kk">/</c> je peux quelque chôse<c type="kp">_</c> Mais il me faut avoir une base dans ces artistes-là et puis produire le peu dont je suis capable dans le même sens.</p>
+
+<p rend="indent" xml:id="p.fr.29" n="29">Le père Pissaro est donc bien cruellement frappé par ces deux malheurs à la fois<c type="kp">_</c><ptr target="#note-t-17"/></p>
+
+<p rend="indent" xml:id="p.fr.30" n="30">Dès que j’ai lu cela j’ai eu cette idée de te demander s’il y aurait moyen d’aller rester avec lui<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Si tu lui payes la même chôse qu’ici<c type="kk">/</c> il y trouvera son compte car j’ai pas besoin de grand chôse – que de travailler<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.32" n="32">Fais le donc carrément et s’il ne veut pas j’irais bien chez Vignon<c type="kp">_</c><ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">J’ai un peu peur de Pont Aven<c type="kk">/</c> il y a tant de monde. Mais ce que tu dis de Gauguin m’interesse beaucoup. Et je me dis toujours encore que G<c type="kp">_</c> et moi travaillerons peut etre encore ensemble. Moi je sais que G. peut des choses encore superieures à ce qu’il a fait mais de le mettre à l’aise celui là! J’espère toujours faire son portrait<c type="kp">_</c>– As tu vu ce portrait qu’il avait fait de moi peignant des tournesols<c type="kp">_</c><ptr target="#note-t-19"/> Ma figure s’est après tout bien éclairée depuis mais c’etait bien moi<c type="kk">/</c> extremement fatigué et chargé d’electricité comme j’etais alors.</p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Et pourtant pour voir le pays il faut vivre avec le petit peuple et dans les petites maisons<c type="kk">/</c> les cabarets &amp;c<c type="kp">_</c> Aussi c’etait ce que je disais à Bock qui se plaignait de ne rien voir qui le tentât ou lui causait une impression<c type="kp">_</c> Je me promène deux jours avec lui et je lui montre à faire trente tableaux aussi différents du nord que serait le Maroc. Je suis curieux de savoir ce qu’il fait dans ce moment.–</p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Et puis sais tu pourquoi les tableaux d’Eug<c type="kp">_</c> Delacroix – les tableaux religieux et d’histoire<c type="kk">/</c> la barque du Christ<ptr target="#note-t-20"/> – la pieta<c type="kk">/</c> les croisés<c type="kk">/</c><ptr target="#note-t-21"/> ont cette allure. Parceque Eug. Delacroix lorsqu’il fait un Ghetsemané a été voir auparavant sur place ce que c’était qu’un verger d’oliviers et ainsi pour la mer fouettée par un dur mistral et parcequ’il s’est dû dire<c type="kk">/</c> ces gens desquels nous parle l’histoire<c type="kk">/</c> doges de Venise<c type="kk">/</c> croisés<c type="kk">/</c> apôtres<c type="kk">/</c> saintes femmes<c type="kk">/</c> étaient du meme type et vivaient d’une facon analogue à ceux de leurs descendants actuels.</p>
+
+<p rend="indent" xml:id="p.fr.36" n="36">Aussi dois je te le dire et tu le vois dans la berceuse<c type="kk">/</c><ptr target="#note-t-22"/> quelque manqué que soit cet essai et faible. eussé je eu les forces pour continuer j’aurais fait des portraits de saints et de saintes femmes d’après nature et qui auraient paru d’un autre siècle et ce seraient des bourgeois d’à present et pourtant auraient eu des rapports avec des chretiens fort primitifs<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Les emotions que cela cause sont cependant trop fortes<c type="kk">/</c> j’y resterais – mais plus tard<c type="kk">/</c> plus tard je ne dis pas que je ne reviendrai pas à la charge.</p>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Quel grand homme que Fromentin – lui pour ceux qui voudront voir l’orient restera toujours le <hi rend="italics">guide</hi><c type="kp">_</c> Lui le premier a etabli des rapports entre Rembrandt et le midi<c type="kk">/</c> entre Potter et ce que lui il voyait.<ptr target="#note-t-23"/></p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">Tu as raison mille et mille fois – il ne faut pas songer à tout cela – il faut faire – fût ce des etudes de choux et de salade pour se calmer et après avoir été calmé alors – ce dont on sera capable<c type="kp">_</c>–</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.fr.40" n="40">Lorsque je les reverrai je ferai des repetitions de cette etude de la diligence de Tarascon<c type="kk">/</c><ptr target="#note-t-24"/> de la vigne<c type="kk">/</c><ptr target="#note-t-25"/> de la moisson<ptr target="#note-t-26"/> et surtout du cabaret rouge<c type="kk">/</c> ce café de nuit qui est comme couleur ce qu’il y a de plus caracteristique<c type="kp">_</c><ptr target="#note-t-27"/> Mais la figure blanche au milieu<c type="kk">/</c> juste comme couleur<c type="kk">/</c> doit etre refaite<c type="kk">/</c> mieux batie. Mais cela j’ose le dire c’est du midi vrai et une combinaison calculée des verts avec les rouges.</p>
+
+<p rend="indent" xml:id="p.fr.41" n="41">Mes forces ont été épuisés trop vite mais je vois de loin la possibilité pour d’autres de faire une infinité de belles choses. Et encore et encore reste vrai cette idée que pour faciliter le voyage des autres il eût ete bien de fonder un atelier quelque part dans ces environs.</p>
+
+<p rend="indent" xml:id="p.fr.42" n="42">Faire d’un trait le voyage du nord en Espagne par ex. c’est pas bien<c type="kk">/</c> on n’y verra pas ce qu’on doit y voir – il faut <hi rend="italics">se faire les yeux</hi> d’abord et graduellement à l’autre lumiere.</p>
+
+<p rend="indent" xml:id="p.fr.43" n="43">Moi j’ai pas trop besoin de voir des Titien et des Velasquez dans les musées<c type="kk">/</c> j’ai vu certains types vivants qui font que je sais mieux ce que c’est qu’un tableau du midi à présent qu’avant mon petit voyage<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.44" n="44">Mon dieu<c type="kk">/</c> mon dieu les bonnes personnes dans les artistes qui disent que Delacroix n’est pas de l’orient vrai<c type="kp">_</c>– Tiens l’orient vrai c’est-il alors ce qu’ont fait les parisiens tel que Gerome<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.45" n="45">Parceque vous peignez un bout de mur ensoleillé<c type="kk">/</c> même sur nature et bien et vrai selon notre façon de voir <hi rend="italics">du nord</hi><c type="kk">/</c> cela prouve-t-il aussi que vous ayez vu les gens de l’orient. Or voila ce qu’y chercha Delacroix<c type="kk">/</c> ce qui ne l’a aucunement empeché de peindre des murs dans la noce juive<ptr target="#note-t-28"/> et les odalisques<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.46" n="46">N’est ce pas vrai cela – et alors de Gas dit que c’est payer ca trop cher de boire dans les cabarets en faisant des tableaux<c type="kk">/</c> je ne dis pas non<c type="kk">/</c> mais voudrait-il donc que j’aille dans les cloitres ou les eglises<c type="kk">/</c> là c’est moi qui ai peur<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.47" n="47">Ce pourquoi je fais un effort d’evasion par la présente<c type="kk">/</c> avec force poignées de main à toi et à Jo<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.48" n="48">t. à t.</p>
+
+<p xml:id="p.fr.49" n="49">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p xml:id="p.fr.50" n="50">il faut encore que je te felicite à l’occasion du jour de naissance de la mère<c type="kk">/</c><ptr target="#note-t-29"/> je leur ecrivais hier mais la lettre n’est pas encore partie à cause de ce que j’ai pas eu la tête à moi pour l’achever.</p>
+
+<p rend="indent" xml:id="p.fr.51" n="51">C’est drôle que déjà auparavant 2 ou 3 fois l’idée m’était venue d’aller chez Pissaro<c type="kk">/</c> cette fois-ci après que tu me racontes ses recents malheurs je n’hesite pas pour te le demander.</p>
+
+<p rend="indent" xml:id="p.fr.52" n="52">Oui il faudra en finir ici<c type="kk">/</c> je ne peux plus faire les deux choses à la fois<c type="kk">/</c> travailler et me donner mille peines pour vivre avec les droles de malades d’ici – ça detraque<c type="kp">_</c> En vain je voudrais m’efforcer de descendre<c type="kp">_</c> Et voila pourtant près de 2 mois que je n’ai pas ete en plein air<c type="kp">_</c><ptr target="#note-t-30"/></p>
+
+<p rend="indent" xml:id="p.fr.53" n="53">A la longue ici je perdrais la faculté de travailler or là commence mon halte-là et je les envoie alors<c type="kk">/</c> si tu es d’accord<c type="kk">/</c> promener<c type="kp">_</c>– Et payer encore pour cela<c type="kk">/</c> non<c type="kk">/</c> alors l’un ou l’autre dans le malheur parmi les artistes consentira à faire ménage avec moi.</p>
+
+<p rend="indent" xml:id="p.fr.54" n="54">Heureusement que tu puisses écrire que tu te portes bien et Jo aussi et que sa soeur est avec vous<c type="kp">_</c><ptr target="#note-t-31"/> Je voudrais bien moi que lorsque ton enfant viendra je sois de retour – non pas avec vous autres<c type="kk">/</c> certes <hi rend="italics">non</hi><c type="kk">/</c> cela n’est pas possible mais dans les environs de Paris avec un autre peintre.</p>
+
+<p rend="indent" xml:id="p.fr.55" n="55">Je pourrais<c type="kk">/</c> pour en citer un troisieme<c type="kk">/</c> aller chez les Jouve qui ont beaucoup d’enfants et tout un ménage<c type="kp">_</c><ptr target="#note-t-32"/></p>
+
+<p rend="indent" xml:id="p.fr.56" n="56">Tu comprends que j’ai cherché à comparer la deuxieme crise avec la première<ptr target="#note-t-33"/> et je ne te dis que ceci<c type="kk">/</c> cela me parait plutôt être je ne sais quelle influence du dehors qu’une cause venant d’en dedans de moi-même<c type="kp">_</c> Je peux me tromper mais quoi qu’il en soit je crois que tu trouveras juste que j’aie un peu horreur de toute exageration religieuse. Je pense involontairement au bon André Bonger qui lui jeta des hauts cris lorsqu’on voulait 
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>faire des essais sur lui avec je ne sais quel onguent. Le bon m<c type="kp">_</c> Peyron te raconteras des tas de chose<c type="kk">/</c> de probabilités et possibilités d’actes involontaires<c type="kp">_</c>– Bon mais s’il précise je n’en croirai rien. Et nous verrons alors <hi rend="italics">ce qu’il précisera</hi><c type="kk">/</c> si c’est précis. Le traitement des malades dans cet hospice est certes facile à suivre meme en voyage car on n’y fait absolument <hi rend="italics">rien</hi><c type="kk">/</c> on les laisse vegeter dans l’oisiveté et les nourrit de nourriture fade et un peu avariée. Et je te dirai maintenant que dès le premier jour j’ai refusé de prendre cette nourriture et jusqu’à ma crise je n’ai mangé que du pain et un peu de soupe ce que tant que je resterai ici je continuerai cela ainsi<c type="kp">_</c> Il est vrai que M. Peyron après cette crise m’a donné du vin et de la viande que ces premiers jours j’accepte volontiers mais ne voudrais pas faire exception au règlement longtemps et il est juste de considerer l’établissement d’après leur regime ordinaire<c type="kp">_</c>– Je dois aussi dire que M. Peyron ne me donne pas beaucoup d’espoir  pour l’avenir ce que je trouve juste<c type="kk">/</c> il me fait bien sentir que <hi rend="italics">tout</hi> est douteux<c type="kk">/</c> que rien ne peut être assuré d’avance. Mais moi-même j’y <hi rend="italics">compte</hi> que cela reviendra mais seulement le travail me preoccupe tellement en plein que je crois qu’avec le corps que j’ai cela continuera longtemps ainsi.– L’oisiveté où végètent ces pauvres malheureux est une peste et voilà c’est dans les villes &amp; campagnes sous ce soleil plus fort un mal général et ayant appris autre chôse certes pour moi c’est un devoir d’y résister. Je finis cette lettre en te remerciant encore de la tienne et en te priant de m’écrire de nouveau bientôt<c type="kk">/</c> et force poignees de main en pensée.–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I think your letter<ptr target="#note-t-1"/> is really good, what you say about <rs type="person" ref="bio.xml#_1332">Rousseau</rs> and artists like <rs type="person" ref="bio.xml#_867">Bodmer</rs>, that they are <hi rend="italics">men</hi> in any case, and of such a kind that one would wish the world populated with people like that – yes indeed, that’s what I myself feel too.</p>
+<p rend="indent" xml:id="p.en.3" n="3">And that <rs type="person" ref="bio.xml#_1443">J.H. Weissenbruch</rs> knows and does the muddy towpaths, the stunted willows, the foreshortenings and the learned and strange perspectives of the canals ‘as <rs type="person" ref="bio.xml#_977">Daumier</rs> does his lawyers’, I think that’s perfect. <rs type="person" ref="bio.xml#_787">Tersteeg</rs> did well to buy some of his work from him, the fact that people like that don’t sell, according to me that’s because there are too many sellers who try to sell other things, with which they deceive the public and mislead them.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Do you know that today, still, when I read by chance the story of some energetic industrialist or above all a publisher, that the same feelings of indignation then come to me again, the same feelings of anger from the old days when I was with G.&amp;Cie.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Life goes on like that, time doesn’t come back, but I’m working furiously, because of the very fact that I know that the opportunities to work don’t come back.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Above all, in my case, where a more violent crisis may destroy my ability to paint forever. In the crises I feel cowardly in the face of anguish and suffering – more cowardly than is justified, and it’s perhaps this very moral cowardice which, while before I had no desire whatsoever to get better, now makes me eat enough for two, work hard, take care of myself in my relations with the other patients for fear of relapsing – anyway I’m trying to get better now like someone who, having wanted to commit suicide, finding the water too cold, tries to catch hold of the bank again.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">My dear brother, you know that I came to the south and threw myself into work for a thousand reasons.</p>
+<p rend="indent" xml:id="p.en.8" n="8">To want to see another light, to believe that looking at nature under a brighter sky can give us a more accurate idea of the Japanese way of feeling and drawing. Wanting, finally, to see this stronger sun, because one feels that without knowing it one couldn’t understand the paintings of <rs type="person" ref="bio.xml#_982">Delacroix</rs> from the point of view of execution, technique, and because one feels that the colours of the prism are veiled in mist in the north.</p>
+<p rend="indent" xml:id="p.en.9" n="9">All of this remains somewhat true. Then when one also adds to it an inclination of the heart towards this south that <rs type="person" ref="bio.xml#_583">Daudet</rs> did in Tartarin,<ptr target="#note-t-2"/> and the fact that here and there I’ve also found friends and things that I love here.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Will you then understand that while finding my illness horrible I feel that all the same I’ve entered into attachments that are a little too strong here – attachments which could mean that later on the desire to work here will take hold of me again – while all the same it may well be that I’ll return to the north relatively soon.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Yes, for I don’t hide from you the fact that in the same way that I’m taking my food avidly at present, I have a terrible desire that comes to me to see my friends again and to see the northern countryside again.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Work is going very well, I’m finding things that I’ve sought in vain for years, and feeling that I always think of those words of <rs type="person" ref="bio.xml#_982">Delacroix</rs> that you know, that he found painting when he had neither breath nor teeth left.<ptr target="#note-t-3"/>
+Ah well, I myself with the mental illness I have, I think of so many other artists suffering mentally, and I tell myself that this doesn’t prevent one from practising the role of painter as if nothing had gone wrong.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">When I see that crises here tend to take an absurd religious turn, I would almost dare believe that this even <hi rend="italics">necessitates</hi> a return to the north. Don’t speak too much about this to the doctor when you see him<ptr target="#note-t-4"/> – but I don’t know if this comes from living for so many months both at the hospital in Arles and here in these old cloisters.<ptr target="#note-t-5"/> Anyway I ought not to live in surroundings like that, the street would be better then. I am not indifferent, and in the very suffering religious thoughts sometimes console me a great deal. Thus this time during my illness a misfortune happened to me – that lithograph of <rs type="person" ref="bio.xml#_982">Delacroix</rs>, the Pietà,<ptr target="#note-t-6"/> with other sheets had fallen into some oil and paint and got spoiled.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I was sad about it – then in the meantime I occupied myself painting it, and you’ll see it one day, on a no. 5 or 6 canvas I’ve made a copy of it which I think has feeling<ptr target="#note-t-7"/> – besides, having not long ago seen the Daniel and the Odalisques and the Portrait of Bruyas and the Mulatto woman at Montpellier,<ptr target="#note-t-8"/> I’m still under the impression that it had on me. This is what edifies me, as does reading a fine book like one by <rs type="person" ref="bio.xml#_1465">Beecher Stowe</rs> or <rs type="person" ref="bio.xml#_580">Dickens</rs>. But what disturbs me is constantly seeing those good women who believe in the Virgin of Lourdes<ptr target="#note-t-9"/> and make up things like that, and telling oneself that one is a prisoner in an administration like that, which very willingly cultivates these unhealthy religious aberrations when it ought to be a matter of curing them.<ptr target="#note-t-10"/> So I say, it would be even better to go, if not into penal servitude then at least into the regiment.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I reproach myself for my cowardice, I ought to have defended my studio better, even if I had to fight with those gendarmes and neighbours.<ptr target="#note-t-11"/> Others in my position would have used a revolver, and indeed, had one killed onlookers like that as an artist one would have been acquitted. I would have done better in that case then, and now I was cowardly and drunk.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Ill too, but I wasn’t brave. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> Then in the face of the Suffering of these crises I feel very fearful too, and so I don’t know if my zeal is something other than what I say, it’s like the man who wants to commit suicide, and finding the water too cold he struggles to catch hold of the bank again.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But listen – to be in a lodging-house like I saw <rs type="person" ref="bio.xml#_305">Braat</rs> back then<ptr target="#note-t-12"/> – fortunately that time is far off, no and again <hi rend="italics">no</hi>.</p>
+<p rend="indent" xml:id="p.en.18" n="18">It would be different if <rs type="person" ref="bio.xml#_1268"><hi rend="italics">père</hi> Pissarro</rs> or <rs type="person" ref="bio.xml#_1415">Vignon</rs>, for example, wanted to take me into their home. Well I’m a painter myself – that can be sorted out, and better that the money goes to feed painters than to the excellent nuns.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Yesterday I asked <rs type="person" ref="bio.xml#_568">Mr Peyron</rs> point blank: since you’re going to Paris, what would you say if I suggested that you be good enough to take me with you? He answered in an evasive way – that it was too quick, that he must write to you beforehand.</p>
+<p rend="indent" xml:id="p.en.20" n="20">But he’s very kind and very indulgent towards me, and whilst he isn’t the absolute master here, far from it, I owe him many freedoms.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Anyway, one must not only make paintings but one must also see people and – from time to time, by associating with others too, recover one’s temperament and furnish oneself with ideas. I leave aside the hope that it wouldn’t recur – on the contrary I must tell myself that from time to time I’ll have a crisis. But then one might for that time go into an asylum or even to the town prison, where there’s usually an isolation cell. Don’t worry yourself in any case – work is going well and look, I can’t tell you how much it gives me a warm glow sometimes to say, I’m going to do this and that again, wheatfields &amp;c.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">I’ve done the portrait of the <rs type="person" ref="bio.xml#_791">orderly</rs>, and I have a repetition of it for you.<ptr target="#note-t-13"/> It makes quite a curious contrast with the portrait I did of myself, in which the gaze is vague and veiled,<ptr target="#note-t-14"/> while he has something military about him, and dark eyes that are small and lively. I made him a present of it, and I’ll also do his <rs type="person" ref="bio.xml#_792">wife</rs> if she wants to pose.<ptr target="#note-t-15"/> She’s a faded woman, an unfortunate, quite resigned one, and really not much, and so insignificant that I myself have a great desire to do that dusty blade of grass. I spoke with her from time to time when I was doing olive trees behind their little farmhouse, and then she told me that she didn’t think that I was ill – anyway, you would say that too at present if you saw me working, with my thoughts clear and my fingers so sure that I drew that <rs type="person" ref="bio.xml#_982">Delacroix</rs> Pietà without taking a single measurement, though there are those four outstretched hands and arms – gestures and bodily postures that aren’t exactly easy or simple.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Please send me the canvas soon, if that’s possible, and then I think I’ll need 10 tubes of zinc white as well.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">However, I know quite well that recovery comes, if one is brave, from inside, through the great resignation to suffering and death, through the abandonment of one’s own will and one’s self-love. But it’s not coming to me, I love to paint, to see people and things and everything that makes up our life – artificial – if you like. Yes, real life would be in something else, but I don’t think I belong to that category of souls who are ready to live and also at any moment ready to suffer.</p>
+<p rend="indent" xml:id="p.en.25" n="25">What a funny thing the <hi rend="italics">touch</hi> is, the brushstroke. Out of doors, exposed to the wind, the sun, people’s curiosity, one works as one can, one fills one’s canvas regardless. Yet then one catches the true and the essential – that’s the most difficult thing. But when one returns to this study again after a time, and orders one’s brushstrokes in the direction of the objects – certainly it’s more harmonious and agreeable to see, and one adds to it whatever one has of serenity and smiles. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">Ah, I’ll never be able to render my impressions of certain figures I’ve seen here. Certainly the road to the south is the road where there’s something brand new, but men of the north have difficulty in getting through. And I can see myself already in advance, on the day when I have some success, longing for my solitude and distress here when I see the reaper in the field below through the iron bars of the isolation cell. Every cloud has a silver lining.</p>
+<p rend="indent" xml:id="p.en.27" n="27">To succeed, to have lasting prosperity, one must have a temperament different from mine, I’ll never do what I could have and ought to have wanted and pursued.</p>
+<p rend="indent" xml:id="p.en.28" n="28">But as I have dizzy spells so often, I can only live in a situation of the fourth or fifth rank. While I clearly sense the value and originality and superiority of <rs type="person" ref="bio.xml#_982">Delacroix</rs>, of <rs type="person" ref="bio.xml#_1226">Millet</rs>, for example, then I make a point of telling myself, yes I am something, I can do something. But I must have a basis in these artists, and then produce the little I’m capable of in the same direction.</p>
+<p rend="indent" xml:id="p.en.29" n="29">So <rs type="person" ref="bio.xml#_1268"><hi rend="italics">père</hi> Pissarro</rs> has been really cruelly struck by those two misfortunes at the same time.<ptr target="#note-t-17"/></p>
+<p rend="indent" xml:id="p.en.30" n="30">As soon as I read that I had this idea of asking you if there would be a way of going to stay with him.</p>
+<p rend="indent" xml:id="p.en.31" n="31">If you pay him the same thing as here, he’ll find it worth his while, for I don’t need much – except for working.</p>
+<p rend="indent" xml:id="p.en.32" n="32">So do it directly, and if he doesn’t want to I would willingly go to <rs type="person" ref="bio.xml#_1415">Vignon</rs>’s.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">I’m a little afraid of Pont-Aven, there are so many people there. But what you say about <rs type="person" ref="bio.xml#_1039">Gauguin</rs> interests me a lot. And I still tell myself that G. and I will perhaps work together again. I myself know that G. can do things even better than what he has done, but how to reassure him! I still hope to do his portrait. Have you seen that portrait he did of me painting sunflowers?<ptr target="#note-t-19"/> My face has lit up after all a lot since, but it was indeed me, extremely tired and charged with electricity as I was then. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.34" n="34">And yet to see the country one must live with the common people and in the little houses, the bars &amp;c. And that was what I said to <rs type="person" ref="bio.xml#_869">Boch</rs>, who complained of seeing nothing that tempted him or made an impression on him. I go walking with him for two days and I show him thirty paintings to do, as different from the north as Morocco would be. I’m curious to know what he’s doing at the moment.</p>
+<p rend="indent" xml:id="p.en.35" n="35">And then do you know why the paintings of <rs type="person" ref="bio.xml#_982">E. Delacroix</rs> – the religious and historical paintings, Christ’s barque<ptr target="#note-t-20"/> – the Pietà, the Crusaders,<ptr target="#note-t-21"/> have this allure? Because E. Delacroix, when he does a Gethsemane, went to see on the spot beforehand what an olive grove was like, and the same for the sea whipped up by a hard mistral, and because he must have said to himself, these people whom history talks to us about, doges of Venice, crusaders, apostles, holy women, were of the same type and lived in a manner analogous to those of their present-day descendants.</p>
+<p rend="indent" xml:id="p.en.36" n="36">So I must tell you it, and you can see it in the Berceuse,<ptr target="#note-t-22"/> however failed and weak that attempt may be. Had I had the strength to continue, I’d have done portraits of saints and of holy women from life, and who would have appeared to be from another century and they would be citizens of the present day, and yet would have had something in common with very primitive Christians.</p>
+<p rend="indent" xml:id="p.en.37" n="37">The emotions that that causes are too strong though, I wouldn’t survive it – but later, later, I don’t say that I won’t mount a fresh attack.</p>
+<p rend="indent" xml:id="p.en.38" n="38">What a great man <rs type="person" ref="bio.xml#_1019">Fromentin</rs> was – for those who want to see the orient he will always remain the <hi rend="italics">guide</hi>. He was first to establish relationships between <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and the south, between <rs type="person" ref="bio.xml#_1278">Potter</rs> and what he saw himself.<ptr target="#note-t-23"/></p>
+<p rend="indent" xml:id="p.en.39" n="39">You’re right a thousand times over – one mustn’t think about all that – one must do – even if it’s studies of cabbages and salad to calm oneself down, and after being calmed then – what one is capable of. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.40" n="40">When I see them again I’ll do repetitions of that study of the Tarascon diligence,<ptr target="#note-t-24"/> the Vineyard,<ptr target="#note-t-25"/> the Harvest<ptr target="#note-t-26"/> and above all the Red bar, that night café which is the most characteristic as regards colour.<ptr target="#note-t-27"/> But the white figure in the middle, correct as regards colour, must be redone, better constructed. But I dare say that this is a bit of the real south, and a calculated combination of the greens with the reds.</p>
+<p rend="indent" xml:id="p.en.41" n="41">My strength has been exhausted too quickly, but I can see from afar the possibility for others to do an infinity of beautiful things. And again and again that idea remains true, that to facilitate the journey of others it would have been good to found a studio somewhere in these parts.</p>
+<p rend="indent" xml:id="p.en.42" n="42">To make the journey from the north to Spain in one go, for example, isn’t good, one won’t see there what one ought to see – one must first and gradually <hi rend="italics">accustom one’s eyes </hi>to the different light.</p>
+<p rend="indent" xml:id="p.en.43" n="43">I myself have no great need to see works by <rs type="person" ref="bio.xml#_1393">Titian</rs> and <rs type="person" ref="bio.xml#_1402">Velázquez</rs> in museums, I’ve seen certain living types who have made me know better now what a painting of the south is than before my little journey.</p>
+<p rend="indent" xml:id="p.en.44" n="44">My God, my God, the good people among artists who say that <rs type="person" ref="bio.xml#_982">Delacroix</rs> is not of the true orient! Look, is the true orient then what Parisians like <rs type="person" ref="bio.xml#_1044">Gérôme</rs> do?</p>
+<p rend="indent" xml:id="p.en.45" n="45">Because you paint a bit of sunny wall, even from life and well and true according to our <hi rend="italics">northern</hi> way of seeing, does that also prove that you’ve seen the people of the orient? Now that’s what Delacroix was seeking there, which didn’t prevent him at all from painting walls in the Jewish wedding<ptr target="#note-t-28"/> and the Odalisques.</p>
+<p rend="indent" xml:id="p.en.46" n="46">Isn’t that true – and then <rs type="person" ref="bio.xml#_981">Degas</rs> says that it’s too expensive to drink in the bars while doing paintings, I don’t say no, but would he then have me go into the cloisters or the churches, there I’m the one who’s afraid.</p>
+<p rend="indent" xml:id="p.en.47" n="47">That’s why I make an effort at escape through the present letter, with many handshakes to you and <rs type="person" ref="bio.xml#_416">Jo</rs>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.48" n="48">Ever yours,</p>
+<p xml:id="p.en.49" n="49">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.50" n="50">
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p xml:id="p.en.51" n="51">I still have to congratulate you on the occasion of <rs type="person" ref="bio.xml#_524">Mother</rs>’s birthday,<ptr target="#note-t-29"/> I wrote to them yesterday but the letter hasn’t gone off yet, because I wasn’t in the mood to finish it.</p>
+<p rend="indent" xml:id="p.en.52" n="52">It’s funny that the idea had already come to me 2 or 3 times before to go to <rs type="person" ref="bio.xml#_1268">Pissarro</rs>’s, this time, after you’ve told me of his recent misfortunes, I don’t hesitate to ask it of you.</p>
+<p rend="indent" xml:id="p.en.53" n="53">Yes we must be done here, I can no longer do both things at once, working and doing everything in my power to live with the odd patients here – it’s unsettling. I’d like to force myself to go downstairs, but in vain. And yet it’s almost 2 months since I’ve been out in the open air.<ptr target="#note-t-30"/></p>
+<p rend="indent" xml:id="p.en.54" n="54">In the long run here I would lose the faculty to work, now there I begin to call a halt, and so I’ll send them packing, if you agree. And paying for it what’s more, no, then one or the other of the artists fallen in misfortune will consent to set up house with me.</p>
+<p rend="indent" xml:id="p.en.55" n="55">Fortunately, you can write that you’re well, and <rs type="person" ref="bio.xml#_416">Jo</rs> too, and that her <rs type="person" ref="bio.xml#_24">sister</rs> is with you.<ptr target="#note-t-31"/> I’d very much like to be back myself when your child arrives – not with you, certainly <hi rend="italics">not</hi>, that isn’t possible, but in the area around Paris with another painter.</p>
+<p rend="indent" xml:id="p.en.56" n="56">I could, to mention a third, go and stay with the <rs type="person" ref="bio.xml#_1123">Jouve</rs>s, who have a lot of children and a whole household.<ptr target="#note-t-32"/></p>
+<p rend="indent" xml:id="p.en.57" n="57">You’ll understand that I’ve tried to compare the second crisis with the first,<ptr target="#note-t-33"/> and I say only this to you: it appears to me to be some kind of influence from outside rather than a cause that comes from within myself. I may be mistaken, but whatever the case I think you’ll consider it right that I’m a little horrified by all religious exaggeration. I can’t help thinking of good <rs type="person" ref="bio.xml#_282">André Bonger</rs>, who himself let out loud shouts when anyone wanted 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> to try out some unguent or other on him. Good <rs type="person" ref="bio.xml#_568">Mr Peyron</rs> will tell you heaps of things, about probabilities and possibilities of involuntary actions. Good, but if he’s specific I’ll believe none of it. And we’ll see then <hi rend="italics">what he specifies</hi>, if it’s specific. The treatment of the patients in this hospital is certainly easy to follow, even on a journey, for they do absolutely <hi rend="italics">nothing </hi>about it, they leave them to vegetate in idleness and feed them with stale and slightly spoiled food. And I’ll tell you now that from the first day I refused to take this food, and until my crisis I ate nothing but bread and a little soup, which I’ll continue to do as long as I remain here. It’s true that after this crisis Mr Peyron gave me some wine and meat, which I willingly accept in these first days but wouldn’t want to make an exception to the rule for a long time, and it’s right to respect the establishment according to their ordinary regime. I must also say that Mr Peyron doesn’t give me much hope for the future, which I find justified, he makes me really feel that <hi rend="italics">everything</hi> is doubtful, that nothing can be ensured in advance. But I myself am <hi rend="italics">counting</hi> on it recurring, but only work preoccupies me so thoroughly that I think that with the body I have it will continue like this for a long time. The idleness in which these poor unfortunates vegetate is a plague, and there you are, it’s a general evil in the towns and country areas under this stronger sun, and having learned differently it’s a duty to resist it, certainly for me. I finish this letter by thanking you again for yours and asking you to write to me again soon, and many handshakes in thought.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter dates from after 6 September, because Vincent responds here to Theo’s letter of 5 September (<ref target="let799.xml">letter 799</ref>). Since Vincent congratulates Theo on the occasion of their mother’s birthday, which was 10 September, and Jo van Gogh-Bonger dates the letter in <hi rend="italics">Brieven </hi>1914 to 10 September – she possibly had a postmark to rely on – we date the letter to Tuesday, 10 September 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jo’s pregnancy <ref target="let786.xml">(786)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let799.xml">letter 799</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>’s novels <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Tartarin de Tarascon</ref></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_460">Tartarin sur les Alpes</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml#n-9">see letter 583, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+      
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s ‘neither teeth nor breath’, derived from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_742">Silvestre</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_416">Histoire des artistes vivants français et étrangers</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let557.xml#n-6">see letter 557, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Dr Peyron</rs> planned to visit Theo in Paris; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let800.xml">see letter 800</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The asylum was housed in the former monastery of Saint-Paul-de-Mausole. Regarding its history, see Leroy 1948.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For the lithograph by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1251">Nanteuil-Leboeuf</rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pietà</hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let686.xml#n-3">see letter 686, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This copy is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pietà (after Delacroix)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2831">F 757 / JH 1776</rs>). It measures 42 x 34 cm and is therefore a no. 6 canvas (the other version, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2830">F 630 / JH 1775</rs>, is a no. 20 canvas (73 x 60.5 cm), so it cannot be the one referred to here).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+      
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_67">Daniel in the lions’ den</rs></hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_74">Algerian women in their apartments</rs></hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_76">Alfred Bruyas</rs></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_72">Aline, the mulatto woman</rs></hi> in Musée Fabre at Montpellier, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml#n-21">see letter 726, nn. 21</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml#n-20">20</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml#n-2">2</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml#n-19">19</ref> respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>On 11 February 1858, the Virgin Mary had appeared to the fourteen-year-old Bernadette Soubirous in a grotto at Lourdes. Seventeen apparitions followed. In addition to the cult centred around Our Blessed Lady of Lourdes, Bernadette also became a figure of reverence, and Lourdes quickly grew into one of the most popular places of pilgrimage.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh is referring to the nuns, supervised by Madame Deschanel (Sister Epiphane), who nursed the patients in the women’s wing. Orderlies worked in the ‘men’s quarters’. See Doiteau and Leroy 1928, p. 53.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>At the end of February 1889, the residents of Van Gogh’s neighbourhood in Arles had signed a petition against him, because he supposedly represented a threat to his surroundings. The chief of police had him committed to hospital and locked up his studio. Van Gogh was meant to look for other accommodation when he was released from hospital. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml">See letter 750</ref>. </p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_305">Frans Braat</rs> had been a colleague of Vincent and Theo at Goupil &amp; Cie in Paris. Theo offered him help when he was seriously ill in 1884 (FR b2962). Braat’s recovery was slow; in 1887 he was staying in Nice (FR b909). It is not known when and in what circumstances he stayed ‘in a lodging-house’, as Van Gogh writes.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The first version is not known; further on Van Gogh says that he has given it to the orderly, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_791">Trabuc</rs>. The repetition Vincent made for Theo is the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Charles-Elzéard Trabuc</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2829">F 629 / JH 1774</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>It emerges from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml">letter 805</ref> that Van Gogh is referring here to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2827">F 627 / JH 1772</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The orderly’s wife was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_792">Jeanne Trabuc-Lafuye</rs>. Van Gogh painted her portrait a short while later; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml">see letter 805</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>Van Gogh had ordered canvas, paint and brushes in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let800.xml">letter 800</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Theo had written that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Pissarro</rs> had undergone eye surgery and that his mother had died (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let799.xml">see letter 799</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Shortly before 28 September, Theo finally asked <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Pissarro</rs> if he wanted to take Vincent in. Pissarro refused, but promised to be on the look-out for a peaceful place for him to live. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml#n-6">letter 807, n. 6.</ref> Living at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1415">Vignon</rs>’s was evidently not an option, because the subject is not mentioned again in the correspondence. Theo did ask <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1123">Jouve</rs>, whom Van Gogh later mentions as a third possibility (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let802.xml">see letter 802</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_115">Van Gogh painting sunflowers</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let723.xml#n-6">see letter 723, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_61">Christ asleep during the tempest</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let632.xml#n-12">see letter 632, n. 12.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+      
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Eugène Delacroix</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pietà</hi>, c. 1850 (Oslo, Nasjonalgalleriet). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3062">Ill. 3062</rs>. Van Gogh’s mention of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The crusaders</hi> must refer to Delacroix’s famous <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The entry of the crusaders into Constantinople (12 April 1204)</hi>, 1840 (Paris, Musée du Louvre). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_66">Ill. 66</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>In the last consignment of paintings from Arles, Theo had received four versions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’)</hi>: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2762">F 504 / JH 1655</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2776">F 507 / JH 1672</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2775">F 508 / JH 1671</rs>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let767.xml">See letter 767</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Fromentin</rs> was known for his paintings of Oriental subjects, inspired by his travels around North Africa. He wrote about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1278">Potter</rs> in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let450.xml#n-3">see letter 450, n. 3.</ref> Van Gogh’s remark about Potter is possibly connected with the following description: ‘The very tone and workmanship of these vigorously observed areas have the effect of rendering nature as it truly is, in its contours, its nuances, its power, almost penetrating its mysteries’ (Le ton même et le travail de ces parties violemment observées arrivent à rendre la nature telle qu’elle est vraiment, dans son relief, ses nuances, sa puissance, presque jusque dans ses mystères) (see Fromentin 1902, pp. 215-216).</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Tarascon diligence</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2733">F 478a / JH 1605</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The green vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>) and/or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The red vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2745">F 495 / JH 1626</rs>). In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let806.xml">letter 806</ref> Van Gogh says that he wants to make repetitions of both canvases.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The night café </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2711">F 463 / JH 1575</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jewish wedding in Morocco</hi>, 1837-1841? (Paris, Musée du Louvre). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_73">Ill. 73</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> celebrated her 70th birthday on 10 September.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>Since his attack on 16 or 17 July (the first in Saint-Rémy), Van Gogh had not been out of doors, not even in the garden of the asylum (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let800.xml">see letter 800</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>Jo’s sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_24">Mien</rs> was in Paris; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let799.xml">see letter 799</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>The painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1123">Auguste Jouve</rs> was a friend of Theo and Vincent; the estate contains several works by his hand: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_889">Reclining female nude</rs></hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_890">Portrait of a child</rs></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_891">Portrait of a woman with a dog</rs></hi> (Amsterdam, Van Gogh Museum). Jouve rented an apartment and a large studio at 16 boulevard Saint-Jacques in Paris. No details about his family have been found.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>In Arles Van Gogh had had three attacks between 23 December and the end of February (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml#n-4">see letter 750, n. 4</ref>). Apparently he viewed these attacks collectively as a single crisis.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

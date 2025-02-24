@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Wednesday, 19 August 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let529"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b461 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>529</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>421</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>530</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-08-19">Wednesday, 19 August 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0461" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000618_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000618_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000618_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0461" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000618_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000618_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000618_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo –</p>
+
+<p xml:id="p.nl.2" n="2">Bij mijn schrijven van eergisteren<ptr target="#note-t-1"/> wilde ik nog bijvoegen dat ik gisteren een brief van Rappard heb gehad en onzen twist <hi rend="italics">geheel</hi> is opgemaakt<c type="kk">/</c> dat hij mij een croquis zond van een groot schilderij van een steenbakkerij dat hij makende is.<ptr target="#note-t-2"/> Dit ziet er heel oorspronkelijk uit – wilde men andere schilderijen zoeken die in den zelfden geest zijn<c type="kk">/</c> het zou b.v. Meunier wezen van wien gij de mijnwerkers te Antwerpen zaagt.<ptr target="#note-t-3"/> Hij heeft een huisje buiten Utrecht gehuurd<c type="kk">/</c> voor atelier slechts (en met licht van boven voorzien) bij de steenbakkerij<c type="kk">/</c><ptr target="#note-t-4"/> en daar hij ook weder naar Terschelling gaat is hij weer diep in de natuur in en dat is mijns inziens beter dan in stad werken.–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik wilde U echter zeggen dat ik hoop dat het met den twist dien wij hebben ook zoo zal afloopen en dat die zal geschikt worden<c type="kp">_</c>– 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Evenmin als ik zijn critiek kan<ptr target="#note-t-5"/> accepteeren<c type="kk">/</c> evenmin kan ik geheel en al berusten in den tegenwoordigen toestand waarin het werk mij al te zeer belemmerd wordt door mijn finantieele moeielijkheden<c type="kp">_</c> Dat te herstellen verlang ik niet van <hi rend="italics">U</hi> alleen<c type="kk">/</c> maar ik wil eenvoudig dat <hi rend="italics">zamen</hi> (en ook niet <hi rend="italics">ik</hi> alleen) wij ons best doen de dingen te doen vorderen<c type="kp">_</c> Dat het voor U ook <hi rend="italics">moeite</hi> is en niet <hi rend="italics">makkelijk</hi><c type="kk">/</c> dat weet ik en als zoodanig apprecieer ik het ook gaarne<c type="kk">/</c> maar <hi rend="italics">moeite</hi> voor een <hi rend="italics">doel</hi> doen is geen ongeluk en te strijden hebben is de voorwaarde van alle eerlijke overwinning<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">De kosten bij het schilderen<c type="kk">/</c> zij zijn niet altijd te ontwijken en ze <hi rend="italics">niet</hi> te maken is soms de beste politiek <hi rend="italics">niet</hi><c type="kk">/</c> want er zou niets degelijks van teregt kunnen komen indien men schroomde model of de noodige schilderbehoeften te bekostigen. En waar het voor mij schraler wordt in plaats van beter<c type="kk">/</c> is het eindelijk zoo hoog geloopen dat ik bepaald klagen moet.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.5" n="5">En ik zeg nog eens<c type="kk">/</c> laat ons het schilderzaakje van mij in orde houden want we kunnen vroeger of later het terdeeg nog noodig hebben<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Als er storm aan de lucht is moet men de booten in goeden staat houden<c type="kp">_</c> De man die ik nu in den Haag heb<c type="kk">/</c> is Leurs<c type="kk">/</c> die niet meer in den Practizijnshoek woont maar in de Molenstraat.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Hij verzoekt mij hem meer dan een sch<hi rend="super">ij</hi> te zenden om meer dan eene kans te hebben<c type="kk">/</c> maar presenteert me zijn <hi rend="italics">twee</hi> ramen<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">En daar hij zelf zeer verlegen is om geld zal hij niet tegen wat moeite doen opzien<c type="kp">_</c>– Ik stuur hem een paar hutten<c type="kk">/</c><ptr target="#note-t-8"/> den ouden toren<c type="kk">/</c><ptr target="#note-t-9"/> en kleinere met figuren<c type="kp">_</c>–<ptr target="#note-t-10"/> En terwijl hij die laat kijken zal ik een paar nieuwen maken om hem aan den gang te houden.–</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Een tweede te s’Hage heb ik ook kans over te halen<c type="kp">_</c>–<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Maar het komt er voor mij op aan <hi rend="italics">door te kunnen werken</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik heb sedert uw vertrek nog een schilderijtje gemaakt<c type="kk">/</c> zoo groot als de knollenpluksters in de sneeuw<c type="kk">/</c><ptr target="#note-t-12"/> van 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>den korenoogst: een maaier<c type="kk">/</c> een vrouw die opbindt<c type="kk">/</c> schoven en den molen<c type="kk">/</c> zoo als gij de teekeningen zaagt<c type="kp">_</c>–<ptr target="#note-t-13"/> Een effekt van s’avonds na zonsondergang.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ook nog studies van interieur<c type="kp">_</c><ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ik stel U nu nog eens voor met Portier en Serret er eens over te praten dat ik er nog al inzit<c type="kk">/</c> hun te animeeren te doen wat ze kunnen<c type="kk">/</c> dat ik van mijn kant ook weer nieuwe dingen hun zal zien te zenden<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">En laat ons zien wij de kist wegkrijgen<c type="kp">_</c><ptr target="#note-t-15"/> Ik heb ook nog 3 studies geschilderd van de vrouwtjes in de aardappels<c type="kk">/</c> waar gij er reeds de eerste van zaagt.<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Rappard had Wenkebach gesproken en in zijn brief was geen spoor meer van den toon die hij begonnen was aan te slaan. En ofschoon hij eerst naar Terschelling gaat<c type="kk">/</c> schrijft hij er over dat hij nog studies hier wil komen halen.<ptr target="#note-t-a"/> Gegroet en voorspoed U toegewenscht.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I wanted to add to my letter of the day before yesterday<ptr target="#note-t-1"/> that I had a letter from <rs type="person" ref="bio.xml#_1306">Rappard</rs> yesterday, and our quarrel is <hi rend="italics">wholly</hi> made up, that he sent me a croquis of a large painting of a brickworks that he’s working on.<ptr target="#note-t-2"/> This looks very original — if one wanted to find other paintings in the same spirit, it would be <rs type="person" ref="bio.xml#_1209">Meunier</rs>, say, whose mine-workers you saw in Antwerp.<ptr target="#note-t-3"/> He’s rented a small house outside Utrecht, just as a studio (and arranged for light from above) near the brickworks,<ptr target="#note-t-4"/> and since he’s also going back to Terschelling he’s deep <hi rend="italics">in</hi> nature again, and to my mind that’s better than working in town.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I wanted to tell you, though, that I hope that the quarrel that we have will end like this, too, and that it will be settled. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> No more than I can<ptr target="#note-t-5"/> accept his criticism, can I fully resign myself to the present situation in which my work is held up so badly by my financial difficulties. I don’t ask <hi rend="italics">you</hi> to put this right alone, but I simply want us to do our best <hi rend="italics">together</hi> (and not just <hi rend="italics">I</hi> alone either) to make headway. It’s an<hi rend="italics"> effort </hi>for you, too, and not <hi rend="italics">easy</hi>; I know that, and as such I appreciate it very much, but making an <hi rend="italics">effort</hi> for a <hi rend="italics">goal</hi> is no misfortune, and having to fight is the precondition for every honest victory.</p>
+<p rend="indent" xml:id="p.en.4" n="4">The expenses of painting can’t always be avoided, and <hi rend="italics">not</hi> incurring them is sometimes <hi rend="italics">not </hi>the best policy, because nothing decent could come of it if one hesitated to pay for models or essential painting materials. And since it’s getting harder for me rather than better, it has eventually got to such a pitch that I definitely have to complain.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">And I say once more, let’s keep my little painting business in order, because sooner or later we might be in sore need of it.</p>
+<p rend="indent" xml:id="p.en.6" n="6">When there’s a storm in the air, one has to keep the boats in good shape. The man I now have in The Hague is <rs type="person" ref="bio.xml#_491">Leurs</rs>, who doesn’t live in Praktizijnshoek any more but in Molenstraat.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">He’s asking me to send him more than one painting in order to have more than one chance, and is offering me his <hi rend="italics">two</hi> windows.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">And since he’s very hard pressed for money himself, he won’t shrink from making an effort. I’m sending him a couple of cottages,<ptr target="#note-t-8"/> the old tower<ptr target="#note-t-9"/> and smaller ones of figures.<ptr target="#note-t-10"/> And while he shows those, I’ll make a few new ones to keep him going.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I’ve also got a chance of persuading a second in The Hague.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">But for me it comes down to <hi rend="italics">being able to go on working</hi>.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’ve made another small painting of the wheat harvest since you left, the same size as the women pulling turnips in the snow:<ptr target="#note-t-12"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> a reaper, a woman binding sheaves, sheaves, and the windmill, like the drawings you saw.<ptr target="#note-t-13"/> An effect in the evening after sunset.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Also more studies of interiors.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Once again I suggest that you just talk it over with <rs type="person" ref="bio.xml#_601">Portier</rs> and <rs type="person" ref="bio.xml#_1354">Serret</rs>, say that I’m in quite a fix, encourage them to do what they can, that for my part I’ll see about sending them new things.</p>
+<p rend="indent" xml:id="p.en.14" n="14">And let’s see about getting that crate off.<ptr target="#note-t-15"/> I’ve also painted 3 more studies of the women among the potatoes, the first of which you’ve already seen.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.15" n="15"><rs type="person" ref="bio.xml#_1306">Rappard</rs> had spoken to <rs type="person" ref="bio.xml#_1442">Wenckebach</rs>, and in his letter there was no longer any trace of the tone he’d started to take. And although he’s going to Terschelling first, he writes that he wants to come and make more studies here. Regards, and wishing you good fortune.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Yours truly,</p>
+<p xml:id="p.en.17" n="17">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+  <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">We have dated the letter on or about Wednesday, 19 August 1885; for this <ref target="let527.xml">see letter 527</ref>, <hi rend="italics">Date</hi>.</p> <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The present letter provides points of reference that make it possible to establish the order of this letter and letters <ref target="let527.xml">527</ref> and <ref target="let528.xml">528</ref>; it is also clear that they were written on successive days. The letter to Theo of ‘the day before yesterday’ to which Van Gogh refers here (<ref target="#l-2">l. 2</ref>), is letter <ref target="let527.xml">527</ref>. He had immediately replied to the letter from Van Rappard he received ‘yesterday’ (<ref target="#l-3">ll. 3-4</ref>) with letter 528, as we read there in <ref target="let528.xml#l-1*">l. 1*</ref>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s reaction to the lithograph of <hi rend="italics">The potato eaters</hi> <ref target="let503.xml">(503)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit to Nuenen <ref target="let510.xml">(510)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let527.xml">See letter 527</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_331">Workers at the Ruimzicht brickyard</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let528.xml#n-1">letter 528, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo, whose trip to Nuenen with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_282">Andries Bonger</rs> had included a visit to Antwerp, must have talked about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1209">Constantin Meunier</rs>’s painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_893">Returning from the pit</rs></hi>, which was exhibited at the World Exhibition. See exhib. cat. Antwerp 1885, p. 34, cat. no. 252 (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De ophaling in eene kolemijn in het land van Luik</hi>). This was not the first time Van Gogh mentioned Meunier’s work in connection with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>’s: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let496.xml">see letter 496</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This was in Jutphaas, a small town to the south of Utrecht, where <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>’s cousin A.C.P.G. van Rappard owned a brickworks.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>It is possible that Van Gogh wrote ‘kon’ (could) rather than ‘kan’ (can).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_491">W.J. Leurs</rs> had moved from number 1 Praktizijnshoek in The Hague to number 5 Molenstraat (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">GAH</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Adresboek 1885</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>This means that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_491">Leurs</rs> was offering him two shop windows in which to display his work. As far as we know, there is no surviving contemporary photograph of these premises.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>This reference is too vague for identifications of specific works.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This may be the signed <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The old tower of Nuenen</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2471">F 88 / JH 490</rs>). It cannot have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The old church tower at Nuenen (‘The peasants’ churchyard’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2512">F 84 / JH 772</rs>), since Theo already had that painting. Cf. cat. Amsterdam 1999, p. 158 (n. 17).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>It is not possible to determine which figure pieces Van Gogh had in mind here. Altogether we know of ten painted figure studies from this period. See cat. Amsterdam 1999, pp. 160-163, cat. no. 29 (esp. n. 3).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>This ‘second’ was the paint seller <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_370">Furnée</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let523.xml">see letter 523</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>This painting of ‘women pulling turnips’ is not known. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let515.xml">letter 515</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This painting of the wheat harvest is not known. There is a single drawing of the subject: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield with a reaper and a woman binding sheaves</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_578">F 1321 / JH 915</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+  
+<p>We know of various studies of interiors drawn during this period: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman by the fireplace</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_579">F 1223 / JH 894</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman by a hearth</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_580">F 1222 / JH 895</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman with a kettle by a hearth </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_581">F 1293 / JH 896</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman shelling peas</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2499">F 1214 / JH 702</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman by a hearth</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_930">F 1218 / JH 701</rs>)  and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman by a hearth</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_582">F 1288 / JH 797</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The crate of paintings intended for the paint supplier <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_491">Leurs</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let527.xml">see letters 527</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let530.xml">530</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>It is impossible to say for certain which four studies of women in a potato field Van Gogh is referring to here. He had made the study <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Two women digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2523">F 97 / JH 876</rs>) two days earlier, as we learn from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let528.xml">letter 528</ref>, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Two women digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2524">F 96 / JH 878</rs>) was most probably also one of this series. Van Gogh may also have counted the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Two women digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_583">F 1296 / JH 877</rs>) as one of them.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘maken’ (make).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

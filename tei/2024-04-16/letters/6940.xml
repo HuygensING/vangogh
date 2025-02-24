@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Wednesday, 3 October 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let694"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b588 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>694</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>544</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>698</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-10-03">Wednesday, 3 October 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000797_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000797_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000797_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000797_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000797_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000797_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000798_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000798_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000798_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000798_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000799_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000799_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0588 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000799_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000799_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Ci inclus un bien bien remarquable lettre de Gauguin que je te prierai de mettre apart comme ayant une importance hors ligne. Je parle de sa description de soi qui me touche jusqu’au fond des fonds.<ptr target="#note-t-1"/> Elle m’est arrivée avec une lettre de Bernard que Gauguin aura probablement lue et que peutêtre il approuve<c type="kk">/</c> où Bernard dit encore une fois qu’il désire venir ici et me propose au nom de Laval<c type="kk">/</c> Moret<c type="kk">/</c> un autre nouveau<ptr target="#note-t-2"/> et lui-même un échange avec eux quatre<c type="kp">_</c><ptr target="#note-t-3"/> Il dit aussi que Laval viendra également et que ces deux autres ont le désir de venir. Je ne demanderais pas mieux mais lorsqu’il s’agira de la vie en commun de plusieurs peintres je stipule avant tout qu’il faudrait un abbé pour y mettre l’ordre et que naturellement cela serait Gauguin. Raison pourquoi je désirerais que Gauguin fût ici encore avant eux (d’ailleurs Bernard et Laval ne viendront qu’en février<c type="kk">/</c> Bernard ayant à passer à Paris son conseil de révision).<ptr target="#note-t-4"/> Pour moi je veux deux chôses<c type="kk">/</c> je veux regagner l’argent que j’ai déjà dépensé pour te le rendre et je veux que Gauguin aye sa paix et tranquilité pour produire et respirer en artiste bien libre. Si je regagne mon argent depensé déjà et que tu m’as prêté depuis des années nous agrandirons la chôse et nous chercherons à fonder un atelier de renaissance et non de décadence.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je suis assez persuadé que nous puissions y compter que Gauguin restera toujours avec nous et que de part et d’autre il n’y aura aucune perte.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Seulement en s’associant ainsi nous serons chacun de nous davantage Soi et l’union fera la force.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Entre parentheses il va sans dire que je ne ferai pas l’échange du portrait de G.<ptr target="#note-t-5"/> parce que je pense qu’il doit etre trop beau – mais je le prierai de nous le céder pour son premier mois<ptr target="#note-t-6"/> ou en remboursement de son voyage.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">mais tu vois bien que si je ne leur avais pas écrit un peu fortement ce portrait n’existerait pas et Bernard en a fait un aussi<c type="kp">_</c><ptr target="#note-t-7"/> donc:</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Mettons que je me sois fâché<c type="kk">/</c> mettons que c’est à tort mais voilà toujours que Gauguin a accouché d’un tableau et Bernard aussi<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Ah – mon étude des vignes – j’ai sué sang et eau dessus – mais je l’ai – toujours toile de 30 carrée – toujours pour la decoration de la maison<c type="kp">_</c>–<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Je n’ai <hi rend="italics">plus de toile du tout</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Sais tu que si nous aurons Gauguin nous voila devant une très importante affaire qui va nous ouvrir une ère nouvelle.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Lorsque je t’ai quitté à la gare du Midi<ptr target="#note-t-9"/> bien navré et presque malade et presqu’alcoolique à force de me monter le cou –</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">J’ai toujours vaguement senti que cet hiver nous avions mis notre coeur même dans nos discussions avec tant de gens intéressants et artistes mais je n’ai encore osé espérer.–<ptr target="#note-t-10"/> Après l’effort continué de ta part et de la mienne jusqu’ici ça commence à se montrer à l’horizon: l’Espérance<c type="kp">_</c>–<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Tu resteras chez les Goupil ou pas c’est égal<c type="kk">/</c> tu feras corps absolument avec Gauguin et sa suite<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Tu seras ainsi un des premiers ou le premier marchand apôtre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Moi je vois venir ma peinture et egalement un travail dans les artistes. Car si toi tu chercheras à nous procurer de l’argent –</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Moi je pousserai tout ce qui vient à ma portée à la production et j’en donnerai un exemple moi-même<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Or tout cela<c type="kk">/</c> si nous tenons bon<c type="kk">/</c> sera pour former une chose durable plus que nous-<c type="shy">-</c>même.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">J’ai cet après midi à répondre à Gauguin et à Bernard<ptr target="#note-t-12"/> et je vais leur dire que dans tous les cas nous commencerons par nous sentir tous bien unis et que moi pour un j’ai confiance que cette union fera notre force contre les fatalités d’argent et de santé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je te prierai d’aller quand même voir Thomas car avant que Gauguin vienne je voudrais encore acheter des chôses – les suivantes.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">table à toilette avec commode           40 fr.</p>
+
+<p xml:id="p.fr.21" n="21">4 draps                                              40 –</p>
+
+<p xml:id="p.fr.22" n="22">3 tables à dessiner                             12 –</p>
+
+<p xml:id="p.fr.23" n="23">fourneau de cuisine                           60</p>
+
+<p xml:id="p.fr.24" n="24">(Cadres et chassis                              50)</p>
+
+<p xml:id="p.fr.25" n="25">(Couleurs &amp; toiles                            200)</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.26" n="26">Voilà ce qui est beaucoup et rien de tout cela est absolument inevitable<c type="kp">_</c> De tout cela nous pouvons nous passer<c type="kp">_</c> Mais le caractere plus large et plus solide que je desirerais donner à la chôse neamoins l’exigerait.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.27" n="27">Par exemple les 4 draps en plus – j’en ai déjà 4 – nous mettront à même de lôger Bernard pour rien vu que nous mettrons un paillasson<ptr target="#note-t-a"/> ou matelas par terre pour moi ou pour lui au choix. Le fourneau de cuisine nous chauffera l’atelier en meme temps.</p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Mais diras-tu – et ces couleurs...... Eh bien oui, je me le reproche – mais enfin j’ai l’amour propre de faire par mon travail une certaine impression sur Gauguin<c type="kp">_</c> Je ne peux pas autrement que de désirer de travailler seul<c type="kk">/</c> avant qu’il vienne<c type="kk">/</c> le plus possible. Sa venue me changera dans ma facon de peindre et j’y gagnerai j’ose croire – mais tout de même je tiens un peu à ma decoration qui est de la barbotine<ptr target="#note-t-13"/> presque. Et ces jours ci sont superbes<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.29" n="29">Il y a <hi rend="italics">10 toiles de 30 en train</hi> maintenant<c type="kp">_</c><ptr target="#note-t-14"/> </p>
+
+<p rend="indent" xml:id="p.fr.30" n="30">Le voyage de Gauguin alors. il faudrait encore le surajouter<c type="kp">_</c> Mais si Thomas ne veut pas agir un peu largement<c type="kk">/</c> <hi>le voyage de</hi> <hi>Gauguin avant tout</hi><c type="kk">/</c> au detriment de ta poche et de la mienne. AVANT TOUT<c type="kp">_</c> </p>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Toutes ces dépenses que j’ai nommées seraient toutes dans le but de faire bonne impression sur lui au moment de sa venue<c type="kp">_</c> Je voudrais qu’il sente la chôse de suite et je voudrais que nous eussions<c type="kk">/</c> toi pour l’argent et moi pour la mise en place et l’arrangement<c type="kk">/</c> fait l’atelier complet et tel que c’est un milieu digne de l’artiste Gauguin qui va en être le chef.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.32" n="32">Ce serait un bon coup comme celui de dans le temps lorsque Corot<c type="kk">/</c> voyant Daumier aux abois<c type="kk">/</c> lui a assuré la vie de telle façon que l’autre a tout trouvé bon.<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">Mais tel que cela est cela peut deja marcher. Et l’essentiel c’est le voyage et meme ma couleur peut attendre quoique j’ose croire gagner un jour plus avec qu’elle ne nous coûte<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Je ne dédaignerais pas le moins du monde que Gauguin te donne le monopole de son oeuvre et que de suite de suite on monte ses prix – rien en dessous de 500. Qu’il aie confiance en toi – or cela il l’aura<c type="kp">_</c>– Je sens que nous travaillons à une grande et bonne entreprise qui n’a rien à faire avec l’ancien commerce. Pour la couleur il est <hi rend="italics">presque</hi> <hi rend="italics">certain</hi> qu’avec Gauguin nous alons la broyer nous mêmes<c type="kp">_</c><ptr target="#note-t-16"/> J’ai peint les vignes encore entièrement avec la couleur Tanguy et ca marche bien<c type="kk">/</c> le grain plus gros ne gène <hi rend="italics">aucunément</hi><c type="kp">_</c><ptr target="#note-t-17"/></p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Si nous continuons à prendre les chôses par le bon côté c.à.d. par les gens et non par les choses materielles<c type="kk">/</c> il me semble toujours pas absolument improbable que les difficultés matérielles puissent s’aplanir.</p>
+
+<p rend="indent" xml:id="p.fr.36" n="36">Parcequ’on grandit dans la tempête<c type="kp">_</c><ptr target="#note-t-18"/> </p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Je continue à encadrer des etudes parceque cela fait part de l’ameublement et donne du caractère à la chôse.</p>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Si Gauguin le donne<c type="kk">/</c><ptr target="#note-t-b"/> et cela et officiellement en tant qu’avec les Goupil et en privé en tant que ton ami et ton obligé<c type="kk">/</c> alors par contre Gauguin pourra se sentir chef de l’atelier et diriger l’argent 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>comme il l’entendra et aider si cela se peut Bernard<c type="kk">/</c> Laval<c type="kk">/</c> d’autres<c type="kk">/</c> en échange d’etudes ou de tableaux tandis que moi je serai aux memes conditions<c type="kk">/</c> je donnerai les études contre 100 francs et ma part de toile et de couleurs.</p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">Mais plus que Gauguin sente qu’en se mettant avec nous il aura une position de chef d’atelier<c type="kk">/</c> plus vite sera-t-il gueri et plus il aura d’ardeur au travail. Or plus l’atelier soit complet et solidement etabli pour l’utilité de bien des passants<c type="kk">/</c> plus les idées lui viendront et l’ambition pour le rendre bien vivant. Puisqu’à Pont Aven ils ne causent actuellement que de cela<c type="kk">/</c> on en causera à Paris aussi; et encore une fois<c type="kk">/</c> plus que ce soit bien<c type="kk">/</c> plus que ce soit solidement etabli<c type="kk">/</c> d’autant meilleure sera sous peu l’impression générale produite et la chance que cela prenne. </p>
+
+<p rend="indent" xml:id="p.fr.40" n="40">Enfin<c type="kp">_</c> Cela marchera comme cela marchera. Je dis seulement dès maintenant pour eviter les discussions futures<c type="kk">/</c> si cela prend de façon à ce qu’effectivement Laval<c type="kk">/</c> Bernard viennent ce ne sera pas moi mais cela sera Gauguin qui sera le chef de l’atelier<c type="kp">_</c> Pour ce qui est des arrangements intérieures je crois que nous tomberons toujours d’accord.</p>
+
+<p rend="indent" xml:id="p.fr.41" n="41">J’espère que Vendredi j’aurai ta lettre prochaine. La lettre de Bernard est encore une fois remplie de la conviction que Gauguin est un bien grand maître et un homme supérieur absolument quant au caractère et l’intelligence.</p>
+
+<p rend="indent" xml:id="p.fr.42" n="42">Bonne poignée de main et à bientôt<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.43" n="43">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.44" n="44">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p xml:id="p.fr.45" n="45">Les <hi rend="italics">vignes</hi> que je viens de peindre – sont vertes<c type="kk">/</c> pourpres<c type="kk">/</c> jaunes – à grappes violettes<c type="kk">/</c> à sarments noirs et orangés<c type="kp">_</c> A l’horizon quelques saules gris bleu et le pressoir bien bien loin à toit rouge et silhouette de ville lilas lointaine<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.46" n="46">Dans la vigne des figurines de dames à ombrelles rouges et d’autres figurines d’ouvriers vendangeurs avec leur charette.</p>
+
+<p rend="indent" xml:id="p.fr.47" n="47">Un ciel bleu dessus et un avant plan de sable gris<c type="kp">_</c> Cela fait pendant au jardin avec le buisson en boule et les lauriers roses.<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.48" n="48">Je crois que tu prefererais ces 10 toiles à l’ensemble du dernier envoi et j’ose espérer les doubler durant l’automne<c type="kp">_</c> 
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>De jour en jour cela devient plus riche encore<c type="kp">_</c>– Et lorsqu’à la chute des feuilles – je ne sais si cela a lieu ici dans les premiers jours de Novembre comme chez nous – lorsque tout le feuillage des arbres sera jaune<c type="kk">/</c> ce sera contre le bleu quelque choses d’epatant<c type="kp">_</c>– Ziem nous a déjà bien des fois montré ces splendeurs-<c type="shy">-</c>là. Puis un court hiver – et après nous en serons encore une fois aux vergers en fleur.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Included herewith a quite, quite remarkable letter from <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, which I’ll ask you to put aside as being of extraordinary importance. I’m speaking of his description of himself, which touches me in my heart of hearts.<ptr target="#note-t-1"/> It reached me with a letter from <rs type="person" ref="bio.xml#_831">Bernard</rs>, which Gauguin will probably have read and of which he perhaps approves, in which Bernard again says that he wishes to come here, and proposes to me, in the names of <rs type="person" ref="bio.xml#_1148">Laval</rs>, <rs type="person" ref="bio.xml#_1237">Moret</rs>, another new one<ptr target="#note-t-2"/> and himself, an exchange with the four of them.<ptr target="#note-t-3"/> He also says that Laval will come too, and that those two others have a wish to come. I couldn’t ask for more, but when it’s a matter of several painters living communally, I stipulate first and foremost that there would have to be a father superior to impose order, and that naturally that would be Gauguin. That’s why I’d wish Gauguin to be here some time before them (in any case, Bernard and Laval won’t come until February, as Bernard has to go before his recruitment medical board).<ptr target="#note-t-4"/> For my part, I wish for two things: I wish to earn back the money that I’ve already spent, to return it to you, and I wish Gauguin to have his peace and quiet to produce and to breathe as a truly free artist. If I earn back the money already spent and that you’ve been lending me for years, we’ll make the thing bigger and we’ll try to found a studio of renaissance, not of decline. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I’m fairly sure that we could count on <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s staying with us for good, and that there’ll be no loss on either side.</p>
+<p rend="indent" xml:id="p.en.4" n="4">But by joining together in this way, we’ll each of us be more ourselves, and unity will bring strength. </p>
+<p rend="indent" xml:id="p.en.5" n="5">By the way, it goes without saying that I shan’t do the exchange with <rs type="person" ref="bio.xml#_1039">G.</rs>’s portrait,<ptr target="#note-t-5"/> because I think it’ll be too beautiful — but I’ll ask him to let us have it for his first month<ptr target="#note-t-6"/> or in repayment of his fare.</p>
+<p rend="indent" xml:id="p.en.6" n="6">But you can clearly see that if I hadn’t written to them rather strongly, this portrait wouldn’t exist, and <rs type="person" ref="bio.xml#_831">Bernard</rs> has done one too,<ptr target="#note-t-7"/> so:</p>
+<p rend="indent" xml:id="p.en.7" n="7">Let’s agree that I was angry, let’s agree that it was wrong, but it’s still the case that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has given birth to a painting, and <rs type="person" ref="bio.xml#_831">Bernard</rs> as well.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Ah — my study of the vineyards — I sweated blood and tears over it — but I have it — another square no. 30 canvas — once again for the decoration of the house.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">I have <hi rend="italics">no canvas left at all.</hi></p>
+<p rend="indent" xml:id="p.en.10" n="10">Do you know that if we have <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, there we’ll be, at the start of a very important affair, which will open up a new era for us.</p>
+<p rend="indent" xml:id="p.en.11" n="11">When I left you at the Gare du Midi,<ptr target="#note-t-9"/> very upset and almost ill and almost an alcoholic as a result of overdoing it —</p>
+<p rend="indent" xml:id="p.en.12" n="12">I’ve always vaguely felt that last winter we put our very hearts into our discussions with so many interesting people and artists, but I didn’t dare to hope yet.<ptr target="#note-t-10"/> After constant effort on your part and mine until now, it’s beginning to appear on the horizon: Hope.<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">It doesn’t make any difference whether you stay with the Goupils or not, you’ll stand solidly behind <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and his crowd. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">That way, you’ll be one of the first apostle-dealers, or the first.</p>
+<p rend="indent" xml:id="p.en.15" n="15">For myself, I can see my painting ahead, and also a labour among artists. Because if you, now, will try to obtain money for us —</p>
+<p rend="indent" xml:id="p.en.16" n="16">I myself will put everything that comes within my grasp towards production, and I’ll set an example of that myself.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Now all that, if we hold firm, will go to build something more durable than ourselves.</p>
+<p rend="indent" xml:id="p.en.18" n="18">I have to reply to <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and to <rs type="person" ref="bio.xml#_831">Bernard</rs> this afternoon,<ptr target="#note-t-12"/> and I’m going to tell them that whatever happens, we’ll begin by feeling firmly united and that I for one have confidence that this unity will be our strength against the inevitabilities of money and of health.</p>
+<p rend="indent" xml:id="p.en.19" n="19">I’ll ask you to go and see <rs type="person" ref="bio.xml#_780">Thomas</rs> all the same, because before <rs type="person" ref="bio.xml#_1039">Gauguin</rs> comes I’d like to buy some more things — the following.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">dressing table with chest of drawers   40 francs</p>
+<p xml:id="p.en.21" n="21">4 sheets       40 -</p>
+<p xml:id="p.en.22" n="22">3 drawing boards      12 -</p>
+<p xml:id="p.en.23" n="23">kitchen stove      60</p>
+<p xml:id="p.en.24" n="24">(Frames and stretching frames    50)</p>
+<p xml:id="p.en.25" n="25">(Colours and canvases     200)</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Now that’s a lot, and none of it is absolutely indispensable. We can do without all of it. But the broader and more substantial character that I’d wish to give the thing would nevertheless demand it. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">For example, the 4 additional sheets — I already have 4 — will make it possible for us to put <rs type="person" ref="bio.xml#_831">Bernard</rs> up for nothing, seeing that we’ll put a palliasse or a mattress on the floor for me or for him, as we choose. The kitchen stove will heat the studio for us at the same time.</p>
+<p rend="indent" xml:id="p.en.28" n="28">But, you’ll say — and these colours...... Ah, well, yes, I blame myself for it — but after all, I have the self-esteem to wish to make a certain impression on <rs type="person" ref="bio.xml#_1039">Gauguin</rs> with my work. I can’t help wishing to work on my own as much as possible before he comes. His arrival will change me in my way of painting, and I’ll gain by it, I dare believe — but all the same, I’m rather attached to my decoration, which is almost barbotine.<ptr target="#note-t-13"/> And these recent days are superb.</p>
+<p rend="indent" xml:id="p.en.29" n="29">There are <hi rend="italics">10 no. 30 canvases on the go </hi>now.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.30" n="30"><rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s fare, then. We’d have to add it on top. But if <rs type="person" ref="bio.xml#_780">Thomas</rs> isn’t willing to act a little generously, <hi>Gauguin’s fare first and foremost</hi>, to the detriment of your pocket and of mine. FIRST AND FOREMOST. </p>
+<p rend="indent" xml:id="p.en.31" n="31">All this expenditure that I’ve mentioned would all be for the purpose of making a good impression on him at the time of his arrival. I’d like him to have a sense of the thing right away, and I’d like us to have — you for the money and I for the setting up and arrangement — made the studio complete, and such that it’s a setting worthy of <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, the artist, who’s going to be its head. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.32" n="32">It would be a good move, like the one back then, when <rs type="person" ref="bio.xml#_971">Corot</rs>, seeing <rs type="person" ref="bio.xml#_977">Daumier</rs> at bay, gave him enough to live on, in such a way that the other was well pleased with everything.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">But it can already work now, just as it is. The fare’s the essential thing, and my colours can wait, although I dare believe that one day I’ll earn more with them than they’re costing us.</p>
+<p rend="indent" xml:id="p.en.34" n="34">I wouldn’t disapprove in the very least if <rs type="person" ref="bio.xml#_1039">Gauguin</rs> gave you a monopoly in his work, and if right away, right away we raised his prices — nothing under 500. He should have confidence in you — well, he’ll have it. I feel that we’re working on a big, good enterprise that has nothing in common with the old way of doing business. As for colours, it’s <hi rend="italics">almost certain</hi> that with Gauguin we’ll grind it ourselves.<ptr target="#note-t-16"/> I’ve painted the vineyards entirely with <rs type="person" ref="bio.xml#_772">Tanguy</rs>’s colours, and it works well, the coarser grain’s no problem <hi rend="italics">at all</hi>.<ptr target="#note-t-17"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">If we continue to approach things from the right point of view, that’s to say of people and not of material things, it still seems not entirely improbable to me that our material problems may smooth themselves out.</p>
+<p rend="indent" xml:id="p.en.36" n="36">Because one matures in the storm.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.37" n="37">I’m continuing to frame studies, because they’re part of the furnishings and give things character.</p>
+<p rend="indent" xml:id="p.en.38" n="38">If <rs type="person" ref="bio.xml#_1039">Gauguin</rs> gives the monopoly, and does so both officially, as you’re with the Goupils, and in private, as your friend and someone in your debt, then in return Gauguin will be able to feel himself head of the studio, and control the money 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> as he’ll see fit, and if it can be done, help <rs type="person" ref="bio.xml#_831">Bernard</rs>, <rs type="person" ref="bio.xml#_1148">Laval</rs>, others, in exchange for studies or paintings, while I’ll be under the same conditions, I’ll give studies in return for 100 francs and my share of canvas and colours.</p>
+<p rend="indent" xml:id="p.en.39" n="39">But the more <rs type="person" ref="bio.xml#_1039">Gauguin</rs> feels that by joining us he’ll have the position of head of a studio, the sooner he’ll recover and the keener he’ll be to work. Now the more finished the studio is, and firmly established for the use of many passing visitors, the more ideas will come to him, and the ambition to make it truly alive. Since they’re talking about nothing else at Pont-Aven at the moment, they’ll talk about it in Paris, too; and once again, the better it is, the more firmly established it is, so much the better, before long, will be the general impression created, and the chance that it will work.</p>
+<p rend="indent" xml:id="p.en.40" n="40">Ah, well, it’ll turn out as it’ll turn out. I only say that from now, in order to avoid future arguments, if it works in such a way that <rs type="person" ref="bio.xml#_1148">Laval</rs>, <rs type="person" ref="bio.xml#_831">Bernard</rs> do in fact come, it won’t be me but it will be <rs type="person" ref="bio.xml#_1039">Gauguin</rs> who’ll be the head of the studio. As far as internal arrangements are concerned, I believe that we’ll be in agreement in any case. </p>
+<p rend="indent" xml:id="p.en.41" n="41">I hope that on Friday I’ll have your next letter. <rs type="person" ref="bio.xml#_831">Bernard</rs>’s letter is once again full of the conviction that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> is a truly great master, and an absolutely superior man in terms of character and intelligence.</p>
+<p rend="indent" xml:id="p.en.42" n="42">Good handshake, and more soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.43" n="43">Ever yours,</p>
+<p xml:id="p.en.44" n="44">Vincent </p><space unit="lines" quantity="1"/><pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/>
+<p xml:id="p.en.45" n="45">The <hi rend="italics">vines</hi> that I’ve just painted — are green, purple, yellow — with bunches of violet grapes, with black and orange shoots. On the horizon, some blue-grey willows, and the press-house far, far away, with a red roof, and silhouette of town in the distance, lilac.</p>
+<p rend="indent" xml:id="p.en.46" n="46">In the vineyard, little figures of ladies with red sunshades and other little figures of grape-pickers with their cart.</p>
+<p rend="indent" xml:id="p.en.47" n="47">A blue sky above and a foreground of grey sand. It makes a pendant for the garden with the round bush and the oleanders.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.48" n="48">I believe that you’d prefer these 10 canvases to the whole of the last consignment, and I dare hope to do as many again during the autumn. 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/> It’s becoming even richer day by day. And when at leaf-fall — I don’t know if that happens here in the first days of November, as at home — when all the foliage of the trees is yellow, it will be something marvellous, against the blue. <rs type="person" ref="bio.xml#_1449">Ziem</rs> has shown us these glories many times already. Then a short winter — and afterwards we’ll be back to the orchards in blossom again.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The opening words of the letter indicate that it was written almost immediately after Van Gogh received a letter from Gauguin (<ref target="let692.xml">letter 692</ref>); this must have been on 3 October. <ref target="let695.xml">See letter 695</ref>, <hi rend="italics">Date</hi>.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                    	            
+                                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed <ref target="let692.xml">letter 692</ref> from Gauguin.</p>
+                    	                
+                    	            
+                                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">We have moved a final sheet that was printed with the present letter in <hi rend="italics">De brieven</hi> 1990 to the end of <ref target="let697.xml">letter 697</ref>; see further under <hi rend="italics">Arrangement </hi>in the notes to that letter.</p>
+                    	                
+                    	        
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bernard’s military service <ref target="let575.xml">(575)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Exchange of portraits with Bernard and Gauguin <ref target="let680.xml">(680)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Decoration of the Yellow House <ref target="let665.xml">(665)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="ogt_5">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Attempts to sell work through Thomas <ref target="let639.xml">(639)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="ogt_6">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Framing paintings for the decoration <ref target="let673.xml">(673)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The letter from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let692.xml">692</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This young man was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_936">Ernest Ponthier de Chamaillard</rs>, an amateur painter who joined the group around <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> in Pont-Aven. Van Gogh never met him and did not even know his name. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lettres à Bernard</hi> 1911, p. 132 and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin </hi>1984, pp. 502-503. His <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of a harbour</hi>, 1888 (Amsterdam, Van Gogh Museum), which bears the dedication ‘to my friend Gauguin’ (à l’ami Gauguin), comes from Theo’s estate.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh agreed to this proposal and sent seven studies to Pont-Aven shortly afterwards; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let698.xml">see letter 698</ref>. </p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The ‘conseil de révision’ is the administrative board that rules on questions of fitness for military service (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">TLF</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2262">Self-portrait with portrait of Bernard, ‘Les misérables’</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let692.xml#n-1">see letter 692, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The agreement was that while <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> was staying in Arles he would send Theo one painting a month in return for his financial support.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let692.xml#n-1">See letter 692, n. 1,</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2261">Self-portrait with portrait of Gauguin</rs></hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The green vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh means the Gare de Lyon, the starting point for trains to the South.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>By ‘our discussions’ Van Gogh means the plans for a society of artists; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let584.xml#n-6">see letter 584, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Possibly a reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1286">Puvis de Chavannes</rs>’ painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_315">Hope</rs></hi>, which Van Gogh had previously associated with the art of the future. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let611.xml#n-11">See letter 611, n. 11.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The letters to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> are <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let695.xml">695</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let696.xml">696</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘paillasse’.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Van Gogh had compared his work with ‘barbotine’ before; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let663.xml#n-7">see letter 663, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">letter 693</ref> of 2 October Van Gogh listed seven no. 30 canvases: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The night café </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2711">F 463 / JH 1575</rs>), an unknown painting of the park (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-19">n. 19</ref> below), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The public garden (‘The poet’s garden’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2713">F 468 / JH 1578</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Path in the public garden</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2716">F 470 / JH 1582</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ploughed fields (‘The furrows’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2719">F 574 / JH 1586</rs>),<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> The Yellow House (‘The street’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2721">F 464 / JH 1589</rs>) and<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> Starry night over the Rhône </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2723">F 474 / JH 1592</rs>). With <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The green vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2726">F 475 / JH 1595</rs>) referred to above, this makes eight no. 30 canvases. As he did in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">letter 693</ref>, Van Gogh must also have counted <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Café terrace at night</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2714">F 467 / JH 1580</rs>), a no. 25 canvas, as a no. 30. The tenth may have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Path in the public garden </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2737">F 471 / JH 1613</rs>), which Van Gogh had painted on 18 September (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let683.xml">see letter 683</ref>); however this is a no. 20 canvas (74 x 62 cm).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>As a result of the efforts of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Camille Corot</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_977">Honoré Daumier</rs> was in a position to buy a house in Valmondois, near Auvers-sur-Oise, in February 1874. Through his friend Bardon, Corot had raised more than half of the 13,000 francs needed. This generous act was common knowledge thanks to reports in the press – for instance it was mentioned in Daumier’s obituary in<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> La Révolution Française</hi> in 1879 – and by way of<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> <ref target="biblio.xml#lit_407">Causeries sur les artistes de mon temps</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1063">Jean Gigoux</rs>, which Van Gogh had read. Gigoux wrote: ‘Good old Daumier! He was unable to hide how he was living. Towards the end, as he was almost blind, and so poor that he could not longer pay his rent in the country, Corot, good Corot, heard about it: and so he bought the house and brought him the bill of sale on his saint’s day’. (Ce brave Daumier! Il ne sut pas abriter sa vie. Vers la fin, comme il était presque aveugle, et si pauvre, qu’il ne pouvait plus payer son loyer à la campagne, Corot, le bon Corot, eut vent de cela: alors, il acheta la maison et lui porta l’acte de vente le jour de sa fête) (see Gigoux 1885, p. 55). We do not know whether Van Gogh was familiar with the book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_479">Honoré Daumier: l’homme et l’oeuvre</ref></hi> (1888) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_509">Arsène Alexandre</rs> (at any rate Theo had bought it in May). Alexandre mentions the story on p. 334. Cf. also Dumesnil 1875, p. 90 and Dorn 1990, p. 231 (n. 26).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>It does not appear from the correspondence that Van Gogh and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> ground their own paint in Arles.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Van Gogh mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let691.xml">letter 691</ref> that he had received a batch of coarsely ground paint from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_772">Tanguy</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Van Gogh also produced this possible quotation on other occasions: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let133.xml#n-8">see letter 133, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘Si Gauguin donne le monopole’.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>This painting is now lost; cf. the letter sketches in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let689.xml">letters 689</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">693</ref> for the composition.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

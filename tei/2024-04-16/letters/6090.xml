@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Saturday, 12 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let609"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b527 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>609</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>487</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>611</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-05-12">Saturday, 12 May 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0527" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000708_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000708_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0527" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000708_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000708_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000708_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+<p xml:id="p.fr.2" n="2">je t’écris encore un petit mot pour te dire que j’ai été chez ce monsieur que le juif arabe dans Tartarin appelle “le zouge de paix”<c type="kp">_</c><ptr target="#note-t-1"/> J’ai tout de même ratrappé 12 francs et mon logeur a été reprimandé pour avoir retenu ma malle; vu que moi je ne refusais pas de payer il n’avait pas le droit de me la retenir. Si l’autre avait obtenu raison cela m’aurait fait du tort parce que il n’aurait pas manqué de dire partout que je n’avais pas pu ou pas voulu le payer et qu’il avait été obligé de prendre ma malle<c type="kp">_</c>– Tandis que maintenant – car je suis parti en même temps que lui – il disait en route qu’il s’était faché mais enfin qu’il n’avait pas voulu m’insulter<c type="kp">_</c>– Pourtant c’est justement ce qu’il cherchait<c type="kk">/</c> probablement voyant que j’en avais assez vu de sa barraque – et qu’il ne pouvait pas me faire rester – il aurait été raconter des histoires là où je suis maintenant<c type="kp">_</c> Bon<c type="kp">_</c>– Si j’avais voulu obtenir la réduction réelle<c type="kk">/</c> probable j’aurais dû par exemple comme dommages intérets réclamer davantage. Si je me laissais embêter par le premier venu ici tu comprends que je ne saurais bientôt plus où donner de la tête<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai trouvé un restaurant mieux où je mange pour 1 franc.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">La santé va mieux ces jours ci<c type="kp">_</c> </p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Maintenant j’ai deux nouvelles etudes comme ceci:</p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/> 
+
+<p xml:id="p.fr.6" n="6">tu en as un dessin deja<c type="kk">/</c> d’une ferme au bord de la grande route dans les blés<c type="kp">_</c><ptr target="#note-t-3"/></p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">Une prairie pleine de boutons d’or tres jaune<c type="kk">/</c> un fossé avec des plantes d’Iris au feuilles vertes à fleurs violettes<c type="kk">/</c> dans le fond la ville<c type="kk">/</c> quelques saules gris – une bande de ciel bleu.<ptr target="#note-t-4"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Si on ne coupe pas la prairie je voudrais refaire cette étude car la donnee était bien belle et j’ai eu du mal à trouver la composition<c type="kp">_</c> Une petite ville entourée d’une campagne entierement fleurie de jaune &amp; de violet. tu sais ce serait joliment un reve Japonais.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Ayant demandé le prix de transport de l’envoi qui est parti par petite vitesse<c type="kk">/</c> cela sera 7 francs en gare à Paris<c type="kp">_</c> Vu qu’il ne me reste pas grand chose je n’ai pas affranchi ici – mais si on demandait davantage il faudrait réclamer. la caisse est marquée UV &amp; W1042<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Hier &amp; aujourd’hui nous avons de nouveau le mistral. J’espère que mon envoi arrivera avant que Tersteeg ne vienne à Paris.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Poignée de main<c type="kk">/</c> ecris moi bientôt<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.12" n="12">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.13" n="13">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I’m writing you another few lines to tell you that I’ve been to see the gentleman whom the Arab Jew in Tartarin calls ‘the shustish of the beace’.<ptr target="#note-t-1"/> I still got 12 francs back and my host was reprimanded for keeping my trunk; as I wasn’t refusing to pay, he had no right to hold it. If they’d found in favour of the other party, that would have done me harm, because he wouldn’t have failed to go around saying that I had not been able or not been willing to pay him, and that he’d been forced to take my trunk. Whereas now — because I left at the same time as him — he said as we went that he’d been angry but hadn’t really wished to insult me. But that’s just what he was trying to do, probably seeing that I had seen enough of his shack — and that he couldn’t make me stay — he’d have gone to tell tales where I am at the moment. All right. If I’d wanted to get the actual reduction, I’d probably have claimed more in damages, for example. If I let myself be annoyed by just anybody I’d soon not know where to turn, you understand. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I’ve found a better restaurant where I eat for 1 franc.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">My health’s been better these days.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Now I have two new studies like this:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">You already have a drawing of it, a farmhouse beside the wide road in the wheatfields.<ptr target="#note-t-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">A meadow full of very yellow buttercups, a ditch with iris plants with green leaves, with purple flowers, the town in the background, some grey willow trees — a strip of blue sky.<ptr target="#note-t-4"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">If they don’t mow the meadow I’d like to do this study again, because the subject matter was really beautiful and I had trouble finding the composition. A little town surrounded by countryside entirely covered in yellow and purple flowers. That would really be a Japanese dream, you know.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Having asked the price for sending the consignment that went off by goods train, it will be 7 francs at the station in Paris. As I don’t have very much left I didn’t put postage on it here — but if they asked more you’d have to complain. The crate is marked UV and W1042.</p>
+<p rend="indent" xml:id="p.en.12" n="12">We’ve had the mistral again yesterday and today. I hope my consignment arrives before <rs type="person" ref="bio.xml#_787">Tersteeg</rs> comes to Paris.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Handshake, write to me soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Ever yours,</p>
+<p xml:id="p.en.15" n="15"> Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh says that he has been to see the justice of the peace, a visit that must have taken place on Saturday (<ref target="#n-1">see n. 1</ref>). Since he said in <ref target="let607.xml">letter 607</ref> of 10 May that this is what he was intending to do, he must have gone on 12 May. The weather reports also tell us that the mistral was blowing on 11 and 12 May, and Van Gogh mentions it in <ref target="#l-56">ll. 56-57</ref> (<hi rend="italics">Météo-France</hi>). We have therefore dated the letter the day of the visit to the justice of the peace, Saturday, 12 May 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dispute with the hotel-keeper Carrel about the bill <ref target="let606.xml">(606)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is staying at Café de la Gare <ref target="let606.xml">(606)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">First consignment of paintings from Arles <ref target="let606.xml">(606)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>In 1888 there were two justices of the peace in Arles, one for the western canton and one for the eastern canton. Since Hotel Carrel was on the east side of the town, Van Gogh and the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_42">hotel-keeper </rs>would have taken their dispute to the justice for the eastern canton. This was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_84">Eugène Giraud</rs>, who was open for business from 10.00 a.m. on Saturday mornings (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’indicateur marseillais </hi>1888).</p>
+
+<p rend="indent">Van Gogh is referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Alphonse Daudet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Aventures prodigieuses de Tartarin de Tarascon</ref></hi>, in which an Arab Jew with a strong accent cries out: ‘Au zouge de paix! Au zouge de paix!’ See Daudet 1986-1994, vol. 2, p. 537 (3e épisode, chapter 3).</p>
+
+<p rend="indent">The inhabitants of Tarascon are described in the novel as gullible people with vivid imaginations. Their favourite occupations are hunting – in the absence of game they shoot at their caps – and singing love songs. Because Tartarin excels in both pursuits he is very highly regarded. He likes bragging about his long voyages, but in fact he has never been outside Tarascon. To maintain his reputation he goes to Algeria to hunt lions, has all sorts of adventures, shoots a solitary (tame) lion and is greeted as a hero on his return to Tarascon. </p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This was Restaurant Vénissac on place Lamartine, where Van Gogh ate every day (at least in August and September). It was next door to the Café de la Gare, where he was staying. The owner was the widow <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_799">Marguerite Vénissac-Canin</rs>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let658.xml#n-10">See letter 658, n. 10,</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let691.xml">letter 691</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The study is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Farmhouse in a wheatfield</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2603">F 408 / JH 1417</rs>), reproduced in the letter sketch of the same title <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_163">F - / JH 1418</rs>. Van Gogh had sent Theo the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Farmhouse in a wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2598">F 1415 / JH 1408</rs>) not long before; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let605.xml">see letter 605</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of Arles with irises in the foreground</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2602">F 409 / JH 1416</rs>) after which Van Gogh made the sketch of the same title here (likewise <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_164">F - / JH 1418</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs>’s visit to Paris took place in the first half of June; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">see letter 625</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

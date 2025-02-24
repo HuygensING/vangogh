@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Sunday, 25 March 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let589"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b511 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>589</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>471</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>591</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-03-25">on or about Sunday, 25 March 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0511" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000687_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000687_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000687_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0511" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000687_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000687_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000687_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">ta lettre m’a fait grand plaisir<c type="kk">/</c> je t’en remercie ainsi que du billet de 50 fr.–</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je te felicite beaucoup de la lettre de Tersteeg – je la trouve absolument satisfaisante<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je suis persuadé qu’il n’y a rien de blessant dans son silence à mon égard<c type="kk">/</c> d’ailleurs il y aura compté que tu me ferais lire sa réponse<c type="kp">_</c> Puis c’est beaucoup plus pratique qu’il n’aie à écrire qu’à toi<c type="kk">/</c> et en tant que quant à moi<c type="kk">/</c> s’il ne trouve pas absolument mauvais ce que je fais tu verras qu’il m’écrira un mot aussitôt qu’il aura vu mon travail. Encore une fois donc<c type="kk">/</c> je suis plus content de sa réponse simple et bienveillante que je ne saurais te l’exprimer.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Tu auras remarqué qu’il se déclare disposé à faire l’achat d’un Monticelli bonne qualité pour sa propre collection<c type="kp">_</c>– Si tu lui disais que nous possédons dans notre collection un bouquet de fleurs qui est plus artistique et plus beau qu’un bouquet de Diaz<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Que Monticelli prenait quelquefois un bouquet de fleurs<c type="kk">/</c> pour motif de rassembler sur un seul panneau toute la gamme de ses tons les plus riches et les mieux équilibrés. Et qu’il faut aller directement à Delacroix pour trouver à ce point l’orchestration des couleurs<c type="kp">_</c><ptr target="#note-t-2"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Que – je veux parler du tabl. chez les Delarebeyrette<ptr target="#note-t-3"/> – actuellement nous connaissons un autre bouquet de très-<c type="shy">-</c>bonne qualité et à un prix raisonable et que nous le jugeons en tout cas très-<c type="shy">-</c>supérieur aux Monticelli à figures qui courent les rues actuellement et appartiennent à une époque de decadence du talent de Monticelli<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">J’espère que tu lui enverras la belle marine de Gauguin<c type="kp">_</c>–<ptr target="#note-t-4"/> Mais que cela me fait plaisir que Tersteeg aie répondu de cette façon.–</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Lorsque tu lui écriras<c type="kk">/</c> dis lui un mot de Russell<c type="kp">_</c>– Quand moi j’écrirai à Russell<c type="kk">/</c> je lui parlerai de ses tableaux et je lui demanderai de me faire un échange<ptr target="#note-t-5"/> parce que nous désirerions le nommer et montrer ses tableaux lorsque’il y sera question de l’école Renaissance actuelle.–</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je viens de faire un bouquet d’abricotiers en fleur dans un petit verger vert frais<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Ai eu contrariété pour le coucher de soleil avec figures et un pont dont je parlais à Bernard<c type="kp">_</c><ptr target="#note-t-7"/> Le mauvais temps m’empêchant de travailler sur place<c type="kk">/</c> j’ai éreinté complètement cette étude en voulant la finir chez moi.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Seulement j’ai aussitôt après recommencé le meme motif sur une autre toile mais le temps étant tout autre<c type="kk">/</c> dans une gamme grise et sans figures<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Je ne trouverais pas mauvais que tu envoyes à Tersteeg une étude de moi – veux tu dire le pont de Clichy avec le ciel jaune et deux maisons qui se reflètent dans l’eau?<ptr target="#note-t-9"/></p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">celle-<c type="shy">-</c>là<c type="kk">/</c> ou les papillons<ptr target="#note-t-10"/> ou le champ de coquelicots<ptr target="#note-t-11"/> pourraient aller à la rigueur<c type="kp">_</c> Cependant j’espère arriver à mieux ici.– Dans le cas où tu serais de cet avis<c type="kk">/</c> tu pourrais dire à Tersteeg que moimême crois avoir plus de chance de vente en Hollande avec les études de la nature du midi<c type="kk">/</c> et que lorsque Tersteeg viendra à Paris au mois de Mai il trouvera un envoi de quelques motifs d’ici<c type="kp">_</c><ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Merci bien encore aussi de toutes les démarches que tu a faites pour l’exposition des Indépendants<c type="kk">/</c> je suis en somme bien content qu’ils les ont placés avec les autres impressionistes<c type="kp">_</c><ptr target="#note-t-13"/> Mais – quoique pour cette fois ci cela ne fasse absolument rien – dans la suite il faudra insérer mon nom dans le catalogue tel que je le signe sur les toiles<c type="kk">/</c> c. à d. Vincent et non pas Vangogh pour l’excellente raison que ce dernier nom ne saurait se prononcer ici<c type="kp">_</c><ptr target="#note-t-14"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Je te renvoie ci-inclus la lettre de Tersteeg et celle de Russell – il sera peutêtre intéressant de garder la correspondance des artistes<c type="kp">_</c>–<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Si tu ajoutais à ton envoi la petite tête de Bretonne de l’ami Bernard ce ne serait pas mal.<ptr target="#note-t-16"/> Faut lui montrer que tous les impressionistes sont bons et que ce qu’ils font est très varié.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Je crois que notre ami Reid regrette de s’être brouillé<c type="kk">/</c> malheureusement il ne peut pas être question de lui offrir encore une fois les mêmes avantages – soit de chercher à lui faire avoir des tableaux en dépôt<c type="kp">_</c> Il ne suffit pas d’aimer les tableaux et il m’a semblé qu’il manquait de coeur pour les artistes.<ptr target="#note-t-17"/> S’il change en tant que quant à cela ce ne sera pas d’ici à demain. Tersteeg a été l’ami personnel de Mauve et de bien d’autres et il a ce je ne sais quoi qui convainct les amateurs<c type="kp">_</c>– Tu verras que ce qui donne de l’aplomb c’est de connaître les gens<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je t’écris encore de ces jours ci<c type="kk">/</c> seulement voulais immédiatement te féliciter pour la renaissance de tes relations avec la Hollande<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Poignée de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">b. à. t.</p>
+
+<p xml:id="p.fr.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.23" n="23">la ville de Paris ne paye guère<c type="kk">/</c> regretterais de voir les Seurats dans un musee de province ou dans une cave – faudrait que ces tableaux restent entre mains vivantes<c type="kp">_</c>–<ptr target="#note-t-18"/> Si Tersteeg voulait – – –. Si on fait les 3 expositions permanentes faudrait un grand Seurat<ptr target="#note-t-19"/> pour Paris<c type="kk">/</c> pour Londres et pour Marseille.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Your letter gave me great pleasure, I thank you for it as well as for the 50-franc note.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I congratulate you heartily on <rs type="person" ref="bio.xml#_787">Tersteeg</rs>’s letter — I think it’s absolutely satisfactory.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’m convinced there’s nothing hurtful in his silence towards me, in any case he’d have expected you to give me his reply to read. And it’s much more practical for him having only to write to you, and as far as I’m concerned, if he doesn’t think what I’m doing is utterly bad, you’ll see, he’ll write me a line as soon as he’s seen my work. So once again, I’m happier with his simple and friendly reply than I could tell you.</p>
+<p rend="indent" xml:id="p.en.5" n="5">You’ll have noticed that he states his willingness to make a purchase of a good quality <rs type="person" ref="bio.xml#_1240">Monticelli</rs> for his own collection. If you told him that we have a bouquet of flowers in our collection that is more artistic and more beautiful than a bouquet by <rs type="person" ref="bio.xml#_992">Diaz</rs>.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">That <rs type="person" ref="bio.xml#_1240">Monticelli</rs> would sometimes take a bouquet of flowers in order to put on a single panel the whole range of his richest and most perfectly balanced tones. And that you have to go straight to <rs type="person" ref="bio.xml#_982">Delacroix</rs> to find such an orchestration of colours.<ptr target="#note-t-2"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">That — I’m referring to the painting at the <rs type="person" ref="bio.xml#_342">Delarebeyrette</rs>s’<ptr target="#note-t-3"/> — we currently know of another bouquet of very good quality and at a reasonable price, and that in any case we think it’s much finer than the <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s with figures, which are all over the place these days and belong to a period of decline in Monticelli’s talent.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I hope you’ll send him <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s fine seascape.<ptr target="#note-t-4"/> But how pleased I am that <rs type="person" ref="bio.xml#_787">Tersteeg</rs> has replied in this way.</p>
+<p rend="indent" xml:id="p.en.9" n="9">When you write to him, say a word about <rs type="person" ref="bio.xml#_1334">Russell</rs>. When I write to Russell myself, I’ll talk about his paintings and I’ll ask him to do an exchange with me,<ptr target="#note-t-5"/> because we’d want to mention him and show his paintings when it comes to the question of the modern-day Renaissance school.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I’ve just done a clump of apricot trees in a little fresh green orchard.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">Had some trouble with the sunset with figures and a bridge that I was talking to <rs type="person" ref="bio.xml#_831">Bernard</rs> about.<ptr target="#note-t-7"/> As the bad weather prevented me from working on the spot, I completely worked this study to death trying to finish it at home. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">However, I started the same subject again immediately afterwards on another canvas, but as the weather was quite different, in a grey palette and without figures.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I wouldn’t think it a bad idea if you sent <rs type="person" ref="bio.xml#_787">Tersteeg</rs> one of my studies — do you mean the Clichy bridge with the yellow sky and two houses reflected in the water?<ptr target="#note-t-9"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15"> That one, or the butterflies<ptr target="#note-t-10"/> or the field of poppies<ptr target="#note-t-11"/> might do. However, I hope to do better things here. If you happen to feel that way, you could tell <rs type="person" ref="bio.xml#_787">Tersteeg</rs> that I myself think I have a better chance of sales in Holland with the studies of nature in the south, and that when Tersteeg comes to Paris in May he’ll find a consignment with some subjects from down here.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">And again, many thanks for all the initiatives you’ve taken for the Independents’ exhibition, all in all I’m really pleased that they’ve put them with the other Impressionists.<ptr target="#note-t-13"/> But — although this time it makes no difference at all — in future my name must be put in the catalogue the way I sign it on the canvases, i.e. Vincent and not Vangogh, for the excellent reason that people here wouldn’t be able to pronounce that name.<ptr target="#note-t-14"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">I’m returning herewith the letter from <rs type="person" ref="bio.xml#_787">Tersteeg</rs> and the one from <rs type="person" ref="bio.xml#_1334">Russell</rs> — it will perhaps be interesting to keep the artists’ correspondence.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">If you included the little head of a Breton woman by our friend <rs type="person" ref="bio.xml#_831">Bernard</rs> in your consignment, that wouldn’t be a bad idea.<ptr target="#note-t-16"/> We must show him that all the Impressionists are good and that what they do is very varied.</p>
+<p rend="indent" xml:id="p.en.19" n="19">I think our friend <rs type="person" ref="bio.xml#_623">Reid</rs> regrets falling out, unfortunately there can be no question of offering him the same advantages again — that is, trying to let him have paintings on commission. It’s not enough to love paintings, and it seemed to me that he lacked warm feelings for painters.<ptr target="#note-t-17"/> If he changes in that respect it won’t be overnight. <rs type="person" ref="bio.xml#_787">Tersteeg</rs> was a personal friend of <rs type="person" ref="bio.xml#_323">Mauve</rs> and many others, and he has that <hi rend="italics">je ne sais quoi</hi> that wins art lovers over. You’ll see that what gives self-confidence is knowing people.</p>
+<p rend="indent" xml:id="p.en.20" n="20">I’ll write more in the next few days, but wanted to congratulate you right away on the renewal of your relations with Holland.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Yours truly,</p>
+<p xml:id="p.en.23" n="23">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">The city of Paris pays practically nothing, would be sorry to see the <rs type="person" ref="bio.xml#_1353">Seurat</rs>s in a provincial museum or a cellar — these paintings must stay in living hands.<ptr target="#note-t-18"/> If <rs type="person" ref="bio.xml#_787">Tersteeg</rs> was willing — — —. If we do the 3 permanent exhibitions, we’d need a large Seurat<ptr target="#note-t-19"/> for Paris, one for London and one for Marseille.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+      <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh confirms the receipt of 50 francs. The letter must date from after 22 March 1888 because this was when the Indépendants exhibition opened (<ref target="#l-89">ll. 89-93</ref>; cf. also <ref target="#n-13">nn. 13</ref> and <ref target="#n-14">14</ref>). He received the next instalment on or about 1 April (<ref target="let591.xml">see letter 591</ref>); we therefore date the present letter on or about Sunday, 25 March 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Efforts to interest Tersteeg in modern art <ref target="let580.xml">(580)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Entry for the 1888 Indépendants exhibition <ref target="let582.xml">(582)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to deal in modern art in England <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to exhibit work by modern artists in Marseille <ref target="let580.xml">(580)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="ogt_5">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Disagreement with Reid <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_306">Vase of flowers</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let578.xml#n-4">letter 578, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+      
+<p>Van Gogh had previously referred to ‘symphonies of colours’; this choice of words may derive from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Charles Blanc</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_48">Grammaire des arts du dessin</ref></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_403">Les artistes de mon temps</ref></hi> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let537.xml#n-7">See letter 537, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>In the 1880s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_342">François Joseph Delarebeyrette</rs>’s gallery was located at 43 rue de Provence in Paris. He was the leading dealer in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>’s work. After his death in September 1886, his wife and his son Gabriel took over the running of the business. Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs> regularly bought work by Monticelli there. See Fowle 2000, p. 94, and Nonne 2000, p. 42.</p>
+
+<p rend="indent">We do not know which of Monticelli’s flower pieces Van Gogh had seen at Delarebeyrette’s; in 1886 the gallery had some forty works by Monticelli in stock. See Alauzen and Ripert 1969, p. 447.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2143">The beach at Dieppe</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-5">letter 582, n. 5.</ref> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> had asked Theo to send him a number of ‘modern’ paintings (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let592.xml">see letter 592</ref>). At the end of March 1888 Theo sent a consignment to the Hague branch. It contained one work each by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_981">Degas</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1349">Sisley</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Camille Pissarro</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, Van Gogh (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Seine with the Clichy bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2553">F 303 / JH 1323</rs>), after which is the letter sketch of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_155">F - / JH 1324</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-9">see n. 9</ref> below) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1392">Toulouse-Lautrec</rs>, and two by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>. See exhib. cat. Amsterdam 1999, p. 81. On 18 April Monticelli’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_669">Women with jewellery</rs> </hi>(Femmes aux bijoux)<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>was sold to the Amsterdam art dealer <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_821">E.J. van Wisselingh</rs>; the other paintings remained unsold and were sent back to Paris on 9 June (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">RKD</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Goupil Ledgers</hi> and Jampoller 1986, p. 51).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This exchange was discussed several times between March and July 1888, but does not seem to have gone ahead. Van Gogh had probably already exchanged work with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1334">Russell</rs> in Paris; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let569.xml#n-13">see letter 569, n. 13.</ref> Russell’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1310"> Vincent van Gogh</rs></hi> and the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_652">Seated female nude</rs></hi> that has meanwhile been attributed to him (both Amsterdam, Van Gogh Museum) may have been obtained by way of exchange. Russell owned two paintings by Van Gogh – only one of which, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Shoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_655">F 332 / JH 1234</rs>), can now be identified – and one lithograph, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">‘At eternity’s gate’</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2417">F 1662 / JH 268</rs>). See cat. Amsterdam 2011.</p>
+      
+<p rend="indent">In August 1888 Van Gogh sent twelve drawings to Russell; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let652.xml#n-3">see letters 652, n. 3</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let654.xml#n-1">654, n. 1.</ref> This was not, though, related to the exchange suggested here.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard with apricot trees in blossom</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2585">F 553 / JH 1387</rs>) or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard with apricot trees in blossom</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2581">F 556 / JH 1383</rs>). The description ‘fresh green’ is most applicable to the former work. Both paintings are of apricot trees (with thanks to Hans den Nijs, Experimental Plant Systematics, University of Amsterdam). <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The pink orchard</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2578">F 555 / JH 1380</rs>) was painted later; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let594.xml">see letter 594</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>All that survives of this study is the fragment <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Walking couple</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2572">F 544 / JH 1369</rs>). Van Gogh described the study in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let587.xml">letter 587</ref> to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> (which was enclosed with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let588.xml">letter 588</ref> to Theo), and made the letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Langlois bridge with walking couple</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_154">F - JH 1370</rs>) after it.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Langlois bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2573">F 400 / JH 1371</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Seine with the Clichy</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">bridge </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2553">F 303 / JH 1323</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+      Probably  <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Grass and butterflies </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2778">F 460 / JH 1676</rs>). The painting is now thought to belong to the Paris period (it had previously been dated to spring 1889). See cat. Amsterdam 2011.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Poppies in a wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2653">F 562 / JH 1483</rs>), which likewise appears to date from the Paris period (previously dated June 1888). See cat. Amsterdam 2011.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs>’s trip to Paris took place a little later, in the first half of June: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">see letter 625</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Van Gogh exhibited three works at the Indépendants; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-9">see letter 582, n. 9.</ref> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_297">Angrand</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_328">Anquetin</rs>,<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1267"> Lucien Pissarro</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs> also had work there.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Theo must have sent Vincent a copy of the catalogue, where it does indeed say ‘Van Gogh’, with Theo’s home address. See for the catalogue <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-9">letter 582, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>These letters from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1334">Russell</rs> do not appear to have survived.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>See for the consignment <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-4">n. 4</ref> above; it did not include a work by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>. We have been unable to identify his ‘little head of a Breton woman’.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>In his letters Van Gogh repeatedly accused <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs> of not caring enough about living artists, and only being concerned with making money. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let591.xml">See letters 591</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let598.xml">598</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let604.xml">604</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Theo may have mentioned the rumours about the purchase of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2234">Models</rs> </hi>by the city of Paris in his previous letter. See exhib. cat. Paris 1991, p. 408.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>A few hours before he left for Arles, on 19 February 1888, Vincent went with Theo to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1353">Seurat</rs>’s studio (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let695.xml">see letter 695</ref>) at 128bis boulevard de Clichy. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2234">Models</rs> </hi>and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_425">A Sunday afternoon on the island of La Grande Jatte</rs></hi> were probably among the large canvases they saw there; Van Gogh mentions them both in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let710.xml">letter 710</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Octave Maus to Vincent van Gogh. Brussels, Friday, 15 November 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let818"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1344 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>818</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>820</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Octave Maus</rs>
+                            <date when="1889-12-15">Friday, 15 November 1889</date>
+                            <placeName>Brussels</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1344" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001483_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001483_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001483_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1344" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001483_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001483_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001483_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1"><hi><hi rend="italics">Les XX Bruxelles</hi></hi></p>
+    <space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Secrétariat: rue du Berger, 27, Bruxelles</p>
+
+<p xml:id="p.fr.3" n="3">15 Novembre 1889</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.4" n="4">Monsieur</p>
+
+<p xml:id="p.fr.5" n="5">L’association des XX, fondée en 1883 dans le but d’organiser chaque année à Bruxelles, une exposition internationale comprenant des oeuvres de ses membres et de vingt artistes belges et étrangers choisis parmi les plus sympathiques aux principes d’art qu’elle répresente, vous prie de lui faire l’honneur de participer à son septième Salon annuel par l’envoi d’un ou de plusieurs de vos ouvrages<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">L’exposition s’ouvrira dans la seconde quinzaine de Janvier et durera un mois<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Les peintres invités disposeront chacun d’environ quatre mètres de rampe.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Le catalogue du dernier Salon<ptr target="#note-t-1"/> que vous recevrez en même temps que la présente invitation, vous permettra d’apprécier le caractère des expositions des XX.<c type="kk">/</c> fondées dans un but exclusivement artistique et qui ont pris en Belgique la première place dans l’evolution des Arts<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">L’association vous prie<c type="kk">/</c> Monsieur<c type="kk">/</c> de bien vouloir lui faire savoir le plus tot possible si vous acceptez son invi<c type="shy">-</c>tation, le nombre de celles-ci étant strictement limité et de lui faire connaître avant le 15 Décembre les mentions et notices que vous désirez voir figurer au catalogue<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Les frais de transport aller et retour sont supportés par la caisse des XX<c type="kp">_</c></p>
+
+    <pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/> 
+    
+<p xml:id="p.fr.11" n="11"><supplied><hi rend="italics">Blank</hi></supplied></p>
+    <space unit="lines" quantity="1"/>
+    
+    <pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Un avis ultérieur vous fera connaître le dernier délai d’envoi ainsi que les renseignements relatifs à l’expedition des oeuvres<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Veuillez agréer<c type="kk">/</c> Monsieur<c type="kk">/</c> l’expression de nos sen<c type="shy">-</c>timents de confraternite artistique et de très haute considération<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">Pour les XX</p>
+
+<p xml:id="p.fr.15" n="15">Le Sécrétaire</p>
+
+<p xml:id="p.fr.16" n="16">Octave Maus</p>
+
+<p xml:id="p.fr.17" n="17">Avocat près la Cour d’Appel.</p>
+    
+    <pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>  <figure facs="zone-sketch-1" n="A"/>  <figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">[Letterhead: Les Vingt Brussels]</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">15 November 1889</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">Sir</p>
+<p xml:id="p.en.4" n="4">The Association of Les Vingt, founded in 1883 with the goal of organizing an international exhibition in Brussels each year, comprising the works of its members and of twenty Belgian and foreign artists chosen from among those most sympathetic to the artistic principles it represents, requests that you do it the honour of participating in its seventh annual Salon by sending one or more of your works.</p>
+<p rend="indent" xml:id="p.en.5" n="5">The exhibition will open in the second half of January, and will last one month.</p>
+<p rend="indent" xml:id="p.en.6" n="6">The invited painters will each have four metres of rail at their disposal.</p>
+<p rend="indent" xml:id="p.en.7" n="7">The catalogue of the last Salon,<ptr target="#note-t-1"/> which you will receive at the same time as this invitation, will enable you to appreciate the character of the exhibitions of Les Vingt, which were instituted with an exclusively artistic goal and have taken first place in Belgium in the evolution of the Arts.</p>
+<p rend="indent" xml:id="p.en.8" n="8">The association requests you, Sir, to kindly let us know as soon as possible if you accept its invitation, as the number of these is strictly limited, and to inform us before 15 December of the notes and comments you wish to see featured in the catalogue.</p>
+<p rend="indent" xml:id="p.en.9" n="9">The costs of return transport are borne by the treasury of Les Vingt.</p><pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/>
+<p xml:id="p.en.10" n="10"><supplied><hi rend="italics">Blank</hi></supplied></p><space unit="lines" quantity="1"/><pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+<p rend="indent" xml:id="p.en.11" n="11">A further notice will inform you of the latest date for dispatch, as well as providing information relating to the sending of works.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Please accept the expression of our feelings of artistic brotherhood and very high consideration.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">For Les Vingt</p>
+<p xml:id="p.en.14" n="14">The Secretary</p>
+<p xml:id="p.en.15" n="15"><rs type="person" ref="bio.xml#_505">Octave Maus</rs></p>
+<p xml:id="p.en.16" n="16">Barrister accredited to the Court of Appeal.</p><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p xml:id="p.en.17" n="17"><figure facs="zone-sketch-1" n="A"/></p>
+<p xml:id="p.en.18" n="18"><figure facs="zone-sketch-2" n="B"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘15 Novembre 1889’.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo had forwarded this letter to Vincent (<ref target="let819.xml">see letter 819</ref>), who made a sketch on the back of it for Theo of the hanging of his canvases and enclosed it with <ref target="let820.xml">letter 820</ref> of about 19 November.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Entry for the Les Vingt exhibition in Brussels <ref target="let792.xml">(792)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>For this catalogue, see Delevoy 1981, pp. 165-196.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

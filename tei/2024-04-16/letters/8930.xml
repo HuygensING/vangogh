@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Auvers-sur Oise, Saturday, 28 June 1890. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let893"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <institution>unknown</institution>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>893</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>645</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>898</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1890-06-28">Saturday, 28 June 1890</date>
+                            <placeName>Auvers-sur-Oise</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/unknown/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">La commande de couleurs ci-jointe<c type="kk">/</c><ptr target="#note-t-1"/> tu les enverrais le commencement du mois<c type="kk">/</c> enfin au moment le plus convenable. c’est pas pressé pour quelques jours plus tôt ou plus tard.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Hier et avanthier j’ai peint le portrait de M<hi rend="super">lle </hi>Gachet que tu verras j’espère bientôt<c type="kp">_</c><ptr target="#note-t-2"/> la robe est rose.</p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.4" n="4">le mur dans le fond vert avec un point orangé<c type="kk">/</c> le tapis rouge avec un point vert<c type="kk">/</c> le piano violet foncé<c type="kp">_</c> Cela a 1 metre de haut sur 50 de large.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">C’est une figure que j’ai peinte avec plaisir – mais c’est difficile.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Il m’a promis de me la faire poser une autre fois avec un petit orgue. J’en ferai un pour toi – j’ai remarqué que cette toile fait très bien avec une autre en largeur de blés<c type="kk">/</c> ainsi – l’une toile étant en hauteur et rose<c type="kk">/</c> l’autre d’un vert pâle et jaune vert complémentaire du rose.<ptr target="#note-t-3"/></p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-2" n="B"/> <figure facs="zone-sketch-3" n="C"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.7" n="7">mais nous en sommes encore loin avant que les gens comprennent les curieux rapports qui existent entre un morceau de la nature et un autre, qui pourtant s’expliquent ou se font valoir l’un l’autre.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Mais quelques uns pourtant le sentent bien et c’est déjà quelque chôse. Et puis il y a ceci de gagné que dans les toilettes on voit des arrangements de couleurs claires bien jolies. Si on pouvait avoir les personnes qu’on voit passer pour faire leurs portraits<c type="kk">/</c> ce serait aussi joli que n’importe quelle époque du passé et même je trouve que souvent dans la nature il y a actuellement toute la grace du tableau de Puvis<c type="kk">/</c> entre l’art et la nature.<ptr target="#note-t-4"/> Ainsi hier je vis deux figures<c type="kk">/</c> la mère en robe carmin foncé<c type="kk">/</c> la fille en rose pâle avec un chapeau jaune sans ornements aucun<c type="kk">/</c> des figures très saines<c type="kk">/</c> campagnardes<c type="kk">/</c> bien hâlés par le grand air<c type="kk">/</c> brulés par le soleil<c type="kk">/</c> la mère surtout avait un visage très très rouge et des cheveux noirs et deux diamants dans les oreilles.<ptr target="#note-t-5"/> Et j’ai encore pensé à cette toile de Delacroix<c type="kk">/</c> l’education maternelle. Car dans les expressions des visages il y avait reellement tout ce qu’il y eut dans la tête de George Sand<c type="kp">_</c><ptr target="#note-t-6"/> Sais tu qu’il y a un portrait – buste – de George Sand de Delacroix<c type="kk">/</c> il y en a un bois dans l’illustration – avec les cheveux coupés courts<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Bonne poignée de main en pensée à toi et à Jo et prospérité avec le petit.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.10" n="10">t. à t.</p>
+
+<p xml:id="p.fr.11" n="11">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">You could send the attached order for colours<ptr target="#note-t-1"/> at the beginning of the month, anyway at the most convenient moment, there’s no urgency for a few days earlier or later.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Yesterday and the day before yesterday I painted <rs type="person" ref="bio.xml#_391">Miss Gachet</rs>’s portrait, which you’ll see soon, I hope.<ptr target="#note-t-2"/> The dress is pink.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.4" n="4"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">The wall in the background green with orange spots, the carpet red with green spots, the piano dark violet. It’s 1 metre high and 50 wide.</p>
+<p rend="indent" xml:id="p.en.6" n="6">It’s a figure I enjoyed painting – but it’s difficult.</p>
+<p rend="indent" xml:id="p.en.7" n="7">He’s promised to get her to pose for me another time with a little organ. I’ll do one for you – I noticed that this canvas looks very good with another horizontal one of wheatfields, thus – one canvas being vertical and pink, the other pale green and green-yellow, complementing the pink.<ptr target="#note-t-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9"><figure facs="zone-sketch-3" n="C"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">But we’re still a long way from people understanding the curious relationships that exist between one piece of nature and another, which however explain and bring each other out.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">But a few, though, do feel it, and that’s already something. And then this has been gained, that in women’s clothes one sees very pretty arrangements of bright colours. If only one could have the individuals one sees pass by to do their portraits, it would be as pretty as any past era, and I even think that often in nature there is currently all the grace of <rs type="person" ref="bio.xml#_1286">Puvis</rs>’s painting, Between art and nature.<ptr target="#note-t-4"/> Thus yesterday I saw two figures, the mother in dark carmine dress, the daughter in pale pink with a yellow hat without any ornamentation, very healthy figures, rustic, well tanned by the open air, burned by the sun, the mother especially with a very, very red face and black hair and two diamonds in her ears.<ptr target="#note-t-5"/> And I thought again of that canvas by <rs type="person" ref="bio.xml#_982">Delacroix</rs>, Maternal upbringing. For in the expressions on the faces there really was everything that there was in the head of <rs type="person" ref="bio.xml#_848">George Sand</rs>.<ptr target="#note-t-6"/> Do you know that there’s a bust-length portrait of George Sand by Delacroix, there’s a wood engraving of it in L’Illustration – with the hair cut short.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Good handshake in thought to you and <rs type="person" ref="bio.xml#_416">Jo</rs>, and good fortune with the <rs type="person" ref="bio.xml#_418">little one</rs>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">Ever yours,</p>
+<p xml:id="p.en.14" n="14">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Facsimile in Paul Gachet, <hi rend="italics">Van Gogh à Auvers. Histoire d’un tableau</hi>. Paris 1953, (unpaginated) ills. 9 and 10.</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">On 29 June Theo informed his mother and Willemien that he had received an ‘excellent letter’ from Vincent that day (FR b932). Because this must have been the present letter, we have dated it to Saturday, 28 June 1890.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+      <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed an order for paint, which has not been preserved.</p><p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent"> In 1905 Jo van Gogh-Bonger gave this letter to Dr Gachet (FR b2131). The Van Gogh Museum has a copy of it made by Jo (FR b693). In the upper centre she wrote in black ink ‘<hi rend="italics">copie d’une lettre que j’ai donnée à Mr Gachet</hi>’ (copy of a letter I gave to Mr Gachet). When Jo wanted to have a photograph made of the letter sketch to include in her publication <hi rend="italics">Brieven</hi> 1914, she was given the letter on loan by Paul Gachet Jr (Letters to Paul Gachet fils. Amsterdam, 15, 21 and 27 February 1912 (FR b2151; b2152 and b2153)). He published a facsimile; see <hi rend="italics">Source status</hi>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The paint order has not been preserved.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marguerite Gachet at the piano</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2932">F 772 / JH 2048</rs>), after which Van Gogh made the letter sketch of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_250">F - / JH 2049</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2928">F 775 / JH 2038</rs>), after which Van Gogh made the letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_251">F - / JH -</rs>). To give an impression of what the two paintings look like in combination, Van Gogh made the second sketch of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marguerite Gachet at the piano</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_250">F - / JH -</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+      
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1286">Pierre Puvis de Chavannes</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_316">Inter Artes et Naturam (Between art and nature)</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let879.xml#n-15">see letter 879, n. 15</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The motif Van Gogh describes here displays similarities to that of the small study <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Two women walking in the fields</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_927">F 819 / JH 2112</rs>); the colour of the women’s clothing is different, however.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_68">The education of the Virgin</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let781.xml#n-2">see letter 781, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_947">George Sand wearing a man’s suit</rs></hi>, 1834 (private collection). The first print made after it, a steel engraving by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1519">Luigi Calamatta</rs>, appeared on 15 July 1836 in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Revue des Deux Mondes </hi>(between pp. 128-129). See Johnson 1981-1989, vol. 3, pp. 42-43, cat. no. 223.</p>
+
+<p rend="indent">Van Gogh is mistaken about the name of the journal; the print had appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Vie Moderne</hi> 4 (10 June 1882), no. 23, p. 358, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Univers Illustré</hi> 27 (9 August 1884), p. 504 and again in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Univers Illustré</hi> 28 (4 April 1885), p. 213. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2318">Ill. 2318</rs>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

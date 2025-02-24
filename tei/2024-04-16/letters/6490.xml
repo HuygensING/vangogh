@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Emile Bernard. Arles, Sunday, 29 July 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let649"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>New York</settlement>
+                                        <institution>Thaw Collection</institution>
+                                        
+                                        <idno>The Morgan Library &amp; Museum</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>649</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>B12</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>651</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-07-29">Sunday, 29 July 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Emile Bernard</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/649_1r/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/649_1r/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/649_1r/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/649_1v/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/649_1v/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/649_1v/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher copain Bernard,</p>
+
+<p xml:id="p.fr.2" n="2">Mille fois merci de ton envoi de dessins<c type="kk">/</c><ptr target="#note-t-1"/> j’aime beaucoup l’allée de platanes au bord de la mer avec deux femmes causant sur l’avant-<c type="shy">-</c>plan et des promeneurs<c type="kp">_</c><ptr target="#note-t-2"/> Egalement</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.3" n="3">la femme sous le pommier<ptr target="#note-t-3"/></p>
+
+<p xml:id="p.fr.4" n="4">la femme à l’ombrelle<ptr target="#note-t-4"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">puis les quatre dessins de femmes nues<c type="kk">/</c> surtout celle qui se lave<c type="kk">/</c> un effet gris agrémenté de noir<c type="kk">/</c> blanc<c type="kk">/</c> jaune<c type="kk">/</c> brun<c type="kp">_</c> C’est charmant<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Ah... Rembrandt.... toute admiration pour Baudelaire à part – j’ose supposer surtout d’après ces vers-là.... qu’il ignorait Rembrandt à peu près complètement.–<ptr target="#note-t-6"/> Je viens de trouver et d’acheter ici une petite eauforte d’après Rembrandt<c type="kk">/</c> une étude d’homme nu réaliste et simple<c type="kk">/</c> il est debout appuyé contre une porte ou colonne dans intérieur sombre. Un rayon d’en haut frise la figure baissée et les grands cheveux roux<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">On dirait un de Gas pour le corps vrai et senti dans son animalité<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Mais voyons<c type="kk">/</c> as tu jamais <hi rend="italics">bien</hi> regardé “<hi rend="italics">le boeuf</hi>” ou l’interieur d’un boucher du Louvre.<ptr target="#note-t-8"/> Tu n’as pas bien regardé cela et Baudelaire encore infiniment moins<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Ce serait une fête pour moi que de passer une matinee avec toi dans la galerie des Hollandais<c type="kp">_</c> Tout cela ne se décrit guère. Mais devant les tableaux je pourrais te montrer des merveilles et des miracles qui pour moi font que les primitifs n’ont pas du tout en premier lieu et le plus directement mon admiration<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Que veux tu<c type="kk">/</c> je suis si peu excentrique<c type="kp">_</c> Une statue grecque<c type="kk">/</c> un paysan de Millet<c type="kk">/</c> un portrait Hollandais<c type="kk">/</c> une femme nue de Courbet ou de de Gas<c type="kk">/</c> ces perfections calmes et modelees font que bien d’autres choses<c type="kk">/</c> les primitifs comme les japonais me paraissent.... de <hi>l’écriture à la plume</hi><c type="kk">/</c><ptr target="#note-t-10"/> cela m’intéresse infiniment.. mais une chose complète<c type="kk">/</c> une perfection nous rend l’infini tangible<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">et jouir d’une telle chose c’est comme le coït<c type="kk">/</c> le moment de l’infini<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Ainsi connais tu un peintre nommé Van der Meer qui par exemple a peint une dame Hollandaise très belle<c type="kk">/</c> enceinte; la palette de cet étrange peintre est <hi rend="italics">bleu</hi><c type="kk">/</c><hi rend="italics"> jaune citron</hi><c type="kk">/</c> <hi rend="italics">gris perle</hi><c type="kk">/</c> <hi rend="italics">noir</hi><c type="kk">/</c><hi rend="italics"/> <hi rend="italics">blanc</hi><c type="kp">_</c><ptr target="#note-t-11"/> Certes<c type="kk">/</c> il y a dans ses rares tableaux<ptr target="#note-t-12"/> à la rigueur toutes les richesses d’une palette complète mais l’arrangement jaune citron<c type="kk">/</c> bleu pâle<c type="kk">/</c> gris perle lui est aussi caracteristique que le noir<c type="kk">/</c> blanc<c type="kk">/</c> gris<c type="kk">/</c> rose l’est à Vélasquez<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Enfin<c type="kk">/</c> je le sais<c type="kk">/</c> Rembrandt et les Hollandais sont eparpillés dans les musées et collections et ce n’est pas très facile de s’en faire une idee si on ne connaît que le Louvre.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Pourtant ce sont des Français<c type="kk">/</c> Ch. Blanc<c type="kk">/</c> Thoré<c type="kk">/</c> Fromentin<c type="kk">/</c><ptr target="#note-t-13"/> certains autres qui ont mieux que les Hollandais ecrits sur cet art-là<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Ces Hollandais-là n’avaient guère de l’imagi<c type="shy">-</c>nation ni de la fantaisie<c type="kk">/</c> mais énormément du gout et la science d’arrangement<c type="kk">/</c> ils n’ont pas peint des Jesus christ<c type="kk">/</c> bon dieu et autres<c type="kp">_</c> – Rembrandt pourtant – en effet<c type="kk">/</c> mais voila le <hi rend="italics">seul</hi> (et c’est relativement peu dans son oeuvre<c type="kk">/</c> les sujets bibliques)<ptr target="#note-t-14"/> voila le seul qui par exception aie fait des christs &amp;c<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Et chez lui cela ne ressemble guere à quoi que ce soit d’autres peintres religieux<c type="kk">/</c> c’est une magie metaphysique<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Ainsi Rembrandt a peint des anges – il fait un portrait de soi-meme vieux<c type="kk">/</c> édenté<c type="kk">/</c> ridé<c type="kk">/</c> coiffé d’un bonnet de coton – 1° tableau d’après nature dans un miroir<ptr target="#note-t-15"/> – il rêve<c type="kk">/</c> rêve et sa brosse recommence son propre portrait mais de tête<c type="kk">/</c> et l’expression en devient plus navree et plus navrante<c type="kk">/</c> il rêve<c type="kk">/</c> rêve encore et pourquoi ou comment<c type="kk">/</c> je ne sais<c type="kk">/</c> mais ainsi que Socrate et Mahomet avaient un genie familier<c type="kk">/</c><ptr target="#note-t-16"/> Rembrandt<c type="kk">/</c> derriere ce vieillard qui a une ressemblanse avec lui-même<c type="kk">/</c> peint un ange surnaturel au sourire à la Vinci<c type="kp">_</c><ptr target="#note-t-17"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Je vous montre un peintre qui rêve et qui peint d’imagination et je commencais par pretendre que le caractere des Hollandais est qu’ils n’inventent rien<c type="kk">/</c> qu’ils n’ont pas d’imagination ni de fantaisie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Suis je illogique – non<c type="kp">_</c>– <hi rend="italics">Rembrandt</hi> n’a rien inventé et cet ange et ce Christ etrange<c type="kk">/</c> c’est – qu’il les connaissait<c type="kk">/</c> les <hi rend="italics">sentait</hi> là<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Delacroix peint un christ par l’innattendu d’une note de citron clair<c type="kk">/</c> cette note colorée et lumineuse étant dans le tableau ce qu’est l’ineffable etrangete et charme d’une étoile dans un coin de firmament<c type="kp">_</c><ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Rembrandt travaille avec les valeurs de la même façon que Delacroix avec les couleurs<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Or il y a loin entre le procedé de Delacroix et de Rembrandt et celui de tout le reste de la peinture religieuse.</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Je t’ecris bientot de nouveau<c type="kp">_</c> ceci pour te remercier de tes dessins qui me font un énorme plaisir<c type="kp">_</c> viens de terminer portrait de jeune fille de 12 ans<c type="kk">/</c> yeux bruns<c type="kk">/</c> cheveux et sourcils noirs<c type="kk">/</c> chairs gris jaune<c type="kk">/</c> le fond <hi rend="italics">blanc</hi> teinté fortement de véronèse<c type="kk">/</c> jaquette rouge sang rayé de violet<c type="kk">/</c> jupe bleue à gros pointillé orangé<c type="kk">/</c> dans la mignonne petite main une fleur de laurier rose<c type="kp">_</c><ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">J’en suis éreinté tellement que je n’ai guère la tête aux ecritures.<ptr target="#note-t-20"/> à bientot et encore une fois bien merci<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.25" n="25">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.26" n="26">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear old <rs type="person" ref="bio.xml#_831">Bernard</rs>,</p>
+<p xml:id="p.en.2" n="2">A thousand thanks for sending your drawings;<ptr target="#note-t-1"/> I very much like the avenue of plane trees beside the sea, with two women chatting in the foreground and the promenaders.<ptr target="#note-t-2"/> Also</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">the woman under the apple tree<ptr target="#note-t-3"/></p>
+<p xml:id="p.en.4" n="4">the woman with the parasol<ptr target="#note-t-4"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5">then the four drawings of nude women, especially the one washing herself, a grey effect embellished with black, white, yellow, brown. It’s charming.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Ah... <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>.... all admiration for <rs type="person" ref="bio.xml#_527">Baudelaire</rs> aside — I venture to assume, especially on the basis of those verses.... that he knew more or less nothing about Rembrandt.<ptr target="#note-t-6"/> I’ve just found and bought here a little etching after Rembrandt, a study of a nude man, realistic and simple; he’s standing, leaning against a door or column in a dark interior. A ray of light from above skims his down-turned face and the bushy red hair.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">You’d think it a <rs type="person" ref="bio.xml#_981">Degas</rs> for the body, true and felt in its animality. </p>
+<p rend="indent" xml:id="p.en.8" n="8">But see, have you ever looked <hi rend="italics">closely</hi> at ‘<hi rend="italics">the ox</hi>’ or the interior of a butcher’s shop in the Louvre?<ptr target="#note-t-8"/> You haven’t looked closely at them, and <rs type="person" ref="bio.xml#_527">Baudelaire</rs> infinitely less so. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">It would be a treat for me to spend a morning with you in the Dutch gallery. All that is barely describable. But in front of the paintings I could show you marvels and miracles that are the reason that, for me, the primitives really don’t have my admiration first and foremost and most directly.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">But there you are; I’m so far from eccentric. A Greek statue, a peasant by <rs type="person" ref="bio.xml#_1226">Millet</rs>, a Dutch portrait, a nude woman by <rs type="person" ref="bio.xml#_962">Courbet</rs> or <rs type="person" ref="bio.xml#_981">Degas</rs>, these calm and modelled perfections are the reason that many other things, the primitives as well as the Japanese, seem to me.... like <hi>writing with a pen</hi>;<ptr target="#note-t-10"/> they interest me infinitely.. but something complete, a perfection, makes the infinite tangible to us.</p>
+<p rend="indent" xml:id="p.en.11" n="11">And to enjoy such a thing is like coitus, the moment of the infinite.</p>
+<p rend="indent" xml:id="p.en.12" n="12">For instance, do you know a painter called <rs type="person" ref="bio.xml#_1421">Vermeer</rs>, who, for example, painted a very beautiful Dutch lady, pregnant? This strange painter’s palette is <hi rend="italics">blue, lemon yellow, pearl grey, black, white.</hi><ptr target="#note-t-11"/> Of course, in his few paintings<ptr target="#note-t-12"/> there are, if it comes to it, all the riches of a complete palette, but the arrangement of lemon yellow, pale blue, pearl grey is as characteristic of him as the black, white, grey, pink is of <rs type="person" ref="bio.xml#_1402">Velázquez</rs>. </p>
+<p rend="indent" xml:id="p.en.13" n="13">Anyway, I know, <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and the Dutch are scattered around museums and collections, and it’s not very easy to form an idea of them if you only know the Louvre. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">However, it’s Frenchmen, <rs type="person" ref="bio.xml#_546">C. Blanc</rs>, <rs type="person" ref="bio.xml#_554">Thoré</rs>, <rs type="person" ref="bio.xml#_1019">Fromentin</rs>,<ptr target="#note-t-13"/> certain others, who have written better than the Dutch on that art.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Those Dutchmen had scarcely any imagination or fantasy, but great taste and the art of arrangement; they didn’t paint Jesus Christs, the Good Lord and others. <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> though – indeed, but he’s the <hi rend="italics">only one</hi> (and there are relatively few biblical subjects in his oeuvre),<ptr target="#note-t-14"/> he’s the only one who, as an exception, did Christs, &amp;c.</p>
+<p rend="indent" xml:id="p.en.16" n="16">And in his case, they hardly resemble anything by other religious painters; it’s a metaphysical magic.</p>
+<p rend="indent" xml:id="p.en.17" n="17">So, <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> painted angels — he makes a portrait of himself as an old man, toothless, wrinkled, wearing a cotton cap — first, painting from life in a mirror<ptr target="#note-t-15"/> — he dreams, dreams, and his brush begins his own portrait again, but from memory, and its expression becomes sadder and more saddening; he dreams, dreams on, and why or how I do not know, but just as <rs type="person" ref="bio.xml#_754">Socrates</rs> and <rs type="person" ref="bio.xml#_531">Mohammed</rs> had a familiar genie,<ptr target="#note-t-16"/> Rembrandt, behind this old man who bears a resemblance to himself, paints a supernatural angel with a <rs type="person" ref="bio.xml#_1414">Da Vinci</rs> smile.<ptr target="#note-t-17"/></p><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p rend="indent" xml:id="p.en.18" n="18">I’m showing you a painter who dreams and who paints from the imagination, and I started off by claiming that the character of the Dutch is that they invent nothing, that they have neither imagination nor fantasy.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Am I illogical? No. <hi rend="italics"><rs type="person" ref="bio.xml#_1295">Rembrandt</rs></hi> invented nothing, and that angel and that strange Christ; it’s — that he knew them, <hi rend="italics">felt </hi>them there.</p>
+<p rend="indent" xml:id="p.en.20" n="20"><rs type="person" ref="bio.xml#_982">Delacroix</rs> paints a Christ using an unexpected light lemon note, this colourful and luminous note in the painting being what the ineffable strangeness and charm of a star is in a corner of the firmament.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.21" n="21"><rs type="person" ref="bio.xml#_1295">Rembrandt</rs> works with values in the same way as <rs type="person" ref="bio.xml#_982">Delacroix</rs> with colours.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Now, there’s a gulf between the method of <rs type="person" ref="bio.xml#_982">Delacroix</rs> and <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and that of all the rest of religious painting.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I’ll write to you again soon. This to thank you for your drawings, which give me enormous pleasure. Have just finished portrait of young girl of 12, brown eyes, black hair and eyebrows, flesh yellow grey, the background <hi rend="italics">white</hi>, strongly tinged with veronese, jacket blood-red with violet stripes, skirt blue with large orange spots, an oleander flower in her sweet little hand.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">I’m so worn out from it that I hardly have a head for writing.<ptr target="#note-t-20"/> More soon, and again, many thanks.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">Ever yours,</p>
+<p xml:id="p.en.26" n="26">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh thanks Bernard for the drawings he has sent, which shows that this letter follows the last one he wrote to him, <ref target="let643.xml">letter 643</ref> of between 17 and 20 July, in which Van Gogh was still waiting for news from Bernard. The letter must have been written at the end of the week, because he has just finished the painting <hi rend="italics">Mousmé </hi><ref target="#l-119">(l. 119)</ref>. He mentions its completion in similar terms in <ref target="let650.xml">letter 650</ref> of 29 July. We have therefore dated this letter, too, to Sunday, 29 July 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Druick and Zegers believe that <hi rend="italics">Mousmé </hi>(<rs type="artwork" ref="artwork.xml#noill_738">F 1504 / JH 1520</rs>), the drawing after the painting mentioned in <ref target="#l-119">ll. 119-124</ref>, was sent with this letter. See exhib. cat. Chicago 2001, pp. 126-127. However, there are no firm indications that that was the case, and it is more likely that Van Gogh did not send Bernard the drawing until later. <ref target="let641.xml#n-1">See letter 641, n. 1.</ref></p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>As we learn from Vincent’s next letter to Theo (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let650.xml">650</ref>), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> sent ten drawings. Seven of them are referred to below; the other three are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton woman in a chapel</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton woman</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lubricity</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2193">Ill. 2193</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2945">2945</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2195">2195</rs>. All ten come from the Van Gogh brothers’ collection (Amsterdam, Van Gogh Museum). See also Roskill 1970, pp. 219-220.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lane in Brittany with figures</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2196">Ill. 2196</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton woman in an orchard</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2197">Ill. 2197</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton woman with an umbrella</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2198">Ill. 2198</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The batch included five drawings of nude women. Van Gogh says in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let651.xml">letter 651</ref> that he did not like <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2195">Lubricity</rs> </hi>as much as the others, so that could not be the one he is talking about here. The four drawings he is referring to are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Women bathing</hi> and the brothel scenes <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Female nude seated on a bed</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Female nude reclining on a bed</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">A woman washing herself,</hi> the latter being the one Van Gogh calls ‘the one washing herself’. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2199">Ill. 2199</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2200">2200</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2201">2201</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2202">2202</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs> added an annotation in his 1911 edition of the letters which is worth including here (in that edition it was placed with the next letter, which at the time preceded the present one, and Van Gogh criticizes <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_527">Baudelaire</rs> in both letters): ‘All this prompted by an admiring quotation on my part of the beautiful quatrain from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Phares</hi>, by Charles Baudelaire:</p>
+<space unit="lines" quantity="1"/>
+
+<p>Rembrandt – sad hospital filled full with murmurings,</p>
+      
+<p>Decorated only with a great crucifix</p>
+      
+<p>Where the tearful prayer exhales from the filth,</p>
+      
+<p>And brusquely traversed by a ray of winter.</p>
+<space unit="lines" quantity="1"/>
+
+<p>(Tout ceci provoqué par une citation admirative de ma part du beau quatrain des <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Phares</hi>, de Charles Baudelaire:</p>
+<space unit="lines" quantity="1"/>
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Rembrandt triste hôpital tout rempli de murmures</hi>
+</p>
+      
+<p>
+            <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Et d’un grand crucifix décoré seulement,</hi>
+      </p>
+      
+<p>
+            <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">D’où la prière en pleurs s’exhale des ordures</hi>
+      </p>
+      
+<p>
+            <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Et d’un rayon d’hiver traversé brusquement.)</hi></p>
+      <space unit="lines" quantity="1"/>
+      
+<p>See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lettres à Bernard</hi> 1911, p. 99.  The famous poem praising several artists is from Baudelaire’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_553">Les fleurs du mal</ref></hi> (1857).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>There is a good chance that Van Gogh bought <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_80">Eugène Gaujean</rs>’s etching <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Christ at the column</hi>. This print after an oil sketch attributed to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> (now in Cologne, Wallraf-Richartz Museum; Bredius 1969, no. 591), was included in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Catalogue des tableaux anciens de toutes les écoles composant la très importante collection de M. Le Baron de Beurnonville</hi>. Paris 1881, lot 435, facing p. 264. The print (a heliogravure) is in the Van Gogh estate (Amsterdam, Van Gogh Museum, t*1359). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2203">Ill. 2203</rs>.Van Gogh may have known that Christ has red hair in the painting.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The slaughtered ox</hi>, 1655 (Paris, Musée du Louvre). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_347">Ill. 347</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> defended the style of the primitives, as is clear from his introduction to the 1911 edition, where he speaks of ‘my preoccupations with the methods of the Italian and German primitives; with the symbolic meaning of line and colour, which preoccupied me, and which Van Gogh disapproved of, putting to me the contrasting case of Dutch naturalism’ (mes préoccupations des procédés italiens et allemands primitifs; du sens symbolique de la ligne et de la couleur, qui me préoccupait, et que Van Gogh désapprouvait en m’opposant le naturalisme hollandais). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lettres à Bernard</hi> 1911, p. 35.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Here Van Gogh associates writing with drawing (and painting). He regarded it as an ideal to make drawing as automatic and as natural a means of expression as writing was for him.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1421">Jan Vermeer of Delft</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman in blue reading a letter</hi>, c. 1663-1664 (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_445">Ill. 445</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>There are currently some 35 known paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1421">Vermeer</rs>. In his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_13">Musées de la Hollande</ref></hi>, the writer and critic <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_554">E.J.T. Thoré</rs> (writing under the pseudonym of W. Bürger), who was an important source for Van Gogh’s taste and art-historical knowledge, thought that there were two or three dozen Vermeers. See Thoré 1858-1860, vol. 2, p. 88.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Charles Blanc</rs> wrote about Dutch art mainly in his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_492">Ecole Hollandaise</ref></hi> (1861), which is part of the series <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_493">Histoire des peintres de toutes les écoles</ref></hi> (Paris 1861-1876). <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-12">See n. 12</ref> for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_554">Thoré</rs>, who described collections in the Netherlands. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Eugène Fromentin</rs> wrote <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi> (1876), a survey of old Dutch and Flemish masters; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let450.xml#n-3">see letter 450, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Contrary to what Van Gogh asserts, biblical scenes make up an important part of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s oeuvre. In a footnote to this remark in the 1911 edition <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> wrote: ‘Strange assertion!… The Pilgrims of Emmaus or the Good Samaritan, not much in Rembrandt’s oeuvre!…’ (Etrange assertion!... Les Pèlerins d’Emmaüs ou le Bon Samaritain, peu de chose dans l’oeuvre de Rembrandt!...). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lettres à Bernard</hi> 1911, p. 107. For Rembrandt’s Christ figure see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let632.xml#n-3">letter 632, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Given the virtually identical wording in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let665.xml">letter 665</ref> (‘the toothless laughter of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> the old lion, his head covered in a cloth, his palette in his hand’), likewise written to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, who was familiar with the collection in the Louvre, it is most likely that he is talking about <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait at the easel</hi>, 1660? (Paris, Musée du Louvre), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1608">Ill. 1608</rs>, although Van Gogh may also have had in mind <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait as Zeuxis</hi>, c. 1669 (Cologne, Wallraf-Richartz-Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_377">Ill. 377</rs>.</p>
+
+<p rend="indent">Van Gogh’s description contains echoes of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Fromentin</rs>’s, where he remarks in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi> that in difficult times Rembrandt depicted himself in ‘graver, more modest, more veracious garb ... in dark garments with a handkerchief around his head, his face saddened, wrinkled, emaciated, his palette in his rugged hands’ (tenues plus graves, plus modestes, plus véridiques … en vestes sobres, avec un mouchoir en serre-tête, le visage attristé, ridé, macéré, la palette entre ses rudes mains) (see Fromentin 1902, chapter 16, p. 399).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>After ‘familier’ Van Gogh deleted the words ‘ainsi qu’Ingres’ (as did <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1102">Ingres</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Here Van Gogh is imagining the creation of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The evangelist Matthew inspired by an angel</hi>, 1661 (Paris, Musée du Louvre). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_371">Ill. 371</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>Van Gogh was probably thinking of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_61">Christ asleep during the tempest</rs></hi>, which he had also written about in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let632.xml">letter 632</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2671">F 431 / JH 1519</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Read: ‘à l’écriture’. Van Gogh actually wrote ‘ecritures’, which means ‘the Scriptures’. The mistake can possibly be put down to the weariness he mentions here.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

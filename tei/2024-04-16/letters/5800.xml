@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Monday, 27 February 1888. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let580"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b505 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>580</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>465</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>581</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-02-27">on or about Monday, 27 February 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0505" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000681_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000681_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000681_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0505" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000681_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000681_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000681_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Théo,</p>
+
+<p xml:id="p.fr.2" n="2">Veux tu lire la lettre que j’ai écrite à M<c type="kp">_</c> Tersteeg – et veux tu la lui envoyer avec une lettre de toi si tu jugeras que la manoeuvre soit juste<c type="kp">_</c><ptr target="#note-t-1"/> Voici<c type="kk">/</c> j’ai pensé moi qu’il fallait faire un effort de ce côté parceque nous tiendrons Reid par v<c type="kp">_</c> Wisselingh<ptr target="#note-t-2"/> et v<c type="kp">_</c> Wisselingh par Tersteeg.<ptr target="#note-t-3"/> Et c’est ce que tu expliqueras à Tersteeg toi-même. Je ne veux pas<c type="kk">/</c> moi étant nourri par toi – toimême tirant tes propres revenues de la maisson Boussod Valladon &amp;C<hi rend="super">ie</hi><c type="kk">/</c> faire des choses contre la maison. Au contraire je ne demande pas mieux que ce que la chôse que tu as commencée dans le magasin du boulevard dure et prenne de l’importance.<ptr target="#note-t-4"/> Mais il te faut du soutien d’autres employés de la maison. Si Tersteeg refuse de s’en mêler il nous reste comme agents Anglais Reid et Wisselingh. Tu sais que v<c type="kp">_</c> W. a marié la fille du marchand de tabl. à Glasgow concurrent de Reid.<ptr target="#note-t-5"/> <hi rend="italics">Si</hi> Reid prend les impressionistes<c type="kk">/</c> s’il trouve moyen de s’y lancer 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>et s’il cherche à faire cela contre nous autres nous avons à partir de ce moment le droit de mettre son adversaire la-bàs au courrant<c type="kp">_</c> Mais si Wisselingh s’en occupe jamais et surtout si aujourd’hui ou demain tu aies une causerie avec W.<c type="kk">/</c> aussitôt Tersteeg pourrait reprocher: pourquoi<c type="kk">/</c> monsieur l’employé de n. maison qui t’occupe des impressionnistes<c type="kk">/</c> ne m’as tu pas mis au courant?</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Il faut donc que tu en parles à Tersteeg d’abord et pour t’éviter le mal d’ecrire une longue lettre c’est moi qui cette fois l’ai écrite<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Tu pourrais la compléter en disant un mot vague sur la question Reid et les impressionnistes et l’intérêt que v<c type="kp">_</c> Wisselingh peut dans la suite avoir<c type="kk">/</c> donc les complications de cette affaire.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Et ce que j’ai dit en post scriptum<c type="kk">/</c> soit que vu la modicité des prix en rapport avec l’intérêt que présentent les tableaux<c type="kk">/</c> Tersteeg peut bien en placer une cinquantaine en Hollande<c type="kk">/</c> et d’ailleurs <hi rend="italics">il sera obligé</hi> <hi rend="italics">d’en avoir</hi> parceque si deja à Anvers et à 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>Bruxelles on en parle<c type="kk">/</c><ptr target="#note-t-6"/> on en parlera également à Amsterdam &amp; à la Haye sous peu<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Enfin la chôse proposée dans la lettre n’a rien de désagréable ni pour Tersteeg ni pour toi: tu le piloteras dans tous les ateliers et lui-même verra que l’année prochaine on parlera beaucoup et pour longtemps de la nouvelle école. Si pourtant tu juges la lettre mal à propos tu as mon plein pouvoir de la brûler<c type="kp">_</c> Seulement si tu l’envoies propose lui toimême la même chôse<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Tu sais pourtant bien que Tersteeg est chez lui<ptr target="#note-t-a"/> dans les affaires anglaises comme un poisson dans l’eau et donc c’est absolument possible que ce soit lui qui dirige la marche de ces nouveaux tableaux là-bas. Vraiment de cette façon Tersteeg et le gerant de Londres<ptr target="#note-t-7"/> feraient l’exposition permanente des impressionistes à Londres – toi tu aurais celle de Paris et moi je commencerais Marseilles<c type="kp">_</c><ptr target="#note-t-8"/> Mais il faut que Tersteeg voie beaucoup de ses propres yeux d’abord et c’est pourquoi qu’un grand tour dans les ateliers avec toi est desirable maintenant<c type="kk">/</c> tu lui expliqueras toute l’importance de l’affaire chemin faisant.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">L’association des artistes se fera à plus forte raison puisque Tersteeg 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>ne s’y opposera pas que nous ayons les interêts des artistes à coeur et qu’<c type="shy">-</c>avant tout nous desirons faire monter le prix de revient du tableau<c type="kk">/</c> qui en somme ne serait pas vendable s’il ne coûtait rien<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">En tout cas, il faut en parler hardi<c type="shy">-</c>ment maintenant n’est-ce pas – et il faut que Mesdag &amp; d’autres cessent de BLAGUER les impressionnistes<c type="kp">_</c><ptr target="#note-t-9"/>– Cela fera du bien dans tous les cas que Tersteeg soit intervieuwé à ce sujet.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Tu vois que moi je vois toujours le grand noeud de l’affaire en Angleterre, ou bien les artistes donneront leur travail à vil prix aux marchands de là-bas<c type="kk">/</c> ou bien les artistes s’associeront et choisiront eux mêmes des agents intelligents qui ne soient pas des usuriers<c type="kp">_</c>– Maintenant réfléchis à la chôse – et envoie la lettre ou brûle la<c type="kk">/</c> comme tu jugeras pour le mieux<c type="kp">_</c> C’est pas une chôse arrêtée que je désire t’envoyer mais j’aurais une grande envie de voir Tersteeg là-dedans parce qu’il a l’aplomb nécessaire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">je te serre bien la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.12" n="12">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.13" n="13">J’ai encore une étude.<ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Would you read the letter I’ve written to <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> — and would you send it to him with a letter from you if you judge the move is right.<ptr target="#note-t-1"/> You see, for myself I thought we had to make an effort from this end, because we’ll have <rs type="person" ref="bio.xml#_623">Reid</rs> through <rs type="person" ref="bio.xml#_821">Van Wisselingh</rs><ptr target="#note-t-2"/> and Van Wisselingh through Tersteeg.<ptr target="#note-t-3"/> And that’s what you’ll explain to Tersteeg yourself. Fed as I am by you — and as you draw your own income from the firm of <rs type="person" ref="bio.xml#_797">Boussod Valadon &amp; Cie</rs>, I don’t want to do anything against the firm. On the contrary, I ask no more than this, that what you’ve started in the shop on the boulevard should last and become more important.<ptr target="#note-t-4"/> But you need support from other employees in the firm. If Tersteeg refuses to get involved in it we still have Reid and Wisselingh as English agents. You know that Van W. has married the daughter of the Glasgow picture dealer who’s in competition with Reid.<ptr target="#note-t-5"/> <hi rend="italics">If </hi>Reid takes the Impressionists, if he finds a way of starting up there, 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> and if he tries to do that against the rest of us, from that moment we’re entitled to let his opponent over there know what’s going on. But if Wisselingh ever gets involved, and especially if today or tomorrow you have a chat with W., Tersteeg could immediately complain: why did you, esteemed employee of our firm, who handles the Impressionists, not tell me what was going on?</p>
+<p rend="indent" xml:id="p.en.3" n="3">So you’ll have to talk to <rs type="person" ref="bio.xml#_787">Tersteeg</rs> about it first, and to save you the trouble of writing a long letter it is I who have written it this time.</p>
+<p rend="indent" xml:id="p.en.4" n="4">You could add to it by saying something vague about the question of <rs type="person" ref="bio.xml#_623">Reid</rs> and the Impressionists and the interest that <rs type="person" ref="bio.xml#_821">Van Wisselingh</rs> may subsequently have, hence the complications of this matter.</p>
+<p rend="indent" xml:id="p.en.5" n="5">And what I’ve said in a postscript, namely that in view of the low prices compared with the interest the paintings present, <rs type="person" ref="bio.xml#_787">Tersteeg</rs> should easily be able to sell about fifty in Holland, and besides <hi rend="italics">he’ll be obliged to have some,</hi> because if people are already talking about them in Antwerp and 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> Brussels,<ptr target="#note-t-6"/> they’ll be talking about them in Amsterdam and The Hague too before long.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Anyway, what’s proposed in the letter is by no means unpleasant either for <rs type="person" ref="bio.xml#_787">Tersteeg</rs> or for you: you’ll show him round all the studios and he’ll see for himself that next year people will be talking a lot and will keep on talking about the new school for a long time. If, though, you think the letter is badly timed you have my full permission to burn it. But if you send it, suggest the same thing to him yourself.</p>
+<p rend="indent" xml:id="p.en.7" n="7">But you’re well aware that <rs type="person" ref="bio.xml#_787">Tersteeg</rs> is at home in English business matters like a fish in water, and so it’s entirely possible that it’s he who would control the way these new paintings are doing over there. Really, this way Tersteeg and the London <rs type="person" ref="bio.xml#_218">manager</rs><ptr target="#note-t-7"/> would organize the permanent exhibition of the Impressionists in London — you would have the one in Paris and I would start it up in Marseille.<ptr target="#note-t-8"/> But Tersteeg will have to see a lot for himself first, and that’s why a grand tour of the studios is a good idea at this point; you’ll explain to him the whole importance of the matter as you go round. </p>
+<p rend="indent" xml:id="p.en.8" n="8">The artists’ association is all the more likely to come about since <rs type="person" ref="bio.xml#_787">Tersteeg</rs> 
+    <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> won’t be against our having the artists’ interests at heart, nor that above all we want to increase the cost price of a painting, which in fact wouldn’t be saleable if it cost nothing.</p>
+<p rend="indent" xml:id="p.en.9" n="9">In any case, we’ve got to talk about this boldly now, haven’t we — and <rs type="person" ref="bio.xml#_1218">Mesdag</rs> and others have got to stop POKING FUN at the Impressionists.<ptr target="#note-t-9"/> It will be helpful in any case for <rs type="person" ref="bio.xml#_787">Tersteeg</rs> to be interviewed on this subject.</p>
+<p rend="indent" xml:id="p.en.10" n="10">You see that for myself I still see the crux of the matter in England, either artists will give their work to the dealers over there at miserable prices, or artists will get together and themselves choose intelligent agents who aren’t usurers. Now think the matter over — and send the letter or burn it, as you think best. It’s not a cut and dried thing I want to send you, but I’d very much like to see <rs type="person" ref="bio.xml#_787">Tersteeg</rs> involved because he has the necessary self-assurance.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I shake your hand firmly.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">I have one more study.<ptr target="#note-t-10"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh continues to discuss the plan he formulated in <ref target="let578.xml">letter 578</ref> of about 24 February, and he says he has made another study since then <ref target="#l-107">(l. 107)</ref>. The letter precedes <ref target="let582.xml">letter 582</ref> of about 2 March 1888, because in it Vincent thanks his brother for the draft letter he wrote to Tersteeg; in the present letter he suggests that Theo should get in touch with Tersteeg. We have therefore dated this on or about Monday, 27 February 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to deal in modern art in England <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>In the coming weeks Vincent and Theo were to try to kindle <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs>’s interest in French modern art; Van Gogh wanted to involve Tersteeg in dealing in work of the Impressionists in England by means of the letter referred to here.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The contact between <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_821">Van Wisselingh</rs> dated from the 1874-1882 period, when Van Wisselingh in London was a partner of the Scottish art dealer <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_331">Daniel Cottier</rs>, and Reid was working in Glasgow. Van Wisselingh, Cottier and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1771">William Craibe Angus</rs>, an art dealer in Glasgow, acted as agents for one another. Reid joined them later, but the ties to his business were looser. See Heijbroek and Wouthuysen 1999, p. 27.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_821">Van Wisselingh</rs> had done his training at Goupil’s branch in The Hague (1864-1866) and then worked at the firm’s headquarters in Paris (1866-1874). Between 1881 and 1890, as an independent art dealer, he was an important customer of Goupil’s in The Hague, where <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> had been manager since 1867. See Stolwijk 1998, p. 218 (n. 104).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Since 1886 Theo had regularly exhibited and sold work by the Impressionists in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs>’s upstairs gallery in boulevard Montmartre.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>On 1 July 1887 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_821">Van Wisselingh</rs>, who had had his own art gallery in Amsterdam since 1884, married <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1772">Isabella Murray Mowat Angus</rs> in Glasgow. She was the daughter of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1771">William Craibe Angus</rs>. See Heijbroek and Wouthuysen 1999, p. 27. Angus was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs>’s main competitor in the trade in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>s in Scotland.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>There was a greater awareness of recent developments in French art in Belgium than there was in the Netherlands. In January 1884 a group of Belgian artists, among them James Ensor, Theo van Rijsselberghe and Octave Maus, founded <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Groupe des Vingt</hi> in Brussels. Like the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Société des Artistes Indépendants </hi>set up in Paris the same year, Les Vingt’s<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>aim was to promote modern art in various ways, including staging annual exhibitions – to which foreign artists were also invited. Les Vingt published the weekly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Art Moderne</hi>. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Revue Critique des Arts et de la Littérature</hi>.</p>
+
+<p rend="indent">The Impressionists had been well represented for several years at Les Vingt exhibitions, which drew large crowds. The fifth exhibition of Les Vingt had opened at the beginning of February 1888, with works by Anquetin, Caillebotte, Toulouse-Lautrec, Guillaumin, Signac and others. See exhib. cat. Brussels 1993 and Delevoy 1981, p. 125 ff.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘à l’aise’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_218">David Croal Thomson</rs> managed the London branch of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs> from 1884 to 1897. In April 1889 he staged an exhibition of twenty works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs>. See Fowle 1993, pp. 53-54 (appendix 2).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>One of Van Gogh’s motives for going to the South was to look for opportunities to draw attention to the work of the Impressionists and that of his own generation in Marseille (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let601.xml">see also letter 601</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>See for the Dutch art world’s predominantly condescending and negative attitude to French Impressionism: Tempel 1999.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>It is not known which new study this was. Previously it was thought to be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bowl of potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_991">F 386 / JH 1365</rs>), but that painting dates from early 1889; see Van Tilborgh <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al</hi>. 2012, pp. 112, 119.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

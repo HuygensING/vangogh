@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Amsterdam, Sunday, 9 December 1877.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let137"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b135 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>137</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>116</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>136</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1877-12-09">Sunday, 9 December 1877</date>
+                            <placeName>Amsterdam</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0135" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000143_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000143_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0135" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000143_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000143_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000143_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Amsterdam 9 Dec. 1877</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Het is mij behoefte niet lang te wachten met U te schrijven, en wel vooreerst omdat ik U moet bedanken voor drie dingen. Vooreerst voor Uw besten brief van 4 zijdjes<c type="kk">/</c> daarmede hebt Gij mij het meeste genoegen gedaan want het doet iemand goed te gevoelen dat er nog een broer van hem op de wereld wandelt en leeft, als men om veel dingen moet denken en veel te doen heeft dan krijgt men soms zoo’n gevoel<c type="kk">/</c> waar ben ik<c type="kk">/</c> wat doe ik<c type="kk">/</c> waar ga ik heen ─ en men begint te duizelen,─ maar dan zoo’n welbekende stem of liever een welbekend schrift<c type="kk">/</c> dat maakt dat men als het ware weer vasten grond onder de voeten voelt.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Dan moet ik U bedanken voor eene aflevering van de Galerie Contemporaine over Ed. Frère<c type="kp">_</c><ptr target="#note-t-1"/> Die is zeer interressant en ik ben blij wat van hem te hebben. en ook dank ik U voor de 10 postzegels, het is waarlijk te veel en Gij hadt zooveel niet moeten doen.─ Een hartelijken handdruk voor alles.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Nu heb ik U nog het een en ander over S<hi rend="super">t</hi> Niklaas<ptr target="#note-t-2"/> te vertellen; ik ontving een goeden brief uit Etten en daarin gesloten een couponnetje voor een paar handschoenen.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Daarvan was ik echter nog voorzien dus kocht ik er iets anders voor<c type="kk">/</c> n.l. weer een kaart van Stieler<c type="kk">/</c> n.l. Schotland afzonderlijk.<ptr target="#note-t-3"/> Op ’t oogenblik kan ik ze los krijgen bij Seyffardt,<ptr target="#note-t-4"/> maar die gelegenheid zal er ligt<ptr target="#note-t-a"/> niet altijd zijn. Die kaart heb ik geteekend en heb ze dus dubbel. en daar ik wel een Christmas present wilde geven aan Harry Gladwell zoo hoop ik ze U te sturen voor hem, om in te sluiten als er eene kist naar Parijs gaat.─ <hi>Men moet het huis op eene rots bouwen</hi>,<ptr target="#note-t-5"/> Schotland<c type="kk">/</c> Normandie en Bretagne zijn toch nog al rotsachtig, zie die groote kaart v. Schotland maar eens aan als Gij die zult ontvangen.─ Als ik het werk van studeeren vergelijk bij het bouwen van een huis en deze maanden als het fondament daarvan dan liggen er dus rotsen als grondslag.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Maar dit alles tusschen twee haakjes, en nu verder over den bewusten avond. Van Oom Cor ontving ik Bossuet<c type="kk">/</c> Oraisons funèbres<ptr target="#note-t-6"/> in zeer goede en prettige handige uitgaaf, zeer kompleet<c type="kk">/</c> er staat o.a<c type="kp">_</c> de schoone preek over Paulus in over den tekst “Als ik zwak ben dan ben ik magtig”.<ptr target="#note-t-7"/> Het is een edel boek<c type="kk">/</c> met Kerstmis zult Gij het zien, ik ben er zoo blij mee geweest dat ik tot heden toe er mee in den zak heb geloopen, het wordt echter tijd ik daarmee ophoud want er mogt eens iets aankomen.<ptr target="#note-t-8"/> Van Mendes kreeg ik de werken van Claudius<c type="kk">/</c> ook een goed en degelijk boek,<ptr target="#note-t-9"/> had hem gestuurd Thomae Kempensis de Imitatione Christi en daar voorin geschreven<c type="kk">/</c> In Hem is geen Jood noch Griek noch dienstknecht noch vrije noch man noch vrouw maar Christus is alles en in allen.<ptr target="#note-t-10"/> Van Oom Stricker een kistje cegaren, Gij weet wat ik daarmee deed, zij zijn bij Roos altijd zoo vriendelijk en reeds had ik verzonnen of ik niets had om te sturen toen dat kistje cegaren mij uit den brand hielp.─ En s’avonds vond ik van Oom Jan een letter<ptr target="#note-t-11"/> op mijne tafel liggen. Ben toen ook nog even bij Vos en Kee geweest waar ook Oom en Tante Stricker waren<c type="kk">/</c> kon er echter niet blijven daar ik van 8-10 les had van Texeira. Oom Jan was den avond bij Oom Cor.─</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Was dezen morgen bij Oom Stricker te kerk<c type="kk">/</c> n.l. in de Eilandskerk,<ptr target="#note-t-12"/> daar was Oom Cor ook<c type="kp">_</c> De tekst was “bij Uw licht zien wij het licht”.─<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Naar die Eilandskerk is altijd eene prettige wandeling<c type="kp">_</c> Van middag wandelde ik ook nog eens om het Engelsche kerkje heen met die bewuste kaarten van die rotsachtige landen omdat ik een gevoel had dat zij met dat kerkje in verband stonden.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">“De Kerke Gods staat op een rots”<c type="kk">/</c><ptr target="#note-t-14"/> dat was een woord uit het gezang dezen morgen en zoo schilderde Ruysdael het ook<ptr target="#note-t-15"/> en Millet in het schilderij op den Luxembourg.<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">’t Is een goed plan van U om op de kaart van Bretagne die namen enz<c type="kp">_</c> te schrijven<c type="kp">_</c> Breng ze met Kersmis mede<c type="kk">/</c> Gij weet ik dat op die ik teekende ook deed<c type="kk">/</c> dan kunnen wij vergelijken. Doe het vooral want dat is goed.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Gij spreekt er over dat ik nog eens te s’Hage zou komen in het naar Etten gaan<c type="kk">/</c> daar zou ik wel lust in hebben, zou er gelegenheid zijn om bij Roos een nacht te logeeren? Is dat zoo dan hoeft Gij het <hi rend="italics">niet</hi> te schrijven<c type="kk">/</c> dan reken ik er op dat dat desnoods zou kunnen.─ Gaarne zou ik Uw kamertje nog eens weer zien en de boom met klimop, ik hoop het zal kunnen gebeuren en ik vroeg genoeg van hier zal kunnen gaan.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Hoezeer ik naar Kerstmis verlang<c type="kk">/</c> ik kan het U niet zeggen. En mogt het eens zijn dat Pa tevreden was over wat ik heb gedaan.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">’t Was zulk heerlijk weer vandaag en zoo mooi tusschen die doornheggen bij het kerkje toen de avond begon te vallen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Heb deze week of liever verl. week met Mendes een gesprek gehad over “Zoo wie niet haat ook zelfs zijn eigen leven die kan Mijn discipel niet zijn”<c type="kp">_</c><ptr target="#note-t-17"/> Hij beweerde dat die uitdrukking te sterk was maar ik hield staande dat het de eenvoudige waarheid was en zegt dat ook Thomas à Kempis niet: als hij spreekt over zich zelven te kennen en zich zelven te verachten<c type="kp">_</c><ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Als wij zien naar anderen die meer gedaan hebben en beter zijn dan wij dan komen wij er spoedig genoeg toe om ons eigen leven te haten omdat het niet zoo goed is als dat van anderen.─<ptr target="#note-t-19"/> Zie een man als Thomas à Kempis maar aan die dat boekske schrijft door de liefde van Christus gedrongen,<ptr target="#note-t-20"/> zoo opregt en eenvoudig en waar als niet velen hetzij voor of na hem dat hebben gehad. Of op ander gebied<c type="kk">/</c> zie het werk van een Millet maar eens of dat van een Stieler of Les grands Chênes van Jules Dupré.─<ptr target="#note-t-21"/> Die hebben het gedaan: “laat uw licht schijnen voor de menschen opdat zij Uwe goede werken zien mogen en Uw Vader die in de Hemelen is verheerlijken”<c type="kk">/</c><ptr target="#note-t-22"/> en zulk een man is Pa ook; en al wat wij doen kunnen<c type="kk">/</c> zie<c type="kk">/</c> het beste is het oog te houden op zulken en te zoeken of ook wij misschien iets vinden mogten.<ptr target="#note-t-23"/> En te gelooven dat waar is wat Pa zeide<c type="kk">/</c> dat als iemand vraagt “Heer ik zou zoo graag ernstig zijn”<c type="kk">/</c><ptr target="#note-t-24"/> dat door God wordt gehoord en ook verhoord.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Heb een goeden zondag vandaag<c type="kk">/</c> wat was ik graag bij U, Oom Jan is naar Haarlem dus ben ik alleen van avond, maar heb nog zooveel te doen als ik maar kan. Gij hebt mij toch zooveel pleizier gedaan met dat blad over Ed<c type="kp">_</c> Frère<c type="kp">_</c> Eens heb ik hem zelf gezien bij Goupil, hij heeft iets zeer eenvoudigs. “Enfin il vainquit” staat er in zijne levensbeschrijving<c type="kk">/</c><ptr target="#note-t-25"/> zoo moge het ook met ons eenmaal zijn ─ dat kan gebeuren en het is goed om te zeggen<c type="kk">/</c> ik wanhoop nooit.<ptr target="#note-t-26"/></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Een mensch krijgt <hi rend="italics">het</hi> niet op eens en de meesten dergenen die iets zeer goeds zijn geworden zijn door een langen moeielijken tijd van voorbereiding heengegaan die de rotssteen was waarop hun huis was gegrondvest.<ptr target="#note-t-27"/></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Van nature is een mensch slecht,<ptr target="#note-t-28"/> op zijn best een dief ─ maar ─ hij kan onder Gods leiding en zegen tot iets van hooger waarde<ptr target="#note-t-29"/> worden, zoo kwam er voor Paulus 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>een dag waarop Hij met vrijmoedigheid en vertrouwen kon zeggen tot Herodes<c type="kk">/</c> ik wenschte wel van God dat niet alleen gij maar ook allen die mij heden hooren zoodanigen werden als ik ben<c type="kk">/</c> uitgenomen deze banden.<ptr target="#note-t-30"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Dank voor wat Gij schrijft aangaande de lithographiën<c type="kp">_</c><ptr target="#note-t-31"/> Nog iets ─ Gij stuurdet ook 2 paar Christus Consolator en pend<hi rend="super">t.</hi><c type="kk">/</c><ptr target="#note-t-32"/> daar was ik zeer blij mede<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Het zou geen kwaad kunnen als Gij die kaart van Schotland ook hadt, dan hebt Gij drie stuks uit dien atlas en het spreekwoord zegt: alle goede dingen bestaan in drieen<c type="kp">_</c> Reken er dus op dat Gij die er nog bij krijgt en koop haar in geen geval zelf<c type="kk">/</c> had U eerst deze willen sturen die nu naar Gladwell gaat maar ik acht het pligt te zorgen hij nu en dan eens iets van mij verneemt; ik hoop hij met de kersdagen naar Lewisham zal kunnen gaan. Gij kent dat sch<hi rend="super">ij</hi> van Cuyp hier op het museum<c type="kk">/</c> eene oud Hollandsche familie<c type="kk">/</c><ptr target="#note-t-33"/> toen hij dat zag bleef hij er lang naar staan kijken en sprak toen van “the house built on the rock”<ptr target="#note-t-34"/> en van zijn ’thuis te Lewisham. Ook ik heb mijne herinneringen aan dat huis van zijn Vader en zal het niet ligt vergeten<c type="kp">_</c> Daar onder dat dak woont veel en sterke en groote Liefde<ptr target="#note-t-35"/> en het vuur daarvan is ook in hem nog<c type="kk">/</c> het is niet gestorven maar het slaapt.<ptr target="#note-t-36"/></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Nu ik moet mij haasten want ik moet aan mijn werk. Naar alle waar<c type="shy">-</c>schijnlijkheid kom ik dus in de volgende week een dag te s’Hage<c type="kk">/</c> b.v. Donder<c type="shy">-</c>dag, mogelijk ook later<c type="kk">/</c> ik moet zien hoe het met het werk het best uitkomt. Van s’Hage hoop ik naar Dordt te gaan en als het zoo kon dat Gij nog Zaturdag avond kondt vertrekken dan vonden wij elkaar aan het station te Dordt.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Dan zou ik dus zelfs twee nachten bij Roos logeeren, als ik toch naar s’Hage ga</p>
+
+<p xml:id="p.nl.24" n="24">kan het geen kwaad er wat langer te blijven en den een en ander nog eens op te zoeken.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Jammer aan den eenen kant dat Mauve gaat verhuizen,<ptr target="#note-t-37"/> ik hoop dat wij er zamen nog eens heen zullen gaan zoo als dien avond ll. voorjaar<c type="kk">/</c><ptr target="#note-t-38"/> toen was het toch aardig.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Zorg Gij nu zij bij Roos geen moeite doen, kan ik er niet logeeren dan weet Gij dat wel zonder het hen te vragen en kunt het schrijven en dan reken ik erop<c type="kk">/</c> kan het wel<c type="kk">/</c> zeg het hun dan pas den dag van te voren.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Heb het zoo goed mogelijk en zegen bij uw werk. Gij zult het druk hebben, maar eigentlijk moet men voor drukte en moeite en al dergelijke dingen meer dan voor iets anders dankbaar zijn want juist door daarin langdurig te worden geoefend, komt men tot ontwikkeling. Hartelijk hoop ik Gij Zaturdag zult kunnen gaan, want thuis zouden zij wel willen wij den Zondag voor Kerstmis te Etten konden zijn<c type="kp">_</c> Tot ziens dus, hoor ik niets naders van U dan kom ik Donderdag of Vrijdag 20 of 21 December.</p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Dat blad uit de Cours de dessin Bargue<c type="kk">/</c> Anne de Bretagne<c type="kk">/</c><ptr target="#note-t-39"/> heb ik maar weer opgehangen, ja een mensch is van nature slecht en op zijn best een dief, maar in den strijd van het leven kan hij worden een wezen van hooger waarde; een wezen van hooger waarde, dat woord kwam mij in de gedachten toen ik lang had staan kijken naar de uitdrukking op het gezigt van dat Koningskind Anne de Bretagne<c type="kk">/</c> die uitdrukking waarom zij ook doet denken aan het woord “one of Sorrows and acquainted with grief;<ptr target="#note-t-40"/> sorrowful yet always rejoicing”.─<ptr target="#note-t-41"/></p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">à Dieu<c type="kk">/</c> groet Uwe huisgenooten voor mij en geloof mij</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">uw zoo liefh<c type="kp">_</c> broer</p>
+
+<p xml:id="p.nl.31" n="31">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Amsterdam, 9 Dec. 1877</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">I feel the need to write to you without waiting too long, the reason being first of all that I must thank you for three things. First of all, for your excellent four-page letter, with which you gave me the greatest pleasure, because it does one good to feel that a brother of his also walks and lives on earth, when one has a lot of things to think about and a lot to do, one sometimes gets the feeling, where am I? what am I doing? where am I going? — and one starts to grow dizzy — but then such a familiar voice, or rather familiar handwriting, makes one feel firm ground beneath one’s feet again, as it were.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Then I must thank you for an issue of the Galerie Contemporaine about <rs type="person" ref="bio.xml#_1023">E. Frère</rs>.<ptr target="#note-t-1"/> It’s very interesting and I’m happy to have something by him. And I also thank you for the 10 postage stamps, it really is too much and you shouldn’t have done so much. A hearty handshake for everything.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Now I have a few things to tell you about St Nicholas;<ptr target="#note-t-2"/> I received a good letter from Etten with a money order for a pair of gloves enclosed.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I already had some, however, so I bought something else with the money, namely another map by <rs type="person" ref="bio.xml#_1374">Stieler</rs>, namely Scotland alone.<ptr target="#note-t-3"/> At present I can get them singly at <rs type="person" ref="bio.xml#_701">Seyffardt</rs>’s,<ptr target="#note-t-4"/> but there probably won’t always be that opportunity. I’ve drawn that map and so have it double, and because I did want to give <rs type="person" ref="bio.xml#_394">Harry Gladwell</rs> a Christmas present I hope to send it to you for him, to enclose when a crate goes to Paris. <hi>one must build one’s house upon a rock</hi>,<ptr target="#note-t-5"/> Scotland, Normandy and Brittany are really rather rocky, just take a look at that large map of Scotland when you get it. If I compare the work of studying to the building of a house, and these months to its foundation, then rocks accordingly lie at its base.</p>
+<p rend="indent" xml:id="p.en.7" n="7">But all of this by the by, now more about the evening in question. From <rs type="person" ref="bio.xml#_422">Uncle Cor</rs> I received <rs type="person" ref="bio.xml#_542">Bossuet</rs>, Oraisons funèbres,<ptr target="#note-t-6"/> in a very good and handy edition, very complete, it includes, among other things, the fine sermon about Paul on the text ‘for when I am weak, then am I strong’.<ptr target="#note-t-7"/> It’s a noble book, you’ll see it at Christmas, I was so happy with it that until today I’ve been carrying it around in my pocket, though it’s time I stopped that because something might happen to it.<ptr target="#note-t-8"/> From <rs type="person" ref="bio.xml#_520">Mendes</rs> I received the works of Claudius, also a good, solid book;<ptr target="#note-t-9"/> I had sent him <rs type="person" ref="bio.xml#_679">Thomae Kempensis</rs> de imitatione Christi and written in the front, There is neither Jew nor Greek in Him, neither bond nor free, neither male nor female: but Christ is all, and in all.<ptr target="#note-t-10"/> From <rs type="person" ref="bio.xml#_318">Uncle Stricker</rs> a box of cigars, you know what I did with them, they’re always so friendly at the <rs type="person" ref="bio.xml#_642 bio.xml#_643">Rooses</rs>’ and I’d already been wondering if I had anything to send when that box of cigars arrived as a godsend. And in the evening I found a letter<ptr target="#note-t-11"/> from <rs type="person" ref="bio.xml#_410">Uncle Jan</rs> lying on my table. Was then briefly at <rs type="person" ref="bio.xml#_806">Vos</rs> and <rs type="person" ref="bio.xml#_776">Kee</rs>’s, where Uncle and <rs type="person" ref="bio.xml#_317">Aunt Stricker</rs> were as well, but couldn’t stay because I had a lesson from 8-10 with <rs type="person" ref="bio.xml#_786">Teixeira</rs>. Uncle Jan spent the evening at Uncle Cor’s.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Was at <rs type="person" ref="bio.xml#_317 bio.xml#_318">Uncle Stricker’s</rs> service this morning, i.e. in the Eilandskerk,<ptr target="#note-t-12"/> <rs type="person" ref="bio.xml#_422">Uncle Cor</rs> was there too. The text was ‘by Thy light shall we see light’.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.9" n="9"> It’s always a nice walk to that Eilandskerk. This afternoon I took another walk around the little English church with those maps of those rocky countries, because I had a feeling that they were connected with that little church.</p>
+<p rend="indent" xml:id="p.en.10" n="10">‘The Church of God stands on a rock’,<ptr target="#note-t-14"/> those words were in this morning’s hymn, and that’s how <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> painted it too,<ptr target="#note-t-15"/> and <rs type="person" ref="bio.xml#_1226">Millet</rs> in the painting in the Luxembourg.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">It’s a good plan of yours to write those names etc. on the map of Brittany. Bring it along at Christmas, you know that I did that on the one I drew, then we can compare them. Be sure and do it, for that is good.</p>
+<p rend="indent" xml:id="p.en.12" n="12">You talk about my coming to The Hague again on my way to Etten, I should really like to, would it be possible to stay a night at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’? If so, then you do <hi rend="italics">not</hi> have to write, then I’ll count on it being possible if necessary. I should like to see your room again and the tree with ivy, I hope that will be possible and that I can leave here early enough.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I can’t tell you how much I long for Christmas. And may <rs type="person" ref="bio.xml#_526">Pa</rs> be satisfied with what I’ve done.</p>
+<p rend="indent" xml:id="p.en.14" n="14">It was such wonderful weather today, and so beautiful among those thorn-hedges by the little church when night began to fall.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Had a talk with <rs type="person" ref="bio.xml#_520">Mendes</rs> this week, or rather last week, about ‘He who hate not, even his own life also, he cannot be my disciple’.<ptr target="#note-t-17"/> He declared that expression too strong, but I maintained that it was the simple truth, and doesn’t <rs type="person" ref="bio.xml#_679">Thomas a Kempis</rs> say it when he talks about knowing oneself and despising oneself?<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">If we look at others who have done more and are better than we are, then soon enough we come to hate our own life because it’s not as good as that of others.<ptr target="#note-t-19"/> Just look at a man like <rs type="person" ref="bio.xml#_679">Thomas a Kempis</rs>, constrained by the love of Christ<ptr target="#note-t-20"/> to write that little book, sincere and simple and true as few others were, either before or since. Or in another sphere, just take a look at the work of a <rs type="person" ref="bio.xml#_1226">Millet</rs> or that of a <rs type="person" ref="bio.xml#_1374">Stieler</rs> or The large oaks by <rs type="person" ref="bio.xml#_986">Jules Dupré</rs>.<ptr target="#note-t-21"/> They did it: ‘let your light shine before men, that they may see your good works, and glorify your Father which is in heaven’,<ptr target="#note-t-22"/> and <rs type="person" ref="bio.xml#_526">Pa</rs> is such a man too; and however much we can do, you see, the best thing is to keep our sights on such people and to seek whether we too may perhaps find something.<ptr target="#note-t-23"/> And to believe that it’s true what <rs type="person" ref="bio.xml#_526">Pa</rs> said, that if someone asks ‘Lord, I should so much like to be earnest’, that it will be heard and granted by God.<ptr target="#note-t-24"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">Have a good Sunday today, how I’d like to be with you, <rs type="person" ref="bio.xml#_410">Uncle Jan</rs> has gone to Haarlem so I’m alone this evening, but still have to do as much as I possibly can. You have really given me such pleasure with that magazine on <rs type="person" ref="bio.xml#_1023">E. Frère</rs>. I once saw him myself at Goupil’s, he has something very unpretentious about him. ‘At last, he triumphed’ it says in his biography,<ptr target="#note-t-25"/> may it be so with us one day — that can happen and it is good to say: I never despair.<ptr target="#note-t-26"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">A person doesn’t get <hi rend="italics">it</hi> all at once, and most of those who have become something very good have gone through a long, difficult period of preparation that was the rock upon which their house was founded.<ptr target="#note-t-27"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">Man is depraved by nature,<ptr target="#note-t-28"/> at best a thief — but — with God’s guidance and blessing he can become something of higher worth,<ptr target="#note-t-29"/> as there came for Paul 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> a day on which he could say with frankness and trust to Herod, I would to God, that not only thou, but also all that hear me this day, were such as I am, except these bonds.<ptr target="#note-t-30"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Thanks for what you write about the lithographs.<ptr target="#note-t-31"/> Something else — you also sent 2 pairs of Christus Consolator and pendant,<ptr target="#note-t-32"/> I was very glad to get them.</p>
+<p rend="indent" xml:id="p.en.21" n="21">It could do no harm if you also had that map of Scotland, then you would have three things from that atlas, and the proverb says: all good things come in threes. So count on getting that one too, and by no means buy it yourself, had first wanted to send you this one that is now going to <rs type="person" ref="bio.xml#_394">Gladwell</rs>, but I consider it my duty to let him hear from me now and again. I hope he’ll be able to go to Lewisham at Christmas. You know that painting by <rs type="person" ref="bio.xml#_1654">Cuyp</rs> in the museum here, an old Dutch family,<ptr target="#note-t-33"/> when he saw that he stood looking at it for a long time and then spoke of ‘the house built on the rock’<ptr target="#note-t-34"/> and of his home in Lewisham. I, too, have memories of <rs type="person" ref="bio.xml#_396">his father</rs>’s house and will not easily forget it. Much and strong and great love<ptr target="#note-t-35"/> lives there under that roof, and its fire is in him still, it is not dead, but sleepeth.<ptr target="#note-t-36"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Now I have to hurry, for I have to get to work. So in all likelihood I’ll be coming to The Hague next week for a day, Thursday say, possibly later, I have to see how it fits in best with my work. From The Hague I hope to go to Dordrecht, and if it turns out that you can leave Saturday evening, we’ll meet each other at the station in Dordrecht.</p>
+<p rend="indent" xml:id="p.en.23" n="23">In that case I would even spend two nights at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’, if I’m going to The Hague anyway, it can’t hurt to stay a bit longer and call on some people.</p>
+<p rend="indent" xml:id="p.en.24" n="24">A pity, in a way, that <rs type="person" ref="bio.xml#_323">Mauve</rs> is going to move,<ptr target="#note-t-37"/> I hope that we’ll go there again together, like that evening last spring,<ptr target="#note-t-38"/> it was really pleasant then.</p>
+<p xml:id="p.en.25" n="25">Now make sure they don’t go to any trouble at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’. If I can’t stay there you’ll know it without asking them and can write to me, and I’ll take it into account; if I can, tell them only the day before.</p>
+<p rend="indent" xml:id="p.en.26" n="26">I wish you the very best and blessings in your work. You’ll be busy, but actually one should be grateful for pressure and effort and all suchlike things more than for anything else, for it is only by long training in that that one develops. I sincerely hope that you’ll be able to leave Saturday, because at home they’d surely like us to be in Etten the Sunday before Christmas. So goodbye for now, if I hear nothing more from you I’ll come on Thursday or Friday, 20 or 21 December.</p>
+<p rend="indent" xml:id="p.en.27" n="27">I finally decided to hang up that page again from <rs type="person" ref="bio.xml#_851">Bargue</rs>’s Cours de dessin, Anne of Brittany,<ptr target="#note-t-39"/> yes, man is depraved by nature and at best a thief, but in the battle of life he can become a being of higher worth; a being of higher worth, those words sprang to mind when I had been looking for a long time at the expression on the face of that beautiful woman Anne of Brittany, the expression which explains why she also recalls the words ‘one of Sorrows and acquainted with grief;<ptr target="#note-t-40"/> sorrowful yet always rejoicing’.<ptr target="#note-t-41"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">Adieu, give my regards to your housemates, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">Your most loving brother</p>
+<p xml:id="p.en.30" n="30">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Amsterdam 9 Dec. 1877’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Galerie Contemporaine, Littéraire, Artistique</hi>, published by Goupil &amp; Cie, appeared from 1876 in Paris. Each issue dealt with the life and work of one writer, painter or sculptor, and included a photograph of an art work or a facsimile of a manuscript. The issue on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1023">Frère</rs> contained a portrait and an article by Flor O’Squarr (the pseudonym of Oscar Charles Flor), ‘Édouard Frère, né a Paris en 1819’. The reverent biography stresses Frère’s perseverance in pursuing success and his choice of subject matter: domestic scenes, plain and simple. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Galerie Contemporaine, Littéraire, Artistique</hi> 1 (1876), 2nd series. Peintres &amp; Sculpteurs (unpaginated).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Regarding the feast of St Nicholas, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let059.xml#n-1">see letter 59, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+  
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1374">Stieler</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let134.xml#n-6">see letter 134, n. 6</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml#n-10">letter 135, notes 10</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml#n-15">15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The bookshop of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_701">Julius Lodewijk Willem Seyffardt</rs> at Damrak 99 specialized in atlases, guidebooks and maps. See Kruseman 1886, pp. 688-691 and Groot and De Vries 1990, pp. 75-76.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Allicht’ (of course, most likely).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Cf. Matt. 7:24; hymn 242:2 and hymn 243:2.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_542">J.B. Bossuet</rs>, <ref target="biblio.xml#lit_72"><hi rend="italics">Oraisons funèbres</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let085.xml#n-18">see letter 85, n. 18.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  2 Cor. 12:10.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Numerous editions of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_542">Bossuet</rs>’s work were available, which makes it difficult to say which edition <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs> gave Vincent; one of the editions containing the sermon on Paul is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_72">Les oraisons funèbres de Bossuet</ref>, suivies du sermon pour la profession de Mme de la Vallière, du panégyrique de St. Paul et du sermon de la vocation des gentils; avec des notices par Poujoulot. Gravures à l’eau-forte par V. Foulquier</hi>. Tours 1869.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>It is not known which book by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_574">Claudius</rs> – who was popular in Protestant circles – Van Gogh is referring to here. Many editions – selected works as well as his complete oeuvre – were available in German. If Van Gogh had in fact been given a Dutch edition, one possibility is Matthias Claudius, <ref target="biblio.xml#lit_122"><hi rend="italics">De Wandsbecker bode</hi></ref>. Prose. Translated from the German by I.C. van Deventer. 2 vols. Haarlem 1853. A less comprehensive but more deluxe edition is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gedachten van Matthias Claudius</hi>. Compiled from his works by J. Immerzeel Jr. Amsterdam 1836.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  Gal. 3:28. Van Gogh undoubtedly chose this text because of the Jewish descent of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_520">Mendes da Costa</rs>, who said of Van Gogh in his recollections: ‘From those days [meaning when Van Gogh was employed in the art trade] he still had some prints, small lithographs after paintings and suchlike. Time and again he brought me one of them, but always completely spoiled by his having scribbled the margins completely full of quotations, which had something or other to do with the subject, from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_679">Thomas a Kempis</rs> and the Bible. Once he even gave me a copy of De imitatione Christi, but not at all with the unspoken objective of converting me; he only wanted to show me the human side of it.’ Originally appearing in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Het Handelsblad</hi> of 2 December 1910; quoted from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Verzamelde brieven</hi> 1973, vol. 1, p. 171.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>A traditional confectionery eaten at the feast of St Nicholas, consisting of puff pastry with an almond-paste filling, baked in the shape of a letter.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_318">J.P. Stricker</rs> conducted the 10 a.m. service in the Eilandskerk.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+  Ps. 36:10 (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">KJ</hi> Ps. 36:9).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+  Hymn 243:2.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>One of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Jacob van Ruisdael</rs>’s paintings in which the Church of St Bavo features prominently is the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1671"><hi rend="italics">View of Haarlem with bleaching grounds</hi></rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let037.xml#n-3">see letter 37, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Jean-François Millet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1723"><hi rend="italics">The church of Gréville</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let036.xml#n-9">see letter 36, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>
+  Luke 14:26.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+  
+<p>In book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">iv</hi>, chapter 8 of <ref target="biblio.xml#lit_35"><hi rend="italics">De navolging van Christus</hi></ref>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_679">Thomas a Kempis</rs> quoted Luke 14:33: ‘he... that forsaketh not all that he hath, he cannot be my disciple’. The sentence preceding the quotation says: ‘For this is why so few become enlightened and inwardly free, because they cannot manage perfect self-abnegation’ (Thomas a Kempis 1986, p. 143). See also the previously quoted passages from the end of book 1, chapter 2 in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml#n-22">letter 135, notes 22</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml#n-23">23.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+
+<p>Van Gogh probably got this idea from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_679">Thomas a Kempis</rs>, <ref target="biblio.xml#lit_35"><hi rend="italics">De navolging van Christus</hi></ref>, book <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1</hi>, chapter 18, in which the pious deeds of the holy fathers, who ‘hated their souls’ during their lifetimes, are contrasted with how little ordinary people generally accomplish.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>
+  2 Cor. 5:14.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_986">Jules Dupré</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les grands chênes </hi>(The large oaks), 1844 (present whereabouts unknown). Known from a lithograph by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1033">Louis-François Français</rs>, published in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les artistes anciens et modernes</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_78">Ill. 78</rs> Louis Marvy also made an etching after it. See Aubrun 1974, p. 91, cat. no. 162.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>
+  Matt. 5:16.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Cf. Matt. 7:7 and Luke 11:9.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>Regarding this expression, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let112.xml#n-17">letter 112, n. 17.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>The article ‘Édouard Frère, né a Paris en 1819’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-1">see n. 1</ref> above) tells how <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1023">Frère</rs> tried in vain for six years to be admitted to the Salon: ‘Finally he won, and in 1848 he exhibited seven small canvases.’</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>This expression of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs>, which Vincent quotes frequently, could have been derived from hymn 56:1 and hymn 56:9.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>
+  Matt. 7:25.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Cf. <ref target="biblio.xml#lit_183">The Heidelberg Catechism</ref>, Lord’s Day 3, Question 7. The whole sentence – ‘Man is depraved by nature, at best a thief’ – seems to be a quotation, especially since it is repeated in its entirety at the end of the letter.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>Cf. hymn 32:1 and hymn 181:1.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>
+  Acts 26:29.</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>This refers to several prints which Van Gogh asked about in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml">letter 135</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+
+<p>For the prints after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1339">Ary Scheffer</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1771"><hi rend="italics">Christus Consolator</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1772"><hi rend="italics">Christus Remunerator</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let085.xml#n-7">see letter 85, n. 7.</ref> Van Gogh asked about them in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let135.xml">letter 135</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>Since Van Gogh’s mention of ‘the museum’ means the Trippenhuis, he must be referring here to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Meebeeck Cruywagen family</hi>, then attributed to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1654">Jacob Gerritsz. Cuyp</rs> but now considered to be the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1727">Jacob van Loo</rs> (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_37">Ill. 37</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+
+<p>Cf. Matt. 7:24; hymn 242:2 and hymn 243:2.</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>Biblical; cf., for instance, Eph. 2:4.</p>
+                        </note>
+                        
+                    
+                        <note n="36" xml:id="note-t-36">
+                            
+
+<p>
+  Matt. 9:24.</p>
+                        </note>
+                        
+                    
+                        <note n="37" xml:id="note-t-37">
+                            
+
+<p>As it turned out, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Mauve</rs> did not move house (FR b960).</p>
+                        </note>
+                        
+                    
+                        <note n="38" xml:id="note-t-38">
+                            
+
+<p>The brothers’ visit to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Anton Mauve</rs> must have taken place during Vincent’s stay in The Hague in the second week of May 1877; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let114.xml#n-42">letter 114, n. 42.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="39" xml:id="note-t-39">
+                            
+  
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Bargue</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_527"><hi rend="italics">Anne of Brittany</hi></rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_170">Cours de dessin</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let136.xml#n-22">see letter 136, n. 22.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="40" xml:id="note-t-40">
+                            
+
+<p>
+  Isa. 53:3.</p>
+                        </note>
+                        
+                    
+                        <note n="41" xml:id="note-t-41">
+                            
+
+<p>
+  2 Cor. 6:10. Vincent writes ‘always’ instead of ‘alway’.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Willem and Caroline van Stockum-Haanebeek. London, Thursday, 7 August 1873.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let012"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b29 V/1962 (sheet 1) and b30 V/1962 (sheet 2)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>012</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>10a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>012</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1873-08-07">Thursday, 7 August 1873</date>
+                            <placeName>London</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Willem van Stockum and Caroline van Stockum-Haanebeek</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0029" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000031_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000031_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000031_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0029" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000031_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000031_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000031_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0030" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000032_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000032_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000032_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0030" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000032_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000032_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000032_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Londen 7 Augustus 1873</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde vrienden,</p>
+
+<p xml:id="p.nl.3" n="3">het was eene zeer aangename verrassing voor mij toen ik Caroliens brief ontving. Dank er voor.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Van harte hoop ik zij nu geheel beter is; gelukkig het voorbij is.─ Als ge weer eens schrijft moet ik nog wat meer hooren van dat laatste stuk dat je gemaakt hebt. Ik stond er waar<c type="shy">-</c>lijk versteld van; voor 10 perso<c type="shy">-</c>nen, dat is wel het grootste dat je gemaakt hebt.─<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Deze laatste dagen heb ik genoten in het lezen van de gedichten van John Keats; dat is een dichter die geloof ik in Holland niet heel bekend is.─ Hij is den 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>lieveling van de schilders hier &amp; daardoor kwam ik er toe om hem te lezen.<ptr target="#note-t-2"/> Hierbij iets van hem.─<ptr target="#note-t-3"/> Zijn meest bekende stuk is “St Agnes eve” maar dat is wat te lang om het te copieeren.─<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">In Cristal Palace &amp; den Tower ben ik nog niet geweest<c type="kk">/</c> ook niet bij Tussod;<ptr target="#note-t-5"/> ik haast mij volstrekt niet om alles te gaan zien. Voorloopig heb ik nog genoeg aan de museums, parken &amp;c. die mij meer aantrekken.─</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Verleden maandag had ik een pret<c type="shy">-</c>tigen dag.</p>
+
+<p xml:id="p.nl.8" n="8">De eerste maandag in Aug. is hier een holy day<c type="kp">_</c><ptr target="#note-t-6"/> Toen ben ik met een van de Duitschers naar Dulwich anderhalf uur buiten L. geweest om het museum daar te gaan zien,<ptr target="#note-t-7"/> &amp; daarna zijn wij nog naar een dorp zoowat een uur verder gewandeld.─ Het land is hier zoo mooi; vele menschen die in L. hunne zaken hebben, wonen in een of ander dorp buiten L; &amp; komen iederen dag per spoor naar de stad. misschien doe ik dat 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>spoedig ook, als ik ergens goed<c type="shy">-</c>koop eene kamer vinden kan. Maar verhuizen vind ik zoo iets vreesselijks, dat ik zoo lang mogelijk hier blijf, hoewel alles hier niet zoo mooi is als ’t mij aanvankelijk toescheen. Misschien ligt het aan mij &amp; ik zie het dus nog maar eenigen tijd aan.─</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Neem mij niet kwalijk dat mijn brief niet is zooals ik hem zou wenschen, ik schrijf in haast. Maar ik wilde je feliciteeren met Willems verjaardag<ptr target="#note-t-8"/> &amp; je many happy returns toe<c type="shy">-</c>wenschen.─</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Zeer veel genoegen deed het mij te vernemen dat jelui zoo de kennis met de familie Tersteeg vernieuwd hebt. Ik had je dat al lang toegewenscht.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Schrijf mij bij gelegenheid ook eens welke photographien je gekregen hebt, daar ben ik nieuwsgierig naar.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik heb een brief van Marinus<ptr target="#note-t-9"/> gehad, &amp; daaruit gezien dat hij naar Amsterdam gaat; Dat is eene groote verandering voor hem, ik hoop het hem goed zal gaan. Het deed mij genoegen hij mij schreef.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Een dag of wat geleden kreeg ik een bezoek van een broer van Iterson die hier woont<ptr target="#note-t-10"/> &amp; had dus voor ’t eerst sedert Mei gelegenheid Hollandsch te spreken.─ Wij wonen zeer ver van elkaar af, wat mij zeer spijt.─ En nu zeg ik U goeden dag<c type="kk">/</c> heb het goed. Veel groeten aan allen in de Poten.<ptr target="#note-t-11"/> Heb het goed<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.14" n="14">Yours truly</p>
+
+<p xml:id="p.nl.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">Verblijd mij spoedig met een brief als ge tijd kunt vinden.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.17" n="17">The eve of Saint Mark<ptr target="#note-t-12"/></p>
+
+<p xml:id="p.nl.18" n="18">(Unfinished)</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.19" n="19">Upon a Sabbath day it fell;</p>
+
+<p xml:id="p.nl.20" n="20">Twice holy was the Sabbath bell,</p>
+
+<p xml:id="p.nl.21" n="21">That called the folk to evening prayer;</p>
+
+<p xml:id="p.nl.22" n="22">The city streets were clear &amp; fair</p>
+
+<p xml:id="p.nl.23" n="23">From wholesome drench of April rains;</p>
+
+<p xml:id="p.nl.24" n="24">And, on the western window panes,</p>
+
+<p xml:id="p.nl.25" n="25">The chilly sunset faintly told</p>
+
+<p xml:id="p.nl.26" n="26">Of unmatured green, vallies cold,</p>
+
+<p xml:id="p.nl.27" n="27">Of the green thorny bloomless hedge,</p>
+
+<p xml:id="p.nl.28" n="28">Of rivers new with spring-tide sedge,</p>
+
+<p xml:id="p.nl.29" n="29">Of primroses by shelter’d rills,</p>
+
+<p xml:id="p.nl.30" n="30">Of daisies on the aguish hills.─</p>
+
+<p xml:id="p.nl.31" n="31">Twice holy was the Sabbath-bell:</p>
+
+<p xml:id="p.nl.32" n="32">The silent streets were crowded well</p>
+
+<p xml:id="p.nl.33" n="33">With staid &amp; pious companies,</p>
+
+<p xml:id="p.nl.34" n="34">Warm from their fire-side orat’ries;</p>
+
+<p xml:id="p.nl.35" n="35">And moving, with demurest air</p>
+
+<p xml:id="p.nl.36" n="36">To even-song, &amp; vesper prayer.─</p>
+
+<p xml:id="p.nl.37" n="37">Each arched porch, &amp; entry low,</p>
+
+<p xml:id="p.nl.38" n="38">Was fill’d with patient folk &amp; slow,</p>
+
+<p xml:id="p.nl.39" n="39">With whispers hush &amp; shuffling feet,</p>
+
+<p xml:id="p.nl.40" n="40">While played the organ, loud &amp; sweet.─</p>
+
+<p xml:id="p.nl.41" n="41">The bells had ceased, the prayers begun,</p>
+
+<p xml:id="p.nl.42" n="42">And Bertha had not yet half done</p>
+
+<p xml:id="p.nl.43" n="43">A curious volume, patch’d &amp; torn,</p>
+
+<p xml:id="p.nl.44" n="44">That all day long, from earliest morn,</p>
+
+<p xml:id="p.nl.45" n="45">Had taken captive her two eyes,</p>
+
+<p xml:id="p.nl.46" n="46">Among its golden broideries;</p>
+
+<p xml:id="p.nl.47" n="47">Perplexed her with a thousand things,</p>
+
+<p xml:id="p.nl.48" n="48">The stars of Heaven, &amp; angels’ wings,</p>
+
+<p xml:id="p.nl.49" n="49">Martyrs in a fiery blaze,</p>
+
+<p xml:id="p.nl.50" n="50">Azure saints &amp; silver rays</p>
+
+<p xml:id="p.nl.51" n="51">Moses’ breastplate, &amp; the seven</p>
+
+<p xml:id="p.nl.52" n="52">Candlesticks John saw in Heaven,</p>
+
+<p xml:id="p.nl.53" n="53">The winged lion of Saint Mark,</p>
+
+<p xml:id="p.nl.54" n="54">And the covenantal Ark,</p>
+
+<p xml:id="p.nl.55" n="55">With its many mysteries</p>
+
+<p xml:id="p.nl.56" n="56">Cherubim &amp; golden mice.─</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p xml:id="p.nl.57" n="57">Bertha was a maiden fair,</p>
+
+<p xml:id="p.nl.58" n="58">Dwelling in th’old minster-square;</p>
+
+<p xml:id="p.nl.59" n="59">From her fireside she could see,</p>
+
+<p xml:id="p.nl.60" n="60">Sidelong, its rich antiquity,</p>
+
+<p xml:id="p.nl.61" n="61">Far as the Bishops gardenwall;</p>
+
+<p xml:id="p.nl.62" n="62">Where sycamores &amp; elm trees tall,</p>
+
+<p xml:id="p.nl.63" n="63">Full leaved, the forest had outstript,</p>
+
+<p xml:id="p.nl.64" n="64">By no sharp north wind ever nipt,</p>
+
+<p xml:id="p.nl.65" n="65">So shelter’d by the mighty pile,</p>
+
+<p xml:id="p.nl.66" n="66">Bertha arose &amp; read awhile,</p>
+
+<p xml:id="p.nl.67" n="67">With forehead ’gainst the window pane.</p>
+
+<p xml:id="p.nl.68" n="68">Again she tried &amp; tried again,</p>
+
+<p xml:id="p.nl.69" n="69">Until the dusk eve left her dark</p>
+
+<p xml:id="p.nl.70" n="70">Upon the legend of St Mark.</p>
+
+<p xml:id="p.nl.71" n="71">From plaited lawn-frill, fine &amp; thin<c type="kk">/</c></p>
+
+<p xml:id="p.nl.72" n="72">She lifted up her soft warm chin,</p>
+
+<p xml:id="p.nl.73" n="73">With aching neck &amp; swimming eyes</p>
+
+<p xml:id="p.nl.74" n="74">And dazed with saintly imag’ries.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.75" n="75">All was gloom, &amp; silent all</p>
+
+<p xml:id="p.nl.76" n="76">Save now &amp; then the still foot-fall</p>
+
+<p xml:id="p.nl.77" n="77">Of one returning homewards late,</p>
+
+<p xml:id="p.nl.78" n="78">Past the echoing minster-gate.</p>
+
+<p xml:id="p.nl.79" n="79">The clamorous daws, that all the day</p>
+
+<p xml:id="p.nl.80" n="80">Above tree tops &amp; towers play,</p>
+
+<p xml:id="p.nl.81" n="81">Pair by pair had gone to rest,</p>
+
+<p xml:id="p.nl.82" n="82">Each in its ancient belfry-nest,</p>
+
+<p xml:id="p.nl.83" n="83">Where asleep they fall betimes</p>
+
+<p xml:id="p.nl.84" n="84">To music &amp; the drowsy chimes.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.85" n="85">All was silent, all was gloom,</p>
+
+<p xml:id="p.nl.86" n="86">Abroad &amp; in the homely room:</p>
+
+<p xml:id="p.nl.87" n="87">Down she sat, poor cheated soul!</p>
+
+<p xml:id="p.nl.88" n="88">And struck a lamp from the dismal coal;</p>
+
+<p xml:id="p.nl.89" n="89">Leaned forward, with bright drooping hair<c type="kk">/</c></p>
+
+<p xml:id="p.nl.90" n="90">And slant book, full against the glare.</p>
+
+<p xml:id="p.nl.91" n="91">Her shadow, in uneasy guise,</p>
+
+<p xml:id="p.nl.92" n="92">Hover’d about, a giant size,</p>
+
+<p xml:id="p.nl.93" n="93">On ceiling beam &amp; old oak chair,</p>
+
+<p xml:id="p.nl.94" n="94">The parrot’s cage, &amp; panel square;</p>
+
+<p xml:id="p.nl.95" n="95">And the warm angled winter-screen,</p>
+
+<p xml:id="p.nl.96" n="96">On which were many monsters seen,</p>
+
+<p xml:id="p.nl.97" n="97">Call’d doves of Siam, Lima mice,</p>
+
+<p xml:id="p.nl.98" n="98">And legless birds of Paradise<c type="kk">/</c></p>
+
+<p xml:id="p.nl.99" n="99">Macaw, &amp; tender Av’davat,</p>
+
+<p xml:id="p.nl.100" n="100">And silken-furr’d Angora cat.</p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p xml:id="p.nl.101" n="101">Untired she read, her shadow still</p>
+
+<p xml:id="p.nl.102" n="102">Glower’d about, as it would fill</p>
+
+<p xml:id="p.nl.103" n="103">The room with wildest forms &amp; shades,</p>
+
+<p xml:id="p.nl.104" n="104">As though some ghostly queen of spades</p>
+
+<p xml:id="p.nl.105" n="105">Had come to mock behind her back</p>
+
+<p xml:id="p.nl.106" n="106">And dance, &amp; ruffle her garments black.</p>
+
+<p xml:id="p.nl.107" n="107">Untired she read the legend page,</p>
+
+<p xml:id="p.nl.108" n="108">Of holy Mark, from youth to age,</p>
+
+<p xml:id="p.nl.109" n="109">On land, on sea, in pagan chains,</p>
+
+<p xml:id="p.nl.110" n="110">Rejoicing for his many pains.</p>
+
+<p xml:id="p.nl.111" n="111">Sometimes the learned eremite,</p>
+
+<p xml:id="p.nl.112" n="112">With golden star, or dagger bright,</p>
+
+<p xml:id="p.nl.113" n="113">Referr’d to pious poesies</p>
+
+<p xml:id="p.nl.114" n="114">Written in smallest crow-quill size</p>
+
+<p xml:id="p.nl.115" n="115">Beneath the text; &amp; thus the rhyme</p>
+
+<p xml:id="p.nl.116" n="116">Was parcell’d out from time to time:</p>
+
+<p xml:id="p.nl.117" n="117">....................................</p>
+
+<p xml:id="p.nl.118" n="118">....................................</p>
+
+<p rend="indent" xml:id="p.nl.119" n="119">John Keats (1818)</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.120" n="120">The imagination may be
+compared to Adam’s dream;
+“he awoke &amp; found it truth.”─<ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p xml:id="p.nl.121" n="121"><hi rend="italics">Autumn</hi><ptr target="#note-t-14"/></p><space unit="lines" quantity="1"/> 
+
+<p xml:id="p.nl.122" n="122">Season of mist, &amp; mellow fruitfulness!</p>
+
+<p xml:id="p.nl.123" n="123">Close bosom-friend to the maturing sun;</p>
+
+<p xml:id="p.nl.124" n="124">Conspiring with him how to load &amp; bless</p>
+
+<p xml:id="p.nl.125" n="125">With fruit the vines that round the thatch-eaves run;</p>
+
+<p xml:id="p.nl.126" n="126">To bend with apples the moss’d cottage trees,</p>
+
+<p xml:id="p.nl.127" n="127">And fill all fruit with ripeness to the core;</p>
+
+<p xml:id="p.nl.128" n="128">To swell the gourd, &amp; plump the hazel shells</p>
+
+<p xml:id="p.nl.129" n="129">With a sweet kernel; to set budding more,</p>
+
+<p xml:id="p.nl.130" n="130">And still more, later flowers for the bees,</p>
+
+<p xml:id="p.nl.131" n="131">Until they think warm days will never cease,─</p>
+
+<p xml:id="p.nl.132" n="132">For summer has o’erbrimm’d their clammy cells.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.133" n="133">Where are the songs of spring? Ay, where are they?</p>
+
+<p xml:id="p.nl.134" n="134">Think not of them, thou hast thy music too,</p>
+
+<p xml:id="p.nl.135" n="135">While barred clouds bloom the soft-dying day,</p>
+
+<p xml:id="p.nl.136" n="136">And touch the stubble-plains with rosy hue;</p>
+
+<p xml:id="p.nl.137" n="137">Then in a wailful choir the small gnats mourn</p>
+
+<p xml:id="p.nl.138" n="138">Among the river sallows, borne aloft.</p>
+
+<p xml:id="p.nl.139" n="139">Or sinking as the light wind lives or dies;</p>
+
+<p xml:id="p.nl.140" n="140">And full-grown lambs loud bleat from hilly bourn;</p>
+
+<p xml:id="p.nl.141" n="141">Hedge-crickets sing; &amp; now with treble soft</p>
+
+<p xml:id="p.nl.142" n="142">The redbreast whistles from a garden croft,</p>
+
+<p xml:id="p.nl.143" n="143">And gathering swallows twitter in the skies.─</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">London, 7 August 1873</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear friends,</p>
+<p xml:id="p.en.3" n="3">It was a very pleasant surprise for me to receive <rs type="person" ref="bio.xml#_761">Caroline</rs>’s letter. Thank you.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I sincerely hope that she’s now completely better; fortunately, it’s past. When you write again sometime I must hear more about that last piece you made.<ptr target="#note-t-1"/> I was truly astounded by it; for 10 people, that’s surely the biggest you’ve done.</p>
+<p rend="indent" xml:id="p.en.5" n="5">The last few days I’ve enjoyed reading the poems of <rs type="person" ref="bio.xml#_680">John Keats</rs>; he’s a poet who isn’t very well known in Holland, I believe. He’s the 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> favourite of the painters here, and that’s how I came to be reading him.<ptr target="#note-t-2"/> Herewith something by him.<ptr target="#note-t-3"/> His most famous piece is ‘St Agnes’ eve’, but it’s rather too long to copy out.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I haven’t yet been to the Crystal Palace and the Tower, nor to Tussaud’s;<ptr target="#note-t-5"/> I’m not at all in a hurry to go and see everything. For the time being I have enough with the museums, parks, &amp;c., which attract me more.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I had a nice day last Monday. The first Monday in Aug. is a holiday here.<ptr target="#note-t-6"/> I went with one of the Germans to Dulwich, an hour and a half outside L., to see the museum there,<ptr target="#note-t-7"/> and afterwards we walked to a village about an hour further on. The countryside here is so beautiful; many people who have their business in L. live in some village or other outside L. and come to the city every day by train. Perhaps I’ll 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> soon be doing that as well, if I can find a cheap room somewhere. But I find moving so terrible that I’ll stay here as long as possible, though things aren’t as nice here as they seemed at first. Perhaps this is my fault, so I’ll wait a little longer.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I’m sorry that my letter isn’t as I’d wish it to be, I’m writing in haste. But I wanted to congratulate you on <rs type="person" ref="bio.xml#_760">Willem</rs>’s birthday<ptr target="#note-t-8"/> and wish you many happy returns.</p>
+<p rend="indent" xml:id="p.en.9" n="9">It gave me a great deal of pleasure to hear that you had renewed your acquaintance with the <rs type="person" ref="bio.xml#_787 bio.xml#_788">Tersteeg family</rs>. I had long been hoping that you would, for your sake.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Write to me when you get the chance and tell me which photographs you’ve received, I’m curious to know. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I’ve had a letter from <rs type="person" ref="bio.xml#_767">Marinus</rs>,<ptr target="#note-t-9"/> and have understood from it that he’s going to Amsterdam. That will be a big change for him, I hope he’ll do well. I was glad he wrote to me.</p>
+<p rend="indent" xml:id="p.en.12" n="12">A day or two ago I had a visit from a <rs type="person" ref="bio.xml#_112">brother of Iterson</rs> who lives here,<ptr target="#note-t-10"/> and so had the first opportunity of speaking Dutch since May. We live a long way from each other, which I very much regret. And now I bid you good-day, I wish you well. Many regards to everyone in the Poten.<ptr target="#note-t-11"/> I wish you well,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">Yours truly,</p>
+<p xml:id="p.en.14" n="14">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Cheer me up soon with a letter if you can find the time.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.17" n="17">The eve of Saint Mark<ptr target="#note-t-12"/></p>
+<p xml:id="p.en.18" n="18">(Unfinished)</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Upon a Sabbath day it fell;</p>
+<p xml:id="p.en.20" n="20">Twice holy was the Sabbath bell,</p>
+<p xml:id="p.en.21" n="21">That called the folk to evening prayer;</p>
+<p xml:id="p.en.22" n="22">The city streets were clear and fair</p>
+<p xml:id="p.en.23" n="23">From wholesome drench of April rains;</p>
+<p xml:id="p.en.24" n="24">And, on the western window panes,</p>
+<p xml:id="p.en.25" n="25">The chilly sunset faintly told</p>
+<p xml:id="p.en.26" n="26">Of unmatured green, vallies cold,</p>
+<p xml:id="p.en.27" n="27">Of the green thorny bloomless hedge,</p>
+<p xml:id="p.en.28" n="28">Of rivers new with spring-tide sedge,</p>
+<p xml:id="p.en.29" n="29">Of primroses by shelter’d rills,</p>
+<p xml:id="p.en.30" n="30">Of daisies on the aguish hills.</p>
+<p xml:id="p.en.31" n="31">Twice holy was the Sabbath-bell:</p>
+<p xml:id="p.en.32" n="32">The silent streets were crowded well</p>
+<p xml:id="p.en.33" n="33">With staid and pious companies,</p>
+<p xml:id="p.en.34" n="34">Warm from their fire-side orat’ries;</p>
+<p xml:id="p.en.35" n="35">And moving, with demurest air</p>
+<p xml:id="p.en.36" n="36">To even-song, and vesper prayer.</p>
+<p xml:id="p.en.37" n="37">Each arched porch, and entry low,</p>
+<p xml:id="p.en.38" n="38">Was fill’d with patient folk and slow,</p>
+<p xml:id="p.en.39" n="39">With whispers hush and shuffling feet,</p>
+<p xml:id="p.en.40" n="40">While played the organ, loud and sweet.</p>
+<p xml:id="p.en.41" n="41">The bells had ceased, the prayers begun,</p>
+<p xml:id="p.en.42" n="42">And Bertha had not yet half done</p>
+<p xml:id="p.en.43" n="43">A curious volume, patch’d and torn,</p>
+<p xml:id="p.en.44" n="44">That all day long, from earliest morn,</p>
+<p xml:id="p.en.45" n="45">Had taken captive her two eyes,</p>
+<p xml:id="p.en.46" n="46">Among its golden broideries;</p>
+<p xml:id="p.en.47" n="47">Perplexed her with a thousand things,</p>
+<p xml:id="p.en.48" n="48">The stars of Heaven, and angels’ wings,</p>
+<p xml:id="p.en.49" n="49">Martyrs in a fiery blaze,</p>
+<p xml:id="p.en.50" n="50">Azure saints and silver rays</p>
+<p xml:id="p.en.51" n="51">Moses’ breastplate, and the seven</p>
+<p xml:id="p.en.52" n="52">Candlesticks John saw in Heaven,</p>
+<p xml:id="p.en.53" n="53">The winged lion of Saint Mark,</p>
+<p xml:id="p.en.54" n="54">And the covenantal Ark,</p>
+<p xml:id="p.en.55" n="55">With its many mysteries</p>
+<p xml:id="p.en.56" n="56">Cherubim and golden mice. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p xml:id="p.en.57" n="57">Bertha was a maiden fair,</p>
+<p xml:id="p.en.58" n="58">Dwelling in th’old minster-square;</p>
+<p xml:id="p.en.59" n="59">From her fireside she could see,</p>
+<p xml:id="p.en.60" n="60">Sidelong, its rich antiquity,</p>
+<p xml:id="p.en.61" n="61">Far as the Bishops gardenwall;</p>
+<p xml:id="p.en.62" n="62">Where sycamores and elm trees tall,</p>
+<p xml:id="p.en.63" n="63">Full leaved, the forest had outstript,</p>
+<p xml:id="p.en.64" n="64">By no sharp north wind ever nipt,</p>
+<p xml:id="p.en.65" n="65">So shelter’d by the mighty pile,</p>
+<p xml:id="p.en.66" n="66">Bertha arose and read awhile,</p>
+<p xml:id="p.en.67" n="67">With forehead ’gainst the window pane.</p>
+<p xml:id="p.en.68" n="68">Again she tried and tried again,</p>
+<p xml:id="p.en.69" n="69">Until the dusk eve left her dark</p>
+<p xml:id="p.en.70" n="70">Upon the legend of St Mark.</p>
+<p xml:id="p.en.71" n="71">From plaited lawn-frill, fine and thin,</p>
+<p xml:id="p.en.72" n="72">She lifted up her soft warm chin,</p>
+<p xml:id="p.en.73" n="73">With aching neck and swimming eyes</p>
+<p xml:id="p.en.74" n="74">And dazed with saintly imag’ries.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.75" n="75">All was gloom, and silent all</p>
+<p xml:id="p.en.76" n="76">Save now and then the still foot-fall</p>
+<p xml:id="p.en.77" n="77">Of one returning homewards late,</p>
+<p xml:id="p.en.78" n="78">Past the echoing minster-gate.</p>
+<p xml:id="p.en.79" n="79">The clamorous daws, that all the day</p>
+<p xml:id="p.en.80" n="80">Above tree tops and towers play,</p>
+<p xml:id="p.en.81" n="81">Pair by pair had gone to rest,</p>
+<p xml:id="p.en.82" n="82">Each in its ancient belfry-nest,</p>
+<p xml:id="p.en.83" n="83">Where asleep they fall betimes</p>
+<p xml:id="p.en.84" n="84">To music and the drowsy chimes.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.85" n="85">All was silent, all was gloom,</p>
+<p xml:id="p.en.86" n="86">Abroad and in the homely room:</p>
+<p xml:id="p.en.87" n="87">Down she sat, poor cheated soul!</p>
+<p xml:id="p.en.88" n="88">And struck a lamp from the dismal coal;</p>
+<p xml:id="p.en.89" n="89">Leaned forward, with bright drooping hair,</p>
+<p xml:id="p.en.90" n="90">And slant book, full against the glare.</p>
+<p xml:id="p.en.91" n="91">Her shadow, in uneasy guise,</p>
+<p xml:id="p.en.92" n="92">Hover’d about, a giant size,</p>
+<p xml:id="p.en.93" n="93">On ceiling beam and old oak chair,</p>
+<p xml:id="p.en.94" n="94">The parrot’s cage, and panel square;</p>
+<p xml:id="p.en.95" n="95">And the warm angled winter-screen,</p>
+<p xml:id="p.en.96" n="96">On which were many monsters seen,</p>
+<p xml:id="p.en.97" n="97">Call’d doves of Siam, Lima mice,</p>
+<p xml:id="p.en.98" n="98">And legless birds of Paradise,</p>
+<p xml:id="p.en.99" n="99">Macaw, and tender Av’davat,</p>
+<p xml:id="p.en.100" n="100">And silken-furr’d Angora cat. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p xml:id="p.en.101" n="101">Untired she read, her shadow still</p>
+<p xml:id="p.en.102" n="102">Glower’d about, as it would fill</p>
+<p xml:id="p.en.103" n="103">The room with wildest forms and shades,</p>
+<p xml:id="p.en.104" n="104">As though some ghostly queen of spades</p>
+<p xml:id="p.en.105" n="105">Had come to mock behind her back</p>
+<p xml:id="p.en.106" n="106">And dance, and ruffle her garments black.</p>
+<p xml:id="p.en.107" n="107">Untired she read the legend page,</p>
+<p xml:id="p.en.108" n="108">Of holy Mark, from youth to age,</p>
+<p xml:id="p.en.109" n="109">On land, on sea, in pagan chains,</p>
+<p xml:id="p.en.110" n="110">Rejoicing for his many pains.</p>
+<p xml:id="p.en.111" n="111">Sometimes the learned eremite,</p>
+<p xml:id="p.en.112" n="112">With golden star, or dagger bright,</p>
+<p xml:id="p.en.113" n="113">Referr’d to pious poesies</p>
+<p xml:id="p.en.114" n="114">Written in smallest crow-quill size</p>
+<p xml:id="p.en.115" n="115">Beneath the text; and thus the rhyme</p>
+<p xml:id="p.en.116" n="116">Was parcell’d out from time to time:</p>
+<p xml:id="p.en.117" n="117">................................................................</p>
+<p xml:id="p.en.118" n="118">................................................................</p>
+<p rend="indent" xml:id="p.en.119" n="119">  John Keats (1818)</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.120" n="120">The imagination may be compared to Adam’s dream; ‘he awoke and found it truth’.<ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/><pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/>
+<p xml:id="p.en.121" n="121"><hi rend="italics">Autumn</hi><ptr target="#note-t-14"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.122" n="122">Season of mist, and mellow fruitfulness!</p>
+<p xml:id="p.en.123" n="123">Close bosom-friend to the maturing sun;</p>
+<p xml:id="p.en.124" n="124">Conspiring with him how to load and bless</p>
+<p xml:id="p.en.125" n="125">With fruit the vines that round the thatch-eaves run;</p>
+<p xml:id="p.en.126" n="126">To bend with apples the moss’d cottage trees,</p>
+<p xml:id="p.en.127" n="127">And fill all fruit with ripeness to the core;</p>
+<p xml:id="p.en.128" n="128">To swell the gourd, and plump the hazel shells</p>
+<p xml:id="p.en.129" n="129">With a sweet kernel; to set budding more,</p>
+<p xml:id="p.en.130" n="130">And still more, later flowers for the bees,</p>
+<p xml:id="p.en.131" n="131">Until they think warm days will never cease,</p>
+<p xml:id="p.en.132" n="132">For summer has o’erbrimm’d their clammy cells.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.133" n="133">Where are the songs of spring? Ay, where are they?</p>
+<p xml:id="p.en.134" n="134">Think not of them, thou hast thy music too,</p>
+<p xml:id="p.en.135" n="135">While barred clouds bloom the soft-dying day,</p>
+<p xml:id="p.en.136" n="136">And touch the stubble-plains with rosy hue;</p>
+<p xml:id="p.en.137" n="137">Then in a wailful choir the small gnats mourn</p>
+<p xml:id="p.en.138" n="138">Among the river sallows, borne aloft.</p>
+<p xml:id="p.en.139" n="139">Or sinking as the light wind lives or dies;</p>
+<p xml:id="p.en.140" n="140">And full-grown lambs loud bleat from hilly bourn;</p>
+<p xml:id="p.en.141" n="141">Hedge-crickets sing; and now with treble soft</p>
+<p xml:id="p.en.142" n="142">The redbreast whistles from a garden croft,</p>
+<p xml:id="p.en.143" n="143">And gathering swallows twitter in the skies.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Londen 7 Augustus 1873’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is not entirely clear what ‘piece’ refers to; presumably it was a <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">tableau vivant</hi> or short play.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The poetry of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_680">John Keats</rs> had become increasingly popular in England from the 1840s on. English painters – especially the Pre-Raphaelites – regularly depicted themes from his work. In the Netherlands no great interest was taken in Keats’s work until the 1880s, at which time the country was gripped by a new literary movement of its own. In 1879 Keats’s ‘Hyperion’ was translated into Dutch by W.W. van Lennep. See G.H. Ford, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Keats and the Victorians. A study of his influence and rise to fame 1821-1895</hi>. Hamden 1962; G. Dekker, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Die invloed van Keats en Shelley in Nederland gedurende die negentiende eeu</hi>. Groningen 1926, p. 33, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">John Keats. Gedichten</hi>. Ed. Léon Stapper. Baarn 1991, pp. 18-23.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>See the poems appended to this letter.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>‘<ref target="biblio.xml#lit_4">The eve of St Agnes</ref>’ was published in 1820 in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lamia, Isabella, The eve of St Agnes and other poems</hi>. The poem, which consists of 378 lines of verse, treats of the forbidden love of Porphyro and Madeline, ending with the lovers’ taking flight. See Keats 1978, pp. 299-318.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Here Van Gogh names popular tourist attractions: Crystal Palace, the principal structure of the 1851 Great Exhibition, re-erected on Sydenham Hill in South London; the medieval Tower of London; and Madame Tussaud’s waxworks museum in Baker Street.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Summer Bank Holiday.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+    
+<p>Dulwich Picture Gallery, Britain’s oldest public gallery with a famous collection of seventeenth-century paintings. On Monday, 4 August, Van Gogh wrote his signature ‘VWvanGogh the Hague’ in the visitor’s book (Documentation Dulwich Picture Gallery). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3104">Ill. 3104.</rs></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_760">Willem van Stockum</rs>’s birthday was 8 August.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_767">Casparus Marinus van Stockum</rs>, Willem’s brother.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh might be referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_461">Teunis van Iterson</rs>’s eldest brother, 24-year-old <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_112">Franciscus van Iterson</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Lange Poten 10 in The Hague, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_761">Caroline</rs>’s parental home.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>A publication containing the poems Van Gogh mentions, including the ‘Imagination’ quotation <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-195">(ll. 195-197)</ref>, is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The poetical works of John Keats.</hi> Edited, with a critical memoir by William Michael Rossetti. Illustrated by Thomas Seccombe. London [1871], pp. 180-194; 237-240; 231 and preface, p. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">xxii</hi>.</p>
+
+<p rend="indent">Van Gogh’s copy largely corresponds to this edition. For example, ‘Unfinished’ has been added below the title in the same way, and the name ‘Moses’ – instead of ‘Aaron’, as in other editions – also occurs here (in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-35">l. 35</ref>). By contrast, Van Gogh’s transcription differs in details in several places from this edition, corresponding instead to other versions, so that Rossetti’s edition cannot be said with certainty to be the source. Cf. the editions in Keats 1978, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The poems of John Keats</hi>. Ed. Miriam Allott. 6th ed. London 1986.</p>
+
+<p rend="indent"><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_680">Keats</rs>’s ‘<ref target="biblio.xml#lit_5">The eve of Saint Mark</ref>’, which was never completed, was published posthumously in 1848. Van Gogh did not copy out the whole poem; he omitted more than twenty lines at the end. The date ‘1818’ does not agree with the Rossetti edition, which gives the date correctly as 1819.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The quotation originally came from a letter written by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_680">Keats</rs> to Benjamin Bailey. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The letters of John Keats 1814-1821</hi>. Ed. H.E. Rollins. Cambridge, Massachusetts 1958, vol. 1, pp. 184-185. Van Gogh could have taken it from the foreword to the Rossetti edition (see <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-12">note 12</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+    
+<p>Like ‘<ref target="biblio.xml#lit_4">The eve of St Agnes</ref>’, ‘<ref target="biblio.xml#lit_6">To autumn</ref>’ was published in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lamia, Isabella, The eve of St Agnes and other poems</hi> (1820). Van Gogh omitted the middle stanza of the original (11 lines of verse, a personification of Autumn).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

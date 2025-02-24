@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Monday, 31 July 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let252"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b243 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>252</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>221</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>253</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-07-31">Monday, 31 July 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000295_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000295_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000295_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000295_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000295_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000295_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000296_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000296_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000296_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000296_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000297_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000297_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0243 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000297_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000297_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Een woordje om U vast goeden dag te zeggen tegen dat ge zelf komt<c type="kp">_</c><ptr target="#note-t-1"/> Verder om U te berigten de goede ontvangst van Uw schrijven &amp; het ingeslotene en U daarvoor hartelijk te bedanken.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Zeer welkom was het mij want ik ben druk aan den gang &amp; heb weer een &amp; ander noodig.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Omtrent het zwart in de natuur zijn wij het natuurlijk geheel eens zoover ik begrijp. Absoluut zwart komt eigentlijk niet voor.<ptr target="#note-t-2"/> In bijna alle kleuren echter is het echter even als wit aanwezig &amp; vormt de oneindige variatie van <hi rend="italics">grijzen</hi> – onderscheiden van toon &amp; kracht<c type="kp">_</c>–<ptr target="#note-t-3"/> Zoodat men in de natuur dus eigentlijk niet anders ziet dan die toonen of krachten.</p>
+      
+<p xml:id="p.nl.5" n="5">De grondkleuren zijn slechts 3 – rood<c type="kk">/</c> geel<c type="kk">/</c> blaauw<c type="kp">_</c> </p>
+      
+<p xml:id="p.nl.6" n="6"> ,, zamengestelde   ,,   oranje<c type="kk">/</c> groen<c type="kk">/</c> paarsch.</p>
+
+<p xml:id="p.nl.7" n="7">Daarvan ontstaan door bijvoeging van zwart &amp; wat wit de oneindige variaties van grijzen<c type="kk">/</c> <hi rend="italics">rood</hi>grijs<c type="kk">/</c> <hi rend="italics">geel</hi>grijs, <hi rend="italics">blaauw</hi>grijs<c type="kk">/</c> <hi rend="italics">groen</hi>grijs<c type="kk">/</c> <hi rend="italics">oranje</hi>grijs<c type="kk">/</c> <hi rend="italics">violet</hi>grijs.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Om te zeggen hoeveel verschillende groengrijzen er b.v. zijn is onmogelijk – het varieert in ’t oneindige<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Maar de heele chemie der kleuren is niet gecompliceerder dan die eenvoudige paar gronden. En een goed begrip daarvan is meer waard dan 70 verschillende kleurtjes verf – aangezien men met de 3 hoofdkleuren &amp; wit en zwart meer dan 70 toonen &amp; krachten kan maken.<ptr target="#note-t-4"/> De kolorist is hij die een kleurtje ziende in de natuur heel leuk dat weet te analyseeren &amp; b.v. te zeggen<c type="kk">/</c> dat groengrijs is geel met zwart &amp; bijna geen blaauw &amp;c. Enfin de grijzen van de natuur te weten te maken op ’t palet<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Om nu echter buiten notities te nemen of om een klein krabbeltje te maken is een sterk ontwikkeld gevoel voor den contour absoluut vereischte<c type="kk">/</c> evenzeer als ook voor ’t hooger opvoeren later<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Dat nu krijgt men geloof ik niet van zelf – maar primo door observatie<c type="kk">/</c> verder vooral door hardnekkig werken &amp; zoeken<c type="kk">/</c> verder moet er bepaald studie van anatomie &amp; perspectief bijkomen.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ik heb naast mij hangen een landschap<c type="shy">-</c>studie van <hi rend="italics">Roelofs</hi><c type="kk">/</c> een penschets<c type="kk">/</c> maar ik kan U niet zeggen hoe expressief die eenvoudige contour is<c type="kp">_</c>– Alles is er in<c type="kp">_</c>–<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Een ander<c type="kk">/</c> nog sprekender voorbeeld is de groote houtsnee Bergère van Millet die ’k verl. jaar van U zag &amp; steeds mij bijgebleven is.<ptr target="#note-t-6"/> Verder b.v. de penschetsjes van Ostade en Boeren Breugel.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Als ik zulke resultaten zie dan voel ik ten duidelijkste het groote gewigt van den contour. En ge weet b.v. aan Sorrow<ptr target="#note-t-8"/> dat ik mij veel moeite geef om mij zelf op te werken in dat opzigt.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Maar gij zult wel zien als ge op ’t atelier komt dat behalve dat zoeken naar den contour ik ook wel degelijk net als een ander gevoel heb voor de <hi rend="italics">krachten</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">En dat ik ook er niets op tegen heb aquarellen te maken – alleen die gronden zich op ’t teekenen vooreerst en dan uit het teekenen spruiten buiten 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>&amp; behalve de aquarel<c type="kk">/</c> allerlei andere takken uit die zich bij mij net als bij ieder ander die met liefde werkt op zijn tijd ontwikkelen zullen.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Ik heb dien ouden kanjer van een knotwilg nog geattaqueerd en ik geloof dat dat de beste van de aquarellen geworden is.<ptr target="#note-t-9"/> Een somber landschap – dien dooden boom bij een stilstaand met kroos bedekten plas<c type="kk">/</c> in ’t verschiet een remise van de Rijnspoor waar spoorlijnen elkaar kruisen<c type="kk">/</c> zwarte berookte gebouwen – verder groene weilanden<c type="kk">/</c> een kolenweg en een lucht waar de wolken jagen<c type="kk">/</c> graauw met een enkel schitterend wit randje en een diepte van blaauw daar waar de wolken zich scheuren even.</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Enfin ik heb ’t willen maken zóó als dunkt mij het baanwachtertje met zijn kiel &amp; rood vlaggetje ’t zien &amp; voelen moet als hij denkt: Wat is ’t triestig vandaag.–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Ik werk met veel pleizier dezer dagen ofschoon nu en dan ik nog terdeeg naweeën van mijn ongesteldheid gevoel.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Van de teekeningen die ’k U nu zal laten zien denk ik alleen dit: dat zij, hoop ik, U een bewijs zullen geven dat ik niet maar op een zelfde hoogte blijf maar een kant uitwerk die raisonable is. Wat nu betreft handelswaarde van mijn werk<c type="kk">/</c> pretenties daaromtrent heb ik geen andere dan dat ’t me zeer verwonderen zou indien met der tijd mijn werk niet net zoo goed verkocht zou worden als dat van anderen. Of dat <hi rend="italics">nu</hi> gebeuren zal of <hi rend="italics">later</hi>, wel, ik laat dat betrekkelijk over, alleen trouw te werken naar de natuur en met hardnekkigheid is dunkt mij een zekeren weg en die niet op nul <hi rend="italics">kan</hi> uitloopen. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Het gevoel en de liefde voor de natuur vindt altijd vroeger of later weerklank bij menschen die zich voor kunst interesseeren. De pligt van den schilder is het zich geheel in de natuur te verdiepen en al zijn intelligentie te gebruiken<c type="kk">/</c> zijn gevoel in zijn werk te leggen zoodat het voor anderen verstaanbaar wordt. Maar werken op verkoopbaarheid is niet precies den regten weg mijns inziens maar veeleer de liefhebbers verneuken. En dat hebben de echte niet gedaan maar de sympathie die zij kregen vroeger of later kwam om reden van hun opregtheid. Meer weet ik er niet van en geloof ook niet meer er van noodig te hebben te weten. Er werk van te maken om liefhebbers te vinden en liefde bij hen op te wekken is iets anders en natuurlijk gepermitteerd. Maar ’t moet niet een speculatie worden die alligt verkeerd zou uitdraaijen en zeer zeker tijd die aan ’t werk gespendeerd behoort te worden zou doen verliezen.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Gij zult in mijn aquarellen van nu natuurlijk nog dingen vinden die er uit moeten – maar dat moet door den tijd komen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Alleen weet het goed dat ik er heel ver van daan ben om er een systeem of zoo iets op na te houden &amp; er me in op te sluiten<c type="kp">_</c> Zoo iets bestaat meer in de verbeelding van b.v. H.G<c type="kp">_</c>T<c type="kp">_</c> dan wel in werkelijkheid. Wat H.G.T. betreft<c type="kk">/</c> ge begrijpt wel dat mijn opinie van hem een persoonlijke reden heeft en dat ik b.v. <hi rend="italics">U</hi> volstrekt niet opdringen wil dat <hi rend="italics">gij</hi> van Uw standpunt zóó over hem moet denken als ik wel genoodzaakt ben te doen.– Zoolang hij van mij denkt &amp; zegt een &amp; ander wat ge weet<c type="kk">/</c> kan ik hem noch als een vriend noch als mij in eenig opzigt nuttig beschouwen maar slechts het tegendeel. En ik vrees zijn opinie van mij is te vast geworteld dan dat die ooit veranderen zal<c type="kk">/</c> te meer daar<c type="kk">/</c> zoo als ge zelf zegt<c type="kk">/</c> hij zich de moeite niet geven zal sommige dingen eens te herzien en te veranderen.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Als ik zie hoe verscheiden schilders hier die ik ken zitten te scharrelen met hun aquarellen &amp; schilderijen zóó dat zij er niet uit kunnen dan denk ik wel eens<c type="kk">/</c> vriend dat schort hem aan je teekenen. Ik heb er geen oogenblik spijt van dat ik niet direkt met ’t aquarelleeren &amp; schilderen nog ben doorgegaan<c type="kp">_</c> Ik weet zeker dat ik zulks zal inhalen als ik nog maar wat doorsabel zoodat mijn hand niet aarzelt in het teekenen en de perspectief<c type="kp">_</c> Maar als ik jonge schilders zie composeeren &amp; teekenen <hi rend="italics">uit hun hoofd</hi> – dan au hasard <hi rend="italics">ook uit hun hoofd</hi> er van allerlei opsmeeren – dan het op een afstand houden en een heel diepzinnig<c type="kk">/</c> somber gezigt zetten om uit te vinden waar het bij godsmogelijkheid ietwat op lijken mogt en eindelijk er<c type="kk">/</c> en altijd maar door uit het hoofd<c type="kk">/</c> t’een of ander van maken<c type="kk">/</c> dan wordt ik er wel eens wee en flaauw van en denk dat het toch fameus vervelend &amp; zwaar op de hand is.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">The whole thing makes me sick!</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Maar die heeren vragen mij trouw – niet zonder een zeker protegeerend air “of ik al aan het schilderen ben”.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Nu overkomt het mij ook wel eens dat ik zit te spelen om zoo te zeggen au hasard op een stukje papier maar daar hecht ik niet meer waarde aan dan aan een vod of een koolblad.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">En ik hoop dat gij begrijpen zult dat als ik nog maar steeds blijf teekenen ik zulks doe om twee redenen<c type="kp">_</c> Omdat ik coûte qui coute een vaste hand van teekenen wil krijgen vóór alle dingen en ten tweede omdat schilderbehoeften &amp; aquarel heel wat onkosten meebrengen waar men in den eersten tijd niets van terugkrijgt – en die onkosten verdubbelen en vertiendubbelen wanneer men werkt op een teekening die nog niet correct genoeg is.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">En als ik mij in schulden stak of mij omringde met doeken &amp; papieren volgesmeerd met verf zonder van mijn teekenen zeker te zijn<c type="kk">/</c> dan zou spoedig mijn atelier een soort hel worden zooals ik wel eens een atelier gezien heb dat mij voorkwam daarop te lijken.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Nu kom ik er altijd met pleizier &amp; werk met lust er in<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Ik geloof dan ook niet van U dat gij mij verdenkt van <hi rend="italics">onwil</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Maar het komt mij voor dat de schilders hier een manier hebben van te redeneeren op deze wijs.. Zij zeggen<c type="kk">/</c> Ge moet dit en dat doen – doet men dat niet of niet direkt of niet precies – of zegt er iets tegen<c type="kk">/</c> volgt er een: “Dus wilt gij het beter weten dan ik”? Zoodoende staat men onmiddelijk soms in den tijd van 5 minuten pal tegenover elkaar en wel in zoo’n positie dat men noch voor- noch achteruit kan van weerskanten. Waarvan de minst hatelijke afloop nog is dat een van beide partijen de tegenwoordigheid van geest hebbe te zwijgen en op de een of andere wijs door de een of andere aanwezige opening zich haastig uit de voeten te maken. En haast zeggen zou<c type="kk">/</c> Sapristi<c type="kk">/</c><ptr target="#note-t-a"/> de schilders is ook al een familie. Namelijk eene noodlottige vereeniging van personen met tegenstrijdige belangen en waarvan elk op zich zelf met de rest het oneens is en slechts dan twee of meer van ’t zelfde gevoelen zijn als het er op aan komt zich te combineeren om gezamentlijk een ander lid te hinderen. Deze definitie van het woord familie, waarde broer, hoop ik dat echter niet altijd moge opgaan<c type="kk">/</c> vooral niet wanneer het de schilders of onze eigene familie betreft<c type="kp">_</c> Dat het in onze eigen familie vrede moge blijve wensch ik van ganscher harte &amp; blijf met een handdruk,</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.32" n="32">t. à t.</p>
+
+<p xml:id="p.nl.33" n="33">Vincent</p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/> 
+<p xml:id="p.nl.34" n="34"><supplied><hi rend="italics">Text missing</hi></supplied></p>
+
+<p xml:id="p.nl.35" n="35">niet bang te zijn <supplied><hi rend="italics">xxxxxxxxxxxxxxxxxxxxx</hi></supplied> ’t hun lastig maken als het is dat zij mij liever niet zien.</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Zelfs toen zij mij vroegen laatst of ik niet eens zou komen heb ik dat geweigerd opdat zij toch goed zien zouden dat ik ’t hun in geen ding wil lastig maken. Alleen ik verlang ook dat zij van hun kant zich niet met mijn zaken zullen bemoeijen<c type="kp">_</c> Is het dat ik prijs stel op de goede gezindheid van ’thuis, Prinsenhage<ptr target="#note-t-10"/> kan me veel minder scheelen<c type="kp">_</c>– Wilt en kunt ge zoo goed zijn niet te spreken over een en ander<c type="kk">/</c> tant mieux<c type="kk">/</c> wordt er daar echter over gepraat &amp; is zulks niet te vermijden – tant pis maar qu’est ce que ça me fait.</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Nu<c type="kk">/</c> zoo als gezegd<c type="kk">/</c> ik wensch niets zoo zeer als vrede houden<c type="kk">/</c> niets is zoo noodig voor mijn werk als juist dien vrede<c type="kp">_</c> daarom<c type="kk">/</c> voor alles wat gij doen kunt om hen ’thuis gerust te stellen &amp; kalm te doen blijven<c type="kk">/</c> ben ik U dankbaar voor. Ik hoop dat gij er goede dagen hebben zult &amp; veel Brabantsche lucht zult inademen<c type="kp">_</c> Ik denk nog zoo dikwijls aan ’t Heike &amp; ben dezer dagen nog weer bezig aan een studie van daar<c type="kk">/</c> hutten met mosdak onder de beukeboomen.<ptr target="#note-t-11"/></p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+<p xml:id="p.nl.38" n="38"><supplied><hi rend="italics">Texst missing</hi></supplied></p>
+
+<p xml:id="p.nl.39" n="39">nemen moet. Dit is zoowat ’t <hi rend="italics">effekt</hi> van den knotwilg maar in de aquarel zelf is geen zwart dan in gebroken toestand.</p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.40" n="40">Waar op dit schetsje het zwart ’t donkerst is zitten de grootste krachten in de aquarel – donkergroen<c type="kk">/</c> bruin<c type="kk">/</c> graauw. Nu adieu, en geloof me dat somwijlen ik er hartelijk om lach dat de lui mij (die eigentlijk niets anders ben dan een vriend van de natuur<c type="kk">/</c> van studie, van werk – ook van menschen vooral) verdenken van diverse kwaadaardigheden en absurditeiten waaraan geen haar op mijn hoofd denkt. Enfin – tot ziens<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.41" n="41">t. à t.</p>
+
+<p xml:id="p.nl.42" n="42">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Just a word to say welcome before you come here.<ptr target="#note-t-1"/> And to report the safe arrival of your letter and the enclosure, and to thank you very much. </p>
+<p rend="indent" xml:id="p.en.3" n="3">It was most welcome for I’m working hard and again need one or two things. </p>
+<p rend="indent" xml:id="p.en.4" n="4">As regards black in nature, we are of course in complete agreement, as I understand it. Absolute black doesn’t in fact occur.<ptr target="#note-t-2"/> Like white, however, it’s present in almost every colour and forms the endless variety of <hi rend="italics">greys</hi> — distinct in tone and strength.<ptr target="#note-t-3"/> So that in nature one in fact sees nothing but these tones or strengths. </p>
+<p xml:id="p.en.5" n="5">The 3 fundamental colours are red, yellow, blue, </p>
+<p xml:id="p.en.6" n="6"> ,, composite ,, orange, green, purple.</p>
+<p xml:id="p.en.7" n="7">From these are obtained the endless variations of grey by adding black and some white — <hi rend="italics">red-</hi>grey, <hi rend="italics">yellow-</hi>grey, <hi rend="italics">blue-</hi>grey, <hi rend="italics">green-</hi>grey, <hi rend="italics">orange-</hi>grey, <hi rend="italics">violet-</hi>grey. </p>
+<p rend="indent" xml:id="p.en.8" n="8">It’s impossible to say how many different green-greys there are for example — the variation is infinite.</p>
+<p rend="indent" xml:id="p.en.9" n="9">But the whole chemistry of colours is no more complicated than those simple few fundamentals. And a good understanding of them is worth more than 70 different shades of paint — given that more than 70 tones and strengths can be made with the 3 primary colours and white and black.<ptr target="#note-t-4"/> The colourist is he who on seeing a colour in nature is able to analyze it coolly and say, for example, that green-grey is yellow with black and almost no blue, &amp;c. In short, knowing how to make up the greys of nature on the palette. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.10" n="10">To make notes out of doors, however, or make a small scratch, a highly developed feeling for the outline is absolutely essential, as it is for working it up later. </p>
+<p rend="indent" xml:id="p.en.11" n="11">This doesn’t come of its own accord, but firstly through observation, and then above all through persistent hard work and seeking. Some study of anatomy and perspective is also required. </p>
+<p rend="indent" xml:id="p.en.12" n="12">Hanging beside me is a landscape study by <hi rend="italics"><rs type="person" ref="bio.xml#_1318">Roelofs</rs></hi>, a pen sketch, but I can’t tell you how expressive that simple outline is. Everything is in there.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Another, even more telling example is the large Shepherdess woodcut by <rs type="person" ref="bio.xml#_1226">Millet</rs> which you showed me last year, and which has remained in my memory.<ptr target="#note-t-6"/> Also, for example, the pen sketches by <rs type="person" ref="bio.xml#_1261">Ostade</rs> and Peasant <rs type="person" ref="bio.xml#_909">Bruegel</rs>.<ptr target="#note-t-7"/> </p>
+<p rend="indent" xml:id="p.en.14" n="14">When I see such results, I feel the cardinal importance of the outline most clearly. And you know from Sorrow,<ptr target="#note-t-8"/> for example, that I take great trouble to make myself better in that respect. </p>
+<p rend="indent" xml:id="p.en.15" n="15">But you’ll see when you come to the studio that besides seeking the outline I certainly also have a feeling, like anyone else, for the <hi rend="italics">strengths</hi>. </p>
+<p rend="indent" xml:id="p.en.16" n="16">And that I also have nothing against making watercolours — but they’re founded on drawing first, and then from the drawing springs 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> not only the watercolour but all kinds of other shoots that will develop in due course in me as in anyone else working with love. </p>
+<p rend="indent" xml:id="p.en.17" n="17">I’ve attacked that old giant of a pollard willow, and I believe it has turned out the best of the watercolours.<ptr target="#note-t-9"/> A sombre landscape — that dead tree beside a stagnant pond covered in duckweed, in the distance a Rijnspoor depot where railway lines cross, smoke-blackened buildings — also green meadows, a cinder road and a sky in which the clouds are racing, grey with an occasional gleaming white edge, and a depth of blue where the clouds tear apart for a moment. </p>
+<p rend="indent" xml:id="p.en.18" n="18">In short, I wanted to make it like how I imagine the signalman with his smock and red flag must see and feel it when he thinks: how gloomy it is today.</p>
+<p rend="indent" xml:id="p.en.19" n="19">I get a lot of pleasure out of work these days, though now and again I still clearly feel the after-effects of my illness. </p>
+<p rend="indent" xml:id="p.en.20" n="20">As to the drawings I’m going to show you now, I think only this: that they will, I hope, serve as evidence that I’m not stuck on one level but am moving in a direction that is reasonable. As for the commercial value of my work, I have no pretensions other than that I would be very surprised if in time my work doesn’t sell as well as that of others. Whether that happens <hi rend="italics">now</hi> or <hi rend="italics">later</hi>, well, I’m not bothered about that too much. Just working faithfully from nature and with persistence seems to me a sure way, and one that <hi rend="italics">can’t</hi> end up with nothing. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> The feeling for and love of nature always strike a chord sooner or later with people who take an interest in art. The duty of the painter is to study nature in depth and to use all his intelligence, to put his feelings into his work so that it becomes comprehensible to others. But working with an eye to saleability isn’t exactly the right way in my view, but rather is cheating art lovers. The true artists didn’t do that; the sympathy they received sooner or later came because of their sincerity. I know no more than that, and don’t believe I need to know any more. Making an effort to find art lovers and arouse their love is something else, and of course permissible. But it mustn’t become a speculation that might well go wrong and would certainly waste time that ought to be spent on work.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Of course you’ll find things in my present watercolours that should be taken out, but that must improve with time. </p>
+<p rend="indent" xml:id="p.en.22" n="22">But you should know that I’m a long way from having a system or anything like that to keep up and lock myself into. That sort of thing exists in <rs type="person" ref="bio.xml#_787">H.G.T.</rs>’s imagination, for example, rather than in reality. As for H.G.T., you understand that I have a personal reason for my opinion of him, and that I don’t in the least intend to press <hi rend="italics">you</hi>, for example, to take the same view of him as I am forced to do. As long as he thinks and says of me the kind of things you know of, I can’t regard him either as a friend or as someone of use to me in any way, but quite the opposite. And I fear that his opinion of me is too firmly rooted ever to change, all the more so because, as you say yourself, he won’t take the trouble to reconsider some things and to change. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">When I see how several painters I know here struggle with their watercolours and paintings, unable to find the answer, I sometimes think, friend, your drawing is where the trouble lies. I don’t for a moment regret not moving straight on to watercolour and painting. I know for sure that I’ll catch up if I keep hacking away at it, so that my hand doesn’t hesitate in drawing and perspective. But when I see young painters composing and drawing <hi rend="italics">off the top of their head</hi> — then daubing on all sorts at random, <hi rend="italics">also off the top of their head</hi> — then holding it at a distance and putting on a very profound, sombre expression to find out to what in God’s name it might bear some resemblance, and finally, still off the top of their head, making what they can of it, it makes me feel feeble and faint, and I find it truly tedious and heavy going. </p>
+<p rend="indent" xml:id="p.en.24" n="24">The whole thing makes me sick!</p>
+<p rend="indent" xml:id="p.en.25" n="25">Yet these gentlemen regularly ask me — not without a certain patronizing air — ‘whether I’ve started painting yet’. </p>
+<p rend="indent" xml:id="p.en.26" n="26">Now I also sometimes find myself playing, so to speak, at random on a piece of paper, but I attach no more value to this than to a rag or cabbage leaf. </p>
+<p rend="indent" xml:id="p.en.27" n="27">And I hope you’ll understand that if I go on just drawing, I do that for two reasons. Because at all costs I want to acquire a sure hand when drawing above all else and, second, because painting materials and watercolours entail considerable expense for which there’s no return in the early stage — and these costs are multiplied twice and ten times if you work on the basis of a drawing that isn’t yet sufficiently correct. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> </p>
+<p rend="indent" xml:id="p.en.28" n="28">And if I got into debt or surrounded myself with canvases and papers daubed all over with paint without being sure of my drawing, my studio would quickly become a kind of hell, like a studio I once saw that seemed like that to me. </p>
+<p rend="indent" xml:id="p.en.29" n="29">As it is, I always enjoy going there, and work there with pleasure.</p>
+<p rend="indent" xml:id="p.en.30" n="30">So I don’t believe that you suspect me of <hi rend="italics">unwillingness</hi>.</p>
+<p rend="indent" xml:id="p.en.31" n="31">It seems to me that the painters here have a way of reasoning as follows. They say, you must do this or that — if you don’t do it, or not immediately or exactly, or if you object, the reply is: ‘So you know better than I do, do you?’ Thus immediately, sometimes within 5 minutes, there’s a conflict between you. And the situation is such that neither side can move forwards or backwards. The least odious outcome of this is if one of the two parties has the presence of mind to keep silent and in one way or another quickly slip away through some opening. And would almost say, Sapristi, the painters are a family too. That’s to say, an ill-fated association of people with conflicting interests, each one at odds with the rest, two or more of whom share the same feelings only when they join forces to obstruct another member. I hope, my dear brother, that this definition of the word ‘family’ doesn’t always apply, especially not in the case of the painters or our own family. I hope with all my heart that peace will reign in our family, and I remain with a handshake,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.32" n="32">Ever yours,</p>
+<p xml:id="p.en.33" n="33">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.34" n="34">
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p xml:id="p.en.35" n="35"><supplied><hi rend="italics">The top part of the next sheet is missing; the following text is crossed out</hi></supplied></p>
+<p xml:id="p.en.36" n="36">not to be afraid <supplied><hi rend="italics">xxxxxxxxxxxxxxxxxxxxxxx</hi></supplied> to make it difficult for them if they’d rather not see me. </p>
+<p rend="indent" xml:id="p.en.37" n="37">I refused, even when they asked me lately whether I wouldn’t come sometime, so that they’d clearly see that I didn’t want to make it difficult for them in any way. But I also expect that they, for their part, won’t meddle in my affairs. While I care about the good will of those at home, Princenhage<ptr target="#note-t-10"/> matters much less to me. Would you and can you be so good as not to talk about one thing and another, so much the better, if, though, it is talked about and that can’t be avoided — too bad, but what do I care? </p>
+<p rend="indent" xml:id="p.en.38" n="38">Well, as I said, I want nothing so much as to keep the peace, nothing is as necessary for my work as that very peace. So I’m grateful to you for everything you can do to reassure those at home and to keep them calm. I hope that you’ll have pleasant days there and breathe in plenty of Brabant air. I still think of Het Heike so often, and have again been busy these last few days with a study from there, cottages with mossy roofs under the beech trees.<ptr target="#note-t-11"/> 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39"><supplied><hi rend="italics">Passage missing on verso of sheet</hi></supplied></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.40" n="40">must take. This is just about the <hi rend="italics">effect</hi> of the pollard willow, but in the watercolour itself there’s no black except in a mixed state.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.41" n="41"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.42" n="42">Where the black is darkest in this little sketch is where the greatest strengths are in the watercolour — dark green, brown, dark grey. Well, adieu, and believe me that I sometimes laugh heartily at how people suspect me (who am really just a friend of nature, of study, of work — and of people chiefly) of various acts of malice and absurdities which I never dream of. Anyway — goodbye for now, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.43" n="43">Ever yours,</p>
+<p xml:id="p.en.44" n="44">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was written after the receipt of the first amount for August <ref target="#l-3">(ll. 3-4)</ref>. Vincent had asked Theo on Wednesday, 26 July to send this not later than Tuesday, 1 August (<ref target="let251.xml">letter 251</ref>). Theo’s letter with the money could not have arrived in The Hague earlier than 28 July. Moreover, the present letter dates from before Theo’s arrival in The Hague from Etten (he probably travelled from Paris to the Netherlands on Sunday, 30 July 1882 and was in The Hague in the period 2-4 August; see also <ref target="#n-1">n. 1</ref>). So the letter would have been written between Saturday, 29 July and Tuesday, 1 August 1882. Since in <hi rend="italics">Brieven</hi> 1914 Jo van Gogh-Bonger gave 31 July as the date, and she may have had a postmark, we have dated the letter Monday, 31 July 1882.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">A postscript is printed after the main letter. This fragment was published by A. Tellegen as ‘Van Gogh publikaties (8)’, <hi rend="italics">Museumjournaal</hi> 14-2 (1969), p. 99. It was first added to <ref target="let252.xml">letter 252</ref> in <hi rend="italics">De brieven</hi> 1990 (253 [221]). We have followed this decision on the basis of three arguments. Chronologically the fragment – like the letter – must date from just before Theo’s arrival in The Hague, which was preceded by a visit to the parents in Etten, of which Vincent says: ‘I hope that you’ll have pleasant days there and breathe in plenty of Brabant air.’ <ref target="#l-233">(ll. 233-234)</ref>. In addition, on two occasions he returns to matters that were raised in the letter. ‘As I said’ <ref target="#l-228">(l. 228)</ref> – namely that he wants nothing more than peace at home – could refer to the conclusion of the letter <ref target="#l-209">(ll. 209-210)</ref>, where he expresses the same wish, and ‘This is just about the <hi rend="italics">effect</hi> of the pollard willow’ could refer to the earlier description of it in <ref target="#l-70">ll. 70-73</ref>. A further argument for dating the sketch and the accompanying explanation to before Theo’s arrival is that Theo must have seen the watercolour in its original form during his visit, so afterwards the letter sketch and the explanation would have been superfluous. </p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">If joining the two together is right, Van Gogh must have added to the letter a sheet whose top part is lost. Because this situation is unusual in Van Gogh’s manuscripts, we assume that both the cutting off of the paper and the crossing out of the text on p. [3r:7] were done by third parties. </p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Planned visit by Theo <ref target="let237.xml">(237)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Disagreeable visit by Tersteeg <ref target="let247.xml">(247)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This phrasing shows that Theo visited his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs> before going on to The Hague. So Vincent would have sent this letter to Etten. Theo’s visit of a day or two to The Hague must have taken place in the period 2-4 August; he spent at least one night there and left the city on Friday, 4 August at the latest (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let253.xml">see letter 253</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The ideas about colour that Van Gogh expounds in the rest of this letter are very similar to what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Cassagne</rs> says in the chapter ‘Les couleurs’ in <ref target="biblio.xml#lit_212"><hi rend="italics">Traité d’aquarelle</hi></ref> about colours, mixing colours, intensity and tonal values: ‘<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">There are three basic colours</hi>: red, yellow and blue. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">These three colours are all that are needed to be able to represent nature. </hi>However, it is essential that the painter adds black to them ... <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Black may thus be considered, in the variety of its shades, as the basis of all the colorations nature presents </hi>... By mixing black with the three primary colours, we obtain the following broken tones: with blue, blue grey; with red, red grey; with yellow, yellow grey. If we add red to blue grey, we will have purplish grey, thus less cold. If we add yellow to blue grey, we will have a warmer grey ... Now, nature never offers anything but an infinite variety of these greys, and the four colours that we call essential will always be able to render them’. (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Il y a trois couleurs fondamentales</hi>: le rouge, le jaune et le bleu. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Il suffit de ces trois couleurs pour pouvoir représenter la nature</hi>. Toutefois, il est indispensable que le peintre y joigne le noir ... <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le noir peut donc être considéré, dans la variété de ses dégradations, comme la base de toutes les colorations que présente la nature </hi>... Par le mélange du noir avec les trois couleurs primitives, on obtient les tons rompus suivants: Avec le bleu, le gris bleu; Avec le rouge, le gris rouge; Avec le jaune, le gris jaune. Si au gris bleu nous ajoutons le rouge, nous aurons le gris violacé, par conséquent moins froid. Si au gris bleu nous ajoutons le jaune, nous aurons un gris plus chaud ... Or, la nature n’offre jamais autre chose qu’une variété infinie de ces gris, et les quatre couleurs que nous appellerons essentielles pourront toujours les donner). Cassagne 1875, pp. 64-74 (quotations on pp. 64, 72).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Cassagne</rs> speaks of ‘strength of tone’ (la puissance de ton) and discusses this aspect in relation to the depiction of a tree. Cassagne 1875, p. 102.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Cassagne</rs> too complained about the number of ready-made colours on the market: ‘Colour-makers in general pretend not to understand this law of coloration, and make up an innumerable quantity of tones that are usually superfluous and even an encumbrance’ (Les fabricants de couleurs feignent, en général, de ne pas comprendre cette loi de la coloration et composent une quantité innombrable de tons qui, le plus souvent, sont superflus et même embarrassants). Cassagne 1875, p. 64.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>In Van Gogh’s estate there is no work (or reproduction of a work) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1318">Willem Roelofs</rs>. The description is too general for the pen sketch to be identified. </p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_267"><hi rend="italics">The large shepherdess seated</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let216.xml#n-2">see letter 216, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1261">Adriaen van Ostade</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_909">Pieter Bruegel the Elder</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Theo knew two versions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sorrow</hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let216.xml">see letters 216</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let222.xml">222</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pollard willow</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2382">F 947 / JH 164</rs>), after which the letter sketch with the same title (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_51">F - / JH 165</rs>) was done.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘sakkerloot’, a corruption of ‘sacristie’ (sacristy).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423 bio.xml#_853">Uncle Vincent and Aunt Cornelie</rs>, who lived in Princenhage.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Cf. for a similar drawing from the Etten period – April-December 1881 – <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape with a hut</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_279">F 842 / JH 5</rs>). Van Gogh’s remark implies that he had resumed work on an existing drawing after a relatively long break. Het Heike (St. Willibrorddorp) lies about 3 km south-west of Etten.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

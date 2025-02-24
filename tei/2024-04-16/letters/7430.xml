@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 28 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let743"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b621 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>743</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>574</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>747</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-01-28">Monday, 28 January 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000847_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000847_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000847_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000847_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000847_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000847_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000848_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000848_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000848_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000848_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000848_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000848_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000849_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000849_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0621 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000849_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000849_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">seulement quelques mots pour te dire que la santé et le travail avancent comme ci comme ça.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Ce que je trouve déjà étonnant lorsque je compare mon état d’aujourdui à celui d’il y a un mois. Je savais bien qu’on pouvait se casser bras &amp; jambes auparavant et qu’alors après cela pouvait se remettre mais j’ignorais qu’on pouvait se casser la tête cérébralement et qu’après cela se remettait aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Il me reste bien un certain “à quoi bon se remettre” dans l’étonnement que me cause une guérison en train sur laquelle j’étais hors d’état d’oser compter.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Lors de ta visite je crois que tu dois avoir remarqué dans la chambre de Gauguin les deux toiles de 30 des tournesols<c type="kp">_</c><ptr target="#note-t-1"/> Je viens de mettre les dernieres touches aux répétitions absolument équivalentes &amp; pareilles<c type="kp">_</c><ptr target="#note-t-2"/> Je crois t’avoir déjà dit qu’en outre j’ai une toile de <hi rend="italics">Berceuse</hi><c type="kk">/</c> juste celle que je travaillais lorsque ma maladie est venue m’interrompre.<ptr target="#note-t-3"/> De celle là je possède également aujourd’hui 2 épreuves.<ptr target="#note-t-4"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je viens de dire à Gauguin au sujet de cette toile<c type="kk">/</c> que lui et moi ayant causé des pêcheurs d’Islande et de leur isolement mélancolique<c type="kk">/</c> exposés à tous les dangers<c type="kk">/</c> seuls sur la triste mer<c type="kk">/</c> je viens d’en dire à Gauguin qu’en suite de ces conversations intimes il m’était venu l’idée de peindre un tel tableau que des marins<c type="kk">/</c> à la fois enfants et martyrs<c type="kk">/</c> le voyant dans la cabine d’un bateau de pêcheurs d’Islande<c type="kk">/</c> éprouveraient un sentiment de bercement leur rappelant leur propre chant de nourrice<c type="kp">_</c><ptr target="#note-t-5"/> Maintenant cela ressemble si l’on veut à une chromolithographie de bazar<c type="kp">_</c> Une femme vêtue de vert à cheveux orangé se détâche contre un fond vert à fleurs roses<c type="kp">_</c> Maintenant ces disparates aiguës de rose cru<c type="kk">/</c> orangé cru<c type="kk">/</c> vert cru<c type="kk">/</c> sont attendris par des bémols des rouges et verts. Je m’imagine ces toiles juste entre celles des tournesols – qui ainsi forment des lampadaires ou candelabres à côté<c type="kk">/</c> de même grandeur; et le tout ainsi se compose de 7 ou de 9 toiles.–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">(j’aimerais faire une répétition encore pour la Hollande si je peux ravoir le modèle)<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Puisque nous avons toujours l’hiver, écoutez. Laissez moi tranquillement continuer mon travail<c type="kk">/</c> si c’est celui d’un fou ma foi tant pis. Je n’y peux rien alors.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Les hallucinations intolérables ont cependant cessé actuellement<c type="kk">/</c> se réduisant à un simple cauchemar à force de prendre du bromure de potassium je crois.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Traiter dans les détails cette question d’argent<ptr target="#note-t-7"/> m’est encore impossible<c type="kk">/</c> cependant toutefois je désire justement la traiter jusqu’en detail et je travaille d’arrachepied du matin au soir pour te prouver (à moins que mon travail soit encore une hallucination)<c type="kk">/</c> pour te prouver que bien vrai nous sommes dans la trace Monticelli ici et<c type="kk">/</c> ce qui plus est<c type="kk">/</c> que nous avons une lumière sur notre chemin et une lampe devant nos pieds<ptr target="#note-t-8"/> dans le puissant travail de Brias de Montpellier qui a tant fait pour créer une école dans le midi<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Seulement ne t’épate pas absolument trop si pendant le mois prochain je serais obligé de te demander le mois en plein et l’extra relatif même compris.–</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Ce n’est en somme que de juste si dans des temps de production où je laisse toute ma 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>chaleur vitale j’insisterais sur ce qu’il faut pour quelques précautions à prendre<c type="kp">_</c> La différence de dépense n’est certes<c type="kk">/</c> même pas dans des cas comme ça<c type="kk">/</c> de ma part excessive<c type="kp">_</c> Et encore une fois<c type="kk">/</c> ou bien enfermez moi tout droit dans un cabanon de fou<c type="kk">/</c><ptr target="#note-t-10"/> je ne m’y oppose pas en cas que je me trompe<c type="kk">/</c> ou bien laissez moi travailler de toutes mes forces tout en prenant les précautions que je mentionne.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Si je ne suis pas fou l’heure viendra où je t’enverrai ce que je t’ai dès le commencement promis<c type="kp">_</c>– Or ces tableaux peut être fatalement devront se disperser. mais lorsque toi pour un en verras l’ensemble de ce que je veux<c type="kk">/</c> tu en recevras j’ose espérer une impression consolante.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Tu as vu comme moi defiler dans la petite vitrine d’une maison d’encadrement de la rue Lafitte une partie de la collection Faure<ptr target="#note-t-11"/> n’est ce pas. Tu as vu comme moi que ce lent défilé de toiles autrefois méprisées était étrangement intéressant<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Bon<c type="kp">_</c>– Mon grand désir serait que toi tu eusses plus tôt ou plus tard une serie de toiles de moi lesquelles pourraient elles aussi defiler juste dans la même vitrine<c type="kp">_</c></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Maintenant en continuant le travail d’arrache pied en fevrier et mars prochain j’aurai j’espère achevé les répétitions calmes d’un nombre d’études faites l’année dernière<c type="kp">_</c> Et celles là<c type="kk">/</c> avec certaines toiles que tu as déjà de moi ainsi que la moisson<ptr target="#note-t-12"/> et le verger blanc<c type="kk">/</c><ptr target="#note-t-13"/> formeront une base passablement ferme. A cette même époque, pas plus tard que mars donc, nous pourrons régler ce qui est à régler à l’occasion de ton mariage.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais fevrier et mars durant<c type="kk">/</c> tout en travaillant je me considérerai encore comme malade et je te dis d’avance que ces deux mois-là il me faudra peutêtre prendre sur l’année 250 par mois.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Tu comprendras peutêtre que ce qui me rassurerait en quelque sorte sur ma maladie et la possibilité de rechûte serait de voir que Gauguin et moi ne nous sommes pas épuisés la cervelle au moins pour rien mais qu’il en resulte de bonnes toiles. Et j’ose espérer qu’un jour tu verras qu’en restant droit à présent et calme juste sur la question d’argent – il sera impossible dans la suite d’avoir mal agi envers les Goupil<c type="kp">_</c> 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>Si indirectement certes par ton intermédiaire j’ai mangé du pain de chez eux –</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">directement me demeurera mon integrite dans ce cas.–<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Alors loin de demeurer encore plus ou moins toujours gênés l’un envers l’autre à cause de ça nous pourrons nous ressentir frères encore davantage après que cela sera reglé. Tu auras été pauvre tout le temps pour me nourrir mais moi je rendrai l’argent ou je rendrai l’âme<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Maintenant viendra ta femme qui a bon coeur pour nous rajeunir un peu<c type="kk">/</c> nous autres vieux.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Mais ceci j’y crois que toi et moi aurons encore des successeurs dans les affaires et qu’alors que juste au moment où la famille financièrement parlant nous abandonnait à nos propres ressources ce sera encore nous qui n’aurons pas bronchés.–<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Ma foi qu’après la crise vienne..... Ai je donc tort là-dedans?</p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Allez, tant que la terre actuelle durera<c type="kk">/</c> tant aura-t-il des artistes et des marchands de tableaux<c type="kk">/</c> surtout de ceux qui seront comme toi apôtres en même temps. 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>Et si jamais nous ayons nos aises<c type="kk">/</c> au moins tout en etant peutêtre des vieux fumeurs juifs<c type="kk">/</c> nous aurons travaillé droit devant nous et n’aurons pas oublié tant que cà les chôses de coeur pour avoir un peu calculé.–</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">C’est vrai ce que je te dis: S’il n’est pas absolument nécessaire de m’enfermer dans un cabanon alors je suis encore bon pour payer au moins en marchandise ce que je puis être censé de devoir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">Puis, mon cher frère, nous avons 89. de cela toute la France en a frémi et nous autres vieux hollandais avec<c type="kk">/</c> du même coeur<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">Gare au 93<c type="kk">/</c> peutêtre me diras-tu<c type="kp">_</c><ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Hélas cela c’est un peu vrai et cela étant restons dans les tableaux<c type="kp">_</c></p>
+      
+<p rend="indent" xml:id="p.fr.29" n="29">En terminant je dois encore te dire que le commissaire central de police est hier venu très amicalement me voir.<ptr target="#note-t-17"/> Il m’a dit en me serrant la main que si jamais j’avais besoin de lui je pourrais le consulter <hi rend="italics">en ami</hi><c type="kp">_</c> Ce à quoi je suis loin de dire non et je pourrai bientôt être justement dans ce cas-là s’il s’élèverait des difficultés pour la maison.– J’attends venir le moment de payer mon mois pour intervieuwer le gerant ou le proprietaire dans le blanc des yeux.<ptr target="#note-t-18"/></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.fr.30" n="30">Mais pour me foutre dehors ils l’auraient plutôt dans le cul à cette occasion ci au moins<c type="kp">_</c></p>
+
+<p xml:id="p.fr.31" n="31">Que veux tu<c type="kk">/</c> nous nous sommes emballés pour les impressionistes<c type="kk">/</c> or en tant que quant à moi je cherche à finir les toiles qui indubitablement m’y garantiront ma petite place que j’y ai prise.</p>
+
+<p rend="indent" xml:id="p.fr.32" n="32">Ah. l’avenir de cela... mais du moment que le père Pangloss nous assure que tout va toujours pour le mieux dans le meilleur des mondes<ptr target="#note-t-19"/> – pouvons nous en douter.–</p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">Ma lettre est devenue plus longue que je ne l’intentionnais<c type="kk">/</c> peu importe – le principal est que je demande cathegoriquement deux mois de travail avant de me régler ce qui sera à régler à l’époque de ton mariage.</p>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Après toi et ta femme fonderont une maison de commerce à plusieurs générations dans le renouveau<c type="kp">_</c> Vous ne l’aurez pas commode. Et cela reglé moi je ne demande qu’une place de peintre employé tant qu’il y aura au moins de quoi s’en payer un.</p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Le travail justement me distrait. Et il <hi rend="italics">faut</hi> que je prenne des distractions – hier j’ai été au Folies arlesiennes<c type="kk">/</c> le theâtre naissant d’ici – cela a eté la première fois que j’ai dormi sans cauchemar grave<c type="kp">_</c> On donnait – (c’était une societé littéraire provençale) ce qu’on appelle un Noel ou Pastourale<c type="kk">/</c> une reminiscence du théâtre moyen age chretien<c type="kp">_</c> C’etait très étudié et cela doit leur avoir coûté de l’argent.–</p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.fr.36" n="36">naturellement cela représentait la naissance du Christ<c type="kk">/</c> entremêlé de l’histoire burlesque d’une famille de paysans provencaux ébahis. Bon – ce qui était épatant comme une eau forte de Rembrandt – c’etait la vieille paysanne<c type="kk">/</c> juste une femme comme serait M<hi rend="super">me </hi>Tanguy<c type="kk">/</c> au cerveau en silex ou pierre de fusil<c type="kk">/</c> fausse<c type="kk">/</c> traitre<c type="kk">/</c> folle<c type="kk">/</c> tout cela se voyait, dans la pièce, précedemment. Or celle là, dans la piece, ammenée devant la crêche mystique – de sa voix chévrotante se mettait à chanter et puis la voix changeait<c type="kk">/</c> changeait de sorcière en ange et de voix d’ange en voix d’enfant et puis la réponse par une autre voix<c type="kk">/</c> celle là ferme et vibrante chaudement, une voix de femme, derrière les coulisses.</p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Cela c’était épatant<c type="kk">/</c> épatant. Je te dis<c type="kk">/</c> les ainsi nommés “félibres” s’étaient d’ailleurs mis en frais.–<ptr target="#note-t-20"/></p>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Moi avec ce petit pays ci j’ai pas besoin d’aller aux tropiques du tout<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">Je crois et croirai toujours à l’art à créer aux tropiques et je crois qu’il sera merveilleux, mais enfin 
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>personellement je suis trop vieux et (surtout si je me faisais mettre une oreille en papier maché) trop en carton pour y aller.</p>
+
+<p rend="indent" xml:id="p.fr.40" n="40">Gauguin le fera-t-il<c type="kp">_</c>– Ce n’est pas nécessaire. Car si cela doit se faire cela se fera tout seul.</p>
+
+<p rend="indent" xml:id="p.fr.41" n="41">Nous ne sommes que des anneaux dans la chaine.</p>
+
+<p rend="indent" xml:id="p.fr.42" n="42">Ce bon Gauguin et moi au fond du coeur nous comprenons et si nous sommes un peu fous, que soit, ne sommes nous pas un peu assez profondément artistes aussi pour contrecarrer les inquiétudes à cet égard par ce que nous disons du pinceau<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.43" n="43">Tout le monde aura peutêtre un jour la nevrose, le horla,<ptr target="#note-t-21"/> la danse de St<c type="kp">_</c> Guy<ptr target="#note-t-22"/> ou autre chôse.–</p>
+
+<p rend="indent" xml:id="p.fr.44" n="44">Mais le contrepoison n’existe t-il pas? dans Delacroix<c type="kk">/</c> dans Berlioz &amp; Wagner?<ptr target="#note-t-23"/></p>
+
+<p xml:id="p.fr.45" n="45">Et vrai notre folie artistique à nous autres tous<c type="kk">/</c> je ne dis pas que surtout moi je ne n’en sois pas atteint jusqu’à la moelle<c type="kp">_</c> Mais je dis et maintiendrai que nos contrepoisons et consolations peuvent avec un peu de bonne volonté etre considérés comme amplement prévalents. Voir l’esperance de Puvis de Chavannes.<ptr target="#note-t-24"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.46" n="46">t. à t.</p>
+
+<p xml:id="p.fr.47" n="47">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Just a few words to tell you that I’m getting along so-so as regards my health and work.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Which I already find astonishing when I compare my state today with that of a month ago. I well knew that one could break one’s arms and legs before, and that then afterwards that could get better but I didn’t know that one could break one’s brain and that afterwards that got better too.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I still have a certain ‘what’s the good of getting better’ feeling in the astonishment that an ongoing recovery causes me, which I wasn’t in a state to dare rely upon.</p>
+<p rend="indent" xml:id="p.en.5" n="5">When you visited I think you must have noticed in <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s room the two no. 30 canvases of the sunflowers.<ptr target="#note-t-1"/> I’ve just put the finishing touches to the absolutely equivalent and identical repetitions.<ptr target="#note-t-2"/> I think I’ve already told you that in addition I have a canvas of a <hi rend="italics">Berceuse</hi>, the very same one I was working on when my illness came and interrupted me.<ptr target="#note-t-3"/> Today I also have 2 versions of this one.<ptr target="#note-t-4"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">On the subject of that canvas, I’ve just said to <rs type="person" ref="bio.xml#_1039">Gauguin</rs> that as he and I talked about the Icelandic fishermen and their melancholy isolation, exposed to all the dangers, alone on the sad sea, I’ve just said to Gauguin about it that, following these intimate conversations, the idea came to me to paint such a picture that sailors, at once children and martyrs, seeing it in the cabin of a boat of Icelandic fishermen, would experience a feeling of being rocked, reminding them of their own lullabies.<ptr target="#note-t-5"/> Now it looks, you could say, like a chromolithograph from a penny bazaar. A woman dressed in green with orange hair stands out against a green background with pink flowers. Now these discordant sharps of garish pink, garish orange, garish green, are toned down by flats of reds and greens. I can imagine these canvases precisely between those of the sunflowers – which thus form standard lamps or candelabra at the sides, of the same size; and thus the whole is composed of 7 or 9 canvases.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">(I’d like to make another repetition for Holland if I can get the model again.) 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">As it’s still winter, listen. Let me quietly continue my work, if it’s that of a madman, well, too bad. Then I can’t do anything about it.</p>
+<p rend="indent" xml:id="p.en.9" n="9">However, the unbearable hallucinations have stopped for now, reducing themselves to a simple nightmare on account of taking potassium bromide, I think.</p>
+<p rend="indent" xml:id="p.en.10" n="10">It’s still impossible for me to deal with this question of money<ptr target="#note-t-7"/> in detail, but I want to deal with it in detail all the same, and I’m working furiously from morning till night to prove to you (unless my work is yet another hallucination), to prove to you that really, truly, we’re following in <rs type="person" ref="bio.xml#_1240">Monticelli</rs>’s track here and, what’s more, that we have a light on our way and a lamp before our feet<ptr target="#note-t-8"/> in the powerful work of <rs type="person" ref="bio.xml#_312">Bruyas</rs> of Montpellier, who has done so much to create a school in the south.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">Only don’t be absolutely too amazed if, in the course of the coming month, I would be obliged to ask you for the month in full, and even the relative extra included.</p>
+<p rend="indent" xml:id="p.en.12" n="12">After all, it’s only right if in these productive times when I expend all my vital warmth 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> I should insist on what is necessary to take a few precautions. The difference in expenditure is certainly not excessive on my part, not even in cases like that. And once again, either lock me up in a madhouse straightaway,<ptr target="#note-t-10"/> I won’t resist if I’m wrong, or let me work with all my strength, while taking the precautions I mention.</p>
+<p rend="indent" xml:id="p.en.13" n="13">If I’m not mad the time will come when I’ll send you what I’ve promised you from the beginning. Now, these paintings may perhaps be fated for dispersal, but when you, for one, see the whole of what I want, you will, I dare hope, receive a consolatory impression from it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">You saw, as I did, a part of the Faure collection file past in the little window of a framer’s shop in rue Lafitte,<ptr target="#note-t-11"/> didn’t you? You saw, as I did, that this slow procession of canvases that were previously despised was strangely interesting.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Good. My great desire would be that sooner or later you should have a series of canvases from me that could also file past in that exact same shop window. 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">Now, in continuing the furious work this February and March I hope I’ll have finished the calm repetitions of a number of studies I did last year. And these, together with certain canvases of mine that you already have, such as the harvest<ptr target="#note-t-12"/> and the white orchard,<ptr target="#note-t-13"/> will form quite a firm base. During this same time, so no later than March, we can settle what has to be settled on the occasion of your marriage.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But although I’ll work during February and March, I’ll consider myself to be still ill, and I tell you in advance that in these two months I may have to take 250 a month from the year’s allowance.</p>
+<p rend="indent" xml:id="p.en.18" n="18">You’ll perhaps understand that what would reassure me in some way regarding my illness and the possibility of a relapse would be to see that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I didn’t exhaust our brains for nothing at least, but that good canvases result from it. And I dare hope that one day you’ll see that in remaining upright and calm now, precisely on the question of money – it will be impossible later on to have acted badly towards the Goupils. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> If indirectly I’ve eaten some of their bread, certainly through you as an intermediary – </p>
+<p rend="indent" xml:id="p.en.19" n="19">Directly I will then retain my integrity.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">So, far from still remaining awkward with each other almost all the time because of that, we can feel like brothers again after that has been sorted out. You’ll have been poor all the time to feed me, but I’ll return the money or turn up my toes.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Now your <rs type="person" ref="bio.xml#_416">wife</rs> will come, who has a good heart, to make us old fellows feel a bit younger again.</p>
+<p rend="indent" xml:id="p.en.22" n="22">But this I believe, that you and I will have successors in business, and that precisely at the moment when the family abandoned us to our own resources, financially speaking, it will again be we who haven’t flinched.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">My word, may the crisis come after that... Am I wrong about that, then?</p>
+<p rend="indent" xml:id="p.en.24" n="24">Come on, as long as the present earth lasts there will be artists and picture dealers, especially those who are apostles at the same time, like you. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> And if ever we’re comfortably off, even while perhaps being old Jewish smokers, at least we’ll have worked by forging straight ahead and won’t have forgotten the things of the heart that much, even though we have calculated a little.</p>
+<p rend="indent" xml:id="p.en.25" n="25">What I tell you is true: if it isn’t absolutely necessary to shut me away in a madhouse then I’m still good for paying what I can be considered to owe, at least in goods.</p>
+<p rend="indent" xml:id="p.en.26" n="26">Then, my dear brother, we have 89. The whole of France shivered at it and so did we old Dutchmen, with the same heart. </p>
+<p rend="indent" xml:id="p.en.27" n="27">Beware of 93, you may perhaps tell me.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">Alas there’s some truth in that, and that being the case let’s stay with the paintings.</p>
+<p rend="indent" xml:id="p.en.29" n="29">In conclusion I must also tell you that the chief <rs type="person" ref="bio.xml#_174">inspector</rs> of police came yesterday to see me, in a very friendly way.<ptr target="#note-t-17"/> He told me as he shook my hand that if ever I had need of him I could consult him as <hi rend="italics">a friend</hi>. To which I’m a long way from saying no, and I may soon be in precisely that case if difficulties were to arise for the house. I’m waiting for the moment to come to pay my month’s rent to interrogate the <rs type="person" ref="bio.xml#_755">manager</rs> or the <rs type="person" ref="bio.xml#_225">owner</rs> face to face.<ptr target="#note-t-18"/> 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.30" n="30">But to chuck me out they’d more likely get a kick in the backside, on this occasion at least. What can you say, we’ve gone all-out for the Impressionists, now as regards myself I’m trying to finish the canvases which will indubitably guarantee my little place that I’ve taken among them.</p>
+<p rend="indent" xml:id="p.en.31" n="31">Ah, the future of that... but from the moment when <hi rend="italics">père</hi> Pangloss assures us that everything is always for the best in the best of worlds<ptr target="#note-t-19"/> – can we doubt it?</p>
+<p rend="indent" xml:id="p.en.32" n="32">My letter has become longer than I intended, it matters little – the main thing is that I ask categorically for two months’ work before settling what will need to be settled at the time of your marriage.</p>
+<p rend="indent" xml:id="p.en.33" n="33">Afterwards, you and your <rs type="person" ref="bio.xml#_416">wife</rs> will set up a commercial firm for several generations in the renewal. You won’t have it easy. And once that’s sorted out I ask only a place as an employed painter as long as there’s enough to pay for one.</p>
+<p rend="indent" xml:id="p.en.34" n="34">As a matter of fact, work distracts me. And I <hi rend="italics">must</hi> have distractions – yesterday I went to the Folies Arlésiennes, the budding theatre here — it was the first time I’ve slept without a serious nightmare. They were performing — (it was a Provençal literary society) what they call a Noel or Pastourale, a remnant of Christian theatre of the Middle Ages. It was very studied and it must have cost them some money. 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">Naturally it depicted the birth of Christ, intermingled with the burlesque story of a family of astounded Provençal peasants. Good — what was amazing, like a <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> etching — was the old peasant woman, just the sort of woman <rs type="person" ref="bio.xml#_773">Mrs Tanguy</rs> would be, with a head of flint or gun flint, false, treacherous, mad, all that could be seen previously in the play. Now that woman, in the play, brought before the mystic crib — in her quavering voice began to sing and then her voice changed, changed from witch to angel and from the voice of an angel into the voice of a child and then the answer by another voice, this one firm and warmly vibrant, a woman’s voice, behind the scenes.</p>
+<p rend="indent" xml:id="p.en.36" n="36">That was amazing, amazing. I tell you, the so-called ‘Félibres’ had anyway spared themselves neither trouble nor expense.<ptr target="#note-t-20"/></p>
+<p rend="indent" xml:id="p.en.37" n="37">As for me, with this little country here I have no need at all to go to the tropics.</p>
+<p rend="indent" xml:id="p.en.38" n="38">I believe and will always believe in the art to be created in the tropics, and I believe it will be marvellous, but well, 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> personally I’m too old and (especially if I get myself a papier-mâché ear) too jerry-built to go there.</p>
+<p rend="indent" xml:id="p.en.39" n="39">Will <rs type="person" ref="bio.xml#_1039">Gauguin</rs> do it? It isn’t necessary. For if it must be done it will be done all on its own.</p>
+<p rend="indent" xml:id="p.en.40" n="40">We are merely links in the chain.</p>
+<p rend="indent" xml:id="p.en.41" n="41">At the bottom of our hearts good old <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and I understand each other, and if we’re a bit mad, so be it, aren’t we also a little sufficiently deeply artistic to contradict anxieties in that regard by what we say with the brush?</p>
+<p rend="indent" xml:id="p.en.42" n="42">Perhaps everyone will one day have neurosis, the Horla,<ptr target="#note-t-21"/> St Vitus’s Dance<ptr target="#note-t-22"/> or something else.</p>
+<p rend="indent" xml:id="p.en.43" n="43">But doesn’t the antidote exist? In <rs type="person" ref="bio.xml#_982">Delacroix</rs>, in <rs type="person" ref="bio.xml#_276">Berlioz</rs> and <rs type="person" ref="bio.xml#_814">Wagner</rs>?<ptr target="#note-t-23"/> And really, our artistic madness which all the rest of us have, I don’t say that I especially haven’t been struck to the marrow by it. But I say and will maintain that our antidotes and consolations can, with a little good will, be considered as amply prevalent. See <rs type="person" ref="bio.xml#_1286">Puvis de Chavannes</rs>’ Hope.<ptr target="#note-t-24"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.44" n="44">Ever yours,</p>
+<p xml:id="p.en.45" n="45">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh says that he has just put the finishing touches on the repetitions of the sunflower paintings <ref target="#l-19">(ll. 19-20)</ref>. We know that Roulin visited Van Gogh shortly afterwards. From <ref target="let744.xml">letter 744</ref>, which we have dated to Wednesday, 30 January, it emerges that Roulin had visited Vincent the previous Monday (<ref target="let744.xml#l-3">letter 744, ll. 3-4</ref>). This means that the present letter can be dated to Monday, 28 January 1889, which agrees with the note on the manuscript, made by Jo van Gogh-Bonger, who presumably relied on the postmark for her dating.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent’s first crisis and hospitalization <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s journey to Arles <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s plan to return to the tropics <ref target="let716.xml">(716)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The repetitions are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2772">F 455 / JH 1668</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2771">F 458 / JH 1667</rs>). See Van Tilborgh and Hendriks 2001, p. 22.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2775">F 508 / JH 1671</rs>); Van Gogh wrote about this canvas in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let741.xml">letter 741</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The second version is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs>). See Hoermann Lister 2001, p. 72.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh had written this to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> a week earlier. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml">See letter 739</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh had meanwhile finished six canvases: two of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Berceuses</hi> and four of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers</hi>. These formed two triptychs: one for Theo and one for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>. Van Gogh says they number ‘7 or 9’ canvases, because he intends in any case to paint another <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Berceuse</hi> for Holland <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-49">(ll. 49-51)</ref>, which would bring the total up to 7, possibly followed by two more canvases of sunflowers, giving rise to a third triptych. A few days later he did indeed have a third version of the Berceuse (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let745.xml">see letter 745</ref>).</p>
+
+<p rend="indent">Whether or not Van Gogh, when mentioning the number 7, actually intended to hang the three Berceuses (B) with sunflowers (S) on either side – in the order S B S B S B S – is unclear. For another suggestion, see Dorn 1990, p. 306.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Vincent responds here to the question Theo put to him in mid-January about his expected expenses (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let736.xml#n-1">see letter 736, n. 1</ref>). Perhaps Theo had brought the subject up again in his last letter.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Allusion to Ps. 119:105.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Regarding the collector and Maecenas <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_312">Alfred Bruyas</rs> of Montpellier, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let726.xml#n-1">see letter 726, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+      
+<p>During his first stay in hospital, Van Gogh had been in isolation (in a ‘cabanon’, or padded cell) for two or three days, as emerges from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Dr Félix Rey</rs>’s letter of 17 March 1922 to Gustave Coquiot (FR b3282). Rey described the cell to Theo as ‘un appartement isolé’ (separate quarters) (FR b1055; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="documentation.xml#id29December1888-1"><hi rend="italics">Documentation</hi>, 29 December 1888</ref>). </p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Van Gogh refers to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_376">Jean Baptiste Faure</rs>’s important collection of Impressionist paintings, which included work by Manet, Monet, Sisley, Pissarro and Degas. See Distel 1989, pp. 75-78. It is not known at which framer’s shop in rue Laffitte Faure’s collection was exhibited in the years 1886-1888.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The harvest </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2621">F 412 / JH 1440</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The white orchard</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2576">F 403 / JH 1378</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Vincent expected that Theo, if he were to bypass the firm and deal in his brother’s art on his own, would get into trouble with his employers. For this reason he thought it better for Theo not to sell his work. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let721.xml">See letter 721</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>After ‘alors que’ (when), Van Gogh crossed out ‘notre oncle’ (our uncle); he later added ‘juste au moment où’ (precisely at the moment when). Here Van Gogh is referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs> and/or <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent </rs>– both of whom had refused in 1886 to give Theo financial support. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-2">See letter 568, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>The French Revolution began with the storming of the Bastille on 14 July 1789 and led in 1793 to the Jacobin Reign of Terror, during which tens of thousands of people died under the guillotine. </p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The chief of police <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_174">Joseph d’Ornano</rs> filed the report on 27 February 1889 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml">see letter 750</ref>). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> described him in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Avant et après</hi> as ‘the gentleman with the derby hat’ (le monsieur au chapeau melon), and drew caricatures of him in his <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Carnet</hi>. See Gauguin 1923, p. 22 and Gauguin 1952, pp. 22-23.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>The agent in charge of the Yellow House was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_755">Soulè</rs>; the owner was <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_225">Marie Louise Verdier</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-19">see letter 602, n. 19.</ref> There were plans to rent Van Gogh’s house to someone else; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let735.xml">see letter 735</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>For this quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_844">Voltaire</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_445">Candide</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-3">see letter 568, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>In Provence, pastoral plays were especially popular, having developed from the liturgy. In the nineteenth century they combined Christmas traditions, hymns and stereotypes patterned after life (the ‘santons’). The plot followed the story of the Nativity and was garnished with local intrigues. For the Provençal poets’ society ‘Les Félibres’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let704.xml#n-14">see letter 704, n. 14.</ref></p>
+
+<p rend="indent">The ‘Folies arlésiennes’, where Van Gogh had seen the play, was a café-concert with a ‘salle des fêtes’ in Arles. It was located at 4 avenue Victor Hugo. See René Garagnon, ‘Odéon, Van Gogh et les Folies Arlésiennes’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bulletin des Amis du Vieil Arles</hi> (September 1995), no. 90, pp. 14-18.</p>
+
+<p rend="indent">A number of pastoral plays were performed in Arles in this period. Given the dating of the letter, Van Gogh must have seen the play titled <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Pastorale</hi> that was mentioned in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Homme de Bronze</hi> of 10 February and was performed on 25, 26 and 27 January by a company from Marseille. The texts of the Provencal pastoral plays were often unpublished; the text of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Pastorale</hi> has not been traced.</p>
+
+<p rend="indent">Silverman assumes that Van Gogh saw the performance of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Riboun: Pastouralo, Opéra coumique en 5 ate</hi> (Pastorale, a comic opera in 5 acts), performed by the theatrical company Orphéon des Alpines from Eyguières. See Silverman 2000, pp. 356-358. This pastoral play was announced in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Forum Républicain</hi>, as well as in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Homme de Bronze</hi> of 13 January; it is clear from both announcements that <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Riboun</hi> would be performed that same evening, which would mean that the present letter would date from Monday, 14 January. That is impossible, however (see Date).</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_708">Maupassant</rs>’s ‘<ref target="biblio.xml#lit_515">Horla</ref>’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml#n-9">see letter 739, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>The ‘St Vitus’s Dance’ is the popular name of a nervous disorder, causing convulsive movements of the arms and legs, as well as facial spasms (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">chorea minor</hi>). Saint Vitus was one of the fourteen saints invoked to alleviate the sufferers’ distress.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_276">Berlioz</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_814">Wagner</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml#n-6">see letter 739, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1286">Puvis de Chavannes</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_315">Hope</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let611.xml#n-11">see letter 611, n. 11.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

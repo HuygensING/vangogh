@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Monday, 28 or Tuesday, 29 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let616"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b533 V/1962 (sheet 1) and b535 V/1962 (sheet 2)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>616</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>493</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>618</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-05-28">Monday, 28 or Tuesday, 29 May 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0533" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000718_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000718_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000718_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0533" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000718_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000718_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000718_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0535" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000720_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000720_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000720_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0535" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000720_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000720_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000720_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">j’ai pensé à Gauguin<ptr target="#note-t-1"/> et voici – si Gauguin veut venir ici il y a le voyage de Gauguin et il y a les deux lits ou les deux matelas que nous devons acheter absolument alors.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Mais après<c type="kk">/</c> comme Gauguin est un marin<ptr target="#note-t-2"/> il y a probabilité que nous arriverons à faire notre soupe chez nous<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Et pour le même argent que je dépense à moi seul nous vivrons à deux<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Tu sais que cela m’a toujours semblé idiot que les peintres vivent seuls &amp;c. On perd toujours quand on est isolé<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Enfin c’est en reponse à ton desir de le tirer de là<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Tu ne peux pas lui envoyer de quoi vivre en Bretagne et à moi de quoi vivre en Provence<c type="kp">_</c> Mais tu peux trouver bon qu’on partage et fixer une somme de disons 250 par mois si chaque mois en 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>outre et en dehors de mon travail tu aies un Gauguin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">N’est ce pas que pourvu qu’on ne dépasse pas la somme il y aurait meme avantage<c type="kp">_</c> C’est d’ailleurs ma speculation de me combiner avec d’autres<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Donc voici brouillon de lettre à Gauguin que j’ecrirai si tu approuves<c type="kk">/</c> avec les changements que sans doute il y aura à faire dans la tournure des phrases. Mais j’ai d’abord ecrit comme ça<c type="kp">_</c> Considère la chose comme une simple affaire<c type="kk">/</c> c’est le meilleur pour tout le monde et traitons-la carrement comme cela. Seulement etant donné que tu ne fais pas d’affaires pour ton compte tu peux par exemple trouver juste que moi je m’en charge 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>et Gauguin se combinerait en copain avec moi.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">J’ai pensé que tu avais désir de lui venir en aide comme moi-<c type="shy">-</c>même j’en souffre de ce qu’il soit mal pris – chôse qui ne changera pas d’ici à demain.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Nous ne pouvons pas proposer mieux que cela et d’autres n’en feraient pas autant.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Moi cela me chagrine de dépenser tant à moi seul mais pour y porter remède il n’y en a pas d’autre que celui de trouver une femme avec de l’argent ou des copains qui s’associent pour les tableaux. Or je ne vois pas la femme mais je vois les copains.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Si cela lui allait faudrait pas le laisser languir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Voici ce serait un commencement d’association. Bernard qui va aussi dans le midi nous joindra<ptr target="#note-t-3"/> et sache le bien<c type="kk">/</c> moi je te vois toujours <hi rend="italics">en France</hi> à la tête d’une association 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>d’impressionistes<c type="kp">_</c> Et si moi je pourais etre utile pour les mettre ensemble<c type="kk">/</c> volontiers je les verrais tous plus forts que moi<c type="kp">_</c> Tu dois sentir combien cela me contrarie de depenser plus qu’eux<c type="kk">/</c> il faut que je trouve une combinaison plus avantageuse et pour toi et pour eux. Et cela serait ainsi<c type="kp">_</c> Réfléchis y bien pourtant mais est ce que ce n’est pas vrai qu’en bonne compagnie on pourrait vivre de peu pourvu qu’on depense son argent chez soi.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Plus tard il peut y venir des jours où l’on sera moins gêné mais je n’y compte pas. Cela me ferait tant plaisir que tu eusses les Gauguin d’abord. Moi je ne suis pas malin pour faire de la cuisine &amp;c. mais eux sont autrement exercés à cela ayant fait leur service &amp;c.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Poignée de main et bien des choses à Koning<c type="kk">/</c> c’est tout de meme une satisfaction pour toi de le livrer en bon état<c type="kk">/</c> ce serait pas le cas peut etre si tu ne l’avais pas pris avec toi<c type="kp">_</c>–<ptr target="#note-t-4"/> C’en est une autre<ptr target="#note-t-a"/> que les Goupil aient voulu prendre cette salle que tu avais proposée.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.17" n="17">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.18" n="18">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">Est ce que Tersteeg est déjà venu à Paris<c type="kp">_</c><ptr target="#note-t-5"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">pour preparer la chose et completer cette lettre j’ecris à Gauguin mais <hi rend="italics">sans dire mot</hi> de tout ceci<c type="kk">/</c> seulement pour parler du travail.<ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">il faut bien bien bien y réfléchir avant de commencer à voyager. il me semble si probable que ta place soit de rester en France.</p>
+    <space unit="lines" quantity="1"/>
+<p xml:id="p.fr.22" n="22"><supplied><hi rend="italics">Appendix: draft letter to Paul Gauguin</hi></supplied></p><space unit="lines" quantity="1"/>
+    <pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.fr.23" n="23">Mon cher copain Gauguin,</p> 
+<p xml:id="p.fr.24" n="24">j’ai pensé à toi fort souvent et si j’écris seulement maintenant c’est que je ne voulais pas écrire des phrases vides.</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">L’affaire avec Russell a encore manquée mais Russell a tout de même acheté des impressionistes<c type="kk">/</c> Guillaumin et Bernard et – attends ton heure –</p>
+
+<p xml:id="p.fr.26" n="26">de son propre mouvement il y viendra mais je n’ai pas pu insister davantage ayant eu deux refus mais toujours avec promesse pour l’avenir.–<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">Voulais t’écrire à présent que je viens de louer une maison de 4 pièces ici à Arles<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Et qu’il me semble que si je trouve un autre peintre qui aie envie d’exploiter le midi et qui comme moi soit assez absorbé par son travail pour savoir se résigner de vivre comme un moine qui irait au bordel une fois par quinzaine – pour le reste lié par son travail et peu enclin de perdre son temps –</p>
+
+<p xml:id="p.fr.29" n="29">qu’alors l’affaire serait bonne. A moi tout seul je souffre un peu de cet isolement<c type="kp">_</c></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.30" n="30">J’ai donc bien souvent pensé de t’en parler carrement.</p>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Tu sais que mon frère et moi nous estimons beaucoup ta peinture et que notre grand désir serait de te savoir un peu tranquille<c type="kp">_</c> Or pourtant mon frère ne peut pas t’envoyer de l’argent en Bretagne à toi et encore de l’argent à moi en Provence<c type="kp">_</c> Mais voudrais tu partager avec moi ici? Alors en nous combinant il y aurait peutetre assez pour deux<c type="kk">/</c> j’en suis même sûr.</p>
+
+<p rend="indent" xml:id="p.fr.32" n="32">Moi ayant une fois attaqué le midi<c type="kk">/</c> ne vois aucune raison d’en demordre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">J’étais malade quand je venais<c type="kk">/</c> je suis gueri maintenant et enfin je me sens plutot attiré par le midi où le travail en plein air est possible presque toute l’année<c type="kp">_</c></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.fr.34" n="34">La vie ici me parait plus chère toutefois<c type="kk">/</c> mais n’est ce pas qu’aussi les chances de gagner des tableaux est plus grande. Quoi qu’il en soit si mon frère nous enverrait f<hi rend="super">r </hi>250 par mois pour nous deux voudrais tu y venir<c type="kk">/</c> nous partagerions<c type="kp">_</c> Dans ce cas<c type="kk">/</c> seulement<c type="kk">/</c> il faudrait se décider à manger chez nous le plus possible<c type="kk">/</c> on prendrait une espece de femme de ménage quelques heures par jour<c type="kk">/</c> evitant ainsi tous frais d’hôtel<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Et tu donnerais à mon frère un tableau par mois tandis qu’avec le reste tu serais libre de faire ce que tu voudrais.</p>
+
+<p rend="indent" xml:id="p.fr.36" n="36">Or à nous deux immediatement nous commencerions à exposer à Marseille<c type="kk">/</c> frayant ainsi un chemin à d’autres impressionistes aussi bien qu’à nous mêmes.</p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Il ne faut pas oublier que maintenant il y aurait les frais de déplacement et l’achat d’un lit qu’il faudrait également régler avec des tableaux.</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Il t’est naturellement loisible de correspondre sur cette affaire avec mon frère<c type="kk">/</c> toutefois je te préviens que selon toute probabilité il en déclinera la responsabilité<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">Il t’assurera seulement que le seul moyen que nous ayons jusqu’à présent trouvé pour te venir en aide d’une façon plus pratique serait cette combinaison si elle te va. Nous y avons assez réflechi. Il me semble que ce qu’il te faut pour ta santé est surtout le calme<c type="kp">_</c> Si je me trompe et si la chaleur du midi serait trop forte – alors – faudrait chercher à aviser. Pour moi jusqu’à present je me trouve fort bien du climat<c type="kp">_</c> J’aurais bien des choses à te dire encore – enfin voici les affaires d’abord<c type="kp">_</c> Répondez nous de côté et d’autre bien vite.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I thought of <rs type="person" ref="bio.xml#_1039">Gauguin</rs><ptr target="#note-t-1"/> and here we are — if Gauguin wants to come here there’s Gauguin’s fare, and then there are the two beds or the two mattresses we absolutely have to buy.</p>
+<p rend="indent" xml:id="p.en.3" n="3">But later on, as Gauguin’s a sailor,<ptr target="#note-t-2"/> there’s a likelihood we’ll manage to make our grub at home.</p>
+<p rend="indent" xml:id="p.en.4" n="4">And the two of us will live on the same money as I spend on myself alone.</p>
+<p rend="indent" xml:id="p.en.5" n="5">You know I’ve always thought it ridiculous for painters to live alone &amp;c. You always lose when you’re isolated.</p>
+<p xml:id="p.en.6" n="6">Well, it’s in response to your wish to help him out.</p>
+<p rend="indent" xml:id="p.en.7" n="7">You can’t send him what he needs to live on in Brittany, and me what I need to live on in Provence. But you may agree that we should share, and set a sum of, let’s say, 250 a month if every month, in 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> addition to and apart from my work, you were to have a <rs type="person" ref="bio.xml#_1039">Gauguin</rs>.</p>
+<p rend="indent" xml:id="p.en.8" n="8">As long as we didn’t exceed that amount, wouldn’t there even be a benefit? Besides, I’m speculating about joining forces with others.</p>
+<p rend="indent" xml:id="p.en.9" n="9">So herewith rough draft of a letter to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, which I’ll write if you approve, with the changes that will doubtless have to be made to turns of phrase. But I wrote that way first. Think of it as a simple business arrangement, that’s best for everyone, and let’s treat it straightforwardly that way. Only, given that you’re not in business on your own account, you may, for example, think it right that I take it upon myself, 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> and Gauguin would join forces with me as a pal.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I thought that you had a wish to come to his aid, as I suffer myself at the thought that he’s in a tight corner — something that won’t change overnight.</p>
+<p rend="indent" xml:id="p.en.11" n="11">We can’t offer better than that, and others wouldn’t do as much.</p>
+<p rend="indent" xml:id="p.en.12" n="12">For my part, it worries me to spend so much on myself alone, but to find a remedy for that there’s none other than that of finding a wife with money or pals who associate with one another for paintings. Now I don’t see the wife, but I do see the pals.</p>
+<p rend="indent" xml:id="p.en.13" n="13">If that suited him, wouldn’t do to keep him waiting.</p>
+<p rend="indent" xml:id="p.en.14" n="14">This would be the beginnings of an association, then. <rs type="person" ref="bio.xml#_831">Bernard</rs>, who’s coming to the south too, will join us,<ptr target="#note-t-3"/> and be sure of this, I still see you <hi rend="italics">in France</hi>, at the head of an association 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> of Impressionists. And if I could be useful in putting them together, I’d willingly see them abler than myself. You must feel how much it vexes me to spend more than they do; I have to find a partnership that’s more advantageous, both to you and to them. And that’s how it would be. However, think it over carefully, but isn’t it true that in good company you could live on little as long as you spent your money at home?</p>
+<p rend="indent" xml:id="p.en.15" n="15">Later on there may be days when we’ll be less hard up, but I’m not counting on it. It would please me so much if you had the <rs type="person" ref="bio.xml#_1039">Gauguin</rs>s first. I’m not good at cooking &amp;c., but they’ve had different training in that, having done their service &amp;c.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Handshake and best wishes to <rs type="person" ref="bio.xml#_1145">Koning</rs>, after all, it’s a source of satisfaction for you to deliver him in good condition, which might not have been the case if you hadn’t taken him with you.<ptr target="#note-t-4"/> It’s also satisfactory that the Goupils have been interested in taking that room you suggested.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">Ever yours,</p>
+<p xml:id="p.en.18" n="18">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Has <rs type="person" ref="bio.xml#_787">Tersteeg</rs> come to Paris yet?<ptr target="#note-t-5"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">In order to prepare things, and to expand on this letter, I’m writing to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, but <hi rend="italics">without saying anything </hi>about all this, just to talk about work.<ptr target="#note-t-6"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">You have to think it over very, very, very carefully before starting to travel. It seems so likely to me that your job is to stay in France.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22"><supplied><hi rend="italics">Appendix: draft letter to Paul Gauguin</hi></supplied></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.24" n="24">My dear old <rs type="person" ref="bio.xml#_1039">Gauguin</rs>,</p>
+<p xml:id="p.en.25" n="25">I’ve thought of you very often and if I’m only writing now it’s because I didn’t want to write empty phrases.</p>
+<p rend="indent" xml:id="p.en.26" n="26">The deal with <rs type="person" ref="bio.xml#_1334">Russell</rs> hasn’t come off yet, but Russell has bought some Impressionists all the same, <rs type="person" ref="bio.xml#_1065">Guillaumin</rs> and <rs type="person" ref="bio.xml#_831">Bernard</rs> and — wait for your moment — he’ll come of his own accord, but I couldn’t press the point further, having had two refusals, but always with a promise for the future.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">Wanted to write now to tell you I’ve just rented a four-room house here in Arles.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">And that it seems to me that if I find another painter who feels like getting the most out of the south, and who like me was sufficiently absorbed in his work to be able to resign himself to living like a monk who’d go to the brothel once a fortnight — apart from that, bound up in his work and not inclined to waste his time — then the thing would be good. On my own, I suffer a bit from this isolation. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">So I’ve very often thought about talking to you about it straight out. </p>
+<p rend="indent" xml:id="p.en.30" n="30">You know that my brother and I have a high regard for your painting and that we’d very much wish to know you were a little at your ease. But all the same, my brother can’t send money to you in Brittany and at the same time money to me in Provence. But would you like to share with me here? Then by joining forces, there would perhaps be enough for two; I’m sure of it, even.</p>
+<p rend="indent" xml:id="p.en.31" n="31">Having once attacked the south, I see no reason to give it up.</p>
+<p rend="indent" xml:id="p.en.32" n="32">I was ill when I came, I’m better now and in fact, I feel rather attracted to the south, where outdoor work is possible almost all the year round. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">Living here seems more expensive, though, but isn’t it also the case that the opportunities for gaining paintings are greater? In any event, if my brother were to send us 250 francs a month for both of us, would you like to come, and we would share. But in that case we’d have to make up our minds to eat at home as much as possible; we’d take on some kind of charwoman for a few hours a day, avoiding all the costs of a hotel that way.</p>
+<p rend="indent" xml:id="p.en.34" n="34">And you would give my brother one painting a month, while you’d be free to do whatever you liked with the rest.</p>
+<p rend="indent" xml:id="p.en.35" n="35">Now the two of us would start exhibiting in Marseille straightaway, thus opening the way for other Impressionists as well as for ourselves.</p>
+<p rend="indent" xml:id="p.en.36" n="36">We mustn’t forget that there would now be the cost of travel and of buying a bed, which would also have to be paid for with paintings. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.37" n="37">You are, of course, free to correspond with my brother about this matter, but I warn you that he’ll most probably refuse to take responsibility for it.<ptr target="#note-t-9"/> </p>
+<p rend="indent" xml:id="p.en.38" n="38">He’ll just assure you that the only means we’ve found up to now of helping you in a more practical way would be this arrangement, if it suits you. We’ve thought about it a good deal. It seems to me that what you need for your health’s sake is peace and quiet above all. If I’m wrong, and if the heat in the south turned out to be too much — well — we’d have to see. For myself, so far I feel very well in this climate. There’s plenty more I could tell you — but here we are, business first. Reply to both of us soon.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo has written about Gauguin, prompted by a letter he had received from him. He got Gauguin’s letter, written on 22 May, on 23 May at the earliest (GAC 2). Theo’s last letter to Vincent dated from before 20 May (<ref target="let611.xml">see letter 611</ref>), so Theo could not have written about Gauguin until his next letter, of 27 May (for which Vincent thanked him in <ref target="let615.xml">letter 615</ref>). In response to this, Vincent now encloses an unsigned letter addressed to Gauguin, on which Theo comments soon afterwards (<ref target="let621.xml">see letter 621</ref>). It is not possible to establish whether the present letter was written on the same day as <ref target="let615.xml">letter 615</ref>, that is 28 May (Hulsker and Pickvance gave it this date), or on Tuesday, 29 May 1888 (the date Dorn gave). We regard both dates as possible. See Hulsker 1993-1, p. 32; exhib. cat. New York 1984, p. 262; Dorn 1998, p. 25.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh enclosed a letter for Gauguin; we have added this as an attachment, <ref target="#l-112">ll. 112-212</ref> (in <hi rend="italics">De brieven</hi> 1990 this was <ref target="let619.xml">letter 619</ref> [494a]). Cf. Hulsker 1998, pp. 45-46.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Plans for a society of artists <ref target="let584.xml">(584)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Koning’s stay with Theo <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s possible trip to America <ref target="let610.xml">(610)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="ogt_5">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The plan to exhibit work by modern artists in Marseille <ref target="let580.xml">(580)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, who had already been living on credit for three months, had asked Theo for help in a letter of 22 May (FR b841 and GAC 2). Theo had evidently written to Vincent about it.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>On 6 December 1865 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> signed on as a junior officer in the merchant navy aboard the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Luzitano</hi>, in which he served for two three-month trips to Brazil; he then spent thirteen months, from 27 October 1866, sailing around the world as a second lieutenant on the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Chili</hi>. On 22 January 1868 he joined the French navy; he left the service on 23 April 1873. See exhib. cat. Washington 1988, pp. 3-4.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> was supposed to be going to Algeria to do his military service, and Van Gogh wanted to meet him in Marseille; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let575.xml">see letters 575</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let599.xml">599</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>We know, because Theo recommended his doctor to him, that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs> initially had problems with his health. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let578.xml#n-9">See letter 578, n. 9.</ref> As we can deduce from a letter from Koning to Theo, they took their leave of each other at the Gare du Nord on 28 May 1888. Koning was then ‘in an anything but cheerful mood’; he travelled back to Winschoten via Bruges, Ghent, Dordrecht and Rotterdam, arriving home on 2 June (FR b1077).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">‘</hi>une autre satisfaction’.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs>’s visit to Paris took place in the first half of June; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml">see letter 625</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Vincent sent these proposals to Theo (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-112">ll. 112</ref> ff.), who did not altogether approve of them, so a new version of the letter had to be written (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let621.xml">see letter 621</ref>). Vincent had moreover already written to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let617.xml">see letter 617</ref>). Neither letter is known.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Van Gogh had tried to persuade <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1334">Russell</rs> to buy work from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let582.xml#n-2">see letter 582, n. 2.</ref> So far it had not produced a result. We do not know which works Russell bought from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>See for the Yellow House: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-3">letter 602, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>After ‘responsibility’ Van Gogh crossed out: ‘He’ll just assure you that what I say about the money is true, just as I wrote to you. So you’ll be dealing with me’ (Seulement il t’assurera que ce que je te dis pour l’argent est vrai ainsi que je te l’écris. Tu traiterais ainsi avec moi).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

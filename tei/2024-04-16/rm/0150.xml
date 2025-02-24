@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Fragment of a letter on the back of the sketch <hi rend="italics">Head of a girl</hi> (F 1507a / JH 1466). To John Peter Russell. Arles, on or about Sunday,  17 June 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/RM15"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>New York</settlement>
+                                        <institution/>
+                                        
+                                        <idno>78.2514T20.</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>RM15</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno/></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>629</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-06">on or about Sunday,  17June 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">John Peter Russell</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/unknown/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.en.1" n="1">of all and all.–</p>
+
+<p rend="indent" xml:id="p.en.2" n="2">Have you been working in the country lately and is the house you are building getting on.</p>
+    
+<p rend="indent" xml:id="p.en.3" n="3">It appears that Claude Monet has done fine things<c type="kk"/> my brothers writes to say that he has at present an exhibition of 10 new pictures. One representing pinetrees by the seaside with a red sunset casting a red glow over stems<c type="kk"/> branches<c type="kk"/> foliage and the ground itself  – a marvel I hear.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.en.4" n="4">Bernard is doing good things I believe and taking a lot of trouble.</p>
+
+<p rend="indent" xml:id="p.en.5" n="5">Gauguin is still at Pont Aven <supplied>a</supplied>nd suffering of his liver complaint <supplied>bu</supplied>t working nevertheless</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">of all and all.</p>
+<p rend="indent" xml:id="p.en.2" n="2">Have you been working in the country lately and is the house you are building getting on?</p>
+<p rend="indent" xml:id="p.en.3" n="3">It appears that <rs type="person" ref="bio.xml#_1222">Claude Monet</rs> has done fine things, my brothers writes to say that he has at present an exhibition of 10 new pictures. One representing pinetrees by the seaside with a red sunset casting a red glow over stems, branches, foliage and the ground itself — a marvel I hear.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_831">Bernard</rs> is doing good things I believe and taking a lot of trouble.</p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> is still at Pont-Aven and suffering of his liver complaint but working nevertheless</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The fragment, which is part of an earlier version of <ref target="let627.xml">letter 627</ref>, was probably written on the same day as that letter, which dates from about Sunday, 17 June 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">This sketch with a fragment of a letter was sent to John Russell, together with <ref target="let627.xml">letter 627</ref>. Appearing on the back of <hi rend="italics">Head of a girl</hi> (<rs type="artwork" ref="artwork.xml#_175">F 1507a / JH 1466</rs>) is a fragment of text that was part of an earlier version of that letter (which explains why both the letter and this fragment mention the same things), in which Van Gogh writes: ‘I was writing to you and ... instead of continuing the letter I began to draw on the very paper the head of a dirty little girl ... I enclose the slip of scribbling.’ See also exhib. cat. New York 1984, pp. 105, 255, cat. no. 51; cat. New York 1992, p. 178.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+        
+<p>This painting by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Monet</rs> is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1593">Under the pine trees at the end of the day</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let615.xml#n-11">see letter 615, n. 11.</ref> Theo sold the work to Paul Aubry for 2800 francs on 29 June 1888. See Wildenstein 1996, cat. no. 1191 and exhib. cat. Amsterdam 1999, p. 215.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

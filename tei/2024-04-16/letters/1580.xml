@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Cuesmes, Friday, 24 September 1880.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let158"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b156 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>158</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>136</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>157</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1880-09-24">Friday, 24 September 1880</date>
+                            <placeName>Cuesmes</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0156" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000166_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000166_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000166_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0156" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000166_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000166_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000166_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Cuesmes le 24 sept. 1880</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Cher Theo,</p>
+
+<p xml:id="p.fr.3" n="3">Ta lettre m’a fait du bien, je te remercie de m’avoir écrit ainsi.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Justement vient d’arriver le rouleau contenant une nouvelle collection d’eauxfortes &amp; de f<hi rend="super">lles</hi> diverses<c type="kp">_</c> Principalement la magistrale eauforte <hi rend="italics">Le Buisson</hi> de Daubigny/Ruysdael.<ptr target="#note-t-1"/> C’est ça. Je me propose de faire deux dessins<c type="kk">/</c> soit à la sepia<c type="kk">/</c> soit à autre chose<c type="kk">/</c> l’une d’après cette eauforte – l’autre d’après le Four dans les Landes de Th. Rousseau.<ptr target="#note-t-2"/> Cette derniere sepia est déja faite – il est vrai – mais la comparant à l’eauforte de Daubigny tu comprendras que cela devient faible<c type="kk">/</c> quand bien même ce sépia considéré en soi puisse avoir déjà quelque ton &amp; sentiment. Il faut y revenir &amp; le reprendre.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je travaille toujours au Cours de dessin Bargue &amp; me propose de le finir avant d’entreprendre autre chose car de jour en jour cela me degourdit &amp; fortifie tant la main que l’esprit &amp; je ne saurais assez me sentir obligé à M<c type="kp">_</c> Tersteeg de me les avoir si genereusement prêtées<c type="kp">_</c> Ces modèles sont excellentes. Entretemps je m’occupe de la lecture d’un livre sur l’anatomie &amp; d’un autre sur la perspective que M<c type="kp">_</c> Tersteeg aussi m’a envoyé<c type="kp">_</c><ptr target="#note-t-3"/> Cette étude est epineuse &amp; parfois ces livres sont on ne peut plus agaçants mais je crois pourtant bien faire de les étudier.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Tu vois donc que je suis acharné au travail mais pour le moment cela ne donne pas de résultat fort réjouissant. Mais j’ai espérance que ces épines porteront fleur blanche à leur heure &amp; que cette lutte en apparence stérile n’est autre chose qu’un travail d’enfantement. La douleur d’abord puis la joie après.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Tu me parles de Lessore. Je crois me rappeler des aquarelles de paysage très élégantes<c type="kk">/</c><ptr target="#note-t-4"/> d’un ton blond<c type="kk">/</c> d’une facture en apparence facile &amp; légère cependant juste &amp; distinguée<c type="kk">/</c> d’un effet (soit dit sans mauvaise intention<c type="kk">/</c> au contraire dans une bonne) quelque peu décoratif<c type="kk">/</c> qui seraient de lui<c type="kp">_</c> Donc je connaitrais un peu son travail &amp; tu me parlerais de quelqu’un qui ne m’est pas tout effet<ptr target="#note-t-a"/> étranger. J’aime le portrait de <hi rend="italics">Victor Hugo</hi><c type="kp">_</c> C’est très consciencieusement fait avec l’intention évidente de rendre témoignage à la vérité sans recherche d’effet. Par cela même<c type="kk">/</c> cela en a pourtant de l’effet.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">J’ai un peu étudié certains ouvrages d’Hugo cet hiver dernier<c type="kp">_</c> Soit le dernier jour d’un condamné<ptr target="#note-t-5"/> &amp; un très beau livre sur Shakespeare.<ptr target="#note-t-6"/> J’ai entrepris l’étude de cet écrivain deja depuis longtemps. Cela est aussi beau que Rembrandt<c type="kp">_</c> Shakespeare est à Charles Dickens ou à V. Hugo ce que Ruysdael est à Daubigny, &amp; Rembrandt à Millet.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Ce que tu dis dans ta lettre au sujet de Barbizon<ptr target="#note-t-7"/> est très vrai &amp; je te dirai chose &amp; autre qui te demontrera que c’est aussi là ma manière à voir à moi. Je n’ai pas vu Barbizon<c type="kk">/</c> mais quand bien même je n’aie pas vu cela<c type="kk">/</c> l’hiver dernier j’ai vu Courrières. J’avais entrepris un voyage à pied principalement dans le Pas de Calais, non pas la Manche mais le département. ou province.<ptr target="#note-t-8"/> Je l’avais entrepris ce voyage-là<c type="kk">/</c> espérant y trouver peut-être du travail (quelconque<c type="kk">/</c> si possible<c type="kk">/</c> j’aurais tout accepté) mais après tout un peu involontairement<c type="kk">/</c> je ne saurais au juste définir pourquoi<c type="kp">_</c> Mais je m’etais dit<c type="kk">/</c> Il faut que tu voies Courrières. Je n’avais que 10 francs dans ma poche &amp; ayant commencé par prendre le train j’etais bientôt à bout de cette ressource &amp; ayant resté en route une semaine j’ai pietiné assez péniblement. Toutefois j’ai vu Courrières &amp; le dehors de l’atelier de M. Jules Breton.<ptr target="#note-t-9"/> Le dehors de cet atelier m’a un peu désappointé vu que c’est un atelier tout neuf &amp; nouvellement construit en briques<c type="kk">/</c> d’une régularité méthodiste<c type="kk">/</c><ptr target="#note-t-10"/> d’un aspect inhospitalier &amp; glacant &amp; agaçant tout autant que Jovinda<ptr target="#note-t-11"/> de C.M. que<c type="kk">/</c> soit dit entre nous<c type="kk">/</c> je n’aime pas trop non plus pour cette même raison. Si j’aurais pu voir le dedans je n’aurais plus pensé au dehors<c type="kk">/</c> je suis porté à le croire &amp; même j’en suis sûr mais, que veux tu, le dedans je n’ai pas pu l’apercevoir.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Car je n’osais pas me présenter pour entrer<c type="kp">_</c> J’ai cherché à Courrières ailleurs quelque trace de Jules Breton ou de quelqu’autre artiste<c type="kk">/</c> tout ce que j’ai découvert c’est son portrait chez un photographe<ptr target="#note-t-12"/> &amp; puis<c type="kk">/</c> dans la vieille église<c type="kk">/</c> dans un coin obscur<c type="kk">/</c> une copie de la Mise au tombeau du Titien qui dans l’obscurité m’a semblé être très belle &amp; d’un ton magistral. Etait ce de lui?– Je ne sais<c type="kk">/</c> n’ayant pu discerner aucune signature.<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Mais d’artiste vivant nulle trace<c type="kk">/</c> seulement il y avait un café dit café des beaux Arts<c type="kk">/</c><ptr target="#note-t-14"/> également en briques neuves inhospitalières &amp; glaçantes &amp; mortifiantes<c type="kk">/</c> lequel café était decoré d’espèce de fresques ou peintures murales représentant des épisodes de la vie de l’illustre chevalier Don Quichotte<c type="kp">_</c><ptr target="#note-t-15"/> Ces fresques, soit dit en confiance<c type="kk">/</c> me paraissaient alors d’assez malencontreux consolateurs et plus ou moins médiocres. Je ne sais de qui ils sont.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Mais j’ai toujours vu alors la campagne de Courrières, les meules, la glèbe brune ou terre de marne à peu près couleur de café<c type="kk">/</c> avec des taches blanchâtres là où aparaît la marne<c type="kk">/</c> ce qui pour nous autres qui sommes habitués à des terrains noirâtres est chose plus ou moins extraordinaire. Puis le ciel Francais me parut bien autrement fin &amp; limpide que le ciel du Borinage<c type="kk">/</c> enfumé &amp; brumeux. En outre il y avait les fermes &amp; hangars ayant encore conservé<c type="kk">/</c> que Dieu en soit loué &amp; remercié, leurs toitures de chaume moussu<c type="kk">/</c> j’apercevais aussi les nuées de corbeaux<c type="kk">/</c> fameux par les tableaux de Daubigny &amp; de Millet.<ptr target="#note-t-16"/> Pour ne pas mentionner tout d’abord<c type="kk">/</c> comme il conviendrait<c type="kk">/</c> les figures caractéristiques &amp; pittoresques des travailleurs: divers bêcheurs<c type="kk">/</c> bûcherons<c type="kk">/</c> varlet conduisant son attelage &amp; quelque silhouette de femme au blanc bonnet. Même là à Courrières il y avait encore un charbonnage ou fosse<c type="kk">/</c><ptr target="#note-t-17"/> je voyais le trait du jour remonter à la brune mais il n’y avait pas d’ouvrières en habit d’hommes comme au Borinage<c type="kk">/</c> seulement les charbonniers à la mine fatiguée &amp; misérable<c type="kk">/</c> noircis par la poussiere de charbon<c type="kk">/</c> accoutrés de loques de fosse &amp; l’un d’eux d’une vieille capote de soldat<c type="kp">_</c> Quoique cette étape était pour moi presqu’assommante &amp; que j’en sois retourné epuisé de fatigue<c type="kk">/</c> les pieds meurtris &amp; dans un état plus ou moins mélancolique<c type="kk">/</c> je ne la regrette pas car j’ai vu des choses intéressantes et on apprend à voir d’un autre oeil encore<c type="kk">/</c> tout juste dans les rudes épreuves de la misère même<c type="kp">_</c> J’ai gagné quelques croûtes de pain en route<c type="kk">/</c><ptr target="#note-t-18"/> çà et là<c type="kk">/</c> en échange de quelques dessins dont j’en avais dans ma valise. Mais à bout de mes dix francs<c type="kk">/</c> les 3 dernières nuits j’ai dû bivaquer en plein champ<c type="kk">/</c> une fois dans une voiture abandonnée toute blanche de givre au matin, gite assez mauvais, une fois dans un tas de fagots et une fois<c type="kk">/</c> &amp; c’était un peu mieux<c type="kk">/</c> dans une meule entamée où je suis parvenu à pratiquer une niche quelque peu plus comfortable<c type="kk">/</c> seulement une pluie fine n’augmentait pas précisément le bien-être.–</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Eh bien, et pourtant ça a été dans cette forte misère que j’ai senti mon energie revenir &amp; que je me suis dit<c type="kk">/</c> Quoi qu’il en soit j’en remonterai encore<c type="kk">/</c> je reprendrai mon crayon que j’ai là laissé dans mon grand découragement &amp; je me remettrai au dessin et dès lors à ce qui me semble tout a changé pour moi &amp; maintenant je suis en route. &amp; mon crayon est devenu quelque peu docile &amp; parait le devenir davantage de jour en jour. C’était la trop longue &amp; la trop grande misère qui m’avait à ce point decouragé que je ne pouvais plus rien faire.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Une autre chose que j’ai vu lors de cette excursion c’est les villages des tisserands.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Les charbonniers &amp; les tisserands sont encore une race à part quelque peu des autres travailleurs &amp; artisans et je sens pour eux une grande sympathie &amp; me compterais heureux si un jour je pourrais les dessiner<c type="kk">/</c> en sorte que ces types encore inédits ou presque inédits fussent mises au jour. L’homme du fond de l’abime<c type="kk">/</c> “de profundis”<c type="kk">/</c><ptr target="#note-t-19"/> c’est le charbonnier<c type="kk">/</c> l’autre à l’air rêveur, presque songeur, presque somnambule<c type="kk">/</c> c’est le tisserand. Voilà à peu près 2 ans déjà que je vis avec eux &amp; j’ai appris à connaître quelque peu leur caractère original<c type="kk">/</c> du moins celui des charbonniers principalement. Et de plus en plus je trouve quelque chose de touchant<c type="kk">/</c> &amp; de navrant même<c type="kk">/</c> dans ces pauvres &amp; obscurs ouvriers<c type="kk">/</c> les derniers de tous pour ainsi dire &amp; les plus méprisés<c type="kk">/</c> qu’on se représente ordinairement par l’effet d’une imagination vive peutetre mais très fausse &amp; injuste<c type="kk">/</c> comme une race de malfaiteurs &amp; de brigands. Des malfaiteurs<c type="kk">/</c> des ivrognes<c type="kk">/</c> des brigands<c type="kk">/</c> il y en a ici comme ailleurs mais tel n’est pas du tout le véritable type.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Dans ta lettre tu m’as parlé vaguement de venir à Paris ou dans les environs<c type="kp">_</c> Soit tôt soit tard<c type="kk">/</c> lorsqu’il serait possible &amp; que<ptr target="#note-t-b"/> je le voudrais. Certes ce serait mon grand &amp; ardent désir de venir soit à Paris soit à Barbizon ou ailleurs. mais comment le pourrais je car je ne gagne pas un sou et quoique je travaille dur il faudra encore du temps pour arriver au niveau de pouvoir penser à chose pareille que serait celle de venir à Paris. Car en vérité pour pouvoir travailler comme il faut<c type="kk">/</c> il faudrait au moins ± cent francs par mois<c type="kk">/</c> on peut vivre de moins mais alors on est dans le gêne même beaucoup trop.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Pauvreté empêche les bons esprits de parvenir<c type="kk">/</c> c’est le vieux proverbe de Palizzy<ptr target="#note-t-20"/> où il y a du vrai. &amp; qui est tout à fait vrai si on en comprend la veritable intention &amp; portée.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Pour le moment je ne vois pas comment la chose serait praticable, et il vaut mieux que je reste ici en travaillant comme je puis &amp; pourrai &amp; après tout il fait meilleur marché ici pour vivre.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Toutefois est-il que je ne saurais plus continuer beaucoup plus longtemps dans la petite chambre où je suis maintenant. Elle est deja très-petite<c type="kk">/</c> puis il y a deux lits<c type="kk">/</c> celui des enfants &amp; le mien<c type="kp">_</c> Et maintenant que je fais les Bargues<c type="kk">/</c> f<hi rend="super">lles</hi> assez grandes<c type="kk">/</c> dejà je ne saurais te dire combien je suis peiné<c type="kp">_</c> Je ne veux pas gêner les gens dans leur ménage<c type="kk">/</c> aussi est-il qu’ils m’ont dit que pour ce qui était de l’autre chambre de la maison<c type="kk">/</c> il n’y avait pas moyen pour moi de l’avoir même en payant davantage<c type="kk">/</c> car il la faut à la femme pour faire sa lessive<c type="kk">/</c> ce qui dans une maison de charbonnier doit arriver presque tous les jours<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Je voudrais donc prendre tout court une petite maison d’ouvrier<c type="kk">/</c> cela coute 9 francs par mois en moyenne<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Je ne saurais te dire combien (malgré que chaque jour il se présentent &amp; se presenteront encore de nouvelles difficultés), je ne saurais te dire combien je me sens heureux d’avoir repris le dessin<c type="kp">_</c> Déjà depuis longtemps cela me préoccupait mais je considérais toujours la chose comme impossible &amp; au-dessus de ma portée<c type="kp">_</c> Mais maintenant tout en sentant &amp; ma faiblesse &amp; ma dépendance pénible de bien des choses<c type="kk">/</c> j’ai retrouvé mon calme d’esprit &amp; l’énergie me revient de jour en jour.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Voila pour ce qui est de venir à Paris<c type="kp">_</c> Si on trouvait occasion d’entrer en relation avec quelque brave &amp; vaillant artiste<c type="kk">/</c> cela serait extrêmement avantageux pour moi mais<c type="kk">/</c> pour y aller de but en blanc<c type="kk">/</c> ce ne serait qu’une répétition en grand format de mon étape à Courrières<c type="kk">/</c> où j’avais espéré peut être rencontrer quelqu’être vivant de l’espèce Artiste mais où je n’en ai pas trouvé. Il s’agit pour moi d’apprendre à bien dessiner<c type="kk">/</c> à etre maître soit de mon crayon<c type="kk">/</c> soit de mon fusain<c type="kk">/</c> soit de mon pinceau<c type="kk">/</c> une fois cela obtenu je ferai de bonnes choses presque n’importe où et le Borinage est tout aussi pittoresque que le vieux Venise<c type="kk">/</c> que l’Arabie<c type="kk">/</c> que la Bretagne<c type="kk">/</c> la Normandie<c type="kk">/</c> Picardie ou Brie<c type="kp">_</c><ptr target="#note-t-21"/></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Si je fais mal la faute en est à moi. Mais très certainement à Barbizon on peut mieux qu’ailleurs trouver<c type="kk">/</c> peutêtre si on aurait cette rencontre heureuse<c type="kk">/</c> l’occasion de tomber avec quelqu’artiste plus avancé qui pour moi serait vraiment comme un ange de Dieu<c type="kk">/</c> soit dit sérieusement et sans aucune exagération<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Si donc tôt ou tard tu verrais moyen &amp; occasion<c type="kk">/</c> penses à moi<c type="kk">/</c> en attendant je reste tranquillement ici dans quelque petite maison d’ouvrier où je travaillerai comme je pourrai.</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Tu me parles encore de Méryon<c type="kk">/</c> ce que tu dis de lui est bien vrai<c type="kk">/</c> je connais bien un peu ses eaufortes. Veux tu voir quelque chose de curieux – mets une de ces griffonnages si justes &amp; si puissantes à côté de quelque planche de Violet le Duc<ptr target="#note-t-22"/> ou de qui que ce soit qui fait de l’architecture. Alors tu verras Meryon en pleine lumière à cause de l’autre eauforte qui servira<c type="kk">/</c> ne vous déplaise<c type="kk">/</c> de repoussoir ou contraste<c type="kp">_</c> Bon, qu’apercois tu alors. Ceci. Meryon<c type="kk">/</c> quand bien même il dessine des briques, du granit, les barres de fer ou garde-fou d’un pont, met quelque chose de l’âme humaine ébranlée par je ne sais quel navrement intime dans son eauforte. J’ai vu des dessins d’architecture gothique de V. Hugo<c type="kp">_</c><ptr target="#note-t-23"/> He bien sans avoir la puissante &amp; magistrale facture de Méryon<c type="kk">/</c><ptr target="#note-t-24"/> il y avait quelque chose du même sentiment. Quel est ce sentiment. Cela a quelque parenté avec celui qu’Albert Durer exprima dans sa <hi rend="italics">Mélancolie</hi><c type="kk">/</c><ptr target="#note-t-25"/> que de nos jours James Tissot &amp; M. Maris (quelque différents que ces deux soient entre eux) ont aussi<c type="kp">_</c> avec raison quelque critique profond a dit de James Tissot “C’est une âme en peine”<c type="kp">_</c><ptr target="#note-t-26"/> Mais quoi qu’il en soit<c type="kk">/</c> il y a quelque chose de l’âme humaine là-dedans<c type="kk">/</c> c’est pour cette raison que ça est grand<c type="kk">/</c> immense<c type="kk">/</c> infini<c type="kk">/</c> et mettez à côté Violet le duc<c type="kk">/</c> cela est pierre<c type="kk">/</c> et l’autre (soit Meryon) cela est <hi rend="italics">Esprit</hi>. Meryon aurait eu une telle puissance d’aimer que maintenant comme Sydney Cartone de Dickens<c type="kk">/</c> il aime les pierres mêmes de certains endroits<c type="kp">_</c><ptr target="#note-t-27"/> Mais davantage &amp; mieux<c type="kk">/</c> dans un ton plus noble<c type="kk">/</c> plus digne<c type="kk">/</c> &amp; s’il m’est permis de le dire plus Evangelique<c type="kk">/</c> on la trouve aussi<c type="kk">/</c> la perle précieuse<c type="kk">/</c><ptr target="#note-t-28"/> l’âme humaine mise en évidence<c type="kk">/</c> dans Millet<c type="kk">/</c> dans Jules Breton<c type="kk">/</c> dans Jozef Israels<c type="kp">_</c> Mais<c type="kk">/</c> pour revenir à Méryon<c type="kk">/</c> il a encore à ce qui me semble quelque lointaine parenté avec Jongkind &amp; peutêtre Seymour Haden car à certaines heures ces deux artistes ont été très forts<c type="kp">_</c> Attends, peut-etre tu verras encore que moi aussi je suis un travailleur quoique je ne sache pas d’avance ce qui me sera possible<c type="kk">/</c> toutefois j’espère bien encore faire quelque griffonage où il pourrait y avoir quelque chose d’humain. Mais il faut d’abord dessiner les Bargue et faire d’autres choses plus ou moins épineuses<c type="kp">_</c> Le chemin est étroit &amp; la porte est étroite &amp; il y en a peu qui la trouvent.<ptr target="#note-t-29"/></p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">En te remerciant de ta bonté<c type="kk">/</c> principalement du Buisson<c type="kk">/</c> je te serre la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.27" n="27">Vincent.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.28" n="28">J’ai maintenant pris toute ta collection mais tu la reprendras plus tard et en outre<c type="kk">/</c> pour ta collection de gravures sur bois que j’espère que tu continues<c type="kk">/</c> j’ai de très bonnes choses dans les 2 volumes du Musée Universel que je te destine<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Cuesmes, 24 Sept. 1880</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Dear Theo,</p>
+<p xml:id="p.en.3" n="3">Your letter did me good; I thank you for writing to me like that.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Actually, the roll containing a new collection of etchings and various sheets has just arrived. First and foremost, the masterly etching, <hi rend="italics">The bush</hi>, by <rs type="person" ref="bio.xml#_976 bio.xml#_1333">Daubigny/Ruisdael</rs>.<ptr target="#note-t-1"/> That’s it! I plan to do two drawings, either in sepia or something else, one of them after this etching — the other after <rs type="person" ref="bio.xml#_1332">T. Rousseau</rs>’s The oven in Les Landes.<ptr target="#note-t-2"/> This latter sepia is already done — it’s true — but if you compare it with <rs type="person" ref="bio.xml#_976">Daubigny</rs>’s etching, you’ll understand that it becomes weak, even though the sepia drawing considered on its own may very well have a certain tone and sentiment. I have to go back to it and work on it again.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m still working on <rs type="person" ref="bio.xml#_851">Bargue</rs>’s Cours de dessin, and plan to finish it before undertaking anything else, since day by day it exercises and strengthens both my hand and my mind, and I wouldn’t be able to feel sufficiently indebted to <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> for having so generously lent them to me. These models are excellent. In the meantime I’m busy reading a book on anatomy and another on perspective, which Mr Tersteeg also sent me.<ptr target="#note-t-3"/> This study is thorny, and sometimes these books are as irritating as could be, but nevertheless I believe that I’m doing the right thing by studying them.</p>
+<p rend="indent" xml:id="p.en.6" n="6">You can see, then, that I’m working like mad, but for the moment it isn’t giving very heartening results. But I have hopes that these thorns will bear white flowers in their time, and that this apparently sterile struggle is nothing other than a labour of giving birth. First pain, then joy afterwards.</p>
+<p rend="indent" xml:id="p.en.7" n="7">You tell me about <rs type="person" ref="bio.xml#_1161">Lessore</rs>. I believe I can recall some very elegant watercolour landscapes which could be by him,<ptr target="#note-t-4"/> in a pale tone, with brushwork that’s apparently easy and light but at the same time accurate and refined, with an effect (let it be said with no bad intention, on the contrary, with a good one) that’s a little decorative. So I could be said to know something about his work, and you’d be telling me about somebody who isn’t altogether unfamiliar to me. I like the portrait of <hi rend="italics">Victor Hugo</hi>. It’s very conscientiously done, with the clear intention of bearing witness to the truth without searching for effect. By virtue of that, though, it does have an effect.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I studied some of <rs type="person" ref="bio.xml#_666">Hugo</rs>’s works a little this past winter. Namely Le dernier jour d’un condamné<ptr target="#note-t-5"/> and a very beautiful book on <rs type="person" ref="bio.xml#_735">Shakespeare</rs>.<ptr target="#note-t-6"/> I took up the study of this writer a long time ago now. It’s as beautiful as <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>. Shakespeare is to <rs type="person" ref="bio.xml#_580">Charles Dickens</rs> or to V. Hugo what <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> is to <rs type="person" ref="bio.xml#_976">Daubigny</rs>, and Rembrandt to <rs type="person" ref="bio.xml#_1226">Millet</rs>.</p>
+<p rend="indent" xml:id="p.en.9" n="9"> What you say in your letter on the subject of Barbizon<ptr target="#note-t-7"/> is very true and I’ll tell you one or two things that will prove to you that that’s my own way of seeing as well. I haven’t seen Barbizon, but although I haven’t seen it, last winter I saw Courrières. I made a trip on foot mainly in the Pas de Calais, not the Channel but the department. Or province.<ptr target="#note-t-8"/> I made that trip hoping perhaps to find work there (any sort, if possible; I would have accepted anything), but actually without any real plan, I couldn’t precisely say why. But I’d said to myself, You must see Courrières. I had only 10 francs in my pocket, and having started out by taking the train I’d soon exhausted those resources, and having stayed on the road for a week, I trudged rather painfully. Nevertheless, I saw Courrières and the outside of <rs type="person" ref="bio.xml#_899">Mr Jules Breton</rs>’s studio.<ptr target="#note-t-9"/> The outside of this studio disappointed me a little, seeing that it’s a brand-new studio and newly built in brick, of a Methodist regularity,<ptr target="#note-t-10"/> of an aspect as inhospitable and chilly and ascetic as <rs type="person" ref="bio.xml#_422">C.M.</rs>’s Jovinda,<ptr target="#note-t-11"/> which, between ourselves, I don’t much like either for this same reason. If I’d been able to see the inside I would have thought no more about the outside, I’m inclined to believe, and I’m sure of it even, but there you are, I wasn’t able to get a look at the inside.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Because I didn’t dare to introduce myself, so as to go in. I looked elsewhere in Courrières for some trace of <rs type="person" ref="bio.xml#_899">Jules Breton</rs> or of some other artist; all I found was his picture at a photographer’s shop<ptr target="#note-t-12"/> and then, in the old church, in a dark corner, a copy of <rs type="person" ref="bio.xml#_1393">Titian</rs>’s Entombment, which in the darkness seemed to me to be very beautiful and of a masterly tone. Was it by him? I don’t know, being unable to make out any signature.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">But of a living artist, not a trace, there was only a café, the so-called Café des Beaux-Arts,<ptr target="#note-t-14"/> also in inhospitable and chilly and mortifying new brick, which café was decorated with some sort of frescoes or mural paintings depicting episodes from the life of the illustrious knight, Don Quixote.<ptr target="#note-t-15"/> These frescoes, let it be said in confidence, seemed to me then rather poor consolation and rather mediocre. I don’t know who they were by.</p>
+<p rend="indent" xml:id="p.en.12" n="12">But at any rate I saw the Courrières countryside then, the haystacks, the brown farmland or the almost coffee-coloured marly soil, with whitish spots where the marl appears, which is something rather extraordinary for those of us who are used to blackish soil. And the French sky seemed to me far more clear and limpid than the smoky and misty Borinage sky. Furthermore, there were the farmhouses and sheds that had still preserved their mossy thatched roofs, God be praised and thanked for it; I also saw hosts of crows, famous from the paintings of <rs type="person" ref="bio.xml#_976">Daubigny</rs> and <rs type="person" ref="bio.xml#_1226">Millet</rs>.<ptr target="#note-t-16"/> Not to mention first of all, as one should, the typical and picturesque figures of the workmen: different diggers, woodcutters, a farm-hand driving his team, and the occasional outline of a woman in a white bonnet. Even there, at Courrières, there was a coal-mine or pit;<ptr target="#note-t-17"/> I saw the day-shift coming up at dusk, but there were no women workers in men’s clothing, as in the Borinage, only miners looking weary and miserable, blackened by coal-dust, wearing pit-rags and one of them an old army greatcoat. Although this stage was almost unbearable to me, and I returned from it worn out, with bruised feet and in a rather melancholy state, I don’t regret it, because I saw interesting things and you learn to see with a quite different eye, there among the raw ordeals of poverty itself. I earned a few crusts of bread en route<ptr target="#note-t-18"/> here and there in exchange for some drawings that I had in my suitcase. But when my ten francs were gone, I had to bivouac out in the open for the last 3 nights, once in an abandoned carriage, all white with frost in the morning, a rather poor shelter, once in a wood-pile and once, and it was a little better, in a haystack that had been broached, where I managed to make a slightly more comfortable nest, only a fine rain didn’t exactly add to my well-being.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Well, and notwithstanding, it was in this extreme poverty that I felt my energy return and that I said to myself, in any event I’ll recover from it, I’ll pick up my pencil that I put down in my great discouragement and I’ll get back to drawing, and from then on, it seems to me, everything has changed for me, and now I’m on my way and my pencil has become somewhat obedient and seems to become more so day by day. It was poverty, too long and too severe, that had discouraged me to the point where I could no longer do anything.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">Another thing that I saw during that excursion was the weavers’ villages.</p>
+<p rend="indent" xml:id="p.en.15" n="15">The miners and the weavers are something of a race apart from other workmen and tradesmen, and I have a great fellow-feeling for them and would count myself happy if I could draw them one day, so that these types, as yet unpublished or almost unpublished, could be brought to notice. The man from the bottom of the abyss, ‘de profundis’,<ptr target="#note-t-19"/> that’s the miner; the other one, with a dreamy, almost pensive, almost a sleep-walker’s air, is the weaver. And now it’s roughly 2 years that I’ve been living with them, and to some extent I’ve learned to know their original character, mainly that of the miners at least. And more and more I find something touching and even heart-rending in these poor and obscure workers, the lowest of all, so to speak, and the most looked down upon, which one usually pictures through the effect of a perhaps vivid but very false and unjust imagination as a race of criminals and brigands. There are criminals, drunkards, brigands here as elsewhere, but that’s not at all the true type.</p>
+<p rend="indent" xml:id="p.en.16" n="16">In your letter you spoke to me vaguely about coming to Paris or the surrounding area. Sooner or later, when it would be possible and when I felt like it. Of course, it would be my great and ardent desire to come either to Paris or to Barbizon or somewhere else. But how could I do it, because I don’t earn a sou, and although I work hard it’ll take more time yet to reach the level of being able to think of such a thing as coming to Paris. Because in truth, to be able to work as one should, it would take at least about a hundred francs a month; you can live on less, but then you’re hard up, far too much so in fact.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Poverty prevents good minds succeeding; that’s Palissy’s<ptr target="#note-t-20"/> old proverb, in which there’s truth, and which is entirely true if one understands its real purpose and import.</p>
+<p rend="indent" xml:id="p.en.18" n="18">For the moment I can’t see how the thing would be practicable, and it’s better that I stay here, working as I can and will be able to, and after all, it’s cheaper to live here.</p>
+<p rend="indent" xml:id="p.en.19" n="19">However, I’d be unable to continue much longer in the little room where I am now. It’s tiny as it is, and there are two beds, the children’s and mine. And now that I’m doing the <rs type="person" ref="bio.xml#_851">Bargue</rs>s, quite big sheets, I couldn’t tell you what a nuisance it is to me. I don’t want to bother the people in their household arrangements; and also they’ve told me that as far as the other room in the house goes, there was no way for me to have it, even if I paid more, because the wife needs it to do her washing, which in a miner’s house has to be done almost every day.</p>
+<p rend="indent" xml:id="p.en.20" n="20">So I would like simply to take a little workman’s house; that costs 9 francs a month on average.</p>
+<p rend="indent" xml:id="p.en.21" n="21">I couldn’t tell you how much (despite the fact that every day new difficulties present themselves and will continue to present themselves), I couldn’t tell you how happy I feel to have taken up drawing again. It had already been on my mind for a long time, but I always saw the thing as impossible and beyond my reach. But now, while feeling both my weakness and my painful dependence in respect of many things, I’ve recovered my peace of mind, and my energy is coming back day by day.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">Now, about coming to Paris. If we found an opportunity to get in touch with some decent, valiant artist, it would be extremely advantageous for me, but, to go there just like that, it would only be a repetition on a large scale of my trip to Courrières, where I’d hoped perhaps to meet some living being of the Artist species, but where I didn’t find one. For me it’s a matter of learning to draw well, to be master either of my pencil or my charcoal or my brush; once that’s achieved I’ll do good things almost no matter where, and the Borinage is every bit as picturesque as old Venice, as Arabia, as Brittany, Normandy, Picardy or Brie.<ptr target="#note-t-21"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">If I’m doing the wrong thing, the fault is mine. But one can very certainly find more easily at Barbizon than elsewhere, if one perhaps were to have this happy encounter, the opportunity to fall in with some more advanced artist who would be for me truly a Heaven-sent angel, let it be said seriously and without any exaggeration.</p>
+<p rend="indent" xml:id="p.en.24" n="24">So if, sometime, you were to see means and opportunity, think of me; while waiting I’ll stay quietly in some little workman’s house, where I’ll work as best I can.</p>
+<p rend="indent" xml:id="p.en.25" n="25">You also speak to me of <rs type="person" ref="bio.xml#_1219">Meryon</rs>; what you say about him is very true, I am indeed slightly acquainted with his etchings. Would you like to see something curious — put one of his so precise and so powerful scratches beside any print by <rs type="person" ref="bio.xml#_1412">Viollet-le-Duc</rs><ptr target="#note-t-22"/> or by anyone at all who does architecture. Then you’ll see Meryon in full light because of the other etching, which will serve, if I may be so free, as a foil or contrast. So what do you see, then? This. Meryon, even when he’s drawing bricks, granite, the iron bars or the parapet of a bridge, puts something of the human soul, shaken by I know not what heartache, into his etching. I’ve seen drawings of Gothic architecture by <rs type="person" ref="bio.xml#_666">V. Hugo</rs>.<ptr target="#note-t-23"/> Well, without having Meryon’s powerful and masterly execution,<ptr target="#note-t-24"/> there was something of the same sentiment. What is this sentiment? It has some kinship with that which <rs type="person" ref="bio.xml#_990">Albrecht Dürer</rs> expressed in his <hi rend="italics">Melancholy</hi>,<ptr target="#note-t-25"/> which in our times <rs type="person" ref="bio.xml#_1394">James Tissot</rs> and <rs type="person" ref="bio.xml#_1202">M. Maris</rs> also have (however different these two may be one from the other). Some profound critic rightly said of James Tissot ‘He’s a soul in need’.<ptr target="#note-t-26"/> But in any event, there’s something of the human soul there; it’s for that reason that that is great, immense, infinite, and put Viollet-le-Duc beside it, it’s stone, and the other (namely Meryon), that’s <hi rend="italics">Spirit.</hi> Meryon must have had such a power to love that now, like <rs type="person" ref="bio.xml#_580">Dickens</rs>’s Sydney Carton, he loves the very stones of certain places.<ptr target="#note-t-27"/> But it’s also found more and better, in a nobler, worthier and, if I may be allowed to say so, more Evangelical tone — the precious pearl,<ptr target="#note-t-28"/> the human soul revealed — in <rs type="person" ref="bio.xml#_1226">Millet</rs>, in <rs type="person" ref="bio.xml#_899">Jules Breton</rs>, in <rs type="person" ref="bio.xml#_1107">Jozef Israëls</rs>. But to return to Meryon, he has also, it seems to me, some distant kinship with <rs type="person" ref="bio.xml#_1122">Jongkind</rs> and perhaps <rs type="person" ref="bio.xml#_1077">Seymour Haden</rs>, because at certain moments these two artists were very strong. Wait, perhaps you’ll still see that I too am a worker, although I don’t know in advance what will be possible for me; nevertheless, I do hope to make some scratch yet in which there might be something human. But first I have to draw the <rs type="person" ref="bio.xml#_851">Bargue</rs>s and do other things that are rather tricky. The way is strait and the gate is strait and there are few that find it.<ptr target="#note-t-29"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">Thanking you for your kindness, chiefly for The bush, I shake your hand.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.27" n="27">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">I’ve taken all your collection now, but you’ll have it back later, and in addition, for your collection of wood engravings, which I hope you’re continuing, I have some very good things in the 2 volumes of the Musée Universel, which I intend for you.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Cuesmes le 24 sept. 1880’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is drawing from Bargue’s <hi rend="italics">Cours de dessin</hi> <ref target="let157.xml">(157)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh has got hold of two issues of <hi rend="italics">Musée Universel</hi> <ref target="let157.xml">(157)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Daubigny</rs>’s etching <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1717"><hi rend="italics">The bush</hi></rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Jacob van Ruisdael</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let035.xml#n-5">see letter 35, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For the lithograph by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1510">Auguste-Paul-Charles Anastasi</rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Rousseau</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1866"><hi rend="italics">Oven in Les Landes</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let139.xml#n-9">see letter 139, n. 9.</ref> Van Gogh’s copies after Rousseau have been lost.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Bargue</rs>'s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_170">Cours de dessin</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let136.xml#n-22">see letter 136, n. 22</ref>. The books <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> sent were most probably <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1675">A. de Zahn</rs>, <ref target="biblio.xml#lit_249"><hi rend="italics">Esquisses anatomiques à l’usage des artistes pour servir aux études d’après nature et d’après l’antique</hi></ref> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let160.xml#n-2">see letter 160, n. 2</ref>) and <ref target="biblio.xml#lit_204"><hi rend="italics">Guide de l’alphabet du dessin ou l’art d’apprendre et d’enseigner les principes rationnels du dessin d’après nature</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Armand Théophile Cassagne</rs><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">. </hi>Paris 1880. This book, consisting of 43 lessons, contained much on perspective, and helped to dispel Van Gogh’s doubts when he started to draw (as he later wrote in April 1882). It was, in his view, a ‘comprehensible’ work; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let214.xml">letter 214</ref>). See cat. Amsterdam 1996, pp. 18-21.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh ‘believes’ he can recall watercolours by Lessore, by which he could mean either the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1162">Emile Aubert Lessore</rs>, whose known works include landscapes and figure studies from Algiers (mainly watercolours), or the work of his son, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1163">Jules Lessore</rs>, who worked as a watercolourist in Paris and London (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">TB</hi>). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1202">Matthijs Maris</rs> was a friend of Jules (see Heijbroek 1975, p. 284). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1161">Henri Emile Lessore</rs>, by whom Theo owned several prints, occurs in his address book. See exhib. cat. Paris 1988, p. 361. The portrait of Victor Hugo mentioned below has not been identified.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘tout à fait’ (entirely, altogether).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_666">Victor Hugo</rs>, <ref target="biblio.xml#lit_205"><hi rend="italics">Le dernier jour d’un condamné</hi></ref> (1829). This novel, the story of the last day in the life of a criminal sentenced to death, addresses the horror of capital punishment.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_666">Hugo</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_198">William Shakespeare</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let155.xml#n-9">see letter 155, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+      
+<p>The French village of Barbizon, on the edge of the forest of Fontainebleau near Paris, was known in particular for the landscape painters who had worked there between c. 1830 and 1870 and whose work became widely known as the Barbizon School. They included <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Théodore Rousseau</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_986">Jules Dupré</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Charles-François Daubigny</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_992">Narcisse Virgile Diaz de la Peña</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1389">Constant Troyon</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_931">Antoine Chintreuil</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_347">Henri Harpignies</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Jean-François Millet</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Courrières is c. 20 km south of Lille in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">departement</hi> Pas de Calais. Van Gogh added ‘non pas la Manche’ to make sure that Theo knew he wasn’t referring to the English Channel. Later he writes that he made this long journey on foot at the beginning of March (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let391.xml">see letter 391</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Breton</rs> had had a studio built near his house in the early 1860s. It stood on the site of the present-day house at rue Louis Breton 10, but was destroyed during the First World War. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’écho du passé. Bulletin du Club d’histoire locale de Courrières</hi> (1996), no. 8, pp. 25-27. Cf. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The garden of ‘The brewery’ at Courrières</hi>, 1861 (private collection) in exhib. cat. Cleveland 1980, pp. 187, 275-276, cat. no. 162; exhib. cat. Arras 2002, p. 109. For a photograph of Breton’s house and the interior of the studio, see Maurius Vachon, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jules Breton</hi>. Paris 1899, p. 19. </p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Dorn found a connection between the ‘Methodist regularity’ of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Breton</rs>’s studio and the following remark made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_666">Hugo</rs> in <ref target="biblio.xml#lit_198"><hi rend="italics">William Shakespeare</hi></ref> concerning the house he lived in himself: ‘It’s constructed of Methodism’. See Hugo 1864, p. 10, and exhib. cat. Vienna 1996, p. 32.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jovinda</hi> was the name of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_422">Uncle Cor</rs>’s villa at the corner of Prins Hendriklaan and Amalialaan G 72b in Baarn. This name was composed of the first couple of letters of the Christian names of each of his children <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_88"/><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jo</hi>hanna, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_400"/><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vin</hi>cent and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_426"/><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Da</hi>niël. Uncle Cor officially registered as residing there on 18 April 1878. The house, also known as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Villa Rozenburg</hi>, was built in an eclectic style and was demolished in the mid-1930s. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1893">Ill. 1893</rs> (Photo collection of C. van de Steeg in Baarn). Cf. H. Bronkhorst, ‘Vincent van Gogh in Baarn: “Wat is het daar mooi”’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Baerne. Tijdschrift van de historische kring ‘Baerne’</hi> 11-2 (1987), pp. 7-12.</p>
+
+<p rend="indent">On 2 September 1874, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> wrote to Theo about Jovinda: ‘Then I went to Baarn and stayed a day. It is very, very beautiful there. Uncle Cor is having a splendid house built. Will you, too, make such a success of yourself one day? But we don’t have to dwell on that yet’ (FR b2717).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>In those days the only photographer in Courrières was Mr Gourlet. He was an amateur draughtsman and a friend of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>. (Communicated by Francine Lhost, chairperson of the ‘Club d’histoire locale de Courrières’). A portrait photograph of Breton appears in exhib. cat. Cleveland 1980, p. 275.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The old church is the Eglise Saint-Piat, built in 1532, in which <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Breton</rs> painted in 1847 a Fourteenth Station of the Cross which was actually a copy of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1393">Titian</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_138"><hi rend="italics">Entombment</hi></rs> of the mid-1520s (Paris, Musée du Louvre). Breton’s work was lost during the fire that swept through the church on 28 May 1940. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’écho du passé. Bulletin du Club d’histoire locale de Courrières</hi> (1996), no. 8, p. 25 and (1997), no. 11, pp. 10-11 (ill.), 28. ‘An unpublished letter written by J. Breton to his uncle Boniface Breton on 3 July 1847 indicates that he is about to start painting the 14th Station of the Cross which he was supposed to carry out in the summer and autumn of 1847’ (Letter from Annette Bourrut Lacouture in Paris, 15 August 1999).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>This ‘Café des Beaux-Arts’ was located at the corner of present-day rue Louis Breton and rue Massenet.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Nothing has been found about the café’s Don Quixote decoration.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>With regard to flights of crows in the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Daubigny</rs>, Van Gogh could have been thinking of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_139"><hi rend="italics">Les corbeaux, coteaux en Champagne</hi></rs> (The crows, hills in Champagne), 1860 (cf. Hellebranth 1976, p. 141, cat. no. 437); in the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>, he could have had in mind <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_140"><hi rend="italics">Winter: The plain of Chailly</hi></rs>, 1862 (Vienna, Österreichische Gallerie).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The pit is the so-called ‘shaft no. 1’, whose meagre yield and low-quality coal earned it the nickname ‘dust pit’. This mine was worked between 1851 and 1888. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’écho du passé. Bulletin du Club d’histoire locale de Courrières</hi> (1996), no. 8, p. 27 and (1996), no. 9, p. 4 (with ill.).</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>This was followed by ‘en vendant’ (by selling), which Van Gogh crossed out.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>Possibly an allusion to the opening of Ps. 130 in the Vulgate.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘lorsque’ (when).</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>This saying did not come from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1258">Bernard Palissy</rs>; it is, rather, the device – borrowed from Andrea Alciato – of the publisher Barthélemy Berton, the first printer of Palissy’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Recepte veritable</hi> (1564), who also included it on the title page of this edition. Van Gogh was not the only one to attribute the saying to Palissy: at the end of the nineteenth century, Palissy’s biographer, Philippe Burty, remarked: ‘the bookseller’s hallmark was incorrectly attributed to Palissy’. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bernard Palissy</hi>. Paris [1885], p. 12. The source of Van Gogh’s attribution is unclear; Palissy was a favourite of many nineteenth-century Protestant writers.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>Here Van Gogh lists a number of regions and provinces in the north(west) of France; Brie is east of Paris.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1412">Eugène Emmanuel Viollet-le-Duc</rs> was the author of several publications on architecture. His designs and ideas were known from magazines, and also appeared in the informative <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Entretiens</hi> (1858-1872), a collection of commentaries on neo-Gothic architecture. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Macmillan encyclopedia of architects</hi>. Ed. Adolf K. Placzek. New York and London 1982, vol. 4, pp. 324-332.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Van Gogh could be referring to the engravings <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Une vieille maison, à Blois </hi>(An old house at Blois) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1895">Ill. 1895</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Beffroi </hi>(Belfry) (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1896">Ill. 1896</rs>), both made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1569">Fortuné Louis Méaulle</rs> after drawings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_666">Hugo</rs>. They were reproduced in Philippe Burty’s article, ‘Les Dessins de Victor Hugo’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Art</hi> 1 (12 September 1875), pp. 32-38 (ills. on pp. 33 and 35); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let141.xml">letter 141</ref> reveals that Van Gogh knew this magazine. On these drawings, see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Victor Hugo pittore</hi>. J.J. Lebel. Exhib. cat. Venice (Galleria d’Arte Moderna Ca’ Pesaro). Milano 1993 and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Drawings by Victor Hugo</hi>. P. Georgel and G. Reynolds. Exhib. cat. London (The Victoria and Albert Museum), 1974. London 1974, esp. cat. no. 58.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>For similar buildings in the work of Meryon, see Richard S. Schneiderman (with the assistance of Frank W. Raysor, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ii</hi>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The catalogue raisonné of the prints of Charles Meryon</hi>. London 1990.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_990">Albrecht Dürer</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Melencolia</hi>, 1514 (H75) (Amsterdam, Rijksprentenkabinet). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_86">Ill. 86</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>It has not been ascertained which critic said this about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1394">Tissot</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>Vincent later added the sentence ‘Meryon ... places’. Here he refers to a passage in ‘The fellow of no delicacy’ from <ref target="biblio.xml#lit_164"><hi rend="italics">A tale of two cities</hi></ref> (part 2, chapter 13), in which Sydney Carton, overshadowed by a ‘cloud of caring for nothing’, spends many nights outside his beloved Lucie’s house, in the course of which he even starts to grow fond of the very pavement: ‘And yet he did care something for the streets that environed that house, and for the senseless stones that made their pavements.’ See Dickens 1859, p. 98.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Perhaps Van Gogh was thinking of Matt. 13:46.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>
+  Matt. 7:14.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

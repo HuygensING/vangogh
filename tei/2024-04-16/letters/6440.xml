@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, between Tuesday, 17 and Friday, 20 July 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let644"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b553 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>644</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>512</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>648</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-07-17">between Tuesday, 17 and Friday, 20 July 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0553" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000743_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000743_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000743_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0553" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000743_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000743_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000743_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo</p>
+
+<p xml:id="p.fr.2" n="2">Bien merci de ta lettre qui m’a fait bien plaisir<c type="kk">/</c> arrivant tout juste au moment où j’étais encore abruti par le soleil et la tension de mener une assez grande toile<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai un nouveau dessin d’un jardin plein de fleurs, j’en ai également deux etudes peintes<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je dois t’envoyer une nouvelle commande de toile et de couleurs assez importante<c type="kp">_</c> Seulement elle n’est point pressée<c type="kp">_</c> Ce qu’à la rigueur serait pressé serait plutôt la toile vu que j’ai un tas de chassis dont j’ai détaché les études et où entre temps je dois remettre d’autres toiles.<ptr target="#note-t-3"/></p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p xml:id="p.fr.5" n="5">Tu verras par ce croquis le motif des nouvelles etudes<c type="kk">/</c> il y en a une en hauteur et une en largeur du même motif – des toiles de 30.<ptr target="#note-t-4"/> Il y a bien un motif de tableau là-dedans – comme dans d’autres etudes que j’ai<c type="kp">_</c>– Et vraiment je ne sais point si jamais je ferai des tableaux calmes et tranquillement travaillés moi<c type="kk">/</c> puisqu’il me semble que cela restera toujours décousu<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">As tu des nouvelles de Gauguin<c type="kk">/</c> moi je lui ai encore ecrit la semaine derniere pour savoir comment allait sa santé et son travail.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Pas de reponse de Russell qui ne doit pas être à Paris à ce que raccontait Mc Knight qui est revenu avec Bock. toujours silence glacé pour le travail quant ils viennent.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Ce que tu dis de Prinsenhage<c type="kk">/</c> c’est vrai que c’est encore une fois la même histoire – mais lorsqu’à la fin des fins le bonhomme n’y sera plus alors pour son petit cercle ce sera un vide et une désolation de plus.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Et meme nous autres le sentirions car il y a quelque chôse de navrant dans ce qu’etant plus jeunes on l’a tant vu et on a même été influencé par lui.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Alors de voir quelqu’un qu’on a connu très remuant reduit à un tel état d’impuissance soupçonneuse et de souffrance continuelle<c type="kk">/</c> cela ne donne certes pas une idée engageante et gaie de la vie humaine et n’augmente pas la joie de vivre<c type="kp">_</c> La mère à Breda doit se faire bien vieille elle aussi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Involontairement – est ce l’effet de la nature si Ruysdaelesque d’ici – je pense assez souvent à la Hollande et à travers le double éloignement de la distance et du temps écoulé ces souvenirs ont un certain navrant.–</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Ce que tu écris de Reid n’est pas bien gai non plus – il parlait tellement à des moments de se faire peintre et de se retirer auprès d’une tante à la campagne que c’est juste possible qu’il soit en train d’executer ce projet-là.<ptr target="#note-t-6"/> Qu’est ce que dit Maria<c type="kk">/</c> mais peutêtre a-t-elle également disparue.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Je crois tout de même que le vent continuel d’ici doit y être pour quelque chôse dans ce que les études peintes ont cet air hagard. Puisque chez Cezanne on voit cela aussi<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Ce qui doit faciliter au Japonais de fourrer leurs oeuvres d’art dans des tiroirs et des placards c’est que l’on peut rouler les kakemonos et non pas nos études peintes<c type="kk">/</c> qui finiraient par s’écailler<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Rien ne faciliterait davantage chez nous l’emplacement des toiles que de les faire accepter generalement comme ornements des habitations bourgeoises. Comme anciennement en Hollande.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Ainsi ici dans le midi cela ferait rudement bien de voir des tableaux sur les murs blancs<c type="kp">_</c> Mais allez y voir<c type="kk">/</c> partout des grands medaillons Julien<ptr target="#note-t-9"/> colorés<c type="kk">/</c> des horreurs. Et helas<c type="kk">/</c> nous n’y changerons rien à cet état de choses.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Pourtant – les cafés – peutêtre plus tard on les decorera.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">à bientot<c type="kk">/</c> poignee de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.20" n="20">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo</p>
+<p xml:id="p.en.2" n="2">Many thanks for your letter, which gave me great pleasure, coming just at the moment when I was still dazed by the sun and the strain of handling a rather large canvas.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I have a new drawing of a garden full of flowers; I also have two painted studies of it.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I must send you a rather large new order for canvas and colours. Only it’s not at all urgent. What, if anything, would be urgent would rather be the canvas, seeing that I have a whole lot of stretching frames from which I’ve removed the studies, and on which in the meantime I must put other canvases.<ptr target="#note-t-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p xml:id="p.en.7" n="7">You’ll see from this croquis the subject of the new studies; there’s one vertical and one horizontal one of the same subject — no. 30 canvases.<ptr target="#note-t-4"/> There’s definitely a subject for a painting among them — as in some other studies that I have. And truly, I don’t know if I’ll ever do tranquil and calmly worked paintings, myself, as it seems to me that it will always remain disjointed. </p>
+<p rend="indent" xml:id="p.en.8" n="8">Have you any news from <rs type="person" ref="bio.xml#_1039">Gauguin</rs>? I wrote to him again last week, to know how it was going with his health and his work.</p>
+<p rend="indent" xml:id="p.en.9" n="9">No reply from <rs type="person" ref="bio.xml#_1334">Russell</rs>, who’s probably not in Paris, judging by what <rs type="person" ref="bio.xml#_1189">Macknight</rs> was saying, who has come back with <rs type="person" ref="bio.xml#_869">Boch</rs>. Still icy silence about the work when they come.</p>
+<p rend="indent" xml:id="p.en.10" n="10">What you say about <rs type="person" ref="bio.xml#_423">Princenhage</rs>, it’s true that it’s the same story all over again — but when at long last the fellow isn’t there any more, then for his little circle it will be one more emptiness and desolation.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">And even the rest of us would feel it, because there’s something heartbreaking in the fact that when we were younger we saw so much of him, and we were even influenced by him. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">So, seeing someone whom one has known as very active reduced to that state of suspicious helplessness and constant suffering, it certainly doesn’t give you an appealing or cheerful notion of human life, and doesn’t add to the joy of living. Our <rs type="person" ref="bio.xml#_524">mother</rs> in Breda, she must be getting on a bit, too.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Without meaning to — is it the effect of nature down here, so <rs type="person" ref="bio.xml#_1333">Ruisdael</rs>esque? — I quite often think of Holland, and with the double separation of distance and time that has passed, these memories have something heartbreaking about them.</p>
+<p rend="indent" xml:id="p.en.14" n="14">What you write about <rs type="person" ref="bio.xml#_623">Reid</rs> isn’t very cheerful either — at times he used to speak so often of making himself a painter, and of retiring to live with an aunt in the country, that it’s just possible that he’s carrying out this plan now.<ptr target="#note-t-6"/> What does Maria say? But perhaps she’s disappeared too.<ptr target="#note-t-7"/></p>
+<p xml:id="p.en.15" n="15">I believe all the same that the constant wind here must have something to do with the fact that the painted studies have that wild look. Because you also see it in <rs type="person" ref="bio.xml#_932">Cézanne</rs>. 
+      <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">What must make it easier for the Japanese to stuff their works of art into drawers and cupboards is that you can roll kakemonos but not our painted studies, which would eventually flake.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">Nothing would make it easier for us to place our canvases than to get them widely accepted as decorations in bourgeois homes. As in Holland in the old days.</p>
+<p rend="indent" xml:id="p.en.18" n="18">And here in the south it would do a hell of a lot of good to see paintings on the white walls. But go and look: big, coloured <rs type="person" ref="bio.xml#_1119">Julien</rs> medallions<ptr target="#note-t-9"/> everywhere — horrors. And alas, we won’t change anything in this state of affairs.</p>
+<p rend="indent" xml:id="p.en.19" n="19">However — cafés — perhaps we’ll decorate them later on.</p>
+<p rend="indent" xml:id="p.en.20" n="20">More soon, handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Ever yours,</p>
+<p xml:id="p.en.22" n="22">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for a letter, not for sending his allowance – he does that in <ref target="let645.xml">letter 645</ref> of about Sunday, 22 July. This letter precedes that one, as we can tell from the remarks about Gauguin <ref target="#l-22">(ll. 22-24)</ref> and Macknight <ref target="#l-25">(ll. 25-28)</ref>. It is not possible to pinpoint an exact date, though Vincent has meanwhile started some new studies, which means that a few days must have elapsed since his last letter to Theo of Sunday, 15 July <ref target="let642.xml">(642)</ref>. We have therefore dated the present letter between Tuesday, 17 and Friday, 20 July 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">It appears from <ref target="#l-8">ll. 8-9</ref> that Van Gogh enclosed an order for paint. It has not survived.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s illness <ref target="let581.xml">(581)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh appears to be referring here to one of the two no. 30 canvases he mentions after this. We cannot rule out the possibility that he means a third work, in which case it must be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mousmé</hi>, which measures 74 x 60 cm; he stresses several times that painting it was a great effort for him (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let649.xml">see letters 649</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let650.xml">650</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The drawing is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2669">F 1455 / JH 1512</rs>); the two paintings, no. 30 canvases, are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2668">F 430 / JH 1510</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2670">F 429 / JH 1513</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This order eventually arrived in Arles on 9 August: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let658.xml">see letter 658</ref>. For this order see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let652.xml">letter 652</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Garden with flowers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_182">F - / JH 1511</rs>) is after the first-mentioned painting (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">see n. 2</ref> above).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent van Gogh</rs> of Princenhage was seriously ill – he had a lung condition (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let615.xml">letter 615</ref>). He died soon after this, on 28 July 1888.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>According to his son Alexander, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs> was a skilled amateur artist and he often went ‘on sketching expeditions’ with Van Gogh on Sundays. He did not, though, have an aunt in the country. See Alexander McNeill Reid, notes for a biography of Alex Reid (unpublished manuscript, Acc. 6425, National Library of Scotland; photocopy).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>We do not know who this ‘Maria’ is; Van Gogh might have meant <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_623">Reid</rs>’s former girlfriend <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_5">Mary Bacon Martin</rs>. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let602.xml#n-21">letter 602, n. 21.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Kakemonos are Japanese prints in vertical format on a hanging roll of silk or paper, with rods at the top and bottom. Van Gogh had read about the Japanese approach to art in<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Loti</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_481">Madame Chrysanthème</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let639.xml#n-11">see letter 639, n. 11.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh is referring to coloured medallions in the style of the eighteenth-century sculptor <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1119">Pierre Julien</rs>. Commissioned by King Louis <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xvi</hi>, he had made sculptures for the milking parlours at Rambouillet, among them were four medallions depicting the ‘travaux de la laiterie’ (the work of the dairy), and a large medallion of a mother suckling her child. He could also mean replicas of them or coloured reproductions after these medallions.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

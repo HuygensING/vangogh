@@ -1,0 +1,134 @@
+switches:
+  dev:
+    server: 'https://vangogh.diginfra.org'
+  prod:
+    server: 'https://data.vangogh.huygens.knaw.nl'
+
+constants:
+  context: 'http://iiif.io/api/presentation/3/context.json'
+  profile: 'http://iiif.io/api/image/3/level1.json'
+  rightsCC0: 'http://creativecommons.org/publicdomain/zero/1.0/'
+  providerId: 'https://www.vangoghmuseum.nl'
+  providerLabelEn: "Van Gogh Museum"
+  provHomepageId: 'https://www.vangoghmuseum.nl/en'
+  provHomepageLabel: 'Homepage of the Van Gogh Museum'
+  provLogoId: 'providerlogo.png'
+  provLogoHeight: 268
+  provLogoWidth: 664
+  ext: 'jpg'
+  iiifRoot: '«server»/iiif/3/'
+  iiifParams: '/full/max/{rot}/default'
+  manifestRoot: '«server»/files/manifests/'
+  logoRoot: '«server»/files/logo'
+  metaRoot: '«server»/files/meta'
+
+macros:
+  manifestUrl: '«manifestRoot»letters.json'
+  canvasUrl: '«manifestRoot»letters.json/canvas/pages%2F{page}'
+  pageUrl: '«iiifRoot»pages%2F{page}.«ext»«iiifParams».«ext»'
+
+scans:
+  manifestUrl:
+    folder:
+      vars: {}
+      value: '<manifestUrl>'
+  canvasUrl:
+    page:
+      vars:
+        page: facs
+      value: '<canvasUrl>' 
+    file:
+        vars:
+          page: '-page.facs'
+        value: '<canvasUrl>'
+  pageUrl:
+    page:
+      vars:
+        page: facs
+        rot: rend
+      value: '<pageUrl>' 
+  prev:
+    page:
+      vars:
+        node: '=-1'
+      value: '{node}' 
+    file:
+      vars:
+        node: '=-1'
+      value: '{node}' 
+  next:
+    page:
+      vars:
+        node: '=+1'
+      value: '{node}' 
+    file:
+      vars:
+        node: '=+1'
+      value: '{node}' 
+
+templates:
+  # manifestLevel:
+  pageSequence:
+    "@context": «context»
+    manifestInventory: '<manifestUrl>'
+    type: Manifest
+    label:
+      en:
+      - 'Letters'
+    metadata:
+    - label:
+        en:
+        - Filename
+      value:
+        en:
+        - 'letters.json'
+    summary:
+      en:
+      - 'Letters'
+    rights: «rightsCC0»
+    provider:
+    - id: '«providerId»'
+      type: Agent
+      label:
+      - en: '«providerLabelEn»'
+      - it: '«providerLabelIt»'
+      homepage:
+        - id: '«provHomepageId»'
+          type: Text
+          label:
+          - en: '«provHomepageLabel»'
+          format: text/html
+      logo:
+        - id: '«logoRoot»/«provLogoId»'
+          type: Image
+          format: text/html
+          height: '«provLogoHeight»'
+          width: '«provLogoWidth»'
+
+  # canvasLevel
+  pageItem:
+    id: '<canvasUrl>'
+    type: Canvas
+    label: 
+      en:
+      - '{page}'
+    height: '{height}'
+    width: '{width}'
+    items:
+    - id: '<canvasUrl>/annotationpage'
+      type: AnnotationPage
+      items:
+      - id: '<canvasUrl>/anno'
+        type: Annotation
+        motivation: painting
+        body:
+          id: '<pageUrl>'
+          type: Image
+          height: '{height}'
+          width: '{width}'
+          service:
+          - '@id': '«iiifRoot»pages%2F{page}.«ext»'
+            '@type': ImageService2
+            profile: '«profile»'
+          format: image/jpeg
+        target: '<canvasUrl>'

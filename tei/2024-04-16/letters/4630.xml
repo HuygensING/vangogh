@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, Tuesday, 30 September 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let463"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b414 a-b, e V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>463</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>380</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>465</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-09-30">Tuesday, 30 September 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000548_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000548_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000548_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000548_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000548_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000548_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 2 not found." xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000549_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000549_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0414b V/1962" xml:id="surf-extra-2v">
+<graphic url="https://example.com/iiif/VGM001000549_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001000549_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0414e V/1962" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000552_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000552_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0414e V/1962" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000552_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000552_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">hierbij stuur ik U twee photographies<ptr target="#note-t-1"/> – ge krijgt er ook nog later twee van wevers<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik was voornemens 12 photographies te laten nemen<c type="kk">/</c> eene serie brabantsche voorstellingen waaronder ook de 6 welke ik voor Hermans maak<c type="kp">_</c>–<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik was voornemens die aan eenige illustraties te zenden om te zien werk te krijgen of althans bekend te worden<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Maar ik zie er van af daar de photograaf slechts epreuves geeft die zonder<c type="kk">/</c><ptr target="#note-t-a"/> of altans veel te weinig het eigentlijke clair obscur terug geven<c type="kk">/</c> dan<ptr target="#note-t-b"/> veel en slecht retoucheert<c type="kk">/</c> en toch nog dikwijls donker laat wat op ’t sch<hi rend="super">ij</hi> licht is en omgekeerd.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">De wevers laat ik echter nog een proef mee nemen<c type="kk">/</c> in carte de visite slechts<c type="kp">_</c> omdat ik hier zoo ver van de illustraties af ben dien ik toch een middel te vinden om op andere wijze dan door woorden eenige connecties aan te knoopen.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik hoop dezen winter verscheiden teekeningen te maken<c type="kk">/</c> juist ook van diezelfde composities voornoemd<c type="kk">/</c> en die b.v. eens aan de London News te zenden – die als ge ’t opgemerkt hebt dikwijls beter is nu dan de Graphic en onder anderen pas een zeer mooie Frank Holl heeft gegeven<ptr target="#note-t-4"/> en een mooi landschap met schapen.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik heb dezen laatsten tijd juist hard gewerkt<c type="kk">/</c> ik geloof in verband met andere agitatie zelfs me overwerkt<c type="kp">_</c>– Ten minste ik ben triest gestemd en een en ander heeft mij dermate aangegrepen dat ik veel dagen heb dat ik betrekkelijk magteloos ben<c type="kp">_</c> Ik kan niet eten en ik kan niet slapen<c type="kk">/</c> dat wil zeggen te weinig<c type="kk">/</c> en daar wordt men slap van.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Maar ik zal er wel weer overheen komen. juist omdat ik vrij goede berigten heb uit Utrecht<c type="kp">_</c></p>
+
+<p xml:id="p.nl.10" n="10">Maar ik houd veel zorg omdat ik vrees het lang duren zal eer zij geheel is hersteld. 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>Misschien duurt het bij me zelf ook lang eer ik er over heen ben<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik blijf het erg betreuren Theo<c type="kk">/</c> dat ik aan de eene<c type="kk">/</c> gij aan de andere zijde van een zekere barricade staat die <hi rend="italics">in straatsteenen</hi> nu wel niet meer te zien is maar in ’t maatschappelijke wel degelijk nog bestaat en doorgaat<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Op die lithographie van Daumier of Lemud<c type="kk">/</c> wie van beiden ’t ook zij<c type="kk">/</c> is ’t hoofdmotief juist een persoon wiens historie ik me herinner<c type="kp">_</c><ptr target="#note-t-6"/> Er waren twee broers en die stonden aan <hi rend="italics">den</hi> <hi rend="italics">zelfden</hi> kant en beiden vielen een dag na elkaar voor <hi rend="italics">dezelfde zaak</hi><c type="kp">_</c> Dat had <hi rend="italics">kunnen</hi> zijn in ons geval maar gebeurt nu zoo goed als zeker nooit<c type="kp">_</c> Ik voor mij weet genoeg de toekomst quand même altijd zeer moeielijk blijft voor me en ik weet zoo goed als zeker dat het mij in de toekomst niet wat de menschen noemen <hi rend="italics">goed</hi> zal gaan<c type="kp">_</c>–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ik geloof dat Pa ook wel iets voelt van dat het meer fataliteit dan opzettelijken toeleg is bij eventueel beslist verschil van opinie<c type="kp">_</c> Maar ik wou dat ik niemand <hi rend="italics">raakte</hi><c type="kk">/</c> dat Pa niet soms <hi rend="italics">vlak</hi> <hi rend="italics">voor me</hi> was gaan staan.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Enfin soms denk ik wel eens in alle geval het schilderen veel noodlottigs coupeeren kan en ’t anders nog erger ware. Ik heb voor de toekomst nu geen andere plannen dan door te gaan met mijn Brabantsche motieven totdat ik ze zoo ver heb ik ze b.v. in Belgie kwijtraak en elders wat teekeningen verkoop<c type="kp">_</c> Dan<c type="kk">/</c> als ik ietwat vasten grond voel<c type="kk">/</c> wou ik nog wel eens naar de mijnwerkers terug. Altijd zal ’t mij verheugen indien gij geleidelijk het er op brengt we <hi rend="italics">elkaar niet raken kunnen</hi><c type="kk">/</c> al zijn de geweerloopen in tegengestelde rigting. Ik vraag van U niet dat gij b.v. met mijn werk sympathiseeren zult doch als ooit ge een ressource weet<c type="kk">/</c> zeg het mij. Rappard is en in Drenthe en weer op Terschelling geweest en schijnt een goede vangst van studies te hebben gehad. Hij komt waar<c type="shy">-</c>schijnlijk in October weer een poos hier.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Gegroet.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.18" n="18">Het sch<hi rend="super">ij</hi> van den zaaier is even groot als de spinster<c type="kk">/</c> de kleur van den grond is neutraal doch eenigzins rose<c type="kk">/</c> verderop lichtgroen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">De kiel van den man is blaauw en de broek bruin. de slopkousen vuil linnen<c type="kp">_</c> ik verbeeld me dat in ’t sch<hi rend="super">ij</hi> de kop tegen de lucht uit beter is dan in de photographie<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Zeg eens Theo – wat de barricade aangaat – gij weet er een tijd in mijn leven geweest is dat ik ook in het vaarwater der Guizot lui<ptr target="#note-t-7"/> geweest ben – ik heb ook van Pa en Haanebeek<c type="kk">/</c> van Grootvader<c type="kk">/</c> van enfin “de Guizots” geloofd allerlei moois en goeds<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Maar <hi rend="italics">toen</hi> ik er spijt van kreeg weet gij dat ik ook met energie en vasthoudendheid mij omgedraaid heb.</p>
+    
+<p rend="indent" xml:id="p.nl.22" n="22">De nieuwere van <hi rend="italics">nu</hi> willen <hi rend="italics">mij</hi> echter <hi rend="italics">niet hebben</hi> – ook al goed<c type="kk">/</c> DAAR GEEF IK NIETS OM – <hi rend="italics">en</hi> als menschen <hi rend="italics">en</hi> als schilders is ’t geslacht van omstreeks 48 mij liever dan omstreeks 84<c type="kk">/</c> maar wat 48 betreft<c type="kk">/</c> <hi rend="italics">niet</hi> de Guizots maar de <hi rend="italics">revolutionairen</hi><c type="kk">/</c> <hi rend="italics">Michelet</hi> – en ook de <hi rend="italics">boerenschilders van Barbizon</hi><c type="kp">_</c></p><pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/><pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I send you herewith two photographs<ptr target="#note-t-1"/> — you’ll get another two of weavers later.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I was planning to have 12 photographs taken, a series of Brabant scenes, including the 6 that I’m making for <rs type="person" ref="bio.xml#_449">Hermans</rs>.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I was planning to send them to a few illustrated magazines to see if I could get work, or at least become known.</p>
+<p rend="indent" xml:id="p.en.5" n="5">But I’ve decided against it, since the photographer only produces prints that reflect none, or at least far too little of the original chiaroscuro, moreover retouches a great deal and badly, and even so still often leaves things dark that are light in the painting and vice versa.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’ll have another proof made of the weavers, though, just as <hi rend="italics">cartes de visite</hi>. Because I’m so far away from the illustrated magazines here I must find some means of establishing a few connections in ways other than by word of mouth. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I hope to make various drawings this winter, of those very same aforesaid compositions, and try sending them to the London News, say — which as you may have noticed is now often better than the Graphic and, among other things, just published a very fine <rs type="person" ref="bio.xml#_1089">Frank Holl</rs><ptr target="#note-t-4"/> and a fine landscape with sheep.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">I’ve worked really hard recently; I believe, in conjunction with other agitation, even overworked. At least I’m in a sad mood, and all these things have affected me to such an extent that I have many days when I’m relatively powerless. I can’t eat and I can’t sleep, that’s to say not enough, and that makes one weak.</p>
+<p rend="indent" xml:id="p.en.9" n="9">But I’ll get over it, particularly because I have fairly good tidings from Utrecht. But I’m still very concerned because I fear it will be a long time before <rs type="person" ref="bio.xml#_267">she</rs> recovers completely. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> Perhaps it will also take me a long time before I get over it.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I still deeply regret, Theo, that I’m on one side, you on the other, of a certain barricade that may no longer be visible <hi rend="italics">in the form of paving-stones</hi>, but which still definitely exists and persists in society.</p>
+<p rend="indent" xml:id="p.en.11" n="11">In that lithograph by <rs type="person" ref="bio.xml#_977">Daumier</rs> or <rs type="person" ref="bio.xml#_1167">De Lemud</rs>, whichever of them it may be, the main subject is precisely a person whose story I remember.<ptr target="#note-t-6"/> There were two brothers and they were on <hi rend="italics">the same</hi> side and both fell, one a day after the other, for <hi rend="italics">the same cause</hi>. That <hi rend="italics">might</hi> have been so in our case, but now it’s as good as certain that it will never happen. For my part I’m well aware that, come what may, the future will always be very difficult for me, and I know as good as for certain that things won’t go what people describe as <hi rend="italics">well</hi> for me in the future. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I believe that <rs type="person" ref="bio.xml#_526">Pa</rs> also feels something of the fact that it’s more fate than deliberate design when there’s sometimes such a decided difference of opinion. But I wish to <hi rend="italics">hit</hi> <hi rend="italics">no one</hi>; wish that Pa hadn’t sometimes gone and stood <hi rend="italics">right in front of me</hi>.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Anyway, I sometimes think now and again that painting can in any event forestall many disasters, and that otherwise it would be even worse. I presently have no other plans for the future except to continue with my Brabant subjects until I’ve got them so far that I could dispose of them in Belgium, say, and sell a few drawings elsewhere. Then, when I feel on rather firmer ground, I’d like to go back to the miners again. I’d be forever gratified if you were gradually to arrange it in such a way that we <hi rend="italics">can’t hit each other</hi>, even though the gun barrels are pointing in opposite directions. I don’t ask of you that you sympathize with my work, for instance, but if you ever hear of a resource, tell me. <rs type="person" ref="bio.xml#_1306">Rappard</rs> has been in Drenthe and on Terschelling again, and appears to have netted a goodly catch of studies. He’s probably coming here again for a while in October.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Yours truly,</p>
+<p xml:id="p.en.16" n="16">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.18" n="18">The painting of the sower is the same size as the woman spinning; the colour of the soil is neutral but slightly pink, light green further away.</p>
+<p rend="indent" xml:id="p.en.19" n="19">The man’s smock is blue and the trousers brown. The gaiters dirty linen. I fancy that the head shows up against the sky better in the painting than in the photograph.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Listen, Theo — about the barricade — you know there’s been a time in my life when I was also in the <rs type="person" ref="bio.xml#_620">Guizot</rs> people’s camp<ptr target="#note-t-7"/> — I’ve also believed all sorts of fine and good things about <rs type="person" ref="bio.xml#_526">Pa</rs> and <rs type="person" ref="bio.xml#_442">Haanebeek</rs>, about <rs type="person" ref="bio.xml#_398">Grandfather</rs>, about ‘the Guizots’ in short.</p>
+<p rend="indent" xml:id="p.en.21" n="21">But <hi rend="italics">when</hi> I regretted it, you know that I also turned around with energy and tenacity.</p>
+<p rend="indent" xml:id="p.en.22" n="22">The newer men of <hi rend="italics">today</hi> <hi rend="italics">don’t want me</hi>, though — that’s all right, I DON’T CARE ABOUT THAT — <hi rend="italics">both</hi> as people <hi rend="italics">and</hi> as painters, I prefer the generation of around 48 to around 84, but as to 48, <hi rend="italics">not</hi> the <rs type="person" ref="bio.xml#_620">Guizot</rs>s but the <hi rend="italics">revolutionaries, <rs type="person" ref="bio.xml#_707">Michelet</rs></hi> — and also the <hi rend="italics">peasant painters of Barbizon</hi>.</p><pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/><pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Date of postmark: Tuesday, 30 September 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                    	            
+                                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The envelope of this letter has survived. On the front is the postmark ‘NUENEN 8-12 V / 30 SEP 84’, over two 5-cent postage stamps and one for 2½ cents, and on the back ‘PARIS 3 (60) / <hi rend="italics">[x]</hi>e/1 OCT 84’. The address reads: ‘Monsieur Th. van Gogh/ 25 Rue de Laval/ <hi rend="italics">Paris</hi>’.</p>
+                    	                
+                    	            
+                                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The arrangement of the letter has been changed. We have placed two sheets that were previously published as part of this letter elsewhere; see <hi rend="italics">Arrangement</hi> in the notes to <ref target="let436.xml">letters 436</ref> and <ref target="let443.xml">443</ref>.</p>
+                    	                
+                    	        
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Set of decorations for Hermans <ref target="let453.xml">(453)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Margot Begemann is in Utrecht <ref target="let456.xml">(456)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Rappard’s visit to Nuenen <ref target="let452.xml">(452)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh initially sent larger prints, since he later wrote: ‘Here are a couple of smaller photos of the studies of which you already have the larger ones’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let467.xml">letter 467</ref>). These larger photographs are not known.</p>
+
+<p rend="indent">Six versions of ‘cartes de visite’ that Van Gogh had taken at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1761">P.H. van Bemmel</rs>’s photographic studio in Nieuwstraat in Eindhoven have survived in the estate. (FR b4761-b4766). The cardboard mounts to which the photographs are attached measure 10.5 x 6.2 cm. See exhib. cat. Vienna 1996, pp. 175-177, cat. nos. 58-63.</p>
+
+<p rend="indent">From the continuation of the letter <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-96">(l. 96)</ref> we can deduce that Van Gogh sent photographs of a woman spinning and a sower. The paintings themselves are not known, we only know of them thanks to these two small photographs. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2126">Ill. 2126</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2127">Ill. 2127</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Gogh sent the two photographs of weavers with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let465.xml">letter 465</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh sent two photographs from this set of six with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let466.xml">letter 466</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘Zonder clair obscur zijn’ (without being chiaroscuro).</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Means: ‘bovendien’ (moreover).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1089">Frank Holl</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_949">Ordered off</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let460.xml#n-7">letter 460, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+    
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1386">Gordon Thompson</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1376">The Good Shepherd</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let460.xml#n-8">letter 460, n 8</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_977">Daumier</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Revolution of 1848. A family on the barricades</hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let305.xml#n-6">letter 305, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_620">Guizot</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let461.xml#n-6">letter 461, n. 6.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

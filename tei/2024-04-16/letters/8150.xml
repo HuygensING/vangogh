@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, on or about Friday, 25 October 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let815"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b659 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>815</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>611</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>817</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-10-25">on or about Friday, 25 October 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0659" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000902_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000902_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0659" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000902_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000902_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000902_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ta lettre et des fr<c type="kp">_</c> 150<c type="kp">_</c>– que j’ai remis à M. Peyron en lui demandant encore une fois de te le dire chaque mois s’il y aurait eu des frais oui ou non – pour que cela ne s’accumule pas. J’ai aussi à te remercier d’un envoi de couleurs et enfin hier soir est arrivée la toile<ptr target="#note-t-1"/> et les reproductions Millet<ptr target="#note-t-2"/> dont je suis fort aise.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">M. Peyron m’a encore répété qu’il y a un mieux considérable et qu’il a bon espoir – et qu’il n’y voit aucun inconvenient à ce que j’aille à Arles de ces jours ci.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Cependant la melancolie me prend fort souvent avec une grande force et plus d’ailleurs la santé revient au normal<c type="kk">/</c> plus j’ai la tête capable à raisonner tres froidement<c type="kk">/</c> plus faire de la peinture qui nous coute tant et ne rapporte rien<c type="kk">/</c> meme pas le prix de revient<c type="kk">/</c> me semble comme une folie<c type="kk">/</c> une chose tout à fait contre la raison. Alors je me sens tout triste et le mal est qu’il est à mon age bigrement difficile de recommencer autre chôse<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Dans les quelques journaux hollandais que tu as ajouté aux Millet – je remarque des lettres parisiennes que j’attribue à Isaacson.<ptr target="#note-t-3"/> C’est tres subtil et on devine l’auteur un être douloureux<c type="kk">/</c> inquiet<c type="kk">/</c> d’une tendresse rare – tendresse qui me fait involontairement penser aux Reisebilder de H. Heine<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Pas besoin de te dire que je trouve extremement exageré ce qu’il dit de moi dans une note<ptr target="#note-t-5"/> et raison de plus pour que je prefère qu’il ne dise rien de moi<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Et dans tous ces articles je trouve à côté de choses très fines je ne sais quoi qui me parait malade.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Il est resté longtemps à Paris<ptr target="#note-t-6"/> – je le suppose plus sage que moi<c type="kk">/</c> ne buvant pas &amp;c<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">mais j’y retrouve comme ma propre fatigue morale de Paris pourtant. Et je crois que sous peu son tempérament s’évanouirait de tristesse<c type="kk">/</c> fatigué d’une idee fixe de chercher du bien s’il continuait beaucoup plus longtemps.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">La soeur me disait dans sa dernière lettre qu’Isaacson irait peutetre dans le Transvaal.<ptr target="#note-t-7"/> Ma foi cela pourrait valoir mieux pour lui que Paris mais moi je le regretterai pour nous car je sens beaucoup beaucoup de sympathie pour lui et aurais grand desir de faire sa connaissance personellement. Je compte encore lui écrire sur ses articles et je lui donnerai un portrait de moi comme souvenir.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">J’y pense que cela aurait pu avoir été quelqu’un qui aurait pu marier notre soeur<c type="kp">_</c> Cela vaudrait mieux pour lui que cette vie de journaliste et peutêtre le mettrait mieux à flot. Car j’en suis touché qu’on sent tellement dans ce qu’il dit que c’est un être tres souffrant et très bon<c type="kk">/</c> content quand il peut admirer.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’ai commencé ce matin les bêcheurs sur une toile de 30<c type="kp">_</c><ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Sais tu que cela pourrait être interessant de chercher à faire les dessins de Millet en peinture<c type="kk">/</c> ce serait une collection de copies toute speciale<c type="kk">/</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>quelque chose comme les travaux de Prevot qui copia les Goya et les Velasquez peu connus pour M. Doria.<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Peutêtre moi je serais plus utile en faisant cela que par ma propre peinture<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">La mère m’a écrit à moi aussi des nouvelles de Cor.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">J’ai travaillé à une étude de la salle des fievreux à l’hospice d’Arles<ptr target="#note-t-11"/> et puis n’ayant pas de toile ces derniers jours j’ai fait de longues courses en tout sens à travers le pays – je commence à sentir davantage l’ensemble de la nature dans laquelle je vis<c type="kp">_</c> Dans la suite je reviendrai peutêtre aussi toujours sur les mêmes motifs de Provence<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Ce que tu dis de Guillaumin est très vrai<c type="kk">/</c><ptr target="#note-t-12"/> il a trouvé une chose vraie et il se contente de ce qu’il a trouvé sans aborder à tort et à travers des chôses disparates et comme cela il reste juste et devient plus fort<c type="kk">/</c> toujours sur ces mêmes motifs fort simples. Il n’a ma foi pas tort et j’aime enormément cette sincerité qu’il a<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Je me hate de terminer cette lettre<c type="kk">/</c> j’avais deja commencé quatre fois à t’ecrire<ptr target="#note-t-13"/> sans pouvoir achever.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Ah à présent certes tu es toi en plein dans la nature puisque tu ecris que Jo sent déjà vivre son enfant – c’est meme bien plus intéressant que du paysage et j’en suis bien aise que cela soit ainsi changé pour toi.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Comme le Millet est beau<c type="kk">/</c> les premiers pas d’un enfant!<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Poignee de main à toi<c type="kk">/</c> à Isaacson<c type="kk">/</c> bien mes compliments surtout à Jo. Je vais encore travailler aux becheurs<c type="kk">/</c> les journées sont très courtes<c type="kp">_</c> à bientot<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.22" n="22">Vincent.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter and for the 150 francs – which I’ve handed to <rs type="person" ref="bio.xml#_568">Mr Peyron</rs>, asking him again to tell you each month if there have been expenses, yes or no – so that it doesn’t mount up. I must also thank you for a consignment of colours, and finally yesterday evening the canvas<ptr target="#note-t-1"/> and the <rs type="person" ref="bio.xml#_1226">Millet</rs> reproductions<ptr target="#note-t-2"/> arrived, which I’m very pleased about.</p>
+<p rend="indent" xml:id="p.en.3" n="3"><rs type="person" ref="bio.xml#_568">Mr Peyron</rs> repeated to me again that there’s considerable improvement and that he’s optimistic– and that he sees no objection at all to my going to Arles in the coming days.</p>
+<p rend="indent" xml:id="p.en.4" n="4">However, melancholy very often overtakes me with great force, and besides, the more my health returns to normal the more my mind is capable of reasoning very coldly, the more to do painting that costs us so much and doesn’t bring in anything, not even the cost of producing them, seems madness to me, a thing completely against reason. Then I feel utterly sad, and the bad thing is that at my age it’s darned difficult to start again with something else.</p>
+<p rend="indent" xml:id="p.en.5" n="5">In the few Dutch papers you added to the <rs type="person" ref="bio.xml#_1226">Millet</rs>s – I notice Parisian letters, which I attribute to <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>.<ptr target="#note-t-3"/> It’s very subtle, and one deduces that the author is a painful, anxious person of a rare tenderness – a tenderness that makes me think immediately of the Reisebilder of <rs type="person" ref="bio.xml#_654">H. Heine</rs>.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">No need to tell you that I find what he says about me in a note<ptr target="#note-t-5"/> extremely exaggerated, and one more reason why I prefer him not to say anything about me. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> And in all these articles I find, beside very refined things, something, I don’t know what, that appears sick to me.</p>
+<p rend="indent" xml:id="p.en.7" n="7">He has stayed in Paris a long time<ptr target="#note-t-6"/> – I assume he’s wiser than I am, not drinking &amp;c.</p>
+<p rend="indent" xml:id="p.en.8" n="8">But in it, though, I find something like my own Parisian moral fatigue. And I think that within a short time his temperament would faint away from sadness, tired of an <hi rend="italics">idée fixe</hi> of seeking good if he continued much longer.</p>
+<p rend="indent" xml:id="p.en.9" n="9">Our <rs type="person" ref="bio.xml#_407">sister</rs> told me in her last letter that <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> might go to the Transvaal.<ptr target="#note-t-7"/> My word, that could be better for him than Paris, but I’ll regret it on our account, for I have lots and lots of fellow-feeling for him, and would greatly desire to make his acquaintance personally. I’m planning to write to him again about his articles, and I’ll give him a portrait of myself as a souvenir.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">I think that this one could have been someone who could have married our <rs type="person" ref="bio.xml#_407">sister</rs>. That would be better for him than this journalist’s life, and perhaps would get him back on his feet better. For I’m touched by the fact that one feels so much from what he says, that he’s a very suffering and very good person, happy when he can admire.</p>
+<p rend="indent" xml:id="p.en.11" n="11">This morning I began The diggers on a no. 30 canvas.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">Do you know that it might be interesting to try to do <rs type="person" ref="bio.xml#_1226">Millet</rs>’s drawings as paintings, that would be a very special collection of copies, 
+      <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> something like the works of <rs type="person" ref="bio.xml#_1275">Prévost</rs> , who copied little-known <rs type="person" ref="bio.xml#_1055">Goya</rs>s and <rs type="person" ref="bio.xml#_1402">Velázquez</rs> for <rs type="person" ref="bio.xml#_354">Mr Doria</rs>.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Perhaps I’d be more useful doing that than through my own painting.</p>
+<p rend="indent" xml:id="p.en.14" n="14"><rs type="person" ref="bio.xml#_524">Mother</rs> wrote to me too with news of <rs type="person" ref="bio.xml#_420">Cor</rs>.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I worked on a study of the fever ward in the Arles hospital,<ptr target="#note-t-11"/> and then having no canvas lately I’ve been taking long walks in all directions across the country – I’m beginning to feel more the wholeness of the countryside in which I live. Later I may also return time and again to the same Provençal subjects.</p>
+<p rend="indent" xml:id="p.en.16" n="16">What you say of <rs type="person" ref="bio.xml#_1065">Guillaumin</rs> is very true,<ptr target="#note-t-12"/> he has found a true thing and he’s satisfied with what he’s found without embarking at random on dissimilar things, and that way he remains right and becomes stronger, always with these same very simple subjects. My word, he isn’t wrong, and I like this sincerity he has enormously.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I’m hurrying to finish this letter, I had already begun to write to you four times<ptr target="#note-t-13"/> without being able to finish.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Ah, at the moment you yourself are fully in the midst of nature, since you write that <rs type="person" ref="bio.xml#_416">Jo</rs> already feels her child quicken – it’s much more interesting even than landscape, and I’m very pleased that it has changed like this for you.</p>
+<p rend="indent" xml:id="p.en.19" n="19">How beautiful the <rs type="person" ref="bio.xml#_1226">Millet</rs> is, A child’s first steps!<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Handshake to you, to <rs type="person" ref="bio.xml#_1103">Isaäcson</rs>, my best regards above all to <rs type="person" ref="bio.xml#_416">Jo</rs>. I’m going to work some more on The diggers, the days are very short. More soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Ever yours,</p>
+<p xml:id="p.en.22" n="22">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent responds to Theo’s <ref target="let813.xml">letter 813</ref> dated 22 October 1889, which he probably received on the 23rd. He thanks Theo for the money he sent, and says he has started to write to him four times but was unable to finish the letter <ref target="#l-96">(l. 96)</ref>, so this letter could have been written several days later. We have therefore dated it to about Friday, 25 October 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jo’s pregnancy <ref target="let786.xml">(786)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This was the order placed for canvas in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let808.xml">letter 808</ref>. Theo’s account book records under ‘Rekening Vincent’ (Account Vincent) in October 1889 a payment of 108 francs to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_794">Tasset &amp; Lhote</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book </hi>2002, p. 44.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+      
+<p>Van Gogh had asked for reproductions of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1876">The two diggers</rs></hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1888">The sower</rs></hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1892">Winter: The plain of Chailly</rs></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1679 artwork.xml#ill_1680 artwork.xml#ill_1681 artwork.xml#ill_1682">The four times of the day</rs></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml#n-7">See letter 805, nn. 7</ref><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml#n-10">-10.</ref> It emerges from the following letters that Theo had already sent these prints.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>’s ‘<ref target="biblio.xml#lit_574">Parijsche brieven</ref>’ (Paris letters), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml#n-2">see letter 807, n. 2.</ref> Van Gogh is referring to the article ‘Gevoelens over de Nederlandsche kunst op de Parijsche Wereld-tentoonstelling. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ii</hi>’ (Feelings about the Dutch art at the Paris World Exhibition. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ii</hi>), which dates from 17 August 1889, pp. 248-249. Theo mentioned the article in a letter sent to his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">mother</rs> and sister in Breda, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> attempted to obtain a copy of the magazine, as emerges from her letter of 13 September 1889 to Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs> (FR b2931).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_654">Heinrich Heine</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_400">Reisebilder</ref></hi> (1826 and 1831-1834) is a collection of travel accounts characterised by a sometimes ironical or critical tone but also betraying a romantic spirit.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs> wrote: ‘Who interprets for us in forms and colours the formidable life, the grand nineteenth-century life regaining its awareness? Where is the man who <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">again</hi> renders our realm, our earth, our heritage; who <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">again</hi> makes us happy by demonstrating the divine in matter; who <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">again</hi> makes us look at life, the tangible, outpouring, blood-inspired, wild-hunting life, and also that other life that is actually one with ours, that of wood, of stone, of marble, of gold, of tin, zinc, pewter, iron, and also of water, of fire...... where is the inspirator who shows us that?..... I know of one, a single pioneer; he wrestles alone in the grand night; his name, Vincent, is for posterity’. The accompanying note reads: ‘Of this remarkable hero – it is a Dutchman – I hope to be able to tell you something later’ (p. 248).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs> had travelled with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> to Paris around 30 August 1888, which is the date De Haan’s name was recorded in the municipal register of Amsterdam as no longer resident there, with a note of Paris as his destination. Isaäcson was back in Amsterdam on 27 November 1889 (FR b1901).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>’s plans to go to the Transvaal, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let811.xml#n-2">see letter 811, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2826">F 626 / JH 1770</rs>) later came into the possession of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Diggers (after Millet) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2856">F 648 / JH 1833</rs>). For the print, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1876">The two diggers</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml#n-7">see letter 805, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh is referring to the painter <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1275">Charles Eugène Prévost</rs> and the collector <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_354">Count Armand Doria</rs>. The latter amassed in his Chateau d’Orrouy at Crépy-en-Valois (Oise) an extensive collection of art, which was sold in May 1899 at Georges Petit in Paris. The auction catalogue makes no mention of copies by Prévost after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1055">Goya</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1402">Velázquez</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Collection M. le comte Armand Doria</hi>. 2 vols. Paris 1899.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ward in the hospital </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2782">F 646 / JH 1686</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Theo had praised <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs>’s work in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let813.xml">letter 813</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>It is possible that Van Gogh wrote ‘l’écrire’ instead of ‘t’écrire’.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Theo had sent Vincent a photograph of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The first steps</hi> (Amsterdam, Van Gogh Museum, t*51). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_286">Ill. 286</rs>. In January 1890 Van Gogh made a painting after it, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The first steps (after Millet) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2886">F 668 / JH 1883</rs>). The photograph displays the grid lines applied by Van Gogh to guide him in transferring the representation to the canvas.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

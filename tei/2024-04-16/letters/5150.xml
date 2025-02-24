@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Tuesday, 14 July 1885. </title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let515"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b456 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>515</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>418</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>522</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-07-14">on or about Tuesday, 14 July 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000608_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000608_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000608_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000608_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000608_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000608_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000609_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000609_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000609_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000609_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000609_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000609_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000610_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000610_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000610_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0456 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000610_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000610_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000610_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">ik wou dat de 4 doeken waarover ik U schreef weg waren.<ptr target="#note-t-1"/> Als ik er te lang hier houd<c type="kk">/</c> verschilder ik ze misschien weer en ik geloof ’t beter is ge ze krijgt zoo als ze uit de hei komen.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">De reden waarom ik ze niet afzend is dat ik ze U niet ongefrankeerd wil afzenden op een moment waarop ge zegt dat gij misschien zelf krap zoudt zitten<c type="kk">/</c> en zelf kan ik ze ook niet frankeeren.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Het huisje waarin Millet gewoond heeft<c type="kk">/</c> heb ik nooit gezien – maar ik houd het er voor dat deze 4 menschen nestjes wel van ’t zelfde soort zijn.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Het eene is de residentie van een heer die in de wandeling wordt genoemd “het rouw boerke” – het andere wordt bewoond door een braaf mensch dat toen ik er kwam geen mysterieuser bezigheid verrigte dan haar aardappelkuil om te werken<c type="kk">/</c> doch evenwel ook moet kunnen tooveren<c type="kk">/</c> althans zij draagt den naam van “den heksekop”<c type="kp">_</c><ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ge herinnert U dat in ’t boek van Gigoux staat hoe het Delacroix gebeurde <hi rend="italics">17</hi> schilderijen te gelijk werden afgewezen<c type="kp">_</c>–<ptr target="#note-t-3"/> Men ziet – dunkt mij althans – hieruit dat hij en anderen uit die periode – staande voor kenners en niet kenners die geen van allen het ’t zij begrepen<c type="kk">/</c> ’t zij koopen wilden – men ziet 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>hieruit dat zij die teregt in ’t boek “les vaillants”<ptr target="#note-t-4"/> worden genoemd<c type="kk">/</c> niet spraken van dat het een vechten tegen de bierkade was maar <hi rend="italics">doorschilderden</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Wat ik U nog eens wou zeggen is dat als wij dat van Delacroix tot uitgangspunt nemen<c type="kk">/</c> we er nog veel schilderen moeten<c type="kp">_</c>– Ik ben in de noodzakelijkheid de onaangenaamste aller menschen te zijn<c type="kk">/</c> namelijk om geld te moeten vragen. En daar ik niet denk het de eerste dagen reeds een beter keer zal nemen wat betreft het verkoopen<c type="kk">/</c> is dit erg genoeg. Maar ik vraag het U<c type="kk">/</c> is het niet voor ons beiden après tout beter om hard te werken al zijn er beroerdigheden aan verbonden<c type="kk">/</c> dan in een tijd als nu te zitten philosopheeren.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik weet de toekomst niet Theo – maar – ik ken wel de eeuwige wet dat alles verandert – denk 10 jaar terug en de dingen waren anders<c type="kk">/</c> de toestanden<c type="kk">/</c> de stemming van de lui<c type="kk">/</c> alles enfin<c type="kp">_</c>– En 10 jaar verder draait zeker ook weer veel om<c type="kp">_</c>– Maar <hi rend="italics">iets doen</hi> blijft – en iets gedaan hebben<c type="kk">/</c> heeft men niet ligt spijt van<c type="kp">_</c>– Hoe actiever hoe beter en ik had liever een mislukking dan een stilzitten<c type="kp">_</c>–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Het zij Portier al dan niet de man zij om iets met mijn werk te doen – we hebben hem nu toch noodig<c type="kp">_</c>– En ziehier wat ik geloof – Na b.v. een jaar werken hebben we meer bij elkaar dan nu en ik weet zeker dat mijn werk beter zal doen naarmate ik ’t een met ’t ander completeer<c type="kp">_</c>– De lui nu die wat sympathie hebben<c type="kk">/</c> die zoo als hij er over spreken het eens laten kijken – ze zijn daarom nuttig omdat met b.v. nog een jaar werken er een en ander bijeen zal zijn bij hen dat van zelf wel iets zeggen zal<c type="kk">/</c> ook al zwegen ze geheel<c type="kp">_</c>– Als gij Portier eens ziet<c type="kk">/</c> zeg hem gerust dat wel verre van het op te geven ik van plan ben hem nog veel meer te zenden<c type="kp">_</c>– Blijf gij ook voortgaan met te laten kijken als ge lui ontmoet<c type="kp">_</c>– Het zal zoo heel lang niet duren of hetgeen we kunnen laten zien zal belangrijker zijn. Ge ziet zelf wel – en ’t is een verschijnsel dat mij verbazend veel pleizier doet – dat men meer en meer begint tentoonstellingen te maken van 1 persoon of heel enkelen die bij elkaar hooren<c type="kp">_</c>–<ptr target="#note-t-5"/> Dat is een verschijnsel in den kunsthandel dat naar ik durf meenen meer avenir heeft dan andere ondernemingen. Het is goed men begint te begrijpen dat een Bouguereau niet goed kan doen naast een Jacque – een figuur van Beyle of l’Hermitte niet goed naast een Schelfhout of Koekkoek<c type="kp">_</c>–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Verstrooi de teekeningen van Raffaelli – en oordeel zelf of ’t mogelijk ware zich een goed begrip van dien eigenaardigen artist te vormen<c type="kp">_</c>– Hij – Raffaelli – is anders dan Regamey – maar ik vind hem net zoo’n persoonlijkheid<c type="kp">_</c> Als mijn werk bij mij bleef – geloof ik dat ik er telkens aan zou verschilderen<c type="kp">_</c>– Door het aan U te sturen en aan Portier zoo als ’t van buiten of uit de hutten komt<c type="kk">/</c> zal er wel eens een onder door loopen die niet deugt – maar er zullen dingen bewaard blijven die er niet beter op worden zouden door ze dikwijls te verschilderen.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Als ge nu deze 4 doeken hebt en nog een paar kleinere studies van hutten en iemand zag niets anders dan die van me<c type="kk">/</c> zouden ze noodwendig denken dat ik niets anders deed dan hutten schilderen<c type="kp">_</c> En eveneens met die serie koppen<c type="kp">_</c>– Maar het boerenleven brengt zoo uiteenloopende dingen mede dat als Millet spreekt van “travailler comme <hi rend="italics">plusieurs</hi> nègres”<c type="kk">/</c><ptr target="#note-t-6"/> dit waarachtig dient te gebeuren wil men tot een geheel komen<c type="kp">_</c>– Men moge er mee lagchen dat Courbet zegt: “peindre des anges! qui est ce qui a vu des anges!”–<ptr target="#note-t-7"/> Maar ik zou er nog wel bij willen zeggen b.v. “des justices au harem<c type="kk">/</c> qui est ce qui a vu des justices au Harem?” (het sch<hi rend="super">ij</hi> van Benjamin Constant).<ptr target="#note-t-8"/> “des combats de taureaux<c type="kk">/</c><ptr target="#note-t-9"/> qui est ce qui en a vu”<c type="kk">/</c> en zooveel andere Moorsche<c type="kk">/</c> spaansche dingen<c type="kk">/</c> Kardinalen<c type="kk">/</c> en dan al die historieschilderijen<c type="kk">/</c> die toch ook altijd nog maar blijven<c type="kk">/</c> meters lang bij meters breed–! Waar dient het alles toe en wat wil men er toch mee<c type="kp">_</c>– Dat wordt meerendeels muf en saai als eenige jaren er over heen zijn gegaan en verveelt meer &amp; meer.</p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Maar enfin<c type="kp">_</c>– Ze zijn misschien mooi geschilderd – kan wezen – tegenwoordig als kenners voor een schilderij staan als dat van Benj. Constant<c type="kk">/</c> als een receptie bij een kardinaal door ik weet niet wat voor spanjaard – is het de gewoonte met een diepzinnig air iets te zeggen van “knappe techniek”. Maar – zoodra die zelfde kenners voor een geval uit ’t boerenleven of voor een teekening van b.v. Raffaelli zouden komen<c type="kk">/</c> zouden zij met ’t zelfde air – à la C.M. – de techniek critiseeren<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ge denkt misschien dat ik ongelijk heb hier een aanmerking op te maken – maar – ik ben er zoo van vervuld<c type="kk">/</c> van dat al die uitheemsche schilderijen worden geschilderd <hi rend="italics">op</hi> HET ATELIER<c type="kp">_</c> Maar ga eens buiten zitten schilderen op de plaats zelf–! er gebeuren dan allerlei dingen als volgt – uit de 4 doeken die ge ontvangen zult haalde ik zeker een honderdtal en meer vliegen<c type="kk">/</c> niet meegerekend stof en zand &amp;c<c type="kp">_</c> – niet meegerekend dat als men ze een paar uur door de hei en de heggen meedraagt<c type="kk">/</c> een tak of wat er over heen schraamt &amp;c. Niet meegerekend men<c type="kk">/</c> als men op de hei arriveert met dit weer na een wandeling van een paar uur<c type="kk">/</c> vermoeid en verhit is<c type="kp">_</c>– Niet meegerekend dat de figuren niet stilstaan zoo als de modellen van beroep<c type="kk">/</c> en de effekten die men pakken wil<c type="kk">/</c> veranderen met het vorderen van den dag<c type="kp">_</c>–</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik weet niet hoe het U gaat – maar wat mij betreft<c type="kk">/</c> hoe meer ik er aan werk<c type="kk">/</c> hoe meer het boerenleven me absorbeert<c type="kp">_</c>– En hoe minder en minder ik ga geven om hetzij de cabanelachtige dingen waaronder ik ook Jacquet<c type="kk">/</c> ook Benj. Constant van tegenwoordig zou rekenen – hetzij de hooggeroemde maar zoo onuitsprekelijk wanhopig drooge techniek van de Italjanen &amp; spanjaarden<c type="kp">_</c>– <hi rend="italics">Imagiers!</hi> – dat woord van Jacque<c type="kk">/</c> ik denk er dikwijls aan<c type="kp">_</c>–<ptr target="#note-t-10"/> Toch heb ik <hi rend="italics">geen parti pris</hi><c type="kk">/</c> ik heb gevoel voor Raffaelli die toch heel iets anders schildert dan boeren – ik heb gevoel voor Alfred Stevens<c type="kk">/</c> voor Tissot<c type="kk">/</c> om iets te noemen dat gansch anders is dan boeren – ik heb gevoel voor een mooi portret<c type="kp">_</c>– Zola<c type="kk">/</c> die zich overigens m.i. nog al eens kolossaal vergist in zijn oordeel over schilderijen – zegt in “mes haines” iets moois over kunst in ’t algemeen. “dans le tableau (l’oeuvre d’art) je cherche<c type="kk">/</c> j’aime l’homme – l’artiste<c type="kp">_</c>–”<ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Ziedaar<c type="kk">/</c> dat vind ik volkomen waar – ik vraag U<c type="kk">/</c> wat zit er voor een <hi rend="italics">man</hi><c type="kk">/</c> wat voor een ziener/kijker of <hi rend="italics">denker</hi><c type="kk">/</c> wat voor een soort menschelijk karakter<c type="kk">/</c> achter zekere doeken waarvan de techniek wordt geroemd – immers dikwijls <hi rend="italics">niets</hi>. Maar een Raffaelli – is <hi rend="italics">iemand</hi><c type="kk">/</c> een Lhermitte is <hi rend="italics">iemand</hi><c type="kk">/</c> en bij veel schilderijen van haast onbekende lui voelt men dat het met een <hi rend="italics">wil</hi><c type="kk">/</c> een <hi rend="italics">gevoel</hi><c type="kk">/</c> een <hi rend="italics">hartstocht</hi><c type="kk">/</c> een <hi rend="italics">liefde</hi> is 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>gemaakt<c type="kp">_</c>– De TECHNIEK van een schilderij uit het boerenleven of – als Raffaelli – uit het hart van de stadsarbeiders – brengt nog andere moeielijkheden mee dan die van het gladde schilderen en activeeren van een Jacquet of Benjamin Constant<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Namelijk te leven in die hutten dag in dag uit<c type="kk">/</c> net als de boeren op ’t veld zitten – in den zomer de zonnehitte<c type="kk">/</c> in den winter de sneeuw en vorst uitstaan<c type="kk">/</c> niet binnenskamers maar buiten<c type="kk">/</c> en niet voor een wandeling maar dag in dag uit als de boeren zelf<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">En ik vraag het U<c type="kk">/</c> als men deze dingen nagaat heb ik dan zoo groot ongelijk met de kenners<c type="kk">/</c> die tegenwoordig drukker dan ooit schermen met het <hi rend="italics">dikwijls</hi> zoo weinig beteekenis hebbende woord techniek (men geeft het een conventioneele beteekenis meer en meer)<c type="kk">/</c> te critiseeren in hun eigen critiek<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Als men rekent al wat men te loopen en te sjouwen heeft om “het rouwboerke” en zijn hut te schilderen<c type="kk">/</c> durf ik beweeren dit een langer en vermoeiender reis is dan veel schilders van uitheemsche onderwerpen<c type="kk">/</c> zij het la justice au harem of de receptie bij een kardinaal<c type="kk">/</c> voor hun meest uitgezocht excentrieke onderwerpen doen<c type="kp">_</c>– Want Arabische of spaansche of Moorsche modellen heeft men maar voor ’t bestellen en betalen te Parijs<c type="kp">_</c> Doch wie de vodderapers van Parijs schildert zoo als Raffaelli <hi rend="italics">in hun eigen buurtje</hi><c type="kk">/</c> die heeft het moeielijker en diens werk is serieuser<c type="kp">_</c>–<ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.19" n="19"><hi rend="italics">Schijnbaar is er niets eenvoudiger dan</hi> <hi rend="italics">boeren of vodderapers en andere arbeiders schilderen</hi> maar – <hi rend="italics">geen motieven in de schilderkunst</hi> <hi rend="italics">zijn zoo moeielijk als die alledaagsche figuren!</hi></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Er bestaat – voor zoo ver ik weet – geen enkele akademie waar men een spitter<c type="kk">/</c> een zaaier<c type="kk">/</c> een vrouw die den pot over ’t vuur hangt<c type="kk">/</c> of een naaister leert teekenen en schilderen<c type="kp">_</c>– Maar in elke stad van een beetje beteekenis is een akademie met keus van modellen voor historische<c type="kk">/</c> arabische<c type="kk">/</c> Louis XV<ptr target="#note-t-13"/> en in een woord <hi>alle<c type="kk">/</c> mits niet in werkelijkheid bestaanbare</hi></p>
+
+<p xml:id="p.nl.21" n="21"><hi>figuren</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Als ik aan U &amp; Serret enkele studies van spitters of boerinnen die wieden<c type="kk">/</c> aren lezen &amp;c<c type="kp">_</c> zal zenden <hi rend="italics">als</hi> <hi>begin</hi> van een heele serie over allerlei veldarbeid – Dan kan ’t wezen dat ’t zij Serret ’t zij gij er fouten in ontdekt die het nuttig voor mij is te kennen en die ik zelf alligt zal toegeven.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Maar ik wil wijzen op iets dat misschien de attentie wel waard is<c type="kp">_</c>– Alle akademische figuren zijn op de zelfde wijs en laat ons zeggen on ne peut mieux in elkaar gezet<c type="kp">_</c>– Onberispelijk – <hi rend="italics">zonder fouten</hi><c type="kp">_</c>– Ge zult reeds merken waar ik heen wil – <hi rend="italics">ook zonder ons iets nieuws</hi> te ontdekken te geven<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Niet alzoo de figuren van een Millet<c type="kk">/</c> een l’Hermitte<c type="kk">/</c> een Regamey<c type="kk">/</c> een <hi rend="italics">Lhermitte</hi><c type="kk">/</c> een Daumier.– Zij zitten ook goed in elkaar – maar <hi rend="italics">anders dan de akademie het leert après tout</hi><c type="kp">_</c>– Ik geloof dat hoe correct akademisch een figuur ook zij<c type="kk">/</c> het OVERBODIG is in dezen tijd<c type="kk">/</c> al ware het van Ingres zelf (behalve zijn source<ptr target="#note-t-14"/> toch<c type="kk">/</c> omdat die juist <hi rend="italics">wel</hi> iets nieuws was en is en blijven zal)<c type="kk">/</c> wanneer er aan ontbreekt dat essentieel moderne – het intieme karakter<c type="kk">/</c> het eigentlijk IETS DOEN.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Wanneer zal het figuur dan <hi rend="italics">niet</hi> overbodig zijn<c type="kk">/</c> al waren er desnoods fouten en groote fouten in mijns inziens<c type="kk">/</c> zult ge welligt vragen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Als de spitter spit<c type="kk">/</c> als de boer een boer is en de boerin een boerin<c type="kp">_</c>– Is dit iets nieuws<c type="kp">_</c>– Ja<c type="kp">_</c>– Zelfs de figuurtjes van Ostade<c type="kk">/</c> Terburg werken niet zoo als die van tegenwoordig<c type="kp">_</c>–</p>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p rend="indent" xml:id="p.nl.27" n="27">ik zou hier nog veel meer over willen zeggen en ik zou willen zeggen hoe veel ik zelf nog beter wil doen wat ik ben begonnen – en hoeveel hooger ik het werk van sommige anderen schat dan mijn eigen<c type="kp">_</c>– Ik vraag het U – Kent gij in de oude Hollandsche school een enkelen spitter<c type="kk">/</c> een enkelen zaaier??? Hebben zij ooit gezocht “een arbeider” te maken<c type="kp">_</c>– Heeft Velasquez het gezocht in zijn waterdrager<ptr target="#note-t-15"/> of typen uit ’t volk<c type="kp">_</c>– Neen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.28" n="28"><hi rend="italics">Werken</hi><c type="kk">/</c> dat doen de figuren op de oude schilderijen niet<c type="kp">_</c>– Ik blok dezer dagen op een vrouw die ik verl. winter zag<c type="kk">/</c> wortelen uitplukkende in de sneeuw<c type="kp">_</c><ptr target="#note-t-16"/> Ziedaar – Millet heeft het gedaan<c type="kk">/</c> l’Hermitte<c type="kk">/</c> en in ’t algemeen de boerenschilders van <hi rend="italics">deze</hi> eeuw – een Israels – die vinden dat mooier dan iets anders. Maar <hi rend="italics">zelfs</hi> in deze eeuw<c type="kk">/</c> hoe betrekkelijk weinigen onder ’t legio schilders die het <hi rend="italics">figuur</hi> willen – ja – avant tout – <hi rend="italics">om ’t figuur</hi> (d.i. om vorm en modelé) maar <hi rend="italics">het zich</hi> <hi rend="italics">niet denken kunnen</hi> dan werkende<c type="kk">/</c> en er behoefte bij hebben – wat de ouden ontweken en ook de oude hollanders die er veel conventioneele acties op na hielden – en – zeg ik – er de behoefte bij hebben <hi>de actie te schilderen om de actie</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">zoo dat het schilderij of de teekening wel zij een <hi>figuur</hi>teekening om ’t figuur en den onuitsprekelijk harmonischen vorm van ’t menschelijk ligchaam – doch tevens – een <hi rend="italics">wortelen plukken in de sneeuw</hi>. Druk ik me begrijpelijk uit? ik hoop het, en zeg dit er dan eens bij aan Serret<c type="kp">_</c>– Ik kan ’t in korter woorden zeggen – een naaktfiguur van Cabanel<c type="kk">/</c> een dame van Jacquet en een boerin <hi rend="italics">niet van Bastien Lepage zelf</hi> maar een boerin van een <hi rend="italics">Parijzenaar</hi> die op de akademie zijn teekenen heeft geleerd<c type="kk">/</c> zullen de ledematen en de structuur van ’t ligchaam steeds op een zelfde manier – charmant soms – laten voelen<c type="kk">/</c> correct – van proportie en anatomie<c type="kp">_</c>– Maar als Israels of als Daumier of l’Hermitte b.v. 
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>een figuur teekenen<c type="kk">/</c> zal men den <hi rend="italics">vorm</hi> van het ligchaam <hi rend="italics">veel meer voelen</hi> en toch zullen – daarom noem ik er juist graag Daumier bij – de proporties soms haast <hi rend="italics">willekeurig</hi> zijn<c type="kk">/</c> de anatomie en structuur volstrekt niet goed dikwijls “<hi rend="italics">in de oogen van de academiciens</hi>”<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Maar ’t zal <hi rend="italics">leven</hi>. En vooral ook Delacroix<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Het is nog niet goed uitgedrukt<c type="kp">_</c>– Zeg tegen Serret <hi rend="italics">dat ik wanhopig zou zijn als mijn figuren </hi><hi>goed</hi> <hi rend="italics">waren</hi><c type="kk">/</c> zeg hem dat ik ze niet akademisch correct <hi rend="italics">wil</hi><c type="kp">_</c> Zeg hem dat ik bedoel dat als men een spitter <hi rend="italics">photografeert</hi><c type="kk">/</c> dat hij dan <hi rend="italics">zeker niet</hi> <hi rend="italics">spitten</hi> zou. Zeg hem dat ik de figuren van Michel Ange prachtig vind<c type="kk">/</c> al zijn de beenen bepaald te lang – de heupen en billen te breed<c type="kp">_</c>–<ptr target="#note-t-17"/> Zeg hem dat in mijn oog Millet en LHermitte daarom de ware schilders zijn<c type="kk">/</c> omdat ze de dingen niet schilderen zóó als ze <hi rend="italics">zijn</hi><c type="kk">/</c> droog analyseerend nagespeurd<c type="kk">/</c> doch zóó als <hi rend="italics">zij</hi><c type="kk">/</c> Millet<c type="kk">/</c> LHermitte<c type="kk">/</c> Michel Ange<c type="kk">/</c> ze voelen. Zeg hem dat mijn groot verlangen is zulke onjuistheden te leeren maken<c type="kk">/</c> zulke afwijkingen<c type="kk">/</c> omwerkingen<c type="kk">/</c> veranderingen van de werkelijkheid<c type="kk">/</c> dat het mogten worden<c type="kk">/</c> nu ja – leugens als men wil – maar – waarder dan de letterlijke waarheid<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">En nu moet ik haast eindigen – ik had echter behoefte om er nog eens over te praten dat zij die het boerenleven of het volksleven schilderen<c type="kk">/</c> al hooren zij niet onder de hommes du monde – echter toch misschien het op den duur beter uithouden zullen dan de makers van de uitheemsche doch in Parijs geschilderde harems en kardinaal recepties<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Ik weet dat het is een onaangenaam mensch zijn als men op ongelegen tijden geld van noode heeft – maar mijn excuus is juist dat het schilderen van de schijnbaar meest alledaagsche dingen soms ’t moeielijkst en ’t duurst is.–</p>
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>
+
+<p rend="indent" xml:id="p.nl.34" n="34">De onkosten die ik<c type="kk">/</c> <hi rend="italics">wil ik werken</hi><c type="kk">/</c><hi rend="italics"> maken </hi><hi>moet</hi><c type="kk">/</c> zijn in verhouding tot het geen waar over ik kan beschikken soms erg<c type="kp">_</c>– Ik verzeker U dat als mijn gestel niet door weer en wind vrijwel als dat van een boer werd<c type="kk">/</c> ik het niet uithouden zou want voor mijn eigen comfort schiet er eenvoudig niets over<c type="kp">_</c> Maar ik begeer dat ook niet voor me zelf<c type="kk">/</c> evenmin als veel boeren anders begeeren te leven dan zij leven<c type="kp">_</c>– Maar wat ik vraag is en voor verf en vooral voor model. Hetgeen ik schrijf over de figuurteekeningen ziet ge misschien genoeg uit dat ik er bepaald hartstogtelijk voor ben om ze door te voeren<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Ge schreeft mij onlangs dat Serret “<hi rend="italics">met convictie</hi>” tot U gesproken had over zekere fouten in de structuur van de figuren van de aardappeleters<c type="kp">_</c>–<ptr target="#note-t-18"/> Maar ge hebt aan mijn antwoord kunnen zien dat mijn eigen critiek ze ook uit dat oogpunt beschouwd afkeurt<c type="kk">/</c> alleen heb ik er op gewezen hoe het hier was een impressie die ik had nadat ik de hut in het duistere lamplicht veel avonden zag<c type="kk">/</c> na 40 koppen te hebben geschilderd<c type="kk">/</c> waaruit volgt ik van een ander oogpunt uitgegaan was<c type="kp">_</c>– Nu we echter over figuur beginnen te spreken heb ik veel te zeggen<c type="kp">_</c>– Ik vind in de woorden van Raffaelli zijn inzigt over “<hi rend="italics">Karakter</hi>”<c type="kk">/</c> wat hij daarvan zegt is goed – en op zijn plaats – en verduidelijkt door de teekeningen zelf<c type="kp">_</c>–<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Menschen die zich in artistiek litteraire kringen bewegen als Raffaelli te Parijs<c type="kk">/</c> denken echter après tout anders dan b.v. ik buiten in ’t boerenland<c type="kp">_</c>– Ik bedoel<c type="kk">/</c> zij zoeken één woord dat al hun idees zamenvat – hij oppert voor de figuren der toekomst het woord “<hi rend="italics">Karakter</hi>”<c type="kp">_</c> Ik ben het er mee eens<c type="kk">/</c> met de bedoeling – geloof ik – doch de juistheid van ’t woord geloof ik evenmin in als in de juistheid van andere woorden – even min als in de juistheid of doeltreffendheid van mijn eigen expressies<c type="kp">_</c>–</p>
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>
+
+<p rend="indent" xml:id="p.nl.37" n="37">liever dan te zeggen<c type="kk">/</c> er moet karakter zijn in een spitter – omschrijf ik het met te zeggen<c type="kk">/</c> die boer moet een boer zijn<c type="kk">/</c> die spitter moet spitten<c type="kk">/</c> en dan is er iets in wat essentieel modern is<c type="kp">_</c>– Maar ook deze woorden voel ik zelf van men er conclusies uit kan trekken door mij niet bedoeld – al zeg ik er nog een ceel<ptr target="#note-t-a"/> bij<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">De onkosten voor model – die nu reeds mij vrij bezwarend zijn – ik geloof dat het wenschelijk – zeer wenschelijk is – ik in plaats van ze te verminderen<c type="kk">/</c> ze nog een beetje kon toegeven<c type="kp">_</c>– Want het is mij om iets heel anders te doen dan om “een figuurtje” te kunnen teekenen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Het <hi>boerenfiguur in zijn actie</hi> te geven<c type="kk">/</c> ziedaar wat een figuur is – ik herhaal het – essentieel modern – het hart van de moderne kunst zelf – dat wat noch grieken<c type="kk">/</c> noch renaissance<c type="kk">/</c> noch oude Hollandsche school hebben gedaan<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Dit is bij mij een zaak waar ik dagelijks over denk<c type="kp">_</c>– Dit verschil tusschen de groote zoowel als de kleine meesters van nu (de groote<c type="kk">/</c> b.v. Millet<c type="kk">/</c> lHermitte<c type="kk">/</c> Breton<c type="kk">/</c> Herkomer; de kleinere<c type="kk">/</c> b.v. Raffaelli en Regamey) met de oude scholen<c type="kk">/</c> heb ik echter niet dikwijls waarlijk vierkant uitgedrukt gevonden in de artikels over kunst.</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Denk er eens over of gij het echter niet waar vindt<c type="kp">_</c>– Het boeren- en werkmansfiguur is meer begonnen als “genre” – maar tegenwoordig met Millet als eeuwige meester voorop is dat het hart zelf van de moderne kunst en zal het blijven<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Lui als Daumier – men moet ze hoog achten want ze zijn van de baanbrekers<c type="kp">_</c>– Het eenvoudig <hi rend="italics">naakt maar modern</hi> figuur is hoog – zooals Henner en Lefevre het vernieuwden<c type="kk">/</c> Baudry<c type="kk">/</c> en vooral de beeldhouwers als een Mercier<c type="kk">/</c><ptr target="#note-t-20"/> Dalou<c type="kk">/</c><ptr target="#note-t-21"/> dat is ook van het allersoliedenste<c type="kp">_</c>– Doch boeren en ouvriers zijn nu eenmaal niet naakt en hoeft men zich ook niet naakt te denken<c type="kp">_</c>– Hoe meer lui er komen die werkmans- en boerenfiguren maken<c type="kk">/</c> hoe liever ik ’t zien zou<c type="kp">_</c>– En ik zelf<c type="kk">/</c> ik weet niets anders waar ik zooveel lust in heb<c type="kp">_</c>– Dit is een langen brief en ik weet nog niet of ik duidelijk genoeg gezegd heb wat ik bedoel<c type="kp">_</c>– Ik schrijf misschien nog een woordje aan Serret<c type="kk">/</c> als ik dat doe stuur ik den brief aan U om te lezen want ik wou graag duidelijk maken hoe veel ik aan die kwestie van figuur hecht<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I wish that the 4 canvases I wrote to you about were gone.<ptr target="#note-t-1"/> I may work on them again if I keep them here too long, and I think it’s better for you to get them as they come from the heath.</p>
+<p rend="indent" xml:id="p.en.3" n="3">The reason why I don’t send them off is that I don’t want to send them to you with the carriage unpaid at a moment when you say that you might be short yourself, and I can’t pay the carriage myself either.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’ve never seen the little house where <rs type="person" ref="bio.xml#_1226">Millet</rs> lived — but I imagine that these 4 little human nests are of the same kind.</p>
+<p rend="indent" xml:id="p.en.5" n="5">One of them is the residence of a gentleman who’s popularly known here as <rs type="person" ref="bio.xml#_141">‘the peasant of Rauwveld’</rs> — the other is occupied by a worthy soul who, when I went there, was engaged in nothing more mysterious than turning over her potato patch, but must also be able to work magic, though — at any rate she goes by the name of <rs type="person" ref="bio.xml#_35">‘the witch’s head’</rs>.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6"> You remember that it says in the book by <rs type="person" ref="bio.xml#_613">Gigoux</rs> how it came about that <rs type="person" ref="bio.xml#_982">Delacroix</rs> had <hi rend="italics">17</hi> paintings rejected at the same time.<ptr target="#note-t-3"/> This shows — at least so it seems to me — that he and others from that period — were faced with connoisseurs and non-connoisseurs, none of whom either understood it or wanted to buy — this shows 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> that those who are rightly described in the book as ‘the valiant ones’<ptr target="#note-t-4"/> didn’t talk about fighting a losing battle, but <hi rend="italics">carried on painting</hi>.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Something else I wanted to say to you is that we’ll have to paint a lot more if we take that about <rs type="person" ref="bio.xml#_982">Delacroix</rs> as our starting-point. I must necessarily be the most disagreeable of all people, that’s to say having to ask for money. And since I don’t think that things will take a turn for the better as regards sales in the next few days, this is bad enough. But I ask you, isn’t it better, after all, for both of us to work hard even though there are difficulties attached to it, than to sit about philosophizing at a time like this?</p>
+<p rend="indent" xml:id="p.en.8" n="8">I don’t know the future, Theo — but — I do know the eternal law that everything changes — think back 10 years and things were different, the conditions, the mood of the people, everything in short. And 10 years on, a great deal is bound to have changed again. But <hi rend="italics">doing something</hi> endures — and one doesn’t easily regret having done something. The more active the better, and I’d rather fail than sit idle.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Whether <rs type="person" ref="bio.xml#_601">Portier</rs> is or isn’t the man to do something with my work — we need him now all the same. And here’s what I think – after working for a year, say, we’ll have got more together than now, and I know for sure that my work will do better as I complete one thing with another. The people who have some feeling for it now, who, like him, talk about showing it sometime — they’re consequently useful, because after another year’s work, say, they’ll have a few more things together that will speak for themselves, even if they say nothing at all. Should you happen to see Portier, feel free to tell him that, far from giving up, I’m planning to send him much more. You must also go on showing when you meet people. It won’t be so very long before what we can show will be more important. You can see for yourself — and it’s a phenomenon that gives me surprisingly great pleasure — that people are increasingly starting to stage exhibitions of 1 person or a very few who belong together.<ptr target="#note-t-5"/> This is a phenomenon in the art trade which I dare think has more future than other enterprises. It’s good that people are beginning to understand that a <rs type="person" ref="bio.xml#_890">Bouguereau</rs> can’t do well beside a <rs type="person" ref="bio.xml#_1117">Jacque</rs> — nor a figure by <rs type="person" ref="bio.xml#_859">Beyle</rs> or <rs type="person" ref="bio.xml#_1179">Lhermitte</rs> beside a <rs type="person" ref="bio.xml#_1338">Schelfhout</rs> or <rs type="person" ref="bio.xml#_1128">Koekkoek</rs>.
+      <pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Scatter <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>’s drawings about — and judge for yourself whether it would be possible to form a good idea of this singular artist. He — Raffaëlli — isn’t like <rs type="person" ref="bio.xml#_1301 bio.xml#_1302">Régamey</rs> — but I find him just as much of a personality. If my work stayed with me — I think I’d be constantly working over it. By sending it to you and to <rs type="person" ref="bio.xml#_601">Portier</rs> as it comes from the countryside or from the cottages, the odd thing that isn’t right will sometimes get through — but things that wouldn’t be improved by frequently working over them will be preserved.</p>
+<p rend="indent" xml:id="p.en.11" n="11">If you had these 4 canvases and a few more, smaller studies of cottages, and someone saw nothing by me other than those, they’d be bound to think that I did nothing other than paint cottages. And likewise with that series of heads. But peasant life involves such diverse things that when <rs type="person" ref="bio.xml#_1226">Millet</rs> speaks of ‘working like a <hi rend="italics">bunch </hi>of negroes’,<ptr target="#note-t-6"/> this really does have to happen if one wants to achieve a whole. One may laugh at <rs type="person" ref="bio.xml#_962">Courbet</rs>’s saying, ‘painting angels! who has ever seen angels!’<ptr target="#note-t-7"/> But I’d just like to add, for instance, ‘justices in the harem, who has ever seen justices in the Harem?’ (the painting by <rs type="person" ref="bio.xml#_733">Benjamin-Constant</rs>).<ptr target="#note-t-8"/> ‘Bull fights,<ptr target="#note-t-9"/> who has ever seen those?’ and so many other Moorish, Spanish things, Cardinals, and then all those history paintings, which are still always there, metres high by metres wide! What’s the point of it all, and what do people want with it? After a few years most of it becomes stale and dull, and more and more boring.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">But still. Perhaps they’re well painted — maybe. Nowadays, when connoisseurs stand in front of a painting like the one by <rs type="person" ref="bio.xml#_733">Benjamin-Constant</rs>, or like a reception at a cardinal’s by some Spaniard or other — it’s the custom to say, with a knowing air, something about ‘clever technique’. But — as soon as those same connoisseurs found themselves in front of a scene from peasant life or a drawing by <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>, say, they would criticize the technique with the same air — à la <rs type="person" ref="bio.xml#_423">C.M.</rs></p>
+<p rend="indent" xml:id="p.en.13" n="13">Perhaps you think that I’m wrong to comment on this — but — I’m so gripped by the thought that all these exotic paintings are painted <hi rend="italics">in</hi> THE STUDIO. But just go and sit outdoors, painting on the spot itself! Then all sorts of things like the following happen — I must have picked a good hundred flies and more off the 4 canvases that you’ll be getting, not to mention dust and sand &amp;c. — not to mention that, when one carries them across the heath and through hedgerows for a few hours, the odd branch or two scrapes across them &amp;c. Not to mention that when one arrives on the heath after a couple of hours’ walk in this weather, one is tired and hot. Not to mention that the figures don’t stand still like professional models, and the effects that one wants to capture change as the day wears on.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">I don’t know how it is with you — but for my part, the more I work on it the more peasant life absorbs me. And the less and less I care about either the <rs type="person" ref="bio.xml#_917">Cabanel</rs>esque things, among which I would also count <rs type="person" ref="bio.xml#_1115">Jacquet</rs>, also <rs type="person" ref="bio.xml#_733">Benjamin-Constant</rs>’s present work — or the highly praised but so unspeakably, hopelessly dry technique of the Italians and Spaniards. <hi rend="italics">Image makers!</hi> — what <rs type="person" ref="bio.xml#_1117">Jacque</rs> said, I often think about it.<ptr target="#note-t-10"/> But I’m <hi rend="italics">not biased</hi>; I like <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> who, after all, paints something very different from peasants — I like <rs type="person" ref="bio.xml#_1368">Alfred Stevens</rs>, <rs type="person" ref="bio.xml#_1394">Tissot</rs>, to mention something that’s entirely unlike peasants — I like a fine portrait. <rs type="person" ref="bio.xml#_836">Zola</rs> who otherwise, to my mind, often makes colossal mistakes in his judgement of paintings — says something beautiful about art in general in ‘Mes haines’. ‘In the painting (the work of art) I look for, I love the man — the artist.’<ptr target="#note-t-11"/></p>
+<p rend="indent" xml:id="p.en.15" n="15">There you are, I think that’s perfectly true — I ask you, what sort of a <hi rend="italics">man</hi>, what sort of a visionary/observer or <hi rend="italics">thinker</hi>, what sort of a human character is there behind some of these canvases praised for their technique — often, after all, <hi rend="italics">nothing</hi>. But a <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> — is <hi rend="italics">someone</hi>, a <rs type="person" ref="bio.xml#_1179">Lhermitte</rs> is <hi rend="italics">someone</hi>, and in many paintings by virtually unknown people one feels that they were made with a <hi rend="italics">will</hi>, with <hi rend="italics">emotion</hi>, with <hi rend="italics">passion</hi>, with <hi rend="italics">love</hi>. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> The TECHNIQUE of a painting from peasant life or — like Raffaëlli — from the heart of urban workers — entails difficulties quite different from those of the slick painting and the rendering of action of a <rs type="person" ref="bio.xml#_1115">Jacquet</rs> or <rs type="person" ref="bio.xml#_733">Benjamin-Constant</rs>.</p>
+<p rend="indent" xml:id="p.en.16" n="16">That’s to say, living in those cottages day in and day out, being out in the fields just like the peasants — enduring the heat of the sun in the summer, the snow and frost in the winter, not indoors but outside, and not for a walk, but day in and day out like the peasants themselves.</p>
+<p rend="indent" xml:id="p.en.17" n="17">And I ask you, when you think about it, am I so wrong to criticize the criticism of the connoisseurs, who are presently fencing more busily than ever with the <hi rend="italics">often</hi> so meaningless word technique (they’re increasingly giving it a conventional meaning)?</p>
+<p rend="indent" xml:id="p.en.18" n="18">When one counts all the trudging and lugging one has to do to paint <rs type="person" ref="bio.xml#_141">‘the peasant of Rauwveld’</rs> and his cottage, I dare swear that this is a longer and more tiring expedition than many painters of exotic subjects, be it the justice in the harem or the reception at the cardinal’s, make for their choicest eccentric subjects. For in Paris one can get Arab or Spanish or Moorish models simply by ordering and paying for them. But it’s harder for someone like <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>, who paints the rag-pickers of Paris <hi rend="italics">in their own small quarter</hi>, and his work is more serious.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.19" n="19"><hi rend="italics">Seemingly there’s nothing simpler than painting peasants or rag-pickers and other labourers</hi> but — <hi rend="italics">no subjects in painting are as difficult as those everyday figures!</hi>
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">There isn’t — as far as I know — a single academy where one learns to draw and paint a digger, a sower, a woman hanging a pot over the fire, or a seamstress. But in every town of any consequence at all there’s an academy with a choice of models for historical, Arab, Louis XV<ptr target="#note-t-13"/> and, in a word, <hi>all figures, provided they don’t exist in reality</hi>.</p>
+<p rend="indent" xml:id="p.en.21" n="21">If I send you and <rs type="person" ref="bio.xml#_1354">Serret</rs> a few studies of diggers or peasant women who are weeding, gleaning corn &amp;c. <hi rend="italics">as</hi> <hi>the start</hi> of a whole series about all kinds of work in the fields — then it may be that either Serret or you will discover faults in them which will be useful for me to know about, and which I’ll naturally concede myself.</p>
+<p rend="indent" xml:id="p.en.22" n="22">But I want to point out something that’s perhaps worth noting. All academic figures are constructed in the same way and, let’s admit, one couldn’t do better. Impeccable — <hi rend="italics">without faults</hi> — you’ll already have seen what I’m driving at — <hi rend="italics">also without giving us anything new</hi> to discover.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Not so the figures of a <rs type="person" ref="bio.xml#_1226">Millet</rs>, a <rs type="person" ref="bio.xml#_1179">Lhermitte</rs>, a <rs type="person" ref="bio.xml#_1301 bio.xml#_1302">Régamey</rs>, a <hi rend="italics">Lhermitte</hi>, a <rs type="person" ref="bio.xml#_977">Daumier</rs>. They’re also well constructed — but <hi rend="italics">not the way the academy teaches, after all</hi>. I think that no matter how academically correct a figure may be, it’s REDUNDANT in this day and age, even if it were by <rs type="person" ref="bio.xml#_1102">Ingres</rs> himself (apart from his Source<ptr target="#note-t-14"/> of course, because that indeed <hi rend="italics">was</hi> and <hi rend="italics">is</hi> and <hi rend="italics">will</hi> remain something new) if it lacks that essential modernism — the intimate character, the actual DOING SOMETHING.</p>
+<p rend="indent" xml:id="p.en.24" n="24">When will the figure <hi rend="italics">not</hi> be redundant then, even though there were necessarily faults and grave faults in it to my mind, you’ll probably ask.</p>
+<p rend="indent" xml:id="p.en.25" n="25">When the digger digs, when the peasant is a peasant, and the peasant woman a peasant woman. Is this something new? Yes. Even the little figures by <rs type="person" ref="bio.xml#_1261 bio.xml#_1260">Ostade</rs>, <rs type="person" ref="bio.xml#_883">Ter Borch</rs> don’t work the way they do nowadays.
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/></p>
+<p rend="indent" xml:id="p.en.26" n="26">I’d like to say a lot more about this and I’d like to say how much I myself want to do what I’ve begun even better — and how much higher than my own I value the work of some others. I ask you — do you know of a single digger, a single sower in the old Dutch school??? Did they ever try to make ‘a labourer’? Did <rs type="person" ref="bio.xml#_1402">Velázquez</rs> try it in his water-carrier?<ptr target="#note-t-15"/> Or his folk types? No.</p>
+<p rend="indent" xml:id="p.en.27" n="27"><hi rend="italics">Work</hi>, that’s what the figures in the old paintings don’t do. These days I’m slogging away at a woman whom I saw last winter, lifting carrots in the snow.<ptr target="#note-t-16"/> There it is — <rs type="person" ref="bio.xml#_1226">Millet</rs> did it, <rs type="person" ref="bio.xml#_1179">Lhermitte</rs>, and in general the peasant painters of <hi rend="italics">this</hi> century — an <rs type="person" ref="bio.xml#_1107">Israëls</rs> — they find that more beautiful than anything else. But <hi rend="italics">even</hi> in this century, how relatively few there are among the legion of painters who want the <hi rend="italics">figure</hi> — yes — above all — <hi rend="italics">for the sake of the figure</hi> (i.e. for the sake of form and modelling) but <hi rend="italics">can’t conceive of it</hi> other than working, and also have the need — which the old masters avoided, as did the old Dutch masters who depicted so many conventional actions — and — I say — have the need <hi>to paint the action for the action’s sake.</hi></p>
+<p rend="indent" xml:id="p.en.28" n="28">So that the painting or the drawing is a <hi>figure</hi> drawing for the sake of the figure and the inexpressibly harmonic form of the human body — yet at the same time — is <hi rend="italics">lifting carrots in the snow</hi>. Am I expressing myself clearly? I hope so, and just say this to <rs type="person" ref="bio.xml#_1354">Serret</rs> — I can say it in fewer words — a nude figure by <rs type="person" ref="bio.xml#_917">Cabanel</rs>, a lady by <rs type="person" ref="bio.xml#_1115">Jacquet</rs> and a peasant woman <hi rend="italics">not by <rs type="person" ref="bio.xml#_124">Bastien-Lepage</rs></hi> <hi rend="italics">himself</hi>, but a peasant woman by a <hi rend="italics">Parisian</hi> who learnt to draw at the academy, will always show the limbs and the structure of the body in the same way — sometimes charmingly — correct — in proportion and anatomy. But when <rs type="person" ref="bio.xml#_1107">Israëls</rs> or when <rs type="person" ref="bio.xml#_977">Daumier</rs> or <rs type="person" ref="bio.xml#_1179">Lhermitte</rs>, say, 
+      <pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> draw a figure, one will <hi rend="italics">feel</hi> the <hi rend="italics">form</hi> of the body <hi rend="italics">much more</hi> and yet — this is why I particularly want to include Daumier — the proportions will sometimes be almost <hi rend="italics">random</hi>, the anatomy and structure often completely wrong ‘<hi rend="italics">in the eyes of the academicians</hi>’.</p>
+<p rend="indent" xml:id="p.en.29" n="29">But it will <hi rend="italics">live</hi>. And above all <rs type="person" ref="bio.xml#_982">Delacroix</rs>, too.</p>
+<p rend="indent" xml:id="p.en.30" n="30">It still isn’t expressed properly. Tell <rs type="person" ref="bio.xml#_1354">Serret</rs> <hi rend="italics">that I would be desperate if my figures were </hi><hi>good</hi>, tell him that I don’t <hi rend="italics">want</hi> them academically correct. Tell him that I mean that if one <hi rend="italics">photographs</hi> a digger, then he would <hi rend="italics">certainly not be digging</hi>. Tell him that I think <rs type="person" ref="bio.xml#_1229">Michelangelo</rs>’s figures magnificent, even though the legs are definitely too long — the hips and buttocks too broad.<ptr target="#note-t-17"/> Tell him that in my view <rs type="person" ref="bio.xml#_1226">Millet</rs> and <rs type="person" ref="bio.xml#_1179">Lhermitte</rs> are consequently the true painters, because they don’t paint things as they <hi rend="italics">are</hi>, examined drily and analytically, but as <hi rend="italics">they</hi>, Millet, Lhermitte, Michelangelo, feel them. Tell him that my great desire is to learn to make such inaccuracies, such variations, reworkings, alterations of the reality, that it might become, very well — lies if you will — but — truer than the literal truth.</p>
+<p rend="indent" xml:id="p.en.31" n="31">And now I must close soon — I did need, though, just to talk about the fact that those who paint the life of the peasants or the common people, although they aren’t counted among the men of the world — will still, however, perhaps endure better in the long run than the makers of the exotic but painted in Paris harems and cardinals’ receptions.</p>
+<p rend="indent" xml:id="p.en.32" n="32">I know that it’s being a disagreeable person when one’s in need of money at inconvenient times — but my excuse is just that painting the seemingly most everyday things is sometimes the most difficult and most expensive.
+<pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">The expenses that I <hi>must</hi><hi rend="italics"> incur if I want to work</hi> are sometimes very heavy in relation to my means. I assure you that if my constitution weren’t becoming virtually like that of a peasant as a result of wind and weather, I wouldn’t stick it out, for there’s simply nothing left over for my own comfort. But I don’t desire that for myself either, any more than many peasants desire to live other than as they live. But what I do ask is both for paint and, above all, for models. You’ll perhaps realize from what I say about the figure drawings that I’m positively passionate about going on with them.</p>
+<p rend="indent" xml:id="p.en.34" n="34">You recently wrote to me that <rs type="person" ref="bio.xml#_1354">Serret</rs> had spoken to you ‘<hi rend="italics">with conviction</hi>’ about certain faults in the structure of the figures of the potato eaters.<ptr target="#note-t-18"/> But you’ll have been able to see from my answer that my own criticism also condemns them, considered from that point of view, only I’ve pointed out how this was an impression I had after I’d seen the cottage in the dim lamplight on many evenings, after having painted 40 heads, from which it follows that I was starting from a different point of view. Now we’ve started talking about the figure, though, I have a great deal to say. I find in <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs>’s words, his perception about ‘<hi rend="italics">Character</hi>’, what he says about that is good — and in its place — and clarified by the drawings themselves.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">People who move in artistic and literary circles, though, as <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> does in Paris, think differently after all from, say, the way I do out in the country among the peasants. I mean they search for one word that sums up all their ideas — he suggests the word ‘<hi rend="italics">Character</hi>’ for the figures of the future. I agree with it, with the intention — I believe — but I believe as little in the accuracy of the word as in the accuracy of other words — as little as in the accuracy or appositeness of my own expressions.
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/></p>
+<p rend="indent" xml:id="p.en.36" n="36"> Rather than saying there has to be character in a digger — I describe it by saying this peasant has to be a peasant, this digger has to dig, and then there’s something in it that is essentially modern. But I feel that people can draw conclusions I don’t mean even from these words — even were I to add a whole list.</p>
+<p rend="indent" xml:id="p.en.37" n="37">Instead of reducing the expenses for models — which are already quite a burden on me — I think it would be desirable — very desirable — if I could increase them a little. Because I’m concerned with something very different from being able to do ‘a little figure’ drawing.</p>
+<p rend="indent" xml:id="p.en.38" n="38"> Showing the <hi>figure of the peasant in action</hi>, you see that’s what a figure is — I repeat — essentially modern — the heart of modern art itself — that which neither the Greeks, nor the Renaissance, nor the old Dutch school have done.</p>
+<p rend="indent" xml:id="p.en.39" n="39">To me, this is a matter I think about every day. However, this difference between both the great and the lesser masters of the present (the great, for instance <rs type="person" ref="bio.xml#_1226">Millet</rs>, <rs type="person" ref="bio.xml#_1179">Lhermitte</rs>, <rs type="person" ref="bio.xml#_899">Breton</rs>, <rs type="person" ref="bio.xml#_1080">Herkomer</rs>; the lesser, for instance <rs type="person" ref="bio.xml#_1279">Raffaëlli</rs> and <rs type="person" ref="bio.xml#_1301 bio.xml#_1302">Régamey</rs>) and the old schools isn’t something I’ve often found expressed truly forthrightly in articles on art.</p>
+<p rend="indent" xml:id="p.en.40" n="40">Just think about whether you don’t find it’s true, though. The figure of the peasant and the workman started more as a ‘genre’ — but nowadays, with <rs type="person" ref="bio.xml#_1226">Millet</rs> in the van as the eternal master, it’s the very heart of modern art and will remain so.</p>
+<p rend="indent" xml:id="p.en.41" n="41">People like <rs type="person" ref="bio.xml#_977">Daumier</rs> — one has to respect them because they’re among the pioneers. The simple <hi rend="italics">nude but modern</hi> figure ranks high — as revived by <rs type="person" ref="bio.xml#_1082">Henner</rs> and <rs type="person" ref="bio.xml#_1158">Lefebvre</rs>, <rs type="person" ref="bio.xml#_693">Baudry</rs> and, above all, the sculptors like a <rs type="person" ref="bio.xml#_1215">Mercier</rs>,<ptr target="#note-t-20"/> <rs type="person" ref="bio.xml#_958">Dalou</rs>,<ptr target="#note-t-21"/> they’re also among the very soundest. But peasants and labourers simply aren’t nude, and so one doesn’t have to think nude. The more people who start making figures of workmen and peasants the better I’ll like it. And I myself, I know of nothing else in which I take so much delight. This is a long letter and I still don’t know whether I’ve said what I mean clearly enough. I may perhaps drop <rs type="person" ref="bio.xml#_1354">Serret</rs> a line. If I do, I’ll send the letter to you to read, because I want to make it clear how much I attach to this question of the figure.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Dating two letters to Theo (<ref target="let515.xml">515</ref> and <ref target="let519.xml">519</ref>) and four to Van Rappard (<ref target="let514.xml">514</ref>, <ref target="let516.xml">516</ref>, <ref target="let517.xml">517</ref> and <ref target="let520.xml">520</ref>) in the month of July 1885 is tricky because there is very little to go on, although the order in which they were written can be reconstructed on the basis of the content. Letters <ref target="let513.xml">513</ref> of about 12 July and <ref target="let522.xml">522</ref> of 29 July bracket the period in which they must have been written. We have used the progression of Van Gogh’s correspondence with Van Rappard, the last letter of which in this month is dated 27 July (<ref target="let521.xml">see letter 521</ref>), in order to arrive at a distribution of the letters and probable dates. </p> <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Letter 520 must have been written between about Tuesday, 21 and Friday, 24 July 1885 (<ref target="let520.xml">see letter 520</ref>, <hi rend="italics">Date</hi>). Since Van Gogh let it be known in letter 520 that he was disappointed not to have had a reply to <ref target="let517.xml">letter 517</ref>, several days must have elapsed between these two. We have therefore dated this letter on or about Thursday, 16 July 1885. Letters <ref target="let518.xml">518</ref> and <ref target="let519.xml">519</ref>, which were written on the same day (the day Willem Wenckebach visited Van Gogh), have consequently been given this date.</p> <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">In the present letter Vincent reiterates that he wants to send Theo four works. This makes the present letter a follow-up to letter <ref target="let513.xml">513</ref> of about 12 July, where he mentions this for the first time (<ref target="let513.xml#l-4">ll. 4-8</ref>). Since the next letter dates from about 16 July (<ref target="let519.xml">519</ref>), we have dated 515 on or about Tuesday, 14 July 1885.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter is unsigned, and consequently may be incomplete.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Serret’s reaction to Van Gogh’s work <ref target="let508.xml">(508)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit to Nuenen <ref target="let510.xml">(510)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is impossible to say with certainty which cottages Van Gogh wanted to send. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let513.xml#n-1">See letter 513, n. 1,</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">n. 2</ref> below. In the end the four were never sent.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Van Hoek has identified two people that this could refer to: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_141">Johan van Lith</rs>, the owner of a piece of land in Tongelre (near Nuenen) known as ‘Rouwveldje’ or ‘Raauwvelden’, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_35">Catharina Helena Bruininga</rs>, who lived at this time in Huis te Coll in Tongelre. See Van Hoek 1995. In Dutch ‘coll’ means witch.</p>
+
+<p rend="indent">The first work, with the peasant (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-171">l. 171</ref>), must have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cottage with a man coming home</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2520">F 170 / JH 824</rs>); the second <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cottage with woman digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2517">F 89 / JH 803</rs>) – or possibly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cottage with tumbledown barn and a stooping woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3024">F 1669 / JH 825</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_613">Gigoux</rs> mentions these ‘dix-sept de refusés’ in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_407">Causeries sur les artistes de mon temps</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let490.xml#n-12">see letter 490, n. 12.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>‘Les vaillants’ is taken from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_613">Gigoux</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_407">Causeries sur les artistes de mon temps</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let492.xml#n-4">see letter 492, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>One-man exhibitions developed in part as a reaction against the way exhibitions were organized at the Salon and during the World Exhibitions. Since the mid-nineteenth century the usual retrospectives of dead artists had been joined by growing numbers of ‘monographic’ exhibitions. Shows like these were usually staged by art dealers, and one important function of them was therefore to promote the artist concerned. See Ekkehard Mai, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Expositionen. Geschichte und Kritik des Ausstellungswesens</hi>. Munich and Berlin 1986, pp. 32-42, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">DoA</hi>, under ‘Display of art’ and ‘Exhibition’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+      
+<p>See for this saying by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>, quoted in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_737">Sensier</rs>, <ref target="biblio.xml#lit_238"><hi rend="italics">La vie et l’oeuvre de J.F. Millet</hi></ref> : <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let210.xml#n-6">letter 210, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+      
+<p>Van Gogh took this expression from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_700">Paul Mantz</rs>’s article ‘<ref target="biblio.xml#lit_582">Le Salon <hi>ii</hi></ref>’ in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Temps</hi> of 17 May 1885 (p. 1), which Theo had sent him (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let506.xml">letter 506</ref>). Mantz wrote: ‘We remember the language so often used by this robust workman of painting. “Angels, he cried, who has ever seen angels?” This saying, which is spiritually absurd, was used to mean that the world of art is very restricted and that one must restrict oneself to painting things which the eye can see and the hand can touch.’ (On se rappelle le language qu’a tenu si souvent ce robuste ouvrier de la peinture. “Des anges, s’écriait-il, qui est-ce qui a vu des anges?” Ce mot, spirituellement absurde, voulait dire que le domaine de l’art est fort restreint et qu’on doit se borner à peindre les choses que l’oeil peut voir, que la main peut toucher.)</p>
+
+<p rend="indent"><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_894">Félix Bracquemond</rs> wrote in similar terms in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_418">Du dessin et de la couleur</ref></hi>: ‘“Angels! Who has ever seen angels? No one!” said <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_962">Courbet</rs>. The master painter of Ornans was wrong: there are people who have seen them’ (“Des anges! Qui est-ce qui a vu des anges? Personne!” disait Courbet. Le maitre peintre d’Ornans se trompait: il y a des gens qui en ont vu), but it appears that Theo brought Vincent this book later in the month, so he could not yet have known of the expression from this source (see Bracquemond 1885, p. 183 and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let531.xml">letters 531</ref> ff.).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_733">Jean-Joseph Benjamin-Constant</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La justice du chérif </hi>(Shereef’s justice) (also known as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La justice au harem</hi> (Justice in the harem)), 1885 (Lost). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_705">Ill. 705</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_700">Mantz</rs> had discussed this painting in his article ‘<ref target="biblio.xml#lit_582">Le Salon <hi>iii</hi></ref>’, in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Temps</hi> of Sunday, 24 May 1885 (p. 2); the Salon issue of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Illustration</hi> 85 (25 April 1885), no. 2200, which Theo had sent to Vincent, printed an illustration of it, with an addition to the title: ‘Espagne mauresque, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xv</hi>e siècle’ (Moorish Spain, fifteenth century) (p. 522).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh may have been thinking here of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1769">Alfred Dehodencq</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_575">Course de taureaux en Espagne</rs></hi> (The bull fight in Spain), 1850 (Pau, Musée des Beaux-Arts), at that time in the Musée du Luxembourg.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>See for ‘imagiërs’ in reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1117">Charles Emile Jacque</rs>, formulated by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1764">Pierre Véron</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let496.xml#n-8">letter 496, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>The quotation is taken from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s ‘<ref target="biblio.xml#lit_233">Le moment artistique</ref>’ in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_594">Mon Salon</ref></hi>: ‘What I look for above all in a painting is a man and not a painting.’ (Ce que je cherche avant tout dans un tableau, c’est un homme et non pas un tableau.) See Zola 1966-1970, vol. 12, p. 797. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let190.xml#n-5">letter 190, n. 5,</ref> and see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let804.xml">letter 804</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1279">Raffaëlli</rs>’s work includes numerous ragpickers; most of them were known through black and white reproductions. See Schinman Fields 1979, pp. 102, 125, 158-170; figs. 19, 23, 33, 36. In the catalogue that Theo had sent shortly before (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let512.xml">letter 512</ref>) there are ten works with the word ‘chiffonnier’ in the title.</p>
+
+<p rend="indent">Schinman Fields said: ‘Thus by the 1870s and 1880s, the ragpicker in literature had evolved from a picturesque character to a symbol of the outcast human debris of industrial society. In the visual arts, however, this change would have to wait for Raffaëlli. ... His figures [of ragpickers] are always depicted before a landscape as if he were commenting on the circumstances of the existence of these marginal members of society’ (pp. 158, 160).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The French style under Louis <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xv</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1102">Jean Auguste Dominique Ingres</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Source</hi>, 1856 (Paris, Musée d’Orsay). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_983">Ill. 983</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1402">Diego Rodríguez de Silva y Velázquez</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The waterseller</hi>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">c</hi>. 1620 (London, Wellington Museum. The Board of the Trustees of the Victoria &amp; Albert Museum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_441">Ill. 441</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>The fact that Van Gogh painted the subject as well as drawing it emerges from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let529.xml">letter 529</ref>. It is only known from the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman stooping, with a spade </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2522">F 1691 / JH 835</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_742">Silvestre</rs> had also observed that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1229">Michelangelo</rs> made sublime figures which did not accord with reality. See Silvestre,<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> <ref target="biblio.xml#lit_416">Histoire</ref></hi>, p. 73</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The potato eaters</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2510">F 82 / JH 764</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>One of the main themes of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1279">Raffaëlli</rs>’s essay in the catalogue (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-12">see n. 12</ref> above and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let512.xml#n-2">letter 512, n. 2</ref>) is that art must have ‘caractère’; it includes illustrations of figures, among them <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Labourer with basket</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Couple in the open air</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2150">Ill. 2150</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2151">Ill. 2151</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Here means: ‘Reeks’ (series, list).</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1215">Michel Louis Victor Mercier</rs> was known for his busts of aristocrats.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_958">Jules Dalou</rs> made numerous public monuments, chiefly in Paris.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

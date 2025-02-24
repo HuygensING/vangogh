@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Paul Signac. Arles, Wednesday, 10 April 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let756"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement/>
+                                        <institution/>
+                                        
+                                        <idno/>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>756</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>583b</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>760</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-04-10">Wednesday, 10 April 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Paul Signac</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/756_1r/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/756_1r/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/756_1r/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="Sheet number 1 not found." xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/756_1v/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/756_1v/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/756_1v/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher ami Signac</p>
+
+<p xml:id="p.fr.2" n="2">merci bien de votre carte postale qui me donne de vos nouvelles.<ptr target="#note-t-1"/> Pour ce qui est que mon frère n’aie point encore répondu à votre lettre<c type="kk">/</c> je suis porté à croire qu’il n’y aie pas de sa faute<c type="kp">_</c> Je suis aussi depuis une quinzaine sans de ses nouvelles<c type="kp">_</c>–<ptr target="#note-t-2"/> C’est qu’il est en Hollande où il se marie de ces jours ci<c type="kp">_</c>– Or, tout en ne niant pas le moins du monde les avantages d’un mariage<c type="kk">/</c> une fois qu’il est conclu et que l’on soit tranquillement installé chez soi, les pompes funèbres de réception &amp;c<c type="kp">_</c><c type="kk">/</c> les félicitations lamentables de deux familles (civilisées encore) à la fois, sans compter les comparitions fortuites dans ces bocaux de pharmacie où siègent des magistrats antédiluviens civils ou religieux – ma foi – n’y a-t-il pas de quoi plaindre le pauvre malheureux obligé de se rendre muni des papiers nécessaires sur les lieux où, avec une férocité non égalée par les antropophages les plus cruels, on vous marie à petit feu<ptr target="#note-t-a"/> de receptions pompes funebres susmentionnées<c type="kk">/</c> tout vivant.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je vous demeure bien obligé de votre si amicale et bienfaisante visite qui a considerablement contribué à me remonter le moral<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je vais bien maintenant et je travaille à l’hospice ou dans les environs. Ainsi je viens de rapporter deux études de vergers.</p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.5" n="5">En voici croquis hatif – le plus grand est une pauvre campagne verte à petits mas<c type="kk">/</c> ligne bleue des Alpines<c type="kk">/</c> ciel blanc &amp; bleu<c type="kp">_</c> Le devant<c type="kk">/</c> des clos aux haies de roseaux où de petits pechers sont en fleur – tout y est <hi rend="italics">petit</hi><c type="kk">/</c> les jardins<c type="kk">/</c> les champs<c type="kk">/</c> les jardins<c type="kk">/</c> les arbres<c type="kk">/</c> même ces montagnes<c type="kk">/</c> comme dans certains paysages japonais<c type="kk">/</c> c’est pourquoi ce motif m’attirait<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">L’autre paysage est presque tout vert avec un peu de lilas et de gris – par un jour pluvieux<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Bien aise de ce que vous dites que vous vous êtes fixé<c type="kk">/</c> et serai désireux d’avoir encore de vos nouvelles<c type="kp">_</c> Comment le travail marche-t-il<c type="kk">/</c> comment est le caractère de ces parages-là.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/><figure facs="zone-sketch-2" n="B"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.fr.8" n="8">Ma tête est depuis encore beaucoup revenu à l’état normal<c type="kk">/</c> provisoirement je ne demande pas mieux<c type="kk">/</c> pourvu que cela dure. Cela dépendra d’un régime très sobre surtout.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Pour les premiers mois au moins je me propose de rester encore ici, j’ai loué un apartement de deux très petites pièces.<ptr target="#note-t-6"/> Mais par moments il ne m’est pas tout à fait commode de recommencer à vivre car il me restent des desesperances interieures d’assez gros calibre.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Ma foi ces inquiétudes là... qui peut vivre dans la vie moderne sans en atrapper sa part.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">La meilleure consolation sinon le seul remède c’est à ce qu’il me semble encore les amitiés profondes<c type="kk">/</c> même si celles là ont le désavantage de nous ancrer dans la vie plus solidement que dans les jours de grande souffrance il puisse nous paraitre désirable<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Merci encore une fois de votre visite qui m’a tant fait plaisir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">en pensée bonne poignee de main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.14" n="14">b<c type="kp">_</c> à v<c type="kp">_</c></p>
+
+<p xml:id="p.fr.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.16" n="16">adresse jusqu’à fin avril<c type="kk">/</c> place Lamartine 2 Arles<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear friend <rs type="person" ref="bio.xml#_1350">Signac</rs>,</p>
+<p xml:id="p.en.2" n="2">Thanks very much for your postcard, which gives me news of you.<ptr target="#note-t-1"/> As for my brother not having replied to your letter yet, I’m inclined to believe that it’s not his fault. I’ve also been without news of him for a fortnight.<ptr target="#note-t-2"/> It’s because he’s in Holland, where he’s getting married one of these days. Now, while not denying the advantages of a marriage in the very least, once it has been done and one is quietly set up in one’s home, the funereal pomp of the reception &amp;c., the lamentable congratulations of two families (even civilized) at the same time, not to mention the fortuitous appearances in those pharmacist’s jars where antediluvian civil or religious magistrates sit – my word – isn’t there good reason to pity the poor unfortunate obliged to present himself armed with the requisite papers in the places where, with a ferocity unequalled by the cruellest cannibals, you’re married alive on the low heat of the aforementioned funereal receptions. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I remain much obliged to you for your most friendly and beneficial visit, which considerably contributed to cheering me up.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I am well now and I’m working in the hospital or its surroundings. Thus I’ve just brought back two studies of orchards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.5" n="5"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Here’s a hasty croquis of them – the largest is a poor green countryside with little cottages, blue line of the Alpilles, white and blue sky. The foreground, enclosures with reed hedges where little peach trees are in blossom – everything there is <hi rend="italics">small</hi>, the gardens, the fields, the gardens, the trees, even those mountains, as in certain Japanese landscapes, that’s why this subject attracted me.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">The other landscape is almost all green with a little lilac and grey – on a rainy day.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Very pleased to hear you say that you’ve settled down, and will very much wish to have more news of you. How is work going, what is the character of those parts?</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p xml:id="p.en.10" n="10"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.11" n="11">
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p xml:id="p.en.12" n="12">Since then my mind has returned yet more to the normal state, for the time being I don’t ask for better, provided it lasts. That will depend above all on a very sober regime.</p>
+<p rend="indent" xml:id="p.en.13" n="13">For the first few months, at least, I plan to go on staying here. I’ve rented an apartment consisting of two very small rooms.<ptr target="#note-t-6"/> But at times it isn’t completely convenient for me to start living again, for I still have inner despairs of quite a large calibre.</p>
+<p rend="indent" xml:id="p.en.14" n="14">My word, these anxieties... who can live in modern life without catching his share of them?</p>
+<p rend="indent" xml:id="p.en.15" n="15">The best consolation, if not the only remedy, is, it still seems to me, profound friendships, even if these have the disadvantage of anchoring us in life more solidly than may appear desirable to us in the days of great suffering.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Thank you again for your visit, which gave me so much pleasure.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Good handshake in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Yours truly,</p>
+<p xml:id="p.en.19" n="19">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">Address until end of April, place Lamartine 2, Arles.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Signac’s postcard of 8 April was postmarked on Wednesday, 10 April at Arles (<ref target="let755.xml">letter 755</ref>). We may assume that Van Gogh replied quickly. This is in keeping with Signac’s response to the present letter: he wrote back on ‘Friday’ (<ref target="let757.xml">see letter 757</ref>). We have therefore dated the letter to Wednesday, 10 April 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s journey to the Netherlands in connection with his marriage <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Possible move to another part of town <ref target="let750.xml">(750)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This is <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let755.xml">letter 755</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo had last written shortly before his departure for the Netherlands on 30 March; Vincent thanks him for his letter in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let754.xml">letter 754</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>A combination of ‘cuire à petit feu’ (cook over a low flame) and ‘brûler à petit feu’ (burn slowly).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1350">Signac</rs> had visited Van Gogh in Arles on 23 and 24 March; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let752.xml">see letter 752</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Crau with peach trees in blossom</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_207">F - / JH 1682</rs>) was made after the painting of the same name (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2779">F 514 / JH 1681</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orchard in blossom with a view of Arles </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_208">F - / JH 1684</rs>) was made after the painting of the same name (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2780">F 515 / JH 1683</rs>). It had rained from 5 to 9 April (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Météo-France</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let758.xml">letter 758</ref> Van Gogh reports that this small apartment was owned by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_637">Dr Rey</rs>. As the house physician, Rey lived at the hospital, so it is possible that he had put his apartment, or part of it, at Van Gogh’s disposal. Rey’s address was Rampe du Pont, near the Pont de Trinquetaille (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">ACA</hi>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’indicateur marseillais 1889</hi>).</p>
+
+<p rend="indent">In the end Van Gogh decided against taking this apartment, as <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs> informed Theo on Friday, 19 April 1889: ‘he was coming to an arrangement with a landlord when all of a sudden he confessed to me that for the time being he did not feel he had the courage to take possession of himself again and that it would be infinitely better for him, that it would be more sensible for him to go and spend two or three months in an asylum’ (il était sur le point de conclure avec un propriétaire quand tout à coup il m’a fait l’aveu qu’il ne se sentait pas pour le moment le courage de rentrer en possession de lui-même et qu’il lui conviendrait infiniment mieux, qu’il serait plus sage pour lui d’aller passer deux ou trois mois dans une maison de santé) (FR b1050).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

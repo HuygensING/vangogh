@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>Fragment of a letter to Theo van Gogh containing a copy of the poem ‘St Jerome’s love’ by Thomas Moore. Saint-Rémy-de-Provence, about November-December 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/RM18"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b672 c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>RM18</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>623</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>-</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-12">about November-December 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0672 c" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000918_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000918_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0672 c" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000918_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000918_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">exagéré dans l’oeuvre<c type="kp">_</c> Que des parents ignorants au point de vue de la peinture cessent d’aimer un enfant un peu autrement que le reste – c’est certes un malentendu terrible – mais même s’ils comprenaient la peinture – comment le leur trop reprocher dans cette societe d’argent et de militaires<c type="kp">_</c>– C’est pourquoi s’il faisait son service<ptr target="#note-t-1"/> ce ne serait pas plus malheureux pour lui<c type="kk">/</c> ce serait s’avouer vaincu par la fatalité encore à temps. Qu’est devenu Vignon?<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.fr.2" n="2">Enfin ceci est certain<c type="kk">/</c> il ne s’agit pas de faire le fier ou d’avoir grande espérance pour la suite<c type="kp">_</c> Prenons les réalités terribles comme elles sont et s’il faut que moi je laisse la peinture je crois que je le ferai<c type="kp">_</c> En tout cas je veux bien encore une fois essayer avec une meilleure santé qu’il y a deux ans si je ne trouve pas une position quelconque. Je me le suis souvent dit que si il y a deux ans j’eusse eu un temperament plus calme comme Seurat par exemple<c type="kk">/</c> je aurais pu résister<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p xml:lang="en" xml:id="p.fr.3" n="3">Who is the maid my spirit seeks<ptr target="#note-t-3"/></p>
+
+<p xml:lang="en" xml:id="p.fr.4" n="4">Through cold reproof &amp; slanders blight</p>
+
+<p xml:lang="en" xml:id="p.fr.5" n="5">has she loves roses on her cheeks</p>
+
+<p xml:lang="en" xml:id="p.fr.6" n="6">Is hers an eye of calm delight?</p>
+
+<p xml:lang="en" xml:id="p.fr.7" n="7">No<c type="kk">/</c> wan &amp; sunk with midnight prayer</p>
+
+<p xml:lang="en" xml:id="p.fr.8" n="8">As the worn looks of her I love</p>
+
+<p xml:lang="en" xml:id="p.fr.9" n="9">And if by chance a light be there</p>
+
+<p xml:lang="en" xml:id="p.fr.10" n="10">As fire was kindled from above</p>
+
+<p xml:lang="en" xml:id="p.fr.11" n="11">I choose not her mine hearts elect</p>
+
+<p xml:lang="en" xml:id="p.fr.12" n="12">Amongst those who seek their makers’ shrine</p>
+
+<p xml:lang="en" xml:id="p.fr.13" n="13">In gems and garlands proudly decked</p>
+
+<p xml:lang="en" xml:id="p.fr.14" n="14">As if themselves were things divine</p>
+
+<p xml:lang="en" xml:id="p.fr.15" n="15">And they who come in glittering dress</p>
+
+<p xml:lang="en" xml:id="p.fr.16" n="16">to mourn their frailty yet are frail</p>
+
+<p xml:lang="en" xml:id="p.fr.17" n="17">No heaven but faintly warm the breast</p>
+
+<p xml:lang="en" xml:id="p.fr.18" n="18">That beats beneath a broidered veil.</p>
+
+<p xml:lang="en" xml:id="p.fr.19" n="19">Not so the form of her I love</p>
+
+<p xml:lang="en" xml:id="p.fr.20" n="20">And... because her bloom is gone</p>
+
+<p xml:lang="en" xml:id="p.fr.21" n="21">But ne’er was beauty’s bloom so bright</p>
+
+<p xml:lang="en" xml:id="p.fr.22" n="22">So touching as that forms decay</p>
+
+<p xml:lang="en" xml:id="p.fr.23" n="23">That like the altars wavering light</p>
+
+<p xml:lang="en" xml:id="p.fr.24" n="24">In holy lustre fades away<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">exaggerated in the work. That parents who are ignorant from the point of view of painting should stop loving a child who’s a little different from the rest – that’s certainly a terrible misunderstanding – but even if they understood painting, how could one reproach them for it too much in this society of money and military men? That’s why, if he did his military service,<ptr target="#note-t-1"/> it wouldn’t be more unfortunate for him, it would be to admit in good time that one has been vanquished by fate. What became of <rs type="person" ref="bio.xml#_1415">Vignon</rs>?<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.2" n="2">Anyway, this is certain, it’s not a matter of putting on a proud front or having great hopes for what comes next. Let’s take the terrible realities as they are, and if I have to abandon painting I think I shall. In any case, I really want to see, one more time and with better health than two years ago, if I can’t find some sort of position. I’ve often told myself that if, two years ago, I’d had a calmer temperament like <rs type="person" ref="bio.xml#_1353">Seurat</rs>, for example, I could have resisted.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p xml:id="p.en.4" n="4">Who is the maid my spirit seeks<ptr target="#note-t-3"/></p>
+<p xml:id="p.en.5" n="5">Through cold reproof and slanders blight</p>
+<p xml:id="p.en.6" n="6">Has she loves roses on her cheeks</p>
+<p xml:id="p.en.7" n="7">Is hers an eye of calm delight?</p>
+<p xml:id="p.en.8" n="8">No, wan and sunk with midnight prayer</p>
+<p xml:id="p.en.9" n="9">As the worn looks of her I love</p>
+<p xml:id="p.en.10" n="10">And if by chance a light be there</p>
+<p xml:id="p.en.11" n="11">As fire was kindled from above</p>
+<p xml:id="p.en.12" n="12">I choose not her mine hearts elect</p>
+<p xml:id="p.en.13" n="13">Amongst those who seek their makers’ shrine</p>
+<p xml:id="p.en.14" n="14">In gems and garlands proudly decked</p>
+<p xml:id="p.en.15" n="15">As if themselves were things divine</p>
+<p xml:id="p.en.16" n="16">And they who come in glittering dress</p>
+<p xml:id="p.en.17" n="17">To mourn their frailty yet are frail</p>
+<p xml:id="p.en.18" n="18">No heaven but faintly warm the breast</p>
+<p xml:id="p.en.19" n="19">That beats beneath a broidered veil.</p>
+<p xml:id="p.en.20" n="20">Not so the form of her I love</p>
+<p xml:id="p.en.21" n="21">And... because her bloom is gone</p>
+<p xml:id="p.en.22" n="22">But ne’er was beauty’s bloom so bright</p>
+<p xml:id="p.en.23" n="23">So touching as that forms decay</p>
+<p xml:id="p.en.24" n="24">That like the altars wavering light</p>
+<p xml:id="p.en.25" n="25">In holy lustre fades away.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter fragment and poem were probably written about November-December 1889: on p. 1 Bernard’s parents are mentioned (they also appear in <ref target="let823.xml">letter 823</ref> of 26 November 1889 and <ref target="let827.xml">letter 827</ref> of 9 or 10 December 1889). Van Gogh also copied the poem in <ref target="let832.xml">letter 832</ref> of about 23 December 889.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In <hi rend="italics">Verzamelde brieven</hi> 1973 and <hi rend="italics">De brieven</hi> 1990, this text was assigned to <ref target="let839.xml">letter 839</ref>, but we see no reason to do so, nor can we find a compelling argument to place it with any other letter. It seems, rather, that Van Gogh kept the sheet for himself because of the poem he copied on p. 2, since the sheet is torn all around this poem. </p><p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Because he added several lines of verse in this version (<ref target="#l-35a">ll. 35a-35e</ref>), it is highly likely that he attempted to reconstruct the poem. We therefore assume that this loose leaf – which, considering the remark about Seurat (<ref target="#l-21">l. 21</ref>), must originally have been addressed to Theo – was never sent.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Emile Bernard</rs>’s military service.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>It is not known what Vincent is enquiring about here. Theo was in touch with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1415">Victor Vignon</rs>, one of the less successful Impressionists. The estate includes three of his works. See Monneret 1978-1981, vol. 3, p. 53, and cat. Amsterdam 1987, p. 363. Cf. also FR b4302 and b1179.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+    
+<p>Regarding the poem  ‘<ref target="biblio.xml#lit_518">Who is the maid? St. Jerome’s love</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_711">Thomas Moore</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let832.xml#n-2">see letter 832, n. 2,</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="RM12.xml">RM12</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

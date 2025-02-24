@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Cuesmes, Tuesday, 7 September 1880.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let157"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b155 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>157</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>135</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>156</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1880-09-07">Tuesday, 7 September 1880</date>
+                            <placeName>Cuesmes</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0155" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000165_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000165_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000165_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0155" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000165_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000165_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000165_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Cuesmes 7 7<hi rend="super">bre</hi> 1880</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Cher Theo,</p>
+
+<p xml:id="p.fr.3" n="3">Quant aux f<hi rend="super">lles</hi><c type="kk">/</c> eaufortes &amp;c<c type="kp">_</c> que tu m’as envoyées il y a quelque temps<c type="kk">/</c> je les ai bien reçues &amp; je t’en remercie beaucoup. Tu m’as rendu grand service en les envoyant.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je te dirai donc que j’ai esquissé <hi rend="italics">les 10 f</hi><hi rend="super"><hi rend="italics">lles</hi></hi><hi rend="italics"> Travaux des champs</hi> <hi rend="italics">de Millet</hi><ptr target="#note-t-1"/> (dans les dimensions d’une f<hi rend="super">le</hi> Cours de dessin Bargue à peu près)<ptr target="#note-t-2"/> &amp; que j’en ai tout à fait achevé une<c type="kk">/</c> soit le bucheron.<ptr target="#note-t-3"/> Je serais plus avancé avec<c type="kk">/</c><ptr target="#note-t-a"/> si n’était que j’ai d’abord voulu faire les Exercices au fusain de Bargue que M. Tersteeg a eu la bonté de me prêter &amp; j’ai maintenant fini les 60 f<hi rend="super">lles</hi>.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">En outre j’ai dessiné la prière du soir<ptr target="#note-t-5"/> d’après l’Eauforte que tu as envoyé.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je voudrais bien pouvoir te les montrer pour savoir ton avis sur tout cela ainsi que sur quelques autres dessins<c type="kk">/</c> tel qu’un grand Sepia d’après Th. Rousseau<c type="kk">/</c> Four dans les Landes.<ptr target="#note-t-6"/> Je l’avais déjà 2 fois fait en petit à l’aquarelle avant de réussir avec.<ptr target="#note-t-b"/> J’aurais<c type="kk">/</c> comme je t’ai déjà dit<c type="kk">/</c> un grand désir de faire aussi le Buisson de Ruysdael.<ptr target="#note-t-7"/> tu sais que ces deux paysages sont dans le même style &amp; sentiment. </p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">J’ai assez longtemps griffonné des dessins sans beaucoup avancer mais dernièrement ça va mieux à ce qui me semble &amp; j’ai bon espoir que ca ira encore mieux<c type="kp">_</c> Surtout à cause de ce que Mr Tersteeg &amp; aussi toi me soyez venu en aide avec de bons modèles; car je crois beaucoup mieux faire de copier d’abord pour le présent quelques bonnes choses que de travailler sans ce fondement.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Cependant je n’ai pu m’empêcher d’esquisser en assez grandes dimensions le dessin des charbonniers allant à fosse<c type="kk">/</c> dont je t’ai envoyé le croquis<c type="kk">/</c><ptr target="#note-t-8"/> en changeant tant soit peu la mise en scène des figures.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">J’espère bien qu’après avoir encore copié les deux autres séries de Bargue<c type="kk">/</c><ptr target="#note-t-9"/> je serai à même de dessiner un charbonnier ou une scloneuse plus ou moins raisonable lorsqu’il me sera possible d’avoir à l’occasion un modèle ayant quelque caractère<c type="kk">/</c> et quant à cela il y en a ici.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Je trouve très belle la lithographie d’après Bosboom<c type="kk">/</c> intérieur d’étable.<ptr target="#note-t-10"/> Tu as bien compris ma pensée lorsque tu as ajouté à la collection le Malaria de Hébert<c type="kp">_</c><ptr target="#note-t-11"/></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Si tu possèdes encore le livre avec des eaux fortes d’après Michel<c type="kk">/</c><ptr target="#note-t-12"/> <hi rend="italics">à l’occasion</hi> prête-le moi aussi mais c’est pas pressé<c type="kk">/</c> pour le moment j’ai assez à travailler<c type="kk">/</c> mais j’y tiendrais à revoir ces paysages car je regarde maintenant encore avec un autre oeil les choses que dans le temps lorsque je ne dessinais pas encore. J’espère que tu ne seras pas trop mécontent des dessins d’après Millet lorsque tu les verras, ces petites gravures sur bois<ptr target="#note-t-13"/> sont admirables. Puisque j’aurai en tout déjà 20 f<hi rend="super">lles</hi> d’après Millet<c type="kk">/</c> tu peux bien comprendre que si tu pourrais encore m’en procurer d’autres je les ferais avec empressement car je cherche à etudier serieusement ce maitre.<ptr target="#note-t-14"/> Je sais bien que la grande eauforte des <hi rend="italics">bêcheurs</hi><ptr target="#note-t-15"/> est rare mais néamoins ayez l’oeil dessus et dites moi à quel prix on pourrait encore l’avoir. Jour ou autre je gagnerai<ptr target="#note-t-16"/> bien encore quelques liards avec quelque griffonage de charbonnier &amp; je tiendrais à l’avoir cette feuille-là<c type="kk">/</c> ainsi que le <hi rend="italics">Buisson</hi><c type="kk">/</c><hi rend="italics"> </hi>aussitot que je pourrai l’acheter quand bien même que ce serait un peu cher.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.12" n="12">J’ai acheté l’autre jour pour f<hi rend="super">r </hi>2.50 2 volumes du musee universel,<ptr target="#note-t-17"/> où il y a un assez grand nombre de gravures sur bois intéressantes<c type="kk">/</c> entre autres 3 Millet.<ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Je ne saurais te dire combien M. Tersteeg m’a réjoui en consentant à me laisser avoir pour un temps les Exercices au fusain &amp; le Cours de dessin Bargue. J’ai travaillé sur les premières pendant à peu près une quinzaine de jours<c type="kk">/</c> du matin de fort bonne heure jusqu’au soir<c type="kk">/</c> &amp; de jour en jour j’ai cru sentir que cela me fortifiait. Mais avec pas moins<c type="kk">/</c> plutôt avec davantage d’empressement je fais maintenant les Travaux des Champs. c’est les tondeurs de moutons<ptr target="#note-t-19"/> qui sont en train maintenant. </p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Recevez donc mes sincères remerciments de les avoir envoyés et sachez que tout ce que vous pourriez trouver de cet artiste-là me serait on ne peut plus utile. Quant au <hi rend="italics">Semeur</hi><c type="kk">/</c><ptr target="#note-t-20"/> voilà déjà 5 fois que je l’ai dessiné<c type="kk">/</c> 2 fois en petit<c type="kk">/</c> 3 fois en grand et pourtant je le reprendrai encore<c type="kk">/</c> tellement cette figure me préoccupe.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Lorsque tot ou tard tu m’écrirais (ce qui par manière d’abstraction<ptr target="#note-t-c"/> me ferait grand plaisir) pourrais tu me renseigner au sujet des eauxfortes de <hi rend="italics">A<c type="kp">_</c> Legros</hi>.<ptr target="#note-t-21"/> j’en ai vu dans le temps si j’ai bonne mémoire une douzaine en Angleterre qui étaient très belles.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Pour aujourd’hui je finis la présente en te remerciant encore une fois et en te serrant la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.18" n="18">Recois aussi mes felicitations à l’occasion du 10 Sept.<ptr target="#note-t-22"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">adresse Ch. Decrucq.</p>
+
+<p xml:id="p.fr.20" n="20">3 Rue du pavillon</p>
+
+<p xml:id="p.fr.21" n="21">Cuesmes (près Mons)</p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:id="p.fr.22" n="22">Voici les Millet que j’ai</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.23" n="23">Le Semeur.</p>
+
+<p xml:id="p.fr.24" n="24">Priere du soir</p>
+
+<p xml:id="p.fr.25" n="25">Moissonneurs liant des gerbes<ptr target="#note-t-23"/></p>
+
+<p xml:id="p.fr.26" n="26">Bucheron &amp; sa femme dans la forêt<ptr target="#note-t-24"/></p>
+
+<p xml:id="p.fr.27" n="27">Champs en hiver.<ptr target="#note-t-25"/></p>
+
+<p xml:id="p.fr.28" n="28">Jeune paysan<ptr target="#note-t-26"/></p>
+
+<p xml:id="p.fr.29" n="29">Travaux des champs 10 f<hi rend="super">les</hi></p>
+
+<p xml:id="p.fr.30" n="30">Heures de la journée 4 f<hi rend="super">les</hi><ptr target="#note-t-27"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.31" n="31">N’as tu pas encore dans ta collection de gravures sur bois un vieux bucheron seul dans le bois?<ptr target="#note-t-28"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Cuesmes, 7 Sept. 1880</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Dear Theo,</p>
+<p xml:id="p.en.3" n="3">As for the sheets, etchings &amp;c. that you sent me some time ago, I received them safely and I thank you very much for them. You did me a great service by sending them.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’ll tell you, then, that I’ve sketched <hi rend="italics">the 10 sheets of <rs type="person" ref="bio.xml#_1226">Millet</rs>’s Labours of the fields</hi><ptr target="#note-t-1"/> (in approximately the dimensions of a sheet of the <rs type="person" ref="bio.xml#_851">Bargue</rs> Cours de dessin)<ptr target="#note-t-2"/> and that I’ve completely finished one of them, namely The woodcutter.<ptr target="#note-t-3"/> I would be further on with them if it weren’t for the fact that I first wanted to do Bargue’s Exercices au fusain, which <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> has been so kind as to lend me, and now I’ve finished the 60 sheets.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Furthermore, I’ve drawn The evening prayer<ptr target="#note-t-5"/> after the etching that you sent.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’d very much like to be able to show you them, to have your opinion on all of it, as well as on some other drawings, such as a large sepia after <rs type="person" ref="bio.xml#_1332">T. Rousseau</rs>, Oven in Les Landes.<ptr target="#note-t-6"/> I’d done it twice before, small, in watercolours, before succeeding with it. I would, as I’ve already told you, really like to do <rs type="person" ref="bio.xml#_1333">Ruisdael</rs>’s The bush,<ptr target="#note-t-7"/> too. You know that these two landscapes are in the same style and sentiment.</p>
+<p rend="indent" xml:id="p.en.7" n="7">For quite a while I’ve been scribbling down drawings without making much progress, but recently it’s been going better, it seems to me, and I’m confident that it will go better still. Especially in view of the fact that <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> and you, too, have come to my aid with good models; because I believe I do much better for the time being by first copying some good things than by working without that foundation. </p>
+<p rend="indent" xml:id="p.en.8" n="8">However, I couldn’t help sketching, in fairly large dimensions, the drawing of the miners going to the pit, of which I sent you the croquis,<ptr target="#note-t-8"/> changing the arrangement of the figures slightly.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.9" n="9"> I really hope that after copying <rs type="person" ref="bio.xml#_851">Bargue</rs>’s two other series as well<ptr target="#note-t-9"/> I’ll be able to draw a more or less reasonable miner or female thrutcher, when one of these days it will be possible for me to have a model with some character, and as far as that’s concerned, there are some here.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I find the lithograph after <rs type="person" ref="bio.xml#_884">Bosboom</rs>, Interior of a cowshed,<ptr target="#note-t-10"/> very beautiful. You well understood my thinking when you added <rs type="person" ref="bio.xml#_1085">Hébert</rs>’s Malaria<ptr target="#note-t-11"/> to our collection.</p>
+<p rend="indent" xml:id="p.en.11" n="11">If you still own the book with the etchings after <rs type="person" ref="bio.xml#_1228">Michel</rs>,<ptr target="#note-t-12"/> lend it to me too <hi rend="italics">sometime</hi>, but it’s not urgent; I have plenty to work on for the time being, but I’ll be very eager to see those landscapes again, because now I see things with a different eye from the time when I wasn’t yet drawing. I hope you won’t be too unhappy with the drawings after <rs type="person" ref="bio.xml#_1226">Millet</rs> when you see them; these little wood engravings<ptr target="#note-t-13"/> are wonderful. As I’ll already have 20 sheets after Millet, all told, you can well understand that if you could obtain some more for me I’d be very keen to do them, as I’m trying to study this master seriously.<ptr target="#note-t-14"/> I’m well aware that the large etching of the <hi rend="italics">diggers</hi><ptr target="#note-t-15"/> is rare, but keep an eye open for it nevertheless, and tell me at what price one could still get it. One of these days I’ll earn<ptr target="#note-t-16"/> a farthing or two with some scratch of a miner, and I’d be very keen to have that sheet, as well as The <hi rend="italics">bush</hi>, as soon as I could buy it, even though it might be a bit expensive. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">The other day I bought 2 volumes of the Musée Universel for 2.50 francs,<ptr target="#note-t-17"/> in which there are a fair number of interesting wood engravings, including 3 <rs type="person" ref="bio.xml#_1226">Millet</rs>s.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I couldn’t tell you how much <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs> has pleased me by agreeing to let me have <rs type="person" ref="bio.xml#_851">Bargue</rs>’s Exercices au fusain and Cours de dessin. I’ve worked on the first ones for a fortnight or thereabouts, from very early in the morning until evening, and day by day I’ve believed I could feel that it was making me stronger. But not with less, rather with more eagerness, I’m now doing The labours of the fields. It’s The sheep-shearers<ptr target="#note-t-19"/> that are on the go now.</p>
+<p rend="indent" xml:id="p.en.14" n="14">So accept my sincere thanks for sending them, and be sure that anything you might be able to find by that artist couldn’t be more useful to me. As for The <hi rend="italics">sower</hi>,<ptr target="#note-t-20"/> I’ve drawn it 5 times now, twice small, 3 times large, and yet I’ll go back to it again, that figure haunts me so.</p>
+<p rend="indent" xml:id="p.en.15" n="15">When you write to me, sooner or later (which by way of distraction would give me great pleasure), could you give me some information about <hi rend="italics"><rs type="person" ref="bio.xml#_1157">A. Legros</rs></hi>’ etchings?<ptr target="#note-t-21"/> If my memory serves me right, I once saw about a dozen of them in England that were very fine.</p>
+<p rend="indent" xml:id="p.en.16" n="16">For today, I’ll end this letter by thanking you again and shaking your hand.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Also accept my congratulations on the occasion of 10 September.<ptr target="#note-t-22"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Address <rs type="person" ref="bio.xml#_340">C. Decrucq</rs>.</p>
+<p xml:id="p.en.20" n="20">3 rue du Pavillon</p>
+<p xml:id="p.en.21" n="21">Cuesmes (near Mons)</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p xml:id="p.en.23" n="23">Here are the <rs type="person" ref="bio.xml#_1226">Millet</rs>s that I have:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">The Sower.</p>
+<p xml:id="p.en.25" n="25">Evening prayer</p>
+<p xml:id="p.en.26" n="26">Reapers binding sheaves<ptr target="#note-t-23"/></p>
+<p xml:id="p.en.27" n="27">Woodcutter and his wife in the forest<ptr target="#note-t-24"/></p>
+<p xml:id="p.en.28" n="28">Fields in winter.<ptr target="#note-t-25"/></p>
+<p xml:id="p.en.29" n="29">Young peasant<ptr target="#note-t-26"/></p>
+<p xml:id="p.en.30" n="30">Labours of the fields, 10 sheets</p>
+<p xml:id="p.en.31" n="31">Four times of the day, 4 sheets<ptr target="#note-t-27"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.32" n="32">Don’t you still have an old woodcutter alone in the woods in your collection of wood engravings?<ptr target="#note-t-28"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Cuesmes 7 7bre 1880’. Van Gogh made use of the Latin origin of the name of the month, ‘septem’ and will do so again in <ref target="let179.xml">letters 179</ref>, <ref target="let180.xml">180</ref>, <ref target="let184.xml">184</ref> and <ref target="let185.xml">185</ref>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo sends prints requested by Vincent <ref target="let156.xml">(156)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tersteeg lends Vincent <hi rend="italics">Exercices au fusain</hi> and <hi rend="italics">Cours de dessin</hi> by Bargue <ref target="let156.xml">(156)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>For the series of prints <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1887"><hi rend="italics">The labours of the fields</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-1">see letter 156, n. 1.</ref> A drawing is known only of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The reaper</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_678">F SD 1674 / JH 2</rs>), but Hulsker dates it as late as April-May 1881. Van Gogh later wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Eugène Boch</rs> that he had destroyed all his work from the Borinage period (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">see letter 693</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The sheets in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Bargue</rs>’s <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin</hi></ref> measure c. 44 x 58 cm; the drawings themselves vary in size.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>A drawing after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The woodcutter</hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-1">see letter 156, n. 1</ref>), no. 9 in the series <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1887"><hi rend="italics">The labours of the fields</hi></rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘with them’ (with the drawings).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Regarding the <ref target="biblio.xml#lit_202"><hi rend="italics">Exercices au fusain</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Bargue</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-12">see letter 156, n. 12.</ref> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">Tersteeg</rs> had already been called upon in 1877 to lend out his sample drawings (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let102.xml">see letter 102</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh made several drawn copies after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1766"><hi rend="italics">The angelus</hi></rs> (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The evening prayer</hi>), one of which is known (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2329">F 834 / JH Juv. 14</rs>), though this is probably not the one referred to here; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let160.xml">see letter 160</ref>. For the etching, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let073.xml#n-6">see letter 73, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For the lithograph by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1510">Auguste-Paul-Charles Anastasi</rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Rousseau</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1866"><hi rend="italics">Oven in Les Landes</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let139.xml#n-9">see letter 139, n. 9.</ref> Van Gogh’s copies after Rousseau have been lost.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘with the sepia’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For the etching <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1717"><hi rend="italics">The bush</hi></rs>, made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Daubigny</rs> after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Jacob van Ruisdael</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let035.xml#n-5">see letter 35, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Miners going to the mine</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2326">F 831 / JH Juv. 11</rs>). This drawing measures 44.5 x 55 cm. Cat. Amsterdam 1996, pp. 14-15. The ‘croquis’ is the letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#_13">Miners in the snow at dawn</rs></hi> in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml">letter 156</ref>, which was done after an earlier drawing.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh is referring to the two-part <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Charles Bargue</rs>. For this drawing course, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let136.xml#n-22">see letter 136, n. 22.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>It is not certain which lithograph Theo sent. It could have been one made after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_884">Bosboom</rs>’s watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De koestal </hi>(The cowshed), also known as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Boerendeel </hi>(Barn). See exhib. cat. The Hague 1917, p. 33, no. 57. Also known are three interiors of stables – a watercolour (Amsterdam, Rijksprentenkabinet), a watercolour sketch and a painting – a number of barns and the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Stal met vrouw aan pomp </hi>(Cowshed with woman at the pump). The lithograph made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1571">Jan Mesker</rs> after the last-mentioned, titled <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Een stal </hi>(A cowshed), appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Kunstkronijk </hi>17 (1876), NS, p. 46. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_610">Ill. 610</rs>. Cf. Marius and Martin 1917, pp. 139-140, 142, 144, 147, 149, 151-152.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+      
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1085">Ernest Hébert</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1666">Malaria</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let029.xml#n-7">see letter 29, n. 7.</ref> Goupil published a photogravure of it (London, Witt Library); see exhib. cat. London<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>1992, pp. 129-130, cat. no. 47. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1543">Eugène Alexis Girardet</rs> also made a simplified engraving after it (source unknown). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1890">Ill. 1890</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh is referring to <ref target="biblio.xml#lit_40"><hi rend="italics">Étude sur George Michel</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_737">Alfred Sensier</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let044.xml#n-2">see letter 44, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+      
+<p>The prints in the series <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1679 artwork.xml#ill_1680 artwork.xml#ill_1681 artwork.xml#ill_1682"><hi rend="italics">The four times of the day</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1887"><hi rend="italics">The labours of the fields</hi></rs>, which Van Gogh owned, are small woodcuts. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-1">See letter 156, n. 1</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let037.xml#n-16">letter 37, n. 16.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Van Gogh later added ‘as I’m trying to study this master seriously’.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s etching <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1876"><hi rend="italics">The two diggers</hi></rs>, which measures 23.5 x 33.5 cm, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let142.xml#n-18">see letter 142, n. 18.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>This was followed by ‘s’il plaît à Dieu’ (God willing), which Van Gogh crossed out.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The first issue of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel. Revue Illustrée Hebdomadaire</hi> was published in Paris on 5 October 1872. Single issues, each numbering 16 pages, cost 25 centimes; a yearly subscription in Paris cost 12 francs, and in the other <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">departements</hi> 14 francs. The magazine contained short pieces on politics, the economy and cultural affairs, accompanied by illustrations; it also included independent prints, sometimes page-sized. Van Gogh’s estate contains a total of thirteen engravings from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi>, all originating from volumes 4, 5 and 6 (1876-1878). Van Gogh must have bought two of them during this period.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>It is not known exactly which <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">three</hi> engravings after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs> Van Gogh had; the estate contains only <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le bûcheron </hi>(The woodcutter). Seven were reproduced in the following issues of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi>: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi> 4 (1876), 1st semestre: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_147"><hi rend="italics">La lessiveuse</hi></rs> (Washerwoman), drawing by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1707">Edmond Charles Joseph Yon</rs>, engraved by Martin (p. 213), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le bûcheron</hi> (The woodcutter) (pp. 216-217), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_148"><hi rend="italics">Servante balayant la maison</hi></rs> (Servant sweeping the house), drawing by F. Dumont (p. 369); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi> 4 (1876), 2nd semestre: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_149"><hi rend="italics">La petite bergère</hi></rs> (The little shepherdess), drawing by Edmond Charles Joseph Yon, engraved by Perrichon (p. 293); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi> 5 (1877), 2nd semestre: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_150"><hi rend="italics">Berger gardant son troupeau (‘Le père Rabatu’)</hi></rs> (Shepherd keeping watch over his flock (‘Le père Rabatu’)), drawing by Dumont (p. 277); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_274"><hi rend="italics">Cour de ferme, la nuit</hi></rs> (Farmyard at night), drawing by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_942">Théophile-Narcisse Chauvel</rs> (p. 332); and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi> 6 (1878), vol. 12, no. 293: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_152"><hi rend="italics">Jeune paysan de Barbizon</hi></rs> (Young peasant of Barbizon); the last-mentioned traced only as a listing on the cover, hence the lack of a page reference.</p>
+
+<p rend="indent">
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le bûcheron</hi> was published in the series ‘Galerie des peintres contemporaines’. The drawing is by Edmond Charles Joseph Yon; the engraver is <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1584">George Léon Alfred Perrichon</rs> (Amsterdam, Van Gogh Museum, t*573). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_271">Ill. 271</rs>. Cf. exhib. cat. Paris 1998, p. 137, fig. 39.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The sheep shearers</hi> (no. 8 in the series <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1887"><hi rend="italics">The labours of the fields</hi></rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-1">see letter 156, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1888"><hi rend="italics">The sower</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let156.xml#n-3">see letter 156, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="c" xml:id="note-t-c">
+                            
+
+<p>Read: ‘distraction’.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>For the etchings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1157">Alphonse Legros</rs>, see W.S. Sparrow, ‘L’Oeuvre de l’aquafortiste Alphonse Legros’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Studio</hi> 27 (January 1903) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Catalogue of the etchings, drypoints and lithographs by Professor Alphonse Legros in the collection of Frank E. Bliss</hi>. Preface by Campbell Dodgson. C.B.E. London 1923.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>The congratulations are connected with the birthday of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs>, who turned 61 on 10 September.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+      
+<p>Van Gogh’s mention of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Reapers binding sheaves</hi> probably refers to a reproduction of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Jean-François Millet</rs>’s pastel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Buckwheat harvest</hi>, 1868-1870 (Boston, Museum of Fine Arts). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3112">Ill. 3112</rs>. This was published as an engraving in the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gazette des Beaux-Arts</hi> of 1 May 1875, p. 438. See exhib. cat. Boston 1984, p. 210, cat. no. 142.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1871"><hi rend="italics">Woodcutter and his wife in the forest</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let141.xml#n-7">see letter 141, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+      
+<p>Van Gogh owned the etching by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1527">Alfred Alexandre Delauney</rs> after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Winter: The plain of Chailly</hi>, 1862 (Vienna, Österreichische Galerie). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1892">Ill. 1892</rs> (Amsterdam, Van Gogh Museum, t*50). He applied a grid to this print, perhaps to guide him in making the later, painted copy <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Snow-covered field with a plough and harrow (after Millet)</hi>, (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2885">F 632 / JH 1882</rs>). Cf. exhib. cat. Paris 1975, no. 192; exhib. cat. Amsterdam 1988, pp. 115-119, cat. nos. 41-43; and exhib. cat. Paris 1998, pp. 154-157, cat. nos. 83-85.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>This probably refers to the reproduction <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jeune paysan de Barbizon</hi> (Young peasant of Barbizon) which appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Art</hi> 4 (1878), vol. 1, p. 20, a ‘pencil drawing by J.F. Millet (no. 212 in the Alfred Sensier sale)’. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_280">Ill. 280</rs>. The print also appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Musée Universel</hi> 6 (11 May 1878), vol. 12, no. 293 (as listed on the cover in London, Art Library Victoria &amp; Albert).</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1679 artwork.xml#ill_1680 artwork.xml#ill_1681 artwork.xml#ill_1682"><hi rend="italics">The four times of the day</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let037.xml#n-16">see letter 37, n. 16.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+      
+<p>This question must refer to another depiction of a woodcutter and not the one mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-3">nn. 3</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-18">18</ref> above. A month later Vincent thanks his brother for sending a woodcutter by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>, after which he had just made a pen drawing (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let159.xml#n-5">see letter 159, n. 5</ref>).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

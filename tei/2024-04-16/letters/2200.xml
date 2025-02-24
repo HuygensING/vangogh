@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, on or about Sunday, 23 April 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let220"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b211 a-b V/1962 (sheets 1, 2) and d322 V/1972 (sheet 3)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>220</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>190</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>219</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-04-23">on or about Sunday, 23 April 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0211 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000241_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000241_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000241_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0211 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000241_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000241_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000241_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0211 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000242_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000242_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0211 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000242_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000242_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0322" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001676_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-5">
+<graphic url="https://example.com/iiif/VGM001001676_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0322" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001676_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-6">
+<graphic url="https://example.com/iiif/VGM001001676_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Theo,</p>
+
+<p xml:id="p.nl.2" n="2">het is mij sedert ik Mauve geschreven heb: “weet gij wel dat die bewuste twee maanden al lang om zijn<c type="kk">/</c> laat ons elkander eens de hand geven en daarna elk zijns weegs gaan<c type="kk">/</c> liever dan dat er twist zij tusschen U en mij”<c type="kk">/</c> het is mij, zeg ik, sedert ik zulks schreef en geen taal of teeken antwoord ontving als of iets mij de keel toeschroefde.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Omdat – en gij weet dat – ik veel houd van Mauve<c type="kk">/</c> en het is zoo bar dat van al dat geluk dat hij mij voorstelde niet veel komen zal. Want ik vrees dat naarmate ik beter teeken ik des te meer moeielijkheid &amp; tegenwerking zal ontmoeten. Omdat ik veel te lijden zal hebben juist door verschillende eigenaardigheden die ik niet veranderen <hi rend="italics">kan</hi>. Vooreerst mijn voorkomen en manier van spreken en kleeding en dan omdat ik ook later als ik meer verdien mij zal blijven bewegen in een anderen kring dan de meeste andere schilders<c type="kk">/</c> omdat de opvatting die ik van de dingen heb<c type="kk">/</c> de onderwerpen die ik wil maken<c type="kk">/</c> zulks onverbiddelijk eischen.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ingesloten is een klein schetsje van Spitters<c type="kk">/</c><ptr target="#note-t-1"/> ik zal U zeggen waarom ik dat insluit:</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Tersteeg zegt tot mij: “’t is vroeger ook niet goed met U gegaan en mislukt &amp; nu is ’t weer precies ’t zelfde”. Halt wat – neen het is heel wat anders dan vroeger en die redeneering is eigentlijk een drogreden. Dat ik niet geschikt was voor handel of studie als eigentlijk vak bewijst geenszins dat ik ook voor schilder ongeschikt zou zijn<c type="kp">_</c> Integendeel was ik geschikt geweest voor domine of handelaar in ’t werk van anderen dan zou ik misschien voor schilderen &amp; teekenen niet gedeugd hebben en had niet mijn congé als zoodanig zoowel genomen als gekregen.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Het is juist omdat ik een teekenaarsknuist heb dat ik van ’t teekenen niet af kan blijven en, ik vraag het U, van af den dag dat ik ben begonnen te teekenen<c type="kk">/</c> heb ik getwijfeld of geaarzeld of gewankeld? Mij dunkt gij weet zeer wel dat ik heb doorgesabeld en natuurlijkerwijs gaandeweg heeter wordt op ’t gevecht.–</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Nu kom ik op dat schetsje – dat is gemaakt op de Geest<ptr target="#note-t-2"/> in den stofregen in een straat waar ik in ’t slijk stond<c type="kk">/</c> in al die herrie &amp; dat lawaai, en ik stuur het om U te laten zien dat mijn schetsboek bewijst dat ik zoek de dingen op heeter daad te vatten<c type="kp">_</c><ptr target="#note-t-3"/> Zet b.v. Iterson of H.G.T. zelf eens voor een zandkuil op de Geest waar baggerlui aan ’t werk zijn om een waterleiding of gaspijp te leggen – ik wou wel eens zien wat voor een gezigt zoo iemand zou trekken &amp; wat voor schets hij er van maken zou. Te scharrelen op werven en in steegen &amp; straten &amp; in de binnenhuizen<c type="kk">/</c> wachtkamers<c type="kk">/</c> kroegen zelfs<c type="kk">/</c> dat is geen prettig baantje <hi rend="italics">tenzij men</hi> <hi rend="italics">artist zij</hi>. Als zoodanig is men liever in de smerigste buurt mits er wat te teekenen zij dan op een theepartijtje met aardige dames. Tenzij men dames teekene<c type="kk">/</c> dan is zelfs voor een artist een theepartijtje aardig.</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik wil maar zeggen<c type="kk">/</c> het zoeken van sujetten, het zich bewegen onder de arbeiders, het scharrelen &amp; tobben met modellen, het teekenen naar de natuur &amp; op de plaats zelf<c type="kk">/</c> zijn een ruw werk – een smerig werk zelfs somwijlen en werkelijk de vormen en kleeding van een winkelbediende zijn niet precies de meest geschikte voor mij of een ander die niet mooie dames en rijke heeren moet te woord staan &amp; hun dure dingen verkoopen &amp; geld verdienen (c.à.d. gagner) maar b.v. spitters in een kuil op de Geest teekenen.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Kon ik wat H.G.T. of Iterson kunnen<c type="kk">/</c> was ik daar geschikt voor, ik deugde niet voor mijn vak en voor mijn vak is ’t beter dat ik ben zooals ik ben dan dat ik mij opschroefde tot vormen die mij niet passen zouden<c type="kp">_</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>Ik die in een redelijk goeden jas in een netten winkel niet op mijn gemak was &amp; vooral nu niet meer zijn zou &amp; mij alligt er zou vervelen &amp; vervelend zijn<c type="kk">/</c> ben een heel ander persoon als ik ergens op de Geest of zoo aan ’t werk ben of op de hei of de duinen<c type="kp">_</c> Dan past mijn leelijk gezigt en mijn verweerden jas ook perfekt bij mijn entourage en ik ben mij zelf en werk met pleizier.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Wat het “<hi rend="italics">How to do it</hi>”<ptr target="#note-t-4"/> meebrengt daar hoop ik mij door te sabelen. Als ik een mooie jas aan heb dan zijn de arbeiders die ik voor model noodig heb zoo bang &amp; wantrouwend voor me als de duvel<c type="kk">/</c> of wel ze willen veel geld van mij hebben.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Nu scharrel ik er door zoo als ik er door scharrel en mij dunkt ik hoor niet onder degenen die klagen “er zijn geen modellen in den Haag”. Als dus er aanmerking gemaakt wordt op mijn vormen in den zin van kleeding<c type="kk">/</c> aangezigt<c type="kk">/</c> spreekwijs<c type="kk">/</c> wat zal ik daarop zeggen – – – dat zulke praatjes mij embêteeren.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Ben ik dan <hi rend="italics">iemand zonder vormen</hi> in een anderen zin<c type="kk">/</c> n.l. onbeschoft of zonder fijngevoeligheid<c type="kp">_</c> Ziehier, mijns inziens is de heele beleefdheid gegrond op welwillendheid jegens iedereen<c type="kk">/</c> vooral jegens degenen die we kennen – gegrond op</p>
+
+<p xml:id="p.nl.13" n="13">de behoefte die een mensch met een hart in ’t lijf gevoelt om iets te zijn voor anderen en nuttig te wezen voor iets – in de behoefte eindelijk die men heeft om zamen te leven en niet alleen. Daarvoor doe ik mijn best<c type="kk">/</c> ik teeken niet om de lui te vervelen maar te amuseeren of opmerkzaam te maken op zaken die het aankijken wel waard zijn &amp; die niet iedereen weet<c type="kp">_</c> Het wil er bij mij niet in Theo<c type="kk">/</c> dat ik zulk een monster van onbeschoftheid of onbeleefdheid zou wezen dat ik verdiende buitengesloten te worden uit de zamenleving of althans volgens ’t woord van Tersteeg “in den Haag niet zou kunnen blijven”.–</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Encannailleer ik mij door te leven met de menschen die ik teeken, encanailleer ik mij als ik in de huizen van arbeiders ga en arme menschen<c type="kk">/</c> of hen ontvang op ’t atelier. Mij dunkt mijn vak brengt dat mee en alleen zulken die niets van schilderen of teekenen begrijpen moesten daar aanmerking op maken.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Ik vraag dit: de teekenaars voor de Graphic<c type="kk">/</c> Punch &amp;c.<c type="kk">/</c> waar halen zij hun modellen van daan? Gaan zij die zelf opscharrelen in de armste steegen van London<c type="kk">/</c> ja of neen.– En de kennis die zij hebben van het volk<c type="kk">/</c> is hun die aangeboren – ofwel hebben zij die op later leeftijd zich eigen gemaakt door onder ’t volk te leven en te letten op dingen die menigeen voorbij loopt, door te onthouden wat menigeen vergeet.</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Als ik naar Mauve of Tersteeg toega dan kan ik mij niet zoo uitdrukken als ik wil en misschien bederf ik meer dan ik goed maak. Als zij wat aan mijn manier van spreken gewoon zijn zal ’t hun niet hinderen.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Doch als gij wilt<c type="kk">/</c> zeg gij hun nu uit mijn naam hoe de vork in den steel zit<c type="kk">/</c> dat als ik hun met het een of ander te doen of te zeggen leed gedaan heb<c type="kk">/</c> ik hoop zij zulks mij willen vergeven<c type="kk">/</c> zeg het hun in betere woorden dan ik kan &amp; met zooveel vormen er bij als noodig is<c type="kk">/</c> waarmee <hi rend="italics">zij</hi> <hi rend="italics">mij</hi> veel leed<c type="kk">/</c> veel verdriet<c type="kk">/</c> veel moeite aangedaan hebben van hun kant in die korte maanden die mij door deze onaangenaamheden lang gevallen zijn. <hi rend="italics">Breng hun dat</hi> <hi rend="italics">aan ’t verstand want dat weten zij niet</hi><c type="kk">/</c><hi rend="italics"> zij houden mij voor</hi> <hi rend="italics">ongevoelig en onverschillig.</hi> En zoodoende zult gij mij veel dienst doen en ik geloof dat alles zoo geschikt kan worden<c type="kp">_</c> Ik wou dat zij mij maar namen zoo als ik ben. Mauve is voor mij goed geweest en heeft mij flink en krachtig geholpen maar – – ’t duurde 14 dagen<c type="kp">_</c>– <hi rend="italics">Dat is tekort.</hi></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">à dieu Theo – doe Uw best in dezen – als ik wat voorspoed hier heb in plaats van tegenspoed dan hoef ik U ’t leven ook niet lastig te maken<c type="kk">/</c> en nu genoeg<c type="kk">/</c> geloof me</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.19" n="19">t. à t.</p>
+
+<p xml:id="p.nl.20" n="20">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.21" n="21">Gij hebt zeker van ’t beroep van Pa<ptr target="#note-t-5"/> gehoord &amp; dat Moe weer beter doch Oom Cent ziek is. Ik ben bezig aan de teekeningen voor C.M. doch hetgeen ik U schreef heeft me zóó gedrukt dezer dagen<c type="kk">/</c> dat ik er door afgetrokken werd bij het werken en toen dacht ik<c type="kk">/</c> er moet licht komen<c type="kk">/</c> misschien kan Theo mij inlichting geven.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Dat het mij drukte is geen wonder want 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>Tersteeg sprak mij reeds er van “<hi rend="italics">dat ik</hi> <hi rend="italics">niet in den Haag zou kunnen blijven</hi>” en ik dacht<c type="kk">/</c> hij is net de persoon om als hij zoo iets bij zich zelven vaststelt mij overal en in alles te hinderen en te fnuiken. Maar hoe is het toch mogelijk en wat bezielt hen toch. Als hij mijn teekeningen niet goed vind<c type="kk">/</c> is dat reden tot bepaalde <hi rend="italics">tegenwerking</hi><c type="kk">/</c><hi rend="italics"/> en dat met welke wapenen<c type="kp">_</c></p>
+<pb f="3r" n="5" xml:id="pb-orig-3r-5" facs="#zone-pb-3r-5"/> <figure facs="zone-sketch-1" n="A"/>
+<pb f="3v" n="6" xml:id="pb-orig-3v-6" facs="#zone-pb-3v-6"/> <figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Theo,</p>
+<p xml:id="p.en.2" n="2">Since I wrote to <rs type="person" ref="bio.xml#_323">Mauve</rs> ‘do you realize that those two months are long past, let’s shake hands and go our separate ways rather than quarrel’, I say, since I wrote such a thing and received no sign of life in return, it’s as though something has been choking me.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Because – and you know this – I do love <rs type="person" ref="bio.xml#_323">Mauve</rs>, and it’s so awful that nothing much will come of all that happiness he held out to me. For I fear that the better I draw the more trouble and opposition I’ll encounter. Because I’ll have to suffer greatly for various idiosyncrasies that I <hi rend="italics">cannot</hi> change. First of all, my appearance and manner of speaking and clothing, and also because later, when I’m earning more, I’ll continue to live in a different sphere from most other painters, because my view of things, the subjects I want to depict, inevitably demand it.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Enclosed is a little sketch of Diggers,<ptr target="#note-t-1"/> I’ll tell you why I’m enclosing it:</p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_787">Tersteeg</rs> says to me: ‘Things didn’t go well for you earlier either, and it was a failure, and now it’s the same all over again’. Stop right there – no, it’s wholly different from before, and that line of reasoning is in fact fallacious. That I wasn’t suited to commerce or professional studies in no way proves that I’d also be unfit to be a painter. On the contrary, if I were fit to be a clergyman or a dealer selling the work of others, perhaps I wouldn’t have been fit for painting and drawing, and wouldn’t have both handed in and been given my notice as such. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">It’s precisely because I have a draughtsman’s fist that I can’t keep myself from drawing and, I ask you, have I ever doubted or hesitated or wavered since the day I began to draw? I think you know very well that I’ve hacked my way through and am obviously ever more keen to do battle.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Coming back to that little sketch – it was made in the Geest district<ptr target="#note-t-2"/> in the drizzle, standing in a street in the mud, in all that bustle and noise, and I’m sending it to show you that my sketchbook proves that I try to capture things first-hand.<ptr target="#note-t-3"/> Put <rs type="person" ref="bio.xml#_461">Iterson</rs> or <rs type="person" ref="bio.xml#_787">H.G.T.</rs> himself, for example, in front of a sandpit in the Geest district where the dredgers are at work laying a water or gas pipe – I’d like to see the kind of face someone like that would pull and what kind of sketch he’d make. Struggling on wharves and in alleys and streets and inside houses, waiting rooms, even public houses, that’s not a nice job, <hi rend="italics">unless one is an artist</hi>. As such one would rather be in the filthiest neighbourhood, provided there’s something to draw, than at a tea party with nice ladies. Unless one draws ladies, in which case a tea party is nice even for an artist.</p>
+<p rend="indent" xml:id="p.en.8" n="8">I only mean to say that looking for subjects, frequenting the labourers, the struggle and worry with models, drawing from nature and on the spot, is all rough work – sometimes even filthy work, and truly, the manners and clothing of a shop assistant aren’t exactly the most appropriate for me or anyone else who doesn’t have to speak to beautiful ladies and wealthy gentlemen and sell them expensive things and earn money,<ptr target="#note-t-a"/> but instead draws diggers in a pit in the Geest district, for instance.</p>
+<p rend="indent" xml:id="p.en.9" n="9">If I could do what <rs type="person" ref="bio.xml#_787">H.G.T.</rs> or <rs type="person" ref="bio.xml#_461">Iterson</rs> can, if I were suited to it, I wouldn’t be fit for my profession, and for my profession it’s better that I am as I am than that I force myself to adopt manners that wouldn’t fit me. 
+      <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I – who wasn’t at ease in a reasonably good coat in a respectable shop and no longer could be, especially now, and would most likely be bored and be a bore – am a completely different person when I’m working in the Geest district, say, or on the heath or in the dunes. Then my ugly face and my weather-stained jacket are perfectly in keeping with my surroundings, and I’m myself and work with pleasure.</p>
+<p rend="indent" xml:id="p.en.10" n="10">Whatever the ‘<hi rend="italics">How to do it</hi>’<ptr target="#note-t-4"/> entails, I hope to battle on. If I wear a nice coat, the workers I need as models are distrustful and fear me like the devil, or else they want a lot of money from me.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Now I’m struggling along as I see fit, and it seems to me I’m not one of those who complain that ‘there are no models in The Hague’. So if remarks are made about my manners in the sense of clothing, face, manner of speaking, what shall I say in reply  – – –  that such talk bores me.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Am I then <hi rend="italics">someone without manners</hi> in another sense, namely rude or tactless? Look, in my opinion all civility is based on kindness towards everyone, especially towards those we know – based on the need felt by anyone with a heart in his breast to mean something to others and to be of some use – on the need one ultimately has to live with others and not alone. It’s for that that I do my best, I draw not to annoy people but to amuse them, or to draw their attention to things that are worth looking at and which not everyone knows. I refuse to believe, Theo, that I’m such a monster of rudeness or incivility as to deserve to be cut off from society or, in the words of <rs type="person" ref="bio.xml#_787">Tersteeg</rs> at any rate, ‘be unable to remain in The Hague’. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Do I lower myself by living with the people I draw, do I lower myself by frequenting the houses of workers and poor people or by receiving them in my studio? It seems to me that my profession involves that, and only those who understand nothing of painting or drawing are entitled to find fault with it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I ask this: where do the draughtsmen for The Graphic, Punch &amp;c. get their models? Do they or don’t they go themselves to round them up in the poorest alleyways of London? And the knowledge they have of the people, is it innate – or did they acquire it later in life by living among the people and by paying attention to things that most people walk right past, by remembering what many forget?</p>
+<p rend="indent" xml:id="p.en.15" n="15">When I go to see <rs type="person" ref="bio.xml#_323">Mauve</rs> or <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, I can’t express myself as I’d like, and perhaps I do more harm than good. When they get used to my manner of speaking, it won’t bother them.</p>
+<p rend="indent" xml:id="p.en.16" n="16">But, if you will, tell them from me how matters stand, that if I said or did anything to hurt them, I hope they’ll forgive me. Tell them, in better words than I can find and with the necessary civility, how <hi rend="italics">they</hi>, for their part, caused <hi rend="italics">me</hi> much pain, much sorrow, much trouble in the few short months which these unpleasantnesses have made so long. <hi rend="italics">Make them understand this, because they don’t know it, they take me to be insensitive and indifferent</hi>. And by doing so you’ll be doing me a big favour, and I believe that everything can be settled in this way. I wish they’d simply accept me as I am. <rs type="person" ref="bio.xml#_323">Mauve</rs> has been good to me and has given me considerable and unstinting help, but –  it lasted a fortnight. <hi rend="italics">That's too short</hi>.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Adieu Theo – do your best in this affair – if I have a bit of good fortune here instead of misfortune, I won’t have to make life difficult for you, and now enough, believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Ever yours,</p>
+<p xml:id="p.en.19" n="19">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.21" n="21">You’ve no doubt heard of <rs type="person" ref="bio.xml#_526">Pa</rs>’s calling<ptr target="#note-t-5"/> and that <rs type="person" ref="bio.xml#_524">Ma</rs>’s better again, but <rs type="person" ref="bio.xml#_423">Uncle Cent</rs> is ill. I’m working on the drawings for <rs type="person" ref="bio.xml#_422">C.M.</rs>, but I’ve been so depressed these days by what I wrote to you that it’s torn me away from my work, and then I thought, some light must be shed on the matter, perhaps Theo can enlighten me.</p>
+<p rend="indent" xml:id="p.en.22" n="22">It’s no wonder that it depressed me, because 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> <rs type="person" ref="bio.xml#_787">Tersteeg</rs> already told me ‘<hi rend="italics">that I wouldn’t be able to remain in The Hague</hi>’, and I thought, he’s just the kind of person who, if he puts his mind to it, will thwart me and try to cripple me every step of the way. But how on earth is it possible, and what has come over them? If he thinks my drawings aren’t good, is that any reason for such resolute <hi rend="italics">opposition</hi>, with whichever weapons?</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">
+<pb f="3r" n="5" xml:id="pb-trans-3r-5" facs="#zone-pb-3r-5"/></p>
+<p xml:id="p.en.24" n="24"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">
+<pb f="3v" n="6" xml:id="pb-trans-3v-6" facs="#zone-pb-3v-6"/></p>
+<p xml:id="p.en.26" n="26"><figure facs="zone-sketch-2" n="B"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was written after <ref target="let219.xml">letter 219</ref> of on or about 21 April 1882, because in this letter Van Gogh reiterates the desire expressed in that letter to re-establish contact with Mauve <ref target="#l-1">(ll. 1-7)</ref>. Financial matters are not mentioned, whereas the need for the following month’s allowance is voiced again in <ref target="let221.xml">letter 221</ref>. We therefore assume that <ref target="let220.xml">letter 220</ref> was written before <ref target="let221.xml">letter 221</ref>.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">As regards the date assigned to this letter – on or about Sunday, 23 April 1882 – <ref target="let214.xml">see letter 214</ref>, <hi rend="italics">Date</hi>.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Strained relations with Mauve and Tersteeg (<ref target="let209.xml">209</ref> and <ref target="let208.xml">208</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Uncle Cor orders a second series of drawings from Vincent <ref target="let214.xml">(214)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Men digging</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_45">F - / JH 132</rs>). Some of the figures in this enclosed sketch, including the three little women in the top right corner, recur in part in the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Torn-up Noordstraat with diggers </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2366">F 930a / JH 131</rs>). On the verso of the sketch is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Head of a man</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_46">F - / JH 133</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The ‘Geest’ is the name of a working-class district in The Hague. The location drawn is Noordstraat 13-15, where workers were in the process of laying sewerage pipes. See exhib. cat. The Hague 1990, pp. 48-49.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+      
+<p>For a definition of ‘iets op heterdaad vatten’ (to capture something first-hand, see the term ‘snappen’ (seize, capture, commit to paper) in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let218.xml#n-6">letter 218, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+<p>After ‘earn’ Van Gogh repeated the French equivalent ‘(c.à.d. gagner)’ (‘(i.e. earn)’).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For the expression ‘How (not) to do it’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let179.xml#n-3">see letter 179, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>On 2 April 1882 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> was called to the ministry at Nuenen, a village in North Brabant, where he went to take up a position as minister of the Dutch Reformed congregation. He officially accepted the position on 7 June and was inducted on 13 August 1882. On 23 April he announced his departure to the congregation in Etten. See De Brouwer 1984, p. 13 and exhib. cat. ’s-Hertogenbosch 1987, p. 84.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

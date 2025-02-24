@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Wednesday, 30 January 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let744"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b622 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>744</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>575</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>748</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-01-30">Wednesday, 30 January 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0622" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000850_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000850_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000850_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0622" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000850_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000850_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000850_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">tout en n’ayant rien de bien bien imprévu à te raconter j’y tiens néamoins à te faire savoir que lundi passé j’ai revu l’ami Roulin. Il y avait d’ailleurs un peu de quoi – la France toute entière ayant frémi.<ptr target="#note-t-1"/> Certes à nos yeux à nous l’election et ses résultats et ses représentants ne sont que symboles. Mais ce qui est une fois de plus prouvé c’est que les ambitions et gloires mondaines s’en vont – mais que jusqu’à présent le battement du coeur humain demeure le même et en rapport autant avec le passé de nos pères enterrés qu’avec la génération à venir.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">J’ai eu ce matin une bien amicale lettre de Gauguin à laquelle sans tarder j’ai répondu. Lorsque Roulin est venu j’avais juste fini la répétition de mes tournesols<ptr target="#note-t-2"/> et je lui ai montré les deux exemplaires de la Berceuse entre ces quatre bouquets-là<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Roulin te donne bien le bonjour.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Il avait assisté dimanche à Marseille à la manifestation de la foule à l’heure où le résultat des elections était télégraphié de Paris.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Marseille comme Paris a été ému jusqu’au fond des fonds des entrailles du peuple tout entier et taciturne. Eh bien qui est ce qui osera maintenant commander feu à n’importe quel canon<c type="kk">/</c> mitrailleuse ou fusil Lebel<ptr target="#note-t-4"/> alors que tant de coeurs sont tout donnés d’avance pour servir de bouchons aux canons<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">D’autant plus que certes les victorieux politiques de ce grand jour d’aujourd’hui<c type="kk">/</c> Rochefort et Boulanger<c type="kk">/</c> d’un commun accord ambitionneront plutôt le cimetière que n’importe quel trône.–<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Enfin telle était notre conception de l’événement non seulement de Roulin et de moi mais de bien d’autres. Nous étions bien émus quand même. Roulin me disait qu’il avait presque pleuré en voyant cette foule marseillaise silencieuse et qu’il n’était revenu à soi que lorsqu’en se retournant il voyait derrière lui de tres très vieux amis<c type="kk">/</c> qui hésitaient à le reconnaitre<c type="kk">/</c> par un grand hasard. Alors ils ont eté souper ensemble jusqu’à tard dans la nuit<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Tout en étant très fatigué il n’avait pas pu résister au désir de venir à Arles pour revoir sa famille et tombant presque de sommeil et tout pâle il est venu nous serrer la main<c type="kp">_</c> Je pouvais justement lui montrer les deux exemplaires du portrait de sa femme ce qui lui faisait plaisir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">A ce qu’on me racconte je me porte très visiblement mieux; intérieurement j’ai le coeur un peu trop plein de tant d’émotions &amp; espérances diverses car cela m’étonne de guérir<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Tout le monde ici est bon pour moi dans les voisins &amp;c.<c type="kk">/</c> bon et prévenant comme dans une patrie<c type="kp">_</c><ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je sais déjà que plusieurs personnes d’ici me demanderaient des portraits s’ils osaient les demander. Roulin tout pauvre diable et petit employé qu’il est<c type="kk">/</c> étant très très estimé ici<c type="kk">/</c> on a su que j’avais fait toute sa famille<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Mon cher frère dans la suite nous pourrons certes encore tomber dans la souffrance<c type="kk">/</c> dans des erreurs<c type="kk">/</c> dans le malheur<c type="kk">/</c> je ne dis pas non<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Mais nous aurons toujours travaillé dans ce 89 ci avec les Français que nous aimons tant<c type="kk">/</c> comme de leur côté aussi ils nous font sentir la patrie<c type="kp">_</c> 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Or cela c’est toujours cela de vécu<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Ne parle pas à ta fiancée de cette affaire entre nous<c type="kk">/</c> laisse moi ainsi que je t’ai demandé travailler jusqu’au dernier Mars.<ptr target="#note-t-8"/> Et d’ici là j’aurai fait quelques toiles impressionistes allez. J’ai mis aujourd’hui une 3<hi rend="super">me</hi> berceuse en train<c type="kp">_</c><ptr target="#note-t-9"/> Je sais bien que ce n’est ni dessiné ni peint aussi correctement que du Bouguereau<c type="kk">/</c> ce que je regrette presque<c type="kk">/</c> ayant le désir d’être correct sérieusement – mais cela n’étant donc fatalement ni du Cabanel ni du Bouguereau j’espère pourtant que cela soit Français.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Il a fait aujourd’hui un temps magnifique sans vent et j’ai tellement le desir de travailler que j’en suis épaté n’y ayant plus compté.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Je terminerai cette lettre comme celle à Gauguin en te disant que certes il y a encore des signes de la surexcitation précédente dans mes paroles mais que cela n’a rien d’étonnant puisque dans ce bon pays Tarasconnais tout le monde est un peu toqué.<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Bonne poignée de main aussi à de Haan &amp; Isaacson<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.19" n="19">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.20" n="20">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">j’attendrai ta lettre le plus tôt possible après le 1<hi rend="super">re</hi> Fevrier<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Although I have nothing very, very unexpected to tell you I still want to let you know that last Monday I saw our friend <rs type="person" ref="bio.xml#_647">Roulin</rs> again. There was good reason for it too — the whole of France having shivered.<ptr target="#note-t-1"/> Certainly in our own eyes the election and its results and its representatives are only symbols. But one thing that has been proved once again is that worldly ambitions and glories pass — but that up to now the beating of the human heart remains the same and as much in touch with the past of our buried fathers as with the generation to come.</p>
+<p rend="indent" xml:id="p.en.3" n="3">This morning I had a very friendly letter from <rs type="person" ref="bio.xml#_1039">Gauguin</rs> to which I replied without delay. When <rs type="person" ref="bio.xml#_647">Roulin</rs> came I had just finished the repetition of my sunflowers,<ptr target="#note-t-2"/> and I showed him the two examples of the Berceuse between these four bouquets.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_647">Roulin</rs> sends you his warm regards.</p>
+<p rend="indent" xml:id="p.en.5" n="5">On Sunday in Marseille he was present at the crowd’s demonstration when the election result was telegraphed from Paris.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Like Paris, Marseille was moved to the very depth of the depths of the souls of the common people, all together and taciturn. Ah well, who will now dare order any cannon, machine gun or Lebel rifle<ptr target="#note-t-4"/> to fire when so many hearts have been given in advance to serve as stoppers for the cannons?</p>
+<p rend="indent" xml:id="p.en.7" n="7">All the more so since certainly the victorious politicians of this great day today, <rs type="person" ref="bio.xml#_731">Rochefort</rs> and <rs type="person" ref="bio.xml#_301">Boulanger</rs>, are with one common accord more ambitious for the cemetery than for any throne.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Anyhow, that was our interpretation of the event, not just <rs type="person" ref="bio.xml#_647">Roulin</rs>’s and mine but that of many others. We were very moved all the same. Roulin told me that he almost wept when he saw that silent Marseille crowd, and that he hadn’t recovered his composure until he turned round and saw some very, very old friends, who hesitated to recognize him, by sheer chance. They then went off to have supper together until late into the night. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Although he was very tired he wasn’t able to resist the desire to come to Arles to see his family again and, almost falling over with tiredness and very pale, he came to shake our hands. I could just show him the two examples of the portrait of his <rs type="person" ref="bio.xml#_648">wife</rs>, which pleased him.</p>
+<p rend="indent" xml:id="p.en.10" n="10">From what people tell me I’m very obviously looking better; on the inside my heart is a little too full of so many diverse emotions and hopes, for it astonishes me that I’m getting better.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Everyone here is good towards me, the neighbours &amp;c., good and attentive as in one’s native country.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I know already that several people here would ask me for portraits if they dared ask for them. As <rs type="person" ref="bio.xml#_647">Roulin</rs>, poor poverty-stricken devil and lowly employee as he is, is held in very, very great esteem here, people found out that I had done all his family.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">My dear brother, in times to come we may indeed fall into suffering again, into errors, into misfortune, I don’t deny it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">But we’ll always have worked in this 89 here with the French we love so much, as on their side, too, they make us feel the fatherland. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> Now we have experienced that, at any rate.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Don’t talk to your <rs type="person" ref="bio.xml#_416">fiancée</rs> about this matter between us, leave me as I’ve asked you, to work until the last day of March.<ptr target="#note-t-8"/> And from now until then I’ll have done a few Impressionist canvases, come on. Today I started work on a third <rs type="person" ref="bio.xml#_648">Berceuse</rs>.<ptr target="#note-t-9"/> I do know that it’s neither drawn nor painted as correctly as a <rs type="person" ref="bio.xml#_890">Bouguereau</rs>, which I almost regret, as I seriously have the desire to be correct — but although it isn’t therefore fated to be a <rs type="person" ref="bio.xml#_917">Cabanel</rs> or a Bouguereau, I yet hope that it’s French.</p>
+<p rend="indent" xml:id="p.en.16" n="16">The weather today has been magnificent with no wind, and I wanted so much to work that I’m astonished by it, as I hadn’t expected it any more.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I’ll end this letter like the one to <rs type="person" ref="bio.xml#_1039">Gauguin</rs> by telling you that there are indeed still signs of the previous over-excitement in my words, but that there’s nothing surprising about that, since in this good Tarascon country everyone is a touch cracked.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">Good handshake, to <rs type="person" ref="bio.xml#_1075">De Haan</rs> and <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> as well.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Ever yours,</p>
+<p xml:id="p.en.20" n="20">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">I’ll expect your letter as early as possible after 1 February.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter dates from after the elections of Sunday, 27 January (<ref target="#n-1">see n. 1</ref>) and from before 1 February 1889 <ref target="#l-104">(l. 104)</ref>. Jo van Gogh-Bonger gave the date as 30 January 1889 in <hi rend="italics">Brieven </hi>1914 – presumably she relied on a postmark. Because this date agrees with Van Gogh’s observation ‘The weather today has been magnificent with no wind’ <ref target="#l-92">(ll. 92-93)</ref> – after the mistral it was in fact almost completely calm from 28-31 January (<hi rend="italics">Météo-France</hi>) – we have likewise dated the letter to Wednesday, 30 January 1889.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Roulin’s departure for Marseille <ref target="let736.xml">(736)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent’s first crisis and hospitalization <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s engagement and marriage to Jo Bonger <ref target="let728.xml">(728)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">De Haan’s stay with Theo <ref target="let711.xml">(711)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>On 27 January 1889 the controversial general <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_301">Georges Boulanger</rs> was elected to a Paris seat in the Chamber of Deputies by a large majority. Great numbers of his supporters took to the street, demanding that Boulanger should occupy the Palais de l’Elysée and depose President Carnot. Boulanger refused, however, to stage a coup. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647">Roulin</rs> was a Boulangist (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let667.xml">letter 667</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The repetitions are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2772">F 455 / JH 1668</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2771">F 458 / JH 1667</rs>); the earlier versions are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>These two versions of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’)</hi> are <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2775">F 508 / JH 1671</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>In 1886 an advanced weapon designed by the Frenchman <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_136">Nicolas Lebel</rs> had been put on the market: a bolt action rifle that became known as a ‘fusil Lebel’.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>After his third banishment, Henri Rochefort had joined the general’s nationalistic, conservative movement. Van Gogh’s remark that Rochefort and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_301">Boulanger</rs> would prefer the cemetery to the throne no doubt refers to the fact that Boulanger had expressly said that he did not want to seize upon the revolt as a means of coming to power, but would rather be chosen by the people at regular elections.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647 bio.xml#_648">The Roulins</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_382 bio.xml#_383">the Ginouxs</rs> of the Café de la Gare and the charwoman, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1926">Thérèse Balmoissière</rs>, were all supportive of Van Gogh. He was on less good terms with his immediate neighbours, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_52 bio.xml#_329">Mr and Mrs Crévoulin</rs>, whom he mockingly compares in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let657.xml">letter 657</ref> with the Buteaux in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_478">La terre</ref></hi>. A short while later they signed the petition to have Van Gogh committed (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let750.xml">see letter 750</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For the portraits of the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647 bio.xml#_648 bio.xml#_649 bio.xml#_650 bio.xml#_651">Roulin family</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let723.xml#n-2">see letter 723, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Van Gogh here refers to <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let743.xml">letter 743</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The third version of the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_648">Berceuse</rs> is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2773">F 505 / JH 1669</rs>). See Hoermann Lister 2001, p. 72.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>A reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_459">Tartarin de Tarascon</ref></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_460">Tartarin sur les Alpes</ref></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let583.xml#n-9">see letter 583, n. 9.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

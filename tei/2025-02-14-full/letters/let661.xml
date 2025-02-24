@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Theo van Gogh. Arles, Wednesday, 15 August 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let661"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b566 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>661</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>524a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>666</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-08-15">Wednesday, 15 August 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 0566" xml:id="surf-pb-1r">
+<graphic url="VGM001000763_01_n"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="VGM001000763_01_n"/></zone></surface>
+<surface n="b 0566 V/1962" xml:id="surf-pb-1v">
+<graphic url="VGM001000763_02_n"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="VGM001000763_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="fr" type="original">
+
+<p xml:id="p.orig.1" n="1"><pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/></p>
+<space unit="lines" quantity="1"/><lb n="1" xml:id="l-1"/>
+
+<p xml:id="p.orig.2" n="2"><hi>Paris Arles 664 18 15 2<hi rend="super">H</hi>30 S</hi></p>
+<space unit="lines" quantity="1"/><lb n="2" xml:id="l-2"/>
+
+<p xml:id="p.orig.3" n="3"><hi>milliet remettra tableaux vendredi matin 7<hi rend="super">H</hi> précises cercle militaire</hi><ptr target="#note-t-1"/> <lb n="3" xml:id="l-3"/><hi>avenue opéra</hi></p>
+<space unit="lines" quantity="1"/><lb n="3*" xml:id="l-3s"/>
+
+<p xml:id="p.orig.4" n="4"><hi>Vincent</hi></p>
+    
+<p xml:id="p.orig.5" n="5"><pb f="1v" n="1" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/></p>    
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        
+<p xml:id="p.trans.1" n="1"><pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/></p>
+<p xml:id="p.trans.2" n="2"><hi>Paris Arles 664 18 15 2<hi rend="super">h</hi>30 s</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.3" n="3"><hi><rs type="person" ref="bio.xml#_515">milliet</rs> will deliver paintings friday morning 7 o’clock sharp cercle militaire</hi><ptr target="#note-t-1"/> avenue opéra</p><space unit="lines" quantity="1"/>
+<p xml:id="p.trans.4" n="4"><hi>vincent</hi></p>
+<p xml:id="p.trans.5" n="5"><pb f="1v" n="1" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original telegram</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>Date of postmark: Wednesday, 15 August 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p>Telegram. Postmark: ‘CENTRAL PARIS / 15 AOUT 85’.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p>Milliet takes paintings to Paris <ref target="let652.xml">(652)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The <hi rend="italics">Cercle national des armées de terre et de mer</hi> in avenue de l’Opéra was set up in 1887 and was a club for army and naval officers; they could eat there and stay overnight. <rs type="person" ref="bio.xml#_515">Milliet</rs> probably stayed there while he was in Paris.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

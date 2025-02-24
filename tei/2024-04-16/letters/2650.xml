@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Sunday, 17 or Monday, 18 September 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let265"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b254 V/1962 (sheet 1), b253 b V/1962 (sheet 2) and d316 V/1970 (sheet 3)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>265</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>232</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>266</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-09-17">Sunday, 17 or Monday, 18 September 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0254" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000312_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000312_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0254" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000312_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000312_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0253 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000311_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-3">
+<graphic url="https://example.com/iiif/VGM001000311_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0253 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000311_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-4">
+<graphic url="https://example.com/iiif/VGM001000311_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0316" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001670_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-5">
+<graphic url="https://example.com/iiif/VGM001001670_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0316 V/1970" xml:id="surf-extra-3v">
+<graphic url="https://example.com/iiif/VGM001001670_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001001670_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Toen ge hier waart spraken we over dat bewuste teekeningetje<ptr target="#note-t-1"/> dat ik U zenden zou – naar aanleiding waarvan ik U reeds dat bankje zond<c type="kp">_</c>–<ptr target="#note-t-2"/> Om U te toonen dat ik zelf wel degelijk het plan heb om in dat genre voort te werken stuur ik U hierbij eenige schetsjes.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Van dat van de kuddes weeskinderen met hun geestelijke schaapherders heb ik een aquarel onder handen<ptr target="#note-t-3"/> – die mij waarschijnlijk wel niet zoover zal gelukken dat ze verkoopbaar wordt<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Maar om U eens te doen zien dat het niet van zelf gaat dat de figuurtjes er op komen met wat karakter er in en dat ik er toch veel liefhebberij in heb om dat te boven te komen<c type="kk">/</c> stuur ik U ook krabbeltjes van figuurstudies die ik dezer dagen maakte<c type="kk">/</c> die natuurlijk uitvoeriger zijn dan deze schetsjes.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Gesteld ik was op goeden voet met Mauve gebleven<c type="kk">/</c> zoo geloof ik dat wanneer ik een aquarel had gemaakt zoo als het bankje of zoo als nu die met de weeskinderen<c type="kk">/</c> ik van hem nog wel aanwijzingen zou gekregen hebben die maakten dat het wel verkoopbaar werd en af zijnde een ander aspect had. Zelfs is het met de aquarellen of schilderijen van menigeen zoo gelegen dat de een of andere schilder er nog wat aan doet – soms ze geheel verandert. Dat mis ik nu – maar ofschoon ik het niet bepaald afkeur dat knappere schilders hetzij aanwijzingen geven hetzij zelfs er in werken (vooral omdat voor de jongeren het zoo noodig is dat zij wat verdienen om het te kunnen volhouden) zoo geloof ik toch dat het niet precies een ongeluk is als men alleen worstelt<c type="kp">_</c> Wat men uit zich zelf leert<c type="kk">/</c> leert men zoo spoedig niet maar het grift zich meer vast<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ik ben de teekeningen in de Gothische zaal nog gaan zien<c type="kk">/</c><ptr target="#note-t-5"/> de Rochussen vond ik prachtig<c type="kp">_</c> Het was iets uit den tijd van Napoleon, Fransche officieren in eene zaal van een oud dorpshuis die papieren of inlichtingen schijnen te vragen van den burgemeester en het gemeentebestuur.<ptr target="#note-t-6"/> Het was zoo echt<c type="kk">/</c> dat oude burgemeestertje en dan die generaals<c type="kk">/</c> net precies zoo als b.v. Erckmann Chatrian het in Madame Thérese beschrijft.<ptr target="#note-t-7"/> Ik had er verbazend veel pleizier in<c type="kp">_</c> Van <hi rend="italics">Allebe</hi> waren ook erg mooie dingen<c type="kk">/</c> teekeningen uit Artis<c type="kk">/</c><ptr target="#note-t-8"/> en dan een landschap met denneboomen op de rotsen aan de zeekust waartusschendoor men in de laagte een visscherswoning ziet<c type="kp">_</c><ptr target="#note-t-9"/> Er waren mooie stad- en strandgezigten met kleine figuurtjes van Hoeterixks<ptr target="#note-t-10"/> van wien, hoe mooi ik zijn tegenwoordige teekeningen ook vind<c type="kk">/</c> het mij toch jammer voorkomt dat hij niet bij zijn eerste manier<c type="kk">/</c> toen hij typen uit het volk (b.v. een sch<hi rend="super">ij</hi> le mont de pitié)<ptr target="#note-t-11"/> maakte<c type="kk">/</c> is gebleven.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Het is met het teekenen zoowat als met het schrijven. Als men als kind schrijven leert heeft men een gevoel als was het onmogelijk dat men er ooit achter kwam &amp; schijnt het een mirakel als men den schoolmeester zoo vlug ziet schrijven. Dat neemt niet weg men op zijn tijd het toch beet krijgt. En ik geloof werkelijk dat men zoo moet leeren teekenen dat het even gemakkelijk gaat als iets opschrijven en dat men de proportie zoo in ’t hoofd moet hebben en zoo moet leeren zien<c type="kk">/</c> dat men naar willekeur ’tgeen men ziet naar grooter of kleiner maatstaf kan weergeven.<ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Wij hebben zeer mooi leelijk weer tegenwoordig<c type="kk">/</c> regen<c type="kk">/</c> wind<c type="kk">/</c> onweer<c type="kk">/</c> maar met prachtige effekten<c type="kk">/</c> daarom vind ik het mooi<c type="kk">/</c> maar anders guur in ’t gevoel.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">De tijd dat men buiten kan gaan zitten kort reeds terdeeg op en het is zaak er van te profiteeren voor den winter komt.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Tegen den winter maak ik ’t atelier leeg – nl. de studies van de muren en wat hindert uit den weg – zoodat ik er goed ruimte heb om met model te werken.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik gevoel dat ik een menigte figuurstudies noodig heb – ook Scheveningsche.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Bij gelegenheid zou ik wel eens van de studies die nog bij U zijn terug willen hebben wat ge niet wenscht bij U te houden<c type="kk">/</c> als de gelegenheid zich mogt voordoen om ze te zenden n.l. Is er iets bij wat ge houden wilt<c type="kk">/</c> is er bij ’t geen ik hier heb iets wat ge hebben wilt, gij hebt het maar te zeggen want ik reken dat het alles van U hoort. Maar als ik het terugvraag is het omdat wat men direkt naar ’t model doet dikwijls noodig is voor b.v. aquarellen. Doch het heeft geen haast<c type="kk">/</c> alleen doe ze niet weg al zijn ze zoo mooi niet want alles komt te pas. </p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ik geloof niet mij te bedriegen als ik meen dat het productief zijn en blijven in verband staat met de studies die men heeft en blijft maken. Hoe meer verscheidenheid daarin<c type="kk">/</c> hoe meer men daarop sjouwt<c type="kk">/</c> hoe gemakkelijker men later werkt als het op eigentlijke schilderijen of teekeningen aankomt. Enfin de studies reken ik het zaad te zijn en hoe meer men zaait hoe meer men mag hopen te oogsten.<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Dezer dagen las ik les deux frères van Erckmann Chatrian<c type="kk">/</c> wat wel mooi is.<ptr target="#note-t-14"/> Het was toch wel een aardige tijd toen er in den Elzas zooveel artisten waren<c type="kk">/</c> Brion<c type="kk">/</c> Marchal<c type="kk">/</c> Jundt<c type="kk">/</c> Vautier<c type="kk">/</c> Knaus<c type="kk">/</c> Schüler<c type="kk">/</c> Saal<c type="kk">/</c> v. Muyden en zeker nog veel meer<ptr target="#note-t-15"/> – te gelijk met een partij schrijvers die in dien zelfden geest werkten zooals Chatrian &amp; Auerbach.–<ptr target="#note-t-16"/> Ik voor mij zie dat liever dan Tapiro of Capobianchi<ptr target="#note-t-17"/> of die massa andere italianen die zich nog steeds schijnen te vermenigvuldigen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">adieu<c type="kk">/</c> geloof me<c type="kk">/</c> met een handdruk</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">t. à t.</p>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/><figure facs="zone-sketch-1" n="A"/>
+<pb f="2v" n="4" xml:id="pb-orig-2v-4" facs="#zone-pb-2v-4"/>
+
+<p xml:id="p.nl.18" n="18">Ge ziet aan dit krabbeltje dat ik begonnen ben aan datgene waarover ik in mijn vorig schrijven sprak<c type="kk">/</c><ptr target="#note-t-18"/> namelijk geregeld te trachten de scenes van werklieden of visschers die ik zoo opmerk te noteeren<c type="kk">/</c> ’t zij geteekend ’t zij geschilderd, en dat zijn net de dingen die als ik er mij in oefen voor illustratie zouden kunnen dienen geloof ik. Het spreekt van zelf dat echter daarvoor de types nog veel hooger opgevoerd moeten worden.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Ik heb van dat inkomen van de pink zeker wel een stuk of 10 verschillende incidenten<c type="kp">_</c><ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Zoo ook hetgeen ik in vorigen brief stuurde<c type="kk">/</c> het ligten van het anker.<ptr target="#note-t-20"/></p>
+<pb f="3r" n="5" xml:id="pb-orig-3r-5" facs="#zone-pb-3r-5"/> <figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">When you were here we talked about that drawing<ptr target="#note-t-1"/> that I was to send you — further to which I’ve already sent you that small bench.<ptr target="#note-t-2"/> I’m enclosing a few sketches to show you that I do indeed plan to carry on working in that genre. </p>
+<p rend="indent" xml:id="p.en.3" n="3">I’m working on a watercolour of the one with the herds of orphans with their spiritual shepherds<ptr target="#note-t-3"/> — with which I’ll probably not succeed to the point of making it saleable. </p>
+<p rend="indent" xml:id="p.en.4" n="4">But to show you that figures with some character in them don’t get there of their own accord, and that I nonetheless take great pleasure in overcoming that, I’m also sending you scratches of figure studies which I did recently, and which are of course more elaborate than these little sketches.<ptr target="#note-t-4"/> </p>
+<p rend="indent" xml:id="p.en.5" n="5">Supposing I had remained on good terms with <rs type="person" ref="bio.xml#_323">Mauve</rs>, I believe that if I had done a watercolour like the small bench or the present one with the orphans, he would have given me tips that would have made it saleable and changed its final appearance. With many people’s watercolours or paintings it’s even the case that some painter or other does some work on them, sometimes transforming them completely. I miss that now, but although I certainly don’t disapprove of more skilled painters either giving tips or even doing some work (mainly because it’s so vital for the younger ones to earn a little in order to keep going), I don’t think it’s entirely a misfortune to wrestle alone. What one learns from oneself one learns less quickly, but it imprints itself more deeply. </p>
+<p rend="indent" xml:id="p.en.6" n="6">I went to see the drawings in the Gothic Room.<ptr target="#note-t-5"/> I thought the <rs type="person" ref="bio.xml#_1320">Rochussen</rs> superb. It was something from the Napoleonic period: French officers in a room in an old village hall who appear to be demanding papers or information from the mayor and the councillors.<ptr target="#note-t-6"/> It was so real, that little old mayor and then those generals, just exactly as <rs type="person" ref="bio.xml#_594 bio.xml#_591">Erckmann-Chatrian</rs> describes it in Madame Thérèse.<ptr target="#note-t-7"/> It gave me an extraordinary amount of pleasure. There were also very beautiful things by <hi rend="italics"><rs type="person" ref="bio.xml#_763">Allebé</rs></hi> too, drawings from Artis,<ptr target="#note-t-8"/> and also a landscape with pine trees on the rocks on the coast through which a fisherman’s house is seen below.<ptr target="#note-t-9"/> There were beautiful town and beach views with small figures by <rs type="person" ref="bio.xml#_1098">Hoeterickx</rs>.<ptr target="#note-t-10"/> However beautiful I find his present drawings, it seems to me a pity that he hasn’t stuck to his first manner, when he did types from the common folk (such as a painting At the pawnbroker’s).<ptr target="#note-t-11"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.7" n="7">It’s more or less the same with drawing as with writing. When one learns to write as a child, one has the feeling that one will never discover how to do it, and it seems to be a miracle when one sees the schoolmaster write so quickly. Nevertheless, in time one grasps it. And I really believe that one must learn to draw in such a way that it’s as easy as writing something down, and that one must master proportion and learn to see in such a way that one can reproduce at will whatever one sees on a larger or smaller scale.<ptr target="#note-t-12"/> </p>
+<p rend="indent" xml:id="p.en.8" n="8">We’re having very beautiful bad weather at present — rain, wind, thunderstorms — but with splendid effects, that’s why I find it beautiful, but it does feel raw, by the way. </p>
+<p rend="indent" xml:id="p.en.9" n="9">The time that one can sit outside is already getting decidedly shorter, and it’s important to make the most of it before winter comes. </p>
+<p rend="indent" xml:id="p.en.10" n="10">Towards winter I empty the studio, namely take the studies off the walls and obstacles out of the way, so that I have a good space for working with models. </p>
+<p rend="indent" xml:id="p.en.11" n="11">I feel that I need a host of figure studies, including Scheveningen ones. </p>
+<p rend="indent" xml:id="p.en.12" n="12">When the opportunity arises I’d like to have the studies back that you don’t want to keep from among those you have, that is when there’s an opportunity to send them. If there’s something you would like to keep, or if there’s something you would like among what I have here, you only have to say so, for I regard it all as belonging to you. But if I ask for it back it’s because what one does directly from the model is often needed for watercolours, for example. But there’s no hurry, only don’t throw them away even if they’re not very beautiful, because everything is of use. </p>
+<p rend="indent" xml:id="p.en.13" n="13">I don’t think I’m deceiving myself if I believe that being and remaining productive has to do with the studies one has and continues to make. The greater their variety, the harder one labours at them, the easier one works later when it comes to actual paintings or drawings. In short, I think of the studies as seed, and the more one sows the more one may hope to reap.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">In the last few days I’ve been reading Les deux frères by <rs type="person" ref="bio.xml#_594 bio.xml#_591">Erckmann-Chatrian</rs>, which is quite beautiful.<ptr target="#note-t-14"/> It was certainly an interesting time when there were so many artists in Alsace: <rs type="person" ref="bio.xml#_891">Brion</rs>, <rs type="person" ref="bio.xml#_1193">Marchal</rs>, <rs type="person" ref="bio.xml#_1120">Jundt</rs>, <rs type="person" ref="bio.xml#_1403">Vautier</rs>, <rs type="person" ref="bio.xml#_1131">Knaus</rs>, <rs type="person" ref="bio.xml#_1356">Schuler</rs>, <rs type="person" ref="bio.xml#_1347">Saal</rs>, <rs type="person" ref="bio.xml#_1253">Van Muyden</rs>, and many others surely<ptr target="#note-t-15"/> — at the same time as a group of writers working in the same spirit like Chatrian and <rs type="person" ref="bio.xml#_525">Auerbach</rs>.<ptr target="#note-t-16"/> Personally, I prefer that to <rs type="person" ref="bio.xml#_1380">Tapiró</rs> or <rs type="person" ref="bio.xml#_927">Capobianchi</rs>,<ptr target="#note-t-17"/> or the host of other Italians who appear to be still multiplying.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Adieu, believe me, with a handshake,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.16" n="16">Ever yours,</p>
+<p xml:id="p.en.17" n="17">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/></p>
+<p xml:id="p.en.19" n="19"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">
+<pb f="2v" n="4" xml:id="pb-trans-2v-4" facs="#zone-pb-2v-4"/></p>
+<p xml:id="p.en.21" n="21">You’ll see from this little scratch that I’ve begun doing what I spoke about in my last letter,<ptr target="#note-t-18"/> namely trying to make notes regularly, either drawn or painted, of the scenes of workmen or fishermen that strike me, and these are precisely the things that could serve for illustrated magazines, I believe, if I practise them. It goes without saying, though, that then the types must be raised to a much higher standard. </p>
+<p rend="indent" xml:id="p.en.22" n="22">I have at least 10 different events surrounding the arrival of that pink.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.23" n="23">Likewise the one I sent in an earlier letter, the weighing of the anchor.<ptr target="#note-t-20"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">
+<pb f="3r" n="5" xml:id="pb-trans-3r-5" facs="#zone-pb-3r-5"/></p>
+<p xml:id="p.en.25" n="25"><figure facs="zone-sketch-2" n="B"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter comes after <ref target="let265.xml">264</ref>, which was written on Sunday, 17 September, because Van Gogh returns to the subject of his work on the arrival of the pink in his ‘previous letter’. The letter dates from before <ref target="let266.xml">266</ref>, which was written on Monday, 18 September. This means that either on Sunday or on Monday Vincent wrote <hi rend="italics">two</hi> letters to Theo, and that the present letter thus dates from Sunday, 17 or Monday, 18 September 1882. </p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Previously a sheet with a letter sketch and 13 lines of text was placed with <ref target="let264.xml">letter 264</ref>. Given that in the text of this sheet Van Gogh writes that he spoke about the grouping of figures around the arrival of the pink <ref target="#l-84">(l. 84)</ref> in his <hi rend="italics">previous letter</hi>, and thus refers to a passage in <ref target="let264.xml">letter 264</ref>, the sheet must have belonged with the present letter. </p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit early in August <ref target="let253.xml">(253)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Relationship with Mauve has deteriorated <ref target="let209.xml">(209)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>A reference to the subject of ‘saleable’ work raised at the beginning of <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let262.xml">letter 262</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Four people on a bench</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_63">F - / JH 195</rs>); for it’s being sent, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let262.xml">see letter 262</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>This watercolour of orphans is not known. </p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The enclosed sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Orphan boys and girls out for a walk</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_67">F - / JH 203</rs>) and the letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Group of people on the beach with a fishing boat returning</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_66">F - / JH 205</rs>), both after unknown works, are examples of the figure studies. Other figure studies meant here cannot be identified with certainty; a few drawings of figures dated September 1882 are extant. </p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+      
+<p>In the so-called Gothic Room opposite Noordeinde Palace in The Hague a protest exhibition had been organized by the established artists <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1320">Charles Rochussen</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1624">Herman Frederick Carel ten Kate</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1741">Cornelis Springer</rs>; it was directed against the Hollandsche Teeken-Maatschappij founded in 1876 to draw attention to the work of younger artists. Though a member of the Hollandsche Teeken-Maatschappij, Rochussen had secretly set up a drawing organisation, the Koninklijk Genootschap van Nederlandsche Aquarellisten (Royal Society of Dutch Watercolourists). See exhib. cat. The Hague 1882-3; exhib. cat. Paris 1983, p. 322 and exhib. cat. The Hague 1990, p. 158. For the Hollandsche Teeken-Maatschappij, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let256.xml#n-8">see letter 256, n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1320">Charles Rochussen</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Quartier-général dans une mairie de village, République Batave</hi> (Headquarters in a townhall of a village. The Batavian Republic) (present whereabouts unknown). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1952">Ill. 1952</rs>. In the catalogue entitled <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Het rapport. Bataafsche tijd 1799</hi> (The report. Batavian period, 1799). See exhib. cat. The Hague 1882-3, cat. no. 124. Cf. Franken and Obreen 1894, p. 116, cat. no. 778.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>In <ref target="biblio.xml#lit_53"><hi rend="italics">Madame Thérèse ou les volontaires de 92</hi></ref> by the writing duo (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_591">Charles) Alexandre Chatrian</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_594">Emile Erckmann</rs> there is a scene in which the village doctor, Jacob Wagner, is questioned by a hostile republican officer about the presence of Austrian troops in the area. The officer confiscates a map. See Erckmann-Chatrian 1867, pp. 6-11.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>By ‘drawings from Artis’ (the shortened name for the Amsterdam zoo <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Natura Artis Magistra</hi>), Van Gogh means two works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_763">August Allebé</rs> in the exhibition, namely <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_369"><hi rend="italics">Leeuw en leeuwin</hi></rs> (Lion and lioness) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_370"><hi rend="italics">Tijgerin</hi></rs> (Tigress) (present whereabouts unknown). See exhib. cat. The Hague 1882-3, cat. nos. 1 and 2. Cf. exhib. cat. Haarlem 1988, pp. 196, 199, cat. nos. 101 and 117.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_763">August Allebé</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The bay of Arcachon</hi>, 1876 (Amsterdam, Rijksprentenkabinet). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_485">Ill. 485</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>The following five works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1098">Emile Hoeterickx</rs> were on view: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_371"><hi rend="italics">De Pont-Neuf te Parijs</hi></rs>; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_372"><hi rend="italics">Het oude Parijs</hi></rs>; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_373"><hi rend="italics">Strand te Ramsgate, Engeland</hi></rs>; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_374"><hi rend="italics">Morgen te Douvres</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_375"><hi rend="italics">In ’t gras, Hydepark te Londen</hi></rs> (The Pont-Neuf in Paris; Old Paris; Beach at Ramsgate, England; Morning at Dover and In the grass, Hyde Park in London) (present whereabouts unknown). See exhib. cat. The Hague 1882-3, cat. nos. 66-70.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Van Gogh, who gives an incorrect title, means <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Au mont-de-piété</hi> – <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">At the pawnbroker’s</hi> (present whereabouts unknown). This painting was exhibited in 1880 at the Musée Moderne in Brussels. The work is known through the accompanying catalogue, which included a drawn reproduction. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_934">Ill. 934</rs>. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Catalogue illustré de l’exposition historique de l’art belge et du Musée Moderne de Bruxelles</hi>. Brussels and Paris 1880, p. 97. The work had also been on view as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">In de bank van leening</hi> at the Exhibition of works by living masters. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Tentoonstelling van kunstwerken van Levende Meesters</hi>. The Hague 1881, p. 17, cat. no. 144.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For this view, compare the beginning of the first chapter of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Cassagne</rs>, <ref target="biblio.xml#lit_204"><hi rend="italics">Guide de l’alphabet du dessin</hi></ref>: ‘The aim of this Method is, firstly, to teach the child drawing the way he learns to read and write, using very elementary and perfectly graduated principles, thus in a way creating for him an alphabet of the shapes of everyday objects that will lead him, step by step, simply and clearly, to read and interpret nature. Secondly, to guide the teacher and the father in this teaching’ (Le but de cette Méthode est: 1o D’enseigner le dessin à l’enfant comme il apprend à lire et à écrire, par des principes très élémentaires et parfaitement gradués, en créant en quelque sorte pour lui un alphabet des formes des objets usuels qui le conduise pas à pas, simplement et clairement, à la lecture et à l’interprétation de la nature. 2o De guider l’instituteur et le père de famille dans cet enseignement). See Cassagne 1880, p. 1.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Cf. 2 Cor. 9:6 and Gal. 6:7. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let266.xml#n-7">letter 266, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>
+      <ref target="biblio.xml#lit_260"><hi rend="italics">Les deux frères</hi></ref> (1873) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_594 bio.xml#_591">Erckmann-Chatrian</rs> is about two wealthy brothers in a village in the Vosges. Their mutual enmity leads to various misfortunes. The plot is complicated, and there are also minutely detailed descriptions of nature. The schoolmaster obsessed by plants and insects plays an important role. While the brothers remain hostile, amorous feelings develop between the son of one and the daughter of the other.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>The artists named were all from the same generation (they were born around 1820 to 1830). In the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1193">Marchal</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1403">Vautier</rs> the life of the common people in Alsace is the dominant theme, but this is not the case with the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1131">Knaus</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1347">Saal</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_40">Anker</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1253">Van Muyden</rs> (in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let267.xml">letter 267</ref> Van Gogh gives a similar list but with Anker added) – their themes and style are comparable, however. </p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_525">Moses Baruch Auerbach</rs> was best known for his <ref target="biblio.xml#lit_261"><hi rend="italics">Schwarzwalder Dorfgeschichten</hi></ref>. His novel <ref target="biblio.xml#lit_262"><hi rend="italics">Barfüßele</hi></ref> (1856) was illustrated by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1403">Vautier</rs>, who knew the writer personally. Auerbach was also in touch with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1131">Knaus</rs>. Cf. Anton Bettelheim, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Berthold Auerbach, Der Mann. Sein Werk. Sein Nachlass</hi>. Stuttgart and Berlin 1907.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The Spaniard <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1380">José Tapiró y Baró</rs> painted many Oriental subjects, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_927">V. Capobianchi</rs> (active between 1870 and 1880) was an Italian genre painter. Van Gogh might have known Capobianchi’s work from photos in the Goupil fonds. Cf. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cat. Boussod</hi> 1894, p. 97, no. 1557; p. 106, no. 89; and p. 116, no. 1406.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>This last letter was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let264.xml">letter 264</ref>; see under <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Arrangement</hi> above. The ‘scratch’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Group of people on the beach with a fishing boat returning</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_66">F - / JH 205</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>The other drawings depicting the arrival of the pink and the hauling of the anchor are not known.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Read: ‘in a previous letter’. Van Gogh talked about the weighing of the anchor and the scratch sent of it in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let260.xml#l-20">letter 260, ll. 20-24</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

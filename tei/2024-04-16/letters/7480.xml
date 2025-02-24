@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Monday, 25 February 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let748"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b625 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>748</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>578</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>752</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-02-25">on or about Monday, 25 February 1889</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0625" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000854_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000854_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000854_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0625" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000854_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000854_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000854_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Merci beaucoup de ta bonne lettre et du billet de 50 fr. qu’elle contenait. Est-ce que ta santé à toi va passablement et est ce que à Paris il fait un temps supportable.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Nous avons ici des journees de soleil et de vent<c type="kk">/</c> je me promène beaucoup pour prendre l’air<c type="kp">_</c> Jusqu’à présent je couche et je mange à l’hospice. Hier &amp; aujourd’hui j’ai commencé à travailler. Lorsque M<hi rend="super">me</hi> Roulin est partie elle aussi<c type="kk">/</c> pour aller vivre avec sa mère à la campagne provisoirement<c type="kk">/</c><ptr target="#note-t-1"/> alors elle a emporté la berceuse<c type="kp">_</c> J’en avais l’esquisse et deux répétitions<c type="kk">/</c> elle a eu bon oeil et a pris la meilleure<c type="kk">/</c> seulement je la refais dans ce moment.<ptr target="#note-t-2"/> et je ne veux pas que celle là soit inférieure.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">En réponse à lettre de Mouries, qui me fait plaisir, ceci:<ptr target="#note-t-3"/> si Gauguin en veut<c type="kk">/</c> d’échanger avec toi un exemplaire de la berceuse<c type="kk">/</c> il pourra l’envoyer en Danemark à sa femme<ptr target="#note-t-4"/> et volontiers de cette façon je verrais une toile de moi là-bas. Mais comme je te l’ai déjà dit<c type="kk">/</c> peutêtre cette toile est elle incompréhensible<c type="kp">_</c><ptr target="#note-t-5"/> J’aurais aussi le desir d’envoyer quelque chose en Hollande. Mais je n’ai pas encore mon aplomb pour tout cela.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Est ce que tu y verras un brin de verdure dans ton nouvel appartement? je l’espère<c type="kp">_</c></p>
+    
+<p rend="indent" xml:id="p.fr.6" n="6">Pour ce qui est de Koning<c type="kk">/</c> réellement je n’ose pas trop l’encourager à venir ici<c type="kk">/</c> ni même avec son entrain de s’emballer pour le midi<c type="kk">/</c> avec l’expérience que j’en ai actuellement.<ptr target="#note-t-6"/> S’il va à Nice<c type="kk">/</c> Menton<c type="kk">/</c> où c’est possible<ptr target="#note-t-a"/> plus sain<c type="kk">/</c> il ne pourra qu’y être roulé à cause de sa bonne humeur &amp;c<c type="kp">_</c> par les gens qui jouent<c type="kk">/</c> car cela c’est une vraie peste<c type="kk">/</c> même déjà ici<c type="kk">/</c> et fausse les caractères<c type="kp">_</c> Mais heureusement s’il y va il n’y ira pas seul. Pour sa peinture certes il y a de bien belles chôses ici<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Mais si on a <hi rend="italics">trop</hi> de contrariétés<c type="kk">/</c> que dire et que faire alors.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Enfin tu t’aperçois que je ne sais pas encore trop qu’en penser.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Bernard m’a aussi écrit<c type="kk">/</c> je n’ai pas encore pu répondre car c’est si difficile d’expliquer le caractère des difficultés qu’on pourrait rencontrer ici et avec nos moeurs et facons de penser du nord ou de Paris c’est fatal que si on y reste longtemps il faut souffrir quelque chôse de pas drole dans ces parages.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Faut pourtant admettre que dans toutes les villes il y a des écoles de dessin et des amateurs en masse mais tu comprends que dirigés par des invalides ou des idiots des beaux arts ce n’est qu’apparence et frime.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">M. Salles m’a remis aussitot les 50 francs.<ptr target="#note-t-7"/> Cela me fait bien plaisir que Gauguin aie terminé des lithographies<c type="kp">_</c><ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Je crois aussi ce que tu dis que si un jour cela prenait une tournure plus grave il faudrait suivre ce que diraient les médecins et ne m’y oppose pas. Mais ce jour-là peut ne pas être demain ou après demain.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Maintenant il n’est pas rare parait-il dans ces contrées de voir toute une population même pris d’une panique – ainsi à Nice lors du tremblement de terre<c type="kp">_</c>–<ptr target="#note-t-9"/> Actuellement toute la ville est inquiète<c type="kk">/</c> personne ne sachant au juste pourquoi et j’ai vu sur les journaux que justement dans des endroits pas fort eloignés d’ici il y avait de nouveau eu des secousses légères de tremblement de terre.<ptr target="#note-t-10"/> Alors à plus forte raison je serais d’avis que pour ce qui me concerne j’attende avec autant de patience que je puisse collectionner<c type="kk">/</c> espérant qu’après cela se rassérénera<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.14" n="14">à un autre moment<c type="kk">/</c> si j’etais moins impressionable<c type="kk">/</c> je me moquerais probablement pas mal de ce qui me parait de travers et de détraqué dans les habitudes du pays. A présent parfois cela me fait de l’effet pas gai. Ben – en somme il y a tant de peintres qui sont toqués d’une façon ou d’une autre que peu à peu je m’en consolerai.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Plus que jamais je comprends les souffrances de Gauguin qui a pris dans les tropiques la même chôse<c type="kk">/</c> une sensibilité excessive. à l’hopital j’ai entrevu justement une négresse malade qui y reste<ptr target="#note-t-b"/> et travaille comme servante. Dis lui ça<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Si tu disais à Rivet que tu as tant d’inquietudes pour moi il te rassurerait certes en te disant qu’à cause de ce qu’il y a tant de sympathie et de communauté d’idées entre nous tu ressens un peu la même chôse. Ne pense pas trop à moi – avec une idée fixe<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Je me débrouillerai d’ailleurs mieux si je te sais calme. Quoi qu’il arrive ne sommes nous pas en grand nombre en France de ceux qui cherchent à rester calmes quoi qu’il arrive<c type="kk">/</c> adversité ou prospérité. Je te serre bien la main en pensée. tu est bien bon de dire que je pourrais venir à Paris mais je pense que l’agitation d’une grande ville ne vaudra jamais rien pour moi. à bientôt.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.18" n="18">t.à.t.</p>
+
+<p xml:id="p.fr.19" n="19">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks very much for your kind letter and for the 50-franc note it contained. Is your own health reasonably good, and is the weather in Paris bearable?</p>
+<p rend="indent" xml:id="p.en.3" n="3">Here we have days of sunshine and wind, I walk a lot to take the air. Up to now I’ve been sleeping and eating at the hospital. Yesterday and today I began to work. When <rs type="person" ref="bio.xml#_648">Mrs Roulin</rs> also left, to go and live with her <rs type="person" ref="bio.xml#_160">mother</rs> in the country for the time being,<ptr target="#note-t-1"/> she took away the Berceuse. I had the sketch of it and two repetitions. She had a good eye and took the best one, only I’m currently redoing it.<ptr target="#note-t-2"/> And I don’t want this one to be inferior.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I have this to say in reply to <rs type="person" ref="bio.xml#_1233">Mourier</rs>’s letter, which gave me pleasure:<ptr target="#note-t-3"/> if <rs type="person" ref="bio.xml#_1039">Gauguin</rs> wants to make an exchange with you for a version of the Berceuse, he can send it to his <rs type="person" ref="bio.xml#_1040">wife</rs> in Denmark,<ptr target="#note-t-4"/> and in this way I would gladly see a canvas of mine there. But as I’ve already told you, perhaps this canvas is incomprehensible.<ptr target="#note-t-5"/> I would also wish to send something to Holland. But I haven’t got up my confidence for all of that yet. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">Will you see a bit of greenery there, in your new apartment? I hope so.</p>
+<p rend="indent" xml:id="p.en.6" n="6">As regards <rs type="person" ref="bio.xml#_1145">Koning</rs>, really I daren’t encourage him too much to come here, nor even with his gusto to get carried away with the south, with the experience I’m having of it at the moment.<ptr target="#note-t-6"/> If he goes to Nice, Menton, where it may be healthier, he’s bound to be cheated by the gamblers because of his good humour &amp;c., for that’s a real nuisance, even here already, and warps characters. But fortunately, if he goes there he won’t go there alone. For his painting, certainly there are some very fine things here.</p>
+<p rend="indent" xml:id="p.en.7" n="7">But if one has <hi rend="italics">too many</hi> annoyances, what can one say and do then?</p>
+<p rend="indent" xml:id="p.en.8" n="8">Anyway, you can see that I don’t quite know what to think yet.</p>
+<p rend="indent" xml:id="p.en.9" n="9"><rs type="person" ref="bio.xml#_831">Bernard</rs> has written to me as well. I haven’t been able to reply yet, for it’s so difficult to explain the nature of the difficulties one might encounter here, and with our northern or Parisian customs and ways of thinking it’s inevitable that if one stays here for a long time one must suffer something that isn’t amusing in these parts.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Must however admit that in all the towns there are schools of drawing and masses of art lovers, but you understand that run by invalids or idiots of the fine arts it’s nothing but appearance and show.</p>
+<p rend="indent" xml:id="p.en.11" n="11"><rs type="person" ref="bio.xml#_663">Mr Salles</rs> remitted me the 50 francs immediately.<ptr target="#note-t-7"/> It gives me great pleasure that <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has finished some lithographs.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">I believe also what you say, that if one day it was to take a graver turn one would have to follow what the doctors said, and I don’t oppose that. But that day may not be tomorrow or the day after tomorrow.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Now it isn’t rare in these parts, it appears, to see even an entire population seized by panic – thus at Nice during the earth tremor.<ptr target="#note-t-9"/> Currently all the town is anxious, nobody knows precisely why, and I saw in the newspapers that recently in places not very distant from here there had been more light shakes of earth tremor again.<ptr target="#note-t-10"/> All the more reason, then, for me to be of the opinion that, as far as I myself am concerned, I should wait with as much patience as I can muster, hoping that afterwards it will settle down again. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">At another moment, if I were less impressionable, I would probably poke a good deal of fun at what seems to me to be askew and deranged in the local customs. At present, from time to time it doesn’t have a very happy effect on me. Right, well – in fact, there are so many painters who are cracked in one way or another that little by little I’ll be consoled by it.</p>
+<p rend="indent" xml:id="p.en.15" n="15">More than ever I understand the sufferings of <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, who caught the same thing in the tropics, an excessive sensitivity. At the hospital I just glimpsed a sick negress who’s living there and works as a servant. Tell him that.</p>
+<p rend="indent" xml:id="p.en.16" n="16">If you were to say to <rs type="person" ref="bio.xml#_640">Rivet</rs> that you have so many anxieties for me he’ll certainly reassure you by saying that, because there’s so much affinity and community of ideas between us, you feel the same thing a little. Don’t think too much about me – with an <hi rend="italics">idée fixe</hi>.</p>
+<p rend="indent" xml:id="p.en.17" n="17">What’s more, I’ll get along better if I know that you’re calm. Whatever happens, aren’t there a great many of us in France who try to remain calm whatever happens, adversity or prosperity? I shake your hand firmly in thought. You’re really kind to say that I could come to Paris, but I think that the bustle of a big city will never be worth anything to me. More soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Ever yours,</p>
+<p xml:id="p.en.19" n="19">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">On Tuesday, 26 February 1889 the Rev. Salles informed Theo that Vincent had been readmitted to hospital that very day, by order of the chief of police, after being at home for several days. Theo passed this news on to Jo on 27 February (see <hi rend="italics">Brief Happiness</hi> 1999, p. 184).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The present letter must have been written before Vincent’s hospitalization, because he is still at home, working on a repetition of <hi rend="italics">The Berceuse</hi>. Moreover, he thanks Theo for the 50 francs he sent – he had received the previous instalment of his allowance through the Rev. Salles on the 17th or 18th (<ref target="#n-7">see n. 7</ref>). On the basis of this information, we have dated the letter to about Monday, 25 February 1889.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The letter was evidently sent later, because Theo had clearly not yet received it on Thursday, 28 February: ‘I’ve heard nothing from him personally since the letter you read.’ This referred to <ref target="let747.xml">letter 747</ref>, which he had forwarded to Jo on 20 February (see FR b2041; <hi rend="italics">Brief happiness</hi> 1999, pp. 172, 188 (quotation)). The present letter was perhaps posted only later because of the alarm caused by Vincent’s relapse. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s new apartment <ref target="let745.xml">(745)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The mother of Augustine Roulin, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_160">Rosalie Pelicot-Décès</rs>, lived in rue de la Campane in Lambesc, about 40 km east of Arles (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Mairie de Lambesc</hi>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>The sketch Van Gogh refers to is his first version: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Augustine Roulin (‘La berceuse’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2775">F 508 / JH 1671</rs>). The two repetitions are <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2773">F 505 / JH 1669</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2774">F 506 / JH 1670</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_647 bio.xml#_648">The Roulins</rs> had chosen <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2773">F 505 / JH 1669</rs>; the repetition of it (the fourth version) is <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2776">F 507 / JH 1672</rs>. </p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo must have enclosed <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1233">Mourier-Petersen</rs>’s letter to Vincent (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let742.xml">letter 742</ref>). Mourier-Petersen had assumed that Vincent was no longer in Arles.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+    
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1040">Mette Gauguin-Gad</rs> lived in Copenhagen. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> did in fact receive a version of the Berceuse; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let776.xml#n-3">see letter 776, n. 3.</ref> It emerges from this passage that Van Gogh wanted him to have a triptych (consisting of the Berceuse flanked by the repetitions of the sunflowers); see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let736.xml#n-12">letter 736, n. 12.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Van Gogh is probably referring here to his remark in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let744.xml">letter 744</ref>, that his Berceuse was not correctly rendered and in that respect did not resemble the work of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_917">Cabanel</rs> or <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_890">Bouguereau</rs> in the slightest.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs> had written in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let746.xml">letter 746</ref> about his plan to travel with a friend to France.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘possiblement’.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_663">Salles</rs> wrote to Theo that Vincent had received these 50 francs, ‘when he left the hospital’ (au moment où il est sorti de l’hospice) (FR b1047, 26 February 1889). This must have been as early as 18 February, since Vincent wrote at the time: ‘Today I’ve just returned home for the time being’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let747.xml#l-4">letter 747, ll. 4-5</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s series of lithographs ‘Suite Volpini’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let737.xml#n-7">see letter 737, n. 7.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>On 23 February 1887 Nice had experienced a serious earthquake that had claimed many lives. See André Laurenti, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les tremblements de terre des Alpes-maritimes</hi>. Nice 1998, pp. 36-45.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh must be referring to the earthquake in the Dauphiné on 18 February 1889, which registered 6-7 on a scale of 12 and was therefore a moderate tremor. The <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Courrier des Alpes </hi>reported it on 21 February. We are indebted to Geneviève Patau, Institut du Physique du Globe de Paris, Département de Sismologie, for this information. A report of this earthquake in the local Arles newspapers has not been traced. </p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘vit’.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

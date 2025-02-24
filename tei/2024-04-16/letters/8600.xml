@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>Theo van Gogh to Vincent van Gogh. Paris, Saturday, 29 March 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let860"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b758 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>860</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>T31</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>861</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                            <date when="1890-03-29">Saturday, 29 March 1890</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0758" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001001026_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001001026_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001001026_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0758" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001001026_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001001026_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001001026_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Paris le 29 Mars 1890</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Mon cher Vincent,</p>
+
+<p xml:id="p.fr.3" n="3">Comme je serais content de pouvoir aller te voir demain pour te serrer la main le jour de ta fête.<ptr target="#note-t-1"/> Est ce que ce sera une fête pour toi ou est ce que tu es toujours dans un état où tu te trouves malheureux. Qu’est ce que tu fais dans la journée &amp; as tu quelque chose à faire pour te distraire. Peut tu lire et as tu ce qu’il te faut? J’espérais 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/> après ta dernière lettre<ptr target="#note-t-2"/> que tu étais entré en convalescence &amp; que bientot après tu aurais écrit que tu allais mieux. Mon chèr frère comme c’est triste d’être si loin l’un de l’autre &amp; de savoir si peu ce que l’autre fait. C’est pourquoi je suis très heureux de pouvoir te dire que j’ai rencontré le D<hi rend="super">r</hi> Gachet. Ce médecin dont Pissarro m’avait parlé. Il a l’air d’un homme qui comprend bien les choses. Il te ressemble un peu comme physique. Quand tu viendra içi nous irons le voir, il vient consulter à Paris plusieurs fois dans la semaine.<ptr target="#note-t-3"/> Il me disait quand je lui racontais comment se produisaient tes crises, qu’il ne croyait pas que cela avait quelque chose à faire avec la folie 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>et que si c’était ce qu’il croyait il répondait qu’il te guérirait, mais il avait besoin de te voir &amp; de causer avec toi pour pouvoir se prononcer avec plus de sureté. C’est un homme qui pourra nous être très utile si tu viens içi. En as tu déjà parlé avec le D<hi rend="super">r</hi> Peyron &amp; qu’en dit il? Je ne suis pas encore retourné aux Indépendants, mais Pissarro qui y allait tous les jours me dit que tu as un vrai succès parmi les artistes. Il y a aussi des amateurs qui m’en ont parlé avant que je les leur avait signalé. Les journaux qui donnent un compte rendu de l’exposition se taisent sur la salle des impressionnistes<c type="kp">_</c><ptr target="#note-t-4"/> C’est encore le mieux qu’ils peuvent faire car la pluspart de ces critiques tu sais bien ce qu’elles valent. Il commence à faire 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>içi un vrai temps de printemps. Cet après midi Jo &amp; l’enfant étaient dans le petit square devant la Trinité.<ptr target="#note-t-5"/> Les arbustes commencent à devenir vertes &amp; les arbres laissent voir des points verts aux bourgeons<c type="kk">/</c> tout nageait dans un soleil bienfaisant &amp; le gris de l’église contre le bleu intense du ciel était bien beau.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Jo &amp; l’enfant vont bien. De temps en temps il y a bien quelque chose qui cloche, mais il n’y a rien de serieux. Le médecin qui venait cette semaine disait que c’était un enfant magnifique &amp; faisait des compliments à Jo. Tu verras comme il est drole dans ses mouvements. Mon cher frère j’ai un très grand désir d’apprendre si tu vas mieux &amp; d’avoir des détails sur ta santé. Aie bon courage &amp; conserve l’espoir que prochainement cela ira mieux<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Je t’envois quelques reproductions d’eaux fortes par Rembrandt<c type="kk">/</c><ptr target="#note-t-6"/> elles sont si belles. Bonne poignée de mains &amp; crois moi ton frère qui t’aime</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.6" n="6">Theo</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Paris, 29 March 1890</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Vincent,</p>
+<p xml:id="p.en.3" n="3">How pleased I would be to be able to go and see you tomorrow to shake your hand on your birthday.<ptr target="#note-t-1"/> Will it be a celebration for you, or are you still in a state where you find yourself unhappy? What do you do during the day, and have you something to do to distract yourself? Can you read, and do you have what you need? I was hoping 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> after your last letter<ptr target="#note-t-2"/> that you had begun to convalesce, and that soon afterwards you would have written that you were feeling better. My dear brother, how sad it is to be so far from one another and to know so little of what the other is doing. That’s why I’m very happy to be able to tell you that I’ve met <rs type="person" ref="bio.xml#_389">Dr Gachet</rs>. That doctor <rs type="person" ref="bio.xml#_1268">Pissarro</rs> had spoken to me about. He looks like a man who understands things well. He resembles you a little. When you come here we’ll go and see him, he comes to give consultations in Paris several times a week.<ptr target="#note-t-3"/> He said to me when I told him how your crises occurred that he didn’t believe that this had anything to do with madness 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> and that if it was what he thought, he replied that he would cure you, but he needed to see you and talk to you to be able to give his opinion with greater certainty. He’s a man who can be very useful to us if you come here. Have you spoken to <rs type="person" ref="bio.xml#_568">Dr Peyron</rs> about it yet, and what does he say about it? I haven’t yet gone back to the Independents, but Pissarro who went there every day tells me that you have a real success among the artists. There are also art lovers who spoke to me about it before I’d pointed them out to them. The newspapers which give an account of the exhibition are silent on the Impressionists’ hall.<ptr target="#note-t-4"/> That’s still the best they can do, for the majority of these critics, you know very well what they’re worth. The weather here is beginning 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> to be really springlike. This afternoon <rs type="person" ref="bio.xml#_416">Jo</rs> and the <rs type="person" ref="bio.xml#_418">child</rs> were in the little square in front of the Trinity.<ptr target="#note-t-5"/> The shrubs are beginning to become green and the trees are showing green points on the buds, everything was bathed in benevolent sunshine, and the grey of the church against the intense blue of the sky was really beautiful.</p>
+<p rend="indent" xml:id="p.en.4" n="4"><rs type="person" ref="bio.xml#_416">Jo</rs> and the <rs type="person" ref="bio.xml#_418">child</rs> are doing well. From time to time there is of course something amiss, but nothing serious. The <rs type="person" ref="bio.xml#_640">doctor</rs> who came this week said that he was a magnificent child, and paid Jo compliments. You’ll see how funny his movements are. My dear brother, I have a very great desire to hear if you’re feeling better and to have details about your health. Be of good heart, and remain hopeful that things will get better soon.</p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m sending you a few reproductions of etchings by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>,<ptr target="#note-t-6"/> they’re so beautiful. Good handshake, and believe me your brother who loves you,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Theo</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Paris le 29 Mars 1890’. The letter must have been written earlier in the day than <ref target="let861.xml">letter 861</ref>, because in that letter Jo says: ‘I must make haste to end my letter because Theo’s waiting for it’ <ref target="let861.xml#l-77">(ll. 77-79)</ref>.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Enclosed with <ref target="let861.xml">letter 861</ref> from Jo.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Fourth attack in Saint-Rémy <ref target="let857.xml">(857)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent considers settling in Auvers and putting himself in the care of Dr Gachet <ref target="let808.xml">(808)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Entry for the 1890 Indépendants exhibition <ref target="let854.xml">(854)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Vincent turned 37.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This was <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let857.xml">letter 857</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_389">Dr Gachet</rs> had kept his practice in Paris when he moved to Auvers. His office was located at 78 rue du Faubourg Saint-Denis.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>In the Netherlands, an anonymous article did discuss Van Gogh’s work, as well as Theo’s role as a champion of modern artists. The <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Nieuwe Rotterdamsche Courant</hi> of Friday, 4 April 1890 included an enthusiastic article on the exhibition:</p>
+
+<p>‘One of the exhibitors at this gathering is a Dutchman, Mr Vincent van Gogh, who is celebrated by the true devotees of the new light as the best among their adepts, and who deserves this honour in many respects. He does not dot his landscapes, but paints them with facets approximately the size of a segment of a finger.</p>
+
+<p rend="indent">If one stands up close, one doesn’t know what one sees; one is confronted with inexplicable chaos. But if one moves some distance away, one must admire the bold and original idea; then trees and paving stones and clouds take on shapes that one hadn’t understood at first glance and hadn’t discovered. This style of painting is indeed the last word in oddness.</p>
+
+<p rend="indent">But there is something in it, that is certain. One may call the means coarse and unpolished, but the painter would not boast about putting on white kid gloves. Mr van Gogh, the art buyer in boulevard Montmartre, the brother of this painter, is ever on the look-out for these innovators of painting, and it is mainly owing to his tireless efforts that justice is done to such painters as Monet and Raffaëlli and Pissarro ... and that they find acceptance among the public, who are starting to buy their work more and more.’</p>
+
+<p rend="indent">This was written by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_173">Adrien Louis Herman Obreen</rs>, with whom Theo had been in touch in July 1890 in any case. The article was sent to Theo from the Netherlands (See FR b2864, b2862, and b928; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Brief happiness</hi> 1999, p. 253, and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let862.xml#n-2">letter 862, n. 2</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The Church of the Trinity is on the square d’Estienne d’Orves, near Theo and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs>’s apartment in the cité Pigalle.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>On 29 March 1890 Theo recorded in his account book: ‘Etchings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> Vincent 9.20 [francs]’. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book</hi> 2002, pp. 37, 155. The reproductions in question can be gleaned from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let865.xml">letter 865</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

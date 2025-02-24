@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. London, Tuesday, 21 July 1874.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let026"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b19 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>026</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>19</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>026</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1874-07-21">Tuesday, 21 July 1874</date>
+                            <placeName>London</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0019" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000019_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000019_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001000019_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0019 V/1962" xml:id="surf-extra-1v">
+<graphic url="https://example.com/iiif/VGM001000019_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001000019_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Londen 21 Juli 1874.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Gisteren is er een kist naar den Haag gegaan waarin ik eene phot<c type="kp">_</c> naar J. Maris gedaan heb &amp; ook de beloofde “Der Wirthin Tochterlein”,<ptr target="#note-t-1"/> die je, hoop ik, beiden op je kamer zult hangen.─</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">In dezelfde kist is eene phot<c type="kp">_</c> naar Thijs Maris, voor den Heer Tersteeg.─<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Schüller te Parijs<ptr target="#note-t-3"/> heeft mij van beiden 6 afdrukken gezon<c type="shy">-</c>den, die ik noodig had om weg te geven.─ Van die naar Thijs Maris kan ik er geen meer missen.─</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Anna &amp; ik zijn goed &amp; wel te Londen gearriveerd<ptr target="#note-t-4"/> &amp; zullen ’t hier wel stellen.─</p>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik zeg niet dat we spoedig iets zullen vinden, maar elken dag dat zij hier is, leert zij &amp; in elk geval geloof ik er meer <hi rend="italics">kans</hi> is hier iets voor haar te vinden dan in Holland.─</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">’t Is iets heerlijks voor mij s’avonds met haar hier door de straten te wandelen, ik vind dan alles hier weer even mooi als ik ’t vond toen ik pas hier was.─</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Heb het goed, kerel, &amp; groet ze bij Roos, Haanebeek &amp; Carbentus<ptr target="#note-t-5"/> van mij als je iemand van hen ziet.─</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ik ben aan ’t zwemmen leeren.─</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Schrijf mij eens of je al in Michelet<ptr target="#note-t-6"/> gelezen hebt &amp; wat je daarvan denkt.─ Voor mij was dat boek eene revelatie.─ Adieu<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.12" n="12">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.13" n="13">Anna groet je.─</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">London, 21 July 1874.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Yesterday a crate was sent to The Hague in which I put a photo of a <rs type="person" ref="bio.xml#_1203">J. Maris</rs> and also ‘<ref target="biblio.xml#lit_9">The landlady’s daughter</ref>’ I promised,<ptr target="#note-t-1"/> both of which I hope you’ll hang up in your room.</p>
+<p rend="indent" xml:id="p.en.4" n="4">There’s a photo in the same crate of a <rs type="person" ref="bio.xml#_1202">Thijs Maris</rs> for <rs type="person" ref="bio.xml#_787">Mr Tersteeg</rs>.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5"><rs type="person" ref="bio.xml#_687">Schüller</rs> at Paris<ptr target="#note-t-3"/> sent me 6 copies of both, which I needed in order to give away. I can’t spare another of the Thijs Maris.</p>
+<p rend="indent" xml:id="p.en.6" n="6"><rs type="person" ref="bio.xml#_412">Anna</rs> and I arrived in London safe and sound,<ptr target="#note-t-4"/> and will manage here somehow. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">I’m not saying that we’ll find something quickly, but each day that she’s here she learns something, and in any case I believe there’s more <hi rend="italics">chance</hi> of her finding something here than in Holland.</p>
+<p rend="indent" xml:id="p.en.8" n="8">It’s wonderful for me to walk with her through the streets in the evening; I then find everything here just as beautiful as I did when I first arrived.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I wish you well, old chap, and give my regards to <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>, <rs type="person" ref="bio.xml#_442 bio.xml#_443">Haanebeeks</rs> and <rs type="person" ref="bio.xml#_13 bio.xml#_41">Carbentuses</rs><ptr target="#note-t-5"/> if you see any of them.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I’m learning to swim.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Write to me whether you’ve begun reading <rs type="person" ref="bio.xml#_707">Michelet</rs><ptr target="#note-t-6"/> and what you think of it. That book was a revelation to me. Adieu,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.13" n="13">Regards from Anna.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Londen 21 Juli 1874’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Regarding <ref target="biblio.xml#lit_9"><hi rend="italics">Der Wirthin Töchterlein</hi></ref>, see<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let014.xml#n-15">letter 14, n. 15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+    
+<p>This was possibly a photograph after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1202">Matthijs Maris</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_25"><hi rend="italics">Margaret</hi></rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs>, in fact, wrote about it to Theo on 30 July 1874: ‘I’ve already been to see Vincent in the office three times and saw very beautiful paintings there, also the Margaret by M. Maris, of which you have the photograph’ (FR 2712). This could have been any one of three Gretchen/Margaret depictions: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_26"><hi rend="italics">The bride (Church bride),</hi></rs> 1865-1869 (The Hague, The Mesdag Collection), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_27"><rs type="artwork" ref="artwork.xml#noill_28"><hi rend="italics">Girl at the pump</hi></rs></rs>, 1872 (Groningen, Groninger Museum) or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The spinner</hi>, 1873 (Otterlo, Kröller-Müller Museum). Cf. H.E.M. Braakhuis and J. van der Vliet, ‘Bruiden, Gretchens, prinsessen en kastelen. Het werk’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Kunstschrift</hi> 34-1 (1990), pp. 9-15.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_687">Woutherus Stephanus Schüller</rs> was an employee of Goupil in Paris.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Vincent and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs> arrived in London on Wednesday, 15 July. Theo had been informed immediately, his <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524 bio.xml#_526">parents</rs> having forwarded the letter telling of Vincent and Anna’s arrival to him in The Hague (FR b2711, 18 July 1874).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The family of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_41">Uncle Arie Carbentus</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_13">Aunt Fie</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_707">Jules Michelet</rs>, <ref target="biblio.xml#lit_11"><hi rend="italics">L’amour</hi></ref>, 1858; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let027.xml">letter 27</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

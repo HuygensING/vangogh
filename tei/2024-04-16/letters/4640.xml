@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, Thursday, 2 October 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let464"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b412 a-c V/1962 (sheets 1, 2, 3) and b413 b V/1962 (sheet 4)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>464</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>378</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>467</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-10-02">Thursday, 2 October 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000542_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000542_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000542_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000542_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000542_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000542_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000543_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000543_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000543_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000543_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000544_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000544_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0412 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000544_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000544_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0413 b" xml:id="surf-pb-4r">
+<graphic url="https://example.com/iiif/VGM001000547_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4r-9">
+<graphic url="https://example.com/iiif/VGM001000547_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0413 b" xml:id="surf-pb-4v">
+<graphic url="https://example.com/iiif/VGM001000547_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4v-10">
+<graphic url="https://example.com/iiif/VGM001000547_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Dank voor Uw brief<c type="kk">/</c> dank voor het ingeslotene<c type="kp">_</c>– Hoor nu eens hier<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Wat ge schrijft is alles heel goed en wel en wat betreft rumoer<c type="kk">/</c> ik begin een beetje beter dan vroeger geprepareerd te zijn om het te coupeeren<c type="kp">_</c>– Geen vrees dat Pa en Moe zullen weggaan b.v. – <hi rend="italics">Ofschoon zelfs nu net een</hi> <hi rend="italics">beroep kwam</hi>.<ptr target="#note-t-1"/> Pa en Moe zullen hun positie hier<c type="kk">/</c> als ze ’t goed aanleggen<c type="kk">/</c> integendeel kunnen bevestigen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Nu zijn er menschen die tot mij zeggen “wat had je je met <hi rend="italics">haar</hi> te bemoeien” – dat’s <hi rend="italics">ééne</hi> daadzaak<c type="kp">_</c> Nu zijn er menschen die tot haar zeggen “wat had je je met <hi rend="italics">hem</hi> te bemoeien” – dat’s een tweede daadzaak<c type="kp">_</c> Verder<c type="kk">/</c> <hi rend="italics">en</hi> zij <hi rend="italics">en</hi> ik hebben verdriet genoeg en beroerdigheid genoeg – maar spijt – geen van beiden<c type="kp">_</c> Ziehier –</p>
+
+<p xml:id="p.nl.5" n="5">    ik geloof bepaald of weet zeker ze van me houdt<c type="kk">/</c></p>
+
+<p xml:id="p.nl.6" n="6">    ik geloof     ,,        ,,     ,,        ,,   ik   ,,   haar   ,, </p>
+    
+<p xml:id="p.nl.7" n="7">dat is gemeend geweest – 
+is het ook gek geweest – enz<c type="kp">_</c>? misschien wel <hi rend="italics">als ge wilt</hi> – maar <hi rend="italics">de wijzen</hi> die nooit iets doen dat gek is<c type="kk">/</c> zijn ze niet nog gekker in mijn oog dan ik in het hunne<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.8" n="8"><hi rend="italics">Dat’s</hi> te zeggen tegen uwe redeneering en andere redeneeringen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Dit alles zeg ik eenvoudig <hi rend="italics">uitleggenderwijs</hi><c type="kk">/</c> niet vijandig of hatelijk<c type="kp">_</c>–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ge zegt ge houdt van <hi rend="italics">Octave Mouret</hi><c type="kk">/</c> ge zeidet ge lijkt op hem<c type="kp">_</c>– ik heb sedert verl. jaar ook het tweede deel gelezen<c type="kk">/</c> waarin hij me veel beter bevalt dan in ’t eerste<c type="kp">_</c>–<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik hoorde onlangs zeggen dat “au bonheur des dames” niet buitengewoon zou toedoen aan de verdienste van Zola<c type="kp">_</c> ik vind er mee van de <hi rend="italics">grootste</hi> en <hi rend="italics">beste</hi> dingen in<c type="kp">_</c> Ik heb ’t er eens op nagekeken en ik schrijf U enkele woorden van Octave Mouret over<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Gij – <hi rend="italics">in den laatsten tijd</hi> van ± 1 1/2 jaar<c type="kk">/</c> zijt ge niet aan den <hi rend="italics">Bourdoncle</hi> kant gegaan.<ptr target="#note-t-3"/> Hadt den Mouret liever doorgevoerd<c type="kk">/</c> dat was en blijft mijn opinie<c type="kp">_</c>– Behoudens enorm verschil in omstandigheden<c type="kk">/</c> ja regtlijnig verschil in omstandigheden<c type="kk">/</c> loop ik toch meer in de Mouret rigting dan ge misschien denkt – in zake mijn geloof in de vrouwen en dat men hun noodig heeft<c type="kk">/</c> hun lief moet hebben. (Mouret zegt “<hi rend="italics">chez nous on </hi><hi>aime</hi><hi rend="italics"> la clientèle</hi>”)<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Denk hier eens over – en herinner U mijn leedwezen over Uw zeggen dat ge “verkoeld” waart<c type="kp">_</c>–<ptr target="#note-t-5"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Al wat ik zei van bittere waarschuwing tegen invloed van ’t Guizot achtige zoo als ik ’t noemde<c type="kk">/</c> herzeg ik meer dan ooit<c type="kp">_</c> waarom<c type="kp">_</c>– dat leidt tot mediocreteit<c type="kp">_</c> En ik wil U niet zien onder de mediocreteiten omdat ik te veel van U gehouden heb<c type="kk">/</c> ja nog houdt<c type="kk">/</c> dan dat ik verdragen kan U te zien verstijven<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Ik weet ’t is moeielijk<c type="kk">/</c> ik weet dat ik van U te weinig afweet<c type="kk">/</c> ik weet dat ik misschien me vergis<c type="kp">_</c>– Maar enfin – lees dan Uw Mouret eens na<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ik sprak van verschil tusschen Mouret en wat ik zou willen<c type="kk">/</c> en <hi>toch</hi> evenwijdigheid<c type="kp">_</c> Ziehier. Mouret aanbid de moderne parijsche vrouw – goed<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Maar <hi>Millet</hi><c type="kk">/</c> <hi rend="italics">Breton</hi><c type="kk">/</c> <hi>met dezelfde</hi> <hi>passie</hi> de <hi rend="italics">boerin</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Die twee passies zijn <hi>een zelfde</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Lees Zola’s beschrijving van een kamer met vrouwen in de schemering – vrouwen dikwijls al over de 30<c type="kk">/</c> tot 50 toe – zoo’n somber<c type="kk">/</c> mysterieus hoekje<c type="kp">_</c>–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Ik vind dat <hi rend="italics">prachtig</hi><c type="kk">/</c> ja <hi rend="italics">subliem</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Maar voor mij is even subliem – de Angelus van Millet<c type="kk">/</c><ptr target="#note-t-7"/> ook die schemering<c type="kk">/</c> ook die oneindige emotie – of dat enkele figuur van Breton op de Luxembourg<ptr target="#note-t-8"/> of zijn Source.<ptr target="#note-t-9"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Ge zult zeggen dat ik niet slaag<c type="kp">_</c>– ’t Kan me niet schelen, <hi rend="italics">vaincre</hi> of <hi rend="italics">être vaincu</hi><c type="kk">/</c><ptr target="#note-t-10"/> in alle geval is men in emotie en beweging en dat is meer ’t zelfde dan wel schijnt en gezegd wordt<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Wat betreft <hi rend="italics">deze</hi> vrouw in kwestie<c type="kk">/</c> het blijft mij een mysterie hoe ’t moet afloopen maar noch zij noch ik zullen <hi rend="italics">gekke</hi> dingen doen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Ik vrees voor haar dat de oude godsdienst haar <hi rend="italics">op nieuw</hi> zal verstijven en bevriezen<ptr target="#note-t-11"/> met dat verdomde ijskoude dat haar <hi rend="italics">al eens</hi> in ver verleden heeft geknakt <hi rend="italics">tot stervens</hi> toe<c type="kk">/</c> lange jaren geleden. O – ik ben geen vriend van het tegenwoordige kristendom<c type="kk">/</c> al was de <hi rend="italics">stichter</hi> subliem – het tegenwoordige kristendom<c type="kk">/</c> ik heb het te goed in de kaart gekeken<c type="kp">_</c>– Het biologeerde me zelf<c type="kk">/</c> dat ijskoude in mijn jeugd – maar ik wreek me sedert<c type="kp">_</c>– waardoor<c type="kp">_</c>– door de liefde die <hi rend="italics">zij</hi> – de theologen – <hi rend="italics">zonde</hi> noemen<c type="kk">/</c> te aanbidden<c type="kk">/</c> door een hoer te respecteeren enz<c type="kp">_</c> en veel <hi rend="italics">would be</hi> eerwaardige<c type="kk">/</c> godsdienstige dames <hi rend="italics">niet</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">De <hi rend="italics">vrouw</hi> is voor de eene partij altijd <hi rend="italics">ketterij</hi> en duivelsch<c type="kp">_</c>– Voor mij ’t tegenovergestelde<c type="kp">_</c> Gegroet.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.26" n="26">b. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.27" n="27">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.28" n="28">Ziehier uit Octave Mouret –<ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.29" n="29">Mouret dit: “Si tu te crois fort, parceque tu refuses d’être bête et de souffrir! Eh bien – alors tu n’es qu’une dupe, pas davantage!”–<ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.30" n="30">“Tu t’amuses?”</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Mouret ne parut pas comprendre tout de suite. mais<c type="kk">/</c> lorsqu’il se fut rappelé leurs conversations anciennes sur la bêtise vide et l’inutile torture de la vie<c type="kk">/</c> il répondit: “<hi rend="italics">Sans doute – jamais je n’ai tant vécu...</hi> <hi rend="italics">Ah! mon vieux – ne te moques pas!–</hi> <hi rend="italics">ce sont les heures les plus courtes où l’on</hi> <hi rend="italics">meurt de souffrance!–</hi></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.32" n="32">je la veux<c type="kk">/</c> je l’aurai!.... et – <hi rend="italics">si</hi> elle m’échappe<c type="kk">/</c> tu verras les choses que je ferai pour m’en guérir<c type="kp">_</c>– Tu n’entends pas cette langue, mon vieux; autrement<c type="kk">/</c> tu saurais que l’action contient en elle sa récompense – agir – créer – se battre contre les faits, <hi rend="italics">les vaincre ou être vaincu</hi> <hi rend="italics">par eux</hi>, toute la joie et toute la santé humaines sont <hi>là</hi>!”</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Simple façon de s’étourdir – murmura l’autre.</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">“Eh bien! j’aime mieux m’étourdir<c type="kp">_</c>– Crever pour crever – <hi>je préfère crever</hi> <hi>de passion que de crever d’ennui</hi>!”</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.35" n="35">– dit laatste zeg niet alleen ik quand même maar ook <hi rend="italics">zij van nature</hi>                 ,,      ,, </p>
+    
+<p xml:id="p.nl.36" n="36">daarom zag ik iets groots in haar van ’t begin af<c type="kk">/</c> en alleen ’t is voor haar verdomd jammer dat zij <hi rend="italics">in haar jeugd</hi> zich heeft laten <hi rend="italics">overdonderen</hi> door teleurstellingen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Overdonderen in dezen zin dat de <hi rend="italics">oud</hi> godsdienstige familie Begemann het <hi rend="italics">actieve</hi>, ja <hi rend="italics">geniale</hi> beginsel in haar heeft <hi rend="italics">meenen te moeten</hi> <hi rend="italics">onderdrukken</hi> en haar <hi rend="italics">passief</hi> tot in ’t oneindige heeft gemaakt.</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Als in <hi rend="italics">haar jeugd</hi> ze haar niet gebroken hadden! of als ze ’t daar bij gelaten hadden en nu niet <hi rend="italics">op nieuw</hi><c type="kk">/</c> met <hi rend="italics">5</hi> of <hi rend="italics">6</hi> of <hi rend="italics">nog meer</hi> <hi rend="italics">vrouwen tegen haar alleen</hi> vechtende<c type="kk">/</c></p>
+
+<p xml:id="p.nl.39" n="39">haar radeloos gemaakt hadden!</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40"><hi>lees l’evangeliste van Daudet eens</hi>
+<hi>over die vrouwenintrigues</hi><c type="kk">/</c> die hier anders waren maar <hi rend="italics">toch in zoo’n</hi> <hi rend="italics">genre</hi><c type="kp">_</c><ptr target="#note-t-14"/></p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Och Theo, waarom zou ik me veranderen<c type="kp">_</c> – <hi rend="italics">vroeger</hi> was ik heel passief en heel zacht en stil – nu niet meer maar ik ben nu ook geen kind meer – ik voel soms me zelf<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Neem Mauve – waarom is hij driftig en <hi rend="italics">lang niet altijd tam</hi><c type="kp">_</c> ik ben nog zoo ver niet als hij maar ik zal ook nog verder komen dan ik ben<c type="kp">_</c>– Ik zeg U<c type="kk">/</c> men moet als men actief wil wezen niet bang zijn om eens iets verkeerd te doen<c type="kk">/</c> niet bang zijn om in eenige fouten te vervallen<c type="kp">_</c> Om goed te worden denken velen dat ze er komen zullen <hi rend="italics">door geen</hi> <hi rend="italics">kwaad</hi> te doen – en dat’s een leugen en zeidet ge zelf vroeger een leugen was<c type="kp">_</c>– Dat leidt tot stagnatie<c type="kk">/</c> tot mediocreteit<c type="kp">_</c> <hi rend="italics">Smeer maar er iets op</hi> als ge een blank doek U aan ziet staren met een zekere imbeciliteit<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Gij weet niet hoe <hi rend="italics">verlammend</hi> dat is<c type="kk">/</c> dat <hi rend="italics">staren</hi> van een blank doek dat tot den schilder zegt <hi rend="italics">gij kunt niets</hi><c type="kp">_</c> het doek heeft een <hi rend="italics">idioot</hi> staren en biologeert sommige schilders zoo dat ze zelf idioot worden.</p>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p rend="indent" xml:id="p.nl.44" n="44">Veel schilders <hi rend="italics">zijn bang</hi> voor het blanke <hi rend="italics">doek</hi> maar het blanke doek <hi>is</hi> <hi>bang</hi> voor den waren hartstogtelijken schilder die durft – en die eenmaal door die biologie van “ge kunt niet” doorgebroken is<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Het leven op zich zelf keert aan een mensch altijd ook een oneindig <hi rend="italics">niets</hi> zeggende<c type="kk">/</c> ontmoedigenden<c type="kk">/</c> hopeloos makenden blanken kant toe waar <hi rend="italics">niets</hi> op staat<c type="kk">/</c> evenmin als op een blank schilderdoek<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Maar <hi rend="italics">hoe</hi> nietszeggend en ijdel<c type="kk">/</c> hoe <hi rend="italics">dood</hi> het leven zich voor doe<c type="kk">/</c> de man van geloof<c type="kk">/</c> van energie<c type="kk">/</c> van warmte<c type="kk">/</c> en die iets weet<c type="kk">/</c> laat zich niet daardoor met een kluitje in ’t riet sturen<c type="kp">_</c> Hij grijpt er in en <hi rend="italics">doet iets</hi> en knoopt daar aan vast<c type="kk">/</c> enfin <hi rend="italics">breekt</hi><c type="kk">/</c> “<hi rend="italics">schendt</hi>” – zeggen ze<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">laat ze praten die koude theologen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.48" n="48">Theo ik heb zoo verdomd deernis met deze vrouw<c type="kk">/</c> juist omdat haar leeftijd en juist <hi rend="italics">misschien</hi> eene kwaal in de lever en gal haar zoo fataal boven ’t hoofd hangen<c type="kp">_</c>– En dit verergerd is door de emoties. Toch zullen we nog zien wat kan of wat fataal niet moge kunnen<c type="kk">/</c> ik doe echter niets zonder een <hi rend="italics">zeer goeden</hi> dokter<c type="kk">/</c> dus <hi rend="italics">ik</hi> zal haar geen <hi rend="italics">kwaad</hi> doen<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+<pb f="4r" n="9" xml:id="pb-orig-4r-9" facs="#zone-pb-4r-9"/>
+
+<p xml:id="p.nl.49" n="49">Toch nu <hi rend="italics">juist in deze dagen</hi> gebeurde het me evenwel dat me gevraagd werd om voor f<c type="kp">_</c> 20 een teekening of geschilderde schets te maken. Waar ik ook aan gevolg gegeven heb<c type="kk">/</c> doch daar ik veronderstelde en bij onderzoek die veronderstelling ook uitkwam dat Margo Begemann hier achter zat en ’t geld indirect me zou gegeven hebben<c type="kk">/</c> weigerde ik meest beslist de <hi rend="italics">betaling</hi> doch <hi rend="italics">niet</hi> de teekening<c type="kk">/</c> die ik gestuurd heb<c type="kp">_</c><ptr target="#note-t-15"/> Het is echter niet makkelijk om als men bar om geld verlegen is<c type="kk">/</c> het te weigeren<c type="kp">_</c>– Doch het ware een ezelsbruggetje geweest – dus – –</p>
+
+<p rend="indent" xml:id="p.nl.50" n="50">In plaats van ezelsbruggetjes – is er iets beters te doen? ik geloof het zeer zeker. ik wou voor U en voor me zelf en voor veel anderen dat we <hi>Mourets</hi> in den <hi rend="italics">kunsthandel</hi> kregen die een <hi rend="italics">uitgebreider</hi><c type="kk">/</c> <hi rend="italics">nieuw</hi> publiek dat kocht wisten te créeeren.</p>
+
+<p rend="indent" xml:id="p.nl.51" n="51">Ge zult zeggen<c type="kk">/</c> is b.v. Tersteeg geen Mouret<c type="kp">_</c> misschien is hij het après tout<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.52" n="52">Maar wat daar ook van zij<c type="kk">/</c> er blijven nog nieuwe carrieres te maken<c type="kk">/</c> juist om reden dat het publiek dat schilderijen koopt nog kan ver<c type="shy">-</c>tiendubbeld worden en dit met den dag noodiger wordt<c type="kp">_</c></p>
+<pb f="4v" n="10" xml:id="pb-orig-4v-10" facs="#zone-pb-4v-10"/>
+
+<p rend="indent" xml:id="p.nl.53" n="53">Indien er eenige Mourets opstonden die anders kochten en verkochten dan volgens de oude sleur<c type="kk">/</c> best<c type="kk">/</c> dan komt er meer en meer werk aan den winkel.</p>
+
+<p rend="indent" xml:id="p.nl.54" n="54">Doch indien er geen Mourets komen – dan – zou de handel zich welligt gansch veranderen doordat de schilders zelf het vernieuwden en zelf zonder het oude intermediair permanente exposities begonnen<c type="kp">_</c> Ik wou gij wist en voeldet hoe jong ge nog zijt <hi rend="italics">als ge U maar jong</hi> <hi rend="italics">houdt en durft</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.55" n="55">Als ge geen artist zijt in <hi rend="italics">schilderen</hi><c type="kk">/</c> wordt artist als <hi rend="italics">handelaar</hi><c type="kk">/</c> juist als Mouret.</p>
+
+<p rend="indent" xml:id="p.nl.56" n="56">Ik voor mij – in dagen als deze<c type="kk">/</c> als ik on ne peut plus vast zat – ik voel toch dat ik over een paar jaar nog met pleizier heel wat grootere verf- en andere rekeningen aandurf<c type="kp">_</c>– Ik wil druk werk hebben – geloof me – ik ben niet van plan me te vervelen – <hi rend="italics">heel veel doen</hi> of <hi rend="italics">creveeren</hi><c type="kp">_</c>–<ptr target="#note-t-16"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter, thanks for the enclosure. Now listen here.</p>
+<p rend="indent" xml:id="p.en.3" n="3">What you write is all very well and good, and as far as fuss is concerned I’m beginning to be a bit better prepared to forestall it than before. No fear that <rs type="person" ref="bio.xml#_524 bio.xml#_526">Pa and Ma</rs> will leave, for instance. <hi rend="italics">Although a call came just now</hi>.<ptr target="#note-t-1"/> On the contrary, if they set about it the right way, Pa and Ma will be able to consolidate their position here.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Now there are people who say to me, ‘what were you doing getting involved with <hi rend="italics"><rs type="person" ref="bio.xml#_267">her</rs></hi>?’ — that’s <hi rend="italics">one</hi> fact. Now there are people who say to her, ‘what were you doing getting involved with <hi rend="italics">him</hi>?’ — that’s a second fact. Apart from that, <hi rend="italics">both</hi> she <hi rend="italics">and</hi> I have sorrow enough and trouble enough — but regret — neither of us. Look here —</p>
+<p xml:id="p.en.5" n="5">I certainly believe or know for sure that <rs type="person" ref="bio.xml#_267">she</rs> loves me,</p>
+<p xml:id="p.en.6" n="6">I ,, believe ,, ,, ,, ,, ,, ,, I ,, <rs type="person" ref="bio.xml#_267">her</rs></p>
+<p xml:id="p.en.7" n="7">that has been sincere — has it also been crazy — etc.? Perhaps it has, <hi rend="italics">if you like</hi>, but <hi rend="italics">the wise people</hi> who never do anything that’s crazy, aren’t they even crazier in my eyes than I in theirs?</p>
+<p rend="indent" xml:id="p.en.8" n="8"><hi rend="italics">That</hi> can be said against your argument and other arguments.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I say all this simply <hi rend="italics">by way of explanation</hi>, not hostilely or nastily. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">You say you like <hi rend="italics">Octave Mouret</hi>, you said you’re like him. Since last year I’ve also read the second volume, in which he pleases me much more than in the first.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.11" n="11">I recently heard it said that ‘Au bonheur des dames’ wouldn’t add particularly to <rs type="person" ref="bio.xml#_836">Zola</rs>’s reputation. I find some of the <hi rend="italics">greatest</hi> and <hi rend="italics">best</hi> things in it. I’ve just looked it up, and I’m copying out a few of Octave Mouret’s words for you.</p>
+<p rend="indent" xml:id="p.en.12" n="12">You — haven’t you gone to the <hi rend="italics">Bourdoncle</hi> side <hi rend="italics">over the last </hi>1  1/2  years or so?<ptr target="#note-t-3"/> Would have done better to stick with Mouret; that was and still is my opinion. Aside from an enormous difference in circumstances, indeed diametrically opposed circumstances, I tend more towards the Mouret direction than you might think — as regards my belief in women and that one needs them, must love them. (Mouret says, ‘<hi rend="italics">in our establishment, we </hi><hi>love</hi><hi rend="italics"> the customers</hi>’.)<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Think about this — and remember my sorrow about your saying that you had ‘cooled’.<ptr target="#note-t-5"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">I repeat more forcefully than ever everything I said by way of bitter warning against the influence of <rs type="person" ref="bio.xml#_620">Guizot</rs>-ness, as I called it. Why? It leads to mediocrity. And I don’t want to see you among the mediocrities because I have loved you, indeed still love you, too much to be able to bear seeing you numbed.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I know it’s difficult, I know that I don’t know enough about you, I know that I may perhaps be mistaken. But anyway — just read your Mouret again.</p>
+<p rend="indent" xml:id="p.en.16" n="16">I mentioned a difference between Mouret and what I should want, and <hi>yet</hi> the parallels. Look here. Mouret worships the modern Parisian woman — very well.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But <hi><rs type="person" ref="bio.xml#_1226">Millet</rs></hi>, <hi rend="italics"><rs type="person" ref="bio.xml#_899">Breton</rs></hi>, worship the <hi rend="italics">peasant woman</hi> <hi>with the same passion</hi>.</p>
+<p rend="indent" xml:id="p.en.18" n="18">These two passions are <hi>one and the same</hi>.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Read <rs type="person" ref="bio.xml#_836">Zola</rs>’s description of women in a room at dusk — women often already past 30, up to 50 — such a sombre, mysterious little corner.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">I find it <hi rend="italics">magnificent</hi>, indeed <hi rend="italics">sublime</hi>.</p>
+<p rend="indent" xml:id="p.en.21" n="21">But equally sublime to my mind is — <rs type="person" ref="bio.xml#_1226">Millet</rs>’s Angelus,<ptr target="#note-t-7"/> that same dusk, that same infinite emotion — or that solitary figure by <rs type="person" ref="bio.xml#_899">Breton</rs> in the Luxembourg,<ptr target="#note-t-8"/> or his Spring.<ptr target="#note-t-9"/> 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">You’ll say that I’m not successful. I don’t care, <hi rend="italics">vanquish</hi> or <hi rend="italics">be vanquished</hi>,<ptr target="#note-t-10"/> in all events one has emotion and motion, and they’re more similar than they appear and are said to be.</p>
+<p rend="indent" xml:id="p.en.23" n="23">As regards <hi rend="italics">this</hi> <rs type="person" ref="bio.xml#_267">woman</rs> in question, how it must end remains a mystery to me, but neither she nor I will do anything <hi rend="italics">crazy</hi>.</p>
+<p rend="indent" xml:id="p.en.24" n="24">I fear for <rs type="person" ref="bio.xml#_267">her</rs> that the old religion will numb and freeze her <hi rend="italics">again</hi><ptr target="#note-t-11"/> with that damned icy coldness that has <hi rend="italics">already</hi> shattered her once in the distant past <hi rend="italics">to the point of death</hi>, long years ago. Oh — I’m no friend of present-day Christianity, even though the <hi rend="italics">founder</hi> was sublime — I’ve seen through present-day Christianity only too well. It mesmerized me, that icy coldness in my youth — but I’ve had my revenge since then. How? By worshipping the love that <hi rend="italics">they</hi> — the theologians — call <hi rend="italics">sin</hi>, by respecting a whore etc., and <hi rend="italics">not</hi> many <hi rend="italics">would-be</hi> respectable, religious ladies.</p>
+<p rend="indent" xml:id="p.en.25" n="25">To the one party, <hi rend="italics">woman</hi> is always <hi rend="italics">heresy</hi> and diabolical. To me, the opposite. Regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Yours truly,</p>
+<p xml:id="p.en.27" n="27">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.28" n="28">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.29" n="29">Look at this from Octave Mouret<ptr target="#note-t-12"/> —</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.30" n="30">Mouret says: ‘If you believe yourself strong, because you refuse to be foolish and to suffer! Ah, well — then you are nothing but a dupe, no more!’<ptr target="#note-t-13"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.31" n="31">‘Are you enjoying yourself?’</p>
+<p rend="indent" xml:id="p.en.32" n="32">Mouret seemed not to understand immediately. But, when he recalled their old conversations about empty foolishness and the pointless torment of life, he replied:</p>
+<p xml:id="p.en.33" n="33"><hi rend="italics">‘No doubt — never have I lived so much... Ah! old chap — don’t mock! Those are the shortest hours in which one dies of suffering!</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.34" n="34">I want <rs type="person" ref="bio.xml#_267">her</rs>, I’ll have her!.... and — <hi rend="italics">if</hi> she escapes me you’ll see the things that I’ll do to cure myself of it. You don’t understand this language, old chap; otherwise, you’d know that action contains its reward within itself — to act — to create — to struggle against facts, <hi rend="italics">vanquish them or be vanquished by them</hi>, all human joy and health are <hi>there</hi>!’ 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">Just a way of deadening oneself — the other muttered.</p>
+<p rend="indent" xml:id="p.en.36" n="36">‘Ah, well! I prefer to deaden myself. To die for the sake of dying — <hi>i prefer to die of passion than to die of boredom!</hi>’</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.37" n="37">— it isn’t only I who say this last, after all,</p>
+<p xml:id="p.en.38" n="38">but <hi rend="italics"><rs type="person" ref="bio.xml#_267">she</rs></hi> too, <hi rend="italics">instinctively</hi>, ,, ,,</p>
+<p xml:id="p.en.39" n="39">that’s why I saw something grand in her from the outset, and it’s just a damned shame for her that <hi rend="italics">when she was young</hi> she allowed herself to be <hi rend="italics">overwhelmed</hi> by disappointments.</p>
+<p rend="indent" xml:id="p.en.40" n="40">Overwhelmed in the sense that the <rs type="person" ref="bio.xml#_273">Begemann family</rs> of the <hi rend="italics">old</hi> religion <hi rend="italics">believed it had to suppress</hi> the <hi rend="italics">active</hi>, indeed <hi rend="italics">brilliant</hi> principle in <rs type="person" ref="bio.xml#_267">her</rs>, and made her <hi rend="italics">passive</hi> for ever and ever.</p>
+<p rend="indent" xml:id="p.en.41" n="41">If only they hadn’t broken <rs type="person" ref="bio.xml#_267">her</rs> when <hi rend="italics">she was young</hi>! Or if they’d left it at that and not driven her to distraction <hi rend="italics">again</hi>!, this time with <hi rend="italics">5</hi> or <hi rend="italics">6</hi> or <hi rend="italics">even more women </hi>fighting <hi rend="italics">against her alone</hi>.</p>
+<p rend="indent" xml:id="p.en.42" n="42"><hi>Do read L’evangeliste by <rs type="person" ref="bio.xml#_583">Daudet</rs> about these female intrigues</hi>, which were different here but <hi rend="italics">still of the same kind</hi>.<ptr target="#note-t-14"/> 
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p rend="indent" xml:id="p.en.43" n="43">Oh Theo, why should I change? <hi rend="italics">In the past</hi> I was very passive and very gentle and quiet — not any more, but I’m not a child any more either — sometimes I feel myself.</p>
+<p rend="indent" xml:id="p.en.44" n="44">Take <rs type="person" ref="bio.xml#_323">Mauve</rs> — why is he irascible and <hi rend="italics">by no means always mild</hi>? I’m not yet as far as he is, but still I’ll get further than I am. I tell you, if one wants to be active, one mustn’t be afraid to do something wrong sometimes, not afraid to lapse into some mistakes. To be good — many people think that they’ll achieve it by <hi rend="italics">doing no harm</hi> — and that’s a lie, and you said yourself in the past that it was a lie. That leads to stagnation, to mediocrity. <hi rend="italics">Just slap something on it</hi> when you see a blank canvas staring at you with a sort of imbecility.</p>
+<p rend="indent" xml:id="p.en.45" n="45">You don’t know how <hi rend="italics">paralyzing</hi> it is, that <hi rend="italics">stare</hi> from a blank canvas that says to the painter <hi rend="italics">you can’t do anything</hi>. The canvas has an <hi rend="italics">idiotic </hi>stare, and mesmerizes some painters so that they turn into idiots themselves.
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p rend="indent" xml:id="p.en.46" n="46">Many painters <hi rend="italics">are afraid</hi> of the blank <hi rend="italics">canvas</hi>, but the blank canvas <hi>is afraid</hi> of the truly passionate painter who dares — and who has once broken the spell of ‘you can’t’.</p>
+<p rend="indent" xml:id="p.en.47" n="47"> Life itself likewise always turns towards one an infinitely <hi rend="italics">meaningless</hi>, discouraging, dispiriting blank side on which there is <hi rend="italics">nothing</hi>, any more than on a blank canvas.</p>
+<p rend="indent" xml:id="p.en.48" n="48">But <hi rend="italics">however</hi> meaningless and vain, however <hi rend="italics">dead</hi> life appears, the man of faith, of energy, of warmth, and who knows something, doesn’t let himself be fobbed off like that. He steps in and <hi rend="italics">does something</hi>, and hangs on to that, in short, <hi rend="italics">breaks</hi>, ‘<hi rend="italics">violates</hi>’ — they say.</p>
+<p rend="indent" xml:id="p.en.49" n="49">Let them talk, those cold theologians.</p>
+<p rend="indent" xml:id="p.en.50" n="50">Theo, I feel such damned pity for this <rs type="person" ref="bio.xml#_267">woman</rs>, precisely because her age and just <hi rend="italics">possibly</hi> a liver and gall bladder disorder are hanging so fatally over her head. And this is made worse by the emotions. Still, we’ll see what can be done or what’s made impossible by fate. I’ll do nothing, though, without a <hi rend="italics">very good</hi> doctor, so <hi rend="italics">I</hi> shan’t do her any <hi rend="italics">harm</hi>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.51" n="51">
+<pb f="4r" n="9" xml:id="pb-trans-4r-9" facs="#zone-pb-4r-9"/></p>
+<p xml:id="p.en.52" n="52">Yet it was <hi rend="italics">at precisely this time</hi> that it happened that I was asked to make a drawing or painted sketch for 20 guilders. Which I duly acceded to, but because I suspected, and on investigation found my suspicion was correct, that <rs type="person" ref="bio.xml#_267">Margot Begemann</rs> was behind it and would have given me the money indirectly, I most decidedly refused the <hi rend="italics">payment</hi> but not the <hi rend="italics">drawing</hi>, which I sent.<ptr target="#note-t-15"/> It’s not easy to refuse it, though, when one is sorely in need of money. But it would have been a bridge of asses — so — </p>
+<p rend="indent" xml:id="p.en.53" n="53">Instead of bridges of asses — is there something better to do? I very definitely believe so. For your sake and mine and for many others, I wish that we could get <hi>Mourets</hi> in the <hi rend="italics">art trade</hi> who knew how to create a <hi rend="italics">broader, new</hi> buying public.</p>
+<p rend="indent" xml:id="p.en.54" n="54">You’ll say, isn’t <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, for instance, a Mouret. Perhaps he is, after all.</p>
+<p rend="indent" xml:id="p.en.55" n="55">But be that as it may, there are still new careers to be made, simply because the public that buys paintings could be multiplied tenfold, and this is becoming more necessary by the day. 
+<pb f="4v" n="10" xml:id="pb-trans-4v-10" facs="#zone-pb-4v-10"/></p>
+<p rend="indent" xml:id="p.en.56" n="56">Were a few Mourets to emerge, who bought and sold other than according to the old routine, good, then there would be more and more work to be done.</p>
+<p rend="indent" xml:id="p.en.57" n="57">But if no Mourets come — then — perhaps the trade should change utterly because the painters themselves revived it and started their own permanent exhibitions without the old intermediary. I wish you knew and felt how young you still are <hi rend="italics">if you would only act young and be daring.</hi></p>
+<p rend="indent" xml:id="p.en.58" n="58">If you aren’t an artist in <hi rend="italics">painting</hi>, be an artist as a <hi rend="italics">dealer</hi>, just like Mouret.</p>
+<p rend="indent" xml:id="p.en.59" n="59">For my part — at times like these, when I get completely stuck — I still feel that in a few years’ time I’ll happily dare take on a great many larger bills for paint and other things. I want to have a lot of work — believe me — I have no intention of being bored — <hi rend="italics">do a great deal</hi> or <hi rend="italics">die</hi>.<ptr target="#note-t-16"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for his letter and the money and goes at length into what Theo raised about Vincent’s relationship with their parents. This was the ‘registered letter’ that had ‘just’ been received, which Mr van Gogh mentioned to Theo on Thursday, 2 October 1884 (FR b2257). Vincent’s statement that ‘a call came just now’ for their father <ref target="#l-7">(ll. 7-8)</ref> also points to this. According to this letter from Mr van Gogh, he and his wife had been informed of this call to the village of Baardwijk on 30 September 1884. From the indignant opening ‘Now listen here’ <ref target="#l-2">(l. 2)</ref>, we infer that Vincent wrote the present letter as soon as he received Theo’s missive. We have therefore dated it Thursday, 2 October 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The arrangement of this letter has been changed. We have moved a sheet that was previously regarded as the third sheet of the letter to <ref target="let473.xml">letter 473</ref> (see <hi rend="italics">Arrangement</hi> in the notes to that letter). We have, however, added another sheet to this letter that was previously placed with <ref target="let461.xml">letter 461</ref> (<ref target="#l-197">ll. 197 ff.</ref>). The old configuration produced an illogical transition; now the references to Mouret follow on logically from the previous part of the letter, and the ‘yet’ with which the sheet begins <ref target="#l-197">(l. 197)</ref> introduces the contrast between the opposition Margot Begemann encountered from her family and the goodness that she nevertheless retained. Admittedly this addition is not written on the same paper as the first part of the letter, but then neither was the sheet in the previous arrangement.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Margot Begemann is in Utrecht <ref target="let456.xml">(456)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>On 2 October 1884 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Mr van Gogh</rs> wrote to Theo at length about what had been going on. His account contains some interesting information: ‘We have had difficult days with Vincent again. Apparently he wanted to arrange a marriage with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_267">Margot</rs>, who proved not entirely averse, but it came up against insuperable objections, on the part of her family too. After news of the business started to leak out, Margot went to Utrecht, where she still is.</p>
+
+<p rend="indent">It’s said that the relationship has been broken off, but the friendship will continue. They still correspond constantly. The <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_110">Dr</rs> she’s staying with also appears to have told V. that there are physical obstacles that make the affair impossible. At first V. seemed to be taking it calmly and I therefore ventured to be away from home for some days, while <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Wil</rs> was home. But this calm gave way to aggression and Wil was very worried by the feeling that he sometimes seemed to have been drinking.</p>
+
+<p rend="indent">She found drink in a field flask of his and this agitated her greatly and she wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_412">Anna</rs> about it so that she could tell you. Still it turned out on investigation that it was more appearances than fact. But it gave <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Ma</rs> and me a reason to talk to him about it. You know that there’s really no talking to him because of the unpleasant tone he adopts. That was the case this time, too, but in the main that last objection was not, in our view, so serious.</p>
+
+<p rend="indent">Apparently he gives his models a drink when he’s out in the fields with them, and he said himself that he therefore occasionally has one too. That could be the case. According to what V. says, he sometimes takes a drink in the evening on the Dr’s advice because he has such sleepless nights. That remedy seems very unsuitable to us.</p>
+
+<p rend="indent">But the business with Margot continues to occupy him very much and he is rather depressed at the moment. We are doing our best to restore him to calm, which is the most important thing. But his outlook on life and his ways are so different from ours, that it’s questionable whether living together in the same place can continue in the long run. However we don’t want a real separation and are willing to tolerate and attempt everything to the utmost, if only he could become a bit normal. We do expect something to come of that in time.</p>
+
+<p rend="indent">There is also a plan that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> should come to see him and stay with us. We have even urged this; it could provide him with a distraction.</p>
+
+<p rend="indent">V. just received your registered letter. He told us that you advised him to do everything he could not to make our staying here impossible. We are hoping for the best.</p>
+
+<p rend="indent">Meanwhile he has noticed that we could leave here if we want to; the day before yesterday I received a call to go to Baardwijk, a village in the Langstraat, close to Waalwijk ... We have so much that is good here that it would be difficult for us to leave. Only if our relations with people were to become difficult because of circumstances, then it could come to it. There’s risk enough of that at the moment’ (FR b2257).</p>
+    
+<p rend="indent">Mr van Gogh intended to discuss this call to the village of Baardwijk (North Brabant), on Tuesday, 8 October.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Octave Mouret is a character in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s novels <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_274">Pot-bouille</ref></hi> (1882) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi> (1883), which Van Gogh described as ‘the second volume’ (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let283.xml">letters 283</ref> ff.). Van Gogh repeatedly refers to this owner of the department store ‘Au bonheur des dames’. Mouret is ambitious and competitive, and forces the small draper’s shops in his neighbourhood out of business so that he can build a large department store. Van Gogh values his modern and single-minded approach, which responds to the demand and focuses on expanding the clientele.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Bourdoncle is one of the managers in the department store ‘Au bonheur des dames’; he has a narrow, mediocre mind. When there is a temporary minor downturn, he fires staff for the smallest thing.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This passage was added later; the italics and emphasis are not in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>.<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>Unlike Bourdoncle, Mouret has a sensual nature and seeks as far as possible to meet the needs of Parisian women in the stock he sells in the store. At the end of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi> he marries one of his former shop assistants, Denise. Bourdoncle represents the businesslike, impersonal side, whereas Mouret is much more likely to be led by what his heart tells him. See for the quotation (originally with ‘les clientes’ rather than ‘la clientèle’): Zola 1960-1967, vol. 3, chapter 11, p. 699.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This term ‘cooled’ does not occur in the letters; Theo probably said it during his visit to Nuenen in August.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh is referring to the description of a gathering in the salon of Octave Mouret’s mistress Henriette Desforges (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Au bonheur des dames</hi>, chapter 3). Cf. Sund 1992, p. 278 (n. 20).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1697">The angelus</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let017.xml#n-3">letter 17, n. 3.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1716">Evening</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let034.xml#n-11;">letter 34, n. 11;</ref> and cf. Sund 1992 p. 278 (n. 19).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La source</hi> (The spring) (present whereabouts unknown). Known as a photograph in the series ‘Musée Goupil’, no. 1000 (Paris, BNF, Cabinet des Estampes). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_30">Ill. 30</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Taken from the quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs> written out later in the letter. See <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-121">l. 121</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>It had previously been suggested that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_267">Margot</rs> might suffer from religious mania (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let457.xml">letter 457</ref>). Margot’s involvement with the church must have been very considerable: she left the churchwardens 750 guilders so that the interest on it could be used to supplement the minister’s stipend. See Tralbaut 1974, p. 82.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The passages Van Gogh quotes are taken from a conversation between Octave Mouret and Paul de Vallagnosc in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi>. See Zola 1960-1967, vol. 3, chapter 11, pp. 696-699.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Van Gogh had already alluded to these sentences at the end of <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let458.xml">letter 458</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>In <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Alphonse Daudet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_384">L’évangéliste – Roman parisien</ref></hi> (1883) the simple crochet worker Mme Ebsen seeks help from the Protestant community after her mother’s death. She is given moral and financial support by Mme d’Autheman who, however, holds extreme religious convictions. She abuses her position and embroils Eline, Mme Ebsen’s daughter, in her fanaticism. Through hypocrisy and deceit, Mme d’Autheman succeeds in taking Eline away from her mother.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Instead of ‘which I sent’, Van Gogh originally said: ‘which appeared to be satisfactory’ (die naar genoegen scheen te wezen). Drawings known to have once belonged to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_267">Margot Begemann</rs> are the watercolours <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Scheveningen woman sewing</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3031">F 869 / JH 83</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bleaching ground</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2379">F 946r / JH 158</rs>) with <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Scheveningen woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3013">F 946v / JH 95</rs>) on the verso. However, these are drawings that Van Gogh made in The Hague.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>A reference back to the quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs> <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-125">(ll. 125-127)</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

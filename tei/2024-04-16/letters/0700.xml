@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Paris, Saturday, 19 February 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let070"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b68 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>070</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>55</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>069</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1876-02-19">Saturday, 19 February 1876</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0068" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000071_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000071_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001000071_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0068" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000071_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000071_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Goupil &amp; C<hi rend="super">ie</hi></p>
+
+<p xml:id="p.nl.2" n="2">Editeurs Imprimeurs</p>
+
+<p xml:id="p.nl.3" n="3">Estampes Françaises &amp; étrangères</p>
+
+<p xml:id="p.nl.4" n="4">Tableaux Modernes</p>
+
+<p xml:id="p.nl.5" n="5">Rue Chaptal, 9, PARIS.</p>
+
+<p xml:id="p.nl.6" n="6">Succursales à la Haye, Londres, Berlin, New-York.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.7" n="7">Paris, le 19 Februarij <supplied>187</supplied>6</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.8" n="8">Waarde Theo</p>
+
+<p xml:id="p.nl.9" n="9">Dank voor Uw laatsten brief en ook voor den catalogus die in de laatste kist was.</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Heb ik U reeds bedankt voor “Andersen’s vertellingen”<c type="kk">/</c> zoo niet dan doe ik het bij deze.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Van huis hoorde ik dat gij in het voorjaar de reis met de nouveautés doen zult, gij zult daar wel niets op tegen hebben<c type="kk">/</c> ’t is eene goede oefening en gij zult op reis heel wat moois zien<c type="kp">_</c><ptr target="#note-t-2"/> In de volgende kist zult gij Longfellow vinden. Gisteren avond was Gladwell bij mij; hij komt iederen Vrijdag, en lazen wij er nog in.</p>
+
+<p xml:id="p.nl.12" n="12">Hyperion<ptr target="#note-t-3"/> las ik nog niet maar hoorde er toch van dat het mooi is.─</p>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Dezer dagen heb ik een mooi boek van Elliott gelezen, 3 verhalen, “Scenes of Clerical life”.<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Vooral het laatste verhaal<c type="kk">/</c> Janet’s repentance<c type="kk">/</c> trof mij. ’t Is het leven van een predikant die vooral leeft met de bewoners der morsige straten eener stad.<ptr target="#note-t-5"/> Zijne studeerkamer zag uit op tuinen met koolstronken &amp;c. en op de roode daken en rookende schoorsteenen van arme huizen.<ptr target="#note-t-6"/> Voor zijn middagmaal kreeg Hij gewoonlijk slecht gekookt schapenvleesch en waterige aardappelen.<ptr target="#note-t-7"/> Op ongeveer 34jarigen leeftijd stierf Hij en werd in zijne langdurige ziekte verpleegd door eene vrouw die vroeger aan den drank was maar door zijne woorden en als het ware op Hem steunende zich zelven had overwonnen en rust had gevonden voor hare ziel.─ En bij Zijne begrafenis las men het hoofdstuk waarin voorkomt “Ik ben de opstanding en het leven<c type="kk">/</c> wie in Mij gelooft zal leven al ware hij ook gestorven”.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">En nu is het alweer Zaturdag avond<c type="kk">/</c> de dagen 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>vliegen hier voorbij en de tijd van mijn vertrek zal spoedig daar zijn. Nog geen antwoord uit Scarborough.<ptr target="#note-t-9"/> Gegroet en in gedachte een handdruk en steeds,</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.16" n="16">Uw liefh. broeder.</p>
+
+<p xml:id="p.nl.17" n="17">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.18" n="18">Groete bij Roos en ook aan v<c type="kp">_</c> Iterson<c type="kk">/</c> Jan en Piet.<ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">[Letterhead: Goupil Paris]</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Paris, 19 February 1876</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">My dear Theo,</p>
+<p xml:id="p.en.4" n="4">Thanks for your last letter, and also for the catalogue that was in the last crate.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Have I already thanked you for ‘<rs type="person" ref="bio.xml#_512">Andersen</rs>’s vertellingen’, if not, then I do so now.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I heard from home that you’ll be making the trip with the <hi rend="italics">nouveautés</hi> in the spring, you’ll surely have nothing against that, it’s good experience and you’ll see lots of beautiful things during your trip.<ptr target="#note-t-2"/> You’ll find <rs type="person" ref="bio.xml#_696">Longfellow</rs> in the next crate. <rs type="person" ref="bio.xml#_394">Gladwell</rs> was here yesterday evening – he comes every Friday – and we read some more of it. I haven’t read Hyperion<ptr target="#note-t-3"/> yet, but have heard that it’s beautiful. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">These last few days I’ve been reading a beautiful book by <rs type="person" ref="bio.xml#_590">Eliot</rs>, 3 stories, ‘Scenes of clerical life’.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">The last story, Janet’s repentance, I found especially moving. It’s the life of a curate who lives chiefly among the inhabitants of the dirty streets of a town.<ptr target="#note-t-5"/> His study looked out over gardens with cabbage stalks &amp;c. and over the red roofs and smoking chimneys of poor cottages.<ptr target="#note-t-6"/> For his midday meal he usually had badly cooked mutton and watery potatoes.<ptr target="#note-t-7"/> He died at about the age of 34, and was nursed during his long illness by a woman who had previously been given to drink but, through his words and by leaning on him, as it were, had got the better of herself and found peace for her soul. And at his funeral they read the chapter with the words ‘I am the resurrection, and the life: he that believeth in Me, though he were dead, yet shall he live’.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">And now it’s already Saturday evening, the days 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> fly by here, and the time of my departure will soon be here. Still no answer from Scarborough.<ptr target="#note-t-9"/> Regards, and in thought a handshake, and ever,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">Your loving brother.</p>
+<p xml:id="p.en.11" n="11">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.12" n="12">Regards to everyone at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’, and also to <rs type="person" ref="bio.xml#_461">Van Iterson</rs>, <rs type="person" ref="bio.xml#_116">Jan</rs> and <rs type="person" ref="bio.xml#_85">Piet</rs>.<ptr target="#note-t-10"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘<hi rend="italics">[</hi>Paris, le<hi rend="italics">]</hi> 19 Februarij <hi rend="italics">[</hi>187<hi rend="italics">]</hi>6’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Sending a work by Longfellow <ref target="let066.xml">(66)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent’s application for a new position <ref target="let069.xml">(69)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>In the previous letter, Vincent had thanked Theo twice for sending this book.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo travelled through the Netherlands from 29 March to 12 April 1876; it can be inferred from a handwritten list he made of the dozens of booksellers and art dealers he was intending to visit that he stopped off in at least 14 cities. He also made a note of the hotels he stayed in (FR b2071).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_696">Henry Wadsworth Longfellow</rs>, <ref target="biblio.xml#lit_64"><hi rend="italics">Hyperion, a romance</hi></ref> (1839). See Longfellow 1886-1891, vol. 8, pp. 7-285.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs>, <ref target="biblio.xml#lit_65"><hi rend="italics">Scenes of clerical life</hi></ref> (1857) contains the stories ‘The Sad Fortunes of the Reverend Amos Barton’, ‘Mr Gilfil’s Love Story’ and ‘Janet’s Repentance’. The first is about a clergyman who is not very popular in his village. Unfortunately, he does not appreciate the love and dedication of his wife until she is dead. The second story focuses on the enduring love of the young vicar Gilfil for an Italian girl. When the egoistic captain she fancies abandons her, she finally marries Mr Gilfil, but dies less than a year later. His love for her proves everlasting nonetheless.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>In ‘Janet’s repentance’ the protagonist, Rev. Tryan, is talked about by his fellow villagers thus: ‘I wonder if there’s another man in the world who has been brought up as Mr Tryan has, that would choose to live in those small close rooms on the common, among heaps of dirty cottages, for the sake of being near the poor people’. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_65">Scenes of clerical life</ref> and <ref target="biblio.xml#lit_66">Silas Marner</ref></hi>. Edinburgh and London 1867, chapter 3, p. 204. Cf. also pp. 235-236.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Rev. Tryan’s study is described as follows: ‘Mr Tryan’s study was a very ugly little room indeed, with ... an ugly view of cottage roofs and cabbage-gardens from the window’, and: ‘that musty house, among dead cabbages and smoky cottages’ (chapter 11, p. 252; chapter 25, p. 319).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>An eye witness had this to say about the food served to Rev. Tryan: ‘I called in one day when she [Mrs Wagstaff] was dishin’ up Mr Tryan’s dinner, an’ I could see the potatoes was as watery as watery’ (chapter 11, p. 256). The story makes no mention of his eating mutton.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Janet is so terrorized by her husband, Mr Dempster, that she takes to drink. Later she looks after Tryan, who finally dies of tuberculosis. The text recited at the funeral comes from John 11:25. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">Eliot</rs> quotes only the words ‘I am the Resurrection and the Life’ (chapter 28, p. 329); Van Gogh added the rest of the verse.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The expected letter from Scarborough is perhaps the reply (alluded to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let069.xml#l-19">letter 69, l. 19</ref>) to Vincent’s application for a position.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Theo’s co-workers at Goupil’s; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let019.xml#n-11">see letter 19, n. 11.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Monday, 19 November 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let721"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b610 a-b V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>721</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>563</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>726</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-12-19">on or about Monday, 19 November 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0610 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000830_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000830_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000830_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0610 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000830_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000830_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000830_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0610 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000831_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000831_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000831_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0610 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000831_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000831_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000831_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">la toile de Gauguin<c type="kk">/</c> Enfants Bretons<c type="kk">/</c> est arrivée et il l’a très très bien changée<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Mais quoique j’aime assez cette toile c’est d’autant mieux qu’elle soit vendue puisque les deux qu’il va t’envoyer d’ici sont trente fois meilleures.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Je parle des vendangeuses et de la femme aux cochons.<ptr target="#note-t-2"/> La raison de cela est que G. commence à surmonter son mal de foie ou d’estomac qui dans les derniers temps l’a agacé<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Maintenant je t’ecris pour répondre à ce que tu me disais que tu ferais encadrer une petite toile d’un pêcher rose je crois<c type="kk">/</c> pour mettre ca chez ces messieurs.<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je ne veux pas laisser dans le vague ce que je pense de cela.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">D’abord si tu as envie toi d’y mettre là soit une mauvaise soit une bonne chose de moi<c type="kk">/</c> ma foi si cela peut augmenter ton bonheur bien sûr que soit à présent soit plus tard tu as et tu auras carte blanche.</p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Mais si c’est pour soit mon plaisir <hi rend="italics">soit</hi> <hi rend="italics">pour mon avantage</hi> à moi par contre serais d’avis que c’est completement innecessaire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Me demanderais tu ce qui me ferait plaisir<c type="kk">/</c> c’est tout simplement une seule chôse<c type="kk">/</c> que tu gardes pour toi dans l’apartement ce que tu aimes dans ce que je fais et que tu n’en vendes pas maintenant.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Le reste<c type="kk">/</c> ce qui encombre<c type="kk">/</c> renvoie le moi ici pour cette bonne raison que tout ce que j’ai fait <hi rend="italics">sur nature</hi> c’est des marrons pris dans le feu<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Gauguin malgré lui et malgré moi m’a un peu demontré qu’il etait temps que je varie un peu – je commence à composer de tête et pour ce travail-là toutes mes etudes me seront toujours utiles lorsqu’elles<ptr target="#note-t-a"/> me rappelleront d’anciennes chôses vues<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Qu’importe-t-il donc d’en vendre si nous ne sommes pas absolument pressés d’argent.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Car je suis d’ailleurs sûr d’avance que tu finiras par voir la chose comme cela<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Tu est<c type="kk">/</c> toi<c type="kk">/</c> chez les Goupil mais moi certes pas<c type="kk">/</c> de part et d’autre après avoir pourtant travaillé là-dedans <hi>6 ans</hi><ptr target="#note-t-4"/> nous étions absolument mécontent de tout<c type="kk">/</c> eux de moi<c type="kk">/</c> moi d’eux. C’est une vieille histoire mais quand même tel est le cas<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Continue donc toi ton chemin mais pour le commerce il me semble incompatible avec ma conduite precedente de revenir là avec une toile d’une telle innocence que ce petit pêcher ou autre chose ainsi<c type="kp">_</c> <hi rend="italics">Non</hi><c type="kp">_</c>– Si dans un an ou deux ans j’ai de quoi faire une exposition de moi seul<c type="kk">/</c> une trentaine de toiles de trente mettons –</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Et si je leur disais<c type="kk">/</c> voulez vous me la faire<c type="kk">/</c> Boussod certes m’enverrait promener<c type="kp">_</c> Les connaissant helas un peu trop<c type="kk">/</c> je crois que je ne m’adresserai pas à eux<c type="kp">_</c> Non pas que jamais je chercherais à demolir quoi que ce soit<c type="kk">/</c> au contraire tu devras admettre que j’y pousse tous les autres avec zèle<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais moi, ma foi j’ai une vieille dent contre eux.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Sois sûr et certain que je te considère comme marchand de tableaux impressioniste<c type="kk">/</c> comme très independant des Goupil<c type="kk">/</c> que donc ce sera toujours un plaisir pour moi de pousser les artistes là-dedans<c type="kp">_</c> Mais je ne veux pas que jamais Boussod aye possibilité de dire “cette petite toile n’est pas trop mal pour ce jeune commençant”<c type="kk">/</c> comme si jamais auparavent...</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Au contraire je ne reviendrai pas chez eux<c type="kk">/</c> j’aime mieux ne jamais vendre que d’y entrer autrement que très carrement. Or eux c’est pas des gens à agir carrement donc c’est pas la peine de recommencer<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Sois assuré que plus nous tranchons nettement cela plus ils viendront chez toi les voir. Toi tu ne les vends pas donc tu ne fais en montrant mon travail un commerce hors la maison Boussod<c type="kk">/</c> V. &amp; C<hi rend="super">ie</hi><c type="kp">_</c> Tu agiras ainsi droitement et cela est respectable<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">L’un ou l’autre veut il acheter pourtant<c type="kk">/</c> bon ils n’ont alors qu’à s’adresser directement à moi. Mais sois en sûr: Si nous pouvons soutenir le siege mon jour viendra<c type="kp">_</c> Je ne peux ni ne dois dans ce moment faire autre chose que travailler.</p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Une chôse pourtant peutetre<c type="kk">/</c> je vais encore répondre à Jet Mauve<c type="kk">/</c> la dire un tas de choses sur Gauguin &amp;c<c type="kp">_</c>&amp;c<c type="kp">_</c><c type="kk">/</c> lui envoyer des croquis et indirectement Tersteeg aura encore des bourdonnements dans les oreilles. Gauguin et moi causons souvent de la necessité de faire des expositions à Londres et peut etre nous t’enverrons une lettre à Tersteeg à lire<c type="kp">_</c> C’est que si Tersteeg aie un successeur energique – ce jour approche – celui là ne pourra travailler qu’avec les nouveaux tableaux.</p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Poignée de main – il nous faudra encore quelques couleurs.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.fr.24" n="24">Je dois encore te dire que le mois à deux se fait mieux à 150 chacun que moi à 250 à moi seul. Au bout d’une année tu t’apercevras que cela marche pourtant.</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">Je ne peux encore rien dire de plus. Je regrette un peu d’avoir la chambre pleine de toiles et de ne rien avoir à envoyer lorsque Gauguin enverra les siennes.</p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">C’est que les choses empatées<c type="kk">/</c> Gauguin m’a dit comment les degraisser par des lavages de temps à temps.–<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">d’ailleurs cela fait je dois les reprendre pour les retoucher<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Si je t’en envoyais maintenant<c type="kk">/</c> la couleur en serait plus terne qu’elle ne le sera plus tard<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.29" n="29">Ce que j’ai envoyé<c type="kk">/</c> ils trouvent tous que c’est fait trop à la hâte.<ptr target="#note-t-6"/> je ne dis pas non et je ferai de certains changements.</p>
+
+<p rend="indent" xml:id="p.fr.30" n="30">Cela me fait enormement du bien d’avoir de la compagnie aussi intelligente que Gauguin et de le voir travailler.<ptr target="#note-t-7"/> Tu verras que de certains vont reprocher à G. de ne plus faire de l’impressionisme.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.fr.31" n="31">Ses deux dernieres toiles que tu vas voir sont très fermes dans la pâte<c type="kk">/</c><ptr target="#note-t-8"/> il y a du travail au couteau meme. Et ça enfoncera ses toiles Bretonnes un peu<c type="kk">/</c> pas tous mais certaines.</p>
+
+<p rend="indent" xml:id="p.fr.32" n="32">J’ai presque pas le temps d’ecrire<c type="kk">/</c> sans cela j’aurais déjà écrit à ces Hollandais<c type="kp">_</c><ptr target="#note-t-9"/> J’ai encore eu une lettre de Bock<c type="kk">/</c> tu sais ce belge qui a une soeur dans les vingtistes. il travaille avec plaisir là-haut.<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.33" n="33">J’espère bien qu’on restera toujours en amitié et en affaire avec Gauguin et s’il reussit à fonder un atelier tropical ce serait magnifique<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.34" n="34">Mais pour cela il faut selon mon calcul plus d’argent que selon le sien.</p>
+
+<p rend="indent" xml:id="p.fr.35" n="35">Guillaumin a écrit à Gauguin<c type="kk">/</c> il parait bien dans la dèche mais doit avoir fait du beau. il a maintenant un enfant<ptr target="#note-t-11"/> mais il est <hi rend="italics">terrifié</hi> par l’accouchement 
+ et dit toujours avoir devant les yeux “la vision rouge” de cela. seulement Gauguin lui a très bien répondu disant que lui G. avait vu cela 6 fois.<ptr target="#note-t-12"/></p>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p rend="indent" xml:id="p.fr.36" n="36">Jet Mauve va beaucoup mieux quant à la santé et comme tu sais peutetre reste<ptr target="#note-t-b"/> à la Haye depuis Aout dernier pres du cimetière juif<c type="kk">/</c> ainsi presqu’à la campagne.<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.fr.37" n="37">Tu n’y perdras rien en attendant un peu mon travail et nous laisserons nos chers copains tranquillement mépriser les actuelles<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.38" n="38">Heureusement pour moi je sais assez ce que je veux qu’ils ne croient et suis d’une extrême indifférence pour la critique de travailler à la hâte<c type="kk">/</c> au fond.</p>
+
+<p rend="indent" xml:id="p.fr.39" n="39">En reponse j’en ai fabriqué de ces jours ci <hi rend="italics">encore plus</hi> à la hâte.<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.fr.40" n="40">Gauguin me disait l’autre jour – qu’il avait vu de Claude Monet un tableau de tournesols dans un grand vase japonais très beau.<ptr target="#note-t-15"/> mais – il aime mieux les miens<c type="kp">_</c>–<ptr target="#note-t-16"/></p>
+
+<p rend="indent" xml:id="p.fr.41" n="41">Je ne suis pas de cet avis – seulement ne crois pas que je sois en train de faiblir<c type="kp">_</c> Je regrette comme toujours<c type="kk">/</c> ainsi que cela t’est connu<c type="kk">/</c> la rareté des modèles<c type="kk">/</c> les mille contrarietes pour vaincre cette difficulté-là.</p>
+
+<p rend="indent" xml:id="p.fr.42" n="42">Si j’etais un tout autre homme et si j’etais plus riche je pourrais <hi rend="italics">forcer</hi> cela<c type="kk">/</c> actuellement je ne lâche pas et mine sourdement<c type="kp">_</c><ptr target="#note-t-c"/></p>
+
+<p rend="indent" xml:id="p.fr.43" n="43">Si à quarante ans je fais un tableau de figures tel que les fleurs dont parlait Gauguin 
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>j’aurai une position d’artiste à côté de n’importe quoi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.44" n="44">Donc perséverance.</p>
+
+<p rend="indent" xml:id="p.fr.45" n="45">En attendant je peux toujours te dire que les deux dernieres etudes sont assez drôle<c type="kp">_</c> Toiles de 30<c type="kk">/</c> <hi rend="italics">une chaise</hi> en bois et en paille toute jaune sur des carreaux rouges contre un mur (le <hi rend="italics">jour</hi>)<c type="kp">_</c><ptr target="#note-t-17"/> Ensuite le fauteuil de Gauguin rouge et vert<c type="kk">/</c> effet de nuit<c type="kk">/</c> mur et plancher rouge et vert aussi<c type="kk">/</c> sur le siege deux romans et une chandelle.<ptr target="#note-t-18"/></p>
+
+<p rend="indent" xml:id="p.fr.46" n="46">Sur toile à voile en pâte grasse.<ptr target="#note-t-19"/></p>
+
+<p rend="indent" xml:id="p.fr.47" n="47">Ce que je dis de renvoyer des etudes cela ne presse aucunement et il s’agit des mauvaises qui pourtant me serviront de documents – ou de celles qui t’encombrent l’apartement.– Puis ce que je dis en general des etudes<c type="kk">/</c> je tiens à une seule chôse<c type="kk">/</c> que la position soit nette. ne fais pas d’affaire pour moi <hi rend="italics">hors la maison</hi>; moi ou bien je ne rentrerai jamais chez les Goupil ce qui est plus que probable<c type="kk">/</c> ou bien j’y rentrerai carrement ce qui est assez impossible.</p>
+
+<p rend="indent" xml:id="p.fr.48" n="48">Poignée de main encore une fois et merci de tout ce que tu fais pour moi<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.49" n="49">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.50" n="50">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2"><rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s canvas, Breton Children, has arrived, and he’s altered it very, very well.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">But although I quite like this canvas, it’s all the better that it should be sold, since the two he’s going to send you from here are thirty times better.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I’m speaking of the women picking grapes and the woman with the pigs.<ptr target="#note-t-2"/> The reason for this is that <rs type="person" ref="bio.xml#_1039">G.</rs> is beginning to overcome his liver or stomach trouble that has bothered him lately.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Now I’m writing to you in reply to what you were telling me, that you would frame a small canvas of a pink peach tree I think, to place it with those gentlemen.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I don’t want to leave any doubt about what I think of that. </p>
+<p rend="indent" xml:id="p.en.7" n="7">First, if you yourself would like to place either a bad or good thing of mine there, my word if that will make you happier, then of course you have and will have carte blanche either now or later.</p>
+<p rend="indent" xml:id="p.en.8" n="8">But if, on the other hand, it’s either for my pleasure <hi rend="italics">or for my own benefit</hi>, I’d be of the opinion that it’s completely unnecessary.</p>
+<p rend="indent" xml:id="p.en.9" n="9">If you were to ask me what would give me pleasure, it’s quite simply one single thing, that you keep for yourself what you like from what I do, in the apartment, and that you don’t sell any of it now.</p>
+<p rend="indent" xml:id="p.en.10" n="10">The rest, the stuff that gets in the way, send it to me here for this good reason, that everything I’ve done <hi rend="italics">from nature</hi> is chestnuts pulled out of the fire. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.11" n="11"><rs type="person" ref="bio.xml#_1039">Gauguin</rs>, in spite of himself and in spite of me, has proved to me a little that it was time for me to vary things a bit – I’m beginning to compose from memory, and all my studies will still be useful to me for that work, as they remind me of former things I’ve seen.</p>
+<p rend="indent" xml:id="p.en.12" n="12">So what does selling any of it matter if we’re not absolutely pressed for money?</p>
+<p rend="indent" xml:id="p.en.13" n="13">For in addition, I’m sure even now that you’ll eventually see things that way.</p>
+<p rend="indent" xml:id="p.en.14" n="14">As for you, you’re with the Goupils, but I certainly am not, after however working there for <hi>6 years</hi><ptr target="#note-t-4"/> we were absolutely dissatisfied on both sides with everything, them with me, me with them. It’s an old story, but all the same that’s how it is.</p>
+<p rend="indent" xml:id="p.en.15" n="15">So continue on your way, but as far as the business is concerned it seems to me incompatible with my previous behaviour to come back there with a canvas of such innocence as this little peach tree or some other thing like it. <hi rend="italics">No</hi>. If in a year or two I have enough to make an exhibition of my own, let’s say thirty or so no. thirty canvases — 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">And if I said to them, will you do it for me, <rs type="person" ref="bio.xml#_797">Boussod</rs> would certainly send me packing. Knowing them alas a little too well, I think that I won’t approach them. Not that I’d ever try to ruin anything, on the contrary, you must admit that I urge on all the others there zealously.</p>
+<p rend="indent" xml:id="p.en.17" n="17">But as for me, my word I have an old grudge against them.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Be sure and certain that I consider you, as a seller of Impressionist paintings, to be very independent of the Goupils, that it will therefore always be a pleasure for me to urge artists to go there. But I don’t want Boussod ever to have a chance to say ‘this little canvas isn’t too bad for this young beginner’, as if never before...</p>
+<p rend="indent" xml:id="p.en.19" n="19">On the contrary, I won’t come back to them, I’d prefer never to sell than to enter into it other than very straightforwardly. Now they’re not people to act straightforwardly, so it isn’t worth beginning again. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Be assured that the more clear-cut we are about this the more they’ll come to you to see them. You don’t sell them, so in showing my work you aren’t trading outside the firm of <rs type="person" ref="bio.xml#_797">Boussod, V. &amp; Cie</rs>. Thus you’re acting honestly, and that’s worthy of respect.</p>
+<p rend="indent" xml:id="p.en.21" n="21">If one or the other wants to buy however, fine, all they have to do is approach me directly. But be sure of this: if we can withstand the siege my day will come. I cannot and must not at this moment do anything other than work.</p>
+<p rend="indent" xml:id="p.en.22" n="22">One thing however perhaps, I’m going to reply to <rs type="person" ref="bio.xml#_321">Jet Mauve</rs>, tell her a whole heap of things about <rs type="person" ref="bio.xml#_1039">Gauguin</rs> &amp;c. &amp;c., send her some croquis, and indirectly <rs type="person" ref="bio.xml#_787">Tersteeg</rs> will prick up his ears again. Gauguin and I often talk about the need to hold exhibitions in London, and perhaps we’ll send you a letter for Tersteeg to read. The thing is, should Tersteeg have an energetic successor — that day is approaching — the latter won’t be able to work with anything but new paintings.</p>
+<p rend="indent" xml:id="p.en.23" n="23">Handshake — we’ll need some more colours. </p><space unit="lines" quantity="1"/><pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+<p xml:id="p.en.24" n="24"> I must also tell you that the month with the two of us together is going better on 150 each than I did on 250 just for myself. At the end of a year you’ll notice that this is working after all.</p>
+<p rend="indent" xml:id="p.en.25" n="25">I can’t say anything more yet. I rather regret having the room full of canvases and having nothing to send when <rs type="person" ref="bio.xml#_1039">Gauguin</rs> sends his.</p>
+<p rend="indent" xml:id="p.en.26" n="26">The thing is, regarding the impasto things, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has told me how to get rid of the grease by washing them from time to time.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">What’s more, when that’s done I must work on them again to retouch them.</p>
+<p rend="indent" xml:id="p.en.28" n="28">If I sent you any of them now, their colour would be duller than it will be later.</p>
+<p rend="indent" xml:id="p.en.29" n="29">They all think that what I’ve sent was done too hastily.<ptr target="#note-t-6"/> I wouldn’t deny it, and I’ll make certain changes.</p>
+<p rend="indent" xml:id="p.en.30" n="30">It does me enormous good to have company as intelligent as <rs type="person" ref="bio.xml#_1039">Gauguin</rs> and to see him work.<ptr target="#note-t-7"/> You’ll see that certain people are going to reproach G. for no longer doing Impressionism. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.31" n="31">His two latest canvases which you’re going to see are very firm in the impasto,<ptr target="#note-t-8"/> there’s even some work with the knife in them. And that will put his Breton canvases into the shade a little, not all, but some of them.</p>
+<p rend="indent" xml:id="p.en.32" n="32">I hardly have the time to write, otherwise I’d already have written to those <rs type="person" ref="bio.xml#_1075 bio.xml#_1103">Dutchmen</rs>.<ptr target="#note-t-9"/> I’ve had a letter from <rs type="person" ref="bio.xml#_869">Boch</rs>, you know that Belgian who has a <rs type="person" ref="bio.xml#_870">sister</rs> in the Vingtistes. He’s enjoying working up there.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">I really hope that we’ll always remain friends with <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, and in business with him, and if he succeeds in setting up a tropical studio that would be magnificent.</p>
+<p rend="indent" xml:id="p.en.34" n="34">But that will take more money by my calculations than by his.</p>
+<p rend="indent" xml:id="p.en.35" n="35"><rs type="person" ref="bio.xml#_1065">Guillaumin</rs> has written to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, he seems very hard up but must have done some fine work. He has a child now,<ptr target="#note-t-11"/> but he was <hi rend="italics">terrified</hi> by the confinement and says he’ll always have ‘the red vision’ of it before his eyes. Only Gauguin has replied to him very well, saying that he, G., had seen it 6 times.<ptr target="#note-t-12"/> 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/></p>
+<p rend="indent" xml:id="p.en.36" n="36"><rs type="person" ref="bio.xml#_321">Jet Mauve</rs> is in much better health, and as you perhaps know has been living in The Hague since last August, near the Jewish cemetery, so almost in the country.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.37" n="37">You won’t lose anything by waiting a little while for my work, and we’ll calmly leave our dear pals to scorn the present ones.</p>
+<p rend="indent" xml:id="p.en.38" n="38">Fortunately for me I know what I want better than they believe and am, basically, extremely indifferent to the criticism of working hurriedly.</p>
+<p rend="indent" xml:id="p.en.39" n="39">In reply I’ve produced work these last few days <hi rend="italics">even more</hi> hurriedly.<ptr target="#note-t-14"/></p>
+<p rend="indent" xml:id="p.en.40" n="40"><rs type="person" ref="bio.xml#_1039">Gauguin</rs> was telling me the other day — that he’d seen a painting by <rs type="person" ref="bio.xml#_1222">Claude Monet</rs> of sunflowers in a large Japanese vase, very fine.<ptr target="#note-t-15"/> But — he likes mine better.<ptr target="#note-t-16"/></p>
+<p rend="indent" xml:id="p.en.41" n="41">I’m not of that opinion — only don’t think that I’m weakening. I regret as always, as you know, the scarcity of models, the thousand obstacles to overcome that difficulty.</p>
+<p rend="indent" xml:id="p.en.42" n="42">If I were a completely different man and if I were wealthier I could <hi rend="italics">force</hi> it, at present I’m not giving up and am plodding on quietly.</p>
+<p rend="indent" xml:id="p.en.43" n="43">If at the age of forty I do a painting of figures like the flowers <rs type="person" ref="bio.xml#_1039">Gauguin</rs> was talking about 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/> I’ll have a position as an artist alongside anything.</p>
+<p rend="indent" xml:id="p.en.44" n="44">So, perseverance.</p>
+<p rend="indent" xml:id="p.en.45" n="45">In the meantime I can tell you anyway that the last two studies are rather funny. No. 30 canvases, a wooden and straw <hi rend="italics">chair</hi> all yellow on red tiles against a wall (<hi rend="italics">daytime</hi>).<ptr target="#note-t-17"/> Then <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s armchair, red and green, night effect, on the seat two novels and a candle.<ptr target="#note-t-18"/></p>
+<p rend="indent" xml:id="p.en.46" n="46">On sailcloth in thick impasto.<ptr target="#note-t-19"/></p>
+<p rend="indent" xml:id="p.en.47" n="47">What I say about sending back studies, there’s no hurry at all, and I’m referring to the bad ones which, however, will serve me as documents — or those that are cluttering up your apartment. As to what I say in general about the studies, I’m set on just one thing: that the position is quite clear. Don’t trade on my behalf <hi rend="italics">outside the firm</hi>; as for me, either I’ll never return to the Goupils, which is more than likely, or I’ll return straightforwardly, which is quite impossible.</p>
+<p rend="indent" xml:id="p.en.48" n="48">One more handshake, and thanks for everything you’re doing for me.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.49" n="49">Ever yours,</p>
+<p xml:id="p.en.50" n="50">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was written between the second and third payment of the November allowance – meaning between <ref target="let719.xml">letter 719</ref> of Sunday, 11 or Monday, 12 November and <ref target="let722.xml">letter 722</ref>, written on or about 21 November. Van Gogh reports that he and Gauguin are managing well with 150 francs each per month <ref target="#l-113">(ll. 113-114)</ref>; Gauguin had been in Arles since 23 October. Furthermore, Gauguin has retouched the painting that Theo sent on 13 November; the retouching did not take long (<ref target="#n-1">see n. 1</ref>). It had taken four or five days for the painting, which Theo had sent rolled up, to reach Arles (see <hi rend="italics">Correspondance Gauguin </hi>1984, p. 288 and Dorn<hi rend="italics"> </hi>1990, p. 522). On the basis of this information we have dated the present letter to about Monday, 19 November 1888. </p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s illness <ref target="let581.xml">(581)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s plan to return to the tropics <ref target="let716.xml">(716)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Paul Gauguin</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Breton girls dancing</hi>, 1888 (W296/W251) (Washington, National Gallery of Art, lent by Mr and Mrs Paul Mellon). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_102">Ill. 102</rs>. The canvas was one of Gauguin’s recent paintings from Pont-Aven, which Theo was exhibiting in the gallery (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let704.xml#n-1">letter 704, n. 1</ref>).</p>
+
+<p rend="indent">Theo had written to Gauguin on 13 November 1888: ‘I shall still be able to sell the dance of the little Breton girls, but there will be a small bit of retouching to be done. The little girl’s hand that comes to the edge of the frame assumes an importance that it does not seem to have when you see just the canvas. The collector would like you to alter the shape of this hand a little, without changing anything else in the painting. It doesn’t seem to me that that will be difficult for you, and and I am therefore sending you the canvas.’ (Je pourrai encore vendre la ronde de petites Bretonnes, mais il y aura une petite retouche à faire. La main de la petite fille qui vient au bord du cadre prend une importance qu’elle ne paraît pas avoir quand on ne voit que la toile. L’amateur voudrait que vous revoyiez un peu la forme de cette main sans autrement modifier quoi que ce soit dans le tableau. Il me semble que cela ne vous sera pas difficile &amp; pour cela je vous envoie la toile). Gauguin answered by return post: ‘I shall deal with the painting to be retouched; the hand that touches the frame obviously assumes great importance, and I believed it was necessary to do it that way in order to balance the dance, which is in the shape of an S. But since these are the whims of a painter and not a collector, I shall try to remedy, or rather, attenuate it.’ (Je vais m’occuper du tableau à retoucher; evidemment la main qui arrive dans le cadre prend beaucoup d’importance et je la croyais necessaire ainsi pour équilibrer la danse qui a la forme d’un S. Mais comme ce sont des toquades de peintre en non d’amateur je tâcherai d’y remedier ou plutôt atténuer.) See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin</hi> 1984, pp. 280-282. On the changes Gauguin made to the canvas, see Wildenstein 2001, p. 414, cat. no. 296. </p>
+
+<p rend="indent">The sale did not go through. Theo finally sold the canvas in September 1889. See exhib. cat. Amsterdam 1999, p. 139.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2242">Human miseries</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml#n-2">see letter 717, n. 2,</ref> and for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2249">Woman with pigs</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let719.xml#n-5">see letter 719, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The canvas that Theo had suggested exhibiting at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs> was probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Small pear tree in blossom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2590">F 405 / JH 1394</rs>). See exhib. cat. Amsterdam 1990, p. 112. Although it is not very small (73 x 46 cm), it is still only half the size of a no. 30 canvas (the format Van Gogh had been using almost exclusively for some time). Admittedly, the picture depicts a pear and not a peach tree – Van Gogh earlier called it a ‘small pear tree’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let597.xml">see letter 597</ref>) – but the words ‘I think’ added to the present letter could indicate that he was not entirely sure which work Theo was talking about. It was probably Theo who called it a peach tree; his wife, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo</rs>, wrote to Vincent in May 1889 about ‘that beautiful flowering peach tree of yours, which looks at me in such a friendly way every morning’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let771.xml">see letter 771</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘puisqu’elles’.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Vincent had worked for Goupil from 1869 to 1876.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>Vincent had previously told Theo that he should wash his paintings with lots of water; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let662.xml">see letter 662</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It is not clear who the critics of Van Gogh’s working method are in this passage, which must be connected with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-172">ll. 172-182</ref> below. ‘What I’ve sent’ <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-131">(l. 131)</ref> must refer to the two batches of paintings sent from Arles, which were at Theo’s (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let606.xml">see letters 606</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let660.xml">660</ref>). Druick and Zegers assume that this ‘can only be <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, possibly along with anyone else who may have seen the pictures that Vincent sent to Paris in May and August’ (see exhib. cat. Chicago 2001, p. 207). This could not possibly refer to Gauguin, however, because he had not been in Paris since January 1888 and so could not have seen any of the works in those two batches.</p>
+
+<p rend="indent">Like Pickvance, we assume that Van Gogh means the ‘artists and friends of Theo’s who had seen the paintings he [= Vincent] had sent to Paris’ (see exhib. cat. New York 1984, p. 235). One naturally thinks first of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>, who had been back in Paris since about 10 November, and of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Camille Pissarro</rs>, who had seen work from the first batch (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let676.xml">see letter 676</ref>). Van Gogh could also be referring to the Paris art dealers <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_780">Thomas</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_254">Bague</rs>, to whom he hoped to sell work (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let699.xml">see letter 699</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>, by contrast, wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs> in the second half of November 1888 about his relations with Van Gogh: ‘In general, Vincent and I see eye to eye on very little, especially on painting. He admires <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_583">Daudet</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_976">Daubigny</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1449">Ziem</rs> and the great <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1332">Rousseau</rs>, all of them people I can’t stand. And on the other hand, he detests <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1102">Ingres</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1283">Raphael</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_981">Degas</rs>, all of them people whom I admire; I reply, you’re right, soldier, for the sake of a quiet life. He likes my paintings very much, but when I’m doing them he always finds that I’m wrong in this and that. He’s a romantic, and I’m more drawn towards a primitive condition. From the point of view of colour, he sees the possibilities of impasto, as in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>, and I detest manipulated brushwork and so on.’ (Vincent et moi nous sommes bien peu d’accord en général, surtout en peinture. Il admire Daudet, Daubigny, Ziem et le grand Rousseau, tous gens que je ne peux pas sentir. Et par contre il déteste Ingres, Raphaël, Degas, tous gens que j’admire; moi je réponds brigadier vous avez raison pour avoir la tranquillité. Il aime beaucoup mes tableaux mais quand je les fais il trouve toujours que j’ai tort de ceci, de celà. Il est romantique et moi je suis plutôt porté à un état primitif. Au point de vue de la couleur il voit les hasards de la pâte comme chez Monticelli et moi je déteste le tripotage de la facture etc.) See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin</hi> 1984, p. 284.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The last two canvases by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> are the above-mentioned <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2242">Human miseries</rs></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2249">Woman with pigs</rs> </hi>(<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">n. 2</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_869">Boch</rs> had written to Van Gogh at the beginning of October from the Borinage; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let693.xml">see letter 693</ref>. Boch’s sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_870">Anna</rs> was a member of the artists’ society Les Vingt from 1886 to 1894. Regarding this group, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let580.xml#n-6">see letter 580, n. 6.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>On or about 13 November 1888, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> wrote the following to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1357">Schuffenecker</rs> about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1065">Guillaumin</rs>’s letter: ‘Guillaumin has written me a distressing letter; he tells me about his wish to exhibit with the Indépendants this year’ (Guillaumin m’a écrit une lettre désolante; il me parle de son désir d’exposer cette année aux Indépendants). See Merlhès<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>1989, p. 139. A daughter, called Madeleine, had been born to Guillaumin on 14 October.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had five children; see <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let625.xml#n-22">letter 625, n. 22</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Read: ‘habite’.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Vincent had asked his sister <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let720.xml">letter 720</ref> to send him <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_321">Jet Mauve</rs>’s address by return post, so he must have received it in the meantime. Jet Mauve lived in The Hague at Riouwstraat 70, at that time on the edge of the city. This street joins Timorstraat, where the Jewish Cemetery is located.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml">letter 717</ref> Van Gogh reported that he had painted <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Marie Ginoux (‘The Arlésienne’) </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2744">F 489 / JH 1625</rs>) in just one hour.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1222">Claude Monet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bouquet of sunflowers</hi>, 1881 (New York, The Metropolitan Museum of Art). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_300">Ill. 300</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> could have seen the painting at the Monet exhibition at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_359">Durand-Ruel</rs>’s, who had purchased it in October 1881, and at the exhibition of the Indépendants in 1882. See Wildenstein and Walter 1974-1991, vol. 2, pp. 239-240.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs>’s remark undoubtedly referred to the recent paintings of sunflowers from Arles, particularly the two no. 30 canvases that were hanging in his room: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sunflowers in a vase </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>). After his departure Gauguin wanted to have the latter canvas. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let739.xml">See letter 739</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="c" xml:id="note-t-c">
+                            
+
+<p>This means something like ‘plough on secretly’.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Van Gogh’s chair </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2749">F 498 / JH 1635</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Gauguin’s chair </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2750">F 499 / JH 1636</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2749">F 498</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2750">F 499</rs> are painted on the jute that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> had bought; see exhib. cat. Chicago 2001, pp. 354-369.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

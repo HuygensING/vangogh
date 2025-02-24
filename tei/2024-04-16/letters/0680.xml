@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Paris, Wednesday, 2 February 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let068"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b66 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>068</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>53</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>067</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1876-02-02">Wednesday, 2 February 1876</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0066" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000069_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000069_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-2">
+<graphic url="https://example.com/iiif/VGM001000069_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0066 V/1962" xml:id="surf-extra-1v">
+<graphic url="https://example.com/iiif/VGM001000069_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001000069_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Goupil &amp; C<hi rend="super">ie</hi></p>
+
+<p xml:id="p.nl.2" n="2">Editeurs Imprimeurs</p>
+
+<p xml:id="p.nl.3" n="3">Estampes Françaises &amp; étrangères</p>
+
+<p xml:id="p.nl.4" n="4">Tableaux Modernes</p>
+
+<p xml:id="p.nl.5" n="5">Rue Chaptal, 9, PARIS.</p>
+
+<p xml:id="p.nl.6" n="6">Succursales à la Haye, Londres, Berlin, New-York.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.7" n="7">Paris, le 2 Februarij <supplied>187</supplied>6.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.8" n="8">Waarde Theo,</p>
+
+<p xml:id="p.nl.9" n="9">Zoudt gij mij een groot genoegen willen doen? Gij kent die uitgave à 15 cents van “Andersen’s vertellingen van de maan”<c type="kk">/</c> vertaald door D<hi rend="super">s</hi> ten Kate.─<ptr target="#note-t-1"/> Zoudt gij mij daarvan bij gelegenheid een ex. kunnen sturen?─</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Eerst morgen gaat er eene kist naar den Haag waarin ik de bewuste pakjes<ptr target="#note-t-2"/> zal in<c type="shy">-</c>sluiten. Dat voor Pa zal niet meer in tijds te Etten kunnen zijn, maar zend het maar zoo spoedig mogelijk.</p>
+<pb f="1r" n="2" xml:id="pb-orig-1r-2" facs="#zone-pb-1r-2"/>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Tot nog toe heb ik geen antwoord op verscheidene brieven die ik schreef op advertenties<c type="kp">_</c> Ook Oom Vincent antwoordde mij niet. </p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">M<hi rend="super">r</hi> Obach vroeg ik of ik personen die informatie aangaande mij mochten verlangen naar hem mocht toezenden en zed<c type="kp">_</c> schreef mij een zeer toegenegen gestemd briefje terug. Enfin, jongen, maar stillekens voortgaan met het oog op Hem aan Wien wij denken wanneer wij zeggen “Wie zal ons het goede doen zien”.<ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">à Dieu, groeten aan wie naar mij mocht vragen en steeds</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.14" n="14">Uw liefh. broeder.</p>
+
+<p xml:id="p.nl.15" n="15">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">[Letterhead: Goupil Paris]</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Paris, 2 February 1876.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.3" n="3">My dear Theo,</p>
+<p xml:id="p.en.4" n="4">Would you do me a great favour? You know that 15-cent edition of ‘<rs type="person" ref="bio.xml#_512">Andersen</rs>’s vertellingen van de maan’, translated by the <rs type="person" ref="bio.xml#_681">Rev. Ten Kate</rs>.<ptr target="#note-t-1"/> Could you send me a copy of it when you get the chance?</p>
+<p rend="indent" xml:id="p.en.5" n="5">It’s only tomorrow that a crate will be going to The Hague in which I’ll enclose the packages in question.<ptr target="#note-t-2"/> The one for <rs type="person" ref="bio.xml#_526">Pa</rs> can no longer arrive at Etten in time, but send it as soon as possible anyway. 
+<pb f="1r" n="2" xml:id="pb-trans-1r-2" facs="#zone-pb-1r-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I still haven’t had a reply to various letters I wrote in response to advertisements. Nor did <rs type="person" ref="bio.xml#_423">Uncle Vincent</rs> answer me.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I asked <rs type="person" ref="bio.xml#_547">Mr Obach</rs> whether any people desiring information about me could apply to him, and His Hon. replied with a very kind letter. At any rate, old boy, we can only continue quietly with our eyes on Him whom we think of when we say ‘Who will shew us any good?’<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Adieu, regards to anyone who might ask after me, and ever</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">Your loving brother.</p>
+<p xml:id="p.en.10" n="10">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘<hi rend="italics">[</hi>Paris, le<hi rend="italics">]</hi> 2 Februarij <hi rend="italics">[</hi>187<hi rend="italics">]</hi>6.’</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mr van Gogh’s birthday on 8 February <ref target="let066.xml">(66)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The fourth printing of <ref target="biblio.xml#lit_63"/><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="person" ref="bio.xml#_512">Andersen</rs>’s prentenboek zonder prenten: <ref target="biblio.xml#lit_63">Vertellingen van de maan</ref></hi>, translated by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_681">J.J.L. ten Kate</rs> and published in 1870 by A.W. Sijthoff in Leiden, states the price on the cover: ‘15 cents’ (Reeks Algemeene bibliotheek, no. 8). The first edition of the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Vertellingen van de maan</hi> (Tales of the moon) dates from 1862. The tales, subdivided in the translation into ten evenings, relate events on earth as observed by the moon.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Regarding ‘the packages in question’, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let066.xml#l-16">see letter 66, l. 16</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+  Ps. 4:7 (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">KJ</hi> Ps. 4:6) and rhy. ps. 4:3.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

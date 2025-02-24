@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Monday, 25 September 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let269"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b256 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>269</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>234</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>270</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-09-25">Monday, 25 September 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0256" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000314_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000314_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000314_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0256" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000314_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000314_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000314_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1"><hi rend="italics">Maandag morgen.</hi></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Uw laatsten brief met het ingeslotene heb ik in orde ont<c type="shy">-</c>vangen &amp; dank er U regt hartelijk voor. Ik zat en zelfs ik zit wel een beetje in den brand – dat wil zeggen met het oog op ’t schilderen. Er komen wel heel wat kosten kijken.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Gedeeltelijk echter komt dat ook daardoor dat menig ding dat ik begin mij mislukt en dan moet men weer op nieuw beginnen &amp; heeft niets voor zijn moeite – behalve dan dat dit toch de weg is om verder te komen en dat men moet volhouden.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">In Uw laatste schrijven stond geen antwoord op ’t geen ik U zei omtrent dit zenden of niet zenden van de geschilderde studies.<ptr target="#note-t-1"/> Misschien is ’t U door ’t hoofd gegaan. Nu dacht ik het après tout geen kwestie van bepaald gewigt is en heden heb ik U per post dus eene geschilderde studie toegezonden.<ptr target="#note-t-2"/> Maar zoo als gezegd, in mijn vorig schrijven, liever had ik natuurlijk dat gij ze allen bij elkaar eens zien kondt en het spreekt van zelf dat gij naar deze de toekomst nog niet beoordeelen moet daar ik nog te kort aan den gang ben met het penseel om nog niet veel te veranderen. Liever stuurde ik U nog een andere dan deze maar de anderen die ik liever zenden zou zijn nog niet zóó droog dat ik ze durf oprollen.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ge zult even als ik vooral op den achtergrond aanmerking hebben, ik heb alleen hieromtrent deze explicatie te geven dat de studie gemaakt is als studie van den voorgrond<c type="kk">/</c> n.l. de boomwortels<c type="kk">/</c> daar was reeds veel werk aan en zoo als gewoonlijk zat ik niet rustig door passanten en toen ik de studie zóó ver had als gij ze ziet kon ik het niet langer uithouden.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ge kunt U niet begrijpen hoe vermoeiend en hinderlijk het is dat de menschen altijd zoo op iemands lijf komen staan. Ik wordt er zoo zenuwachtig van soms dat ik het moet opgeven<c type="kp">_</c> Zoo gisteren morgen nog<c type="kk">/</c> ofschoon ’t nog zeer vroeg was en ik gehoopt had vrij te blijven<c type="kk">/</c> mislukte mij een studie van de kastanjeboomen op ’t Bezuidenhout<ptr target="#note-t-3"/> (die nu zoo prachtig zijn) daardoor. En ze zijn soms zoo gemeen en brutaal. Enfin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Alleen ’t is niet alleen ’t verdriet dat men er van heeft maar ook de kosten van verf enz<c type="kp">_</c> die dan toch verloren zijn. Natuurlijk zullen zulke dingen mij niet den baas spelen en zal ik net zoo goed als anderen mij er door heen slaan maar ik gevoel zoo dat ik veel sneller mijn doel zou kunnen bereiken als er minder van die petites misères<ptr target="#note-t-4"/> waren.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Nu wat deze studie betreft – als het zijn mag dat gij bij het zien er van en wetende dat ik behalve deze toch nog heel wat anderen heb<c type="kk">/</c> geen berouw hebt dat ge me in staat hebt gesteld om het te kunnen doen<c type="kk">/</c> dan ben ik content en ga met goeden moed door. Valt ze U tegen<c type="kk">/</c> denk dat ik eigentlijk pas heel kort aan den gang ben, valt ze U mee<c type="kk">/</c> tant mieux voor mij, want ik zou zoo graag iets zenden kunnen op den duur dat U pleizier deed. </p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Nu moet ik U nog mededeelen dat ik zeer onverwacht een zeer aangenaam bezoek heb gehad van Pa die bij me in huis en op ’t atelier geweest is<c type="kk">/</c> wat ik oneindig beter vind dan dat hij van berigten van anderen alleen iets van me te weten komt.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Komen de menschen bij mij<c type="kk">/</c> welnu dan is ten minste de indruk oorspronkelijk – maar ik houd niet van opinies die zich gronden op ’tgeen de menschen praten.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Het deed mij werkelijk groot genoegen Pa te zien &amp; te spreken. Ik heb weer veel gehoord van Nuenen – dat kerkhof met die oude kruisen laat mij niet met rust, ik hoop zoo dat met der tijd het er van komen zal dat ik het eens maak.<ptr target="#note-t-5"/> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>Ik hoorde ook nog veel over Uw bezoek en dat zij van U die gravure naar Israels<ptr target="#note-t-6"/> kregen waar zij erg door getroffen zijn.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Ik zou graag een marine hierbij gevoegd hebben maar de laatste<ptr target="#note-t-7"/> is nog niet droog – de eerste<ptr target="#note-t-8"/> zou ik kunnen zenden maar sedert heb ik de kleur van de zee reeds meer gepakt en dus wacht ik totdat er een latere<ptr target="#note-t-9"/> goed droog is. Ik heb echter in dezen laatsten tijd heel wat meer geschilderd dan het oorspronkelijk plan was dat wij bespraken. Maar misschien is het noodig dit ook te blijven doen als ’t eenigzins mogelijk is.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Van Rappard ontving ik dezer dagen een schrijven<c type="kk">/</c><ptr target="#note-t-10"/> ik wou wel hij wat meer in de buurt was<c type="kp">_</c></p>
+    
+<p rend="indent" xml:id="p.nl.15" n="15">En weet het goed dat ik regt gaarne Uwe opmerkingen<c type="kk">/</c> net zoo als gij ze denkt<c type="kk">/</c> hoor. Dikwijls gevoel ik het verlangen &amp; de behoefte om eens over onderscheidene kwesties iemand om raad te vragen – toch geef ik daar niet aan toe sedert het gebeurde met Mauve en spreek niet met schilders over het werk. Al is iemand nog zoo knap<c type="kk">/</c> wat heb ik er aan als hij anders redeneert dan hij zelf werkt. Ik had liever gehad dat M. me gesproken had over het <hi rend="italics">gebruik</hi> van dekverf<ptr target="#note-t-11"/> dan te zeggen: “ge moet vooral geen dekverf gebruiken”, terwijl hij zelf en alle anderen om zoo te zeggen ze bijna altijd gebruiken en met het beste resultaat. Enfin in veel gevallen kan men de dingen door zelf zoeken ook langzamerhand vinden en daar doe ik mijn best op.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ja – als het was dat ik precies zoo doen kon als ik wilde<c type="kk">/</c> ik zou het schilderen aanpakken op nog wat grooter schaal en met nog veel meer model vooral.</p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Ik teeken veel figuren tusschen de droppeltjes door.<ptr target="#note-t-a"/></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Het figuurtje in deze studie staat er eigentlijk enkel en alleen op voor de grootte<c type="kk">/</c> om in geval ik de studie gebruik de proportie van een of ander figuur ten naastenbij te kunnen vinden.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Natuurlijkerwijs is een eigentlijk figuur heel iets anders en komt er meer bij kijken.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Dan staat het er ook in om een accentje te geven.</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Weet het dus goed kerel – ik stuur U dit omdat<c type="kk">/</c> daar ge er niet over schrijft<c type="kk">/</c> ik niet wist hoe te doen. Natuurlijk bedoel ik nog heel wat anders dan dit en zend ik het op de zelfde wijs als ik anders eens een krabbeltje maak<c type="kk">/</c> om U een idee te geven van ’t geen waar ik aan bezig ben.</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">adieu, ontvang een handdruk in gedachten<c type="kk">/</c> ik hoop dat gij het zoo goed hebt als maar kan en Uw hoofdpijn niet iets is wat blijft of telkens weerkeert. Ik heb het ook soms<c type="kk">/</c> meer als een gevoel van onaangename matheid nog dan erge pijn. Met Pa heb ik nog op den Rijswijkschen weg<ptr target="#note-t-12"/> gewandeld<c type="kk">/</c> daar is het ook mooi. Nu nogmaals gegroet &amp; geloof me</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.23" n="23">t. à t.</p>
+
+<p xml:id="p.nl.24" n="24">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.25" n="25">Als dit goed overkomt dan is het op deze wijs wel gemakkelijk om U eens iets te zenden<c type="kp">_</c> Ik weet niet of men teekeningen of schilderijen als drukwerk mag verzenden per post.<ptr target="#note-t-13"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.26" n="26">Nog iets, ge begrijpt wel dat ik b.v. sommige takjes &amp;c. als ik er op nieuw aan ging schilderen anders kon maken – maar ik vind zoo dat men aan studies<c type="kk">/</c> wil men er iets aan hebben<c type="kk">/</c> liever niet tornen moet, zoo als ze uit het bosch komen moet men ze op ’t atelier hangen, zij zijn dan wel voor sommigen minder behagelijk maar voor den schilder zelf is er meer van zijn indruk in.</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1"><hi rend="italics">Monday morning</hi>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Your latest letter with the enclosure reached me in good order, and I thank you right heartily for it. I was and even still am in a bit of a spot — that is, with a view to painting. There are all kinds of costs involved. </p>
+<p rend="indent" xml:id="p.en.4" n="4">But that’s also partly because many of the things that I begin don’t come off, and then one has to start again and the effort comes to nothing, except that this is the way to make progress, and that one must persevere. </p>
+<p rend="indent" xml:id="p.en.5" n="5">There was no answer in your last letter to what I said about sending or not sending painted studies.<ptr target="#note-t-1"/> Perhaps it slipped your mind. Now, I decided that it wasn’t a weighty matter after all, and so today I’ve sent you a painted study by post.<ptr target="#note-t-2"/> But, as I said in my last letter, I would of course rather you could see them all together sometime, and it goes without saying that you mustn’t judge the future by this one, since I haven’t been working with the brush long enough for me not to change a great deal. I wanted to send you a different one, but the others I would rather have sent aren’t yet dry enough for me to risk rolling them up. </p>
+<p rend="indent" xml:id="p.en.6" n="6">Like me, you will no doubt have reservations about the background in particular. The only explanation I can offer about this is that the study was done as a study of the foreground, namely the tree roots; a lot of work had already gone into them, and as usual I wasn’t sitting peacefully because of passers-by, and so when I had got the study to the point you see I couldn’t bear it any more. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.7" n="7">You can’t imagine how wearying and irritating it is that people always gather round so close. It makes me so nervous sometimes that I have to give up. Just yesterday morning, although it was very early and I hoped to be spared, a study of the chestnut trees on Bezuidenhout<ptr target="#note-t-3"/> (which are so splendid now) was a failure because of it. And sometimes they’re so nasty and insolent. Oh well.</p>
+<p rend="indent" xml:id="p.en.8" n="8">But it’s not just the regrets that one has — there’s also the cost of the paint, etc., which can’t be recovered. Of course things like that won’t get on top of me, and I’ll fight my way through them just as others do, but I do so feel that I could reach my goal much faster if there were fewer of these petty vexations.<ptr target="#note-t-4"/> </p>
+<p rend="indent" xml:id="p.en.9" n="9">Now, as regards this study — if it’s the case that, on seeing it and knowing that I have many others as well as this one, you don’t regret enabling me to make it, then I’ll be content and shall carry on in good heart. If you’re disappointed, remember that I started only a short time ago; if you’re pleased, so much the better for me, for I would so much like to be able in time to send you something that gave you pleasure. </p>
+<p rend="indent" xml:id="p.en.10" n="10">Now I must tell you that I had a very unexpected and very pleasing visit from <rs type="person" ref="bio.xml#_526">Pa</rs>, who came to my house and to the studio, which I believe is infinitely better than his only hearing about me through reports from others. </p>
+<p rend="indent" xml:id="p.en.11" n="11">If people visit me, then at least their impression is original, but I don’t like opinions based on what people say. </p>
+<p rend="indent" xml:id="p.en.12" n="12">It really gave me great pleasure to see <rs type="person" ref="bio.xml#_526">Pa</rs> and talk to him. I’ve again heard a lot about Nuenen — that churchyard there with the old crosses won’t leave me alone, I do so hope that in time I’ll get round to doing it.<ptr target="#note-t-5"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I also heard a lot about your visit, and that you had given them that engraving after <rs type="person" ref="bio.xml#_1107">Israëls</rs>,<ptr target="#note-t-6"/> which touched them deeply.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I wanted to enclose a seascape with this, but the latest<ptr target="#note-t-7"/> isn’t yet dry — I could send the first,<ptr target="#note-t-8"/> but since then I’ve caught the colour of the sea better, and so I’m waiting until a later one<ptr target="#note-t-9"/> is thoroughly dry. Recently, though, I’ve painted considerably more than in the original plan we discussed. But perhaps it’s necessary to continue doing this if it’s at all possible. </p>
+<p rend="indent" xml:id="p.en.14" n="14">I received a letter from <rs type="person" ref="bio.xml#_1306">Rappard</rs> the other day.<ptr target="#note-t-10"/> I wish he lived a little closer. </p>
+<p rend="indent" xml:id="p.en.15" n="15">And rest assured that I’m truly glad to hear your comments, just as they come into your mind. I often feel a desire and need to seek advice from someone on various questions, but after what happened with <rs type="person" ref="bio.xml#_323">Mauve</rs> I don’t give in to that, and I don’t discuss my work with painters. However brilliant someone may be, what good is it to me if he argues differently from the way he works? I would rather M. had spoken to me about the <hi rend="italics">use</hi> of body-colour<ptr target="#note-t-11"/> instead of saying: ‘Above all, you mustn’t use body-colour’, while he himself and all the others, so to speak, nearly always use it, and to the best effect. Well, in many cases one can gradually find out things by looking for oneself as well, and I’m doing that as best I can. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </p>
+<p rend="indent" xml:id="p.en.16" n="16">Yes — if it were so that I could do exactly what I wanted, I would take up painting on a somewhat larger scale and, above all, work much more with a model.</p>
+<p rend="indent" xml:id="p.en.17" n="17">I draw many figures in my spare moments.</p>
+<p rend="indent" xml:id="p.en.18" n="18">The small figure in this study is actually there simply and solely for the size, so that if I do use the study I can find the proportion of any figure, more or less. </p>
+<p rend="indent" xml:id="p.en.19" n="19">Of course, a proper figure is a very different matter and involves a great deal more. </p>
+<p rend="indent" xml:id="p.en.20" n="20">It’s also there to provide an accent.</p>
+<p rend="indent" xml:id="p.en.21" n="21">Make no mistake, old chap, I send you this because, since you said nothing about it, I didn’t know what to do. Of course I intend something very different from this, and I’m sending it in the same way that I make a scratch sometimes, to give you an idea of what I’m working on.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Adieu, accept a handshake in thought. I hope that all is as well with you as possible, and that your headache isn’t something that lasts or keeps coming back. I have it too sometimes, more as a sense of unpleasant dullness than severe pain. <rs type="person" ref="bio.xml#_526">Pa</rs> and I went for a walk on Rijswijkseweg,<ptr target="#note-t-12"/> it’s lovely there too. Well, regards again, and believe me</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">Ever yours,</p>
+<p xml:id="p.en.24" n="24">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">If this arrives safely, then this is an easy way of sending you things occasionally. I don’t know whether one can send drawings or paintings by post as printed matter.<ptr target="#note-t-13"/> </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">Another thing, you understand that I could do some things differently, for example some branches &amp;c., if I painted them again — but I think that one shouldn’t tinker with studies if they’re to be of any use. They should be hung up in the studio just as they come out of the woods. For some they may be less pleasing, but there’s more of his impression in them for the painter himself. </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘<hi rend="italics">Maandag morgen</hi>’. Vincent thanks Theo for his third remittance that month. Since he remarked shortly before that he was expecting the money on the 20th (or soon afterwards) (<ref target="let266.xml">see letter 266</ref> of Monday, 18 September), the present letter must date from the first Monday after the 20th, and thus from Monday, 25 September 1882.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s visit early in August <ref target="let253.xml">(253)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Relations with Mauve have deteriorated <ref target="let209.xml">(209)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s indisposition <ref target="let258.xml">(258)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Vincent had asked Theo this in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let266.xml">letter 266</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>It is not certain which painting with ‘tree roots’ in the foreground <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-32">(l. 32)</ref> was sent. Given that Van Gogh writes below: ‘The small figure in this study is actually there simply and solely for the size,’ in order ‘to provide an accent’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-110">ll. 110-111</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-116">l. 116</ref>), and since he was not very happy with the background he was probably referring to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">A girl in a wood</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_247">F 8a / JH 180</rs>) – the background of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_384">F 8 / JH 182</rs> is far better.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh writes that this study of the chestnut trees on Bezuidenhout is a ‘failure’; this would explain why it has not survived. Bezuidenhout runs south of Haagse Bos, near to the present Centraal Station, and close to where Van Gogh lived.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+    
+<p>For the origin of this borrowing from <ref target="biblio.xml#lit_222"><hi rend="italics">Petites misères de la vie humaine</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_745">Old Nick</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_745">Grandville</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let178.xml#n-6">see letter 178, n. 6</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The reference is to ‘the church in the field’ at Nuenen which Van Gogh was later to paint several times. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let259.xml#n-9">See letter 259, n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It is not known which engraving by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1107">Jozef Israëls</rs> is meant (it is not mentioned in the family correspondence).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The ‘last’ seascape is unknown; the work is also mentioned in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let264.xml">letters 264</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let266.xml">266</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The ‘first’ seascapes were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Beach with fishing boats</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2383">F 2 / JH 173</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Dunes with figures</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2389">F 3 / JH 186</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>It is not clear which work is meant. At the end of August Van Gogh painted <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of the sea at Scheveningen</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2390">F 4 / JH 187</rs>), as well as another (‘small’) seascape, which is not known. See cat. Amsterdam 1999, pp. 36-42, cat. no. 2.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>For this letter from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let268.xml">see letter 268</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>Opaque watercolour (gouache). A watercolour is done with transparent paint. The use of opaque paint is absolutely forbidden according to the rules, but it was done. See cat. Amsterdam 1996, p. 26.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Saying: ‘door gebruik te maken van de gunstige momenten’ (to make the most of an opportunity).</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Vincent mentions this location several times. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let011.xml">See letter 11</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Van Gogh seems to mean that for the first time by way of an experiment he has sent the painted study as <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">printed matter</hi>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

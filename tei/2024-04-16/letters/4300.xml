@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, between Monday, 18 and Saturday, 23 February 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let430"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b390 V/1962 (sheet 1) and b1471 V/1962 (sheet 2)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>430</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>357</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>432</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-02-18">between Monday, 18 and Saturday, 23 February 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0390" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000509_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000509_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000509_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0390" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000509_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000509_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000509_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1471" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001359_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001001359_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001001359_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1471" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001359_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001001359_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001001359_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">met een woordje wilde ik U vertellen dat – ook ingevolge Uw brief waarin ge een woord over penteekeningen zeidet – ik voor U heb vijf wevers die ik naar mijne geschilderde studies heb gemaakt en eenigzins anders – en geloof ik pittiger – van factuur zijn dan de penteekeningen welke tot heden ge van me zaagt.<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Ik ben er van vroeg tot laat aan werkende want heb behalve de geschilderde studies en de penteek. nog nieuwe aquarellen<ptr target="#note-t-2"/> ook er van opgezet<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik dacht dezer dagen veel aan U<c type="kk">/</c> naar aanleiding ook van een boekje dat van U afkomstig is en ik te leen heb van Lies – de gedichten van <hi rend="italics">François Coppée</hi>.<ptr target="#note-t-3"/> Slechts zeer enkelen kende ik van hem en hadden in der tijd reeds me getroffen<c type="kp">_</c> Hij is een van de ware artisten – qui y mettent leur peau<ptr target="#note-t-4"/> – blijkbaar uit meer dan eene navrante confidentie<c type="kp">_</c>– Artist te meer omdat hij door zoo veel zeer uiteenloopende dingen getroffen wordt en zoowel een wachtkamer 3<hi rend="super">e</hi> klasse vol emigranten die er den nacht doorbrengen weet te schilderen – alles graauw en somber en melankoliek – en toch in een andere stemming een marquizinnetje dat een menuet danst<c type="kk">/</c> teekent als een figuurtje van Watteau zoo elegant<c type="kp">_</c><ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Dat opgaan in ’t moment – dat zoo gansch en al meegesleept en geinspireerd worden door ’t milieu waarin men toevalligerwijs is – wat kan men er aan doen<c type="kp">_</c> en al kon men er zich tegen in zetten als men wou<c type="kk">/</c> waartoe zou het nuttig zijn<c type="kk">/</c> waarom zou men zich niet overgeven aan dat wat voor de hand ligt als zijnde dit nog après tout de zekerste weg om iets te créeeren.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">mij trof het laatste uit het boekje<c type="kk">/</c> getiteld désir dans le spleen. dat ik copieer om het U te herinneren<c type="kp">_</c><ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.7" n="7">Tout vit<c type="kk">/</c> tout aime! et moi, triste et seul, je me dresse</p>
+
+<p xml:lang="fr" xml:id="p.nl.8" n="8">Ainsi qu’un arbre mort sur le ciel de printemps</p>
+
+<p xml:lang="fr" xml:id="p.nl.9" n="9">Je ne peux plus aimer, moi qui n’ai que trente ans</p>
+
+<p xml:lang="fr" xml:id="p.nl.10" n="10">Et je viens de quitter sans regrets ma maîtresse<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.11" n="11">Je suis comme un malade aux pensers assoupis</p>
+
+<p xml:lang="fr" xml:id="p.nl.12" n="12">Et qui, plein de l’ennui de sa chambre banale,</p>
+
+<p xml:lang="fr" xml:id="p.nl.13" n="13">N’a pour distraction stupide &amp; machinale,</p>
+
+<p xml:lang="fr" xml:id="p.nl.14" n="14">Que de compter des yeux les fleurs de son tapis<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.15" n="15">Je voudrais quelquefois que ma fin fût prochaine</p>
+
+<p xml:lang="fr" xml:id="p.nl.16" n="16">Et tous ces souvenirs – jadis délicieux</p>
+
+<p xml:lang="fr" xml:id="p.nl.17" n="17">Je les repousse, ainsi qu’on détourne les yeux</p>
+
+<p xml:lang="fr" xml:id="p.nl.18" n="18">Du portrait d’un aïeul dont le regard vous gêne<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.19" n="19">Même du vieil amour qui m’a fait tant pleurer</p>
+
+<p xml:lang="fr" xml:id="p.nl.20" n="20">Plus de trace en ce coeur – blasé de toute chose<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.21" n="21">O figure voilée &amp; vague en mes pensées</p>
+
+<p xml:lang="fr" xml:id="p.nl.22" n="22">Rencontre de demain que je ne connais pas</p>
+
+<p xml:lang="fr" xml:id="p.nl.23" n="23">Courtisane accoudée aux débris d’un repas</p>
+
+<p xml:lang="fr" xml:id="p.nl.24" n="24">Ou – femme sérieuse aux pâles paupières baissées</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.25" n="25">Parais! – si tu peux encore électriser</p>
+
+<p xml:lang="fr" xml:id="p.nl.26" n="26">Ce misérable coeur sans désir et sans flamme</p>
+
+<p xml:lang="fr" xml:id="p.nl.27" n="27">Me rendre <hi rend="italics">l’infini</hi> dans un regard de femme</p>
+
+<p xml:lang="fr" xml:id="p.nl.28" n="28">Et toute la nature en fleur dans un baiser<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.29" n="29">Viens!– Comme les marins d’un navire en détresse</p>
+
+<p xml:lang="fr" xml:id="p.nl.30" n="30">Jettent – pour vivre une heure – un trésor dans la mer –</p>
+
+<p xml:lang="fr" xml:id="p.nl.31" n="31">Viens – je te promets tout, âme et coeur – sang et chair,</p> 
+<p xml:lang="fr" xml:id="p.nl.32" n="32">Tout – pour un seul instant de <hi rend="italics">croyance</hi> – ou d’ivresse.</p>
+<space unit="lines" quantity="1"/>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p xml:lang="fr" xml:id="p.nl.33" n="33">en dan dit:<ptr target="#note-t-7"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.34" n="34">L’espoir divin qu’à deux on parvient à former</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.35" n="35">    Et qu’à deux on partage</p>
+
+<p xml:lang="fr" xml:id="p.nl.36" n="36">L’espoir d’aimer longtemps – d’aimer toujours – d’aimer</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.37" n="37">    Chaque jour davantage –</p>
+
+<p xml:lang="fr" xml:id="p.nl.38" n="38">Le désir éternel – chimérique et touchant</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.39" n="39">    Que les amants soupirent –</p>
+
+<p xml:lang="fr" xml:id="p.nl.40" n="40">A l’instant adorable où – tout en se cherchant</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.41" n="41">    Leurs lèvres se respirent</p>
+
+<p xml:lang="fr" xml:id="p.nl.42" n="42">Ce désir décevant, ce cher espoir trompeur,</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.43" n="43">    Jamais nous n’en parlâmes</p>
+
+<p xml:lang="fr" xml:id="p.nl.44" n="44"><hi rend="italics">Et je souffre de voir que nous en ayons peur</hi></p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.45" n="45">    <hi rend="italics">Bien qu’il soit dans nos âmes</hi></p>
+
+<p xml:lang="fr" xml:id="p.nl.46" n="46">Lorsque je te murmure<c type="kk">/</c> amante interrogée</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.47" n="47">    Une douce réponse</p>
+
+<p xml:lang="fr" xml:id="p.nl.48" n="48">C’est le mot – pour toujours –</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.49" n="49">    Sans que je le prononce:</p>
+
+<p xml:lang="fr" xml:id="p.nl.50" n="50">Et bien qu’un cher écho le dise dans ton coeur</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.51" n="51">    Ton silence est le même</p>
+
+<p xml:lang="fr" xml:id="p.nl.52" n="52">Alors que sur ton sein, me mourant de langueur</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.53" n="53">    Je jure que je t’aime.</p>
+
+<p xml:lang="fr" xml:id="p.nl.54" n="54"><hi rend="italics">Qu’importe le passé – qu’importe l’avenir?</hi></p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.55" n="55">    La chose la meilleure</p>
+
+<p xml:lang="fr" xml:id="p.nl.56" n="56">C’est croire que jamais elle ne doit finir</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.57" n="57">    L’illusion d’une heure –</p>
+
+<p xml:lang="fr" xml:id="p.nl.58" n="58">Et quand je te dirai: – “pour toujours!–” ne fais rien</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.59" n="59">    qui dissipe ce songe</p>
+
+<p xml:lang="fr" xml:id="p.nl.60" n="60">Et que plus tendrement ton baiser sur le mien</p>
+
+<p xml:lang="fr" rend="indent" xml:id="p.nl.61" n="61">    S’appuye &amp; se prolonge.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.62" n="62">en dan dit –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.63" n="63"><hi rend="italics">Douleur bercée</hi><ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.64" n="64">Toi que j’ai vu pareil au chêne foudroyé</p>
+
+<p xml:lang="fr" xml:id="p.nl.65" n="65">Je te retrouve époux, je te retrouve père</p>
+
+<p xml:lang="fr" xml:id="p.nl.66" n="66">Et sur ce front songeant à la mort qui libère</p>
+
+<p xml:lang="fr" xml:id="p.nl.67" n="67">Jadis le pistolet pourtant s’est appuyé<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.68" n="68">Tu ne peux pas l’avoir tout à fait oublié</p>
+
+<p xml:lang="fr" xml:id="p.nl.69" n="69">Tu savais comme on souffre et comme on désespère</p>
+
+<p xml:lang="fr" xml:id="p.nl.70" n="70">Tu portais dans ton coeur l’infernale vipère</p>
+
+<p xml:lang="fr" xml:id="p.nl.71" n="71">D’un grand amour perdu, d’un grand espoir – broyé<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.72" n="72">Sans y trouver l’oubli – tu cherchas les tumultes</p>
+
+<p xml:lang="fr" xml:id="p.nl.73" n="73">L’orgie et ses chansons – la gloire &amp; ses insultes</p>
+
+<p xml:lang="fr" xml:id="p.nl.74" n="74">Et les longues clameurs de la mer &amp; du vent<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.75" n="75">Qui donc à ta douleur imposa le silence –</p>
+
+<p xml:lang="fr" xml:id="p.nl.76" n="76">o Solitaire – il a suffi de la cadence</p>
+
+<p xml:lang="fr" xml:id="p.nl.77" n="77">Que marque le berceau d’un petit enfant<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p xml:lang="fr" xml:id="p.nl.78" n="78">en dan dit –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.79" n="79"><hi rend="italics">Blessure rouverte</hi><ptr target="#note-t-9"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.80" n="80">O mon coeur, es tu donc si débile et si lâche,</p>
+
+<p xml:lang="fr" xml:id="p.nl.81" n="81">Et serais tu pareil au forçat qu’on relâche</p>
+
+<p xml:lang="fr" xml:id="p.nl.82" n="82">Et qui boite toujours de son boulet traîné?–</p>
+
+<p xml:lang="fr" xml:id="p.nl.83" n="83">Tais toi – car tu sais bien qu’elle t’a condamné.</p>
+
+<p xml:lang="fr" xml:id="p.nl.84" n="84">Je ne veux plus souffrir &amp; je t’en donne l’ordre</p>
+
+<p xml:lang="fr" xml:id="p.nl.85" n="85">Si je sens encor te gonfler &amp; te tordre</p>
+
+<p xml:lang="fr" xml:id="p.nl.86" n="86">Je veux – dans un sanglot contenu – te broyer;</p>
+
+<p xml:lang="fr" xml:id="p.nl.87" n="87">Et – l’on n’en saura rien – et – pour ne pas crier,</p>
+
+<p xml:lang="fr" xml:id="p.nl.88" n="88">On me verra – pendant l’effroyable minute</p>
+
+<p xml:lang="fr" xml:id="p.nl.89" n="89">Serrer les dents – ainsi qu’un soldat qu’on ampute<c type="kp">_</c>–</p><space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.90" n="90">Zeker is dit poezie en wel al mee van de beste – Désir dans le spleen in ’t bijzonder vind ik zoo juist<c type="kk">/</c> schildert hoe juist in de afgematten en die er haast bij neervallen bij momenten die oneindige hernieuwing van begeerte ontstaat<c type="kk">/</c> als hadden ze niets achter den rug – ik dacht aan Rembrandts Jodenbruid<ptr target="#note-t-10"/> – en wat Thoré er van zegt<c type="kp">_</c>–<ptr target="#note-t-11"/> Thoré – (in zijn goeden tijd) en Theo Gautier<ptr target="#note-t-12"/> en zooveel anderen – wat is er veel veranderd sedert hen – en wat is ’t een boel saaier geworden<c type="kp">_</c> Wil men iets van ’t vuur in zich houden<c type="kk">/</c> men moet zoo min mogelijk tegenwoordig ’t aan anderen toonen<c type="kp">_</c> Enfin<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.91" n="91">Hebt ge ontvangen het bezendinkje dat ik verl. week zond<c type="kp">_</c>–<ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.92" n="92">De penteekeningen moet ik nog een weekje houden wegens ze nog dienen moeten om andere dingen af te werken die ik tegelijk opgezet heb. Doch ge ontvangt ze spoedig – doch meld me s.v.p. of het postpaketje goed overkwam en of het voldoende gefrankeerd is. Wegens welligt teekeningen gelden als geschreven schrift en er meer voor moet betaald worden.</p>
+
+<p rend="indent" xml:id="p.nl.93" n="93">Gegroet – ik hoop ge iets zult kunnen doen met het een of ander.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.94" n="94">b. à. t.</p>
+
+<p xml:id="p.nl.95" n="95">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.96" n="96">Pa schreef U reeds over Moe een paar dagen geleden<c type="kp">_</c>– Sedert alles normaal gebleven en de dokter zeide heden hij in ’t begin niet had durven hopen ’t zoo goed zou zijn gegaan.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.97" n="97">Coppée is er nog een als Heine of Musset – ik schrijf er nog eenigen over.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.98" n="98"><hi rend="italics">La première</hi><ptr target="#note-t-14"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.99" n="99">Ce n’est pas qu’elle fût bien belle</p>
+
+<p xml:lang="fr" xml:id="p.nl.100" n="100">Mais nous avions tous deux vingt ans</p>
+
+<p xml:lang="fr" xml:id="p.nl.101" n="101">Et ce jour-là – je me rappelle,</p>
+
+<p xml:lang="fr" xml:id="p.nl.102" n="102">Etait un matin de printemps –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.103" n="103">Ce n’est pas qu elle eût l’air bien grave</p>
+
+<p xml:lang="fr" xml:id="p.nl.104" n="104">Mais je jure ici que jamais –</p>
+
+<p xml:lang="fr" xml:id="p.nl.105" n="105">Je n’ai rien osé de plus brave</p>
+
+<p xml:lang="fr" xml:id="p.nl.106" n="106">Que de lui dire que j’aimais</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.107" n="107">Ce n’est pas qu’elle eût le coeur tendre</p>
+
+<p xml:lang="fr" xml:id="p.nl.108" n="108">Mais c’était si delicieux</p>
+
+<p xml:lang="fr" xml:id="p.nl.109" n="109">De lui parler et de l’entendre</p>
+
+<p xml:lang="fr" xml:id="p.nl.110" n="110">Que les pleurs me venaient aux yeux</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.111" n="111">Ce n’est pas qu’elle eût l’ame dure</p>
+
+<p xml:lang="fr" xml:id="p.nl.112" n="112">Mais pourtant elle m’a quitté (of misschien je l’ai quitée)<ptr target="#note-t-15"/></p>
+
+<p xml:lang="fr" xml:id="p.nl.113" n="113">Et, depuis, ma tristesse dure,</p>
+
+<p xml:lang="fr" xml:id="p.nl.114" n="114">Et, c’est pour une éternité<ptr target="#note-t-16"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.115" n="115">Le chien perdu<c type="kp">_</c>–<ptr target="#note-t-17"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.116" n="116">Quand on rentre – le soir, par la cité déserte</p>
+
+<p xml:lang="fr" xml:id="p.nl.117" n="117">Regardant sur la boue humide, grasse, verte,</p>
+
+<p xml:lang="fr" xml:id="p.nl.118" n="118">Les longs sillons de gaz tous les jours moins nombreux,</p>
+
+<p xml:lang="fr" xml:id="p.nl.119" n="119">Souvent un chien perdu – tout crotté, morne, affreux</p>
+
+<p xml:lang="fr" xml:id="p.nl.120" n="120">Un vrai chien de faubourg, que son trop pauvre maître</p>
+
+<p xml:lang="fr" xml:id="p.nl.121" n="121">Chassa d’un coup de pied en le pleurant peut être,</p>
+
+<p xml:lang="fr" xml:id="p.nl.122" n="122">Attache à vos talons obstinément son nez</p>
+
+<p xml:lang="fr" xml:id="p.nl.123" n="123">Et vous lance un regard si vous vous retournez</p>
+
+<p xml:lang="fr" xml:id="p.nl.124" n="124">Quel regard! long<c type="kk">/</c> craintif, tout chargé de caresse,</p>
+
+<p xml:lang="fr" xml:id="p.nl.125" n="125">Touchant comme un regard de pauvre ou de maîtresse,</p>
+
+<p xml:lang="fr" xml:id="p.nl.126" n="126">Mais sans espoir pourtant, avec cet air douteux</p>
+
+<p xml:lang="fr" xml:id="p.nl.127" n="127">De femme dédaignée ou de pauvre honteux.</p>
+
+<p xml:lang="fr" xml:id="p.nl.128" n="128">Si vous vous arrêtez, il s’arrête, et, timide</p>
+
+<p xml:lang="fr" xml:id="p.nl.129" n="129">Agite faiblement sa queue au poil humide</p>
+
+<p xml:lang="fr" xml:id="p.nl.130" n="130">Sachant bien que son sort en vous est débattu,</p>
+
+<p xml:lang="fr" xml:id="p.nl.131" n="131">Il semble dire: Allons – emmène moi – veux tu –?</p>
+
+<p xml:lang="fr" xml:id="p.nl.132" n="132">On est ému – pourtant on manque de courage</p>
+
+<p xml:lang="fr" xml:id="p.nl.133" n="133">On est pauvre soi-même<c type="kk">/</c> on a peur de la rage,</p>
+
+<p xml:lang="fr" xml:id="p.nl.134" n="134">Enfin, mauvais, on fait la mine de lever</p>
+
+<p xml:lang="fr" xml:id="p.nl.135" n="135">Sa canne – on dit au chien: Veux tu bien te sauver!</p>
+
+<p xml:lang="fr" xml:id="p.nl.136" n="136">Et tout penaud – il va faire son offre à d’autres<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.137" n="137"><hi>Dit is ook toepasselijk op de kunst</hi><c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+    
+<p xml:lang="fr" xml:id="p.nl.138" n="138">La sinistre rencontre! et quels temps sont les nôtres</p>
+    
+<p xml:lang="fr" xml:id="p.nl.139" n="139">Et quel mal nous ont fait ces féroces Prussiens}</p>
+    
+<p xml:lang="fr" xml:id="p.nl.140" n="140">                                                     gens de bien} zooiets</p>
+    
+<p xml:lang="fr" xml:id="p.nl.141" n="141">                    gens trop pleins}</p>
+    
+<p xml:lang="fr" xml:id="p.nl.142" n="142">Que les plus pauvres gens abandonnent leurs chiens</p>
+    
+<p xml:lang="fr" xml:id="p.nl.143" n="143">Et que, distrait du deuil public – il faille encore</p>
+    
+<p xml:lang="fr" xml:id="p.nl.144" n="144">Plaindre ces animaux dont le regard implore</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.145" n="145"><hi rend="italics">A un sous lieutenant</hi>.<ptr target="#note-t-18"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.146" n="146">Vous portez, mon bel officier</p>
+
+<p xml:lang="fr" xml:id="p.nl.147" n="147">Avec une grâce parfaite</p>
+
+<p xml:lang="fr" xml:id="p.nl.148" n="148">Votre sabre à garde d’acier –</p>
+
+<p xml:lang="fr" xml:id="p.nl.149" n="149">Mais je songe à notre défaite</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.150" n="150">Cette pélisse de drap fin</p>
+
+<p xml:lang="fr" xml:id="p.nl.151" n="151">Dessine à ravir votre taille</p>
+
+<p xml:lang="fr" xml:id="p.nl.152" n="152">Vous êtes charmant; mais enfin</p>
+
+<p xml:lang="fr" xml:id="p.nl.153" n="153">Nous avons perdu la bataille</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.154" n="154">On lit votre intrépidité</p>
+
+<p xml:lang="fr" xml:id="p.nl.155" n="155">Dans vos yeux aux sourcils minces</p>
+
+<p xml:lang="fr" xml:id="p.nl.156" n="156">Aucun mal d’être bien ganté</p>
+
+<p xml:lang="fr" xml:id="p.nl.157" n="157">Mais on nous a pris 2 provinces</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.158" n="158">A votre âge on est toujours fier</p>
+
+<p xml:lang="fr" xml:id="p.nl.159" n="159">D’un peu de passementerie</p>
+
+<p xml:lang="fr" xml:id="p.nl.160" n="160">Mais, voyez-vous, c’était hier</p>
+
+<p xml:lang="fr" xml:id="p.nl.161" n="161">Qu’on mutilait notre patrie</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.162" n="162">Mon lieutenant – je ne sais pas</p>
+
+<p xml:lang="fr" xml:id="p.nl.163" n="163">Si le soir – un doigt sur la tempe</p>
+
+<p xml:lang="fr" xml:id="p.nl.164" n="164">Tenant le livre – ou le compas</p>
+
+<p xml:lang="fr" xml:id="p.nl.165" n="165">Vous veillez tard près de la lampe</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.166" n="166">Vos soldats sont ils vos enfants</p>
+
+<p xml:lang="fr" xml:id="p.nl.167" n="167">Etes vous leur chef &amp; leur père?</p>
+
+<p xml:lang="fr" xml:id="p.nl.168" n="168">Je veux le croire et me defends</p>
+
+<p xml:lang="fr" xml:id="p.nl.169" n="169">D’un doûte qui me désespère</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.170" n="170">Tout galonné sur le chemin</p>
+
+<p xml:lang="fr" xml:id="p.nl.171" n="171">Pensez-vous à la délivrance?</p>
+
+<p xml:lang="fr" xml:id="p.nl.172" n="172">– Jeune homme – donne moi la main</p>
+
+<p xml:lang="fr" xml:id="p.nl.173" n="173">Crions un peu: Vive la France</p>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p xml:lang="fr" xml:id="p.nl.174" n="174">Une femme seule.<ptr target="#note-t-19"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.175" n="175">Dans le salon bourgeois où je l’ai rencontrée</p>
+
+<p xml:lang="fr" xml:id="p.nl.176" n="176">Ses yeux doux &amp; craintifs – son front d’ange proscrit</p>
+
+<p xml:lang="fr" xml:id="p.nl.177" n="177">M’attirèrent d’abord vers elle – et l’on m’apprit</p>
+
+<p xml:lang="fr" xml:id="p.nl.178" n="178">Que d’un mari brutal elle était séparée</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.179" n="179">Elle venait encore chez ces anciens amis</p>
+
+<p xml:lang="fr" xml:id="p.nl.180" n="180">Dont la maison avait vu grandir son enfance</p>
+
+<p xml:lang="fr" xml:id="p.nl.181" n="181">Et qui<c type="kk">/</c> malgré le bruit dont le monde s’offense</p>
+
+<p xml:lang="fr" xml:id="p.nl.182" n="182">Au préjugé cruel ne s’etaient point soumis –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.183" n="183">Mais elle savait bien – resignée et très-douce</p>
+
+<p xml:lang="fr" xml:id="p.nl.184" n="184">Qu’on ne la recevait qu’en petit comité</p>
+
+<p xml:lang="fr" xml:id="p.nl.185" n="185">Et s’attendait toujours – dans sa tranquilité</p>
+
+<p xml:lang="fr" xml:id="p.nl.186" n="186">Au mot qui congédie – à l’acceuil qui repousse</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.187" n="187">Donc, les soirs sans diner ni bal au piano,</p>
+
+<p xml:lang="fr" xml:id="p.nl.188" n="188">Elle venait broder près de l’âtre, en famille,</p>
+
+<p xml:lang="fr" xml:id="p.nl.189" n="189">Et c’est là que, devant son air de jeune fille,</p>
+
+<p xml:lang="fr" xml:id="p.nl.190" n="190">Je m’étonnai de voir à son doigt un anneau –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.191" n="191">Stoïque, elle acceptait son etrange veuvage</p>
+
+<p xml:lang="fr" xml:id="p.nl.192" n="192">Sans arrière pensée – et très naïvement</p>
+
+<p xml:lang="fr" xml:id="p.nl.193" n="193">Pour prouver qu’elle était fidèle à son serment,</p>
+
+<p xml:lang="fr" xml:id="p.nl.194" n="194">Sa main avait gardé le signe d’esclavage –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.195" n="195">Elle était pâle et brune – elle avait 25 ans –</p>
+
+<p xml:lang="fr" xml:id="p.nl.196" n="196">Le sang veinait de bleu ses mains longues et fières</p>
+
+<p xml:lang="fr" xml:id="p.nl.197" n="197">Et – nerveux, les longs cils de ses chastes paupières</p>
+
+<p xml:lang="fr" xml:id="p.nl.198" n="198">Voilaient ses regards bruns de battements fréquents</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.199" n="199">Ni byjou ni ruban. Nulle marque de joie</p>
+
+<p xml:lang="fr" xml:id="p.nl.200" n="200">Jamais la moindre fleur dans le bandeau châtain</p>
+
+<p xml:lang="fr" xml:id="p.nl.201" n="201">Et le petit col blanc, étroit et puritain</p>
+
+<p xml:lang="fr" xml:id="p.nl.202" n="202">Tranchait seul sur le deuil de la robe de soie</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.203" n="203">Brodant très lentement et d’un geste assoupli</p>
+
+<p xml:lang="fr" xml:id="p.nl.204" n="204">Et ne se doutant pas que l’ombre transfigure</p>
+
+<p xml:lang="fr" xml:id="p.nl.205" n="205">Sa place dans la chambre etait la plus obscure;</p>
+
+<p xml:lang="fr" xml:id="p.nl.206" n="206">Elle parlait à peine &amp; désirait l’oubli –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.207" n="207">Mais à la question banale qu’on adresse</p>
+
+<p xml:lang="fr" xml:id="p.nl.208" n="208">Quand elle répondait quelques mots en passant,</p>
+
+<p xml:lang="fr" xml:id="p.nl.209" n="209">Cela faisait du mal d’entendre cet accent</p>
+
+<p xml:lang="fr" xml:id="p.nl.210" n="210">Brisé par la douleur et fait pour la tendresse</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.211" n="211">Cette voix lente et pure, et lasse de prier</p>
+
+<p xml:lang="fr" xml:id="p.nl.212" n="212">Qu’interrompait jadis la forte voix d’un maître</p>
+
+<p xml:lang="fr" xml:id="p.nl.213" n="213">Et qu’une insulte hélas! un bras levé peut-etre</p>
+
+<p xml:lang="fr" xml:id="p.nl.214" n="214">De honte et de terreur firent un jour crier</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.215" n="215">Quand un petit enfant présentait à la ronde</p>
+
+<p xml:lang="fr" xml:id="p.nl.216" n="216">Son front à nos baisers<c type="kk">/</c> oh, comme lentement</p>
+
+<p xml:lang="fr" xml:id="p.nl.217" n="217">Mélancoliquement et douloureusement</p>
+
+<p xml:lang="fr" xml:id="p.nl.218" n="218">Ses lèvres s’appuyaient sur cette tête blonde</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p xml:lang="fr" xml:id="p.nl.219" n="219">Mais aussitôt après ce trop cruel plaisir</p>
+
+<p xml:lang="fr" xml:id="p.nl.220" n="220">Comme elle reprenait son travail au plus vite!</p>
+
+<p xml:lang="fr" xml:id="p.nl.221" n="221">Et sur ses traits alors quelle rougeur subite,</p>
+
+<p xml:lang="fr" xml:id="p.nl.222" n="222">En songeant au regret qu’on avait pu saisir.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.223" n="223">Car je m’apercevais, quoiqu’on fût bon pour elle</p>
+
+<p xml:lang="fr" xml:id="p.nl.224" n="224">Qu’on la plaignit d’avoir fait un si mauvais choix</p>
+
+<p xml:lang="fr" xml:id="p.nl.225" n="225">Que ce monde aux instincts timorés &amp; bourgeois</p>
+
+<p xml:lang="fr" xml:id="p.nl.226" n="226">Conservait une crainte – après tout naturelle –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.227" n="227">J’avais bien remarqué que son humble regard</p>
+
+<p xml:lang="fr" xml:id="p.nl.228" n="228">Tremblait d’etre heurté par un regard qui brille</p>
+
+<p xml:lang="fr" xml:id="p.nl.229" n="229">Qu’elle n’allait jamais près d’une jeune fille</p>
+
+<p xml:lang="fr" xml:id="p.nl.230" n="230">Et ne levait les yeux que devant un vieillard.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.231" n="231">Jeune homme qui pourrais aimer la pauvre femme</p>
+
+<p xml:lang="fr" xml:id="p.nl.232" n="232">Et qui la trouveras quelque jour sur tes pas</p>
+
+<p xml:lang="fr" xml:id="p.nl.233" n="233">Ne la regarde pas &amp; ne lui parle pas</p>
+
+<p xml:lang="fr" xml:id="p.nl.234" n="234">Ne te fais pas aimer, car ce serait infâme!</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.235" n="235">Va<c type="kk">/</c> je connais l’adresse et les subtilités</p>
+
+<p xml:lang="fr" xml:id="p.nl.236" n="236">Du sophisme, aussi bien que tu peux les connaitre.</p>
+
+<p xml:lang="fr" xml:id="p.nl.237" n="237">Je sais que son oeil brûle &amp; que sa voix pénètre,</p>
+
+<p xml:lang="fr" xml:id="p.nl.238" n="238">Et quel sang bondira dans vos coeurs révoltés.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.239" n="239">Je sais qu’elle succombe et qu’elle est sans défense</p>
+
+<p xml:lang="fr" xml:id="p.nl.240" n="240">Qu’elle meurtrit son sein devant le crucifix,</p>
+
+<p xml:lang="fr" xml:id="p.nl.241" n="241">Qu’elle t’adorerait comme un dieu, comme un fils;</p>
+
+<p xml:lang="fr" xml:id="p.nl.242" n="242">Je sais que ta victoire est certaine d’avance.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.243" n="243">Oui, pour toi je suis sûr qu’elle sacrifierait</p>
+
+<p xml:lang="fr" xml:id="p.nl.244" n="244">Son unique tresor, l’honneur pur &amp; fidèle,</p>
+
+<p xml:lang="fr" xml:id="p.nl.245" n="245">Et que tu voudrais vivre et mourir auprès d’elle</p>
+
+<p xml:lang="fr" xml:id="p.nl.246" n="246">– C’est bien – Mais je suis sûr aussi qu’elle en mourrait.</p>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>
+
+<p xml:lang="fr" xml:id="p.nl.247" n="247"><hi rend="italics">Tristement</hi><ptr target="#note-t-20"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.248" n="248">Obsédé par ces mots, le veuvage &amp; l’automne</p>
+
+<p xml:lang="fr" xml:id="p.nl.249" n="249">Mon rêve n’en veut pas d’autres pour exprimer</p>
+
+<p xml:lang="fr" xml:id="p.nl.250" n="250">Cette melancolie immense &amp; monotone</p>
+
+<p xml:lang="fr" xml:id="p.nl.251" n="251">Qui m’ôte tout espoir &amp; tout désir d’aimer –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.252" n="252">Il évoque sans cesse une très longue allée</p>
+
+<p xml:lang="fr" xml:id="p.nl.253" n="253">De platanes géants dépouillés à demi</p>
+
+<p xml:lang="fr" xml:id="p.nl.254" n="254">Dans laquelle une femme en grand deuil &amp; voilée</p>
+
+<p xml:lang="fr" xml:id="p.nl.255" n="255">S’avance lentement sur le gazon blêmi</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.256" n="256">Ses longs vêtements noirs lui faisant un sillage</p>
+
+<p xml:lang="fr" xml:id="p.nl.257" n="257">Traînent en bruissant dans le feuillage mort;</p>
+
+<p xml:lang="fr" xml:id="p.nl.258" n="258">Elle suit d’un regard la fuite d’un nuage</p>
+
+<p xml:lang="fr" xml:id="p.nl.259" n="259">Sous le vent déjà froid &amp; qui chasse du nord</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.260" n="260">Elle songe à l’absent qui lui disait – je t’aime –</p>
+
+<p xml:lang="fr" xml:id="p.nl.261" n="261">Et – sous le grand ciel bas qui n’a plus un rayon</p>
+
+<p xml:lang="fr" xml:id="p.nl.262" n="262">S’aperçoit qu’avec la dernière chrysanthème</p>
+
+<p xml:lang="fr" xml:id="p.nl.263" n="263">Hier a disparu – le dernier papillon –</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.264" n="264">Elle chemine ainsi – dans l’herbe qui se fâne</p>
+
+<p xml:lang="fr" xml:id="p.nl.265" n="265">Bien lasse de vouloir – bien lasse de subir</p>
+
+<p xml:lang="fr" xml:id="p.nl.266" n="266">Et toujours sur ses pas les feuilles de platane</p>
+
+<p xml:lang="fr" xml:id="p.nl.267" n="267">Tombent avec un bruit triste comme un soupir.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.268" n="268">En vain – pour dissiper ces images moroses</p>
+
+<p xml:lang="fr" xml:id="p.nl.269" n="269">J’invoque ma jeunesse &amp; ce splendide été</p>
+
+<p xml:lang="fr" xml:id="p.nl.270" n="270">Je doute du soleil, je ne crois plus aux roses</p>
+
+<p xml:lang="fr" xml:id="p.nl.271" n="271">Et je vais le front bas comme un homme hanté</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="fr" xml:id="p.nl.272" n="272">Et j’ai le coeur si plein d’automne &amp; de veuvage</p>
+
+<p xml:lang="fr" xml:id="p.nl.273" n="273">Que je rêve toujours, sous le ciel pur &amp; clair</p>
+
+<p xml:lang="fr" xml:id="p.nl.274" n="274">D’une figure en deuil – dans un froid paysage</p>
+
+<p xml:lang="fr" xml:id="p.nl.275" n="275">Et de feuilles tombant au premier vent d’hiver.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Just a word to tell you that — partly in response to your letter in which you mentioned pen drawings — I have five weavers for you which I’ve made after my painted studies and are slightly different — and I think livelier — in execution than the pen drawings of mine you’ve seen so far.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">I’m working on them from early till late, for have also started more new watercolours of them as well as the painted studies and the pen drawings.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I thought about you a lot these last few days, partly on account of a little book that originally came from you and that I borrowed from <rs type="person" ref="bio.xml#_401">Lies</rs> — the poems of <hi rend="italics"><rs type="person" ref="bio.xml#_570">François Coppée</rs></hi>.<ptr target="#note-t-3"/> I knew only a very few by him, and they’d already struck me at the time. He’s one of the true artists — who put their heart and soul into it<ptr target="#note-t-4"/> — evident from more than one painful confession. All the more an artist because he’s touched by so many very different things, and is capable of painting both a 3rd-class waiting room full of emigrants who spend the night there — everything drab and gloomy and melancholy — and yet in another mood draws a little marquise who dances a minuet, as elegant as a little figure by <rs type="person" ref="bio.xml#_1425">Watteau</rs>.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">That absorption in the moment — that being so wholly and utterly carried away and inspired by the surroundings in which one happens to be — what can one do about it? And even if one could resist it if one wanted to, what would be the point, why shouldn’t one give oneself over to that which is in front of one, as this, after all, is the surest way to create something?
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I was struck by the last one in the little book, entitled Désir dans le spleen, which I copy to remind you of it.<ptr target="#note-t-6"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.7" n="7">Everything lives, everything loves! And I, sad and alone,</p>
+<p xml:id="p.en.8" n="8"> Stand like a dead tree against the vernal sky</p>
+<p xml:id="p.en.9" n="9">I can no longer love, I who have lived but thirty years,</p>
+<p xml:id="p.en.10" n="10">And have my mistress lately quit without regrets. </p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.11" n="11">I am like a sick man, his thoughts grown dull</p>
+<p xml:id="p.en.12" n="12">And wearying of his stale, familiar room,</p>
+<p xml:id="p.en.13" n="13">His sole amusement, stupid and mechanical,</p>
+<p xml:id="p.en.14" n="14">To count inside his head his carpet’s flowers.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Sometimes I wish my end were near,</p>
+<p xml:id="p.en.16" n="16"> And all these recollections — once so sweet,</p>
+<p xml:id="p.en.17" n="17">I thrust away, as from the portrait of an ancestor</p>
+<p xml:id="p.en.18" n="18">Whose gaze disturbs us, we turn away our eye.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.19" n="19">Even of that old love, that drew so many tears,</p>
+<p xml:id="p.en.20" n="20">No trace remains in this, my jaded heart.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">O, thou figure in my thoughts, veiled and dim,</p>
+<p xml:id="p.en.22" n="22"> Whom I may meet tomorrow, whom I know not yet,</p>
+<p xml:id="p.en.23" n="23">A courtesan, leaning at table ’mid the remnants of a meal,</p>
+<p xml:id="p.en.24" n="24">Or — a woman, sober-minded, eyes downcast and pale.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">Appear! — if yet this wretched heart, empty of desire,</p>
+<p xml:id="p.en.26" n="26">Its flame extinct, you can again ignite,</p>
+<p xml:id="p.en.27" n="27">Give me again <hi rend="italics">the infinite</hi> within a woman’s glance</p>
+<p xml:id="p.en.28" n="28">And all of nature blooming in a kiss.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.29" n="29">Come! — As sailors on a foundering ship</p>
+<p xml:id="p.en.30" n="30">Throw — to win an hour’s respite — a treasure to the deep —</p>
+<p xml:id="p.en.31" n="31">Come! — I promise you all, heart and soul — blood and flesh,</p>
+<p xml:id="p.en.32" n="32"> All — for but a moment of <hi rend="italics">faith</hi> — or yet of drunken rapture.</p><space unit="lines" quantity="1"/><pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/>
+<p xml:id="p.en.33" n="33">and then this:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.34" n="34">Divine hope that two together come to form</p>
+<p rend="indent" xml:id="p.en.35" n="35">And two together share,</p>
+<p xml:id="p.en.36" n="36">The hope to love long, love always, love</p>
+<p rend="indent" xml:id="p.en.37" n="37">More dearly every day;</p>
+<p xml:id="p.en.38" n="38">Desire eternal — touching and chimerical,</p>
+<p rend="indent" xml:id="p.en.39" n="39">That lovers sigh —</p>
+<p xml:id="p.en.40" n="40">When — blissful moment — searching each other out,</p>
+<p rend="indent" xml:id="p.en.41" n="41">Their lips exchange a mutual breath.</p>
+<p xml:id="p.en.42" n="42">That vain, illusory desire, that cheating hope,</p>
+<p rend="indent" xml:id="p.en.43" n="43">Whereof we never spoke;</p>
+<p xml:id="p.en.44" n="44"><hi rend="italics">It pains me to see we are afraid of it,</hi></p>
+<p rend="indent" xml:id="p.en.45" n="45"><hi rend="italics">Though it be in our souls.</hi></p>
+<p xml:id="p.en.46" n="46">And when to your questioning I, your sweetheart,</p>
+<p rend="indent" xml:id="p.en.47" n="47">Murmur a soft response,</p>
+<p xml:id="p.en.48" n="48">The word is — evermore —</p>
+<p rend="indent" xml:id="p.en.49" n="49">Without my uttering it,</p>
+<p xml:id="p.en.50" n="50">And though its dear echo sounds within your heart,</p>
+<p rend="indent" xml:id="p.en.51" n="51">Your silence is the same</p>
+<p xml:id="p.en.52" n="52">When on your breast, languorous unto death,</p>
+<p rend="indent" xml:id="p.en.53" n="53">I swear I love you.</p>
+<p xml:id="p.en.54" n="54"><hi rend="italics">What signifies the past — what of time to come?</hi></p>
+<p rend="indent" xml:id="p.en.55" n="55">For what is best of all,</p>
+<p xml:id="p.en.56" n="56">Is to believe that it should never end,</p>
+<p rend="indent" xml:id="p.en.57" n="57">That hour’s illusion.</p>
+<p xml:id="p.en.58" n="58">And when I tell you, ‘Evermore!’ — do naught</p>
+<p rend="indent" xml:id="p.en.59" n="59">That might dispel that dream,</p>
+<p xml:id="p.en.60" n="60">And may your kiss on mine</p>
+<p rend="indent" xml:id="p.en.61" n="61">Press all the longer and more tenderly.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.62" n="62">and then this<ptr target="#note-t-7"/> —</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.63" n="63"><hi rend="italics">Sorrow assuaged</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.64" n="64">You whom I saw as like the blasted oak,</p>
+<p xml:id="p.en.65" n="65">I find you now a father, find you spouse;</p>
+<p xml:id="p.en.66" n="66">And yet to that brow that dreamed of death’s release,</p>
+<p xml:id="p.en.67" n="67">A pistol once was held.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.68" n="68">All that you cannot have forgotten quite;</p>
+<p xml:id="p.en.69" n="69">You knew how one suffers and despairs;</p>
+<p xml:id="p.en.70" n="70">You carried in your heart the viper vile</p>
+<p xml:id="p.en.71" n="71"> Of a great love lost, a great hope — crushed.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.72" n="72">Oblivion eluded you — you sought out</p>
+<p xml:id="p.en.73" n="73"> Tumults, orgy and its songs — fame and its jibes</p>
+<p xml:id="p.en.74" n="74">And the long roaring of the sea and of the wind.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.75" n="75">Who, then, unto your sorrow put a silent stop —</p>
+<p xml:id="p.en.76" n="76">O Lonesome one — ’twas but the rhythmic beat</p>
+<p xml:id="p.en.77" n="77">Marked by the cradle of a little child.<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/><pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/>
+<p xml:id="p.en.78" n="78">and then this —</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.79" n="79"><hi rend="italics">A wound reopened</hi></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.80" n="80">O, my heart, are you then so craven and so weak?</p>
+<p xml:id="p.en.81" n="81">And would you be like a convict, dragging his ball and chain,</p>
+<p xml:id="p.en.82" n="82"> Who, though released, yet hobbles still?</p>
+<p xml:id="p.en.83" n="83">Be silent — well you know the sentence she has passed on you.</p>
+<p xml:id="p.en.84" n="84">I will no longer suffer, and thus I order you:</p>
+<p xml:id="p.en.85" n="85">If I should feel you swell once more and writhe,</p>
+<p xml:id="p.en.86" n="86">May I — with a stifled sob — crush you;</p>
+<p xml:id="p.en.87" n="87">And — no one shall know of it — and — to still my cries,</p>
+<p xml:id="p.en.88" n="88">They’ll see me — for that ghastly minute,</p>
+<p xml:id="p.en.89" n="89">Clench my teeth — just like a soldier during amputation.<ptr target="#note-t-9"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.90" n="90">This is certainly poetry, and among the best — I find Désir dans le spleen, in particular so true, paints how, in those very souls who are wearied and those who almost fall, there arises at times that infinite renewal of desire, as if they had no past behind them — I thought of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>’s Jewish bride<ptr target="#note-t-10"/> — and what Thoré says about it.<ptr target="#note-t-11"/> <rs type="person" ref="bio.xml#_554">Thoré</rs> (in his prime) and <rs type="person" ref="bio.xml#_607">Theo Gautier</rs><ptr target="#note-t-12"/> and so many others — how much has changed since them — and how much duller it’s become. If one wants to preserve something of the fire in one, nowadays one must show it to others as little as possible. But anyway.</p>
+<p rend="indent" xml:id="p.en.91" n="91">Did you get the little consignment I sent last week?<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.92" n="92">I have to keep the pen drawings for another week or so because I still need them to finish off other things that I started at the same time. But you’ll get them soon — but do please let me know whether the parcel arrived safely, and whether there were enough stamps on it. Because drawings possibly count as written matter and more has to be paid on them.</p>
+<p rend="indent" xml:id="p.en.93" n="93">Regards — I hope you’ll be able to do something with all of this.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.94" n="94">Yours truly,</p>
+<p xml:id="p.en.95" n="95">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.96" n="96"><rs type="person" ref="bio.xml#_526">Pa</rs> already wrote to you about <rs type="person" ref="bio.xml#_524">Ma</rs> a few days ago. All remained normal since, and the <rs type="person" ref="bio.xml#_495">doctor</rs> said today he hadn’t dared hope at the beginning that it would have gone so well.</p><space unit="lines" quantity="1"/><pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/>
+<p xml:id="p.en.97" n="97"><rs type="person" ref="bio.xml#_570">Coppée</rs> is another one like <rs type="person" ref="bio.xml#_654">Heine</rs> or <rs type="person" ref="bio.xml#_715">Musset</rs> — I’ll copy out a few more.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.98" n="98"><hi rend="italics">The first one</hi><ptr target="#note-t-14"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.99" n="99">It’s not that she was so beautiful,</p>
+<p xml:id="p.en.100" n="100">But we were both twenty,</p>
+<p xml:id="p.en.101" n="101">And that day, as I recall</p>
+<p xml:id="p.en.102" n="102">Was a spring morning.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.103" n="103">It’s not that she looked so serious,</p>
+<p xml:id="p.en.104" n="104">But here and now I swear</p>
+<p xml:id="p.en.105" n="105">That never have I dared do a more courageous thing</p>
+<p xml:id="p.en.106" n="106">Than when I told her that I loved her.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.107" n="107">It’s not that she had a tender heart,</p>
+<p xml:id="p.en.108" n="108"> But it was so delightful</p>
+<p xml:id="p.en.109" n="109">To talk to her, to listen to her speak,</p>
+<p xml:id="p.en.110" n="110">My eyes would fill with tears.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.111" n="111">It’s not that her soul was hard,</p>
+<p xml:id="p.en.112" n="112">But all the same, she left me (or perhaps, I left her)<ptr target="#note-t-15"/></p>
+<p xml:id="p.en.113" n="113"> From then my sadness takes its date,</p>
+<p xml:id="p.en.114" n="114">And will continue, everlastingly.<ptr target="#note-t-16"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.115" n="115">The lost dog.<ptr target="#note-t-17"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.116" n="116">When we go home, at night, through empty city streets,</p>
+<p xml:id="p.en.117" n="117">And see upon the wet, green, greasy mud</p>
+<p xml:id="p.en.118" n="118">Long streaks of gaslight, more of them every day,</p>
+<p xml:id="p.en.119" n="119">Often a stray dog with matted coat, a dreadful, doleful sight,</p>
+<p xml:id="p.en.120" n="120">An old dog from hereabouts, which its master, penniless,</p>
+<p xml:id="p.en.121" n="121">Has thrown out with a kick — perhaps mourning it —</p>
+<p xml:id="p.en.122" n="122">Will stick its stubborn nose into your heels,</p>
+<p xml:id="p.en.123" n="123">And if you should turn back, give you a look,</p>
+<p xml:id="p.en.124" n="124">And what a look — long, fearful, all cajolery,</p>
+<p xml:id="p.en.125" n="125">A mistress’s, a poor man’s touching gaze,</p>
+<p xml:id="p.en.126" n="126">Yet hopeless, with that uncertain air belonging to</p>
+<p xml:id="p.en.127" n="127">A woman scorned and a poor man who feels his shame.</p>
+<p xml:id="p.en.128" n="128">And if you stop, he’ll stop with you, and</p>
+<p xml:id="p.en.129" n="129">Feebly wag his wet and drooping tail,</p>
+<p xml:id="p.en.130" n="130"> Timid, knowing his fate lies in your hands.</p>
+<p xml:id="p.en.131" n="131">He seems to say: ‘Come on — take me with you — please?’</p>
+<p xml:id="p.en.132" n="132">We’re moved — and yet we don’t quite dare;</p>
+<p xml:id="p.en.133" n="133">We’re poor ourselves — and rabies is a fearful thing.</p>
+<p xml:id="p.en.134" n="134">And then — unkindly — making as if to raise</p>
+<p xml:id="p.en.135" n="135">Our stick — we tell the dog: ‘Go on, be off with you!’</p>
+<p xml:id="p.en.136" n="136">And — all contrite — he goes to plead his cause elsewhere.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.137" n="137"><hi>This also applies to art</hi>.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.138" n="138">Ill-omened meeting! and what times are these,</p>
+<p xml:id="p.en.139" n="139">These savage Prussians (‘decent people — too well-fed people’ something like that),</p>
+<p xml:id="p.en.140" n="140">what they have done to us</p>
+<p xml:id="p.en.141" n="141">That the poorest folk now cast their dogs aside,</p>
+<p xml:id="p.en.142" n="142">And when, distracted from the public show of grief, we must yet</p>
+<p xml:id="p.en.143" n="143">Pity these animals — who turn upon us their imploring gaze.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.144" n="144"><hi rend="italics">To a Second lieutenant</hi>.<ptr target="#note-t-18"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.145" n="145">You carry, my handsome officer,</p>
+<p xml:id="p.en.146" n="146">With perfect grace,</p>
+<p xml:id="p.en.147" n="147">Your sword with hilt of steel,</p>
+<p xml:id="p.en.148" n="148">But I think of our defeat.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.149" n="149">This pelisse of finest stuff</p>
+<p xml:id="p.en.150" n="150">Sets off your figure perfectly;</p>
+<p xml:id="p.en.151" n="151">You’re charming; but after all</p>
+<p xml:id="p.en.152" n="152">We lost the battle.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.153" n="153">We read your intrepidity</p>
+<p xml:id="p.en.154" n="154">In your black eyes under their slender brows.</p>
+<p xml:id="p.en.155" n="155">Nothing wrong with wearing fancy gloves —</p>
+<p xml:id="p.en.156" n="156">But, they took two provinces from us.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.157" n="157">At your age one’s always proud</p>
+<p xml:id="p.en.158" n="158">Of a little bit of braid;</p>
+<p xml:id="p.en.159" n="159">But — do you see — ’twas yesterday</p>
+<p xml:id="p.en.160" n="160">They maimed our motherland.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.161" n="161">Lieutenant, I do not know</p>
+<p xml:id="p.en.162" n="162">If of an evening, a finger to your brow,</p>
+<p xml:id="p.en.163" n="163">Holding book and compasses,</p>
+<p xml:id="p.en.164" n="164">You stay up late, beside the lamp.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.165" n="165">Are your men your children?</p>
+<p xml:id="p.en.166" n="166">Are you their leader and their father?</p>
+<p xml:id="p.en.167" n="167">I wish to believe that, and would fight off</p>
+<p xml:id="p.en.168" n="168">A doubt that fills me with despair.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.169" n="169">Stripes on your sleeve, on your way,</p>
+<p xml:id="p.en.170" n="170"> Is it of deliverance you think?</p>
+<p xml:id="p.en.171" n="171">— Young man, give me your hand,</p>
+<p xml:id="p.en.172" n="172">Let’s give a little shout — ‘Vive la France!’</p><space unit="lines" quantity="1"/><pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/>
+<p xml:id="p.en.173" n="173">A woman alone.<ptr target="#note-t-19"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.174" n="174">I met her in a bourgeois drawing-room –</p>
+<p xml:id="p.en.175" n="175">Her gentle, timorous eyes, her banished angel’s brow,</p>
+<p xml:id="p.en.176" n="176">First drew me to her – and I was told</p>
+<p xml:id="p.en.177" n="177">She’d separated from a brutal spouse.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.178" n="178">Still she kept company with those old friends</p>
+<p xml:id="p.en.179" n="179">Whose home had known her as a growing child</p>
+<p xml:id="p.en.180" n="180">And who, despite the talk that makes folk take offence,</p>
+<p xml:id="p.en.181" n="181">Cared not a jot for all their cruel prejudice.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.182" n="182">But she knew well enough – sweet and resigned –</p>
+<p xml:id="p.en.183" n="183">That wider circles were all barred to her,</p>
+<p xml:id="p.en.184" n="184"> Ever expecting – quiet and calm –</p>
+<p xml:id="p.en.185" n="185">The word that snubs, the greeting that rebuffs.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.186" n="186">And so, on evenings when they neither dined nor danced,</p>
+<p xml:id="p.en.187" n="187">She’d come and broider there among them, by the hearth,</p>
+<p xml:id="p.en.188" n="188">And there it was (seeing her so fresh and young)</p>
+<p xml:id="p.en.189" n="189">I was amazed to see she wore a wedding ring.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.190" n="190">Stoical, accepting of her curious widowhood</p>
+<p xml:id="p.en.191" n="191">Without a backward thought; naively, too,</p>
+<p xml:id="p.en.192" n="192">To show she kept her faithful vows,</p>
+<p xml:id="p.en.193" n="193">Her hand retained enslavement’s evidence.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.194" n="194">Dark-haired and pale she was – twenty-five years old –</p>
+<p xml:id="p.en.195" n="195">Her long, proud hands were veined with blue</p>
+<p xml:id="p.en.196" n="196">And the long lashes fringing her chaste eyes</p>
+<p xml:id="p.en.197" n="197">Cast fluttering veils across her nut-brown gaze.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.198" n="198">No gem, no ribbon, not a hint of gaiety,</p>
+<p xml:id="p.en.199" n="199">Never the smallest flower inserted in the chestnut-coloured band,</p>
+<p xml:id="p.en.200" n="200">The little collar – white and demure –</p>
+<p xml:id="p.en.201" n="201">Stood out alone against her dress of mourning silk.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.202" n="202">Sewing there, unhurried, with an easy hand,</p>
+<p xml:id="p.en.203" n="203">Confident of shadow’s power to transform,</p>
+<p xml:id="p.en.204" n="204">She kept the darkest corner of the room;</p>
+<p xml:id="p.en.205" n="205">She scarcely spoke, and wished to be forgot.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.206" n="206">But when she answered with a casual word or two</p>
+<p xml:id="p.en.207" n="207">The humdrum questions that were put to her,</p>
+<p xml:id="p.en.208" n="208">Painful it was to hear that voice,</p>
+<p xml:id="p.en.209" n="209">Broken by suffering and made for tenderness.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.210" n="210">That pure, slow voice, weary from prayer,</p>
+<p xml:id="p.en.211" n="211">Once interrupted by a master’s powerful tones,</p>
+<p xml:id="p.en.212" n="212">And forced, perhaps, to cry aloud from fear and shame</p>
+<p xml:id="p.en.213" n="213">By insults, or an arm upraised.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.214" n="214">And when a little child went round the company</p>
+<p xml:id="p.en.215" n="215">Offering its forehead to receive a kiss, how ling’ringly,</p>
+<p xml:id="p.en.216" n="216">With what a keen and melancholy pang</p>
+<p xml:id="p.en.217" n="217">She placed her lips upon the flaxen head.</p><pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/><space unit="lines" quantity="1"/>
+<p xml:id="p.en.218" n="218">But straight upon this all too cruel delight</p>
+<p xml:id="p.en.219" n="219">How quick she was to take her needle up again!</p>
+<p xml:id="p.en.220" n="220">And what a sudden blush spread o’er her cheek,</p>
+<p xml:id="p.en.221" n="221">Conscious of regrets made palpable.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.222" n="222">For I could see, kindly though we were,</p>
+<p xml:id="p.en.223" n="223">That she was pitied for her miserable choice;</p>
+<p xml:id="p.en.224" n="224">That this community, timid, respectable,</p>
+<p xml:id="p.en.225" n="225">Retained its fear – quite natural, I’d say.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.226" n="226">Clearly I observed her humble gaze</p>
+<p xml:id="p.en.227" n="227">Falter if it should meet a sparkling eye,</p>
+<p xml:id="p.en.228" n="228">How she avoided all the younger girls,</p>
+<p xml:id="p.en.229" n="229">And looked none but the old men in the face.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.230" n="230">Young man, who could love this unhappy one –</p>
+<p xml:id="p.en.231" n="231">Your paths will surely cross some day –</p>
+<p xml:id="p.en.232" n="232">Don’t look at her, say not a word to her,</p>
+<p xml:id="p.en.233" n="233">Don’t let her love you, that would be unspeakable!</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.234" n="234">Look, I know the skill, the subtle wiles</p>
+<p xml:id="p.en.235" n="235">Of sophistry as well as you.</p>
+<p xml:id="p.en.236" n="236">I know its piercing eye, its voice that penetrates,</p>
+<p xml:id="p.en.237" n="237"> And how the blood will surge through your rebellious veins.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.238" n="238">I know that quite defenceless, she succumbs,</p>
+<p xml:id="p.en.239" n="239">I know she beats her breast before the Cross,</p>
+<p xml:id="p.en.240" n="240">That she’d adore you like a god, or like a son;</p>
+<p xml:id="p.en.241" n="241">I know your triumph is assured.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.242" n="242">Yes, I’m sure for you she’d sacrifice</p>
+<p xml:id="p.en.243" n="243">Her only treasure – honour, faithful, pure.</p>
+<p xml:id="p.en.244" n="244">And that you’d gladly live and die with her.</p>
+<p xml:id="p.en.245" n="245">That’s fine. But equally, I know ‘twould be the death of her.</p><space unit="lines" quantity="1"/><pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/>
+<p xml:id="p.en.246" n="246"><hi rend="italics">Sadly</hi><ptr target="#note-t-20"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.247" n="247">Obsessed by these words, widowhood and autumn,</p>
+<p xml:id="p.en.248" n="248">My reverie seeks no other to express</p>
+<p xml:id="p.en.249" n="249">This melancholy, vast and monotonous,</p>
+<p xml:id="p.en.250" n="250">That robs me of all hope and all desire to love.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.251" n="251">Ceaselessly it evokes a long, long avenue</p>
+<p xml:id="p.en.252" n="252">Of plane trees, immensely tall, half bare,</p>
+<p xml:id="p.en.253" n="253">In which a woman in deep mourning, veiled,</p>
+<p xml:id="p.en.254" n="254">Moves slowly forward on the pallid grass.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.255" n="255">Her long skirts leave behind a wake,</p>
+<p xml:id="p.en.256" n="256">Trailing and rustling in the fallen leaves;</p>
+<p xml:id="p.en.257" n="257">She follows with her gaze the passage of a cloud</p>
+<p xml:id="p.en.258" n="258">Before the wind, driving from the north, already cold.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.259" n="259">She thinks of him, now absent, who was wont to say: I love you!</p>
+<p xml:id="p.en.260" n="260">And under the wide low sky from which the light has gone,</p>
+<p xml:id="p.en.261" n="261">Sees that, with the last chrysanthemum, yesterday</p>
+<p xml:id="p.en.262" n="262">The last butterfly has also died.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.263" n="263">And so she walks across the faded grass,</p>
+<p xml:id="p.en.264" n="264">Weary of wishing, weary of submitting,</p>
+<p xml:id="p.en.265" n="265">And always in her path, the plane-tree leaves</p>
+<p xml:id="p.en.266" n="266">Fall with a sound as sad as sighs.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.267" n="267">— In vain — to chase away these gloomy images</p>
+<p xml:id="p.en.268" n="268">Do I call up my youth, and that splendid summer.</p>
+<p xml:id="p.en.269" n="269">I do not trust the sun, no more believe the roses,</p>
+<p xml:id="p.en.270" n="270">And go about, head lowered, like a haunted man.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.271" n="271">My heart’s so full of autumn and of widowhood</p>
+<p xml:id="p.en.272" n="272">That I forever dream, under a pure, clear sky —</p>
+<p xml:id="p.en.273" n="273">Of one in mourning — in a chill landscape,</p>
+<p xml:id="p.en.274" n="274">And the leaves falling at first winter’s wind.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent asks Theo whether he has received the consignment of paintings and watercolours that he ‘sent last week’ <ref target="#l-132">(ll. 132-133)</ref>. This batch was sent on 13 February 1884 (<ref target="let429.xml">letter 429</ref>), which means that the present letter must have been written between Monday, 18 and Saturday, 23 February 1884. Since similar forms of words about work that he has done occur in <ref target="let431.xml">letter 431</ref>, which dates from 26 February, a date towards the end of the week in question would seem the most likely.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">We are assuming that a separate sheet in the estate, on which Van Gogh wrote out five poems by François Coppée, belonged with this letter. Not only do the texts fit together in terms of content, the two sheets also display a similar, irregular duct. Van Gogh’s comment at the beginning of this loose sheet: ‘I’ll copy out a few more’ – after which the poems follow – is a logical continuation of the verses quoted before the signature, and is also entirely consistent with the three times repeated formula ‘and then this’, preceding the poems copied out in the letter (<ref target="#l-62">l. 62</ref>, <ref target="#l-91">l. 91</ref> and <ref target="#l-107">l. 107</ref>) .</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">There are several asides throughout the poems, including the insertion in the poem ‘La première’: ‘Mais pourtant elle m’a quitté (or perhaps je l’ai quittée)’ (But all the same, she left me (or perhaps I left her)) – a further indication that the text was targeted at Theo <ref target="#l-165">(l. 165)</ref>. The same applies to the tentative remarks in <ref target="#l-195">ll. 195-197</ref> and the assertion, in a box, ‘This also applies to art’ (<ref target="#l-223">l. 223</ref>). The sheet was printed, with pages 3 and 4 reversed, in Pabst 1988, pp. 91-94. Van Gogh wrote these poems out again (with the exception of ‘Une femme seule’) in <ref target="let433.xml">letter 433</ref> to Van Rappard.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mrs van Gogh’s broken leg <ref target="let423.xml">(423)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>It is impossible to say for sure which pen-and-ink drawings these were. Several are known after paintings of this period, but the dating of the sheets is not certain: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver, with a baby in a highchair</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_545">F 1118 / JH 452</rs>); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_546">F 1121 / JH 453</rs>); and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_547">F 1122 / JH 454</rs>). They are in the Van Gogh Museum collection, so they must have belonged to Theo. See cat. Amsterdam 1997, pp. 49-73.</p>
+
+<p rend="indent">It was previously thought that Vincent had sent Theo the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Weaver</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_544">F 1120 / JH 443</rs>). However, we cannot say for certain that the remark about the drawings that had already been sent related specifically to pen-and-ink drawings of weavers; moreover he uses the plural there. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let428.xml">See letter 428</ref>. It is clear from <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let432.xml#l-19">letter 432, ll. 19-22</ref>, that Vincent did eventually send Theo five pen-and-ink drawings.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>We do not know which watercolours these were.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>All the poems by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_570">François Edouard Joachim Coppée</rs> that Van Gogh mentions can be found in the edition <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_368">Poesies de François Coppée</ref></hi> (Paris 1875, reprinted in 1878 and 1880 – referred to hereafter as Coppée 1880). He calls it ‘a little book’; this is consistent with the pocket format of this edition, which measures 16.5 x 10 cm. See also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let433.xml">letter 433</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+    
+<p>An allusion to a remark by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs> in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_737">Sensier</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_238">La vie et l’oeuvre de J.F. Millet</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let210.xml#n-5">see letter 210, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The two poems by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_570">Coppée</rs> to which Van Gogh refers are: ‘<ref target="biblio.xml#lit_369">Emigrants</ref>’ (Emigrants) and ‘<ref target="biblio.xml#lit_370">Menuet</ref>’ (Minuet), which come from the collections <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_371">Les humbles</ref></hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_372">Le cahier rouge</ref></hi> respectively. See Coppée 1880, pp. 49-55, 156-157. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1425">Watteau</rs> was known for his ‘fêtes galantes’.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>‘<ref target="biblio.xml#lit_373">Désir dans le spleen</ref>’ (Desire in melancholy), the final poem. See Coppée 1880, pp. 230-232. This poem and the next three come from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_372">Le cahier rouge</ref></hi>. The most significant differences are:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-49">l. 49</ref> The following two lines are missing: ‘Pas plus que n’a laissé de trace sur la rose / L’ombre du papillon qui vient de l’effleurer.’ (‘No more than on the rose has left a mark / The shadow of the butterly that lately brushed against it.’)</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-53">l. 53</ref> femme sérieuse aux pâles paupières ] jeune fille blanche aux paupières (grave woman with pale eyelids ] pure young girl with eyelids)</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_374">Pour toujours</ref>’ (Evermore), in: Coppée 1880, pp. 170-171. Important differences in content are:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-73">ll. 73-74</ref> Underlining not in Coppée</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-75">l. 75</ref> amante interrogée ] amant interrogé</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-77">l. 77</ref> toujours – ] toujours!” sur les lèvres que j’ai,</p>
+
+<p>Van Gogh did copy the striking layout of the lines: no spaces between the stanzas and an indent after every second line.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_375">Douleur bercée</ref>’ (Sorrow assuaged), in: Coppée 1880, pp. 198-199. An important difference in content is:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-99">l. 99</ref> coeur ] sein (heart ] breast)</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>‘<ref target="biblio.xml#lit_376">Blessure rouverte</ref>’ (A wound re-opened), in: Coppée 1880, p. 200.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Jewish bride</hi>, c. 1666 (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2119">Ill. 2119</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_554">E.J.T. Thoré</rs> (writing under the pseudonym W. Bürger) described <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jewish bride</hi> at length in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_14">Musées de la Hollande</ref></hi>; he praised it both for the expression of the figures and for Rembrandt’s virtuoso execution. See Thoré 1858-1860, vol. 2, pp. 7-13. The association between <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_570">Coppée</rs>’s poem and the painting is based on Van Gogh’s intense admiration for both works, not on any similarity in subject or sentiment.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The art critic <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_607">Théophile Gautier</rs> wrote about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> several times; more than once he based his comments on what <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_554">Thoré</rs> had observed about the artist. See H. van der Tuin, ‘Théophile Gautier et Rembrandt’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Revue de Littérature Comparée</hi> 34 (1960), pp. 456-464.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>See for this consignment: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let429.xml">letter 429</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_377">La première</ref>’ (The first one), from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_372">Le cahier rouge</ref></hi>, in: Coppée 1880, pp. 221-222.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Van Gogh also alters this line in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let433.xml">letter 433</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>These words are very like what Van Gogh apparently said on his deathbed: ‘La tristesse durera toujours’ (sorrow will endure forever). Passed down via Du Quesne-Van Gogh 1923, p. 69.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_378">Le chien perdu</ref>’ (The lost dog), from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ecrit pendant le siège</hi>, in: Coppée 1880, pp. 85-86. Substantive differences are:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-225">ll. 225-227</ref> The variants before the bracket are an addition by Van Gogh himself (in the English translation this assertion and the parenthetical remarks).</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_380">A un souslieutenant</ref>’ (To a Second-lieutenant), from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_372">Le cahier rouge</ref></hi>, in: Coppée 1880, pp. 215-216.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_381">Une femme seule</ref>’ (A woman alone), from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les humbles</hi>, in: Coppée 1880, pp. 56-60. Significant differences in terms of content are:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-236">l. 236</ref> ses anciens ] ces anciens</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-308">l. 308</ref> ces traits ] ses traits</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-330">l. 330</ref> suis sûr ] suis sur</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_382">Tristement</ref>’ (Sadly), from the collection <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_372">Le cahier rouge</ref></hi>, in: Coppée 1880, pp. 148-149. Significant differences in terms of content are:</p>
+
+<p><ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-298">l. 298</ref> Il invoque ] Il évoque</p>
+
+<p>Although we cannot rule out the possibility that Van Gogh copied this poem out first (p. [2v:7]) – it is on the inside of the folded sheet and starts in conspicuously painstaking handwriting – in the transcribed text we have preceded it with ‘Une femme seule’, which begins on p. [2v:6]. Because this poem was interrupted at the end of the page, Van Gogh wrote ‘Une femme seule continued’ (‘Une femme seule suite’) at the top of the continuation on p. [2r:8] <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-306">(l. 306)</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

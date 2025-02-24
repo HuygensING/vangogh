@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Saint-Rémy-de-Provence, Tuesday, 25 June 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let783"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b644 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>783</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>596</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>785</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-06-25">Tuesday, 25 June 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0644" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000880_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000880_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000880_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0644" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000880_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000880_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000880_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">Ci inclus tu trouveras une commande de couleurs qui remplacerait celle dans ma lettre précedente<c type="kp">_</c><ptr target="#note-t-1"/> Nous avons eu des journées de belle chaleur et j’ai mis encore d’autres toiles en train<c type="kk">/</c> de sorte qu’il y en a 12 de toiles de 30 sur le chantier.<ptr target="#note-t-2"/> Deux études de cyprès de cette difficile nuance vert bouteille<c type="kp">_</c><ptr target="#note-t-3"/> J’en ai travaillé les avant plans par des empâtements de blanc de céruse ce qui donne de la fermeté aux terrains<c type="kp">_</c> Je crois que tres souvent les Monticelli étaient préparés ainsi<c type="kp">_</c> Là-dessus on passe alors d’autres couleurs. Mais je ne sais si les toiles sont fortes assez pour ce travail-là.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">En parlant de Gauguin<c type="kk">/</c> de Bernard et de ce qu’ils pourraient bien nous faire de la peinture plus consolante<c type="kk">/</c><ptr target="#note-t-4"/> je dois pourtant ajouter ce que d’ailleurs j’ai souvent dit à Gauguin lui-même<c type="kk">/</c> qu’alors il ne faut pas oublier que d’autres en ont deja fait. Mais quoi qu’il en soit<c type="kk">/</c> hors Paris on oublie vite Paris<c type="kk">/</c> en se jetant en pleine campagne on change d’idées<c type="kp">_</c> Mais moi pour un je ne saurais oublier toutes ces belles toiles de Barbizon alors<c type="kk">/</c> et faire mieux que ça me parait peu probable et d’ailleurs pas nécessaire.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Que fait André Bonger<c type="kk">/</c> dans tes deux ou trois dernières lettres tu ne parles pas de lui<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Pour moi la santé va toujours fort bien. et le travail me distrait.</p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">J’ai reçu<c type="kk">/</c> d’une des soeurs probablement<c type="kk">/</c> un livre de Rod qui est pas mal mais dont le titre<c type="kk">/</c> le sens de la vie<c type="kk">/</c> est bien un peu prétentieux pour le contenu à ce qui me paraitrait.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Surtout c’est peu réjouissant. L’auteur me parait devoir beaucoup souffrir des poumons. et conséquemment un peu de tout.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Enfin il en convient qu’il trouve des consolations dans la compagnie de sa femme ce qui est très bien vu mais enfin pour mon propre usage il ne m’apprend absolument rien sur le sens de la vie<c type="kk">/</c> dans n’importe quel sens. De mon côté je pourrais le trouver un peu blasé et m’étonner de ce qu’il aie fait imprimer de ces jours ci un livre comme cela et qu’il vende cela à raison de fr 3.50.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Enfin je préfère Alphonse Karr<c type="kk">/</c> Souvestre<c type="kk">/</c> Droz parceque c’est un peu plus vivant encore que ceci. Il est vrai que je suis peut être ingrat<c type="kk">/</c> n’appréciant même pas l’abbé Constantin et autres productions littéraires qui illuminent le doux règne du naif Carnot.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Il parait que ce livre a fait grande impression sur nos bonnes soeurs<c type="kp">_</c> Wil m’en avait du moins parlé mais les bonnes femmes et les livres cela fait deux.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">J’ai relu avec bien du plaisir Zadig ou la destinée de Voltaire<c type="kp">_</c> C’est comme Candide<c type="kp">_</c> Là au moins le puissant auteur fait entrevoir qu’il y reste une possibilité que la vie ait un sens “quoique on convint dans la conversation que les chôses de ce monde n’allaient pas toujours au gré des plus sages”<c type="kp">_</c><ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Pour moi je ne sais que désirer<c type="kk">/</c> travailler ici ou ailleurs me parait d’abord à peu près la même chôse et étant ici<c type="kk">/</c> y rester le plus simple<c type="kp">_</c> Seulement des nouvelles à t’écrire cela manque car les jours sont tous les mêmes<c type="kk">/</c> des idées je n’en ai pas d’autres que de penser qu’un champ de blé ou un cyprès valent bien la peine de les regarder de près et ainsi de suite<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’ai un champ de blé tres jaune et très clair<c type="kk">/</c> peutetre la toile la plus claire que j’aie faite<c type="kp">_</c><ptr target="#note-t-8"/> Les cyprès me preoccupent toujours<c type="kk">/</c> je voudrais en faire une chose comme les toiles des tournesols<ptr target="#note-t-9"/> parceque cela m’étonne qu’on ne les aie pas encore fait comme je les vois<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">C’est beau comme lignes et comme proportions<c type="kk">/</c> comme une obelisque egyptienne.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Et le vert est d’une qualité si distinguée<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">C’est la tache <hi rend="italics">noire</hi><ptr target="#note-t-10"/> dans un paysage ensoleillé mais elle est une des notes noires les plus interessantes<c type="kk">/</c> les plus difficiles à taper juste que je puisse imaginer<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Or il faut les voir ici contre le bleu<c type="kk">/</c> <hi rend="italics">dans</hi> le bleu pour mieux dire<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Pour faire la nature ici comme partout il faut bien y être longtemps.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Ainsi un Monthénard ne me donne pas la note vraie et intime<ptr target="#note-t-11"/> car la lumière est mystérieuse et Monticelli et Delacroix sentaient cela. Alors Pissarro en parlait très bien dans le temps et je suis encore bien loin de pouvoir faire comme il disait qu’il le faudrait<c type="kp">_</c><ptr target="#note-t-12"/></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Tu me feras naturellement plaisir en m’envoyant les couleurs<c type="kk">/</c> si c’est possible bientôt mais fais surtout là-<c type="shy">-</c>dedans comme tu peux sans que cela t’éreinte trop.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">Ainsi si tu préfères me l’envoyer en deux fois cela est bon aussi<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.22" n="22">je crois que des deux toiles de cyprès celle dont je fais le croquis sera la meilleure.<ptr target="#note-t-13"/> les arbres y sont tres grands et massifs. l’avant plan très bas<c type="kk">/</c> des ronces et broussailles<c type="kp">_</c> Derriere des collines violettes<c type="kk">/</c> un ciel vert et rose avec un croissant de lune. l’avant plan surtout est tres empâté<c type="kk">/</c> des touffes de ronces à reflets jaunes<c type="kk">/</c> violets<c type="kk">/</c> verts. Je t’en enverrai des dessins avec deux autres dessins que j’ai encore faits<c type="kp">_</c><ptr target="#note-t-14"/></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Cela me prendra ces jours-ci<c type="kp">_</c> Trouver de l’occupation pour la journee c’est la grande question ici.</p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">Quel dommage qu’on ne puisse pas deplacer le batiment ici<c type="kp">_</c> Ce serait magnifique pour y faire une exposition<c type="kk">/</c> toutes les chambres vides<c type="kk">/</c> les grands corridors.</p>
+
+<p rend="indent" xml:id="p.fr.25" n="25">J’aurais bien voulu voir ce tableau de Rembrandt dont tu parlais dans ta dernière lettre.<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.fr.26" n="26">J’ai vu dans le temps chez Braun dans sa vitrine une phot. d’après un tableau qui doit être de la belle dernière periode (probablement dans la serie de l’Ermitage)<c type="kk">/</c> là il y avait des figures d’anges importantes<c type="kk">/</c> c’etait le repas d’Abraham. 5 figures je crois<c type="kp">_</c><ptr target="#note-t-16"/> Cela aussi était extraordinaire. Aussi touchant que par ex<c type="kp">_</c> les pèlerins d’Emmaüs<c type="kp">_</c><ptr target="#note-t-17"/></p>
+
+<p rend="indent" xml:id="p.fr.27" n="27">Si jamais il serait question de donner quelque chôse à Mr. Salles pour les peines qu’il s’est donné – plus tard il faudrait lui donner les pèlerins de Rembrandt.</p>
+
+<p rend="indent" xml:id="p.fr.28" n="28">Est ce que la santé va bien<c type="kp">_</c> Poignée de main à toi et à ta femme<c type="kk">/</c> j’espère semaine prochaine t’envoyer des nouveaux dessins.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.29" n="29">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.30" n="30">Vincent.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Enclosed you’ll find an order for colours to replace the one in my previous letter.<ptr target="#note-t-1"/> We’ve had some fine hot days and I’ve got some more canvases on the go, so that there are 12 no. 30 canvases on the stocks.<ptr target="#note-t-2"/> Two studies of cypresses of that difficult shade of bottle green.<ptr target="#note-t-3"/> I’ve worked their foregrounds with thick impastos of white lead which gives firmness to the ground. I believe that <rs type="person" ref="bio.xml#_1240">Monticelli</rs>s were very often prepared in this way. One then places other colours on top. But I don’t know if the canvases are strong enough for this work.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Speaking of <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, <rs type="person" ref="bio.xml#_831">Bernard</rs> and the fact that they might well do more consolatory painting,<ptr target="#note-t-4"/> I must, however, add what I’ve anyway often said to Gauguin himself, that one must then not forget that others have already done so. But whatever the case, outside Paris one quickly forgets Paris, by throwing oneself into the heart of the country one changes one’s ideas. But I for one couldn’t forget all those beautiful Barbizon canvases then, and it seems unlikely and anyway unnecessary to do better than that.</p>
+<p rend="indent" xml:id="p.en.4" n="4">What’s <rs type="person" ref="bio.xml#_282">Andries Bonger</rs> doing, you don’t mention him in your last two or three letters.</p>
+<p rend="indent" xml:id="p.en.5" n="5">As for me, my health is still very good. And work is distracting me.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I have received, from one of our <rs type="person" ref="bio.xml#_401 bio.xml#_407">sisters</rs> probably, a book by <rs type="person" ref="bio.xml#_732">Rod</rs> which is not bad but whose title, Le sens de la vie, is really a little pretentious for the contents, it would appear to me.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Above all it’s not very cheering. The author, it seems to me, must have a lot of trouble with his lungs. And consequently a little with everything.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Anyway, he admits that he finds solace in the company of his wife, which is very well observed, but anyway, for my own use he teaches me absolutely nothing whatsoever about the meaning of life. For my part I could find him a little trite and be surprised that in these days he has had a book like that printed and that he’s selling it for 3 francs 50.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Anyway, I prefer <rs type="person" ref="bio.xml#_677">Alphonse Karr</rs>, <rs type="person" ref="bio.xml#_744">Souvestre</rs>, <rs type="person" ref="bio.xml#_586">Droz</rs>, because it’s a bit more alive than this. It’s true that I’m perhaps ungrateful, not even appreciating Abbé Constantin and other literary productions that illuminate the sweet reign of the naїve <rs type="person" ref="bio.xml#_327">Carnot</rs>.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">It appears that this book has made a great impression on our good <rs type="person" ref="bio.xml#_401 bio.xml#_407">sisters</rs>. Wil had moreover spoken to me of it, but the little women and books are two different things.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I’ve re-read <rs type="person" ref="bio.xml#_844">Voltaire</rs>’s Zadig ou la destinée with much pleasure. It’s like Candide. There, at least, the powerful author makes one glimpse that it’s still possible that life has a meaning, ‘although one agreed in conversation that the things of this world did not always go according to the wisest people’s liking’.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">As for me, I don’t know what to wish for, first of all working here or elsewhere appears to me more or less the same thing, and since I’m here, staying here the most simple. Only there’s a lack of news to write to you, for the days are all the same, as for ideas I have no others except to think that a wheatfield or a cypress are well worth the effort of looking at them from close at hand, and so on.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">I have a wheatfield, very yellow and very bright, perhaps the brightest canvas I’ve done.<ptr target="#note-t-8"/> The cypresses still preoccupy me, I’d like to do something with them like the canvases of the sunflowers<ptr target="#note-t-9"/> because it astonishes me that no one has yet done them as I see them.</p>
+<p rend="indent" xml:id="p.en.14" n="14">It’s beautiful as regards lines and proportions, like an Egyptian obelisk.</p>
+<p rend="indent" xml:id="p.en.15" n="15">And the green has such a distinguished quality.</p>
+<p rend="indent" xml:id="p.en.16" n="16">It’s the <hi rend="italics">dark</hi> patch<ptr target="#note-t-10"/> in a sun-drenched landscape, but it’s one of the most interesting dark notes, the most difficult to hit off exactly that I can imagine.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Now they must be seen here against the blue, <hi rend="italics">in</hi> the blue, rather.</p>
+<p rend="indent" xml:id="p.en.18" n="18">To do nature here, as everywhere, one must really be here for a long time.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Thus a <rs type="person" ref="bio.xml#_1241">Montenard</rs> doesn’t give me the true and intimate note,<ptr target="#note-t-11"/> for the light is mysterious, and <rs type="person" ref="bio.xml#_1240">Monticelli</rs> and <rs type="person" ref="bio.xml#_982">Delacroix</rs> felt that. Then <rs type="person" ref="bio.xml#_1268">Pissarro</rs> used to talk about it very well in the old days, and I’m still a long way from being able to do as he said one should.<ptr target="#note-t-12"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">Naturally it will please me if you send me the colours, soon if that’s possible, but above all do what you can without it exhausting you too much.</p>
+<p rend="indent" xml:id="p.en.21" n="21">So if you prefer to send me it in two batches, that’s also all right.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">I think that of the two canvases of cypresses, the one I’m making the croquis of will be the best.<ptr target="#note-t-13"/> The trees in it are very tall and massive. The foreground very low, brambles and undergrowth. Behind, violet hills, a green and pink sky with a crescent moon. The foreground, above all, is thickly impasted, tufts of bramble with yellow, violet, green highlights. I’ll send you drawings of them with two other drawings that I’ve also done.<ptr target="#note-t-14"/>
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">That will keep me busy for the next few days. Finding something to do all day is the big thing here.</p>
+<p rend="indent" xml:id="p.en.25" n="25">What a pity that one can’t move the building here. It would be magnificent to hold an exhibition there, all the empty rooms, the big corridors.</p>
+<p rend="indent" xml:id="p.en.26" n="26">I’d very much have liked to see that <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> painting you spoke about in your last letter.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">In the old days I saw in <rs type="person" ref="bio.xml#_30">Braun</rs>’s window a photo after a painting which must be from the fine late period (probably in the Hermitage series), in it there were large figures of angels, it was Abraham’s meal. 5 figures I think.<ptr target="#note-t-16"/> That too was extraordinary. As touching as The pilgrims at Emmaus, for example.<ptr target="#note-t-17"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">If ever there were a question of giving something to <rs type="person" ref="bio.xml#_663">Mr Salles</rs> for the trouble he has gone to – later one should give him <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>’s Pilgrims.</p>
+<p rend="indent" xml:id="p.en.29" n="29">Is your health good? Handshake to you and your <rs type="person" ref="bio.xml#_416">wife</rs>, I hope to send you new drawings next week.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.30" n="30">Ever yours,</p>
+<p xml:id="p.en.31" n="31">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh goes into the matter of what he wrote about Gauguin and Bernard in <ref target="let782.xml">letter 782</ref>, dated on or about 18 June. In the meantime there have been a few warm days and he has started new canvases. It cannot be said how many days have elapsed since the last letter. The weather reports offer no clues, for the temperatures were high throughout June. In <ref target="let784.xml">letter 784</ref> of 2 July, he resumes the order for paints included in this letter, which must therefore have been written earlier. In <hi rend="italics">Brieven </hi>1914 Jo van Gogh-Bonger dated the letter to Tuesday, 25 June 1889; it is possible she relied on a postmark. Because there are no other leads, we have adopted her dating.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Vincent had included in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let779.xml">letter 779</ref> a new order for paints for the month of June. The replacement list sent with this letter is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Among these twelve no. 30 canvases were the eleven paintings of which Vincent would send drawings to Theo a week later (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let784.xml">see letter 784</ref>): <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Trees with ivy in the garden of the asylum </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2789">F 609 / JH 1693</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2807">F 613 / JH 1746</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2809">F 620 / JH 1748</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fields with poppies </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2811">F 581 / JH 1751</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield and cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2816">F 717 / JH 1756</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Starry night </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2801">F 612 / JH 1731</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Olive trees with the Alpilles in the background </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2803">F 712 / JH 1740</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2798">F 719 / JH 1725</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield after a storm</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2796">F 611 / JH 1723</rs>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Reaper </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2813">F 617 / JH 1753</rs>), and the underlying depiction of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ravine </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2853">F 662 / JH 1804</rs>); <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let779.xml#n-5">see letter 779, n. 5.</ref></p>
+
+<p rend="indent">The twelfth canvas could be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Olive trees</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2819">F 715 / JH 1759</rs>) or <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Green wheatfield with rising sun</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_849">F 720 / JH 1728</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2807">F 613 / JH 1746</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2809">F 620 / JH 1748</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh wrote this in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let782.xml">letter 782</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>The novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_318">Le sens de la vie</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_732">Edouard Rod</rs> (1889) consists of four parts: ‘Mariage’, ‘Paternité’, ‘Altruisme’ and ‘Religion’. It is a sequel to the novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_436">La course à la mort</ref></hi>, in which the protagonist is interested only in selfish pleasures. In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le sens de la vie</hi> he assumes social responsibility and becomes bound up in married life and fatherhood, albeit after a good deal of scepticism and inner struggle. The first and second editions, which were published in Paris in 1889 in the series ‘Librairie Académique Didier’ at Perrin et Cie, ‘Libraires-Éditeurs’, state the price on the cover: 3.50 francs.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>In 1887 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_327">Sadi Carnot</rs> was elected President of France by an overwhelming majority. He was known for his respectful attitude towards the church and encouraged the Ralliement (‘Rallying’; the acceptance of the Third Republic by the French monarchists). In May 1889 Carnot had spoken four times at the opening of the World Exhibition, where he called for peace and solidarity. See Patrick Harismendy, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sadi Carnot. L’ingénieur de la République</hi>. Paris 1995, esp. pp. 318-383. The connection between Carnot and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_652">Halévy</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’abbé Constantin</hi> probably has to do with Van Gogh’s criticism of this peaceful novel, in which all conflict is avoided, as ‘terribly sweet and heavenly’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let626.xml">see letter 626</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>With regard to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_844">Voltaire</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_445">Candide</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let568.xml#n-3">see letter 568, n. 3.</ref><hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>Here Van Gogh quotes from Voltaire’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_117">Zadig, ou la destinée</ref></hi>, ‘L’Ermite’ (The hermit) (chapter 18). See ed. Loïc Marcou. Paris 1996, p. 141. The protagonist, Zadig, has an experience similar to that of Candide: he, too, is forced to flee and subsequently experiences the outside world. While <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Candide </hi>comments on optimism, however, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Zadig</hi> treats the connection between fate and chance. Voltaire’s view is moderately optimistic: evil and the absurdity of chance only seem to prevail.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Reaper </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2813">F 617 / JH 1753</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The third consignment of paintings from Arles (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let767.xml">letter 767</ref>) contained the following paintings of sunflowers: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2701">F 453 / JH 1559</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2702">F 459 / JH 1560</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2704">F 454 / JH 1562</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2703">F 456 / JH 1561</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2771">F 458 / JH 1667</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2772">F 455 / JH 1668</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2770">F 457 / JH 1666</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>As is often the case, Van Gogh’s use of the word ‘noir’ (black) must be interpreted as ‘dark’ (in this case dark green).</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1241">Montenard</rs> was known for his depiction of the warm Mediterranean sunlight in his Provençal landscapes and seascapes.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh is probably referring to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1268">Pissarro</rs>’s statements about painting effects of colour and light, which he referred to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let620.xml">letters 620</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let707.xml">707</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_210">F - / JH 1750</rs>) was made after the painting of the same name <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2807">F 613 / JH 1746</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>The two drawings after the paintings of cypresses (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">n. 2</ref> above) are <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2808">F 1525 / JH 1747</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2810">F 1524 / JH 1749</rs>). The other two drawings Van Gogh refers to here cannot be identified; they were probably in the batch he sent to Theo a week later (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">see n. 2</ref> above).</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>On <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_850">The archangel Raphael</rs> </hi>(no longer attributed to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>), <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let781.xml#n-4">see letter 781, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Abraham’s meal</hi> (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Abraham receives the three angels</hi>), 1646 (present whereabouts unknown; Bredius 515). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_353">Ill. 353</rs>. Four figures are depicted in this work.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Regarding <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1710">Pilgrims at Emmaus</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let034.xml#n-5">see letter 34, n. 5.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

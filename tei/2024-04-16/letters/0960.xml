@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Isleworth, Friday, 3 November 1876.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let096"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b1462 a-b V/1962 (sheet 2, 3)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>096</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>79</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>095</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1876-12-03">Friday, 3 November 1876</date>
+                            <placeName>Isleworth</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0092" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000096_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000096_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0092" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000096_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000096_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1462 a" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001001347_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-3">
+<graphic url="https://example.com/iiif/VGM001001347_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-6">
+<graphic url="https://example.com/iiif/VGM001001347_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1462 a" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001001347_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-4">
+<graphic url="https://example.com/iiif/VGM001001347_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-5">
+<graphic url="https://example.com/iiif/VGM001001347_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1462 b" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001348_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001001348_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 1462 b" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001001348_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001001348_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Isleworth</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Het is weer meer dan tijd dat gij iets van mij hoort<c type="kp">_</c></p>
+
+<p xml:id="p.nl.4" n="4">Goddank het vooruitgaat met de beterschap, ik verlang toch zoo naar Kersmis ─ die tijd zal misschien daar zijn vóór wij het weten al schijnt het ook lang nog.─</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Theo<c type="kk">/</c> uw broer heeft verleden Zondag voor het eerst ge<c type="shy">-</c>sproken in Gods huis<c type="kk">/</c><ptr target="#note-t-1"/> in de plaats waarvan staat “in deze plaats zal Ik vrede geven”<c type="kp">_</c><ptr target="#note-t-2"/> hierbij schrijf ik over wat het was<c type="kp">_</c>─ Moge het de eersteling zijn van velen<c type="kp">_</c>─ </p>
+  
+<p rend="indent" xml:id="p.nl.6" n="6">Het was een helderen herfstdag en eene mooie wandeling van hier naar Richmond langs den Theems waarin de groote kastanjeboomen met hunne vracht van geele bladeren en de helder blaauwe lucht in spiegelden, en tusschen de toppen van die boomen door het gedeelte van Richmond dat op den heuvel ligt<c type="kk">/</c> de huizen met hunne roode daken en vensters zonder gordijnen en groene tuinen en den grijzen toren er boven uit en beneden de groote grijze brug met de hooge populieren aan weêrskanten en waarover men de menschen als kleine zwarte figuurtjes zag gaan. Ik had een gevoel als iemand die uit een donker gewelf onder den grond weer in ’t vriendlijk daglicht komt toen ik op den preekstoel stond en het is mij eene heerlijke gedachte dat voortaan waar ik komen zal ik het evangelie zal prediken ─ om dat <hi rend="italics">wel</hi> te doen moet men het evangelie in zijn hart hebben<c type="kk">/</c> moge Hij het er scheppen.─ God spreekt<c type="kk">/</c> daar zij licht en daar is licht<c type="kp">_</c><ptr target="#note-t-3"/> Hij spreekt en <hi rend="italics">het</hi> is er<c type="kp">_</c> Hij gebiedt en het staat er en het staat vast<c type="kp">_</c><ptr target="#note-t-4"/> Hij die ons roept is getrouw<c type="kk">/</c> die <hi rend="italics">het</hi> ook doen zal.─<ptr target="#note-t-5"/> Gij weet genoeg van de wereld, Theo, om te zien hoe een <hi rend="italics">arm</hi> prediker nog al alleen staat, wat de wereld aangaat ─ maar Hij kan wekken in ons, meer en meer, de bewustheid en 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>het geloofsvertrouwen<c type="kp">_</c> “En nogthans ben ik niet alleen want de Vader is met mij”<c type="kp">_</c><ptr target="#note-t-6"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.7" n="7">Ik weet aan Wien ik mij vertrouwe</p>
+
+<p xml:id="p.nl.8" n="8">Al wisselen ook dag en nacht</p>
+
+<p xml:id="p.nl.9" n="9">Ik ken de rots waarop ik bouwe</p>
+
+<p xml:id="p.nl.10" n="10">Hij feilt niet die ons heil verwacht</p>
+
+<p xml:id="p.nl.11" n="11">Eens aan den avond van mijn leven</p>
+
+<p xml:id="p.nl.12" n="12">Breng ik van zorg en strijden moe</p>
+
+<p xml:id="p.nl.13" n="13">Voor elken dag mij hier gegeven</p>
+
+<p xml:id="p.nl.14" n="14">U hooger reiner loflied toe.<ptr target="#note-t-7"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.15" n="15">Roem Christen aan uw slinke</p>
+
+<p xml:id="p.nl.16" n="16">En regterzijde is God ─</p>
+
+<p xml:id="p.nl.17" n="17">Waar ’k magtloos nederzinke,</p>
+
+<p xml:id="p.nl.18" n="18">Of bitter lijde is God ─</p>
+
+<p xml:id="p.nl.19" n="19">Waar trouwe vriendenhanden</p>
+
+<p xml:id="p.nl.20" n="20">Niet helpen, daar is God ─</p>
+
+<p xml:id="p.nl.21" n="21">In dood en doodsche banden</p>
+
+<p xml:id="p.nl.22" n="22">Ja overal is God.─<ptr target="#note-t-8"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.23" n="23">Maar jongen wat verlang ik naar Kersmis en naar U allen<c type="kk">/</c> ’t is mij alweer als was ik jaren ouder geworden in die weinige maanden.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.24" n="24">’t Hijgend hert der jagt ontkomen</p>
+
+<p xml:id="p.nl.25" n="25">Hijgt niet sterker naar ’t genot</p>
+
+<p xml:id="p.nl.26" n="26">Van de frissche waterstroomen</p>
+
+<p xml:id="p.nl.27" n="27">Dan mijn ziel verlangt naar God</p>
+
+<p xml:id="p.nl.28" n="28">Ja mijn ziel dorst naar den Heer</p>
+
+<p xml:id="p.nl.29" n="29">God des levens, ach wanneer,</p>
+
+<p xml:id="p.nl.30" n="30">Zal ik nadren voor Uw oogen</p>
+
+<p xml:id="p.nl.31" n="31">In Uw huis Uw naam verhoogen<c type="kp">_</c><ptr target="#note-t-9"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.32" n="32">O mijn ziel, wat buigt ge U neder</p>
+
+<p xml:id="p.nl.33" n="33">Waarom zijt ge in mij ontrust</p>
+
+<p xml:id="p.nl.34" n="34">Voed het oud vertrouwen weder</p>
+
+<p xml:id="p.nl.35" n="35">Zoek in s’Hoogsten lof uw lust</p>
+
+<p xml:id="p.nl.36" n="36">Menigwerf heeft Hij uw druk</p>
+
+<p xml:id="p.nl.37" n="37">Doen verandren in geluk</p>
+
+<p xml:id="p.nl.38" n="38">Hoop op Hem, sla ’t oog naar boven</p>
+
+<p xml:id="p.nl.39" n="39">Want ik zal mijn God nog loven.<ptr target="#note-t-10"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.40" n="40">Mijn jongen indien teleurstelling en ziekte en moeite ons ontmoeten<c type="kk">/</c> laat ons dan Hem danken dat Hij ons bragt in deze uren ─ en laat ons de zachtmoedigheid niet vergeten want daar staat geschreven: On this man will I look<c type="kk">/</c> even on him who is poor and sorrowful and who trembleth at My word.<ptr target="#note-t-11"/> Gisteren avond was ik weer te Richmond<ptr target="#note-t-12"/> en wandelde daar op een groot grasveld met boomen omgeven en de huizen er omheen waarboven de toren uitstak<c type="kp">_</c> De dauw lag op het gras en het schemerde; aan den eenen kant was de lucht nog vol gloed van de zon die daar was ondergegaan<c type="kk">/</c> aan den anderen kant ging de maan op. Onder de boomen wandelde eene oude dame (in het zwart) met mooi grijs haar<c type="kp">_</c> Midden op het grasveld hadden de jongens een groot vuur aange<c type="shy">-</c>stoken<c type="kk">/</c> dat zag men in de verte flikkeren; ik dacht aan dat: eens aan den avond van mijn leven, breng ik van zorg en strijden moe, voor elken dag mij hier gegeven U hooger reiner loflied toe.<ptr target="#note-t-13"/> à Dieu, een handdruk in gedachten van</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.41" n="41">Uw zoo liefh. broer</p>
+
+<p xml:id="p.nl.42" n="42">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.43" n="43">Groeten aan de Hr en Mevr. Tersteeg<c type="kk">/</c> Haanebeek<c type="kk">/</c> v. Stockum en allen bij Roos en v. Iterson en als gij den een of ander zien mogt die ik ken.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.44" n="44">Uw broer was wel ontroerd toen hij stond aan den voet van den preekstoel en zijn hoofd boog en bad “Abba Vader in Uwen naam zij ons begin”.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.45" n="45">Donderdag 8 dagen hoop ik in Mr Jones’ kerk te spreken:<ptr target="#note-t-14"/> And the Lord added daily to the church such as should be saved<c type="kk">/</c><ptr target="#note-t-15"/> over Johannes en Theagenes.<ptr target="#note-t-16"/></p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="3" xml:id="pb-orig-2r-3" facs="#zone-pb-2r-3"/>
+
+<p xml:lang="en" xml:id="p.nl.46" n="46">Psalm 119:19 I am a stranger in the earth<c type="kk">/</c> hide not Thy command<c type="shy">-</c>ments from me.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.47" n="47">It is an old faith and it is a good faith that our life is a pilgrims progress ─ that we are strangers in the earth, but that though this be so<c type="kk">/</c> yet we are not alone for our Father is with us. We are pilgrims, our life is a long walk<c type="kk">/</c> a journey from earth to heaven.─<ptr target="#note-t-17"/></p>
+
+<p rend="indent" xml:id="p.nl.48" n="48">The beginning of this life is this. There is one who remembereth no more Her sorrow and Her anguish for joy that a man is born into the world<c type="kp">_</c> She is our Mother. The end of our pilgrimage is the entering in Our Fathers house where are many mansions<c type="kk">/</c> where He has gone before us to prepare a place for us.─<ptr target="#note-t-18"/> The end of this life is what we call death ─ it is an hour in which words are spoken<c type="kk">/</c> things are seen and felt that are kept in the secret chambers of the hearts of those who stand by, ─ it is so that all of us have such things in our hearts or forebodings of such things<c type="kp">_</c>─ There is sorrow in the hour when a man is born into the world, but also joy<ptr target="#note-t-19"/> ─ deep and unspeakable ─ thankfulness so great that it reacheth the highest Heavens. Yes the Angels of God<c type="kk">/</c> they smile<c type="kk">/</c> they hope and they rejoice when a man is born in the world<c type="kp">_</c>─ There is sorrow in the hour of death ─ but there too is joy unspeakable when it is the hour of death of one who has fought a good fight.<ptr target="#note-t-20"/> There is One who has said<c type="kk">/</c> I am the resurrection and the life<c type="kk">/</c> if any man believeth in Me<c type="kk">/</c> though he were dead<c type="kk">/</c> yet shall he live<c type="kp">_</c>─<ptr target="#note-t-21"/> There was an Apostle who heard a voice from heaven<c type="kk">/</c> saying: Blessed are they that die in the Lord for they rest from their labour and their works follow them.<ptr target="#note-t-22"/> There is joy when a man is born in the world but there is greater joy when a Spirit has passed through great tribulation<c type="kk">/</c> when an Angel is born in Heaven. Sorrow is better than joy<ptr target="#note-t-23"/> ─ and even in mirth the heart is sad<ptr target="#note-t-24"/> ─ and it is better to go to the house of mourning than to the house of feasts,<ptr target="#note-t-25"/> for by the sadness of the countenance the heart is made better.<ptr target="#note-t-26"/> Our nature is sorrowful but for those who have learnt and are learning to look at Jesus Christ there is always reason to rejoice.─ It is a good word<c type="kk">/</c> that of S<hi rend="super">t</hi> Paul: As being sorrowful yet always rejoicing.<ptr target="#note-t-27"/> For those who believe in Jesus Christ there is no death and no sorrow that is not mixed with hope ─ no despair ─ there is only a constantly being born again<c type="kk">/</c><ptr target="#note-t-28"/> a constantly going from darkness into light<c type="kp">_</c>─<ptr target="#note-t-29"/> They do not mourn as those who have no hope ─ Christian Faith makes life to evergreen life<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.49" n="49">We are pilgrims in the earth and strangers<ptr target="#note-t-30"/> ─ we come from afar and we are going far<c type="kp">_</c>─ The journey of our life goes from the loving breast of our Mother on earth to the arms of our Father in heaven. Everything on earth changes ─ we have no abiding city here<ptr target="#note-t-31"/> ─ it is the experience of everybody: That it is Gods will that we should part with what we dearest have on earth ─ we ourselves<c type="kk">/</c> we change in many respects, we are not what we once were, we shall not remain what we are now<c type="kp">_</c>─ From infancy we grow up to boys and girls ─ young men and young women ─ and if God spares us and helps us ─ to husbands and wives, Fathers and Mothers in our turn, and then, slowly but surely the face that once had the “early dew of morning”<ptr target="#note-t-32"/> gets its wrinkles<c type="kk">/</c> the eyes that once beamed with youth and glad<c type="shy">-</c>ness speak of a sincere deep and earnest sadness ─ though they may keep the fire of Faith<c type="kk">/</c> Hope and Charity<ptr target="#note-t-33"/> ─ though they may beam with Gods spirit. The hair turns grey or we loose it ─ ah ─ indeed we only pass through the earth<c type="kk">/</c> we only pass through life ─ we are strangers and pilgrims in the earth<c type="kp">_</c><ptr target="#note-t-34"/> The world passes and all its glory<c type="kp">_</c>─<ptr target="#note-t-35"/> Let our later days be nearer to Thee and therefore better than these.─</p>
+<pb f="2v" n="4" xml:id="pb-orig-2v-4" facs="#zone-pb-2v-4"/>
+
+<p rend="indent" xml:id="p.nl.50" n="50">Yet we may not live on just anyhow ─ no<c type="kk">/</c> we have a strife to strive and a fight to fight.<ptr target="#note-t-36"/> What is it we must do: We must love God with all our strength<c type="kk">/</c> with all our might<c type="kk">/</c> with all our heart<c type="kk">/</c> with all our soul, we must love our neighbour as ourselves.<ptr target="#note-t-37"/> These two commandments we must keep and if we follow after these<c type="kk">/</c> if we are devoted to this<c type="kk">/</c> we are not alone for our Father in Heaven is with us<c type="kk">/</c> helps us and guides us<c type="kk">/</c> gives us strength day by day<c type="kk">/</c> hour by hour. and so we can do all things through Christ who gives us might.<ptr target="#note-t-38"/> We are strangers in the earth<c type="kk">/</c> hide not Thy commandments from us<c type="kp">_</c> Open Thou our eyes<c type="kk">/</c> that we may behold wondrous things out of Thy law.<ptr target="#note-t-39"/> Teach us to do Thy will<ptr target="#note-t-40"/> and influence our hearts that the love of Christ may constrain us<ptr target="#note-t-41"/> and that we may be brought to do what we must do to be saved.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.51" n="51">On the road from earth to Heaven</p>
+
+<p xml:lang="en" xml:id="p.nl.52" n="52">Do Thou guide us with Thine eye<c type="kp">_</c><ptr target="#note-t-42"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.53" n="53">We are weak but Thou art mighty</p>
+
+<p xml:lang="en" xml:id="p.nl.54" n="54">Hold us with Thy powerful hand.<ptr target="#note-t-43"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.55" n="55">Our life<c type="kk">/</c> we might compare it to a journey, we go from the place where we were born to a far off haven<c type="kp">_</c> Our earlier life might be compared to sailing on a river, but very soon the waves become higher, the wind more violent<c type="kk">/</c> we are at sea almost before we are aware of it ─ and the prayer from the heart ariseth to God: Protect me o God<c type="kk">/</c> for my bark is so small and Thy sea is so great.─<ptr target="#note-t-44"/> The heart of man is very much like the sea<c type="kk">/</c> it has its storms<c type="kk">/</c> it has its tides and in its depths it has its pearls too<c type="kp">_</c> The heart that seeks for God and for a Godly life has more storms than any other. Let us see how the Psalmist describes a storm at sea, He must have felt the storm in his heart to describe it so. We read in the 107<hi rend="super">th</hi> Psalm<c type="kk">/</c> They that go down to the sea in ships<c type="kk">/</c> that do business in great waters<c type="kk">/</c> these see the works of the Lord and His wonders in the deep<c type="kp">_</c> For He commandeth and raiseth up a stormy wind which lifteth up the waves thereof.─ They mount up to Heaven<c type="kk">/</c> they go down again to the depth<c type="kk">/</c> their soul melteth in them because of their trouble<c type="kp">_</c> Then they cry unto the Lord in their trouble and He bringeth them out of their distresses<c type="kk">/</c> He bringeth them unto their desired haven.─<ptr target="#note-t-45"/></p>
+
+<p rend="indent" xml:id="p.nl.56" n="56">Do we not feel this sometimes on the sea of our lives<c type="kp">_</c> Does not everyone of you feel with me the storms of life or their forebodings or their recollections?</p>
+
+<p rend="indent" xml:id="p.nl.57" n="57">And now let us read a description of another storm at sea in the New Testament, as we find it in the VI<hi rend="super">th</hi> Chapter of the Gospel according to S<hi rend="super">t</hi> John in the 17<hi rend="super">th</hi> to the 21<hi rend="super">st</hi> verse. And the disciples entered into a ship and went over the sea toward Capernaum. And the sea arose by reason of a great wind that blew<c type="kp">_</c>─ So when they had rowed about five and twenty or thirty furlongs, they see Jesus walking on the sea and drawing nigh unto the ship and they were afraid<c type="kp">_</c>─ Then they willingly received Him into the ship and immediately the ship was at the land whither they went<c type="kp">_</c><ptr target="#note-t-46"/> You who have experienced the great storms of life, you over whom all the waves and all the billows of the Lord have gone ─ have you not heard<c type="kk">/</c> when your heart failed for fear<c type="kk">/</c> the beloved well known voice ─ with some<c type="shy">-</c>thing in its tone that reminded you of the voices that charmed your childhood ─ the voice of Him whose name is Saviour and Prince of peace,<ptr target="#note-t-47"/> saying as it were to you personally ─ mind to you personally “It is I<c type="kk">/</c> be not afraid”<c type="kp">_</c><ptr target="#note-t-48"/> Fear not<c type="kp">_</c>─<ptr target="#note-t-49"/> Let not your heart be troubled.<ptr target="#note-t-50"/> And we whose lives have been calm up to now, calm in comparison of what others have felt ─ let us not fear the storms of life, amidst the high waves of the sea and under the grey clouds of the sky we shall see Him approaching for Whom we have so often longed and watched, Him we need so ─ and we shall 
+<pb f="2v" n="5" xml:id="pb-orig-2v-5" facs="#zone-pb-2v-5"/>hear His voice<c type="kk">/</c> It is I<c type="kk">/</c> be not afraid<c type="kp">_</c>─ And if after an hour or season of anguish or distress<ptr target="#note-t-51"/> or great difficulty or pain or sorrow we hear Him ask us “Dost Thou love me” then let us say<c type="kk">/</c> Lord Thou knowest all things<c type="kk">/</c> Thou knowest that I love Thee.<ptr target="#note-t-52"/> And let us keep that heart full of the love of Christ and may from thence issue a life which the love of Christ constraineth.─<ptr target="#note-t-53"/> Lord Thou knowest all things<c type="kk">/</c> Thou knowest that I love Thee<c type="kk">/</c> when we look back on our past we feel sometimes as if we did love Thee, for whatsoever we have loved<c type="kk">/</c> we loved in Thy name. Have we not often felt as a widow and an orphan ─ in joy and prosperity as well<c type="kk">/</c> and more even than under grief ─ because of the thought of Thee.─</p>
+
+<p rend="indent" xml:id="p.nl.58" n="58">Truly our soul waiteth for Thee more than they that watch for the morning<ptr target="#note-t-54"/> ─ our eyes are up unto Thee<c type="kk">/</c> o Thou who dwellest in Heavens<c type="kp">_</c>─<ptr target="#note-t-55"/> In our days too there can be such a thing as seeking the Lord.─</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.59" n="59">What is it we ask of God ─ is it a great thing? Yes it is a great thing<c type="kk">/</c> peace for the ground of our heart, rest for our soul ─ give us that one thing and then we want not much more, then we can do without many things<c type="kk">/</c> then can we suffer great things for Thy names sake.─<ptr target="#note-t-56"/> We want to know that we are Thine and that Thou art ours<c type="kk">/</c> we want to be thine ─ to be Christians<c type="kp">_</c>─ We want a Father, a Fathers love and a Fathers approval. May the experience of life make our eye single<ptr target="#note-t-57"/> and fix it on Thee<c type="kp">_</c> May we grow better as we go on in life.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.60" n="60">We have spoken of the storms on the journey of life, but now let us speak of the calms and joys of Christian life<c type="kp">_</c>─ And yet, my dear friends<c type="kk">/</c> let us rather cling to the seasons of difficulty and work and sorrow<c type="kk">/</c> even for the calms are treacherous often.</p>
+
+<p rend="indent" xml:id="p.nl.61" n="61">The heart has its storms, has its seasons of drooping<ptr target="#note-t-58"/> but also its calms and even its times of exaltation<c type="kp">_</c>─ There is a time of sighing and of praying but there is also a time of answer to prayer. Weeping may endure for a night but joy cometh in the morning<c type="kp">_</c><ptr target="#note-t-59"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.62" n="62">The heart that is fainting</p>
+
+<p xml:lang="en" xml:id="p.nl.63" n="63">May grow full to o’erflowing</p>
+
+<p xml:lang="en" xml:id="p.nl.64" n="64">And they that behold it</p>
+
+<p xml:lang="en" xml:id="p.nl.65" n="65">Shall wonder and know not</p>
+
+<p xml:lang="en" xml:id="p.nl.66" n="66">That God at its fountains</p>
+
+<p xml:lang="en" xml:id="p.nl.67" n="67">Far off has been raining<c type="kp">_</c><ptr target="#note-t-60"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.68" n="68">My peace I leave with you<ptr target="#note-t-61"/> ─ we saw how there is peace even in the storm. Thanks be to God who has given us to be born and to live in a Christian country<c type="kp">_</c> Has any of us forgotten the golden hours of our early days at home, and since we left that home ─ for many of us have had to leave that home and to earn their living and to make their way in the world<c type="kp">_</c>─ Has He not brought us thus far<c type="kk">/</c> have we lacked anything<c type="kp">_</c><ptr target="#note-t-62"/> We believe Lord<c type="kk">/</c> help Thou our unbelief.<ptr target="#note-t-63"/> I still feel the rapture<c type="kk">/</c> the thrill of joy I felt when for the first time I cast a deep look in the lives of my Parents<c type="kk">/</c> when I felt by instinct how much they were Christians<c type="kp">_</c> And I still feel that feeling of eternal youth and enthusiasm wherewith I went to God<c type="kk">/</c> saying “I will be a Christian too”<c type="kp">_</c>─</p>
+<pb f="2r" n="6" xml:id="pb-orig-2r-6" facs="#zone-pb-2r-6"/>
+  
+<p rend="indent" xml:id="p.nl.69" n="69">Are we what we dreamt we should be? No ─ but still ─ the sorrows of life<c type="kk">/</c> the multitude of things of daily life and of daily duties<c type="kk">/</c> so much more numerous than we expected ─ the tossing to and fro in the world<c type="kk">/</c> they have covered it over ─ but it is not dead<c type="kk">/</c> it sleepeth<c type="kp">_</c>─<ptr target="#note-t-64"/> The old eternal faith and love of Christ<c type="kk">/</c> it may sleep in us but it is not dead and God can revive it in us. But though to be born again to eternal life<c type="kk">/</c><ptr target="#note-t-65"/> to the life of Faith<c type="kk">/</c> Hope and Charity<ptr target="#note-t-66"/> ─ and to an evergreen life ─ to the life of a Christian and of a Christian workman<ptr target="#note-t-67"/> be a gift of God<c type="kk">/</c> a work of God ─ and of God alone ─ yet let us put the hand to the plough<ptr target="#note-t-68"/> on the field of our heart, let us cast out our net once more<ptr target="#note-t-69"/> ─ let us try once more ─ God knows the intention of the spirit<c type="kk">/</c> God knows us better than we know ourselves for He made us and not we ourselves<c type="kp">_</c><ptr target="#note-t-70"/> He knows of what things we have need<c type="kk">/</c><ptr target="#note-t-71"/> He knows what is good for us<c type="kp">_</c> May He give His blessing on the seed of His word<ptr target="#note-t-72"/> that has been sown in our hearts.</p>
+
+<p rend="indent" xml:id="p.nl.70" n="70">God helping us<c type="kk">/</c> we shall get through life<c type="kp">_</c>─ With every temptation He will give a way to escape<c type="kp">_</c>─<ptr target="#note-t-73"/></p>
+
+<p rend="indent" xml:id="p.nl.71" n="71">Father we pray Thee not that Thou shouldest take us out of the world but we pray Thee to keep us from evil.<ptr target="#note-t-74"/> Give us neither poverty nor riches<c type="kk">/</c> feed us with bread convenient for us.<ptr target="#note-t-75"/> And let Thy songs be our delight in the houses of our pilgrimage<c type="kp">_</c> God of our Fathers be our God: may their people be our people<c type="kk">/</c> their Faith our faith<c type="kp">_</c>─<ptr target="#note-t-76"/> We are strangers in the earth, hide not Thy commandments from us but may the love of Christ constrain us.<ptr target="#note-t-77"/> Entreat us not to leave Thee or to refrain from following after Thee<c type="kp">_</c> Thy people shall be our people<c type="kk">/</c> Thou shalt be our God.─<ptr target="#note-t-78"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.72" n="72">Our life is a pilgrims progress<c type="kp">_</c> <hi rend="italics">I once saw a very beautiful picture</hi><c type="kk">/</c><ptr target="#note-t-79"/> it was a landscape at evening. In the distance on the right hand side a row of hills appearing blue in the evening mist<c type="kp">_</c> Above those hills the splendour of the sunset<c type="kk">/</c> the grey clouds with their linings of silver and gold and purple. The landscape is a plain or heath covered with grass and heather<c type="kk">/</c> here and there the white stem of a birch tree and its yellow leaves<c type="kk">/</c> for it was in Autumn. Through the landscape a road leads to a high mountain far far away<c type="kk">/</c> on the top of that mountain a city whereon the setting sun casts a glory<c type="kp">_</c> On the road walks a pilgrim<c type="kk">/</c> staff in hand<c type="kp">_</c> He has been walking for a good long while already and he is very tired. And now he meets a woman, a figure in black that makes one think of S<hi rend="super">t</hi> Pauls word “As being sorrowful yet always rejoicing”<c type="kp">_</c><ptr target="#note-t-80"/> That Angel of God has been placed there to encourage the pilgrims and to answer their questions:</p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p xml:id="p.nl.73" n="73">And the pilgrim asks her: Does the road go uphill then all the way?</p>
+
+<p xml:id="p.nl.74" n="74">and the answer is:  “Yes to the very end”─</p>
+
+<p xml:id="p.nl.75" n="75">and he asks again:  And will the journey take all day long?</p>
+
+<p xml:id="p.nl.76" n="76">and the answer is:  “From morn till night my friend”.<ptr target="#note-t-81"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.77" n="77">And the pilgrim goes on sorrowful yet always rejoicing<ptr target="#note-t-82"/> ─ sorrowful because it is so far off and the road so long<c type="kp">_</c>─ Hopeful as he looks up to the eternal city far away<c type="kk">/</c> resplendent in the evening glow<c type="kk">/</c> and he thinks of two old sayings he has heard long ago ─ the one is:</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.78" n="78">“There must much strife be striven</p>
+
+<p xml:lang="en" xml:id="p.nl.79" n="79">There must much suffering be suffered</p>
+
+<p xml:lang="en" xml:id="p.nl.80" n="80">There must much prayer be prayed</p>
+
+<p xml:lang="en" xml:id="p.nl.81" n="81">And then the end will be peace.”<ptr target="#note-t-83"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.82" n="82">and the other:</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.83" n="83">The water comes up to the lips</p>
+
+<p xml:lang="en" xml:id="p.nl.84" n="84">But higher comes it not.<ptr target="#note-t-84"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.85" n="85">And he says<c type="kk">/</c> I shall be more and more tired but also nearer and nearer to Thee.<ptr target="#note-t-85"/> Has not man a strife on earth? But there is a consolation from God in this life. An angel of God<c type="kk">/</c> comforting men ─ that is the Angel of Charity<c type="kp">_</c> Let us not forget Her<c type="kp">_</c>─ And when everyone of us goes back to daily things and daily duties<c type="kk">/</c> let us not forget ─ that things are not what they seem, that God by the things of daily life teacheth us higher things, ─ that our life is a pilgrims progress and that we are strangers in the earth ─ but that we have a God and Father who preserveth strangers,<ptr target="#note-t-86"/> ─ and that we are all bretheren.─<ptr target="#note-t-87"/></p>
+
+<p rend="indent" xml:id="p.nl.86" n="86">Amen.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.87" n="87">And now the grace of our Lord Jesus Christ, and the love of God, our Father, and the fellowship of the Holy Ghost, be with us for evermore<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.88" n="88">Amen<c type="kp">_</c><ptr target="#note-t-88"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.89" n="89">(Reading Scripture Psalm XCI)</p>
+  <space unit="lines" quantity="1"/>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>
+
+<p xml:lang="en" xml:id="p.nl.90" n="90">Tossed with rough winds and faint with fear,</p>
+
+<p xml:lang="en" xml:id="p.nl.91" n="91">Above the tempest soft and clear</p>
+
+<p xml:lang="en" xml:id="p.nl.92" n="92">What still small accents greet mine ear</p>
+
+<p xml:lang="en" xml:id="p.nl.93" n="93">“’t Is I<c type="kk">/</c> be not afraid.”</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.94" n="94">’t Is I, who washed thy spirit white;</p>
+
+<p xml:lang="en" xml:id="p.nl.95" n="95">’t Is I, who gave thy blind eyes sight,</p>
+
+<p xml:lang="en" xml:id="p.nl.96" n="96">’t Is I, thy Lord, thy life<c type="kk">/</c> thy light,</p>
+
+<p xml:lang="en" xml:id="p.nl.97" n="97">’t Is I<c type="kk">/</c> be not afraid<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.98" n="98">These raging winds, this surging sea</p>
+
+<p xml:lang="en" xml:id="p.nl.99" n="99">Have spent their deadly force on me</p>
+
+<p xml:lang="en" xml:id="p.nl.100" n="100">They bear no breath of wrath to Thee</p>
+
+<p xml:lang="en" xml:id="p.nl.101" n="101">’t Is I<c type="kk">/</c> be not afraid.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.102" n="102">This bitter cup<c type="kk">/</c> I drank it first</p>
+
+<p xml:lang="en" xml:id="p.nl.103" n="103">To Thee it is no draught accurst</p>
+
+<p xml:lang="en" xml:id="p.nl.104" n="104">The hand that gives it thee is pierced</p>
+
+<p xml:lang="en" xml:id="p.nl.105" n="105">“’t Is I<c type="kk">/</c> be not afraid<c type="kp">_</c>”</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.106" n="106">When on the other side thy feet,</p>
+
+<p xml:lang="en" xml:id="p.nl.107" n="107">Shall rest, mid thousand welcomes sweet;</p>
+
+<p xml:lang="en" xml:id="p.nl.108" n="108">One well known voice thy heart shall greet ─</p>
+
+<p xml:lang="en" xml:id="p.nl.109" n="109">’t Is I<c type="kk">/</c> be not afraid.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:lang="en" xml:id="p.nl.110" n="110">Mine eyes are watching by thy bed</p>
+
+<p xml:lang="en" xml:id="p.nl.111" n="111">Mine arms are underneath thy head</p>
+
+<p xml:lang="en" xml:id="p.nl.112" n="112">My blessing is around Thee shed</p>
+
+<p xml:lang="en" xml:id="p.nl.113" n="113">“’t Is I<c type="kk">/</c> be not afraid<c type="kp">_</c>”<ptr target="#note-t-89"/></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.114" n="114">Nogmaals een hand in gedachten ─ gisteren avond was ik te Turnham Green om daar dienst te doen voor Mr Jones die niet wel was. Ik wandelde er heen met den oudsten jongen<c type="kk">/</c> 17 jaar maar is zoo groot als ik en heeft een baard. Hij zal later in de zaken gaan<c type="kk">/</c> zijn Vader heeft eene groote fabriek<c type="kk">/</c> hij heeft een braaf<c type="kk">/</c> goed<c type="kk">/</c> gevoelig hart en eene groote behoefte aan Godsdienst<c type="kk">/</c> zijn hoop en verlangen is om goed te doen onder de werklieden in zijn later leven<c type="kk">/</c> ik recommandeerde hem “Felix Holt” van Elliott.─<ptr target="#note-t-90"/> Het was mooi in het park<ptr target="#note-t-91"/> met de oude iepen boomen in den maneschijn en de dauw op het gras<c type="kp">_</c>─ Het was mij zoo goed in ’t kerkske, ’t is een houten kerkske<c type="kk">/</c><ptr target="#note-t-92"/> te spreken. Dag Theo<c type="kp">_</c> Dag jongen<c type="kk">/</c> ik hoop ik het zoo geschreven heb dat Gij het zult kunnen lezen. Houd U ferm en wordt maar spoedig beter.</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Isleworth</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">It’s again high time that you heard something from me. Thank God you’re recovering, I long so much for Christmas – perhaps that time will come before we know it, even though it seems a long way off.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Theo, your brother spoke for the first time in God’s house last Sunday,<ptr target="#note-t-1"/> in the place where it is written ‘I will give peace in this place’.<ptr target="#note-t-2"/> I’m copying out what it was herewith. May it be the first of many.</p>
+<p rend="indent" xml:id="p.en.5" n="5">It was a clear autumn day and a lovely walk from here to Richmond along the Thames, which reflected the large chestnut trees with their load of yellow leaves and the clear blue sky, and between the tree-tops the part of Richmond that lies on the hill, the houses with their red roofs and windows without curtains and green gardens, and the grey tower above it all, and below, the large grey bridge with tall poplars on either side, with people crossing it who looked like small black figures. When I stood in the pulpit I felt like someone emerging from a dark, underground vault into the friendly daylight, and it’s a wonderful thought that from now on, wherever I go, I’ll be preaching the gospel – to do that <hi rend="italics">well</hi> one must have the gospel in his heart, may He bring this about. God says, Let there be light: and there is light.<ptr target="#note-t-3"/> He speaks, and <hi rend="italics">it </hi>is done. He commands, and it stands, and it stands fast.<ptr target="#note-t-4"/> Faithful is He that calleth us, who also will do <hi rend="italics">it</hi>.<ptr target="#note-t-5"/> You know enough of the world, Theo, to see how a <hi rend="italics">poor</hi> preacher stands rather alone as far as the world is concerned – but He can awaken in us, more and more, awareness and 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> firmness of faith. ‘And yet I am not alone, because the Father is with me’.<ptr target="#note-t-6"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">I know in Whom my faith is founded,</p>
+<p xml:id="p.en.7" n="7">Though day and night change constantly,</p>
+<p xml:id="p.en.8" n="8">I know the rock on which I’m grounded,</p>
+<p xml:id="p.en.9" n="9">My Saviour waits, unfailingly.</p>
+<p xml:id="p.en.10" n="10">When once life’s evening overcomes me,</p>
+<p xml:id="p.en.11" n="11">Worn down by ills and strife always,</p>
+<p xml:id="p.en.12" n="12">For every day Thou hast allowed me,</p>
+<p xml:id="p.en.13" n="13">I’ll bring Thee higher, purer praise.<ptr target="#note-t-7"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.14" n="14">Praise, Christian, there on your left hand,</p>
+<p xml:id="p.en.15" n="15">And on your right, is God –</p>
+<p xml:id="p.en.16" n="16">When I have no more strength to stand,</p>
+<p xml:id="p.en.17" n="17">When anguished, there is God –</p>
+<p xml:id="p.en.18" n="18">When loving hand of faithful friend</p>
+<p xml:id="p.en.19" n="19">Helps not, there is God –</p>
+<p xml:id="p.en.20" n="20">In death and agony at life’s end,</p>
+<p xml:id="p.en.21" n="21">Yes, everywhere is God.<ptr target="#note-t-8"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">How I long for Christmas and to see all of you, old boy, it seems to me that I’ve grown years older in these few months.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">The panting hart, the hunt escapèd,</p>
+<p xml:id="p.en.24" n="24">Cries no harder for the pleasure</p>
+<p xml:id="p.en.25" n="25">Of fresh flowing streams of water</p>
+<p xml:id="p.en.26" n="26">Than my soul doth long for God.</p>
+<p xml:id="p.en.27" n="27">Yea, my soul thirsts for the Lord,</p>
+<p xml:id="p.en.28" n="28">God of life, oh when shall I</p>
+<p xml:id="p.en.29" n="29">Approach Thy sight, and drawing nigh,</p>
+<p xml:id="p.en.30" n="30">Give Thee praise in Thine own house.<ptr target="#note-t-9"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.31" n="31">Why art thou cast down, my soul,</p>
+<p xml:id="p.en.32" n="32">Disquieted in me, oh why?</p>
+<p xml:id="p.en.33" n="33">Foster again the faith of old,</p>
+<p xml:id="p.en.34" n="34">Rejoice in praising Him most high.</p>
+<p xml:id="p.en.35" n="35">Oft hath he taken your distress</p>
+<p xml:id="p.en.36" n="36">And turned it into happiness.</p>
+<p xml:id="p.en.37" n="37">Hope in Him, eyes heavenward raised,</p>
+<p xml:id="p.en.38" n="38">For to my God I still give praise.<ptr target="#note-t-10"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.39" n="39">My boy, if illness and difficulties come to meet us, let us thank Him for bringing us into these hours – and let us not forget meekness, for it is written: On this man will I look, even on him who is poor and sorrowful and who trembleth at My word.<ptr target="#note-t-11"/> Yesterday evening I went to Richmond again,<ptr target="#note-t-12"/> and took a walk there on a large common surrounded by trees, and houses around it, above which the tower rose. Dew lay on the grass and it was growing dark; on one side the sky was still full of the glow of the sun that had just set there, on the other side the moon was rising. An old lady (dressed in black) with lovely grey hair was walking beneath the trees. In the middle of the common, some boys had lit a big fire, which one saw flickering in the distance; I thought of this: when once life’s evening overcomes me, worn down by ills and strife always, for every day Thou hast allowed me, I’ll bring Thee higher, purer praise.<ptr target="#note-t-13"/> Adieu, a handshake in thought from</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.40" n="40">Your most loving brother,</p>
+<p xml:id="p.en.41" n="41">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.42" n="42">Regards to <rs type="person" ref="bio.xml#_787 bio.xml#_788">Mr and Mrs Tersteeg</rs>, <rs type="person" ref="bio.xml#_442 bio.xml#_443">Haanebeeks</rs>, <rs type="person" ref="bio.xml#_768 bio.xml#_769">Van Stockums</rs> and everyone at <rs type="person" ref="bio.xml#_642 bio.xml#_643">the Rooses</rs>’ and <rs type="person" ref="bio.xml#_461">Van Iterson</rs> and if you should see someone or other whom I know.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.43" n="43">Your brother was indeed moved when he stood at the foot of the pulpit and bowed his head and prayed ‘Abba, Father, let Thy name be our beginning’.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.44" n="44">On Thursday week I hope to speak at <rs type="person" ref="bio.xml#_682">Mr Jones</rs>’s church:<ptr target="#note-t-14"/> And the Lord added daily to the church such as should be saved,<ptr target="#note-t-15"/> on John and Theagenes.<ptr target="#note-t-16"/> 
+<pb f="2r" n="3" xml:id="pb-trans-2r-3" facs="#zone-pb-2r-3"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.45" n="45">Psalm 119:19 I am a stranger in the earth, hide not Thy commandments from me.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.46" n="46">It is an old faith and it is a good faith that our life is a pilgrims progress – that we are strangers in the earth, but that though this be so, yet we are not alone for our Father is with us. We are pilgrims, our life is a long walk, a journey from earth to heaven.<ptr target="#note-t-17"/></p>
+<p rend="indent" xml:id="p.en.47" n="47">The beginning of this life is this. There is one who remembereth no more Her sorrow and Her anguish for joy that a man is born into the world. She is our Mother. The end of our pilgrimage is the entering in Our Fathers house where are many mansions, where He has gone before us to prepare a place for us.<ptr target="#note-t-18"/> The end of this life is what we call death – it is an hour in which words are spoken, things are seen and felt that are kept in the secret chambers of the hearts of those who stand by, it is so that all of us have such things in our hearts or forebodings of such things. There is sorrow in the hour when a man is born into the world, but also joy<ptr target="#note-t-19"/> – deep and unspeakable – thankfulness so great that it reacheth the highest Heavens. Yes the Angels of God, they smile, they hope and they rejoice when a man is born in the world. There is sorrow in the hour of death – but there too is joy unspeakable when it is the hour of death of one who has fought a good fight.<ptr target="#note-t-20"/> There is One who has said, I am the resurrection and the life, if any man believeth in Me, though he were dead, yet shall he live.<ptr target="#note-t-21"/> There was an Apostle who heard a voice from heaven, saying: Blessed are they that die in the Lord for they rest from their labour and their works follow them.<ptr target="#note-t-22"/> There is joy when a man is born in the world but there is greater joy when a Spirit has passed through great tribulation, when an Angel is born in Heaven. Sorrow is better than joy<ptr target="#note-t-23"/> – and even in mirth the heart is sad<ptr target="#note-t-24"/> – and it is better to go to the house of mourning than to the house of feasts,<ptr target="#note-t-25"/> for by the sadness of the countenance the heart is made better.<ptr target="#note-t-26"/> Our nature is sorrowful but for those who have learnt and are learning to look at Jesus Christ there is always reason to rejoice. It is a good word, that of St Paul: As being sorrowful yet always rejoicing.<ptr target="#note-t-27"/> For those who believe in Jesus Christ there is no death and no sorrow that is not mixed with hope – no despair – there is only a constantly being born again,<ptr target="#note-t-28"/> a constantly going from darkness into light.<ptr target="#note-t-29"/> They do not mourn as those who have no hope – Christian Faith makes life to evergreen life.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.48" n="48">We are pilgrims in the earth and strangers<ptr target="#note-t-30"/> – we come from afar and we are going far. The journey of our life goes from the loving breast of our Mother on earth to the arms of our Father in heaven. Everything on earth changes – we have no abiding city here<ptr target="#note-t-31"/> – it is the experience of everybody: That it is Gods will that we should part with what we dearest have on earth – we ourselves, we change in many respects, we are not what we once were, we shall not remain what we are now. From infancy we grow up to boys and girls – young men and young women – and if God spares us and helps us – to husbands and wives, Fathers and Mothers in our turn, and then, slowly but surely the face that once had the ‘early dew of morning’<ptr target="#note-t-32"/> gets its wrinkles, the eyes that once beamed with youth and gladness speak of a sincere deep and earnest sadness – though they may keep the fire of Faith, Hope and Charity<ptr target="#note-t-33"/> – though they may beam with Gods spirit. The hair turns grey or we loose<ptr target="#note-t-a"/> it – ah – indeed we only pass through the earth, we only pass through life – we are strangers and pilgrims in the earth.<ptr target="#note-t-34"/> The world passes and all its glory.<ptr target="#note-t-35"/> Let our later days be nearer to Thee and therefore better than these. 
+<pb f="2v" n="4" xml:id="pb-trans-2v-4" facs="#zone-pb-2v-4"/></p>
+<p rend="indent" xml:id="p.en.49" n="49">Yet we may not live on just anyhow – no, we have a strife to strive and a fight to fight.<ptr target="#note-t-36"/> What is it we must do: We must love God with all our strength, with all our might, with all our heart, with all our soul, we must love our neighbour as ourselves.<ptr target="#note-t-37"/> These two commandments we must keep and if we follow after these, if we are devoted to this, we are not alone for our Father in Heaven is with us, helps us and guides us, gives us strength day by day, hour by hour. and so we can do all things through Christ who gives us might.<ptr target="#note-t-38"/> We are strangers in the earth, hide not Thy commandments from us. Open Thou our eyes, that we may behold wondrous things out of Thy law.<ptr target="#note-t-39"/> Teach us to do Thy will<ptr target="#note-t-40"/> and influence our hearts that the love of Christ may constrain us<ptr target="#note-t-41"/> and that we may be brought to do what we must do to be saved.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.50" n="50">On the road from earth to Heaven</p>
+<p xml:id="p.en.51" n="51">Do Thou guide us with Thine eye.<ptr target="#note-t-42"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.52" n="52">We are weak but Thou art mighty</p>
+<p xml:id="p.en.53" n="53">Hold us with Thy powerful hand.<ptr target="#note-t-43"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.54" n="54">Our life, we might compare it to a journey, we go from the place where we were born to a far off haven. Our earlier life might be compared to sailing on a river, but very soon the waves become higher, the wind more violent, we are at sea almost before we are aware of it – and the prayer from the heart ariseth to God: Protect me o God, for my bark is so small and Thy sea is so great.<ptr target="#note-t-44"/> The heart of man is very much like the sea, it has its storms, it has its tides and in its depths it has its pearls too. The heart that seeks for God and for a Godly life has more storms than any other. Let us see how the Psalmist describes a storm at sea, He must have felt the storm in his heart to describe it so. We read in the 107th Psalm, They that go down to the sea in ships, that do business in great waters, these see the works of the Lord and His wonders in the deep. For He commandeth and raiseth up a stormy wind which lifteth up the waves thereof. They mount up to Heaven, they go down again to the depth, their soul melteth in them because of their trouble. Then they cry unto the Lord in their trouble and He bringeth them out of their distresses, He bringeth them unto their desired haven.<ptr target="#note-t-45"/></p>
+<p rend="indent" xml:id="p.en.55" n="55">Do we not feel this sometimes on the sea of our lives. Does not everyone of you feel with me the storms of life or their forebodings or their recollections?</p>
+<p rend="indent" xml:id="p.en.56" n="56">And now let us read a description of another storm at sea in the New Testament, as we find it in the VIth Chapter of the Gospel according to St John in the 17th to the 21st verse. And the disciples entered into a ship and went over the sea toward Capernaum. And the sea arose by reason of a great wind that blew. So when they had rowed about five and twenty or thirty furlongs, they see Jesus walking on the sea and drawing nigh unto the ship and they were afraid. Then they willingly received Him into the ship and immediately the ship was at the land whither they went.<ptr target="#note-t-46"/> You who have experienced the great storms of life, you over whom all the waves and all the billows of the Lord have gone – have you not heard, when your heart failed for fear, the beloved well known voice – with something in its tone that reminded you of the voices that charmed your childhood – the voice of Him whose name is Saviour and Prince of peace,<ptr target="#note-t-47"/> saying as it were to you personally – mind to you personally ‘It is I, be not afraid’.<ptr target="#note-t-48"/> Fear not.<ptr target="#note-t-49"/> Let not your heart be troubled.<ptr target="#note-t-50"/> And we whose lives have been calm up to now, calm in comparison of what others have felt – let us not fear the storms of life, amidst the high waves of the sea and under the grey clouds of the sky we shall see Him approaching for Whom we have so often longed and watched, Him we need so – and we shall 
+<pb f="2v" n="5" xml:id="pb-trans-2v-5" facs="#zone-pb-2v-5"/> hear His voice, It is I, be not afraid. And if after an hour or season of anguish or distress<ptr target="#note-t-51"/> or great difficulty or pain or sorrow we hear Him ask us ‘Dost Thou love me’ then let us say, Lord Thou knowest all things, Thou knowest that I love Thee.<ptr target="#note-t-52"/> And let us keep that heart full of the love of Christ and may from thence issue a life which the love of Christ constraineth.<ptr target="#note-t-53"/> Lord Thou knowest all things, Thou knowest that I love Thee, when we look back on our past we feel sometimes as if we did love Thee, for whatsoever we have loved, we loved in Thy name. Have we not often felt as a widow and an orphan – in joy and prosperity as well, and more even than under grief – because of the thought of Thee.</p>
+<p rend="indent" xml:id="p.en.57" n="57">Truly our soul waiteth for Thee more than they that watch for the morning<ptr target="#note-t-54"/> – our eyes are up unto Thee, o Thou who dwellest in Heavens.<ptr target="#note-t-55"/> In our days too there can be such a thing as seeking the Lord.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.58" n="58">What is it we ask of God – is it a great thing? Yes it is a great thing, peace for the ground of our heart, rest for our soul – give us that one thing and then we want not much more, then we can do without many things, then can we suffer great things for Thy names sake.<ptr target="#note-t-56"/> We want to know that we are Thine and that Thou art ours, we want to be thine – to be Christians. We want a Father, a Fathers love and a Fathers approval. May the experience of life make our eye single<ptr target="#note-t-57"/> and fix it on Thee. May we grow better as we go on in life.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.59" n="59">We have spoken of the storms on the journey of life, but now let us speak of the calms and joys of Christian life. And yet, my dear friends, let us rather cling to the seasons of difficulty and work and sorrow, even for the calms are treacherous often.</p>
+<p rend="indent" xml:id="p.en.60" n="60">The heart has its storms, has its seasons of drooping<ptr target="#note-t-58"/> but also its calms and even its times of exaltation. There is a time of sighing and of praying but there is also a time of answer to prayer. Weeping may endure for a night but joy cometh in the morning.<ptr target="#note-t-59"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.61" n="61">The heart that is fainting</p>
+<p xml:id="p.en.62" n="62">May grow full to o’erflowing</p>
+<p xml:id="p.en.63" n="63">And they that behold it</p>
+<p xml:id="p.en.64" n="64">Shall wonder and know not</p>
+<p xml:id="p.en.65" n="65">That God at its fountains</p>
+<p xml:id="p.en.66" n="66">Far off has been raining.<ptr target="#note-t-60"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.67" n="67">My peace I leave with you<ptr target="#note-t-61"/> – we saw how there is peace even in the storm. Thanks be to God who has given us to be born and to live in a Christian country. Has any of us forgotten the golden hours of our early days at home, and since we left that home – for many of us have had to leave that home and to earn their living and to make their way in the world. Has He not brought us thus far, have we lacked anything.<ptr target="#note-t-62"/> We believe Lord, help Thou our unbelief.<ptr target="#note-t-63"/> I still feel the rapture, the thrill of joy I felt when for the first time I cast a deep look in the lives of my Parents, when I felt by instinct how much they were Christians. And I still feel that feeling of eternal youth and enthusiasm wherewith I went to God, saying ‘I will be a Christian too’. 
+<pb f="2r" n="6" xml:id="pb-trans-2r-6" facs="#zone-pb-2r-6"/></p>
+<p rend="indent" xml:id="p.en.68" n="68">Are we what we dreamt we should be? No – but still – the sorrows of life, the multitude of things of daily life and of daily duties, so much more numerous than we expected – the tossing to and fro in the world, they have covered it over – but it is not dead, it sleepeth.<ptr target="#note-t-64"/> The old eternal faith and love of Christ, it may sleep in us but it is not dead and God can revive it in us. But though to be born again to eternal life,<ptr target="#note-t-65"/> to the life of Faith, Hope and Charity<ptr target="#note-t-66"/> – and to an evergreen life – to the life of a Christian and of a Christian workman<ptr target="#note-t-67"/> be a gift of God, a work of God – and of God alone – yet let us put the hand to the plough<ptr target="#note-t-68"/> on the field of our heart, let us cast out our net once more<ptr target="#note-t-69"/> – let us try once more – God knows the intention of the spirit, God knows us better than we know ourselves for He made us and not we ourselves.<ptr target="#note-t-70"/> He knows of what things we have need,<ptr target="#note-t-71"/> He knows what is good for us. May He give His blessing on the seed of His word<ptr target="#note-t-72"/> that has been sown in our hearts.</p>
+<p rend="indent" xml:id="p.en.69" n="69">God helping us, we shall get through life. With every temptation He will give a way to escape.<ptr target="#note-t-73"/></p>
+<p rend="indent" xml:id="p.en.70" n="70">Father we pray Thee not that Thou shouldest take us out of the world, but we pray Thee to keep us from evil.<ptr target="#note-t-74"/> Give us neither poverty nor riches, feed us with bread convenient for us.<ptr target="#note-t-75"/> And let Thy songs be our delight in the houses of our pilgrimage. God of our Fathers be our God: may their people be our people, their Faith our faith.<ptr target="#note-t-76"/> We are strangers in the earth, hide not Thy commandments from us but may the love of Christ constrain us.<ptr target="#note-t-77"/> Entreat us not to leave Thee or to refrain from following after Thee. Thy people shall be our people, Thou shalt be our God.<ptr target="#note-t-78"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.71" n="71">Our life is a pilgrims progress. <hi rend="italics">I once saw a very beautiful picture</hi>,<ptr target="#note-t-79"/> it was a landscape at evening. In the distance on the right hand side a row of hills appearing blue in the evening mist. Above those hills the splendour of the sunset, the grey clouds with their linings of silver and gold and purple. The landscape is a plain or heath covered with grass and heather, here and there the white stem of a birch tree and its yellow leaves, for it was in Autumn. Through the landscape a road leads to a high mountain far far away, on the top of that mountain a city whereon the setting sun casts a glory. On the road walks a pilgrim, staff in hand. He has been walking for a good long while already and he is very tired. And now he meets a woman, a figure in black that makes one think of St Pauls word ‘As being sorrowful yet always rejoicing’.<ptr target="#note-t-80"/> That Angel of God has been placed there to encourage the pilgrims and to answer their questions:</p><space unit="lines" quantity="1"/><pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/>
+<p xml:id="p.en.72" n="72">And the pilgrim asks her:   Does the road go uphill then all the way?</p>
+<p xml:id="p.en.73" n="73">and the answer is:   ‘Yes to the very end’ –</p>
+<p xml:id="p.en.74" n="74">and he asks again:   And will the journey take all day long?</p>
+<p xml:id="p.en.75" n="75">and the answer is:   ‘From morn till night my friend’.<ptr target="#note-t-81"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.76" n="76">And the pilgrim goes on sorrowful yet always rejoicing<ptr target="#note-t-82"/> – sorrowful because it is so far off and the road so long. Hopeful as he looks up to the eternal city far away, resplendent in the evening glow, and he thinks of two old sayings he has heard long ago – the one is:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.77" n="77">‘There must much strife be striven</p>
+<p xml:id="p.en.78" n="78">There must much suffering be suffered</p>
+<p xml:id="p.en.79" n="79">There must much prayer be prayed</p>
+<p xml:id="p.en.80" n="80">And then the end will be peace.’<ptr target="#note-t-83"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.81" n="81">and the other:</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.82" n="82">The water comes up to the lips</p>
+<p xml:id="p.en.83" n="83">But higher comes it not.<ptr target="#note-t-84"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.84" n="84">And he says, I shall be more and more tired but also nearer and nearer to Thee.<ptr target="#note-t-85"/> Has not man a strife on earth? But there is a consolation from God in this life. An angel of God, comforting men – that is the Angel of Charity. Let us not forget Her. And when everyone of us goes back to daily things and daily duties, let us not forget – that things are not what they seem, that God by the things of daily life teacheth us higher things, that our life is a pilgrims progress and that we are strangers in the earth – but that we have a God and Father who preserveth strangers,<ptr target="#note-t-86"/> and that we are all bretheren.<ptr target="#note-t-87"/></p>
+<p rend="indent" xml:id="p.en.85" n="85">Amen.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.86" n="86">And now the grace of our Lord Jesus Christ, and the love of God, our Father, and the fellowship of the Holy Ghost, be with us for evermore.</p>
+<p rend="indent" xml:id="p.en.87" n="87">Amen.<ptr target="#note-t-88"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.88" n="88">(Reading Scripture Psalm XCI)</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.89" n="89">
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p xml:id="p.en.90" n="90">Tossed with rough winds and faint with fear,</p>
+<p xml:id="p.en.91" n="91">Above the tempest soft and clear</p>
+<p xml:id="p.en.92" n="92">What still small accents greet mine ear</p>
+<p xml:id="p.en.93" n="93">‘’t Is I, be not afraid.’</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.94" n="94">’t Is I, who washed thy spirit white;</p>
+<p xml:id="p.en.95" n="95">’t Is I, who gave thy blind eyes sight,</p>
+<p xml:id="p.en.96" n="96">’t Is I, thy Lord, thy life, thy light,</p>
+<p xml:id="p.en.97" n="97">’t Is I, be not afraid.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.98" n="98">These raging winds, this surging sea</p>
+<p xml:id="p.en.99" n="99">Have spent their deadly force on me</p>
+<p xml:id="p.en.100" n="100">They bear no breath of wrath to Thee</p>
+<p xml:id="p.en.101" n="101">’t Is I, be not afraid.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.102" n="102">This bitter cup, I drank it first</p>
+<p xml:id="p.en.103" n="103">To thee it is no draught accurst</p>
+<p xml:id="p.en.104" n="104">The hand that gives it thee is pierced</p>
+<p xml:id="p.en.105" n="105">‘’t Is I, be not afraid’.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.106" n="106">When on the other side thy feet,</p>
+<p xml:id="p.en.107" n="107">Shall rest, mid thousand welcomes sweet;</p>
+<p xml:id="p.en.108" n="108">One well known voice thy heart shall greet –</p>
+<p xml:id="p.en.109" n="109">’t Is I, be not afraid.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.110" n="110">Mine eyes are watching by thy bed</p>
+<p xml:id="p.en.111" n="111">Mine arms are underneath thy head</p>
+<p xml:id="p.en.112" n="112">My blessing is around Thee shed</p>
+<p xml:id="p.en.113" n="113">‘’t Is I, be not afraid’.<ptr target="#note-t-89"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.114" n="114">Again, a handshake in thought – yesterday evening I was at Turnham Green in place of <rs type="person" ref="bio.xml#_682">Mr Jones</rs>, who wasn’t well. I walked over there with the oldest boy, 17 years old, but he’s as big as I am and has a beard. He’ll go into business later, his father has a large factory; he has a good, honest, feeling heart and a great need of religion, it is his hope and desire to do good among the workers later on in life, I recommended ‘Felix Holt’ by <rs type="person" ref="bio.xml#_590">Eliot</rs><ptr target="#note-t-90"/> to him. It was lovely in the park<ptr target="#note-t-91"/> with the old elm trees in the moonlight and the dew on the grass. It was so good for me to speak in the little church, it is a little wooden church.<ptr target="#note-t-92"/> Goodbye, Theo. Goodbye, old boy, I hope I’ve written it so that you’ll be able to read it. Remain steadfast and do get well soon.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh dated <ref target="let097.xml">letter 97</ref> (Friday) 10 November. It mentions a walk to Turnham Green ‘last Thursday evening’ with the oldest boy in the school. This walk took place on Thursday, 2 November. The same walk is mentioned in the present letter in <ref target="#l-354">ll. 354-357</ref>, having taken place ‘yesterday evening’. This letter must therefore have been written on Friday, 3 November 1876.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The part of the letter that begins at <ref target="#l-96">l. 96</ref> is the text of a sermon delivered by Van Gogh in English. Previous editions have included it as a separate document, or as a letter in its own right, numbered separately; see, for example, <hi rend="italics">Verzamelde brieven</hi> 1973, vol. 1, pp. 88-91; and <hi rend="italics">De brieven</hi> 1990, vol. 1, pp. 176-181. However, Van Gogh says in <ref target="#l-9">l. 9</ref> that he is appending the sermon to the letter, so we see no reason to publish it separately.</p>
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s illness <ref target="let092.xml">(92)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>The sermon was delivered at the Wesleyan Methodist Church in Richmond on Sunday, 29 October 1876. The church was located on the corner of Kew Road and Evelyn Road. See David Bruxner, ‘Van Gogh’s sermon’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Country Life</hi>, 11 November 1976, pp. 1426-1428.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Cf. Lev. 26:6.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+  Gen. 1:3.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+  Ps. 33:9.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+  1 Thess. 5:24.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+  John 16:32.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+  Hymn 180:5.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>
+  Hymn 7:4. Van Gogh varies the text in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-54">l. 54</ref> by writing ‘helpen’ (help) instead of ‘redden’ (save).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>
+  Rhy. ps. 42:1. Cf. Pabst 1988, p. 62.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>
+  Rhy. ps. 42:7. Cf. Pabst 1988, p. 62.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+  Isa. 66:2.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh must have gone to both Richmond and Turnham Green on the same evening (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-354">ll. 354-355</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+  Hymn 180:5.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>This talk was to take place on Thursday, 16 November. During the next Turnham Green teachers’ meeting, held on Sunday, 19 November, Van Gogh was officially accepted as a co-worker at Turnham Green. See Taylor 1964, p. 419.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+  Acts 2:47.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>Regarding <ref target="biblio.xml#lit_76"><hi rend="italics">John and Theagenes</hi></ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let089.xml#n-2">see letter 89, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>An allusion to <ref target="biblio.xml#lit_103"><hi rend="italics">The pilgrim’s progress</hi></ref> (1678) by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_558">John Bunyan</rs>. The complete title reads: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The pilgrim’s progress from this world to that which is to come</hi>. In his sermon, Van Gogh referred to this image a number of times. Cf. also his appreciation for the book, as expressed in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let099.xml">letter 99</ref>. <ref target="biblio.xml#lit_103"><hi rend="italics">The pilgrim’s progress</hi></ref> was very popular among English Protestants. It recounts the journey of the protagonist, Christian, whose goal is to reach the city of Zion. On the advice of Evangelist, he embarks on a journey that takes him to a series of allegorical places – the House Beautiful, the Valley of the Shadow of Death, Doubting Castle and so on – on his way to the sought-after Celestial City. Each character and place in the dream is given an appropriate name: thus Christian meets the goodly Hopeful and Faithful, the cheating Mr Legality and the evil Giant Despair. The second part is the story of Christiana, Christian’s wife, who is moved to undertake a similar pilgrimage.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>
+  John 14:2.</p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p>Cf. John 16:21.</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>
+  2 Tim. 4:7.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>
+  John 11:25.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>The apostle John in Rev. 14:13.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>Cf. Eccl. 7:3. Van Gogh varies the text in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-120">l. 120</ref> by writing ‘joy’ instead of ‘laughter’.</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>Cf. Prov. 14:13 and Eccl. 2:2.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>
+  Eccl. 7:2.</p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>
+  Eccl. 7:3.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>
+  2 Cor. 6:10. Vincent quotes this passage incorrectly by writing ‘always’ instead of ‘alway’.</p>
+                        </note>
+                        
+                    
+                        <note n="28" xml:id="note-t-28">
+                            
+
+<p>Cf. John 3:3 and 1 Pet. 1:23.</p>
+                        </note>
+                        
+                    
+                        <note n="29" xml:id="note-t-29">
+                            
+
+<p>
+  1 Pet. 2:9.</p>
+                        </note>
+                        
+                    
+                        <note n="30" xml:id="note-t-30">
+                            
+
+<p>
+  Heb. 11:13.</p>
+                        </note>
+                        
+                    
+                        <note n="31" xml:id="note-t-31">
+                            
+
+<p>
+  Heb. 13:14.</p>
+                        </note>
+                        
+                    
+                        <note n="32" xml:id="note-t-32">
+                            
+  
+<p>Excerpt from the second verse of ‘Tell me the old, old story’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_99">Arabella Catherine Hankey</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let082.xml#n-1">see letter 82, n.1</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="33" xml:id="note-t-33">
+                            
+
+<p>
+  1 Cor. 13:13. Cf. Pabst 1988, p. 63.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+<p>Read: ‘lose’.</p>
+                        </note>
+                        
+                    
+                        <note n="34" xml:id="note-t-34">
+                            
+
+<p>
+  Heb. 11:13.</p>
+                        </note>
+                        
+                    
+                        <note n="35" xml:id="note-t-35">
+                            
+
+<p>
+  1 John 2:17. Van Gogh changed ‘lust’ to ‘glory’, just as he did in the Dutch by changing ‘begeerlijkheid’ to ‘heerlijkheid’; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let090.xml">letter 90</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="36" xml:id="note-t-36">
+                            
+  
+<p>Cf. the first verse of hymn 291 by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1644">Henry K. White</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let054.xml#n-19">see letter 54, n. 19</ref></p>
+                        </note>
+                        
+                    
+                        <note n="37" xml:id="note-t-37">
+                            
+
+<p>
+  Matt. 22:37 and 22:39; Mark 12:30-31; Luke 10:27.</p>
+                        </note>
+                        
+                    
+                        <note n="38" xml:id="note-t-38">
+                            
+
+<p>
+  Phil. 4:13.</p>
+                        </note>
+                        
+                    
+                        <note n="39" xml:id="note-t-39">
+                            
+
+<p>
+  Ps. 119:19 and Ps. 119:18.</p>
+                        </note>
+                        
+                    
+                        <note n="40" xml:id="note-t-40">
+                            
+
+<p>
+  Ps. 143:10.</p>
+                        </note>
+                        
+                    
+                        <note n="41" xml:id="note-t-41">
+                            
+
+<p>
+  2 Cor. 5:14.</p>
+                        </note>
+                        
+                    
+                        <note n="42" xml:id="note-t-42">
+                            
+
+<p>Taken from the hymn ‘<ref target="biblio.xml#lit_104">Precious promise God has given</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_170">Nathaniel Niles</rs>: ‘All the way from earth to Heaven / I will guide thee with Mine eye’. See, for instance, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Salvation Army songs</hi>, by the authority of the General. London 1930, p. 549, no. 747.</p>
+                        </note>
+                        
+                    
+                        <note n="43" xml:id="note-t-43">
+                            
+
+<p>Taken from the first verse of hymn 196 by<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_238"> Peter Willkims</rs> or <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_237">Peter Williams</rs>: ‘Guide me, O Thou great Redeemer, / Pilgrim through this barren land; / I am weak, but Thou art mighty; / Hold me with Thy powerful hand: / Bread of heaven, / Feed me now and evermore’. See, for example, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Salvation Army songs</hi>, by the authority of the General. London 1930, p. 552, no. 771.</p>
+                        </note>
+                        
+                    
+                        <note n="44" xml:id="note-t-44">
+                            
+
+<p>Translation of a quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_744">Emile Souvestre</rs>, <ref target="biblio.xml#lit_96"><hi rend="italics">Les derniers Bretons</hi></ref>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let093.xml#n-25">see letter 93, n. 25.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="45" xml:id="note-t-45">
+                            
+
+<p>Cf. Ps. 107:23-30.</p>
+                        </note>
+                        
+                    
+                        <note n="46" xml:id="note-t-46">
+                            
+
+<p>
+  John 6:17-19 and 21. Van Gogh omitted ‘It is I, be not afraid’ here but quoted it a bit further on (see <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-196">l. 196</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="47" xml:id="note-t-47">
+                            
+
+<p>
+  Isa. 9:6 and Acts 5:31.</p>
+                        </note>
+                        
+                    
+                        <note n="48" xml:id="note-t-48">
+                            
+
+<p>
+  John 6:20.</p>
+                        </note>
+                        
+                    
+                        <note n="49" xml:id="note-t-49">
+                            
+
+<p>Biblical.</p>
+                        </note>
+                        
+                    
+                        <note n="50" xml:id="note-t-50">
+                            
+
+<p>
+  John 14:1 and John 14:27.</p>
+                        </note>
+                        
+                    
+                        <note n="51" xml:id="note-t-51">
+                            
+
+<p>Cf. Prov. 1:27.</p>
+                        </note>
+                        
+                    
+                        <note n="52" xml:id="note-t-52">
+                            
+
+<p>
+  John 21:17.</p>
+                        </note>
+                        
+                    
+                        <note n="53" xml:id="note-t-53">
+                            
+
+<p>
+  2 Cor. 5:14.</p>
+                        </note>
+                        
+                    
+                        <note n="54" xml:id="note-t-54">
+                            
+
+<p>
+  Ps. 130:6.</p>
+                        </note>
+                        
+                    
+                        <note n="55" xml:id="note-t-55">
+                            
+
+<p>
+  Ps. 123:1.</p>
+                        </note>
+                        
+                    
+                        <note n="56" xml:id="note-t-56">
+                            
+
+<p>
+  Acts 9:16.</p>
+                        </note>
+                        
+                    
+                        <note n="57" xml:id="note-t-57">
+                            
+
+<p>Cf. Matt. 6:22 and Luke 11:34.</p>
+                        </note>
+                        
+                    
+                        <note n="58" xml:id="note-t-58">
+                            
+
+<p>Cf. the phrase quoted earlier in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let092.xml">letter 92</ref>: ‘Sometimes hearts that are drooping (fainting)’, cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let092.xml#n-1">letter 92, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="59" xml:id="note-t-59">
+                            
+
+<p>
+  Ps. 30:5.</p>
+                        </note>
+                        
+                    
+                        <note n="60" xml:id="note-t-60">
+                            
+
+<p>For this quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_696">Longfellow</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let092.xml#n-1">see letter 92, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="61" xml:id="note-t-61">
+                            
+
+<p>
+  John 14:27.</p>
+                        </note>
+                        
+                    
+                        <note n="62" xml:id="note-t-62">
+                            
+
+<p>Cf. Ps. 23 and Luke 22:35.</p>
+                        </note>
+                        
+                    
+                        <note n="63" xml:id="note-t-63">
+                            
+
+<p>
+  Mark 9:24.</p>
+                        </note>
+                        
+                    
+                        <note n="64" xml:id="note-t-64">
+                            
+
+<p>
+  Matt. 9:24, Mark 5:39 and Luke 8:52.</p>
+                        </note>
+                        
+                    
+                        <note n="65" xml:id="note-t-65">
+                            
+
+<p>Biblical.</p>
+                        </note>
+                        
+                    
+                        <note n="66" xml:id="note-t-66">
+                            
+
+<p>
+  1 Cor. 13:13.</p>
+                        </note>
+                        
+                    
+                        <note n="67" xml:id="note-t-67">
+                            
+  
+<p>Biblical. For the concept of the ‘Christian Workman’, which is derived from the text <ref target="biblio.xml#lit_125"><hi rend="italics">De christen-werkman als zendeling</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_456">Ottho Gerhard Heldring</rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let109.xml#n-15">see letter 109, n. 15.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="68" xml:id="note-t-68">
+                            
+
+<p>
+  Luke 9:62.</p>
+                        </note>
+                        
+                    
+                        <note n="69" xml:id="note-t-69">
+                            
+
+<p>Cf. Matt. 13:47 and John 21:6.</p>
+                        </note>
+                        
+                    
+                        <note n="70" xml:id="note-t-70">
+                            
+
+<p>
+  Ps. 100:3.</p>
+                        </note>
+                        
+                    
+                        <note n="71" xml:id="note-t-71">
+                            
+
+<p>
+  Matt. 6:32.</p>
+                        </note>
+                        
+                    
+                        <note n="72" xml:id="note-t-72">
+                            
+
+<p>Cf. Luke 8:11-15.</p>
+                        </note>
+                        
+                    
+                        <note n="73" xml:id="note-t-73">
+                            
+
+<p>Cf. 1 Cor. 10:13.</p>
+                        </note>
+                        
+                    
+                        <note n="74" xml:id="note-t-74">
+                            
+
+<p>Cf. John 17:15.</p>
+                        </note>
+                        
+                    
+                        <note n="75" xml:id="note-t-75">
+                            
+
+<p>
+  Prov. 30:8.</p>
+                        </note>
+                        
+                    
+                        <note n="76" xml:id="note-t-76">
+                            
+
+<p>Cf. Ruth 1:16.</p>
+                        </note>
+                        
+                    
+                        <note n="77" xml:id="note-t-77">
+                            
+
+<p>
+  2 Cor. 5:14.</p>
+                        </note>
+                        
+                    
+                        <note n="78" xml:id="note-t-78">
+                            
+
+<p>
+  Ruth 1:16.</p>
+                        </note>
+                        
+                    
+                        <note n="79" xml:id="note-t-79">
+                            
+
+<p>Van Gogh gave the same description of this work by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_878">G.H. Boughton</rs> in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let089.xml">letter 89</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="80" xml:id="note-t-80">
+                            
+
+<p>
+  2 Cor. 6:10. Vincent writes ‘always’ instead of ‘alway’.</p>
+                        </note>
+                        
+                    
+                        <note n="81" xml:id="note-t-81">
+                            
+
+<p>Adaptation of a verse from the poem ‘<ref target="biblio.xml#lit_46">Up-hill</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_192">Christina Georgina Rossetti</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let054.xml#n-1">see letter 54, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="82" xml:id="note-t-82">
+                            
+
+<p>
+  2 Cor. 6:10. Vincent writes ‘always’ instead of ‘alway’.</p>
+                        </note>
+                        
+                    
+                        <note n="83" xml:id="note-t-83">
+                            
+  
+<p>Translation of a verse from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_559">Stichtelijcke rijmen</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_556">D.R. Camphuysen</rs>, which Van Gogh quoted earlier; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let095.xml#n-31">see letter 95, n. 31.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="84" xml:id="note-t-84">
+                            
+
+<p>Cf. the Dutch saying ‘het water komt hem tot de lippen’ (the water comes up to his lips), which is used to describe someone in great distress.</p>
+                        </note>
+                        
+                    
+                        <note n="85" xml:id="note-t-85">
+                            
+
+<p>Hymn 277.</p>
+                        </note>
+                        
+                    
+                        <note n="86" xml:id="note-t-86">
+                            
+
+<p>
+  Ps. 146:9.</p>
+                        </note>
+                        
+                    
+                        <note n="87" xml:id="note-t-87">
+                            
+
+<p>
+  Matt. 23:8.</p>
+                        </note>
+                        
+                    
+                        <note n="88" xml:id="note-t-88">
+                            
+
+<p>
+  2 Cor. 13:14 (in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">SV</hi> 2 Cor. 13:13).</p>
+                        </note>
+                        
+                    
+                        <note n="89" xml:id="note-t-89">
+                            
+
+<p>The poem ‘<ref target="biblio.xml#lit_105">It is I; be not afraid</ref>’ by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1656">Elizabeth Rundle Charles</rs> published in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The three wakings. With hymns and songs.</hi> New York 1865. (Reprinted in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The women of the Gospels. The three wakings and other verses.</hi> New York 1867.) Van Gogh appears to have known the version in the edition London, Edinburgh and New York 1868, pp. 213-214. He reverses the order of the fifth and sixth couplets; the final couplet is missing: ‘Clothed with all might and majesty / Gently He’ll lay His hand on thee, / Saying, “Beloved, lov’st thou Me? / ’Twas not in vain I died for thee; / ’Tis I; be not afraid.”’ The verse is based on Matt. 14:27.</p>
+                        </note>
+                        
+                    
+                        <note n="90" xml:id="note-t-90">
+                            
+
+<p>The novel <ref target="biblio.xml#lit_57"><hi rend="italics">Felix Holt, the radical</hi></ref> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let066.xml#n-1">see letter 66, n. 1.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="91" xml:id="note-t-91">
+                            
+
+<p>Syon Park in Isleworth.</p>
+                        </note>
+                        
+                    
+                        <note n="92" xml:id="note-t-92">
+                            
+
+<p>The little church at Turnham Green was ‘not so much a wooden building as an iron one’; see Taylor 1964, p. 420 and exhib. cat. Nottingham 1974, p. 43. Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let093.xml#n-19">letter 93, n. 19.</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

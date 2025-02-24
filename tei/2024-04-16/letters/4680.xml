@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Sunday, 2 November 1884.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let468"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b418 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>468</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>384</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>470</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1884-12-02">on or about Sunday, 2 November 1884</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000557_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000557_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000557_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000557_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000557_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000557_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000558_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000558_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000558_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000558_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000558_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000558_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000559_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000559_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3r-12">
+<graphic url="https://example.com/iiif/VGM001000559_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0418 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000559_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000559_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-3v-11">
+<graphic url="https://example.com/iiif/VGM001000559_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Uw brief heb ik ontvangen en ik dank U daarvoor en voor het ingeslotene.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Dat gij schrijft dat gij weer voor uw kwade halfjaar staat – want dat duurt geloof ik 1/2 jaar – is niet precies een prettige tijding voor U om te schrijven noch voor mij om te ontvangen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Wij moesten echter zien er iets aan te doen om te maken het beter ging voor ons beiden.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Vóór ik Uw brief &amp; ingesl. ontving had ik reeds iets gedaan wat ge wel niet goed zult vinden doch waaromtrent ik Uw opinie ook niet veel tel<c type="kk">/</c> moet ik tot mijn leedwezen zeggen. Ik heb nogmaals een poging in ’t werk gesteld om weer op goeden voet met Mauve te komen<c type="kk">/</c> zoo mogelijk ook met Tersteeg<c type="kp">_</c>– Ik weet niet of dat gelukken zal – ik moet echter meer ruimte hebben want met den besten wil van de wereld<c type="kk">/</c> als men zoo als ik nu EEN VOL JAAR EN LANGER gansch buiten de schilderwereld is geweest<c type="kk">/</c> raakt men buiten doodgewerkt en moet zich opfrisschen.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Dat voelt of begrijpt gij <hi rend="italics">nooit</hi> en zegt “schilder maar door” en meer weet ge niet<c type="kp">_</c>– Ik neem U dat <hi rend="italics">niet kwalijk</hi> maar ik vind het ook niet intelligent van u – weet dat wel<c type="kp">_</c>–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Het is volkomen waar wat gij zegt: “dat als ik goede schilderijen maak ik er eer iets door tot stand brengen zal dan door over revolutionaire kwesties te discoureeren”<c type="kp">_</c>(*)<ptr target="#note-t-1"/> Dit vind ik zelfs dermate waar<c type="kk">/</c> dat ik terwijl ge dit schreeft juist weer een demarche deed<c type="kk">/</c> regtlijnig voor den vooruitgang van mijn werk<c type="kk">/</c> juist door te vragen weer eens op ’t atelier van Mauve eenige studies te schilderen.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ge zijt telkens in tegenspraak met uw eigen – op de bovengenoemde zinsnede(*) in Uw brief volgt direkt de vraag: dat ge me vraagt of ik U soms nieuwe elementen aan de hand kan doen over de hervormingskwesties in den handel<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Wil ik er U een aanraden in Uw en in mijn persoonlijk belang (laat het algemeene staan):<ptr target="#note-t-a"/> steun mijn demarche bij Mauve en bij Tersteeg.–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Help me vlot worden<ptr target="#note-t-b"/> en geld verdienen<c type="kk">/</c> niet alleen door het geld te sturen doch ook door Uw invloed en meer zamenwerking en beter allooi van vriendschap<c type="kp">_</c> Ik zeg nog eens<c type="kk">/</c> steun b.v. de demarche door mij gedaan want die had al vroeger moeten gedaan worden met appui uwerzijds er bij<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Doe dat royaal en flinkweg<c type="kk">/</c> niet aarzelend en slag om den arm houdend als ’t er op aan komt<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Er zit kracht genoeg in me om wat te kunnen en te verdienen ook. En dan – zoo als ge zelf zegt – als ik vorder met mijn schilderijen en een goed zelfstandige positie herover ben ik meer waard dan nu<c type="kp">_</c>– 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Dan – later dus – als ’t me wat beter gaat – wil ik heel graag trachten U nieuwe elementen te geven voor die kwesties van hervor<c type="shy">-</c>ming in den handel – waaromtrent ik wel degelijk mijn idees heb<c type="kk">/</c> die voortvloeijen uit eigen ondervinding van wat <hi rend="italics">hinderlijk</hi> is voor den vooruitgang van de schilders en welke soort dingen het schildersleven soms ondragelijk maken<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Nu – vind ik ’t moment niet om U daar lang over te schrijven<c type="kp">_</c> Ik zeg alleen dit – als <hi rend="italics">gij</hi> of als <hi rend="italics">ik</hi> geld noodig hebben om vooruit te komen en als we maar met halve kracht werken kunnen op ’t moment om finantieele redenen<c type="kk">/</c> moeten we zorgen we dit krijgen en tobben tot we ’t hebben – <hi>Niet</hi> <hi>redeneeren</hi>: “we staan voor een half jaar dat in ’t finantieele slecht zal zijn dus <hi rend="italics">schik</hi> <hi rend="italics">je daarnaar</hi>”<c type="kp">_</c>– Wat er <hi>moet</hi> zijn dat <hi>kan</hi> ook gevonden worden<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik heb aan Mauve geschreven en aan T. Wilt gij appuyeeren<c type="kk">/</c> tant mieux<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.15" n="15">b. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.16" n="16">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p xml:id="p.nl.17" n="17">Versta me echter wel – ik heb niet klagenderwijs geschreven aan M. of aan Tersteeg. Integendeel maar ik heb zoo krachtig ik kon gezegd: geef me nog eens gelegenheid eenige studies te maken bij Mauve<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Dat heb ik gevraagd – niets anders en daar heb ik ook alleen behoefte aan<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Het geldelijke moeten zij ook niet eens in gemengd worden<c type="kp">_</c>– Als ik ’t zelf niet uitsparen kan moet gij een uiterste poging doen om me een extra frs 100 te zenden want ik ga niet voor lang<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">of als gij absoluut niet kunt moet Pa voor zien te schieten<c type="kp">_</c>– Ik zal er op hameren tot ik het er bij M. doorkrijg<c type="kp">_</c>– 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>Als ’t mij alleen niet lukt moeten we <hi rend="italics">zamen</hi> Mauve ’t vragen tot dat hij ’t doet<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Dan – daarna – heb ik weer eenige wenken om mijn werk hier te verbeteren en er mee te vorderen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">En heb weer een pied à terre bij een goed solied schilder<c type="kp">_</c> En dan guarandeer ik er binnen kort wat gebeurt – ’t zij dat ik eens exposeer ’t zij dat ik eens verkoop<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Als ik U schreef AGIR<c type="kk">/</c><ptr target="#note-t-3"/> is dat geen WOORD Theo – hoor! maar dan is het om u te zeggen: gaan we <hi>zamen</hi> vooruit of blijft ge liever achter?–</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">ik heb liever we zamen vooruitgaan doch gezanikt mag er niet worden<c type="kp">_</c> 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/><hi rend="italics">Als</hi> het geldelijke een bezwaar was en voor U en voor Pa dan zou ik ’t van Rappard kunnen krijgen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">En dus courage! maar laat ons zamen vooruit gaan en er zamen op hameren tot wij dat er door hebben<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26"><hi rend="italics">Wilt</hi> ge niet mee doen dan ga ik alleen er op door<c type="kp">_</c>– Antwoord me nu hier eens op<c type="kp">_</c>– Natuurlijk hoor ik misschien <hi rend="italics">niets</hi> van M. of T.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27"><hi rend="italics">als</hi> ik iets hoor schrijf ik U direkt<c type="kp">_</c> En duurt het te lang dan moet het herhaald worden<c type="kk">/</c> of door mij alleen of door ons beiden<c type="kk">/</c> net zoo als ge wilt.– <hi rend="italics">’t Gaat Rappard heel best</hi> en <hi rend="italics">meer anderen </hi><hi>ook</hi> maar die hebben waarachtig ook niet enkel maar geduld en lijdzaamheid gehad. We <hi>moeten</hi> vooruit<c type="kp">_</c>–</p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Wen U aan dat idee dat we ons <hi rend="italics">bewegen</hi> moeten<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ik heb niet voor niets sedert ik ’t eerst bij M. was geblokt op de gronden van teekening zoowel als van kleur en schildertechniek<c type="kp">_</c>–<ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Ik heb iets bij geleerd maar ik heb er Mauve of iemand anders die heel knap is nog eens bij noodig – niet om me over ’t paard te ligten – doch om me wat courage te geven die mij ontzinkt als het al te lang <hi>zanikt</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Vooruit – en ’t bliksemt niet als ’t mislukt – als ’t mislukt dan op nieuw<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>
+
+<p xml:id="p.nl.32" n="32">Er moet krachtig doorgezet worden – met verfrischte energie – en dan kan de zaak tusschen U en mij tot <hi rend="italics">beider</hi> satisfactie uitkomen en in plaats van standjes en hatelijkheid kan er iets pittigs en goeds uit voortkomen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Het is zeer waar dat ik dit jaar voor mijn werk eerstens<c type="kk">/</c> tweedens ook voor mezelf<c type="kk">/</c> meer heb uitgegeven dan ’t vorige<c type="kp">_</c>– Hier heb ik echter geen spijt van – ik ben ook gevorderd juist in ’t geen later den boel redresseeren kan in ’t schilderen en – wat ik betreur is alleen dat ik nog niet een paar honderd gulden <hi rend="italics">meer</hi> heb kunnen besteden. Wat ik er mee gewonnen heb is dat b.v. in een morgen ik nu grifweg tegenwoordig een kop schilder naar ’t model en dat eindelijk mijn kleur degelijker en juister wordt en er meer karakter komt in de techniek<c type="kp">_</c>– Nu kan ik me best begrijpen het zeggen van mij – ik heb er <hi rend="italics">geld</hi> voor noodig gehad en nog noodig – gecritiseerd wordt<c type="kp">_</c>– Doch ’t is niet weg te cijferen voor ’t schildersberoep men evenzeer een bedrijfskapitaal noodig heeft als voor eenvoudig ’t schoenmakersberoep b.v.</p>
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Een bedrijfskapitaal dat na een paar jaar een zeer goede rente althans dan<c type="kk">/</c> om mee te beginnen<c type="kk">/</c> kan afwerpen – b.v. een 20%<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">En later kan worden afgelost<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Zoodat het geld van U<c type="kk">/</c> b.v. stel dat op een f<hi rend="super">rs</hi> 5000.- desnoods<c type="kk">/</c> mijn bedrijfskapitaal is<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">De <hi rend="italics">rente</hi> hiervan – als we die tot 20% kunnen brengen door energie van ons beiden – zou een bewijs zijn van de juistheid van Uw inzigten en tevens ook van de mijnen en van ’t goed inzien der zaken<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Dat resultaat nu – van een 20% rente s’jaars over f<hi rend="super">rs</hi> 5000 – wou ik gij meehielpt te krijgen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Dit zijn cijfers en zaken en ge moet zien ge Uw vertrouwen en energie terugkrijgt voor de kwestie<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Om dat resultaat te bereiken moet ik hard werken – maar – mijns inziens – kunt gij van uw kant wel eens doen wat ge vroeger zeidet te zullen doen – mijn partij trekken – niet in ’t neutrale doch in ’t energiek positieve<c type="kp">_</c>–</p>
+<pb f="3v" n="11" xml:id="pb-orig-3v-11" facs="#zone-pb-3v-11"/>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Ik zeg U nog eens uit volle overtuiging<c type="kk">/</c> <hi rend="italics">uit een oogpunt van</hi> ZAKEN – als handelaar als ge wilt: dat het systeem om slechts zaken te doen dan wanneer men <hi rend="italics">zeker</hi> is van reussite<c type="kk">/</c> niet het beste is en eigentlijk een uit een mediocre oogpunt de dingen beschouwen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Zaken doen<c type="kk">/</c> <hi rend="italics">quand même</hi> iets doen en zich bewegen om zich te bewegen<c type="kk">/</c> hatende de stagnatie en steriliteit<c type="kk">/</c> is mijns inziens een meer royalen en ook beter rendeerenden weg<c type="kp">_</c>– Dus het eeuwige – <hi rend="italics">geen</hi> slag om den arm houden – het <hi rend="italics">niet al</hi> te zwaar tillen der dingen – het een zeker zelfvertrouwen hebben – die dingen<c type="kk">/</c> ik sprak er vroeger reeds over<c type="kk">/</c> en wat enkele latere jaren me wezen<c type="kk">/</c> was voorzeker het meer overtuigd worden dat het doorzetten van een gevecht en het zich concentreeren op enkele punten<c type="kk">/</c> zich dan echter ook gansch en al wagende<c type="kk">/</c> ’t beste is<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Doch hieraan twijfelen de koelere karakters – de Bourdoncles<ptr target="#note-t-5"/> – ik apprecieer echter ook die regt gaarne en ze hebben wel degelijk hun kwaliteiten – doch om iets te <hi rend="italics">drijven</hi><c type="kk">/</c> door te zetten<c type="kk">/</c> te winnen.... als ’t daar op aan komt vervallen ze in hun weifelen en aarzelen<c type="kp">_</c>–</p>
+<pb f="3r" n="12" xml:id="pb-orig-3r-12" facs="#zone-pb-3r-12"/>
+
+<p rend="indent" xml:id="p.nl.44" n="44">En dan<c type="kk">/</c> natuurlijkerwijs<c type="kk">/</c> hokt en stopt den gang der zaken<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Enfin<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Ziehier nu – ik moet voor mijn vooruitgang<c type="kk">/</c> juist omdat het er me mee vlot<c type="kk">/</c> <hi rend="italics">50</hi> koppen schilderen<c type="kp">_</c>– Zoo dra mogelijk en achter elkaar<c type="kp">_</c>– Ik heb berekend<c type="kk">/</c> maar het is niet doenlijk met die kracht te werken die ik er wat moeite en inspanning betreft graag aan spendeeren wil<c type="kk">/</c> <hi rend="italics">zonder</hi> extra<c type="kp">_</c>– Ik heb een overjas noodig gehad – juist omdat ik mijn kleeren ook meer soigneer dan vroeger – en meer dingen<c type="kk">/</c> ook de verfrekeningen<c type="kk">/</c> nemen <hi rend="italics">veel</hi> af van wat ik krijg<c type="kp">_</c>– Zoo dat om mijn plan te volvoeren in korten tijd<c type="kk">/</c> werkende <hi>full</hi> speed (in plaats van zuinigheidshalve – en toch<c type="kk">/</c> juist <hi rend="italics">dat</hi> kan <hi rend="italics">niets</hi> bezuinigen – <hi rend="italics">half speed</hi>)<c type="kk">/</c> ik een extra f<hi rend="super">rs</hi> 100 moet zien te krijgen<c type="kp">_</c>– Ik <hi rend="italics">moet</hi> om Tersteeg en Mauve te winnen iets bepaald energieks doen nu<c type="kk">/</c> na de zaak geentameerd te hebben<c type="kp">_</c>– Is ’t nu <hi rend="italics">persé</hi> ondoenlijk ge me dit bezorgd<c type="kp">_</c>– Ik <hi rend="italics">moet</hi> het ijzer <hi rend="italics">nu</hi> smeden<c type="kk">/</c> <hi rend="italics">het is heet</hi> doch – beste broer en vriend – STOOK ’T VUUR OP<c type="kp">_</c> adieu<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.47" n="47">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.48" n="48">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">I received your letter, and I thank you for it and for the enclosure.</p>
+<p rend="indent" xml:id="p.en.3" n="3">When you write that you’re again facing your bad half year — for it lasts a  1/2  year, I think — it isn’t exactly pleasant news for you to write nor for me to receive.</p>
+<p rend="indent" xml:id="p.en.4" n="4">However, we must try to do something about it to ensure that things go better for both of us.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Before I received your letter and enclosure, I had already done something that you probably won’t approve of, but about which I don’t really value your opinion much, I’m sorry to have to say. I have again set in train an attempt to get back on good terms with <rs type="person" ref="bio.xml#_323">Mauve</rs>, with <rs type="person" ref="bio.xml#_787">Tersteeg</rs> too, if possible. I don’t know whether it will succeed — however, I must have more scope, for with the best will in the world, if one has been, as I have now, A WHOLE YEAR AND MORE entirely outside the world of painting, one works oneself into the ground outside and has to refresh oneself.</p>
+<p rend="indent" xml:id="p.en.6" n="6">You <hi rend="italics">never</hi> feel or understand that and say ‘just keep on painting’, and that’s all you can say. I <hi rend="italics">don’t</hi> <hi rend="italics">blame</hi> you for it, but I don’t find it intelligent of you either — be aware of that. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">What you say is perfectly true: that if I make good paintings I’m more likely to achieve something than by discussing revolutionary questions.(*)<ptr target="#note-t-1"/> I actually find this so true that while you were writing it I was just taking a step directly aimed at the progress of my work, by asking once more to paint a few studies in <rs type="person" ref="bio.xml#_323">Mauve</rs>’s studio.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">You always contradict yourself — the above-mentioned passage (*) in your letter is immediately followed by the question as to whether I could perhaps give you some new principles about the issue of reforming the trade.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I’d like to recommend one to you in your and in my personal interests (never mind about the general interest): back my approach to <rs type="person" ref="bio.xml#_323">Mauve</rs> and to <rs type="person" ref="bio.xml#_787">Tersteeg</rs>. 
+    <pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Help me to get going and earn money, not only by sending money but also through your influence and more cooperation and a better sort of friendship. I say again, back the approach I’ve made, for instance, for it should have been made sooner with support on your part.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Do it generously and resolutely, not hesitating or being non-committal when it comes to the point.</p>
+<p rend="indent" xml:id="p.en.12" n="12">There’s enough strength in me to be able to do something and to earn too. And then — as you say yourself — if I make progress with my paintings and capture a good, independent position, I’ll be worth more than now. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> Then — later in other words — when I’m doing a bit better — I’ll be very happy to try to give you new principles about the issues of reforming the trade — concerning which I certainly do have my ideas, which derive from my own experience of what <hi rend="italics">hinders</hi> painters’ progress, and what sort of things sometimes make the painter’s life unbearable.</p>
+<p rend="indent" xml:id="p.en.13" n="13">Now isn’t the moment to write to you about it at length. I only say this — if <hi rend="italics">you</hi> or if <hi rend="italics">I</hi> need money to make progress and if we can only work at half speed at the moment for financial reasons, we’ll have to see to it that we get it, and struggle on until we do get it — <hi>Not argue</hi> that ‘we’re facing a half year that’s going to be bad financially, so <hi rend="italics">reconcile yourself to it</hi>’. What <hi>has</hi> to be found, <hi>can</hi> be.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I’ve written to <rs type="person" ref="bio.xml#_323">Mauve</rs> and to <rs type="person" ref="bio.xml#_787">T.</rs> If you want to support me, so much the better.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Yours truly,</p>
+<p xml:id="p.en.16" n="16">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.17" n="17">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.18" n="18">Don’t misunderstand me, though — I haven’t written to <rs type="person" ref="bio.xml#_323">M.</rs> or to <rs type="person" ref="bio.xml#_787">Tersteeg</rs> in a complaining tone. On the contrary, but I have said as forcefully as I could: give me another opportunity to make some studies with Mauve.</p>
+<p rend="indent" xml:id="p.en.19" n="19">That’s what I asked — nothing else, and that’s all I need.</p>
+<p rend="indent" xml:id="p.en.20" n="20">They mustn’t be involved in the financial side at all. If I can’t save up for it myself, you’ll have to make the utmost effort to send me an extra 100 francs, because I won’t be going for long —</p>
+<p rend="indent" xml:id="p.en.21" n="21"> or if you absolutely can’t, <rs type="person" ref="bio.xml#_526">Pa</rs> will have to try to advance it. I’ll hammer away at it until <rs type="person" ref="bio.xml#_323">M.</rs> agrees. 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> If I don’t succeed on my own, we must <hi rend="italics">both</hi> ask Mauve until he does it.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Then — after that — I’ll again have a few tips for improving my work here and making progress with it.</p>
+<p rend="indent" xml:id="p.en.23" n="23">And again have a pied-à-terre with a good, sound painter. And then I guarantee that something will soon happen — either I’ll exhibit or I’ll sell.</p>
+<p rend="indent" xml:id="p.en.24" n="24">When I wrote to you, ACT,<ptr target="#note-t-3"/> it isn’t just a WORD, Theo — you hear! But it’s to say to you, are we going onward <hi>together</hi> or would you rather stay behind?</p>
+<p rend="indent" xml:id="p.en.25" n="25">I’d rather we went onward together, but there mustn’t be any nagging. 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> <hi rend="italics">If</hi> the financial aspect was a problem both for you and for <rs type="person" ref="bio.xml#_526">Pa</rs>, then I could get it from <rs type="person" ref="bio.xml#_1306">Rappard</rs>.</p>
+<p rend="indent" xml:id="p.en.26" n="26">And so, courage! But let’s go onward together and hammer away at it together until we’ve achieved it.</p>
+<p rend="indent" xml:id="p.en.27" n="27">If you don’t <hi rend="italics">want</hi> to join me, then I’ll carry on alone. Do give me an answer to this. Of course, I may hear <hi rend="italics">nothing</hi> from <rs type="person" ref="bio.xml#_323">M.</rs> or <rs type="person" ref="bio.xml#_787">T.</rs></p>
+<p rend="indent" xml:id="p.en.28" n="28"><hi rend="italics">If</hi> I hear anything, I’ll write to you immediately. And if it takes too long, it will have to be repeated, either by me alone or by both of us, just as you wish. <hi rend="italics"><rs type="person" ref="bio.xml#_1306">Rappard</rs> is doing very well</hi> and <hi rend="italics">several others </hi><hi>too</hi>, but they really haven’t had only patience and resignation. We <hi>must</hi> go onward. 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">Get used to the idea that we must <hi rend="italics">move</hi>.</p>
+<p rend="indent" xml:id="p.en.30" n="30">It’s not for nothing that I’ve been slogging away at the principles of drawing as well as of colour and painting technique since I was first with <rs type="person" ref="bio.xml#_323">M.</rs><ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.31" n="31">I’ve learned some new things, but I need <rs type="person" ref="bio.xml#_323">Mauve</rs> again, or someone else who’s very clever — not to make me swollen-headed — but to give me some courage, which fails me if things <hi>drag on</hi> too long.</p>
+<p rend="indent" xml:id="p.en.32" n="32">Onward — and it doesn’t matter a damn if it fails — if it fails, then do it again.</p><space unit="lines" quantity="1"/><pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/>
+<p xml:id="p.en.33" n="33"> It’s essential to carry on forcefully — with renewed energy — and then the business between you and me can work out to our <hi rend="italics">mutual</hi> satisfaction, and instead of rebukes and nasty remarks, something spirited and good can come of it.</p>
+<p rend="indent" xml:id="p.en.34" n="34">It’s very true that I’ve spent more this year than last on firstly my work, secondly myself. I’m not sorry for it, though — I’ve progressed in precisely what will rectify things in painting later and — the only thing I do regret is that I haven’t been able to spend a few hundred guilders <hi rend="italics">more</hi>. What I’ve gained by it, for instance, is that I can now easily paint a head from the model in a morning, and that at last my colour is becoming sounder and more accurate, and more character is appearing in the technique. Now I can well understand that what I say — I needed and still need <hi rend="italics">money</hi> for this — will be criticized. But one can’t ignore the fact that one needs working capital for the profession of painter just as much as for simply the shoemaker’s trade, for instance. 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">Working capital that could generate very good interest after a few years, then anyway, 20% to start with, for example.</p>
+<p rend="indent" xml:id="p.en.36" n="36">And could be paid back later.</p>
+<p rend="indent" xml:id="p.en.37" n="37">So that the money from you, say we call it 5,000 francs at a pinch, is my working capital.</p>
+<p rend="indent" xml:id="p.en.38" n="38">The <hi rend="italics">interest</hi> on this — if we could get it to 20% through the energy of both of us — would be proof of the rightness of your insights and also of mine, and of a sound view of business.</p>
+<p rend="indent" xml:id="p.en.39" n="39">Now that result — 20% interest a year on 5,000 francs — I’d like you to help me get it.</p>
+<p rend="indent" xml:id="p.en.40" n="40">These are facts and figures, and you must see to it that you get your confidence and energy back in this matter.</p>
+<p rend="indent" xml:id="p.en.41" n="41">I’ll have to work hard to achieve this result — but — as I see it — for your part you can just do something you said you’d do before — take my side — not neutrally but energetically, positively. 
+<pb f="3v" n="11" xml:id="pb-trans-3v-11" facs="#zone-pb-3v-11"/></p>
+<p rend="indent" xml:id="p.en.42" n="42">I tell you once more from total conviction, <hi rend="italics">from the </hi>BUSINESS <hi rend="italics">point of view</hi> — as a dealer, if you will, that the system of only doing business when one is <hi rend="italics">sure</hi> of succeeding is not the best, and actually one of looking at things from a mediocre point of view.</p>
+<p rend="indent" xml:id="p.en.43" n="43">Doing business, doing something <hi rend="italics">come what may</hi> and moving for the sake of moving, hating stagnation and sterility, is to my mind a more open-hearted and also more profitable way. So the eternal — <hi rend="italics">not</hi> being non-committal — not worrying about things <hi rend="italics">too much</hi> — having a certain self-confidence — these things, I already spoke about them in the past; and what a few later years showed me, was truly to become more convinced that carrying on a fight and concentrating on a few points, but at the same time risking everything, is the best thing.</p>
+<p rend="indent" xml:id="p.en.44" n="44">But the cooler characters — the Bourdoncles<ptr target="#note-t-5"/> — doubt this. However, I’m quite prepared to appreciate them, too, and they undoubtedly have their qualities — but to <hi rend="italics">push </hi>something through, to persevere, to win... when it comes to the point, they lapse into vacillation and hesitancy. 
+<pb f="3r" n="12" xml:id="pb-trans-3r-12" facs="#zone-pb-3r-12"/></p>
+<p rend="indent" xml:id="p.en.45" n="45">And then, naturally, business marks time and comes to a standstill.</p>
+<p rend="indent" xml:id="p.en.46" n="46">Anyway.</p>
+<p rend="indent" xml:id="p.en.47" n="47">Now look here — to make progress, because I’m just getting into my stride, I have to paint <hi rend="italics">50</hi> heads. As soon as possible and one after the other. I have calculated, but it won’t be possible to work with the energy that I want to devote to it in terms of exertion and effort <hi rend="italics">without</hi> extra. I needed an overcoat — because I’m taking more trouble over my clothes than before — and other things, including the paint bills, take <hi rend="italics">a lot</hi> of what I get. So that in order to carry out my plan quickly, working at <hi>full</hi> speed (instead of<hi rend="italics"> half speed</hi> for the sake of economy — and yet, <hi rend="italics">that</hi> can actually save <hi rend="italics">nothing</hi>), I must manage to get an extra 100 francs. In order to win over <rs type="person" ref="bio.xml#_787">Tersteeg</rs> and <rs type="person" ref="bio.xml#_323">Mauve</rs>, I <hi rend="italics">must</hi> do something decidedly energetic now, having broached the matter. Is it <hi rend="italics">absolutely</hi> impossible for you to let me have it now? I <hi rend="italics">must</hi> strike the iron <hi rend="italics">now</hi>, <hi rend="italics">it’s hot</hi>, but — my dear brother and friend — STOKE UP THE FIRE. Adieu.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.48" n="48">Yours truly,</p>
+<p xml:id="p.en.49" n="49">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Now that Van Rappard has left and his visit has inspired Vincent with new plans, he again addresses himself wholly and at length to Theo. The money he received must be the allowance for November; we have therefore dated the letter on or about Sunday, 2 November 1884.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Soured relationship with Mauve and Tersteeg (<ref target="let208.xml">208</ref> and <ref target="let209.xml">209</ref>)</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Van Gogh had raised the Revolution of 1848 several times before (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let461.xml">see letters 461</ref>-<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let465.xml">465</ref>). The (*) symbol marks the spot he refers back to in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-38">l. 38</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>On 5 November 1884 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> wrote to Theo about Vincent’s isolated position: ‘<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Rappard</rs> left Saturday. Vincent hasn’t done much the last few days and is depressed. Poor fellow, but how can he possibly go out and about so inconsiderately? If he wants something, he’ll just have to try twice as hard; he’s still young enough for that. It’s almost unbearable to watch. All the same I think he’ll stick to his plan to go out. I hope so; who knows what he may meet to inspire him. It’s the same old thing here and he doesn’t talk to anyone here. We must just hope for the best’ (FR b2260).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘het algemeen belang daargelaten’ (never mind about the general interest).</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Means: ‘op gang komen’ (get going).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The word ‘Agir’ (act) is part of the quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi> in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let464.xml">letter 464</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>In November 1881 Van Gogh spent almost a month in The Hague, where he often went to see <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_323">Mauve</rs>, who gave him his first lessons in painting and using watercolours (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let191.xml">letter 191</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>A reference to the character of Bourdoncle in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_275">Au bonheur des dames</ref></hi>, to whom Vincent likened Theo; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let464.xml">see letter 464</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

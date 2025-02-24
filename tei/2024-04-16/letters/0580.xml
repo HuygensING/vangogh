@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Paris, Monday, 15 November 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let058"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b58 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>058</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>45</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>057</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1875-12-15">Monday, 15 November 1875</date>
+                            <placeName>Paris</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0058" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000061_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000061_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0058" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000061_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000061_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000061_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Parijs 15 Nov. 1875.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Hierbij een briefje voor Oom Haanebeek<c type="kk">/</c> ik schreef nog niet na het overlijden van Annet en voelde behoefte om dat toch eens te doen.─<ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Komt gij er nog al eens? In elk geval gaat gij het briefje toch zelf brengen<c type="kk">/</c> niet waar.─ </p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Mijn waarden Engelschman kookt tegenwoordig iederen morgen haver de gort waarvan hij 25 pond van zijn Vader gekregen heeft, hoe graag zou ik willen gij er eens van proeven kondt.─</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ik ben toch zoo blij ik dien jongen heb ontmoet. Ik heb van hem geleerd en heb hem ook kunnen wijzen op een gevaar dat hem dreigde.─</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Hij was nog nooit van huis geweest en had, hoewel hij het niet liet merken, een ziekelijk (hoewel edel) verlangen naar zijn vader en zijn thuis.─ </p>
+<p rend="indent" xml:id="p.nl.8" n="8">Hij verlangde daarnaar met het verlangen dat aan God en den hemel toebehoort. Vergooding is geen liefde.─ Wie zijne ouders liefheeft moet hen achterna het leven door. Hij ziet dat nu duidelijk en heeft met wat ware droefheid in het hart toch moed en lust om verder te gaan. Heeft Pa U alreeds eens gezegd zooals Hij dat mij wel deed: Bewaar uw hart voor alle dingen want daaruit zijn de uitgangen des levens.<ptr target="#note-t-2"/> Laat ons dat maar doen<c type="kk">/</c> dan zullen wij met Gods hulp er wel komen.─</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Heb het goed, en geloof mij steeds</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.10" n="10">Uw liefh. broeder</p>
+
+<p xml:id="p.nl.11" n="11">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Paris, 15 Nov. 1875.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">Herewith a note for <rs type="person" ref="bio.xml#_442">Uncle Haanebeek</rs>. I hadn’t written since <rs type="person" ref="bio.xml#_445">Annet</rs> died, and felt the need to do so at last.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">Do you ever go there? In any case you’ll deliver the letter yourself, won’t you?</p>
+<p rend="indent" xml:id="p.en.5" n="5">My <rs type="person" ref="bio.xml#_394">worthy Englishman</rs> now cooks barley porridge every morning; he got 25 pounds of it from his <rs type="person" ref="bio.xml#_396">father</rs>. How I wish you could try it sometime. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m really very glad to have met that boy. I’ve learned from him and was able, in turn, to draw his attention to a danger that was threatening him.</p>
+<p rend="indent" xml:id="p.en.7" n="7">He had never been away from home and, although he didn’t let it show, he had an unwholesome (though noble) yearning for his father and his home.</p>
+<p rend="indent" xml:id="p.en.8" n="8">He yearned with a yearning that belongs to God and heaven. Idolatry is not love. He who loves his parents must follow them on life’s path. He now sees this clearly and, with some genuine sorrow in his heart, he has the courage and the desire to go on. Has <rs type="person" ref="bio.xml#_526">Pa</rs> already said to you what he once said to me? Keep thy heart above all things; for out of it are the issues of life.<ptr target="#note-t-2"/> Let us do that, then, and with God’s help we shall succeed. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">I wish you well, and believe me ever</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.10" n="10">Your loving brother</p>
+<p xml:id="p.en.11" n="11">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Parijs 15 Nov. 1875.’</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Friendship with Harry Gladwell <ref target="let055.xml">(55)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_442">Uncle Carl Adolph Haanebeek</rs> was the father of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_445">Annet Haanebeek</rs>, who had died on 14 June.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Cf. Prov. 4:23.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

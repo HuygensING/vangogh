@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, Tuesday, 29 or Wednesday, 30 May 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let617"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b536 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>617</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>495</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>620</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-05-29">Tuesday, 29 or Wednesday, 30 May 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0536" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000721_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000721_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000721_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0536" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000721_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000721_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000721_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">si le rouleau n’est pas trop grand pour qu’on l’accepte à la poste tu recevras un grand dessin à la plume encore<ptr target="#note-t-1"/> que je voudrais bien que les Pissaro voient s’ils viennent Dimanche<c type="kp">_</c> Je viens de recevoir une partie de la commande de couleurs<ptr target="#note-t-2"/> et je t’en remercie beaucoup.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Demain matin de bonne heure je pars pour S<hi rend="super">tes</hi> Maries au bord de la Méditerranée<c type="kk">/</c> j’y resterai jusqu’à Samedi soir<c type="kp">_</c><ptr target="#note-t-3"/></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’emporte deux toiles mais je crains un peu qu’il pourrait bien faire trop de vent pour peindre. On y va en dilligence<c type="kk">/</c> c’est à 50 kilomètres d’ici. On traverse la <hi rend="italics">Camargue</hi><c type="kk">/</c><ptr target="#note-t-4"/> des plaines d’herbe où il y a les manades de taureaux et des troupeaux de petits chevaux blancs à demi sauvages et bien beaux.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.5" n="5">J’emporte tout ce qu’il faut pour dessiner surtout. il faut que je dessine beaucoup justement pour cette raison dont tu parlais dans ta derniere lettre – les chôses d’ici ont tant de style. Et je veux arriver à un dessin plus volontaire et plus exagéré<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Je reste un peu inquiet de tes plans de voyages ou plutôt des propositions de voyager qu’on te fait. Cela éreinte de voyager et surtout cela ébranle la cervelle plus que cela puisse être bon pour toi<c type="kp">_</c> En tout cas je m’en sentirais coupable en me disant que c’est mes besoins d’argent qui t’y poussent<c type="kp">_</c> Non – c’est pas bien.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Alors je me dis que pourtant nous pouvons commencer à espérer que sous peu je vendrai un ou deux tableaux par mois – CAR CELA DEVIENDRA MIEUX. Traines les donc en longueur et parles en à Gruby qui j’ose croire préferera que tu te tiennes tranquille une année.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Si je m’y trompe et si Gruby te dit qu’un changement serait bien – mais cela ne peut pas être le cas.</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">J’ai écrit à Gauguin et j’ai seulement dit que je regrettais que nous travaillons si loin l’un de l’autre et que c’était dommage que plusieurs peintres ne s’etaient pas combinés pour une campagne.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Il faut compter que cela trainera peut être des années avant que les tableaux impressionistes ayent une valeur ferme et donc pour l’aider il faut considérer cela comme une affaire de longue haleine. Mais il a un si beau talent qu’une association avec lui serait un pas en avant pour nous.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Je t’ai dit très serieusement que si tu veux j’irai en Amerique avec toi si toutefois ce voyage serait de longue durée et si cela en vaut la peine.</p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Pour nous il faut chercher à ne pas être malades car si nous l’etions – nous sommes <hi rend="italics">plus</hi> <hi rend="italics">isolés</hi> que par exemple 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>le pauvre concierge qui vient de mourir<ptr target="#note-t-6"/> – ces gens ont de l’entourage – et voient le va et vient du menage et vivent dans la bêtise<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Mais nous sommes là seuls avec notre pensée et desirerions parfois etres bêtes<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">Etant donnés les corps que nous avons<c type="kk">/</c> nous avons besoin de vivre avec les copains<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Ci inclus un petit mot pour prendre congé de Koning.<ptr target="#note-t-7"/></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Il me faut faire des choses qui puissent engager quelqu’un comme Thomas<ptr target="#note-t-8"/> par exemple de se joindre à toi pour faire travailler ici ceux qui y iront. Alors Gauguin viendrait je pense à coup sûr.</p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Poignée de main et bien merci des couleurs<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.18" n="18">t<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.19" n="19">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.20" n="20">Ce serait beaucoup risquer que de prendre Gauguin mais c’est dans cette direction qu’il faut travailler et j’ai espoir que tu trouveras secours de Tersteeg<c type="kk">/</c> Thomas<c type="kk">/</c> je ne sais de qui mais j’espère<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">If the roll isn’t too big to be accepted at the post office, you’ll receive another large pen drawing<ptr target="#note-t-1"/> that I’d very much like the <rs type="person" ref="bio.xml#_1267 bio.xml#_1268">Pissarros</rs> to see if they come on Sunday. I’ve just received part of the order for colours,<ptr target="#note-t-2"/> and I thank you very much for it.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I leave early tomorrow morning for Saintes-Maries, on the Mediterranean; I’ll stay there till Saturday evening.<ptr target="#note-t-3"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I’m taking two canvases but I’m a little afraid there could well be too much wind to paint. You go by diligence, it’s 50 kilometres from here. You cross the <hi rend="italics">Camargue</hi>,<ptr target="#note-t-4"/> grassy plains where there are herds of bulls and herds of small white horses, half-wild and quite beautiful. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">I’m taking everything I need in order to draw, especially. I have to draw a lot, for the very reason you were speaking of in your last letter — things here have so much style. And I want to arrive at a more deliberate and exaggerated way of drawing.</p>
+<p rend="indent" xml:id="p.en.6" n="6">I’m still a little worried about your plans for travelling, or rather, the proposals about travelling they’re putting to you. Travelling wears you out, and most of all, it unsettles the brain more than can be good for you. In any case, I’d feel it was my fault, telling myself that it’s my needs for money that are driving you to it. No — it’s not good.</p>
+<p rend="indent" xml:id="p.en.7" n="7">Then I say to myself that nevertheless we can begin to hope that soon I’ll be selling one or two paintings a month — BECAUSE THINGS WILL GET BETTER. So keep them waiting and talk about it with <rs type="person" ref="bio.xml#_446">Gruby</rs>, who I dare believe will prefer it if you took things quietly for a year. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">If I’m wrong about it, and if <rs type="person" ref="bio.xml#_446">Gruby</rs> tells you a change would be good — but that can’t be the case.</p>
+<p rend="indent" xml:id="p.en.9" n="9"> I’ve written to <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, and I only said I was sorry we worked so far from each other, and that it was a pity that several painters hadn’t joined together for a campaign.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">We have to count on it taking years, perhaps, before Impressionist paintings have a firm value, and so to help him we’ll have to see it as a long-term business. But he has such a fine talent, an association with him would be a step forward for us.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I told you very seriously that if you wish, I’ll go to America with you, if, though, this journey was a long one and if it’s worth the trouble.</p>
+<p rend="indent" xml:id="p.en.12" n="12">For our part, we have to try not to be ill, because if we were — we’re <hi rend="italics">more isolated</hi> than, for example, 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> the poor concierge who’s just died<ptr target="#note-t-6"/> — these people have a circle of people around them — and see the comings and goings of the household and live in stupidity.</p>
+<p rend="indent" xml:id="p.en.13" n="13">But we’re alone there with our thoughts and would sometimes wish to be stupid.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Given the bodies we have, we need to live with pals.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Included herewith a few lines to say goodbye to <rs type="person" ref="bio.xml#_1145">Koning</rs>.<ptr target="#note-t-7"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">I have to do things that could get someone like <rs type="person" ref="bio.xml#_780">Thomas</rs>,<ptr target="#note-t-8"/> for example, to join you in letting those who’ll go here, work here. Then <rs type="person" ref="bio.xml#_1039">Gauguin</rs> would certainly come, I think.</p>
+<p rend="indent" xml:id="p.en.17" n="17">Handshake, and many thanks for the colours.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.18" n="18">Ever yours,</p>
+<p xml:id="p.en.19" n="19">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.20" n="20">It would be risking a lot to take on <rs type="person" ref="bio.xml#_1039">Gauguin</rs>, but that’s the direction in which we have to work, and I have hopes that you’ll get help from <rs type="person" ref="bio.xml#_787">Tersteeg</rs>, <rs type="person" ref="bio.xml#_780">Thomas</rs>, I don’t know from whom, but I hope.</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Several suggestions have been made for the sequence and dating of the letters Van Gogh wrote in late May and early June 1888. Crucial to this discussion is the answer to the question as to when he went to the seaside town of Les Saintes-Maries-de-la-Mer; in the present letter he says he will go there ‘tomorrow’.There is a summary of the views of Hulsker, Pickvance, Merlhès, the editors of <hi rend="italics">De brieven</hi> 1990 and Dorn in: Dorn 1998, p. 25. Dorn is the only one to suggest that Van Gogh did not stay in Saintes-Maries until the week of 10 to 16 June 1888. We do not think that his main argument, namely that when he wrote ‘refiler’ (‘go back’) in <ref target="let621.xml">letter 621</ref> Van Gogh simply meant ‘filer’ (‘go’), implying that he had not yet been to the town, holds water. We subscribe to the criticism in Hulsker 1999 (see further <ref target="let621.xml#n-6">letter 621, n. 6</ref>).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Van Gogh writes twice that he spent a week in Saintes-Maries (<ref target="let622.xml">see letters 622</ref> and <ref target="let627.xml">627</ref>). Although this does not have to be regarded as exactly seven days, we see no reason to assume that his stay was significantly shorter or longer. Admittedly it initially appears that he only meant to stay for about four days and wanted to come back in the evening of Saturday, 2 June (<ref target="let617.xml">letter 617</ref>), but his plans were evidently quite fluid: in <ref target="let619.xml">letter 619</ref> he says he wants to set off ‘tomorrow afternoon’, but in the event he went early in the morning (<ref target="let620.xml">letter 620</ref>).</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">As far as the dates are concerned, we base our arguments on <ref target="let620.xml">letters 620</ref> and <ref target="let621.xml">621</ref>. They were written after Van Gogh got back from Saintes-Maries, on about 5 June 1888 (see the notes to <ref target="let621.xml">letter 621</ref>, <hi rend="italics">Date</hi>). Since we regard it as plausible that <ref target="let620.xml">letter 620</ref> was written on the day he returned (see <hi rend="italics">Date</hi> in the notes to that letter), we believe that Vincent’s stay by the sea was roughly the week prior to about 5 June.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">The present letter and <ref target="let618.xml">letter 618</ref> were written the day before he left (see <ref target="#l-10">ll. 10-11</ref> and <ref target="#l-14">ll. 14-15</ref> respectively) and sent to Theo at the same time. They also date from after <ref target="let616.xml">letter 616</ref> of 28 or 29 May, since as he writes in the present letter (see <ref target="#l-54">ll. 54</ref> ff.) Van Gogh has meanwhile carried out the plan to write to Gauguin he outlined in that letter. Given that Van Gogh was very preoccupied with Gauguin’s situation at this time, we date this one no more than a day after <ref target="let616.xml">letter 616</ref>, in other words on Tuesday, 29 or Wednesday, 30 May 1888.</p>
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="indent">Bearing in mind that <ref target="let617.xml">letters 617</ref> and <ref target="let618.xml">618</ref> were written the day before he set out, we assume that Van Gogh’s excursion to Saintes-Maries lasted from 30 or 31 May to about 4 June.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh also enclosed a letter for Koning <ref target="let618.xml">(618)</ref>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s possible trip to America <ref target="let610.xml">(610)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s health problems <ref target="let611.xml">(611)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Koning’s stay with Theo <ref target="let578.xml">(578)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin coming to Arles <ref target="let602.xml">(602)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of Arles from a hill </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2618">F 1452 / JH 1437</rs>). Van Gogh described this drawing in the letter he enclosed for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let618.xml">618</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>A paint order for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_785">Tasset</rs> was enclosed with <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let613.xml">letter 613</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Van Gogh went to Saintes-Maries on 30 or 31 May (according to Pickvance and Hulsker on 30 May; according to Dorn on 10 June). He returned to Arles on 4 or 5 June (according to Pickvance and Hulsker on 3 June; according to Dorn on 16 June). See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Date</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>The Camargue is the area of marshes in the Rhône delta between Arles and Saintes-Maries, where there are flamingos, wild horses and bulls.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This is the (unknown) letter that Van Gogh said he would write in the postscript to <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let616.xml">letter 616</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>We do not know what this refers to.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The enclosed letter for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1145">Koning</rs> is <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let618.xml">letter 618</ref>. The letter reached Paris too late, so Theo forwarded it to Winschoten in the Netherlands, where Koning lived (FR b1077).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_780">Georges Thomas</rs>, called ‘le père Thomas’, was known to a small circle as a dealer who supported the most contemporary art. He it was, for instance, who sold one of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1392">Toulouse-Lautrec</rs>’s first paintings and he exhibited work by Van Gogh. At that time his gallery was at 43 boulevard Malesherbes. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let718.xml">See letter 718</ref> and exhib. cat. Paris 1988, p. 342.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

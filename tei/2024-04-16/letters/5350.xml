@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Nuenen, on or about Tuesday, 13 October 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let535"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b467 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>535</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>427</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>538</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-10-13">on or about Tuesday, 13 October 1885</date>
+                            <placeName>Nuenen</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000627_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000627_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000627_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000627_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000627_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000627_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000628_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000628_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000628_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000628_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000628_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000628_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000629_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-9">
+<graphic url="https://example.com/iiif/VGM001000629_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0467 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000629_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-10">
+<graphic url="https://example.com/iiif/VGM001000629_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Heden heb ik verzonden – franco – kist <hi rend="italics">V4</hi> met de <hi rend="italics">stillevens</hi><c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">De twee schetsjes van Amsterdam zijn tot mijn spijt nogal beschadigd.<ptr target="#note-t-2"/> op reis waren zij nat geworden<c type="kk">/</c> toen zijn de paneeltjes krom getrokken bij ’t droogen en is er stof in gaan zitten &amp;c. Toch stuurde ik ze om U te laten zien dat als ik in een uur tijd ergens een impressie er op wil smeeren<c type="kk">/</c> ik dit begin te kunnen in ’t zelfde sentiment van anderen die hun impressies – analyseeren<c type="kp">_</c>– En zich reden geven van wat ze zien. Dat is iets anders dan voelen<c type="kk">/</c> d.i. impressies ondervinden – er ligt tusschen ’t indrukken ervaren en – ze analyseeren<c type="kk">/</c> d.i. <hi rend="italics">ze uit elkaar nemen</hi> <hi rend="italics">en weer in elkaar zetten</hi> – misschien heel wat<c type="kp">_</c>– Maar het is een pleizierig ding om in de vlugt iets er op te zetten<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Wat mij bijzonder heeft getroffen bij het terug zien der oud Hollandsche schilderijen is dat zij <hi rend="italics">meestal snel zijn geschilderd</hi><c type="kp">_</c> Dat deze groote meesters als een Hals<c type="kk">/</c> een Rembrandt<c type="kk">/</c> een <hi rend="italics">Ruysdael</hi> – zooveel anderen – zooveel mogelijk du premier coup aanzetten – en niet zoo heel veel er op terug kwamen<c type="kp">_</c><ptr target="#note-t-3"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.5" n="5">En – alsjeblieft ook dit – <hi rend="italics">dat als het</hi> <hi rend="italics">’t deed</hi><c type="kk">/</c><hi rend="italics"> lieten ze ’t staan</hi><c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ik heb handen vooral bewonderd van Rembr. &amp; Hals – handen die leefden maar die <hi rend="italics">niet af</hi> waren in den zin die men tegenwoordig met forceeren wil<c type="kp">_</c>– Zekere handen in de staalmeesters zelfs<c type="kk">/</c><ptr target="#note-t-4"/> in de Jodenbruid<c type="kk">/</c><ptr target="#note-t-5"/> in Frans Hals<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">En koppen ook – oogen<c type="kk">/</c> neus<c type="kk">/</c> mond met de eerste penseelstreken gedaan<c type="kk">/</c> zonder retouche hoegenaamd<c type="kp">_</c> Unger<c type="kk">/</c> Bracquemond hebben ’t goed geetst – zoo als ’t gedaan is<c type="kk">/</c> en men kan de wijze van schilderen in hun etsen zien<c type="kp">_</c>–<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Theo wat is het noodig om in dezen tijd eens naar oude Hollandsche schilderijen te zien! En naar de fransche schilderijen<c type="kk">/</c> Corot<c type="kk">/</c> Millet &amp;c<c type="kp">_</c> De rest<c type="kk">/</c> men kan ze desnoods heel best missen – en brengt sommigen meer van streek dan zij meenen<c type="kp">_</c>–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">In eens schilderen<c type="kk">/</c> zooveel mogelijk in eens<c type="kp">_</c>– Wat is het een genot zoo’n Frans Hals te zien – wat is ’t heel iets anders dan de schilderijen – er zijn er zóó veel – waar zorgvuldig alles op de zelfde wijs is gladgestreken<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Toevallig zag ik nu een Meissonier (die van Fodor)<ptr target="#note-t-7"/> op den zelfden dag dat ik oud Hollandsche meesters zag<c type="kk">/</c> Brouwer<c type="kk">/</c> Ostade<c type="kk">/</c> Terburg vooral<c type="kp">_</c>–<ptr target="#note-t-8"/> Welnu – Meissonnier doet het zooals zij – een zeer doordachte<c type="kk">/</c> zeer berekende toets – maar – in eens er op en zoo mogelijk in eens goed<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Ik geloof ’t beter is met ’t mes<ptr target="#note-t-a"/> een gedeelte dat mislukt weg te nemen en van voren af te beginnen<c type="kk">/</c> dan dikwijls er op terug komen.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Nu – ik zag een schets van Rubens en een schets van Diaz ook<c type="kk">/</c> als ’t ware te gelijkertijd<c type="kp">_</c>–<ptr target="#note-t-9"/> Ze waren wel niet ’t zelfde doch het geloof dat de kleur den vorm uitdrukt als zij op haar plaats en in haar verband staat – dat hebben ze toch wel gemeen. Althans Diaz is toch een <hi rend="italics">schilder</hi> in merg en been – en in de toppen van zijn vingers had hij conscientie<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.13" n="13">De Diaz van Fodor is overigens schetsachtig maar misschien ook juist daarom was ’t voor mij die in jaren er geen zag een waar genoegen er een terug te zien en hield het zich heel best<c type="kk">/</c> zelfs als men de manier van doen van de ouden pas gezien had<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik moet nog eens terug komen op zekere schilderijen van tegenwoordig die talrijker en talrijker worden<c type="kp">_</c>– Men heeft een 10<c type="kk">/</c> 15 jaar geleden beginnen te spreken van “helderheid van licht”<c type="kp">_</c>–<ptr target="#note-t-10"/> Het zij zoo dat dit oorspronkelijk goed was<c type="kk">/</c> het is daadzaak er meesterlijke dingen door dat systeem ontstaan zijn<c type="kp">_</c> Doch waar meer &amp; meer ’t ontaard in een overproductie van schilderijen waar ’t heele schilderij door – aan alle 4 de hoeken ’t zelfde licht<c type="kk">/</c> den zelfden wat ze noemen<c type="kk">/</c> geloof ik<c type="kk">/</c> dagtoon en locale kleur heerscht<c type="kk">/</c> is dit goed??? Ik meen neen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Is de Ruysdael van V<c type="kp">_</c>d<c type="kp">_</c> Hoop<c type="kk">/</c> die met den molen<c type="kk">/</c> niet <hi rend="italics">buiten</hi>? is er geen <hi rend="italics">lucht</hi> in en <hi rend="italics">ruimte</hi> van belang?<ptr target="#note-t-11"/> En toch – ’t heele sch<hi rend="super">ij</hi> staat zeer veel lager dan de lui ’t zouden aanzetten<c type="kk">/</c> lucht en aarde bovendien vormen één geheel<c type="kk">/</c> hooren bij elkaar<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Van Goyen – die Corot onder de Hollanders – ik stond lang voor dat magistrale doek van de collectie Dupper<c type="kk">/</c> twee eiken op een duin in den herfst in den storm<c type="kp">_</c>–<ptr target="#note-t-12"/></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Een sentiment<c type="kk">/</c> ja laat ik zeggen als Jules Dupré <hi rend="italics">of als le buisson</hi><c type="kp">_</c><ptr target="#note-t-13"/></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Maar er is veeleer gewone geel oker dan – wit – doorgevoerd in ’t sch<hi rend="super">ij</hi><c type="kp">_</c> Nu de <hi rend="italics">Cuyp</hi> – ’t gezicht op Dordrecht van v<c type="kp">_</c>d. Hoop<ptr target="#note-t-14"/> – geheel <hi rend="italics">ros</hi> goud – ook daar – de okers<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Het geel van Frans Hals – noeme men ’t wat men wil<c type="kk">/</c> citron amorti of jaune chamois – waar is ’t mee gedaan? ’t Schijnt in ’t sch<hi rend="super">ij</hi> heel licht – doch houd er eens wit tegen<c type="kp">_</c>–<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Een groote les die de oude Hollandsche meesters geven is dunkt me deze<c type="kk">/</c> teekenen en kleur als één te beschouwen – wat Bracquemond ook zegt<c type="kp">_</c>–<ptr target="#note-t-16"/> Dat nu – velen doen ’t <hi rend="italics">niet</hi><c type="kk">/</c> ze teekenen met alles<c type="kk">/</c> behalve met gezonde kleur<c type="kp">_</c> O Theo het is zoo ellendig om naar te luisteren<c type="kk">/</c> ’t is zoo gruwelijk vervelend als b.v. een vent als Haverman het over “techniek” heeft. Ik zeg niet Rappard<c type="kk">/</c> omdat die ook wel zoo praat doch gelukkig voor hem zelven beter schildert dan hij spreekt.<ptr target="#note-t-17"/></p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Ik heb niets geen lust om veel kennis onder de schildersclub te maken<c type="kp">_</c> Maar nog eens – van techniek gesproken – er is een heel wat gezonder en degelijker techniek in Israels – b.v. al in dat heel oude doek de visscher van Zandvoort<c type="kk">/</c> met prachtig clair obscur<ptr target="#note-t-18"/> – dan de techniek van hen die overal even glad<c type="kk">/</c> plat en gedistingueerd door hun blikkoude kleur zijn<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">De visscher van Zandvoort<c type="kk">/</c> wel<c type="kk">/</c> maar hang die gerust naast een oude Delacroix<c type="kk">/</c> la barque du Dante<c type="kk">/</c><ptr target="#note-t-19"/> en ’t is dezelfde familie<c type="kp">_</c> <hi rend="italics">Daar geloof ik in</hi> maar ik krijg iederen keer meer het land aan de schilderijen die overal even helder zijn<c type="kp">_</c>– Het is voor mij een leelijk ding dat zij zeggen dat ik “geen techniek” heb – het is mogelijk dat omdat ik met niemand kennis maak van de schilders<c type="kk">/</c> dit doodbloeden zal<c type="kp">_</c> het is integendeel waar dat <hi rend="italics">juist inzake</hi> <hi rend="italics">techniek</hi> ik veel lui die er ’t meest over lullen <hi rend="italics">zwak</hi> vind. Dat schreef ik U reeds<c type="kp">_</c>–<ptr target="#note-t-20"/> Maar als ik voor den dag kom in Holland met ’t een of ander van mijn werk<c type="kk">/</c> weet ik vooruit waar ik mede te doen krijg en met wat voor 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>kaliber van technici. Intusschen<c type="kk">/</c> ik ga heel bedaard liever naar de <hi rend="italics">oude</hi> <hi rend="italics">hollanders</hi> en liever naar de schilderijen van Israels en wie <hi rend="italics">direkt</hi> aan Israels zich aansluiten<c type="kk">/</c> wat de nieuweren <hi rend="italics">niet</hi> doen<c type="kp">_</c> Zij staan veeleer <hi rend="italics">lijnregt</hi> <hi rend="italics">tegenover</hi> Israels<c type="kp">_</c>– En ik meen opgemerkt te hebben dat Israels zelf<c type="kk">/</c> Maris<c type="kk">/</c> Mauve<c type="kk">/</c> Neuhuys zelf<c type="kk">/</c> een zekere rigting waar we ’t nu over hebben slechts met displeizier zien. Een Mesdag b.v.<c type="kk">/</c> die in der tijd schrikkelijk <hi rend="italics">realist</hi> was<ptr target="#note-t-21"/> zoo als ge U herinnert – wordt tooniger in zijn latere schilderijen en teekeningen en wat mysterieuser dikwijls<c type="kp">_</c>– Enfin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Witkamp heeft verduiveld veel goeds – lijkt op Jules Breton of Bastien Lepage – maar – Jules Breton is warm en hij is <hi rend="italics">veel</hi> <hi rend="italics">te</hi> <hi rend="italics">koud</hi><c type="kp">_</c> En dat’s geen makkelijk te verhelpen gebrek – om een ding warm te krijgen <hi rend="italics">moet het warm</hi> <hi rend="italics">aangelegd</hi> worden en anders krijgt men er de kou niet ligt uit.<ptr target="#note-t-22"/></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">De wat zij noemen helderheid<c type="kk">/</c> is in veel gevallen een leelijken ateliertoon van een ongezellig stadsatelier<c type="kp">_</c>– Naar de schemering s’morgens vroeg of s’avonds schijnt men niet te kijken<c type="kk">/</c> er schijnt dus niets meer te bestaan dan s’middags van 11-3 – waarlijk een heel fatsoenlijk uur! – maar – vaak karakterloos als Jan Salie<c type="kp">_</c><ptr target="#note-t-23"/></p>
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Theo maar met dat al – ik ben verduiveld arm tegenwoordig. veel schilderen is duur – ik voel me tamelijk vast zitten<c type="kk">/</c> en wat ’t eind van de maand betreft<c type="kk">/</c> het is miserable<c type="kp">_</c>– Dat “l’argent est le nerf de la guerre”<ptr target="#note-t-24"/> is helaas ook bij ’t schilderen niet weg te cijferen<c type="kp">_</c>– In den oorlog echter komt er niets van dan verdriet<c type="kk">/</c> is slechts vernielen<c type="kk">/</c> en bij ’t schilderen is ’t soms – zaaien – al oogst de schilder zelf niet<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Hoe gaat het U en hoe gaat het met de zaken<c type="kp">_</c>– ik weet niet of mijn flair goed is – doch aan etalages &amp;c<c type="kp">_</c> &amp;c<c type="kp">_</c> te zien zag de Kunsthandel te Amst<c type="kp">_</c> er zeker <hi rend="italics">niet</hi> florissant uit – doch o zoo stil en fatsoenlijk<c type="kp">_</c>– Waarlijk<c type="kk">/</c> overmoed en enthousiasme zijn de fouten(?) van heden niet. Ik heb zoo goed als niemand gesproken – toch indirekt zoo eens den pols gevoeld omdat ik nieuwsgierig ben wat de resultaten zullen zijn waar ’t op uit zal draaien in den kunsthandel<c type="kp">_</c>– Ik geloof niet dat gij precies overstelpt wordt door schilderijen<c type="kk">/</c> is ’t wel<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Ik ga van den winter nog verschillende dingen na sporen die ik in de oude schilderijen opmerkte wat betreft manier van doen<c type="kp">_</c>– Ik heb veel gezien dat mij noodig was.</p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Maar voor alle dingen dit – wat men noemt – <hi rend="italics">enlever</hi> – ziedaar wat de oud Hollandsche schilders fameus deden<c type="kp">_</c>– 
+<pb f="3r" n="9" xml:id="pb-orig-3r-9" facs="#zone-pb-3r-9"/>Dat – enlever – met weinige penseelstreken<c type="kk">/</c> men wil er niet van hooren nu – maar wat zijn de resultaten het ware<c type="kp">_</c>– En wat hebben veel fransche schilders<c type="kk">/</c> wat heeft een Israels dat juist ook meesterlijk goed begrepen<c type="kp">_</c>– Op ’t museum – heb ik aan Delacroix veel gedacht<c type="kp">_</c> waarom? omdat voor Hals<c type="kk">/</c> voor Rembrandt<c type="kk">/</c> voor Ruysdael en anderen ik steeds dacht aan dat woord <hi rend="italics">Lorsque Delacroix peint</hi><c type="kk">/</c><hi rend="italics"> c’est comme</hi> <hi rend="italics">le lion qui dévore le morceau<c type="kp">_</c></hi>–<ptr target="#note-t-25"/> <hi rend="italics">Wat is dat het ware</hi> – en – o Theo – als ik denk aan wat ik zal noemen de zich noemende technische club<c type="kk">/</c> wat is ’t de dood in den pot<c type="kp">_</c>– Wees er van verzekerd dat als ik ooit met die heeren te maken krijg of er een van tegenkom<c type="kk">/</c> ik mij dom zal houden – doch – à la Vireloque – met een coup de dent achteraan<c type="kp">_</c>–<ptr target="#note-t-26"/></p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ik <hi>haat</hi> <hi rend="italics">het</hi> als de dingen traineeren &amp; verkeerd loopen.</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">En is ’t niet iets fataals<c type="kk">/</c> dat geforceerde overal evenzeer afmaken (wat men afmaken <hi rend="italics">noemt</hi>!)<c type="kk">/</c> overal dat vervelende eenzelfde grijslicht in plaats van licht en bruin – kleur-locale<c type="kk">/</c> kleur in plaats van toon<c type="kp">_</c>– Zijn dat geen deplorable dingen – en is het toch niet zoo<c type="kp">_</c> 
+<pb f="3v" n="10" xml:id="pb-orig-3v-10" facs="#zone-pb-3v-10"/>Enfin – deze dingen vind ik verkeerd omdat ik b.v. Israels zoo goed vind. omdat er zoo veel nieuwe zoowel als oude schilders zijn waar men mee dweepen kan<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Ik had reeds eerder moeten bedenken dat ik U hoogstwaarschijnlijk met dit schrijven verveel<c type="kp">_</c>– Maar ik heb hier nu eenmaal niet aan gedacht, mijnerzijds kan ik zeggen dat ik wou gij mij Uw impressies van dingen op de Louvre of Luxembourg of van ergens anders schreeft.</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Schrijf eens spoedig als ge wilt – en weet dat ’t eind van mijn maand geducht bar is. Toch ik ben blij ginder geweest te zijn<c type="kk">/</c> al is ’t op een moment dat de uitgaaf me minder dan ooit convenieert. Wat dat betreft – tegen Nieuwe jaar zal ik ’t zeer lastig hebben b.v.<c type="kk">/</c> maar enfin – wie niet waagt wie niet wint<c type="kk">/</c> en ik heb er desnoods vrede mede altijd in moeielijkheden te zijn als ’t ter wille van ’t schilderen is.– Gegroet<c type="kk">/</c> hoop ge in orde mijn bezending zult krijgen.– Er is een boek van de Goncourt over: <hi rend="italics">Chardin</hi><c type="kk">/</c> <hi rend="italics">Boucher</hi><c type="kk">/</c> <hi rend="italics">Watteau</hi> en <hi rend="italics">Fragonard</hi> – ik moet dat lezen<c type="kk">/</c> hebt gij of een van Uw kennissen het<c type="kp">_</c>–<ptr target="#note-t-27"/> ’k denk wel van niet<c type="kk">/</c> maar weet gij soms of ’t al dan niet bijzonder belangrijk is<c type="kp">_</c>– Gegroet<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.33" n="33">b<c type="kp">_</c> à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.34" n="34">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Today I sent — carriage paid — crate <hi rend="italics">V4</hi> with the <hi rend="italics">still lifes</hi>.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">To my regret, the two little sketches of Amsterdam are quite badly damaged.<ptr target="#note-t-2"/> They got wet on the journey; then the little panels warped when they dried, and dust &amp;c. got into them. I’m sending them all the same to show you that if, in the space of an hour, I want to dash off an impression somewhere, I’m beginning to be able to do this in the same sentiment as others who — analyze — their impressions. And give themselves a reason for what they see. This is something other than feeling, that’s to say undergoing impressions — there may perhaps be a great deal between experiencing impressions and — analyzing them, that’s to say <hi rend="italics">taking them apart and putting them together again</hi>. But it’s enjoyable to put something down in a rush.</p>
+<p rend="indent" xml:id="p.en.4" n="4">What particularly struck me when I saw the old Dutch paintings again is that they <hi rend="italics">were usually painted quickly</hi>. That these great masters like <rs type="person" ref="bio.xml#_1073">Hals</rs>, <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi rend="italics"><rs type="person" ref="bio.xml#_1333">Ruisdael</rs></hi> — so many others — as far as possible just put it straight down — and didn’t come back to it so very much.<ptr target="#note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">And — this, too, please — <hi rend="italics">that if it worked, they left it alone</hi>.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Above all I admired hands by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and <rs type="person" ref="bio.xml#_1073">Hals</rs> — hands that lived, but were <hi rend="italics">not finished</hi> in the sense that people want to enforce nowadays. Particular hands in the Syndics even,<ptr target="#note-t-4"/> in the Jewish bride,<ptr target="#note-t-5"/> in Frans Hals.</p>
+<p rend="indent" xml:id="p.en.7" n="7">And heads, too — eyes, nose, mouth done with the first brushstrokes, without any sort of retouching. <rs type="person" ref="bio.xml#_1399">Unger</rs>, <rs type="person" ref="bio.xml#_894">Bracquemond</rs> etched it well — as it was done, and one can see the manner of painting in their etchings.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Theo, how necessary it is at this time to look at old Dutch paintings now and again! And at the French paintings, <rs type="person" ref="bio.xml#_971">Corot</rs>, <rs type="person" ref="bio.xml#_1226">Millet</rs> &amp;c. The rest, one can if necessary do without them very well — and upset some people more than they think.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">Paint in one go, as far as possible in one go. What a joy it is to see a <rs type="person" ref="bio.xml#_1073">Frans Hals</rs> like that — how very different it is from the paintings — there are so many of them — where everything has been carefully smoothed out in the same way.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I happened to see a <rs type="person" ref="bio.xml#_1208">Meissonier</rs> (the one at the Fodor)<ptr target="#note-t-7"/> on the same day that I saw old Dutch masters, <rs type="person" ref="bio.xml#_913">Brouwer</rs>, <rs type="person" ref="bio.xml#_1261 bio.xml#_1260">Ostade</rs>, <rs type="person" ref="bio.xml#_883">Ter Borch</rs> in particular.<ptr target="#note-t-8"/> Well then — Meissonier does it like them — a very considered, very calculated touch — but — on in one go and, if possible, right in one go.</p>
+<p rend="indent" xml:id="p.en.11" n="11">I think it’s better to take off a part that goes wrong with a palette knife and start again from the beginning than to keep coming back to it.</p>
+<p rend="indent" xml:id="p.en.12" n="12">Now — I saw a sketch by <rs type="person" ref="bio.xml#_1336">Rubens</rs> and a sketch by <rs type="person" ref="bio.xml#_992">Diaz</rs>, too, as it were at the same time.<ptr target="#note-t-9"/> They were by no means the same, but the belief that the colour expresses the form when it’s in its place and in its context — that they do have in common. At any rate Diaz is a <hi rend="italics">painter</hi> to the core — and he was conscientious to the tips of his fingers. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">The <rs type="person" ref="bio.xml#_992">Diaz</rs> in the Fodor is only sketchy, but perhaps precisely because of this it was a real joy for me, who hadn’t seen one in years, to see one again, and it stood up very well, even when one had just seen the way the old masters went about it.</p>
+<p rend="indent" xml:id="p.en.14" n="14">I must just come back to certain present-day paintings that are becoming more and more numerous. Some 10, 15 years ago people started to talk about ‘clarity of light’.<ptr target="#note-t-10"/> It’s true that originally this was a good thing; it’s a fact that masterly things came about as a result of that system. But where it increasingly degenerates into an overproduction of paintings where all through the painting — in all 4 corners the same light, the same what I think they call day tone and local colour dominates, is this a good thing??? I think not.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Is the <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> in the Van der Hoop, the one with the mill, not <hi rend="italics">outdoors</hi>? Is there no <hi rend="italics">sky</hi> in it and vast <hi rend="italics">space</hi>?<ptr target="#note-t-11"/> And yet — the whole painting is very much darker than the fellows would do, sky and earth moreover form a single whole, belong together.</p>
+<p rend="indent" xml:id="p.en.16" n="16"><rs type="person" ref="bio.xml#_1056">Van Goyen</rs> — that <rs type="person" ref="bio.xml#_971">Corot</rs> among the Dutchmen — I stood for a long time in front of that masterly piece in the <rs type="person" ref="bio.xml#_356">Dupper</rs> Collection, two oaks on a dune in the autumn, in a storm.<ptr target="#note-t-12"/> 
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">A sentiment indeed, let me say, like <rs type="person" ref="bio.xml#_986">Jules Dupré</rs> <hi rend="italics">or like The bush</hi>.<ptr target="#note-t-13"/></p>
+<p rend="indent" xml:id="p.en.18" n="18">But there’s ordinary yellow ochre rather than — white — carried through in the painting. Now the <hi rend="italics"><rs type="person" ref="bio.xml#_964">Cuyp</rs></hi> — the view of Dordrecht in the Van der Hoop<ptr target="#note-t-14"/> — entirely <hi rend="italics">reddish</hi> gold — there again — the ochres.</p>
+<p rend="indent" xml:id="p.en.19" n="19"><rs type="person" ref="bio.xml#_1073">Frans Hals</rs>’s yellow — call it what you will, dull lemon or fawn yellow — what’s it done with? It seems very light in the painting — but just try holding white against it.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.20" n="20">A great lesson that the old Dutch masters teach, it seems to me, is this: to regard drawing and colour as one — which <rs type="person" ref="bio.xml#_894">Bracquemond</rs> says too.<ptr target="#note-t-16"/> That now — many do <hi rend="italics">not</hi> do it, they draw with everything except with sound colour. Oh Theo, it’s so awful to listen to, it’s so horribly boring when a chap like <rs type="person" ref="bio.xml#_1072">Haverman</rs>, say, talks about ‘technique’. I don’t say <rs type="person" ref="bio.xml#_1306">Rappard</rs>, because he talks like that too but, fortunately for him, paints better than he talks.<ptr target="#note-t-17"/> 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">I have absolutely no desire to make a lot of acquaintances among the painting gang. But again — speaking of technique — there’s a great deal sounder and more solid technique in <rs type="person" ref="bio.xml#_1107">Israëls</rs> — for instance in that very old work, the Zandvoort fisherman, with superb chiaroscuro<ptr target="#note-t-18"/> — than the technique of those who are equally smooth and flat all over, and distinguished by their cold, tinny colour.</p>
+<p rend="indent" xml:id="p.en.22" n="22">The Zandvoort fisherman, well, just go ahead and hang it next to an old <rs type="person" ref="bio.xml#_982">Delacroix</rs>, The barque of Dante,<ptr target="#note-t-19"/> and it’s the same family. <hi rend="italics">I believe in that</hi>, but every day I dislike the paintings that are equally light all over more and more. It’s an unpleasant thing for me when they say that I have ‘no technique’ — it’s possible that this will blow over because I don’t make the acquaintance of any of the painters. It’s true, on the contrary, that it’s <hi rend="italics">precisely in terms of technique</hi> that I find many of the people who prattle on about it the most are <hi rend="italics">weak</hi>. I wrote to you about that before.<ptr target="#note-t-20"/> But if I show any of my work in Holland, I know in advance what I have to deal with and with what sort of 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> calibre of technicians. Meanwhile, I’d rather go very calmly to the <hi rend="italics">old Dutchmen</hi> and rather to the paintings by <rs type="person" ref="bio.xml#_1107">Israëls</rs> and those who have a <hi rend="italics">direct</hi> affinity with Israëls, which the newer ones do <hi rend="italics">not</hi>. They are, rather, <hi rend="italics">diametrically opposed</hi> to Israëls. And I think I’ve observed that Israëls himself, <rs type="person" ref="bio.xml#_1203 bio.xml#_1202 bio.xml#_1201">Maris</rs>, <rs type="person" ref="bio.xml#_323">Mauve</rs>, <rs type="person" ref="bio.xml#_154 bio.xml#_1248">Neuhuys</rs> himself, view a certain direction we’re now discussing with nothing but displeasure. A <rs type="person" ref="bio.xml#_1218">Mesdag</rs>, for instance, who was once a terrible <hi rend="italics">realist</hi>,<ptr target="#note-t-21"/> as you’ll remember — is becoming more tonal in his later paintings and drawings, and often more mysterious. Anyway.</p>
+<p rend="indent" xml:id="p.en.23" n="23"><rs type="person" ref="bio.xml#_1448">Witkamp</rs> has a devilish lot that’s good — resembles <rs type="person" ref="bio.xml#_899">Jules Breton</rs> or <rs type="person" ref="bio.xml#_124">Bastien-Lepage</rs> — but — Jules Breton is warm, and he’s <hi rend="italics">much too cold</hi>. And that’s not a fault that’s easy to put right — to get a thing warm, it has to be <hi rend="italics">put on warm</hi>, and otherwise one won’t easily get the cold out of it.<ptr target="#note-t-22"/></p>
+<p rend="indent" xml:id="p.en.24" n="24">In many cases, what they call brightness is an ugly studio tone in a cheerless city studio. It seems people don’t look at the half-light in the early morning or in the evening, it seems nothing exists other than midday from 11-3 — truly a very respectable hour! — but — often as characterless as Jan Salie.<ptr target="#note-t-23"/> 
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.25" n="25">But for all that, Theo — I’m devilish poor at present. Painting a lot is expensive — I feel really hard up, and as for the end of the month, it’s miserable. The fact that ‘money is the sinews of war’<ptr target="#note-t-24"/> sadly can’t be ignored in painting either. Nothing but sorrow comes out of war, though, there is only destruction, and in painting it’s sometimes — sowing — even if the painter doesn’t reap the harvest himself.</p>
+<p rend="indent" xml:id="p.en.26" n="26">How are you and how’s business? I don’t know whether my intuition is right — but judging from the shop windows &amp;c. &amp;c., the Art trade in Amsterdam certainly did <hi rend="italics">not</hi> appear to be flourishing — but oh so quiet and respectable. Truly, overconfidence and enthusiasm aren’t the faults(?) of the present day. I hardly spoke to anyone — but indirectly sounded things out because I’m curious as to what the results will be, what it will come to in the art trade. I don’t think you’re exactly overwhelmed with paintings, are you?</p>
+<p rend="indent" xml:id="p.en.27" n="27">In the winter I’m going to explore various things regarding manner that I noticed in the old paintings. I saw a great deal that I needed.</p>
+<p rend="indent" xml:id="p.en.28" n="28">But this above all things — what they call — <hi rend="italics">dashing off </hi>— you see that’s what the old Dutch painters did famously. 
+<pb f="3r" n="9" xml:id="pb-trans-3r-9" facs="#zone-pb-3r-9"/> That — dashing off — with a few brushstrokes, they won’t hear of it now — but how true the results are. And how masterfully well many French painters, how an <rs type="person" ref="bio.xml#_1107">Israëls</rs> understood precisely that. At the museum — I thought a lot about <rs type="person" ref="bio.xml#_982">Delacroix</rs>. Why? Because in front of <rs type="person" ref="bio.xml#_1073">Hals</rs>, in front of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, in front of <rs type="person" ref="bio.xml#_1333">Ruisdael</rs> and others, I thought constantly of that saying, <hi rend="italics">When Delacroix paints – it’s like the lion devouring his piece of flesh</hi>.<ptr target="#note-t-25"/> <hi rend="italics">How true that is</hi> — and oh, Theo — when I think about what I’ll call the self-styled technical gang, how deathly it is. Rest assured that if I ever have to do with those gentlemen or come across one of them, I’ll play the innocent — but — à la Vireloque — followed by a cutting remark.<ptr target="#note-t-26"/></p>
+<p rend="indent" xml:id="p.en.29" n="29">I <hi>hate</hi> <hi rend="italics">it</hi> when things hang fire and go wrong.</p>
+<p rend="indent" xml:id="p.en.30" n="30">And isn’t it something fatal, that forced finishing the same everywhere (what they <hi rend="italics">call</hi> finishing!), everywhere that same boring grey light instead of light and shade — local colour, colour instead of tone? Aren’t those deplorable things — and isn’t it so? 
+<pb f="3v" n="10" xml:id="pb-trans-3v-10" facs="#zone-pb-3v-10"/> Anyway — I think these things are wrong because I think <rs type="person" ref="bio.xml#_1107">Israëls</rs>, for instance, so good, because there are so many new and old painters alike whom one can adore.</p>
+<p rend="indent" xml:id="p.en.31" n="31">I should have realized earlier that I’m most probably boring you with this letter. But I simply didn’t think about it; for my part I can say that I wish you’d write to me about your impressions of things in the Louvre or Luxembourg or of anywhere else.</p>
+<p rend="indent" xml:id="p.en.32" n="32">Write soon, if you will — and be aware that it’s awfully tough for me at the end of the month. All the same, I’m glad I went there, even if it’s at a moment when I can afford the expenditure less than ever. As to that — things will be very hard around New Year, say, but anyway — nothing ventured, nothing gained, and for my part I’ll always resign myself to being in difficulties if it’s for the sake of painting. Regards, hope you’ll get my consignment in good order. There’s a book by <rs type="person" ref="bio.xml#_617 bio.xml#_618">De Goncourt</rs> about <hi rend="italics"><rs type="person" ref="bio.xml#_939">Chardin</rs></hi>, <hi rend="italics"><rs type="person" ref="bio.xml#_879">Boucher</rs></hi>, <hi rend="italics"><rs type="person" ref="bio.xml#_1425">Watteau</rs></hi> and <hi rend="italics"><rs type="person" ref="bio.xml#_1031">Fragonard</rs></hi> — I must read it; do you or any of your acquaintances have it?<ptr target="#note-t-27"/> I don’t suppose you do, but do you perhaps know whether or not it’s particularly important? Regards.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.33" n="33">Yours truly,</p>
+<p xml:id="p.en.34" n="34">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh sent a crate of paintings which he had promised Theo he would <hi rend="italics">receive</hi> ‘next week’ in <ref target="let534.xml">letter 534</ref> of about Saturday, 10 October <ref target="#l-100">(l. 100)</ref>. That crate was despatched ‘today’ (<ref target="#l-1*">l. 1*</ref>). We assume that the present letter must have been sent early in the week of 12 October. We have therefore dated it on or about Tuesday, 13 October 1885.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Visit to Amsterdam <ref target="let533.xml">(533)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+<p>Some of the works that were sent can be identified. In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let532.xml">letter 532</ref> Van Gogh had said that he had ‘some still lifes — of a basket of potatoes — fruit — a copper kettle &amp;c.’ ready for Theo. He had painted several versions of these subjects in this period, although it is often not possible to establish precisely when a work was finished.</p>
+<p rend="indent">On the basis of letter 536 we know that at any rate <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Basket of potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2530">F 100 / JH 931</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2532">F 116 / JH 934</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Baskets of potatoes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2531">F 107 / JH 933</rs>) were part of the consignment, as was <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Basket of apples</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2529">F 99 / JH 930</rs>). Since the only extant still life with a kettle is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with a brass cauldron and jug</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2527">F 51 / JH 925</rs>), this must be the one he means (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let532.xml#n-4">see also letter 532, n. 4</ref>).</p>
+<p rend="indent">In <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let536.xml">letter 536</ref> Vincent also mentioned birds’ nests on a ‘black background’ (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let536.xml#l-62">ll. 62-63</ref>), which Theo must have been able to picture in his mind’s eye. It is unclear whether he is referring to one or more still lifes here. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with birds’ nests</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2533">F 111 / JH 939</rs>; <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_589">F 112 / JH 938</rs>; and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_588">F 109r / JH 942</rs>) fit the bill.</p>
+<p rend="indent">Going by what is – or was once – in the family estate, the following works may also have been in this batch: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Beer tankards</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_605">F 49 / JH 534</rs>); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Basket of apples</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_606">F 101 / JH 927</rs>); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with earthenware and bottles</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_607">F 53 / JH 538</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with a basket of apples and two pumpkins</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_592">F 106 / JH 936</rs>). They are now in the Van Gogh Museum. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with an earthenware bowl and pears</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2528">F 105 / JH 926</rs>) was sold by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_416">Jo van Gogh-Bonger</rs> in 1905. It is not impossible that <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The parsonage at Nuenen</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_608">F 182 / JH 948</rs>) was also sent in this crate.</p>
+<p rend="indent">We do not know whether the crate also contained other works besides the two small Amsterdam panels discussed below – such as the drawings promised in letter 532. See for all this: cat. Amsterdam 1999, pp. 11-13 (nn. 25 and 30), 164-167, 239. The consignment probably also contained a still life with potatoes, which Van Gogh overpainted with a flower still life in Paris, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Still life with gladioli</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_990">F 248 / JH 1146</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+        
+<p>The panels <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View in Amsterdam</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2534">F 113 / JH 944</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De Ruyterkade in Amsterdam</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2542">F 211 / JH 973</rs>), which were therefore part of this consignment, show traces of dirt and (probably) soot. See cat. Amsterdam 1999, pp. 214-216.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+        
+<p>Discussing <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1835">Syndics</rs></hi> in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_404">Les maîtres d’autrefois</ref></hi>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1019">Fromentin</rs> referred to the rapid execution, the broad brushstroke, the heavier, more substantial paint and the tougher surface than in his earlier paintings (Fromentin 1902, chapter 15, p. 385).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+        
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1835">Syndics of the the Amsterdam Drapers’ Guild</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let121.xml#n-5">letter 121, n. 5.</ref> It is possible that the word ‘even’ (‘zelfs’) refers to the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Jewish bride</hi> and not the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Syndics</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+        
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2119">Jewish bride</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let430.xml#n-10">letter 430, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+        
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1399">William Unger</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_894">Félix Bracquemond</rs> were known as etchers and engravers, among other things for their prints after old masters. Van Gogh most probably knew Unger’s etchings after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1073">Hals</rs> from <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_423">Etsen naar Frans Hals door Prof. William Unger</ref></hi>. Met eene verhandeling over den schilder door Mr. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_842">C. Vosmaer</rs>. Leiden 1873. There were twenty well-known works in this <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">de luxe</hi> edition.</p>
+        
+<p rend="indent">Béraldi lists three etchings that Bracquemond made after works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>: two portraits of women in the Catalogue de vingt-trois tableaux des écoles flamande et hollandaise provenant de la galerie San Donato... dont la vente aura lieu Hôtel Drouot... le 17 avril 1868 and a Christ aux roseaux for the Catalogue de la collection du comte Koucheleff, 5 juin 1869 (Lugt 1938-1987, no. 31353). See Béraldi 1885-1892, vol. 3, pp. 104-105.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1208">Meissonier</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_251">The deathbed</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml#n-24">letter 534, n. 24.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>There were two paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_913">Adriaen Brouwer</rs>, seven by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1261">Adriaen van Ostade</rs>, two by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1260">Isaac van Ostade</rs> and three by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_883">Gerard ter Borch</rs> in the Rijksmuseum. See cat. Amsterdam 1885 and cat. Amsterdam 1976.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘paletmes’ (palette knife).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The sketch by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1336">Peter Paul Rubens</rs> is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Christ carrying the Cross</hi>, 1634-1637 (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1301">Ill. 1301</rs>. It is a preliminary study for the painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The road to Calvary</hi> (Brussels, Musées Royaux des Beaux-Arts). See for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2156">A nymph with cupids</rs></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_992">Narcisse Virgile Diaz de la Peña</rs> in the Fodor Museum, with which Van Gogh compares it, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml#n-25">letter 534, n. 25.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>A reference to the generation of painters of the Hague School who started to use a brighter, lighter palette to capture the atmospheric grey of the light.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Jacob van Ruisdael</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1312">The windmill at Wijk bij Duurstede</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let325.xml#n-29">letter 325, n. 29.</ref> The work was in the Van der Hoop Collection (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let111.xml#n-1">letter 111, n. 1</ref>), which was housed in a separate gallery when the Rijksmuseum opened.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1056">Jan van Goyen</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Landscape with two oaks</hi>, 1641 (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2157">Ill. 2157</rs>. The ‘Dupper Collection’ was a bequest of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_356">L. Dupper Willemsz.</rs> (64 paintings) in 1870, when the collection was still housed in the Trippenhuis.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Ruisdael</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_1707">The bush</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let034.xml#n-4">letter 34, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Copy after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_964">Aelbert Cuyp</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of Dordrecht at sunset</hi> (Amsterdam, Rijksmuseum). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_35">Ill. 35</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+    
+<p>Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml">letter 534</ref>, where Van Gogh also talked about <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1073">Hals</rs>’s use of yellow. He borrowed the term ‘jaune chamois’ from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_554">Thoré</rs>, who used it in connection with Hals’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Merry drinker</hi> (see Thoré 1858-1860, vol. 1, p. 60). </p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>In the chapter ‘Dessinateur. Coloriste’ in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_418">Du dessin et de la couleur</ref></hi> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_894">Bracquemond</rs> observes: ‘<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Drawing</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">colouring</hi> are not two different professions, those of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">draughtsman </hi>and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">colourist, </hi>but they confront two principles, two conventions, two methods specific to painting, which also apply to sculpture’ (Le <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">dessin</hi>, la <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">couleur</hi>, ne constituent pas deux professions différentes, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">dessinateur</hi> et <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">coloriste</hi>; mais ils mettent en présence deux principes, deux conventions, deux méthodes particulière à la peinture, tout en n’étant pas étrangères à la sculpture) (see Bracquemond 1885, p. 98).</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Van Gogh had met <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1072">Hendrik Johannes Haverman</rs> in Brussels in 1881. In 1879-1880 Haverman was in Antwerp, studying with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1420">Charles Verlat</rs>, he then studied at the Brussels Academy under <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1273">Portaels</rs>. After this he went back to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_763">August Allebé</rs> in Amsterdam, with whom he had started in 1878.</p>
+
+<p rend="indent">Haverman wrote to Albert Plasschaert on 9 May 1912: ‘I indeed knew Vincent van Gogh in Brussels (1881 or thereabouts). But didn’t meet him often, because very soon we were having quite fierce arguments. I made a few etchings, but no impressions of them have been published; they were more in the way of trials in a rudimentary state’ (FR b3028).</p>
+
+<p rend="indent">Van Gogh had already spoken slightingly of the importance that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs> and Haverman attached to ‘technique’ in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let439.xml">letters 439</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let514.xml">514</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>See for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1107">Jozef Israëls</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_3063">The Zandvoort fisherman</rs></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml#n-19">letter 534, n. 19.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="19" xml:id="note-t-19">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Eugène Delacroix</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The barque of Dante (Dante and Virgil in hell)</hi>, 1822 (Paris, Musée du Louvre). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2158">Ill. 2158</rs>. There is an engraving after it in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Charles Blanc</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_403">Les artistes de mon temps</ref></hi>, from which Vincent had copied out a passage about Delacroix for Theo some months earlier (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let449.xml">see letter 449</ref>) (Blanc 1876, p. 29). In <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_416">Histoire des artistes vivants français et étrangers</ref></hi> <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_742">Silvestre</rs> quoted Thiers, who spoke of ‘the horrible tint’ (l’horrible teinte) and ‘the colours of death’ (les couleurs de la mort) in this work. See Silvestre, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Histoire</hi>, p. 62. Van Gogh referred to this book several times during this period (cf. for example <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let526.xml">letters 526</ref>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let538.xml">538</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let557.xml">557</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="20" xml:id="note-t-20">
+                            
+
+<p>Van Gogh wrote about the weak technique of people who talked about it a lot in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml">letter 534</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="21" xml:id="note-t-21">
+                            
+
+<p>A reference to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1218">Mesdag</rs>’s earliest works. See Poort 1989-1995.</p>
+                        </note>
+                        
+                    
+                        <note n="22" xml:id="note-t-22">
+                            
+
+<p>Van Gogh had read about the concepts of ‘warm’ and ‘cold’ in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_894">Bracquemond</rs>: see for this <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let530.xml">letter 530</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="23" xml:id="note-t-23">
+                            
+
+<p>In the Netherlands Jan Salie is the proverbial personification of a lack of energy and initiative. The name derives from the character of this name in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1749">E.J. Potgieter</rs>’s novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_424">Jan, Jannetje en hun jongste kind</ref></hi> (1842).</p>
+                        </note>
+                        
+                    
+                        <note n="24" xml:id="note-t-24">
+                            
+
+<p>French proverb, based on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_726">François Rabelais</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_425">Gargantua</ref></hi> 1, 46.</p>
+                        </note>
+                        
+                    
+                        <note n="25" xml:id="note-t-25">
+                            
+
+<p>See for this description of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_982">Delacroix</rs>, derived from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_613">Jean Gigoux</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_407">Causeries sur les artistes de mon temps</ref></hi>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let526.xml#n-5">letter 526, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="26" xml:id="note-t-26">
+                            
+
+<p>Like Thomas Vireloque, a tramp with a misanthropic view of the world. He features in twenty satirical prints in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1043">Gavarni</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_237">La mascarade humaine</ref></hi> (Gavarni 1881, pp. 77-115). Van Gogh, who owned this book (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let302.xml">see letter 302</ref>), is referring here to Vireloque’s outspoken remarks in the captions: time after time he punctures ‘human pretensions’.</p>
+                        </note>
+                        
+                    
+                        <note n="27" xml:id="note-t-27">
+                            
+
+<p>Van Gogh is referring to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_426">L’art du dix-huitième siècle</ref></hi> (1859-1875)<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>in which <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Jules and Edmond de Goncourt</rs> give an overview of a number of important eighteenth-century French artists through extracts from letters and anecdotes. These biographical sketches are accompanied by discussions of their work and exhibitions. The essay on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_939">Chardin</rs> is on pp. 91-192; on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_879">Boucher</rs> on pp. 195-314; on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1425">Watteau</rs> on pp. 1-90 (all in Goncourt 1881-1914, vol. 1); on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1031">Fragonard</rs> on pp. 241-342 (vol. 3). In Goncourt 1948, pp. 107-155; 55-105; 1-54 and 259-312 respectively.</p>
+
+<p rend="indent">As well as the artists Van Gogh mentions here, the De Goncourts also discuss La Tour, Greuze, Saint-Aubin, Gravelot, Cochin, Eisen, Moreau, Debucourt and Prudhon. Several editions of this book, in a number of volumes, were available in 1885.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

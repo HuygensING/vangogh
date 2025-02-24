@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Willemien van Gogh. Saint-Rémy-de-Provence, on or about Monday, 21 October 1889.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let812"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b715 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>812</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>W15</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>814</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1889-10-21">on or about Monday, 21 October 1889</date>
+                            <placeName>Saint-Rémy-de-Provence</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Willemien van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0715" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000970_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000970_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000970_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0715" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000970_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000970_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000970_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Ma chère soeur,</p>
+
+<p xml:id="p.fr.2" n="2">je te remercie beaucoup de ta dernière lettre et des nouvelles de Cor. De ces jours ci vous déménagerez et ce sera la dernière fois que je t’écrirai à Breda.</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Très prochainement j’enverrai à Theo les études peintes que j’avais promises et il te les fera parvenir à Leyde<c type="kp">_</c> Voici ce que j’ai: Un verger d’oliviers<ptr target="#note-t-1"/> – champ de blé avec moissonneur<ptr target="#note-t-2"/> – Champs de blé et cyprès<ptr target="#note-t-3"/> – Intérieur<ptr target="#note-t-4"/> – Terrains labourés<c type="kk">/</c> effet du matin<ptr target="#note-t-5"/> – Verger en fleur<ptr target="#note-t-6"/> – et un portrait de moi<c type="kp">_</c><ptr target="#note-t-7"/> Mettons que dans le courant de l’année prochaine je t’en envoie autant<c type="kk">/</c> avec les deux que tu as<ptr target="#note-t-8"/> cela ferait une petite collection et si tu eusses de la place assez je t’engagerais à les garder ensemble puisque à Leyde tu verras probablement des artistes de temps en temps et il se joindrait, j’ose croire, bientôt d’autres études aux miennes. Ne te gènes pas de les accrocher dans un corridor<c type="kk">/</c> dans la cuisine<c type="kk">/</c> dans un escalier<c type="kp">_</c>– Ma peinture est faite pour être vue surtout sur un fond simple. Je cherche à peindre de façon que cela fasse bien dans une cuisine<c type="kk">/</c> alors parfois je m’aperçois que cela fait bien dans un salon aussi mais de cela je ne me préoccupe jamais<c type="kp">_</c> Ici dans le midi nous avons affaire à des murailles nues<c type="kk">/</c> blanches ou jaunes ou bien ornées de papiers peints à grandes fleurs colorées. Il s’agit donc à ce qui me semble de procéder par des oppositions de couleurs franches<c type="kp">_</c> 
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>Il en est de même pour les cadres – les cadres que j’emploie me coûtent tout au plus 5 francs alors que les cadres dorés moins solides en coûteraient 30 ou plus<c type="kp">_</c> Et si le tableau fait bien dans un cadre simple pourquoi y mettre des dorures.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Ecoutes maintenant – si je m’engage volontiers à continuer à t’envoyer des études à toi et à la mère<c type="kk">/</c> j’aurais aussi un désir qui est presqu’un besoin<c type="kk">/</c> d’en faire encore quelquesunes en plus pour des personnes auquelles je pense souvent. Ainsi nos cousines M<hi rend="super">mes</hi> Mauve et Lecomte<c type="kk">/</c> si tu les vois étant à Leyde dis le leur que si mon travail leur plait je leur en ferais volontiers<c type="kk">/</c> très volontiers mais surtout aussi je voudrais que Margot Begemann eût un tableau de moi.<ptr target="#note-t-9"/> Mais le lui faire parvenir par ton intermédiaire est plus discret que le lui envoyer directement<c type="kp">_</c> Ainsi tu m’obligerais de faire en sorte que ces trois personnes que je viens de mentionner aient quelque chôse de moi. Cela ne presse pas mais de temps en temps j’ai bien le <hi rend="italics">droit</hi><c type="kk">/</c> oui le droit de travailler pour des amis qui sont tellement loin que probablement je ne les reverrai pas.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Le docteur d’ici a été à Paris et a été voir Theo,<ptr target="#note-t-10"/> il lui a dit qu’il ne me considère <hi rend="italics">pas</hi> comme aliéné mais que les crises que j’ai sont de nature épileptique. Ce n’est donc pas l’alcool non plus qui fut cause quoique bien entendu cela n’y fasse pas du bien. Mais qu’il est difficile<c type="kk">/</c> qu’il est difficile de reprendre sa vie ordinaire sans être absolument trop abattu par la certitude du malheur. Et on se cramponne aux affections du passé<c type="kp">_</c></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Ainsi comme je te le dis c’est pour moi presqu’un besoin absolu d’envoyer quelque chôse de mon travail en Hollande et si tu réussis à en faire accepter ce sera à moi de remercier.–</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Tu trouveras le plus laid probablement l’intérieur<c type="kk">/</c> une chambre à coucher vide avec un lit en bois et deux chaises – et pourtant je l’ai peint deux fois en grand<c type="kp">_</c>–<ptr target="#note-t-11"/> J’ai voulu arriver à un effet de simplicité comme on le trouve décrit dans Felix Holt.<ptr target="#note-t-12"/> En te disant cela tu comprendras peutêtre vite le tableau mais il est probable que non prévenus cela reste ridicule pour d’autres. Faire de la simplicité avec des couleurs voyantes cela n’est pourtant pas commode et moi je trouve qu’il peut être utile de montrer qu’on puisse être simple avec autre chôse que du gris<c type="kk">/</c> blanc<c type="kk">/</c> noir et brun. Voilà la raison d’être de cette étude-là<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Tu trouveras trop jaunes mes champs de blé mais chez moi il ne faut pas commencer par dire<c type="kk">/</c> c’est trop jaune<c type="kk">/</c> trop bleu ou trop vert<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Tu recevras ces études à Leyde je ne sais quand. Theo en fera probablement encadrer une à Paris pour que tu puisses les mettre dans un cadre <hi rend="italics">si tu veux</hi> et puis les mettre à l’occasion dans une caisse de tableaux pour La Haye.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Mais enfin le tout est achevé en tant que quant à ma peinture et je t’assure que ce n’est pas ce que j’ai fait de plus mauvais. Je voudrais que tu eusses aussi la vigne rouge qu’a Théo de moi<ptr target="#note-t-13"/> et si jamais je viens encore à Paris je la copierai pour toi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Oui je reviens encore une fois sur cet intérieur<c type="kk">/</c> je voudrais certes que d’autres artistes eussent comme moi le goût<c type="kk">/</c> le besoin de simplicité<c type="kp">_</c> Dans la société actuelle cependant un idéal de simplicité rend la vie plus difficile et celui qui l’a<c type="kk">/</c> cet ideal – il n’arrive, comme est mon cas, qu’à ne pas pouvoir faire comme il veut. 
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>Mais enfin voilà pourtant il me semble ce que la societé devrait accorder à un artiste alors qu’actuellement on est <hi rend="italics">obligé</hi> de vivre dans les cafés ou les auberges mauvaises. Les Japonais ont vécu dans des intérieurs très simples<ptr target="#note-t-14"/> et quels grands artistes ont veçu dans ce pays! Si un peintre est riche dans notre société alors il vit dans une maison qui ressemble à un magasin de curiosités et cela non plus est bien artistique à mon goût. Et moi souvent j’en ai bien souffert de vivre tellement dans des conditions où l’ordre fut impossible<c type="kk">/</c> que j’en ai perdu la notion de l’ordre et de la simplicité<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Ce bon Isaäcson a voulu ecrire un article sur moi dans un journal Hollandais sur des tableaux <hi rend="italics">absolument</hi> comme ceux que je t’envoie mais j’en serais tout triste de lire un tel article et je lui ai écrit pour lui dire cela. A present je travaille à une salle d’hôpital<c type="kp">_</c> Sur le devant un grand poele noir autour duquel quelques formes grises ou noires de malades<c type="kk">/</c> puis derrière la salle très longue dallée de rouge avec les deux rangées de lits blancs<c type="kk">/</c> les murailles blanches mais d’un blanc lilas ou vert et les fenêtres à rideaux roses<c type="kk">/</c> à rideaux verts et dans le fond deux figures de soeurs en noir et blanc. le plafond est violet avec de grands poutres.<ptr target="#note-t-15"/> J’avais lu un article sur Dostoievsky qui avait ecrit un livre<c type="kk">/</c> Souvenirs de la maison des morts<c type="kk">/</c><ptr target="#note-t-16"/> et cela m’avait poussé à reprendre une grande étude que j’avais commencée dans la salle des fievreux à Arles. Mais c’est embêtant de faire des figures sans modèle<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">J’ai encore lu une pensée de Carmen Sylva qui est bien juste: lorsque vous souffrez beaucoup – vous voyez tout le monde à une grande distance et comme au bout d’une immense arène – les voix mêmes paraissent venir de loin<c type="kp">_</c>–<ptr target="#note-t-17"/> J’ai eprouvé cela dans ces crises à tel point que tous les gens que je vois alors me paraissent <hi rend="italics">même si je les reconnais</hi> – ce qui n’est pas toujours le cas – arriver de très loin et etre <hi rend="italics">tout différent</hi> de ce qu’ils sont en realité<c type="kk">/</c> tant il me semble y voir alors des ressemblances agreables ou desagreables avec des personnes que j’ai connues autrefois et ailleurs.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">au revoir<c type="kk">/</c> je te souhaite toute prospérité dans ton travail de demenager et t’embrasse en pensee<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.15" n="15">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.16" n="16">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear <rs type="person" ref="bio.xml#_407">sister</rs>,</p>
+<p xml:id="p.en.2" n="2">Thank you very much for your last letter and the news of <rs type="person" ref="bio.xml#_420">Cor</rs>. Soon you’ll move house, and this will be the last time I write to you at Breda.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Very soon I’ll send Theo the painted studies I had promised, and he’ll get them to you in Leiden. This is what I have: An olive grove<ptr target="#note-t-1"/> – Wheatfield with reaper<ptr target="#note-t-2"/> – Wheatfields and cypresses<ptr target="#note-t-3"/> – Interior<ptr target="#note-t-4"/> – Ploughed fields, morning effect<ptr target="#note-t-5"/> – Orchard in blossom<ptr target="#note-t-6"/> – and a portrait of me.<ptr target="#note-t-7"/> Let’s say that during the course of the next year I send you as many, that would make a little collection with the two that you have,<ptr target="#note-t-8"/> and if you had enough room I would urge you to keep them together, since you’ll probably see artists from time to time in Leiden, and other studies would, I dare believe, soon join mine. Don’t feel uncomfortable about hanging them in a corridor, in the kitchen, on the stairs. My painting is made to be seen above all against a simple background. I try to paint in such a way that it looks good in a kitchen, then sometimes I notice that it looks well in a drawing room too, but I never bother myself about that. Here in the south we have bare walls, white or yellow, or decorated with wallpaper with big coloured flowers. So it seems to me that it’s a matter of proceeding by means of oppositions of bright colours. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> It’s the same with the frames – the frames I use cost me 5 francs at the most, while the less solid gilded frames would cost 30 or more. And if the painting looks good in a simple frame, why put gilding around it?</p>
+<p rend="indent" xml:id="p.en.4" n="4">Listen now – if I willingly commit myself to continuing to send studies to you and <rs type="person" ref="bio.xml#_524">Mother</rs>, I’d also have a desire that’s almost a need to do a few more in addition for people I think about often. Thus our cousins, the ladies <rs type="person" ref="bio.xml#_321">Mauve</rs> and <rs type="person" ref="bio.xml#_322">Lecomte</rs>, if you see them while in Leiden, tell them that if they like my work I would gladly do some for them, very gladly, but above all, too, I would like <rs type="person" ref="bio.xml#_267">Margot Begemann</rs> to have a painting of mine.<ptr target="#note-t-9"/> But getting it to her by way of you is more discreet than sending it to her directly. So you would oblige me by taking steps to see that these three people I’ve just mentioned have something of mine. There’s no hurry, but from time to time I do have the <hi rend="italics">right</hi>, yes the right to work for friends who are so far away that I’ll probably not see them again.</p>
+<p rend="indent" xml:id="p.en.5" n="5">The <rs type="person" ref="bio.xml#_568">doctor</rs> from here has been to Paris and went to see Theo,<ptr target="#note-t-10"/> he told him that he does <hi rend="italics">not</hi> consider me a lunatic but that the crises I have are of an epileptic nature. So it isn’t alcohol either that was the cause, although of course it doesn’t do one any good. But how difficult it is, how difficult it is to resume one’s ordinary life without being absolutely too demoralized by the certainty of unhappiness. And one clings on to the affections of the past. 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">So as I tell you, for me it’s almost an absolute need to send something of my work to Holland, and if you succeed in getting some accepted it will be my task to be grateful.</p>
+<p rend="indent" xml:id="p.en.7" n="7">You’ll probably find the interior the ugliest, an empty bedroom with a wooden bed and two chairs – and yet I’ve painted it twice on a large scale.<ptr target="#note-t-11"/> I wanted to arrive at an effect of simplicity as described in Felix Holt.<ptr target="#note-t-12"/> In telling you this you’ll perhaps understand the painting quickly, but it’s likely that it will remain ridiculous for others, not forewarned. To make simplicity with bright colours isn’t easy though, and I find that it can be useful to show that one can be simple with something other than grey, white, black and brown. That is the <hi rend="italics">raison d’être</hi> for that study.</p>
+<p rend="indent" xml:id="p.en.8" n="8">You’ll find my wheatfields too yellow, but with me one shouldn’t begin by saying, it’s too yellow, too blue or too green.</p>
+<p rend="indent" xml:id="p.en.9" n="9">You’ll receive these studies in Leiden, I don’t know when. Theo will probably have one framed in Paris, so you can put them in a frame <hi rend="italics">if you wish</hi> and then, when the opportunity arises, put them in a crate of paintings for The Hague.</p>
+<p rend="indent" xml:id="p.en.10" n="10">But anyway, everything’s completed as regards my painting, and I assure you that it isn’t the worst I’ve done. I’d also like you to have the red vineyard that Theo has of mine,<ptr target="#note-t-13"/> and if ever I come to Paris again I’ll copy it for you.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Yes, I’m coming back one more time to that interior, I’d certainly like other artists to have, like me, the taste, the need for simplicity. In current society, though, an ideal of simplicity makes life more difficult, and he who has it, this ideal – he merely ends up, as in my case, unable to do what he wants.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> But anyway, that however is what society should give an artist, it seems to me, whereas nowadays one is <hi rend="italics">obliged</hi> to live in the cafés or low inns. The Japanese have lived in very simple interiors,<ptr target="#note-t-14"/> and what great artists have lived in that country! If a painter is rich in our society, then he lives in a house that resembles a curiosity shop, and that isn’t very artistic either, to my taste. And I myself have suffered greatly from living so much in conditions where order was impossible, that I lost the notion of order and simplicity.</p>
+<p rend="indent" xml:id="p.en.12" n="12">That good fellow <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> wanted to write an article on me in a Dutch newspaper on paintings <hi rend="italics">absolutely</hi> like those I’m sending you, but I’d be very sad to read such an article, and I wrote to tell him so. Now I’m working on a hospital ward. In the foreground a big black stove around which a few grey or black shapes of patients, then behind the very long ward, tiled with red with the two rows of white beds, the walls white, but a lilac or green white, and the windows with pink curtains, with green curtains, and in the background two figures of nuns in black and white. The ceiling is violet with large beams.<ptr target="#note-t-15"/> I had read an article on <rs type="person" ref="bio.xml#_577">Dostoevsky</rs>, who had written a book, Souvenirs de la maison des morts,<ptr target="#note-t-16"/> and that spurred me on to begin work again on a large study that I’d begun in the fever ward in Arles. But it’s annoying to paint figures without models.</p>
+<p rend="indent" xml:id="p.en.13" n="13">I’ve read another of <rs type="person" ref="bio.xml#_835">Carmen Sylva</rs>’s ideas, which is very true: when you suffer a lot – you see everybody at a great distance, and as if at the far end of an immense arena – the very voices seem to come from a long way off.<ptr target="#note-t-17"/> I’ve experienced this in these crises to such a point that all the people I see then seem to me, <hi rend="italics">even if I recognize them</hi> – which isn’t always the case – to come from very far away and to be <hi rend="italics">entirely different</hi> from what they are in reality, so much do I then seem to see in them pleasant or unpleasant resemblances to people I’ve known in other times and places.</p>
+<p rend="indent" xml:id="p.en.14" n="14">Au revoir, I wish you every success with your work of moving house, and kiss you in thought.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.15" n="15">Ever yours,</p>
+<p xml:id="p.en.16" n="16">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh writes: ‘Soon you’ll move house, and this will be the last time I write to you at Breda’ <ref target="#l-3">(ll. 3-4)</ref>. He wrote the same thing to his mother, so there is a good chance that both letters were sent at the same time. We have therefore dated the present letter, as we did the letter to his mother, to about Monday, 21 October 1889 (<ref target="let811.xml">see letter 811</ref>, <hi rend="italics">Date</hi>).</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Cor’s departure for South Africa <ref target="let784.xml">(784)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Mrs van Gogh and Willemien’s move to Leiden <ref target="let798.xml">(798)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent has paintings intended for his mother and Willemien <ref target="let803.xml">(803)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This study of olive trees is not known; Van Gogh wrote in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let806.xml">letter 806</ref> that it was a smaller version of one of his canvases of olive trees.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Reaper </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2844">F 619 / JH 1792</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Wheatfield and cypresses </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2842">F 743 / JH 1790</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The bedroom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2845">F 483 / JH 1793</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Field with a ploughman </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2825">F 625 / JH 1768</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>It is not known which painting of a blossoming orchard is referred to here.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Self-portrait with clean-shaven face</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2769">F 525 / JH 1665</rs>). </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>One of these works was probably <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sprig of almond blossom in a glass with a book </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2566">F 393 / JH 1362</rs>), which Van Gogh said in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let590.xml">letter 590</ref> was to be for <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>. For the other canvases in Willemien’s possession, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let678.xml#n-10">see letter 678, n. 10.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This intention never came to fruition; in any case, nothing is known of works received by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_322">Anna</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_321">Jet Carbentus</rs>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_267">Margot Begemann</rs> owned only early paintings by Van Gogh, namely <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The old church tower at Nuenen with a ploughman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2453">F 34 / JH 459</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cottage</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_897">F 92 / JH 810</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_568">Dr Peyron</rs>’s visit to Theo, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let807.xml">see letter 807</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The bedroom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2735">F 482 / JH 1608</rs>) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The bedroom </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_3007">F 484 / JH 1771</rs>). They measure 72 x 90 cm and 73.6 x 92.3 cm, respectively.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Van Gogh is referring to the sober, simple way of life – idealised by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_590">George Eliot</rs> – chosen by the resolute protagonist Felix Holt, who lives ‘in the absence of all elegance, luxury, gaiety or romance’ and ‘has chosen his lot. He means always to be a poor man’. Van Gogh’s remark later in the letter, that he had ‘the taste, the need for simplicity’, even though ‘an ideal of simplicity makes life more difficult’, is perfectly in keeping with the life chosen by Holt. See Eliot 1980, pp. 152, 352. Cf. Dorn 1990, pp. 140-141.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The red vineyard </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2745">F 495 / JH 1626</rs>) had been at Theo’s since the end of May 1889 (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let767.xml">see letter 767</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Van Gogh derived his knowledge of the simple interiors of the Japanese from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Loti</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_481">Madame Chrysanthème</ref></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let639.xml#n-11">See letter 639, n. 11.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Ward in the hospital </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2782">F 646 / JH 1686</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>This was probably the article on <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_577">Dostoevsky</rs> that Vincent had sent to Theo the previous year; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let680.xml#n-5">see letter 680, n. 5.</ref> Dostoevsky’s novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_466">The house of the dead</ref></hi> (1864) is based on the time he spent (1850-1854) doing forced labour in a Siberian prison camp, where his health, which was weak to start with (he suffered from epilepsy), seriously deteriorated. The first French translation dates from 1886.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>Quotation from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_835">Carmen Sylva</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_83">Les pensées d’une reine</ref></hi> (see Sylva 1888, p. 80, ‘La douleur’). Unlike the quotation appearing in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let804.xml">letters 804</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let805.xml">805</ref>, this passage was not quoted by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_704">Loti</rs> in his article on Carmen Sylva.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

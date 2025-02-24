@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/RM25"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b700 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>RM25</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>652</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>907</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1890-07-23">Wednesday, 23 July 1890</date>
+                            <placeName>Auvers-sur-Oise</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0700" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000951_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000951_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0700" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000951_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000951_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000951_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher frère,</p>
+
+<p xml:id="p.fr.2" n="2">Merci de ta bonne lettre et du billet de 50 fr. qu’elle contenait<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Je voudrais bien t’écrire sur bien des chôses mais j’en sens l’inutilité<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">J’espère que tu auras retrouvé ces messieurs en de bonnes dispositions à ton égard<c type="kp">_</c><ptr target="#note-t-1"/></p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Que tu me rassures sur l’etat de paix de ton ménage c’était pas la peine<c type="kp">_</c> Je crois avoir vu le bien autant que l’autre côté<c type="kp">_</c>– Et suis tellement d’ailleurs d’accord que d’élever un gosse dans un quatrieme étage est une lourde corvée tant pour toi que pour Jo<c type="kp">_</c>– Puisque cela va bien<c type="kk">/</c> ce qui est le principal<c type="kk">/</c> insisterais je sur des chôses de moindre importance? Ma foi <hi rend="italics">avant qu’il y ait chance de</hi> <hi rend="italics">causer affaires à têtes plus reposées</hi> <hi rend="italics">il y a probablement loin</hi>. Voilà la seule chose qu’à present je puisse dire et que cela pour ma part je l’ai constaté avec un certain effroi<c type="kk">/</c> je ne l’ai pas caché déjà mais c’est bien là tout<c type="kp">_</c>–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Les autres peintres<c type="kk">/</c> quoi qu’ils en pensent<c type="kk">/</c> instinctivement se tiennent à distance des discussions sur le commerce actuel. Eh bien vraiment nous ne pouvons faire parler que nos tableaux<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">mais pourtant mon cher frère<c type="kk">/</c> il y a ceci que toujours je t’ai dit et je te le redis encore une fois avec toute la gravité que puissent donner les efforts de pensée assidument fixée pour chercher à faire aussi bien qu’on peut – je te le redis encore que je considererai toujours que tu es autre chose qu’un simple marchand de Corots<c type="kk">/</c><ptr target="#note-t-2"/> que par mon intermediaire tu as ta part à la production même de certaines toiles<c type="kk">/</c> qui même dans la débacle gardent leur calme. Car là nous en sommes et c’est là tout ou au moins le principal que je puisse avoir à te dire dans un moment de crise relative<c type="kp">_</c> Dans un moment où les chôses sont fort tendues entre marchands de tableaux – d’artistes morts – et artistes vivants<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Eh bien mon travail à moi j’y risque ma vie et ma raison y a fondrée<ptr target="#note-t-a"/> à moitié – bon – 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>mais tu n’es pas dans les marchands d’hommes; pour autant que je sache et puisse prendre parti je te trouve agissant réellement avec humanité mais que veux tu</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear brother,</p>
+<p xml:id="p.en.2" n="2">Thanks for your kind letter and for the 50-franc note it contained.</p>
+<p rend="indent" xml:id="p.en.3" n="3">I’d really like to write to you about many things, but I sense the pointlessness of it.</p>
+<p rend="indent" xml:id="p.en.4" n="4">I hope that you’ll have found those gentlemen favourably disposed towards you.<ptr target="#note-t-1"/></p>
+<p rend="indent" xml:id="p.en.5" n="5">You didn’t need to reassure me as to the state of peace of your household. I believe I’ve seen the good as much as the other side. And besides, am so much in agreement that raising a kid in a fourth floor apartment is hard labour, as much for you as for <rs type="person" ref="bio.xml#_416">Jo</rs>. Since that’s going well, which is the main thing, should I go on about things of lesser importance? My word, <hi rend="italics">there’s probably a long way to go before there’s a chance of talking business with more rested minds</hi>. That’s the only thing I can say at the moment, and that for my part I realized it with a certain horror, I haven’t yet hidden it, but that really is all.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">The other painters, whatever they think about it, instinctively keep their distance from discussions on current trade. Ah well, really we can only make our paintings speak.</p>
+<p rend="indent" xml:id="p.en.7" n="7">But however, my dear brother, there’s this that I’ve always told you, and I tell you again once more with all the gravity that can be imparted by the efforts of thought assiduously fixed on trying to do as well as one can – I tell you again that I’ll always consider that you’re something other than a simple dealer in <rs type="person" ref="bio.xml#_971">Corot</rs>s,<ptr target="#note-t-2"/> that through my intermediacy you have your part in the very production of certain canvases, which even in calamity retain their calm. For that’s where we are, and that’s all, or at least the main thing I can have to tell you in a moment of relative crisis. In a moment when things are very tense between dealers in paintings – by dead artists – and living artists.</p>
+<p rend="indent" xml:id="p.en.8" n="8">Ah well, I risk my life for my own work and my reason has half foundered in it – very well – 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> but you’re not one of the dealers in men; as far as I know and can judge I think you really act with humanity, but what can you do</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">In this unfinished and unsent letter Vincent thanks Theo for his letter, dated 22 July 1890 <ref target="let901.xml">(901)</ref>, and the money it contained, which must have arrived that very day, as he indeed writes in <ref target="let902.xml">letter 902</ref> (<ref target="let902.xml#l-1*">l. 1*</ref>). Therefore the present letter, which is an earlier version of <ref target="let902.xml">letter 902</ref>, probably also dates from Wednesday, 23 July. Cf. Hulsker 1973, p. 212 and Hulsker 1998, p. 44.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent had this unfinished letter on his person when he wounded himself on 27 July, as revealed by a note Theo wrote in pencil on the manuscript: ‘lettre qu’il portait sur lui le 27 Juillet jour du sinistre’ (the letter he had on him on 27 July, the day of the accident).</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo and Jo’s visit to the Netherlands <ref target="let899.xml">(899)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>‘Those gentlemen’ are Theo’s employers at <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs>. Theo had written about his talk with them to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_524">Mrs van Gogh</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs>, but not to Vincent; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let901.xml#n-5">see letter 901, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>This example was probably chosen because Theo had recently sold a <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_971">Corot</rs> for a great deal of money (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let894.xml">see letter 894</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Read: ‘effondrée’.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

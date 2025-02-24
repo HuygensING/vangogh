@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Wednesday, 26 July 1882.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let251"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b242 a-d V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>251</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>220</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>252</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1882-07-26">Wednesday, 26 July 1882</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000291_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000291_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000291_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000291_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000291_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000291_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000292_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000292_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000292_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000292_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000293_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000293_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000293_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000293_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 d" xml:id="surf-pb-4r">
+<graphic url="https://example.com/iiif/VGM001000294_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4r-9">
+<graphic url="https://example.com/iiif/VGM001000294_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0242 d" xml:id="surf-pb-4v">
+<graphic url="https://example.com/iiif/VGM001000294_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-4v-10">
+<graphic url="https://example.com/iiif/VGM001000294_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Woensdag morgen</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Waarde Theo,</p>
+
+<p xml:id="p.nl.3" n="3">Er is mij veel aan gelegen dat gij niet de gedachte krijgt als was ik in een onopgewekte of abnormale stemming<c type="kp">_</c> En daarom schreef ik U in mijn vorigen brief reeds over het werk en daar ik U nog een paar dingen te verzoeken heb die daarop betrekking hebben wacht ik niet lang met schrijven.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Tegen dat ge komt wou ik wel mijn best doen om U in aquarel een &amp; ander<c type="kk">/</c> op verschillende manieren gedaan<c type="kk">/</c> te laten zien<c type="kk">/</c> dan kunnen we er eens over praten wat U het beste voorkomt.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Zoodat ik nu geregeld iederen dag daaraan werk &amp; ook zal blijven doen tot ge komt.</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Ik heb er nu 3 van Scheveningen<ptr target="#note-t-1"/> – ook weer de U bekende Scharrendroogerij – even uitvoerig geteekend – alleen nu is er de kleur bij<c type="kp">_</c><ptr target="#note-t-2"/> Gij weet toch wel goed, Theo, dat het niet moeielijker is met kleuren te werken dan met zwart &amp; wit – misschien integendeel<c type="kk">/</c> alleen voor zoo ver ik zien kan komt 3/4 neer op de oorspronkelijke schets en van de kwaliteit daarvan hangt bijna de heele aquarel af.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Het is niet voldoende een à peu près te geven en ’t was &amp; is mij te doen om hooger opvoeren. In de zwart &amp; witte scharrendroogerijen is dat geloof ik al te zien want gij kunt daar alles volgen &amp; nagaan hoe de boel in elkaar zit en ziedaar<c type="kk">/</c> ik geloof dat het daarom komt dat ik nu veel vlotter werk met aquarel omdat ik zoo’n langen tijd juist op het meer corecte teekenen mijn best gedaan heb.</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Tersteeg noemde mijn handelwijs iets van tijdverkwisten<c type="kk">/</c> ge zult spoedig zien dat ik veel tijd gewonnen heb.</p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Ik voel dat nu reeds en als ge komt zult ge ’t zelf zien.</p>
+  
+<p rend="indent" xml:id="p.nl.10" n="10">Ik heb heden avond de winkels afgeloopen om het dikke Ingres – maar vruchteloos<c type="kp">_</c> dun is er wel – maar het dikke of dubbele nergens meer. Ik heb in der tijd van Stam alles genomen wat hij nog had &amp; dat was heerlijk belegen. Tegen dat ge komt<c type="kk">/</c> och doe er Uw best nog eens voor. En kunt ge dat soms niet krijgen – vraag eens naar “<hi rend="italics">papier</hi> <hi>de la forme</hi>”<c type="kk">/</c> dat is geelachtig getint – taai – en men kan er op wasschen. Is geloof ik ook veel goedkooper dan Harding of Whatman zoodat op den duur ’t veel uithaalt.<ptr target="#note-t-a"/></p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Als ge komt weet ik een paar mooie weggetjes door de weilanden waar ’t zoo stil is en rustig dat gij er wel schik in hebben zult. Ik heb daar ontdekt oude &amp; nieuwe arbeidershuisjes &amp; andere woningen die wel karakteristiek zijn – met tuintjes aan den slootkant – erg gezellig<c type="kk">/</c> ik ga er morgen vroeg teekenen. Het is een weg door de weilanden van den Schenkweg naar de fabriek van Enthoven of ’t Zieke<c type="kp">_</c><ptr target="#note-t-3"/> Ik heb een dooden knotwilgenstam gezien daar – net een ding voor <hi rend="italics">Barye</hi> b.v.<c type="kk">/</c> hij hing over een waterplas met riet – heel alleen &amp; melankoliek en zijn bast was om zoo te zeggen geschubd &amp; bemost en met verschillende toonen gevlekt &amp; gemarmerd – zoo iets als een slangenhuid, groenachtig<c type="kk">/</c> geelachtig<c type="kk">/</c> grootendeels dof zwart<c type="kp">_</c> Met witte afgeschilferde plekken en stompen takken. Ik ga hem morgen ochtend aanvallen.<ptr target="#note-t-4"/> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>’k heb ook nog een <hi rend="italics">bleekerij</hi> op Schevening gemaakt<c type="kk">/</c><ptr target="#note-t-5"/> op de plaats zelf in eens geheel gewasschen bijna zonder preparatie<c type="kk">/</c> op een heel grof stuk torchon. Hierbij een paar kleine schetsjes er van.</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">Tegen dat ge komt zal ik zien dat er een &amp; ander bij elkaar is<c type="kp">_</c> Ik denk dat ge mogelijk in de Scharrendroogerij nu die met kleuren is wel schik zult hebben.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Weet het dus goed, kerel, ik ben weer geheel &amp; al in mijn gewone doen<c type="kk">/</c> en weet dat ik geloof dat al de rest afhangt van het werk &amp; de heele zaak direkt in verband daarmee beschouw. Het nieuwe atelier scheelt enorm met het vorige dat het prettiger werkt &amp; vooral voor ’t poseeren is ’t veel beter wegens men grooter afstand nemen kan. Wat ik meer betaal aan huishuur<c type="kk">/</c> ik weet zeker dat ik ’t er dubbel en dwars zal uithalen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Ik heb echter een verzoek aan U<c type="kp">_</c>– Ik zou mij zoo best kunnen begrijpen &amp; ’t zoo natuurlijk vinden als ge in plaats van 1 Augustus te sturen zelf mij het geld gaaft bij Uw komst<c type="kk">/</c> b.v. 7 Augustus<c type="kp">_</c> Daar ik echter zoodra ik Uw laatsten brief ontving eenige inkoopen van papier &amp; verf &amp; penseelen heb gedaan &amp; tegen 1 Augustus zeker nog een &amp; ander zal noodig hebben<c type="kk">/</c> zoo wilde ik U vriendelijk verzoeken als ’t kan<c type="kk">/</c> ofschoon gij spoedig daarop komt<c type="kk">/</c> toch tegen 1 Augustus te zenden. want ik heb precies<c type="kk">/</c> precies uitgerekend &amp; ben <hi rend="italics">na</hi> de paar eerste dagen van Aug. zeker absoluut à sec. Ik hoop het U niet inconvenieert; meer is natuurlijk niet de bedoeling maar wel de tijd. n<c type="kp">_</c>l. zoo mogelijk 1 Aug<c type="kp">_</c> en anders toch in de allereerste dagen.</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Van de Rijsw. weilanden heb ik ook nog een tweede<c type="kk">/</c> waar ’t zelfde geval door verandering van oogshoogte en oogpunt een heel ander aspect krijgt.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Ge ziet ik ben druk in de landschappen verzeild<c type="kk">/</c> ’t is om reden Sien nog niet poseeren kan maar anders<c type="kk">/</c> ’t figuur moet hoofdzaak blijven<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Als gij komt dan zorg ik<c type="kk">/</c> ik zoolang ge in stad zijt digt bij honk blijf &amp; gij weet waar ik zit &amp; verder terwijl gij Uw zaken doet &amp; visites maakt ga ik mijn gewonen gang. Ik kan U overal opzoeken waar ge me rendez vous geeft maar om verschillende redenen is het voor allebei beter ik b.v. niet met U naar de Plaats<ptr target="#note-t-7"/> of bij Mauve of zoo ga, dunkt mij.– Ik ben ook zoo aan mijn werkpak gewend waar ik mee in ’t zand of ’t gras kan gaan zitten of leggen<ptr target="#note-t-b"/> al naar ’t te pas komt (want in de duinen of zoo gebruik ik haast nooit een stoel tenzij een oude vischmand) dat mijn costuum wel wat te Robinson Crusoeachtig<ptr target="#note-t-8"/> is dan dat ik veel met U op en neer zou gaan<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Ik zeg dit vooruit opdat gij goed weten zoudt ik U niet geneeren zal maar overigens<c type="kk">/</c> ge begrijpt <hi rend="italics">dat ik naar ieder halfuurtje dat ge missen</hi> <hi rend="italics">kunt snak</hi>.<ptr target="#note-t-9"/> Mij dunkt we zullen ook beter op ons gemak zijn als we maar heelemaal in ’t schilderen &amp; teekenen verzeilen &amp; ’t vooral daar over hebben. <hi rend="italics">Tenzij andere zaken U niet</hi> <hi rend="italics">verveelen of geneeren</hi><c type="kk">/</c> is dat zoo niet<c type="kk">/</c> dan natuurlijk heb ik voor U geen enkel geheim &amp; hebt ge in alles mijn volste vertrouwen.</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Dan ben ik ook zeer verlangend om U de houtsneden<ptr target="#note-t-10"/> te laten zien. Ik heb er weer een prachtige<c type="kk">/</c> een teekening van Fildes<c type="kk">/</c> “de ledige stoel van Dickens” uit de Graphic van 70<c type="kp">_</c><ptr target="#note-t-11"/> Ik heb 3 etsen van Meryon kunnen koopen voor f<c type="kp">_</c> 2 de drie maar ik heb ze laten loopen<c type="kp">_</c> Ze waren anders wel mooi – maar ik heb zoo weinig etsen &amp; concentreer me meer op de houtsneden als ik nog eens iets neem. Maar wou ’t U eens zeggen – ’t is Blok<ptr target="#note-t-12"/> die ze heeft en ik weet niet of alle Meryons zeldzaam zijn &amp; handelswaarde hebben<c type="kp">_</c> Zij zijn uit een ouden jaargang l’Artiste.–<ptr target="#note-t-13"/> Ik ben nog altijd vol van die boeken van Zola<c type="kp">_</c> Wat is dat <hi rend="italics">geschilderd</hi><c type="kk">/</c> die Halles.<ptr target="#note-t-14"/></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Het gaat me goed met de gezondheid<c type="kk">/</c> toch voel ik nog altijd een en ander &amp; zal dat wel blijven doen<c type="kk">/</c> nog een geruimen tijd ten minste. Sien &amp; ’t kind maken ’t ook goed<c type="kk">/</c> sterken aan en ik houd veel van hun<c type="kp">_</c> Ik moet het wiegje ook weer eens onder handen nemen (als ’t eens een regendag is &amp; ’k niet naar buiten kan)<c type="kk">/</c> geheel met aquarel. Maar anders<c type="kk">/</c> tegen dat ge komt wou ik U laten kijken – <hi rend="italics">landschap</hi> <hi rend="italics">aquarel</hi> – figuur aquarel hoop ik tegen den winter dus als ik een jaar hier geweest ben; ik zal nog meer naakt moeten teekenen eerst en nog heel wat zwart &amp; wit ook dunkt mij. Dat alles bespreken we nog wel &amp; dat Uw bezoek veel zal bijdragen om de dingen in orde te houden &amp; het werk te doen vlotten, dat houd ik voor zeker. à dieu<c type="kk">/</c> met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.21" n="21">t. à t.</p>
+
+<p xml:id="p.nl.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/><figure facs="zone-sketch-1" n="A"/><figure facs="zone-sketch-2" n="B"/>
+<space unit="lines" quantity="1"/>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p xml:id="p.nl.23" n="23">Met stilletjes door te gaan met mijn werk heb ik alle hoop tot vergoeding voor ’t verlies van de vriendschappelijke gezindheid van Mauve<c type="kk">/</c> HGT &amp; anderen langzamerhand een geheel nieuw kringetje van kennissen te krijgen.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Maar ik zal daar geen demarches voor maken, niet de minste, maar het moet door ’t werk gebeuren<c type="kp">_</c> Dat wat mij overkomt met H.G.T<c type="kp">_</c> is volstrekt niets ongewoons<c type="kk">/</c> iedereen heeft van die dingen in ’t leven. Men kan niet precies zeggen waar ’t schort. Alleen bij H<c type="kp">_</c>G.T<c type="kp">_</c> is ’t al een verouderd kwaad<c type="kk">/</c> ik weet nu zoo goed als zeker dat hij reeds veel vroeger omtrent mij dingen gezegd heeft die er niet weinig toe hebben bijgedragen om mij in een slecht blaadje te stellen. Ik hoef echter mij daaraan verder niet te storen – dat wat me vroeger kwaad kon kan het nu niet meer. Als ge op ’t atelier komt zult ge zelf zien ’t werkelijk absurd is als hij zegt: o van jouw teekenen komt toch niets. Zoo’n gezegde kan men echter moeielijk tegenspreken want zoodra men dat doet wordt het als pedanterie aangemerkt en haalt men er de allergrootste mannen bij &amp; zegt: hij verbeelt zich dat hij dit of dat is<c type="kp">_</c>–</p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Maar nog eens<c type="kk">/</c> ieder die met liefde werkt en met intelligentie heeft juist in de opregtheid van zijn liefde voor de natuur &amp; de kunst een soort pantser tegen de opinie van de menschen.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">De natuur is ook streng en om zoo te zeggen hard doch bedriegt nooit en helpt altijd vooruit<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Ik reken ’t dus geen ongeluk als ik bij HGT of wie ook in disgratie raak<c type="kk">/</c> hoezeer het mij ook spijte<c type="kp">_</c> Niet <hi rend="italics">dat</hi> kan direkt de oorzaak zijn van ongeluk – als ik geen liefde had voor de natuur en mijn werk – <hi rend="italics">dan</hi> zou ik ongelukkig zijn. Maar hoe minder ik opschiet met de menschen hoe meer ik de natuur leer vertrouwen &amp; mij in haar concentreeren. Al die dingen maken me hoe langer hoe frisscher van binnen – ge zult ook wel zien dat ik niet bang ben voor een frisch groentje of een zacht blaauw en de duizende verschillende grijzen want er is haast geen kleur die niet een grijs is: roodgrijs<c type="kk">/</c> geelgrijs<c type="kk">/</c> groengrijs<c type="kk">/</c> blaauwgrijs<c type="kp">_</c> Daar komt de heele kleurmenging op neer.<ptr target="#note-t-15"/></p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Toen ik terugkwam aan die Scharrendroogerij was in die manden vol zand op den voorgrond die dienen om ’t stuiven van ’t duinzand te verhinderen<c type="kk">/</c> een welig en onbeschrijfelijk frisch<c type="kk">/</c> wild knollengroen of oliezaad opgeschoten<c type="kp">_</c> Twee maanden geleden was het alles bar op ’t beetje gras in ’t tuintje na en nu gaf dat ruwe<c type="kk">/</c> woeste<c type="kk">/</c> welig opgeschoten groen een alleraardigst effekt als contrast met de schraalheid van de rest.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Ik hoop dat gij die teekening naar Uw zin zult vinden – het verschiet – ’t kijkje boven over de daken van ’t dorp heen met het kerktorentje en de duintjes was ook zoo fijn. Ik heb het met een pleizier gemaakt dat ik U niet zeggen kan.</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Dus kom maar spoedig – ik geloof dat gij met de verandering van atelier vrede zult hebben geheel &amp; al als ge ziet hoe ’t mij oneindig beter gelegenheid geeft voor ’t werk – meer ruimte – beter licht – grooter afstand<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/><figure facs="zone-sketch-3" n="C"/>
+<space unit="lines" quantity="1"/>
+<pb f="4r" n="9" xml:id="pb-orig-4r-9" facs="#zone-pb-4r-9"/>
+
+<p xml:id="p.nl.31" n="31">Gisteren avond kreeg ik een pak van t’huis<c type="kk">/</c> er was onder anderen een soort demi saison<ptr target="#note-t-16"/> in die zeer doelmatig is. Ik vond het erg aardig van hen. En er was tabak in en sigaren<c type="kk">/</c> een koek en nog ondergoed<c type="kp">_</c> Enfin een heel pak. Vind gij dat niet aardig. Het is nog meer dat ik er blij mede ben omdat ik er hun hartelijke stemming uit zie dan om iets anders.</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Van Rappard heb ik ook weer een brief. Ik heb er zoo’n almagtig pleizier in dat die kerel zich zoo verdiept in zijn Engelsche houtsneden. Ik heb hem er wel toe geanimeerd in ’t begin maar nu is het animeeren niet meer noodig<c type="kk">/</c> hij is haast even enthousiast als ik, nu.</p>
+<pb f="4v" n="10" xml:id="pb-orig-4v-10" facs="#zone-pb-4v-10"/>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Als gij komt zal ik U eens een paar bladen laten zien die als ge ze eens onder de oogen gehad zult hebben U ook niet ligt uit ’t geheugen meer zullen gaan.– Er zijn daarbij nog weer heel andere dingen dan de kunst<c type="shy">-</c>rigting van Boughton b.v. ofschoon die ook zeker een van de leaders is.–</p>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Ik bedoel dingen merkwaardig om hun realiteit en hun stijl te gelijk, geteekend als Albert Durer en evenwel met veel locale kleur en clair obscur. Die bladen ziet men tegenwoordig zoo druk niet meer want men moet ze zoeken in de tijdschriften van 10 of 15 jaar terug. Zoo b.v. tijdens den oorlog van 70-71.<ptr target="#note-t-17"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Wednesday morning</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">My dear Theo,</p>
+<p xml:id="p.en.3" n="3">It matters greatly to me that you shouldn’t get the idea that I’m in a dejected or abnormal mood. That’s why I wrote to you already about work in my last letter, and since I have a few more things to ask in that connection I haven’t waited long before writing again.</p>
+<p rend="indent" xml:id="p.en.4" n="4">By the time you come I’ll do my best to have several watercolours done in different ways ready for you to see, then we can discuss which seems best to you.</p>
+<p rend="indent" xml:id="p.en.5" n="5">So I’ll work regularly on this every day, and continue to do so until you come. </p>
+<p rend="indent" xml:id="p.en.6" n="6">I now have 3 of Scheveningen<ptr target="#note-t-1"/> — again the Fish-drying barn you know — drawn in as much detail — only now there’s colour as well.<ptr target="#note-t-2"/> As you well know, Theo, it isn’t harder to work in colour than in black and white, the opposite perhaps, but as far as I can see 3/4 comes down to the original sketch, and almost the whole watercolour depends on its quality. </p>
+<p rend="indent" xml:id="p.en.7" n="7">It isn’t enough to give an approximation, and my aim has been and still is to make it more intense. I believe that’s already evident in the black-and-white fish-drying barns, because there you can follow everything and see how it all fits together, and look, I think this is why I now work much more fluently in watercolour, because for such a long time I did my best to draw more correctly. 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/> </p>
+<p rend="indent" xml:id="p.en.8" n="8"><rs type="person" ref="bio.xml#_787">Tersteeg</rs> said that what I was doing was a waste of time; soon you’ll see that I’ve saved a great deal of time. </p>
+<p rend="indent" xml:id="p.en.9" n="9">I already feel that, and you’ll see it for yourself when you come. </p>
+<p rend="indent" xml:id="p.en.10" n="10">This evening I went from one shop to another searching for thick Ingres, but in vain. They have the thin, but the dense or double is nowhere to be found. At the time I bought all that <rs type="person" ref="bio.xml#_759">Stam</rs> had left, and it was wonderfully mature. Before you come, oh do your best to find some once more. And if you can’t get any, try asking for ‘<hi rend="italics">papier</hi> <hi>de la forme</hi>’. That is with a yellowish tint — stiff — and you can use wash on it. I believe it’s also much cheaper than Harding or Whatman, so that in the end there’s quite a saving. </p>
+<p rend="indent" xml:id="p.en.11" n="11">When you come I know of a few lovely paths through the meadows where it’s so quiet and peaceful that you’ll be delighted. I’ve discovered old and new labourer’s cottages there, and other houses that are distinctive, with small gardens lining the banks of the ditch — really charming. I’m going to draw there early tomorrow morning. It’s a path through the meadows from Schenkweg to <rs type="person" ref="bio.xml#_69">Enthoven</rs>’s factory or Het Zieke.<ptr target="#note-t-3"/> I saw a dead pollard willow there, just the thing for <hi rend="italics"><rs type="person" ref="bio.xml#_476">Barye</rs></hi>, for example. It hung over a pond with reeds, all alone and melancholy, and its bark was scaled and mossy, as it were, and spotted and marbled in various tones — something like the skin of a snake, greenish, yellowish, mostly dull black. With white flaking spots and stumpy branches. I’m going to attack it tomorrow morning.<ptr target="#note-t-4"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/> I’ve also done a <hi rend="italics">bleaching ground</hi> at Scheveningen,<ptr target="#note-t-5"/> on the spot in one go, entirely in wash almost without preparation, on a very coarse piece of torchon. Here are a couple of small sketches of it. </p>
+<p rend="indent" xml:id="p.en.12" n="12">I’ll make sure that several things are ready by the time you come. I think you’ll like the Fish-drying barn now that it’s with colours. </p>
+<p rend="indent" xml:id="p.en.13" n="13">Make no mistake, old chap, I’m fully back into my normal routine, and rest assured that everything else depends on work, and I see everything as directly related to that. The new studio makes a huge difference compared to the previous one in that it’s more pleasant to work in; for posing, especially, it’s a great improvement because one can stand further back. I’m sure it will be well worth the extra rent. </p>
+<p rend="indent" xml:id="p.en.14" n="14">I have one request for you, though. I would entirely understand and would find it quite natural if, instead of sending the money on 1 August, you were to give it to me yourself when you arrive on, say, 7 August. As soon as I received your last letter, however, I made some purchases of paper and paint and brushes, and by 1 August I’ll certainly need some more things. So I want to ask you to be so kind as to send something all the same just before 1 August, if possible, even though you’ll be coming soon afterwards, because I’ve worked it out exactly, exactly, and <hi rend="italics">after</hi> the first few days of August I’ll certainly be absolutely broke. I hope this won’t inconvenience you: of course, more is not the intention; it’s the time that matters, namely 1 August, if possible, and otherwise only a few days later.</p>
+<p rend="indent" xml:id="p.en.15" n="15">I also have a second of the Rijswijk meadows in which the same subject takes on an entirely different aspect through being seen from a different height and viewpoint.<ptr target="#note-t-6"/></p>
+<p rend="indent" xml:id="p.en.16" n="16">As you see, I’ve become very caught up in landscapes. The reason is that <rs type="person" ref="bio.xml#_463">Sien</rs> can’t pose yet, but otherwise the figure must remain the chief concern. 
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">When you come I’ll take care to be close to home as long as you’re in the city and that you know where I am, and otherwise I’ll carry on with my normal routine while you do your business and pay visits. I can find you wherever you suggest a meeting, but for various reasons I believe it’s better for both of us if I don’t go with you to the Plaats,<ptr target="#note-t-7"/> say, or to <rs type="person" ref="bio.xml#_323">Mauve</rs>, for example. I’m so used to my working clothes, in which I can sit or lie in the sand or grass as I please (for in the dunes, for example, I hardly ever use a chair, except perhaps an old fish basket), that my outfit is rather too Robinson Crusoe-like<ptr target="#note-t-8"/> for me to accompany you much on your rounds. </p>
+<p rend="indent" xml:id="p.en.18" n="18">I say this in advance so that you’ll know I won’t be an embarrassment to you, but otherwise you understand <hi rend="italics">that I long for every half hour you can spare</hi>.<ptr target="#note-t-9"/> I think we’ll be more at ease if we’re completely taken up by painting and drawing, and talk mainly about that. <hi rend="italics">Unless you’re not bored or embarrassed by other matters</hi>, if not, then of course I have no secrets from you, and you have my complete confidence in everything. </p>
+<p rend="indent" xml:id="p.en.19" n="19">I also long to show you the woodcuts.<ptr target="#note-t-10"/> I have another splendid one, a drawing by <rs type="person" ref="bio.xml#_1026">Fildes</rs>, ‘Dickens’s empty chair’ from The Graphic of 70.<ptr target="#note-t-11"/> I could have bought 3 etchings by <rs type="person" ref="bio.xml#_1219">Meryon</rs> for 2 guilders for all three, but I let them go. They were good though, but I have so few etchings and want to concentrate on woodcuts if I buy anything else. But I wanted to tell you about them — <rs type="person" ref="bio.xml#_293 bio.xml#_294">Blok</rs><ptr target="#note-t-12"/> has them, and I don’t know if all Meryons are rare and valuable. They’re from an old volume of L’Artiste.<ptr target="#note-t-13"/> I’m still under the spell of <rs type="person" ref="bio.xml#_836">Zola</rs>’s books. How <hi rend="italics">painted</hi> those Halles are.<ptr target="#note-t-14"/> </p>
+<p rend="indent" xml:id="p.en.20" n="20">My health is good, though I still feel the odd thing and will probably continue to do so, at least for some time yet. <rs type="person" ref="bio.xml#_463">Sien</rs> and the <rs type="person" ref="bio.xml#_466">child</rs> are also well; they’re getting stronger and I love them dearly. I must have another go at the cradle (when it’s a rainy day and I can’t go outside), entirely in watercolour. But for the rest, when you come I want to show you — <hi rend="italics">landscape watercolours</hi> — nearer winter I hope to have figure watercolours, that is, after I’ve been here a year. First I’ll have to draw more nudes and a lot more in black and white, it seems to me. We’ll discuss all that, and I don’t doubt that your visit will be a great help in keeping things in order and making work go smoothly. Adieu, with a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.21" n="21">Ever yours,</p>
+<p xml:id="p.en.22" n="22">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.23" n="23">
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p xml:id="p.en.24" n="24"><figure facs="zone-sketch-1" n="A"/></p>
+<p xml:id="p.en.25" n="25"><figure facs="zone-sketch-2" n="B"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.26" n="26">
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p xml:id="p.en.27" n="27">By quietly carrying on with my work I have every hope I’ll gradually acquire a new circle of friends to make up for the loss of the friendliness of <rs type="person" ref="bio.xml#_323">Mauve</rs>, <rs type="person" ref="bio.xml#_787">HGT</rs> and others. </p>
+<p rend="indent" xml:id="p.en.28" n="28">But I’ll take no steps to bring that about, none at all, for it must come through the work. What has happened to me with <rs type="person" ref="bio.xml#_787">H.G.T.</rs> is nothing out of the ordinary; everyone experiences things like that in life. It’s impossible to say exactly what the cause is. But in the case of <rs type="person" ref="bio.xml#_787">H.G.T.</rs> it’s an old grievance. I know now with near certainty that he said things about me long ago which did much to cast me in a bad light. However, I needn’t be concerned about that — what could hurt me in the past can’t do so now. When you come to the studio you’ll see for yourself how utterly absurd it is for him to say: oh, your drawing will never amount to anything. But it’s difficult to counter a pronouncement like that, because as soon as one does so it’s seen as conceit, and people cite the very greatest names and say: he thinks he’s so-and-so or so-and-so.
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/> </p>
+<p rend="indent" xml:id="p.en.29" n="29">But, again, anyone who works with love and with intelligence has a kind of armour against people’s opinion in the sincerity of his love for nature and art. </p>
+<p rend="indent" xml:id="p.en.30" n="30">Nature is severe and hard, so to speak, but never deceives and always helps you to go forward. </p>
+<p rend="indent" xml:id="p.en.31" n="31">So I don’t count it a misfortune if I find myself out of favour with <rs type="person" ref="bio.xml#_787">HGT</rs> or anyone else, however much I regret it. <hi rend="italics">That</hi> can’t be the direct cause of unhappiness — if I felt no love for nature and my work, <hi rend="italics">then</hi> I would be unhappy. But the less I get on with people the more I learn to trust nature and to concentrate on it. All these things make me fresher and fresher inside — you’ll also see that I’m not afraid of a fresh green or a soft blue and the thousand different greys, for there’s hardly any colour that isn’t a grey: red-grey, yellow-grey, green-grey, blue-grey. This is what all colour mixing comes down to.<ptr target="#note-t-15"/></p>
+<p rend="indent" xml:id="p.en.32" n="32">When I went back to the Fish-drying barn, a luxuriant and indescribably fresh green from a wild vegetable or oilseed had shot up in the baskets filled with sand in the foreground that serve to stop the sand of the dunes blowing about. Two months ago it was all barren except for a bit of grass in the small garden, and now that rough, wild, luxuriantly sprouting green produced a most pleasant effect as a contrast to the bareness of the rest.</p>
+<p rend="indent" xml:id="p.en.33" n="33">I hope you’ll like that drawing. The vista — the view over the roofs of the village with the small church tower and the dunes — was so attractive. I can’t tell you with how much pleasure I drew it.</p>
+<p rend="indent" xml:id="p.en.34" n="34">So come soon — I believe you’ll be completely content with the change of studio when you see how infinitely better it is for my work — more space, better light, greater distance.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.35" n="35">
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/></p>
+<p xml:id="p.en.36" n="36"><figure facs="zone-sketch-3" n="C"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.37" n="37">
+<pb f="4r" n="9" xml:id="pb-trans-4r-9" facs="#zone-pb-4r-9"/></p>
+<p xml:id="p.en.38" n="38">Yesterday evening I got a parcel from home. Among other things, it contained a sort of demi-saison<ptr target="#note-t-16"/> which is very useful. It was very kind of them. And there were tobacco and cigars, a cake and underwear. In short, a whole package. Don’t you think that’s kind? It’s more that I’m pleased by it showing their warm feelings than by anything else. </p>
+<p rend="indent" xml:id="p.en.39" n="39">I’ve also had another letter from <rs type="person" ref="bio.xml#_1306">Rappard</rs>. I take enormous pleasure in the fact that that chap is so fascinated by his English woodcuts. I got him going in the beginning, but now he needs no further encouragement; now he’s almost as enthusiastic as I am.
+<pb f="4v" n="10" xml:id="pb-trans-4v-10" facs="#zone-pb-4v-10"/></p>
+<p rend="indent" xml:id="p.en.40" n="40">When you come I’ll show you a few prints which, once seen, won’t lightly fade from memory. Among them there are things very different from the school of <rs type="person" ref="bio.xml#_878">Boughton</rs>, say, although he’s certainly one of the leaders. </p>
+<p rend="indent" xml:id="p.en.41" n="41">I mean things remarkable at once for their reality and their style, drawn like <rs type="person" ref="bio.xml#_990">Albrecht Dürer</rs> but with lots of local colour and chiaroscuro. You don’t often see those prints any more these days; for you have to look for them in magazines of 10 or 15 years ago. For example, during the war of 70-71.<ptr target="#note-t-17"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Woensdag morgen’. The letter must have been written shortly after <ref target="let250.xml">letter 250</ref>, which dates from Sunday, 23 July, because here Van Gogh says he doesn’t want to wait too long before writing again <ref target="#l-8">(l. 8)</ref>, and must precede 1 August, because before this date he hopes to receive the money sent by Theo <ref target="#l-84">(ll. 84-94)</ref>. So the Wednesday was 26 July 1882.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Planned visit by Theo <ref target="let237.xml">(237)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is recovering from his illness <ref target="let241.xml">(241)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Disagreeable visit by Tersteeg <ref target="let247.xml">(247)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Besides <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2380">Fish-drying barn</rs></hi> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-2">see n. 2</ref>), Van Gogh painted the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bleaching ground</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2379">F 946 / JH 158</rs>), after which he also did letter sketch C (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-5">n. 5</ref> below). The third watercolour, of the pinks on the beach (cf. letter sketch A), is unknown (cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let243.xml#n-7">letter 243, n. 7</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fish-drying barn</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2380">F 945 / JH 160</rs>); ‘the Fish-Drying Barn you know’ is <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Fish-drying barn</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2377">F 940 / JH 154</rs>): <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let235.xml">see letter 235</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘bespaart’ (saves).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Het Zieke(n) is a street running parallel to Schenkweg. On the Enthoven metalworks and foundry see <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">De metaalpletterij en ijzergieterij L.I. Enthoven &amp; Co. Sporen van een 19e-eeuws Haags grootindustrieel metaalbedrijf</hi>. Ed. P.H. Enthoven <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">et al</hi>. The Hague 1996 and exhib. cat. The Hague 1990, pp. 39-44. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_69">Lodewijk Cornelis Enthoven</rs> in particular acquired a considerable number of works by Van Gogh. Cf. P.H. Enthoven, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Kroniek van het geslacht Enthoven</hi>. Zutphen 1991; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Account book</hi> 2002; and FR b3694.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>That Van Gogh did indeed ‘attack’ this willow is shown by the watercolour <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Pollard willow</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2382">F 947 / JH 164</rs>) and the letter sketch in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let252.xml">letter 252</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bleaching ground</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2379">F 946 / JH 158</rs>). Cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-1">n. 1</ref> above. The ‘public’ bleaching ground in Kerklaan in Scheveningen is depicted, with the Heilige Antonius Abtkerk in the background. See exhib. cat. The Hague 1990, p. 68.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Rooftops</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2378">F 943 / JH 156</rs>), which corresponds with letter sketch B.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>Goupil’s premises, where <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_787">H.G. Tersteeg</rs> worked, were on Plaats. </p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+
+<p>Means: ‘liggen’ (lie).</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>An allusion to Robinson Crusoe in <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_581">Daniel Defoe</rs>’s <ref target="biblio.xml#lit_186"><hi rend="italics">The life and strange surprising adventures of Robinson Crusoe of York, mariner</hi></ref> (1719). He lives on an uninhabited island and goes about in extremely simple clothing. </p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The underlining may be by another hand. </p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>Van Gogh often used the term ‘woodcuts’ to refer to wood <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">engravings</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1026">Samuel Luke Fildes</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The empty chair</hi> (‘Gad’s Hill, Ninth of June 1870’), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Graphic</hi>, Christmas Number, 1870, after p. 24. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1934">Ill. 1934</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>For the booksellers <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_293">Jozef</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_294">David Blok</rs> of The Hague, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let199.xml">see letter 199</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+  
+<p>This concerns three of the following five prints by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1219">Charles Meryon</rs>: <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_277"><hi rend="italics">La brébis et les deux agneaux</hi></rs> (The sheep and the two lambs), 1849-1850 (after Adriaen van de Velde); <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_278"><hi rend="italics">Pêcheurs de la mer du sud</hi></rs> (Fishers of the Zuiderzee), 1849-1850 (after R. Zeeman) – on a single page in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Artiste</hi> of 15 December 1861; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le petit pont </hi>(The little bridge), 1849-1850 (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Artiste</hi>, 5 December 1858); <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La tour de l’horloge </hi>(The clock tower), 1852 (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Artiste</hi>, 31 October 1858) and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La pompe Notre-Dame </hi>(Pumping-station Notre-Dame), 1852 (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Artiste</hi>, 28 November 1858). The last three sheets were printed in an edition of 600 for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">L’Artiste; Beaux-Arts et Belles-lettres</hi>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1936">Ill. 1936</rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1937">Ill. 1937</rs>, and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1938">Ill. 1938</rs>. See Richard S. Schneiderman (with the assistance of Frank W. Raysor, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">ii</hi>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The catalogue raisonné of the prints of Charles Meryon</hi>. London 1990, pp. 26, 32, 38, 41, 53; cat. nos. 8, 18, 20, 23, 26.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Les Halles, the market halls in the centre of Paris, are omnipresent in the novel <ref target="biblio.xml#lit_246"><hi rend="italics">Le ventre de Paris</hi></ref>. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_836">Zola</rs> describes the gigantic constructions in iron and glass whose dazzling colours are overwhelming: ‘Now he could hear the long rumble coming from Les Halles. Paris was chewing mouthfuls for her two million inhabitants. It was like a great central organ beating furiously, sending the life-blood into every vein. Noise of colossal jaws.’ (Maintenant il entendait le long roulement qui partait des Halles. Paris mâchait les bouchées à ses deux millions d’habitants. C’était comme un grand organe central battant furieusement, jetant le sang de la vie dans toutes les veines. Bruit de mâchoires colossales). See Zola 1960-1967, vol. 1, p. 631.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>In the following letter Van Gogh goes into these ideas about colour in more detail. He borrowed them from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_922">Cassagne</rs>: <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let252.xml#n-2">see letter 252, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>A ‘demi-saison’ is a coat or overcoat that is worn in the transitional seasons, that is, spring and autumn.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+
+<p>The Franco-Prussian War of 1870-1871.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

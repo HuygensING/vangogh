@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. The Hague, Sunday, 3 June 1883.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let348"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b311 a-b V/1962 (sheets 1, 2) and d320 V/1969 (sheet 3)</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>348</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>288</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>350</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1883-06-03">Sunday, 3 June 1883</date>
+                            <placeName>The Hague</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0311 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000389_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000389_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000389_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0311 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000389_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000389_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000389_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0311 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000390_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000390_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2r-8">
+<graphic url="https://example.com/iiif/VGM001000390_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0311 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000390_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000390_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-2v-7">
+<graphic url="https://example.com/iiif/VGM001000390_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0320" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001001674_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-8">
+<graphic url="https://example.com/iiif/VGM001001674_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="d 0320 V/1969" xml:id="surf-extra-3v">
+<graphic url="https://example.com/iiif/VGM001001674_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001001674_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">Dank voor Uw brief en dank voor het ingeslotene. Van daag is ’t zondag en heb ik van de week woedend gewerkt en neem het er vandaag eens van af om rustig aan U te schrijven<c type="kk">/</c> wat uitvoeriger dan ik in den laatsten tijd heb kunnen doen omdat veel dingen mij aftrokken. En te meer is ’t me behoefte te schrijven omdat ik zie uit Uw schrijven het niet alles voorspoedig gaat voor U en ik wat hartelijker wilde schrijven dan gewoonlijk.</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Als in mijn eigen geval – bij mijn geringe inkomsten – Pa en Moe ’t bezwaar maakten van geen geld met betrekking tot het trouwen – ik kan betrekkelijk het billijken – en althans me begrijpen zij zoo spreken en het toegeven. Doch nu zij, Theo, in <hi rend="italics">Uw</hi> geval – bij U die eene vaste betrekking hebt en een mooi inkomen (nota bene aanzienlijker dan hun eigen) – zij dit zelfde bezwaar opperen<c type="kk">/</c> zoo vind ik dat onuitsprekelijk pretentieus en radicaal goddeloos. Eigentlijk zijn de dominés al mee de meest goddelooze menschen in de zamenleving en dorre materialisten. Niet direkt op den preekstoel doch in privé aangelegenheden<c type="kp">_</c> Van een moreel standpunt uit mag men misschien bezwaar maken tegen trouwen in zekere gevallen waar <hi rend="italics">broodsgebrek</hi> in den absoluten zin te voorzien is doch m.i<c type="kp">_</c> vervalt in ’t moreele dit bezwaar direkt geheel en al zoodra er van <hi rend="italics">broodsgebrek</hi> in den <hi rend="italics">letterlijken</hi> zin geen sprake is. En ridicuul zou ’t zijn in Uw geval nu al direkt <hi rend="italics">broodsgebrek</hi> te voorzien.</p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Gesteld iemand als de oude Heer Goupil<ptr target="#note-t-1"/> maakte bezwaar over ’t geld – van zijn standpunt uit<c type="kk">/</c> dat van een rijk handelaar<c type="kk">/</c> verwacht men niet anders.</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Maar van Pa en Moe<c type="kk">/</c> die nederig moesten zijn en tevreden met het eenvoudige<c type="kk">/</c> vind ik het heel leelijk zij zoo spreken en schaam mij er als ’t ware over zij zoo zijn.<ptr target="#note-t-2"/> Ik wou wij allen in ons huis zochten naar vrede en ons bekrompen<c type="kk">/</c> liever dan te jagen naar hooge positie<c type="kp">_</c> En onze energie besteedden om ons op te werken in geestbeschaving en humaniteit maar tevreden waren uit principe met het meest eenvoudige<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Dus het spijt en grieft me, het stelt me alweer vreesselijk te leur, dat Pa en Moe dat gezegd hebben.</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Ik zou ik weet niet wat willen doen als door iets ik dit ongedaan kon maken. Ik zou trotsch willen zijn op Pa omdat hij een waarachtig arm dorpspredikant was in den reinen zin van het Evangelie maar ik vind het zoo beroerd als Pa vervalt in zulke dingen die niet strooken met "<hi rend="italics">the dignity of his calling</hi>"<c type="kp">_</c></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Ik meen men van Pa met regt verwachten zou mogen dat hij medewerkte waar het ’t behoud eener arme vrouw alleen geldt – Partij trekken zou voor <hi rend="italics">haar</hi> juist omdat zij arm en alleen was<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.9" n="9">Dit niet te doen is een enorme fout in Pa<c type="kk">/</c> en is het inhumaan van wie ’t ook zij die dit doet<c type="kk">/</c> dubbel inhumaan als een evangeliedienaar dit doet<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">En in den weg te staan van eene zoodanige vrouw<c type="kk">/</c> te <hi rend="italics">beletten</hi> haar redding en behoud<c type="kk">/</c> is monstrueus.</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Nu weet ik zeer wel dat plus minus alle dominés zóó zouden spreken als Pa – en daarom reken ik voor mij dat heele corps onder de meest goddelooze menschen die er zijn in de zamenleving<c type="kp">_</c> Gij en ik evenzeer<c type="kk">/</c> we doen wel eens iets dat misschien zonde is maar we zijn toch niet onbarmhartig en we hebben toch medelijden<c type="kk">/</c> en juist omdat we ons zelf niet zonder fout rekenen en weten hoe die dingen in hun werk gaan schelden we niet op gevallen of zwakke vrouwen als de dominés<c type="kk">/</c> als was het alles hun eigen schuld<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">En nu is de vrouw van U bovendien eene fatsoenlijke vrouw uit eene burgerfamilie en werkelijk is<c type="kk">/</c> vind ik<c type="kk">/</c> de fout van Pa <hi rend="italics">groot</hi>.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Gesteld er waren bezwaren<c type="kk">/</c> me dunkt Pa moest juist als menschenherder U aansporen haar te helpen en de bezwaren te dragen ter wille van haar behoudenis. Men moest bij iemand als Pa troost vinden kunnen waar de maatschappij geen troost geeft – maar jawel – ze maken ’t nog erger dan gewone menschen.</p>
+
+<p rend="indent" xml:id="p.nl.14" n="14">Het is enorm dat Pa deze houding aanneemt<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Toen Pa hier was sprak hij met afkeuring over mijn zijn met de vrouw<c type="kp">_</c> ik zeide toen dat ik niet weigerde haar te trouwen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Toen ONTWEEK pa dat en praatte er om heen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.17" n="17">Hij wilde niet direkt zeggen dat ik haar verlaten moest maar betreurde het dat ik met haar relaties had<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Ik heb overigens met Pa er weinig over doorgepraat juist omdat ik niet inzie hij precies de persoon is die er nu mede te maken heeft. Gij hebt Uw pligt gedaan Pa en Moe ’t mede te deelen doch nu ze zoo spreken geven zij U dunkt me het regt hun verder buiten bepaalde confidences te laten en minder er in te kennen dan wel als zij billijker waren. Zij vergissen zich in dit opzigt dat zij niet nederig en humaan genoeg zijn in dit geval.</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Nu – ge schrijft over de zaken dat zij minder voorspoedig gaan. Dit is beroerd genoeg. Maar de positie is altijd hachelijk geweest en zal ’t altijd wel blijven in ’t leven. Laat ons maar courage houden en energie en sereniteit zoeken<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Ik kan U mede deelen dat mijne eerste compositie waarvan ik U croquis zond<ptr target="#note-t-3"/> tot op eene zekere hoogte is gevorderd zoodat ze betrekkelijk af is. Ik heb de teekening eerst gemaakt met fusain<c type="kk">/</c> daarna nog eens er over heen gewerkt met ’t penseel en drukinkt. Er zit dus nog al kracht in en geloof ik men de tweede keer men ’t bekijkt er nog weer wat in zou kunnen vinden wat men den eersten keer niet gezien had<c type="kp">_</c><ptr target="#note-t-4"/></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">En dan is sedert ik U croquis zond eene tweede teekening van een soortgelijk geval er bij ontstaan.<ptr target="#note-t-5"/> Weet ge nog dat in der tijd gij me (verl. jaar) beschreeft een ongeluk in een carriere op de Butte Montmartre<c type="kk">/</c> waar ge een troep werklui zaagt terwijl er een in de groeve zich geblesseerd had.<ptr target="#note-t-6"/></p>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Nu<c type="kk">/</c> ’t is een dergelijk geval maar eenvoudig de ploeg werklui aan den arbeid.</p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Ik was met v.d. Weele in Dekkersduin en we kwamen daar aan die zandgraving<ptr target="#note-t-7"/> en ging ik er sedert heen en had druk model dag in dag uit en zoo staat de tweede er ook op.</p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Het zijn kerels met kruiwagens en spittertjes<c type="kk">/</c> ik zal zien ik er ook een croquis van maak<ptr target="#note-t-8"/> doch ’t is een ingewikkelde compositie en in croquis misschien zoowel de een als de ander moeielijk te zien.</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">De figuren zijn naar uitvoerige studies geteekend<c type="kp">_</c> Ik wou erg graag ze gereproduceerd konden worden<c type="kp">_</c> De eerste is op grijs papier<c type="kk">/</c> de andere op geel.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Ik verlang er zeer naar Theo<c type="kk">/</c> dat ge eens weer op ’t atelier zijn zult want er zijn zoo veel studies ook en kunt ge nu ook zien met welk doel ik de studies maak en zijn er nog veel meer dingen uit te trekken.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Ik heb laten maken eene lijst of liever passepartout van gewoon hout en die de kleur van notenhout gegeven met zwarten binnenrand en dat sluit de teekening goed af en men kan prettig in de lijst werken.<ptr target="#note-t-9"/></p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Ik heb mij voor meer grootere composities ingerigt en heb weer spanramen voor twee nieuwen staan<c type="kp">_</c> ik wou het houthakken in ’t bosch ook wel eens maken en de aschvaalt met de chiffonniers en ’t aardappelrooien in het duin.</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Het is goed geweest ik eens naar Rappard ging want zijn sympathie heeft mij opgewekt waar ik geen zelfvertrouwen genoeg had.</p>
+
+<p rend="indent" xml:id="p.nl.30" n="30">Maar als gij deze teekeningen ziet Theo<c type="kk">/</c> en de studies ziet dan zult gij wel begrijpen dat ik zooveel zorg en moeite heb gehad dit jaar als ik maar dragen kon. Het is woedend moeielijk om het figuur te smeden<c type="kp">_</c> </p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">En waarachtig<c type="kk">/</c> het is er mee als met het ijzer – men werkt op een model en werkt er op door<c type="kk">/</c> in ’t begin gaat het niet maar juist eindelijk word het meegaander en vind men ’t figuur zoo als ’t ijzer smeedbaar wordt als het gloeiend is en <hi rend="italics">dan</hi> moet men er op doorgaan. Zoo voor deze twee teekeningen heb ik aanhoudend model gehad en doorgesjouwd vroeg en laat<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Het is mij een tegenvaller gij schrijven moet dat de zaken niet erg vlotten – is het dat de positie hagchelijker wordt<c type="kk">/</c> laat ons de energie verdubbelen.</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">Ik zal dubbel attent zijn op mijn teekeningen<c type="kk">/</c> maar voorloopig nog<c type="kk">/</c> wees gij dubbel attent in ’t zenden van het geld.<ptr target="#note-t-10"/> Het vertegenwoordigt voor mij model<c type="kk">/</c> atelier<c type="kk">/</c> brood<c type="kk">/</c> vermindering er van heeft iets als stikken of verdrinken ten gevolge<c type="kk">/</c> ik bedoel<c type="kk">/</c> ik kan het nu evenmin missen of het met minder doen als dat ik de lucht missen kan. Ik heb deze twee teekeningen reeds lang in mijn hart gehad maar ik had het geld niet om ze uit te voeren en nu door dat van Rappard zijn ze vlot geworden.<ptr target="#note-t-a"/> De scheppingskracht kan men niet inhouden<c type="kk">/</c> het moet er uit wat men voelt<c type="kp">_</c></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.34" n="34">Weet gij waar ik dikwijls over denk. Het is om te zien relaties te krijgen in Engeland met Graphic of London News. Ik wilde nu ’t me vlot zoo erg graag doorsjouwen op eenige grootere composities voor illustratie geschikt. <hi rend="italics">Boughton</hi> met <hi rend="italics">Abbey</hi> zamen maken voor Harper te New York (agent voor de Graphic ook) teekeningen “<hi rend="italics">picturesque Holland</hi>”<c type="kp">_</c><ptr target="#note-t-11"/> Die illustraties (zeer doorwerkt al zijn ze klein<c type="kk">/</c> gemaakt bepaald naar grootere teekeningen) zag ik bij Rappard. Ik denk nu bij me zelf dat als Graphic en Harper hun teekenaars sturen naar Holland zij niet onwillig gestemd mogten zijn een Hollandsch teekenaar aan te nemen als hij iets goeds voor niet te veel geld wil leveren. Ik zou er op werken willen <hi>vast</hi> verbonden te worden tegen een maandgeld<c type="kk">/</c> liever dan nu en dan een teekening betrekkelijk duurder te verkoopen. En mij verbinden voor eene serie composities naar aanleiding van b.v. deze twee die op ’t ezel staan of die ik er nog bij zal maken. Ik zou ’t raadzaam vinden zelf eens naar Londen te gaan met studies en teekeningen en de managers der diverse inrigtingen op te zoeken of liever nog de teekenaars Herkomer<c type="kk">/</c> Green<c type="kk">/</c> Boughton (sommigen echter zijn tegenwoordig in Amerika) of anderen als ze in Londen zijn. En zou ook inlichting omtrent procedes dáár beter dan elders kunnen krijgen. Wie weet of Rappard niet mee zou willen gaan en ook teekeningen mede nemen. Zoo iets<c type="kk">/</c> met of zonder wijzigingen in het plan<c type="kk">/</c> zou dunkt me moeten gedaan worden. Ik zou dunkt me durven op mij nemen iedere maand ongeveer 1 groote teekening te leveren voor dubbele bladzij (double page engraving) van illustratie<c type="kk">/</c> en zal mij op de andere formaten ook eens toeleggen<c type="kk">/</c> de bladzijde (whole page) en de halve bladzij (half page). Ik weet wel dat men groot en klein reproduceeren kan doch de dubbele bladzij preteert zich beter tot ’t geen breed gedaan is<c type="kk">/</c> de kleineren kunnen op andere wijs geteekend zijn<c type="kk">/</c> b.v. met de pen en potlood.</p>
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Nu geloof ik de managers der illustraties niet iederen dag iemand vinden die de illustraties als zijn bepaald doel beschouwt<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Aan ’t kleine schetsje dat ik nu zooeven van de groote teek. maakte (in een kwartiertje tijd en hier in sluit) ziet ge dat als ’t bepaald om ’t formaat kleiner of grooter te maken te doen is<c type="kk">/</c> ik daar niet tegen op zie<c type="kp">_</c> als ik bepaald weet men dit of dat op eene zekere grootte hebben wil<c type="kk">/</c> dat kan ik doen.</p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">Maar voor mijn eigen studie werk ik liever wat grooter, zoo dat ik de handen<c type="kk">/</c> voeten<c type="kk">/</c> kop meer en detail bestudeeren kan.</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Vind gij zelf niet dat in dezen zelfden stijl waarin ik nu <hi rend="italics">Turfstekers en Zandwerkers</hi> heb opgevat<c type="kk">/</c> er een massa gevallen van houtkappen &amp;c<c type="kp">_</c> zouden kunnen gemaakt worden die dunkt me op zoo’n wijs levendigheid genoeg hebben om als illustratie te dienen.</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Maar nog eens<c type="kk">/</c> het geld van U<c type="kk">/</c> zoolang ik geen emplooi gevonden heb<c type="kk">/</c> is me absoluut onmisbaar<c type="kp">_</c></p>
+
+<p xml:id="p.nl.40" n="40">Hetgeen ik nu van daag van U ontving<c type="kk">/</c> ik moet precies zooveel zoowat betalen direkt als ik ontvangen heb<c type="kk">/</c> ik moet nog drie modellen betalen die ik meermalen had<c type="kk">/</c> ik moet den timmerman betalen<c type="kk">/</c> huishuur betalen<c type="kk">/</c> bij den bakker en kruidenier en ook al den schoenmaker nog betalen<c type="kk">/</c> en weer wat inslaan. Nu<c type="kk">/</c> ik heb voor mijn neus twee blanke vellen voor nieuwe composities en moet toch daaraan tijgen. Weer zou ik dag in dag uit model moeten nemen en worstelen tot ik t’er op heb. Quand bien même tijg ik er aan maar over een paar dagen begrijpt gij dat ik absoluut à sec ben<c type="kk">/</c> en dan die vreesselijke 8 lange dagen van niet vooruit kunnen en wachten<c type="kk">/</c> wachten tot het den tienden weer is.</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Ja kerel<c type="kk">/</c> konden we maar iemand vinden die de teekeningen nam.</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Voor mij is ’t werken absoluut behoefte<c type="kk">/</c> ik kan niet er mee traîneeren eigentlijk<c type="kk">/</c> 
+<pb f="2v" n="7" xml:id="pb-orig-2v-7" facs="#zone-pb-2v-7"/>ik heb geen pleizier in iets anders meer dan in het werk<c type="kk">/</c> dat wil zeggen<c type="kk">/</c> ’t pleizier in iets anders houdt direkt op en ik word melankoliek als ik niet voort kan met den arbeid. Ik heb dan ’t gevoel van den wever als hij ziet dat zijn draden in den war gaan en het patroon dat hij op ’t getouw had naar de weerga en zijn denken en inspanning zonder resultaat. Zie het dus te schipperen dat wij het volhouden met energie<c type="kp">_</c> Ik ga permissie vragen om in ’t oude mannen- &amp; vrouwen gesticht te werken.<ptr target="#note-t-12"/> Ik heb reeds veel studies van weesmannen maar ik moet de vrouwen ook hebben en de entourage ook op de plaats zelf. Nu<c type="kk">/</c> gij hebt zelf voor Uw vrouw te zorgen<c type="kk">/</c> gij weet dus genoeg dat van dien kant ik ook ’t niet makkelijk heb met nog twee kleintjes er bij<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">Zeg eens<c type="kk">/</c> ’t antwoord van Pa en Moe influenceert toch niet op Uw komen dezen zomer niet waar?</p>
+
+<p rend="indent" xml:id="p.nl.44" n="44">’t Is zoo noodig dunkt me gij de studies en de groote teekeningen ziet<c type="kk">/</c> juist met het oog op ’t finantieele ook. Dezelfde demarches die ik te Londen zou doen bij de lui van de illustraties zoudt gij dunkt me ook te Parijs kunnen doen als ge een paar groote teekeningen kondt laten zien.</p>
+
+<p rend="indent" xml:id="p.nl.45" n="45">Alleen in dit geval zou denk ik het wijs zijn niet te beginnen voor dat we zoo goed als zeker zijn dat ze ’t grif accepteeren.</p>
+
+<p rend="indent" xml:id="p.nl.46" n="46">Deze grootere composities<c type="kk">/</c> ze brengen veel verschotten<ptr target="#note-t-b"/> mee wil men conscientieus ze behandelen<c type="kp">_</c> Want kerel<c type="kk">/</c> het moet alles met model<c type="kk">/</c> ook al gebruikt men studies<c type="kk">/</c> toch moet men retoucheeren met ’t model er weer bij<c type="kp">_</c> Als ik nog meer model kon nemen ik zou ze nog veel<c type="kk">/</c> veel beter kunnen maken<c type="kp">_</c> Dus kerel<c type="kk">/</c> wat betreft ik U een keer niet noodig zou hebben – ik heb het meer noodig dan ooit maar ik wijs U op de kans die we hebben als we volhouden<c type="kp">_</c> Door ’t geld van Rappard heb ik verscheidene dingen reeds van schetsboeken &amp;c. en al wat gij stuurt zet zich om in teekeningen en ik geloof dat gij ’t geen ik nu aan bezig ben geschikter zult vinden dan het vroegere. Dus laat ons moed houden en energiek zijn. 
+<pb f="2r" n="8" xml:id="pb-orig-2r-8" facs="#zone-pb-2r-8"/></p>
+
+<p rend="indent" xml:id="p.nl.47" n="47">Iets wat me in den weg zit voor meerdere dingen die ik van het strand in ’t hoofd heb is dat ik geen Scheveningsch vrouwen<c type="shy">-</c>costuum heb. Ge begrijpt dat ik wel eene dergelijke compositie met Scheveningsche figuren zou kunnen maken zoo in den geest van bijgaand croquis<c type="kp">_</c> Maar als ik buiten een figuurtje teeken is het natuurlijk te oppervlakkig. Het moet wederom opgevat en doorwerkt worden met model en heeft men de costumes noodig<c type="kp">_</c> Nu<c type="kk">/</c> dat zou een uitgaaf zijn die als ik ze doen kon drie<c type="kk">/</c> vier teekeningen die ik in ’t hoofd heb vlot zou maken<c type="kp">_</c> Doch hoe kan ik het doen<c type="kp">_</c> zoo als ik zeg<c type="kk">/</c> over 3 dagen is alles wat ik nu heb op want haast alles moet er direkt af. Voor deze twee teekeningen heb ik diverse kielen<c type="kk">/</c> broeken<c type="kk">/</c> zuidwester &amp;c<c type="kp">_</c> ook noodig gehad<c type="kp">_</c> Een model heeft niet altijd een mooien kiel aan die pittoresk is<c type="kk">/</c> men verwisselt dat en het wordt echter en spreekt meer. Als ge komt moet ge eens zien hoe die studies voor de figuren op ’t eerste plan van ’t croquis doorwrocht zijn. Ik maakte ze buiten op een zandhoop bij een bloemist.</p>
+
+<p rend="indent" xml:id="p.nl.48" n="48">In ’t begin van Uw brief schrijft ge nog ’t U pleizier doet er geen reden tot ongerustheid was omtrent de vrouw<c type="kp">_</c> Wel<c type="kk">/</c> die is er ook niet direkt in zoover dat ik voor mij ook in dat opzigt sereniteit en goeden moed zoek te bewaren<c type="kp">_</c> Doch zorg heb ik wel<c type="kk">/</c> zelfs zware zorg en moeielijkheden ontbreken niet<c type="kp">_</c> Ik heb begonnen te zoeken naar het behoud van de vrouw ondanks de moeielijkheden en tot heden volgehouden ondanks de moeielijkheden<c type="kk">/</c> maar ook in ’t vervolg zal niet alles couleur de rose zijn<c type="kp">_</c> Enfin we moeten werken zoo hard we kunnen. Theo de moeielijkheden die ik met de vrouw had toen ik U laatst schreef<c type="kk">/</c> weet ge wat dat was – <hi rend="italics">haar</hi> familie zocht haar van mij af te krijgen – ik heb met <hi rend="italics">niemand</hi> behalve de moeder mij ooit bemoeid omdat ik hen niet te vertrouwen vond. Hoe meer ik trachtte de geschiedenis van die familie te analyseeren<c type="kk">/</c> hoe meer ik in dat gevoelen versterkt ben. Nu<c type="kk">/</c> juist omdat ik ze links heb laten leggen<ptr target="#note-t-e"/> intrigueeren ze en zoo kwam het tot een attaque op verraderlijke wijs<c type="kp">_</c> Ik heb de vrouw mijn zienswijs over hun bedoelingen gezegd en verder dat ze moest kiezen tusschen haar familie en mij maar dat ik geen omgang met iemand van hen verlangde te hebben<c type="kk">/</c> ten allereerste omdat ik geloofde relaties met haar familie haar zouden terugbrengen tot haar vroeger verkeerd leven. Het voorstel der familie was dat zij met haar moeder zouden huishouden voor een broer van haar<ptr target="#note-t-13"/> die van zijn vrouw af is en een fameus mauvais sujet is. De reden van de familie waarom zij haar raadden van mij vandaan te gaan was<c type="kk">/</c> ik verdiende te weinig en ik was niet goed voor haar en deed het maar om ’t poseeren doch zou haar in den steek laten. Nota bene<c type="kk">/</c> door het kleine kind heb ik betrekkelijk weinig van haar poseeren kunnen hebben niet waar<c type="kk">/</c> dit heele jaar lang. Enfin ik geef U zelf in bedenking in hoe ver deze vermoedens jegens mij gegrond waren. Welnu maar het werd achter mijn rug stilletjes bepraat en eindelijk vertelde de vrouw het mij. Ik zeide haar<c type="kk">/</c> doe wat ge wilt maar ik zal U niet verlaten tenzij gij terugkeert tot Uw vroeger leven.<ptr target="#note-t-14"/> Het beroerde is Theo<c type="kk">/</c> dat als we het eens arm hebben<c type="kk">/</c> op zoo’n wijs men beproefd de vrouw van haar stuk te brengen en b.v. dat mauvais sujet van een broer haar zoekt terug te brengen in het vroegere. Nu – ik zeg van haar alleen dit – ik zou het flink en royaal van haar vinden indien zij alle relaties afbrak met haar familie, ik zelf raad haar af er heen te gaan doch als zij gaan wil laat ik haar gaan. En de verzoeking om b.v. haar kind te laten kijken brengt haar dikwijls in haar familie terug. En die invloed is fataal en heeft vat op haar juist omdat het van haar familie komt en die haar van streek maken door dat zij zeggen “hij laat je toch in den steek”. Zoo zoeken ze haar te bewegen <hi rend="italics">mij</hi> in den steek te laten. adieu kerel<c type="kk">/</c> laat ons werken en ons hoofd helder houden en trachten regt te handelen. Ge weet hoe het staat met mijn geld<c type="kk">/</c> als het kan<c type="kk">/</c> help mij<c type="kp">_</c>–</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.49" n="49">Vincent</p>
+<pb f="3r" n="8" xml:id="pb-orig-3r-8" facs="#zone-pb-3r-8"/> <figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your letter and thanks for the enclosure. Today is Sunday, and this week I’ve worked furiously and am taking today off to be able to write quietly to you, at somewhat greater length than has been possible recently, because many things distracted me. And my need to write is all the greater because I see from your letter that not everything is going well for you, and I wanted to write rather more warmly than normal. </p>
+<p rend="indent" xml:id="p.en.3" n="3">If in my own case — with my limited income — <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs> objected to marriage because of the lack of money, I could more or less accept that, and at least understand their speaking like that and make allowances. But now that they’re raising this same objection in <hi rend="italics">your</hi> case, Theo, you who have a permanent position and a good income (more substantial than their own, mark you), I find that unspeakably pretentious and utterly wicked. Ministers are in fact among the wickedest people in society, and barren materialists. Not in the pulpit so much, but in private matters. From a moral standpoint one might perhaps be entitled to object to marriage in certain cases where <hi rend="italics">destitution</hi> in the absolute sense is to be expected, but in my view this objection is at once completely invalid morally as soon as there’s no question of <hi rend="italics">destitution</hi> in the <hi rend="italics">literal</hi> sense. And in your case it would be ridiculous to expect immediate <hi rend="italics">destitution</hi>. </p>
+<p rend="indent" xml:id="p.en.4" n="4">Suppose someone like old <rs type="person" ref="bio.xml#_436">Mr Goupil</rs><ptr target="#note-t-1"/> had an objection concerning money — one expects no less from his standpoint, that of a rich dealer.</p>
+<p rend="indent" xml:id="p.en.5" n="5">But with <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs>, who are supposed to be humble and content with simplicity, I think it very nasty of them to speak like that, and I’m ashamed, as it were, that they’re like that.<ptr target="#note-t-2"/> I wish everybody in our house would seek peace and stint themselves rather than chase after a high position. And put our energy into improving ourselves in cultivation of the mind and humanity while being content with the simplest of things on principle. </p>
+<p rend="indent" xml:id="p.en.6" n="6">So it grieves and offends me, it again disappoints me terribly, that <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs> said that. </p>
+<p rend="indent" xml:id="p.en.7" n="7">I would do I don’t know what if I could get this undone somehow. I’d like to be proud of <rs type="person" ref="bio.xml#_526">Pa</rs> because he was a truly poor village pastor in the pure sense of the gospel, but I find it so wretched when Pa stoops to things that aren’t in keeping with ‘<hi rend="italics">the dignity of his calling</hi>’.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">I think <rs type="person" ref="bio.xml#_526">Pa</rs> might rightly be expected to cooperate where it’s a matter of saving a poor <rs type="person" ref="bio.xml#_508">woman</rs> on her own — to take <hi rend="italics">her </hi>side precisely because she was poor and alone. </p>
+<p rend="indent" xml:id="p.en.9" n="9">Not to do this is a great fault in <rs type="person" ref="bio.xml#_526">Pa</rs>, and it’s inhuman of whoever does this, and doubly inhuman if a minister does it. </p>
+<p rend="indent" xml:id="p.en.10" n="10">And to stand in the way of such a woman, to <hi rend="italics">obstruct</hi> her rescue and salvation, is monstrous. </p>
+<p rend="indent" xml:id="p.en.11" n="11">Now I know full well that almost every minister would say the same as <rs type="person" ref="bio.xml#_526">Pa</rs> — and that’s why I for one count that entire corps among the wickedest people there are in society. You and I likewise, we occasionally do something that’s perhaps a sin, but after all we’re not merciless and we do feel compassion, and precisely because we don’t consider ourselves to be without fault and know how these things work, we don’t scold fallen or weak women as the ministers do, as if it were all their own fault. </p>
+<p rend="indent" xml:id="p.en.12" n="12">And, moreover, your <rs type="person" ref="bio.xml#_508">woman</rs> is a decent woman from a respectable family, and really <rs type="person" ref="bio.xml#_526">Pa</rs> is <hi rend="italics">greatly</hi> at fault, I think. </p>
+<p rend="indent" xml:id="p.en.13" n="13">Suppose there were difficulties, it seems to me that <rs type="person" ref="bio.xml#_526">Pa</rs>, especially as a pastor, ought to urge you to help <rs type="person" ref="bio.xml#_508">her</rs> and to bear the difficulties for the sake of saving her. With someone like Pa one ought to be able to find comfort where society offers no comfort — but oh yes — they make it worse than ordinary people. </p>
+<p rend="indent" xml:id="p.en.14" n="14">It’s atrocious that <rs type="person" ref="bio.xml#_526">Pa</rs> adopts this attitude. </p>
+<p rend="indent" xml:id="p.en.15" n="15">When Pa was here he spoke disapprovingly about my being with the <rs type="person" ref="bio.xml#_463">woman</rs>. I said then that I didn’t refuse to marry her. </p>
+<p rend="indent" xml:id="p.en.16" n="16">Then <rs type="person" ref="bio.xml#_526">Pa</rs> AVOIDED that and talked around the subject. </p>
+<p rend="indent" xml:id="p.en.17" n="17">He didn’t want to come out with it and say that I should abandon <rs type="person" ref="bio.xml#_463">her</rs>, but regretted that I had relations with her. </p>
+<p rend="indent" xml:id="p.en.18" n="18">I’ve hardly talked this over with <rs type="person" ref="bio.xml#_526">Pa</rs> at all, as a matter of fact, precisely because I fail to see that he’s exactly the person who has anything to do with this. You’ve fulfilled your duty to inform <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs>, but now that they talk like this they give you the right, it seems to me, to exclude them from further confidences and to consult them less than you would if they were more reasonable. They’re mistaken in the sense that they’re not humble and humane enough in this case.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">Well, you say that business isn’t flourishing. That’s bad enough. But the situation has always been precarious and always will be in life. Let’s keep our spirits up and seek energy and serenity. </p>
+<p rend="indent" xml:id="p.en.20" n="20">I can inform you that my first composition, of which I sent you a croquis,<ptr target="#note-t-3"/> has progressed to a level where it’s nearly finished. I did the drawing in charcoal first, then I worked it over with the brush and printer’s ink. So there’s quite some force in it, and I believe that the second time one looks at it one will be able to find more than one saw the first time.<ptr target="#note-t-4"/> </p>
+<p rend="indent" xml:id="p.en.21" n="21">And a second drawing of a similar scene was made since I sent you a croquis.<ptr target="#note-t-5"/> Do you remember describing to me some time ago (last year) an accident in a quarry on the Butte Montmartre where you saw a band of workmen and one had injured himself in the quarry?<ptr target="#note-t-6"/> </p>
+<p rend="indent" xml:id="p.en.22" n="22">Well, it’s a similar scene, but just the team of workmen labouring. </p>
+<p rend="indent" xml:id="p.en.23" n="23">I was in Dekkersduin with <rs type="person" ref="bio.xml#_1440">Van der Weele</rs> and there we came across the sand quarry,<ptr target="#note-t-7"/> and I’ve been there since and had plenty of models day in, day out, and so the second is now done too. </p>
+<p rend="indent" xml:id="p.en.24" n="24">They are fellows with wheelbarrows and diggers. I’ll see that I do a croquis of them as well,<ptr target="#note-t-8"/> but it’s a complicated composition and perhaps it may be hard to see both the one and the other in a croquis. </p>
+<p rend="indent" xml:id="p.en.25" n="25">The figures are drawn from extensive studies. I would very much like them to be reproduced. The first is on grey paper, the other on yellow. </p>
+<p rend="indent" xml:id="p.en.26" n="26">I long greatly, Theo, for you to be in the studio once more, for there are so many studies too and you can now see what my aim is when I do the studies, and many more things could be taken from them.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/></p>
+<p rend="indent" xml:id="p.en.27" n="27">I’ve had a frame, or rather passe-partout, made of ordinary wood and given it the colour of walnut with a black inside edge, and that encloses the drawing well and one can work comfortably in the frame.<ptr target="#note-t-9"/></p>
+<p rend="indent" xml:id="p.en.28" n="28">I’ve arranged everything in readiness for larger compositions and again have strainers for two new ones. I want to do the tree-felling in the woods sometime, and the rubbish dump with the rag-pickers and the potato-digging in the dunes. </p>
+<p rend="indent" xml:id="p.en.29" n="29">It’s good that I went to <rs type="person" ref="bio.xml#_1306">Rappard</rs>, for his sympathy raised my spirits when I hadn’t enough self-confidence. </p>
+<p rend="indent" xml:id="p.en.30" n="30">But when you see these drawings, Theo, and see the studies, you’ll understand that this year I’ve had as much care and trouble as I can bear. It’s maddeningly difficult to forge the figure. </p>
+<p rend="indent" xml:id="p.en.31" n="31">And really, it’s the same as with iron — one works on a model and carries on working on it, it’s difficult in the beginning but eventually it becomes more pliant, and one finds the figure just as iron becomes malleable when it’s red-hot and <hi rend="italics">then</hi> one must keep going at it. So I’ve had models continually for these two drawings, and toiled away early and late. </p>
+<p rend="indent" xml:id="p.en.32" n="32">It’s disappointing that you write that business isn’t going very well — if the position gets more precarious, let’s redouble our efforts. </p>
+<p rend="indent" xml:id="p.en.33" n="33">I’ll be doubly attentive to my drawings, but for the time being you be doubly attentive to sending the money.<ptr target="#note-t-10"/> For me it represents model, studio, bread; reducing it would lead to something like suffocating or drowning, I mean I can no more do without it now than I can do without air. I’ve had these two drawings in my heart for a long time already, but I didn’t have the money to do them and now, through that from <rs type="person" ref="bio.xml#_1306">Rappard</rs>, progress has been made. The creative power can’t be held back, what one feels must come out.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.34" n="34">Do you know what I often consider? It’s to establish relations in England with The Graphic or London News. Now that I’m making progress, I want so very much to carry on working on some larger compositions suitable for an illustrated magazine. <hi rend="italics"><rs type="person" ref="bio.xml#_878">Boughton</rs></hi> and <hi rend="italics"><rs type="person" ref="bio.xml#_838">Abbey</rs></hi> are together doing drawings of ‘<hi rend="italics">picturesque Holland</hi>’ for Harper of New York (also the agent for The Graphic).<ptr target="#note-t-11"/> I saw these illustrations (very finished although they’re small, definitely done after larger drawings) at <rs type="person" ref="bio.xml#_1306">Rappard</rs>’s. Now I think to myself that if The Graphic and Harper send their draughtsmen to Holland, they wouldn’t be unwilling to take on a Dutch draughtsman if he could supply them with something good for not too much money. I’d like to work towards being <hi>permanently</hi> employed for a monthly wage rather than selling a drawing now and again for a relatively higher sum. And commit myself to a series of compositions following on, for example, from these two that are on the easel or from others that I’ll add. I would think it advisable to go to London myself with studies and drawings and to look up the managers of the various organizations, or preferably the draughtsmen <rs type="person" ref="bio.xml#_1080">Herkomer</rs>, <rs type="person" ref="bio.xml#_1058 bio.xml#_1059">Green</rs>, <rs type="person" ref="bio.xml#_878">Boughton</rs> (some, however, are in America at present) or others, if they’re in London. And would be able to get information about processes better there than elsewhere. Who knows, perhaps Rappard would also like to come along and bring drawings as well? Something like that needs to be done, I believe, with or without changes to the plan. I would dare, I believe, to undertake to supply about 1 large drawing each month for a double-page engraving,<ptr target="#note-t-a"/> and shall apply myself to the other formats too, the whole page and the half page.<ptr target="#note-t-b"/> I know that they can reproduce large and small, but the double page lends itself better to what is done broadly; the smaller can be drawn in other ways, say, with pen and pencil.
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/></p>
+<p rend="indent" xml:id="p.en.35" n="35">Now I believe that it isn’t every day that the managers of illustrated magazines find someone who regards those magazines as his special goal. </p>
+<p rend="indent" xml:id="p.en.36" n="36">From the small sketch that I’ve made just this minute (in a quarter of an hour and enclosed herewith) of the large drawing, you can see that, if it’s a matter of making the format smaller or bigger, I’m not daunted by that. If I know definitely that this or that is required in a certain size, I can do that. </p>
+<p rend="indent" xml:id="p.en.37" n="37">But for my own study I prefer to work in a somewhat larger size, so that I can study the hands, feet, head in more detail. </p>
+<p rend="indent" xml:id="p.en.38" n="38">Don’t you agree that a host of scenes of tree-felling &amp;c. could be done in the same style in which I’ve handled <hi rend="italics">Peat diggers and Sand workers</hi> which it seems to me would have enough vitality done like that to serve as illustrations? </p>
+<p rend="indent" xml:id="p.en.39" n="39">But once again, as long as I don’t find employment the money from you is absolutely indispensable. What I received from you today — I immediately have to pay out exactly as much as I receive, I still have to pay three models whom I had several times, I have to pay the carpenter, pay rent, still pay the baker and grocer and the cobbler as well, and stock up again. Well, in front of me I have two blank sheets for new compositions and must set to work on them. I ought to take a model again, day in, day out, and struggle until I’ve got it down. I’m starting work on it nonetheless, but in a few days, you understand, I’ll be absolutely broke, and then those terrible 8 long days of not being able to carry on and waiting, waiting until it’s the tenth again. </p>
+<p rend="indent" xml:id="p.en.40" n="40">Yes, old chap, if only we could find someone who would take the drawings. </p>
+<p rend="indent" xml:id="p.en.41" n="41">For me work is an absolute necessity, indeed I can’t really drag it out, 
+<pb f="2v" n="7" xml:id="pb-trans-2v-7" facs="#zone-pb-2v-7"/> I take no more pleasure in anything than in work, that’s to say, pleasure in other things stops immediately and I become melancholy if I can’t get on with the work. Then I feel like a weaver when he sees his threads getting tangled and the pattern that he had on the loom going to the devil and his thought and effort coming to nothing. So try to handle it so that we can persevere energetically. I’m going to ask for permission to work in the old people’s home.<ptr target="#note-t-12"/> I already have many studies of orphan men, but I need to have the women too, and also the setting at the place itself. Well, you have your <rs type="person" ref="bio.xml#_508">woman</rs> to look after, so you know well enough that I don’t have it easy from that angle either, with two more little ones on top. </p>
+<p rend="indent" xml:id="p.en.42" n="42">Tell me, <rs type="person" ref="bio.xml#_526 bio.xml#_524">Pa and Ma</rs>’s answer won’t affect whether you come this summer, will it? </p>
+<p rend="indent" xml:id="p.en.43" n="43">It’s so essential, I believe, that you see the studies and the large drawings, especially with a view to the financial side as well. You could take the same steps in Paris as I would take in London as regards the people at the illustrated magazines, I believe, if you could show them a couple of large drawings. </p>
+<p rend="indent" xml:id="p.en.44" n="44">But in this case I think it would be wise not to begin before we’re as good as certain that they’ll readily accept it. </p>
+<p rend="indent" xml:id="p.en.45" n="45">These larger compositions entail many outgoings if one treats them conscientiously. For, old chap, it all has to be done with models; even if one uses studies, one still has to retouch with the model there again. If I could take a model more often, I could do them far, far better. So, old chap, as for my not needing you one time, I need it more than ever, but I would point out the opportunity we have if we persevere. Because of the money from <rs type="person" ref="bio.xml#_1306">Rappard</rs>, I already have several things such as sketchbooks &amp;c., and everything you send is converted into drawings, and I believe you’ll find what I’m working on now more suitable than the previous ones. So let’s be of good heart and energetic.
+<pb f="2r" n="8" xml:id="pb-trans-2r-8" facs="#zone-pb-2r-8"/></p>
+<p rend="indent" xml:id="p.en.46" n="46">One obstacle to several things that I have in my head from the beach is that I don’t have a Scheveningen woman’s costume. You understand that I could do that kind of composition with Scheveningen figures in the spirit of the enclosed croquis. But if I draw a figure outdoors it is of course too superficial. It has to be taken up again and worked over with a model, and one needs the costumes. Well, that would be an expense which, if I could afford it, would make three, four drawings I have in my head smooth going. Yet how can I afford it? As I say, in three days everything I have now will be gone, because almost all of it has to be paid out immediately. For these two drawings I also needed various smocks, trousers, sou’wester &amp;c. A model doesn’t always have on a fine smock that’s picturesque — one changes that and it becomes more real and more expressive. When you come you must see how those studies for the figures in the foreground of the croquis are solidly worked. I did them outdoors on a pile of sand near a florist. </p>
+<p rend="indent" xml:id="p.en.47" n="47">In the beginning of your letter you write that you’re pleased that there’s no reason to be concerned about the <rs type="person" ref="bio.xml#_463">woman</rs>. Well, there isn’t immediately, inasmuch as I try to preserve my serenity and good spirits in that respect too. But I do have cares, heavy cares even, and there’s no lack of difficulties. I began trying to save the woman despite the difficulties, and have persevered up till now despite the difficulties, but it won’t all be rosy in the future either. Still, we must work as hard as we can. Theo, the difficulties I was having with the woman when I last wrote to you — do you know what that was? <hi rend="italics">Her</hi> family were trying to get her away from me. I’ve never involved myself with <hi rend="italics">anyone</hi> except the mother, because I considered them untrustworthy. The more I try to analyze the history of that family, the more I’m strengthened in that view. Well, they were intriguing precisely because I ignored them, and this led to a treacherous attack. I’ve told the woman how I view their intentions and also that she must choose between her family and me, but that I didn’t wish to have any dealings with any of them, in the first place because I believed relations with her family would lead her back to her previous wrong life. The family’s proposal was that she and her <rs type="person" ref="bio.xml#_464">mother</rs> should keep house for a <rs type="person" ref="bio.xml#_469">brother</rs> of hers<ptr target="#note-t-13"/> who is separated from his <rs type="person" ref="bio.xml#_188">wife</rs> and is a notoriously bad lot. The reason why the family advised her to leave me was that I earned too little and I wasn’t good for her, and only did it for the posing but would leave her in the lurch. Mark you, because of the small child she hasn’t done much posing for me this whole year, has she? Anyway, I leave it to you to decide to what extent these suspicions about me were well founded. Well then, but it was secretly discussed behind my back, and in the end the woman told me. I said to her, do what you like but I shan’t abandon you unless you go back to your previous life.<ptr target="#note-t-14"/> The wretched thing is, Theo, that if we’re poor at some point, they try to upset the woman in this way, and that bad lot of a brother, for instance, tries to get her back to the old life. Now — I say only this of her — I would think it brave and generous of her if she broke off all relations with her family, I myself advise her not to go there, but if she wants to go I let her. And the temptation to show off her child, say, often brings her back to her family. And that influence is fatal and has a grip on her precisely because it comes from her family and those who unsettle her by saying ‘he’ll leave you in the lurch’. In this way they seek to persuade her to leave <hi rend="italics">me</hi> in the lurch. Adieu, old chap, let’s work and keep a clear head and try to act rightly. You know how things are with my money, help me if you can.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.48" n="48">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.49" n="49">
+<pb f="3r" n="8" xml:id="pb-trans-3r-8" facs="#zone-pb-3r-8"/></p>
+<p xml:id="p.en.50" n="50"><figure facs="zone-sketch-1" n="A"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for his letter, which must have contained the remittance of 1 June; this is confirmed in <ref target="#l-239">ll. 239-240</ref>, where he says that he is waiting ‘until it is the tenth again’. Given that the letter was written on a Sunday <ref target="#l-2">(l. 2)</ref>, it dates from Sunday, 3 June 1883.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ref target="let349.xml">Letter 349</ref>, which follows on from this one immediately, was enclosed with this letter. <ref target="let349.xml">See letter 349</ref>, <hi rend="italics">Additional details</hi>.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Theo’s love for the ailing Marie <ref target="let300.xml">(300)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh’s visit to Van Rappard’s studio <ref target="let344.xml">(344)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="ogt_3">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Loan of 25 guilders from Van Rappard <ref target="let339.xml">(339)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="ogt_4">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Conflict with Sien’s family <ref target="let338.xml">(338)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_436">Adolphe Goupil</rs>, founder of the firm Goupil &amp; Cie.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>After this sentence Van Gogh crossed out: ‘I would live on bread and coffee and nothing else for three years, Theo, if <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_526">Pa</rs> had not been so pretentious’.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>The ‘composition’ is the drawing <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Peat diggers in the dunes</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2437">F 1031 / JH 363</rs>); the ‘croquis’ after it is the letter sketch in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let347.xml">letter 347</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Van Gogh added the sentence ‘So there’s... the first time’ later.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>This drawing of workmen, on yellow paper according to <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-121">l. 121</ref>, is not known. Some idea of it can be obtained from the sketch enclosed with this letter and a second sketch after the same drawing, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The sandpit at Dekkersduin near The Hague </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2439">F 1029 / JH 366</rs>); cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-8">n. 8.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Theo had written about a scene with workmen on Montmartre in the beginning of September 1882; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let260.xml">see letters 260</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let261.xml">261</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For this visit to a sand quarry at Dekkersduin, near Scheveningen, see also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let347.xml">letter 347</ref>. On this levelling of dunes: Visser 1973, pp. 111-115. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>The enclosed sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The sandpit at Dekkersduin near The Hague </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_95">F 1028 / JH 367</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>Van Gogh had got the idea for this kind of frame from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1306">Van Rappard</rs>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let346.xml">see letter 346</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>The reason for insisting on the continuation of the remittances becomes clear later in the letter <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#l-280">(ll. 280-281)</ref>: Theo must have asked whether, in view of his own financial difficulties, it would be possible to skip Vincent’s remittance for once. </p>
+                        </note>
+                        
+                    
+                        <note n="a" xml:id="note-t-a">
+                            
+
+<p>Means: ‘is er vooruitgang in gekomen’ (progress has been made). </p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+  
+<p>In the months January-April 1883 illustrations by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_878">George Boughton</rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_838">Edwin Abbey</rs> had appeared in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Harper’s New Monthly Magazine</hi> in the series ‘Artist strolls in Holland’. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Harper’s New Monthly Magazine</hi> 66: January 1883, pp. 164-180; February 1883, pp. 387-406; March 1883, pp. 520-539; and April 1883, pp. 683-705. See for illustrations <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let359.xml#n-10">letter 359, nn. 10</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let359.xml#n-11"> 11.</ref> The series was to be continued from August 1884. Later, sketches were published separately under the title <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sketching rambles in Holland</hi>. New York 1885. Cf. also <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let354.xml">letter 354</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="b" xml:id="note-t-b">
+                            
+<p>Van Gogh wrote ‘dubbele bladzij van illustratie’ (double page illustration) and added the translation ‘double page engraving’ in parentheses.</p>
+                        </note>
+                        
+                    
+                        <note n="c" xml:id="note-t-c">
+                            
+<p>Van Gogh wrote ‘de bladzijde’ and ‘de halve bladzij’ and added the translation ‘whole page’ and ‘half page’ in parentheses.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>The Nederlands Hervormd Oude-mannen-en-vrouwenhuis, on Z. Buitensingel 1, where Van Gogh’s favourite model <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_811">Adrianus Zuyderland</rs> lived.</p>
+                        </note>
+                        
+                    
+                        <note n="d" xml:id="note-t-d">
+                            
+
+<p>Means: ‘uitgaven’ (outgoings).</p>
+                        </note>
+                        
+                    
+                        <note n="e" xml:id="note-t-e">
+                            
+
+<p>Means: ‘liggen’ (lie).</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Sien’s brother, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_469">Carolus Ernestus Jacobus Hoornik</rs>, married <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_188">Johanna Elisabeth Angenita Rombouts</rs> on 26 April 1882. Their marriage was annulled in 1884.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>By ‘previous life’ Van Gogh means prostitution.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

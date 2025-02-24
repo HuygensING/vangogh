@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2025-01-22T15:29:03.2623616+01:00 
+-->
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://xmlschema.huygens.knaw.nl/editem-letter.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+<title>To Theo van Gogh, c/o Messrs Goupil, 19 boulevard Montmartre, Paris. Telegram, sent from Eindhoven, Friday, 27 March 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt>
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let486"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b2272 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>486</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>-</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>491</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-03-27">Friday, 27 March 1885</date>
+                            <placeName>Eindhoven</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface n="b 2272" xml:id="surf-pb-1r">
+<graphic url="VGM001003386_01_n"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="VGM001003386_01_n"/></zone></surface>
+<surface n="b 2272 V/1962" xml:id="surf-pb-1v">
+<graphic url="VGM001003386_02_n"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="VGM001003386_02_n"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xml:lang="fr" type="original">
+
+<p xml:id="p.orig.1" n="1"><pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/></p><lb n="2" xml:id="l-2"/>
+
+<p xml:id="p.orig.2" n="2"><hi>mort subite viens, vangogh</hi><ptr target="#note-t-1"/></p>
+    
+<p xml:id="p.orig.3" n="3"><pb f="1v" n="1" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/></p>
+    <space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        
+<p xml:id="p.trans.1" n="1"><pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/></p>
+<p xml:id="p.trans.2" n="2"><hi>sudden death, come, van gogh.</hi><ptr target="#note-t-1"/></p>
+<p xml:id="p.trans.3" n="3"><pb f="1v" n="1" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p>Original telegram</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p>Date of postmark: Friday, 27 March 1885. Received: 6.00 hours.</p><p rend="indent">Vincent sent Theo <hi rend="italics">three</hi> telegrams altogether; they all arrived in Paris in the morning of 27 March 1885. The present telegram, sent to boulevard Montmartre, must have been sent first since it arrived at 6 a.m., whereas nos. 487 and 488 show the times 7.35 and 7.58 respectively. Vincent sent them to both of the Goupil &amp; Cie establishments where Theo might be that day – to boulevard Montmartre <ref target="let487.xml">(487)</ref> and rue Chaptal <ref target="let488.xml">(488)</ref>.</p>
+<p rend="indent">It is striking that this telegram does not say who has died. This is probably why Vincent sent the other telegrams to Theo’s workplaces – these two explicitly state that it was their father.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p>Telegram. Postmark: ‘CENTRAL PARIS / 27 MARS 85’.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p><rs type="person" ref="bio.xml#_526">Mr van Gogh</rs> died of a stroke in the evening of Thursday, 26 March. The only known eyewitness account of this was given by <rs type="person" ref="bio.xml#_407">Willemien</rs>: ‘Pa went out in the morning healthy and in the evening he came home and as he came in the door he collapsed without giving any further sign of life. It was terrible. I shall never forget that night. It happened at half-past seven in the evening. <rs type="person" ref="bio.xml#_420">Cor</rs> was in Helmond and didn’t get home until half-past one in the morning; oh, it was so dreadful. I hope that you will be preserved from ever experiencing something like that.’ This letter was sent to her friend <rs type="person" ref="bio.xml#_129">Line Kruysse</rs> (FR b4536. Breda, 26 August 1886).</p>
+
+<p rend="indent">Theo set out for Nuenen the same day and arrived there on 28 March. <rs type="person" ref="bio.xml#_282">Andries Bonger</rs> told his father <rs type="person" ref="bio.xml#_22">H.C. Bonger</rs> about it: ‘Never have I taken a friend to the Gare du Nord in more melancholy circumstances than on Friday of last week. My friend Van Gogh had heard the news that morning that his father had suffered a sudden stroke and died. He had received a letter from him just the day before in which he said he was perfectly well. Van Gogh himself is not very strong; so you can understand the state he was in when he left.’ (FR b1811. Paris, 31 March 1885).</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

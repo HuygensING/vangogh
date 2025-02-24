@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Brussels, Friday, 15 October 1880.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let159"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b157 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>159</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>137</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>158</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1880-10-15">Friday, 15 October 1880</date>
+                            <placeName>Brussels</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0157" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000167_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000167_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0157" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000167_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000167_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000167_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Bruxelles<ptr target="#note-t-1"/> 15 Oct. 1880</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.2" n="2">Cher Theo,</p>
+
+<p xml:id="p.fr.3" n="3">C’est comme tu vois de Bruxelles que je t’écris. Car j’ai pensé bien faire de changer pour le moment de domicile. Et cela pour plus d’une raison<c type="kp">_</c> D’abord c’était d’urgente nécessité puisque le petit cabinet où j’etais logé &amp; que tu as pu voir l’année passée<ptr target="#note-t-2"/> était tellement etroit &amp; la lumiere y était si mauvaise que pour le dessin c’était très inconvenable.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Il est vrai que si j’aurais pu avoir une autre chambre dans la maison j’aurais pu rester mais il la fallait aux gens de la maison<c type="kk">/</c> cette autre pièce<c type="kk">/</c> pour faire leur menage &amp; lessive<c type="kk">/</c> &amp; même en payant un peu davantage il n’y avait pas moyen de l’avoir. Il est vrai aussi que pour les exercices au fusain &amp; les modèles d’après la bosse de Bargue<c type="kk">/</c> je les ai pourtant dessinés là<c type="kk">/</c> soit dans le petit cabinet soit dehors dans le jardin<c type="kk">/</c> mais maintenant que j’en suis aux portraits d’après Holbein &amp;c. de la 3<hi rend="super">me</hi> partie du Cours de dessin<ptr target="#note-t-3"/> cela n’allait plus.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Cela fait que j’ai déménagé &amp; pour rémédier maintenant la chose un peu radicalement voici mon plan, que j’ai commencé à exécuter<c type="kp">_</c> Je suis allé voir M. Schmidt, ici à Bruxelles &amp; lui ai parlé de la chose. C.à.d. que je lui ai demandé si par son intermédiaire il n’y aurait pas moyen pour moi d’entrer en rapport &amp; relation avec quelqu’artiste<c type="kk">/</c> en sorte que je pourrais continuer à apprendre dans quelqu’atelier sérieux. Car je sens qu’il est absolument nécessaire d’avoir sous les yeux de bonnes choses &amp; aussi de voir travailler les artistes. Car cela me fait davantage sentir ce qui me manque &amp; en même temps j’apprends le chemin pour y rémedier<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Il y a déjà longtemps que je n’ai pas vu assez de tableaux ou dessins &amp;c.<c type="kk">/</c> &amp; la vue seule de quelques bonnes choses ici à Bruxelles m’a remonté le coeur pour ainsi dire &amp; a encore augmenté le désir que j’ai d’apprendre à faire quelque chose de mes propres mains.</p>
+
+<p rend="indent" xml:id="p.fr.7" n="7"> Si M. Schmidt aurait la bonne volonté de parler sérieuse<c type="shy">-</c>ment à l’un ou à l’autre je ne doute pas que la chose pourrait s’arranger plus ou moins efficacement. Il m’a reçu cordialement<c type="kk">/</c> mais pourtant si toi tu voudrais lui dire une parole ou deux à mon avantage pour lui recommander la chose<c type="kk">/</c> cela ferait chez lui plus d’effet que moi je n’en puisse produire<c type="kk">/</c> car il est très naturel qu’il me regarde peutêtre avec quelque méfiance à cause de ce qu’aupara<c type="shy">-</c>vant j’ai ete dans la Maison G&amp;C.<c type="kk">/</c> puis ai changé &amp; maintenant retourne encore aux choses de l’art.–</p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.8" n="8">Donc si tu voudrais lui écrire un petit mot par retour du courrier tu me rendrais grand service &amp; cela éviterait la perte du temps<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.9" n="9">J’ai aussitôt repris mon travail ici<c type="kk">/</c> c.à.d. la 3<hi rend="super">me</hi> partie des Bargue<c type="kk">/</c> &amp; ai une chambre beaucoup plus convenable que le petit cabinet<c type="kk">/</c> dans un petit logement B<hi rend="super">d</hi> du midi<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Mon père m’a écrit que je pouvais provisoirement y compter de recevoir par son intermédiaire 60 frs par mois. Il y a plusieurs jeunes gens qui commencent l’étude du dessin &amp; sont dans le même cas &amp; ne sont pas riches non plus.</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Mais ce qui en pareille circonstance fait la force c’est qu’on ne soit pas toujours seul mais soit en rapport &amp; relation avec les autres qui sont dans le même cas.<ptr target="#note-t-4"/> </p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Et voilà donc ce qui est mon grand désir – que par l’intermédiaire de M. Schmidt quelque porte me soit ouverte pour faire connaissance avec quelques uns des jeunes artistes d’ici.</p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Voudrais tu donc faire la chose en question à cet effet<c type="kk">/</c> c.à.d. écrire un petit mot à M. S.</p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">J’ai encore fait un dessin à la plume d’après le bûcheron de Millet (la gravure sur bois que tu m’as envoyé).<ptr target="#note-t-5"/> Je crois que le dessin à la plume est une bonne preparation si plus tard on aurait envie d’apprendre la gravure à l’eau forte. On peut faire beaucoup avec la plume<c type="kk">/</c> aussi pour rehausser les dessins au crayon<c type="kk">/</c> mais on ne réussit pas au premier coup.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Quant au dessin d’après le buisson de Ruysdael<c type="kk">/</c><ptr target="#note-t-6"/> principalement je voudrais travailler à la plume dedans &amp; m’y prépare en faisant des essais avec d’autres dessins. J’en ai fait entre autres un de la tête du Dante<c type="kk">/</c><ptr target="#note-t-7"/> qui ressemble en quelque sorte à une eau forte. Mais c’est pas si facile que cela ne semble.</p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">M. Schmidt m’en parlait lors de notre entrevue<c type="kk">/</c> d’entrer à l’école des Beaux Arts<ptr target="#note-t-8"/> d’ici mais je lui ai dit franchement qu’il me semblait qu’il était de beaucoup préférable dans mon cas particulier de travailler chez quelqu’artiste. Surtout puisque j’ai fait deja deux séries des Bargue &amp; ai la 3<hi rend="super">me</hi> en mains<c type="kk">/</c> ce que je pourrais peut etre completer par les fusains d’Allongé.<ptr target="#note-t-9"/> Je ne rejette pas cependant l’idée de l’école des Beaux arts en tant que par exemple je pourrais y aller le soir tant que je suis ici<c type="kk">/</c> si cela est gratis ou pas cher<c type="kp">_</c> 
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/></p>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Mais mon but doit rester du moins pour le moment d’apprendre le plus tôt possible à faire des dessins présentables &amp; vendables<c type="kk">/</c> en sorte que je commencerai à gagner quelque salaire par mon travail directement. Car telle est bien la nécessité qui m’est imposée.</p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Si tu m’écris à moi adressez s.v.p. la lettre à chez M. Schmidt<c type="kk">/</c> car je ne sais si je resterai ici dans le present logement longtemps ou pour un peu de temps.</p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Je crois que tu approuveras ce que je te dis car pour avancer il est nécessaire de continuer avec quelque énergie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">Une fois maitre de mon crayon ou de l’aquarelle ou de l’eau forte<c type="kk">/</c> je puis retourner au pays des charbonniers ou tisserands pour mieux faire d’après nature que jusqu’ici<c type="kp">_</c> Mais d’abord il faut accaparer quelque peu de savoir faire.</p>
+
+<p rend="indent" xml:id="p.fr.21" n="21">M. Schmidt a beaucoup demandé de tes nouvelles &amp; te fait des compliments<c type="kk">/</c> il est en train de déménager dans un autre magasin Rue du marché aux herbes<c type="kk">/</c> en face du passage d’Hubert<ptr target="#note-t-10"/> &amp; certainement ce magasin est très beau pour autant que j’ai pu le voir jusqu’ici<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.22" n="22">Enfin pour le moment je conclus en espérant que tu trouveras bien ce que je t’ai dit<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.23" n="23">Je crois qu’un logement &amp; peut etre aussi une nourriture un peu meilleure que celle du Borinage y contribuera aussi pour me remonter un peu<c type="kp">_</c> Car j’ai bien experiencé quelque misères dans le “black country” belge &amp; ma santé n’a pas été par trop bonne dernièrement. Mais pourvu que je parvienne un jour à pouvoir dessiner effectivement ce que je désire exprimer<c type="kk">/</c> tout cela je l’oublierai &amp; ne me souviendrai que du bon côté des choses<c type="kk">/</c> qui si on veut l’observer existe aussi. Mais je dois cependant tâcher de me remonter un petit peu car j’ai besoin de toute mon énergie<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.24" n="24">En te serrant la main<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.25" n="25">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">Brussels,<ptr target="#note-t-1"/> 15 Oct. 1880</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">Dear Theo,</p>
+<p xml:id="p.en.3" n="3">As you see, I’m writing to you from Brussels. Because I thought it was the right thing to do to move somewhere else for the moment. And that for more than one reason. First, it was from urgent necessity, as the little study where I was staying and which you were able to see last year<ptr target="#note-t-2"/> was so cramped and the light there was so bad that it was very inconvenient for drawing.</p>
+<p rend="indent" xml:id="p.en.4" n="4">It’s true that if I could have had another room in the house I could have stayed, but the people of the house needed it, this other room, to do their household chores and washing, and even if I paid a little more there was no way of having it. It’s also true that for the Exercices au fusain and Les modèles d’après la bosse from <rs type="person" ref="bio.xml#_851">Bargue</rs>, I did draw them there all the same, either in the little study or outside in the garden, but now that I’ve come to the portraits after <rs type="person" ref="bio.xml#_1090">Holbein</rs> &amp;c. in the 3rd part of the Cours de dessin,<ptr target="#note-t-3"/> it wouldn’t do any more.</p>
+<p rend="indent" xml:id="p.en.5" n="5">That means that I’ve moved, and now to remedy things somewhat radically, here’s my plan, which I’ve begun to carry out. I’ve been to see <rs type="person" ref="bio.xml#_624">Mr Schmidt</rs>, here in Brussels, and have spoken to him about the matter. That’s to say, I’ve asked him if through his good offices there might not be a way for me to make contact and connection with some artist, so that I could continue to learn in some serious studio. Because I feel that it’s absolutely necessary to have good things before one’s eyes, and also to see artists at work. Because that makes me feel more strongly what I lack, and at the same time I’m learning the way to remedy it.</p>
+<p rend="indent" xml:id="p.en.6" n="6">For a long time now I haven’t seen enough paintings or drawings &amp;c., and the mere sight of a few good things here in Brussels has raised my morale, so to speak, and has further increased the desire that I have to learn to do something with my own hands.</p>
+<p rend="indent" xml:id="p.en.7" n="7">If <rs type="person" ref="bio.xml#_624">Mr Schmidt</rs> would have the kindness to speak seriously to someone or other I have no doubt that things could work out rather effectively. He received me warmly, but nevertheless, if you would say a word or two in my favour to recommend the matter to him, that would have more effect on him than I could produce, because it’s very natural that he perhaps regards me with some mistrust, due to the fact that I was previously with the firm of G&amp;Cie., then moved, and am now returning again to matters of art.
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">So if you would write him a short line by return of post you’d be doing me a great service and it would save time.</p>
+<p rend="indent" xml:id="p.en.9" n="9">I went straight back to my work here, that’s to say the 3rd part of the <rs type="person" ref="bio.xml#_851">Bargue</rs>s, and have a much more suitable room than the little study, in a small lodging-house in blvd du Midi.</p>
+<p rend="indent" xml:id="p.en.10" n="10">My <rs type="person" ref="bio.xml#_526">father</rs> wrote to me that for the time being I could expect to receive 60 francs a month through him. There are several young people who are beginning the study of drawing and are in the same situation and aren’t rich, either.</p>
+<p rend="indent" xml:id="p.en.11" n="11">But the thing that gives strength in such circumstances is that one isn’t always alone, but is in contact and connected with others who are in the same situation.<ptr target="#note-t-4"/></p>
+<p rend="indent" xml:id="p.en.12" n="12">And so that’s what my great desire is — that through <rs type="person" ref="bio.xml#_624">Mr Schmidt</rs>’s good offices some door might be opened for me to meet some of the young artists here.</p>
+<p rend="indent" xml:id="p.en.13" n="13">So would you do the thing in question to that effect, i.e. write a short line to <rs type="person" ref="bio.xml#_624">Mr S.</rs>?</p>
+<p rend="indent" xml:id="p.en.14" n="14">I’ve done a pen drawing after <rs type="person" ref="bio.xml#_1226">Millet</rs>’s woodcutter (the wood engraving that you sent me).<ptr target="#note-t-5"/> I believe that drawing with the pen is a good preparation if later you might wish to learn etching. You can do a great deal with the pen, also, to enhance pencil drawings, but you don’t succeed the first time.</p>
+<p rend="indent" xml:id="p.en.15" n="15">As for the drawing after <rs type="person" ref="bio.xml#_1333">Ruisdael</rs>’s Bush,<ptr target="#note-t-6"/> I’d above all like to work at it in pen, and am preparing myself for that by making trial attempts with other drawings. Among others, I’ve done one of the head of <rs type="person" ref="bio.xml#_569">Dante</rs>,<ptr target="#note-t-7"/> which is somewhat like an etching. But it’s not as easy as it seems.</p>
+<p rend="indent" xml:id="p.en.16" n="16">At our meeting <rs type="person" ref="bio.xml#_624">Mr Schmidt</rs> spoke to me about entering L’Ecole des Beaux-Arts<ptr target="#note-t-8"/> here, but I told him frankly that it seemed to me that it was far more preferable in my particular case to work at some artist’s. Especially since I’ve already done two series of <rs type="person" ref="bio.xml#_851">Bargue</rs>s and have the 3rd in hand, which I could perhaps complete with <rs type="person" ref="bio.xml#_417">Allongé</rs>’s charcoals.<ptr target="#note-t-9"/> I don’t, however, dismiss the idea of L’Ecole des Beaux-Arts, inasmuch as, for example, I could go there in the evening as long as I’m here, if it’s free or not expensive.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.17" n="17">But my goal must, for the moment at least, remain to learn as quickly as possible to do presentable and saleable drawings, so that I’ll begin to earn an income directly through my work. Because such indeed is the necessity that is imposed upon me.</p>
+<p rend="indent" xml:id="p.en.18" n="18">If you write to me, please address the letter care of <rs type="person" ref="bio.xml#_624">Mr Schmidt</rs>, because I don’t know if I’ll stay for a long or short time in my present lodgings.</p>
+<p rend="indent" xml:id="p.en.19" n="19">I believe that you’ll approve of what I’m telling you, because in order to make progress it’s necessary to continue with a certain amount of energy.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Once I am master of my pencil or of watercolour or of etching, I can return to the region of the miners or weavers, to do things better from life than thus far. But first I must acquire a modicum of skill.</p>
+<p rend="indent" xml:id="p.en.21" n="21"><rs type="person" ref="bio.xml#_624">Mr Schmidt</rs> asked at length for news of you and pays you compliments; he’s in the process of moving to another shop in rue du Marché aux Herbes, opposite passage d’Hubert,<ptr target="#note-t-10"/> and this shop is certainly very fine, as far as I’ve been able to see it so far.</p>
+<p rend="indent" xml:id="p.en.22" n="22">Well then, I conclude for the moment, hoping that you’ll be in agreement with what I’ve told you.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I believe that a lodging and perhaps also a diet slightly better than that of the Borinage will also help to build me up a bit. Because I’ve certainly experienced some sufferings in the Belgian ‘black country’, and my health hasn’t been too good lately. But provided that I succeed one day in being able actually to draw what I wish to express, I’ll forget all that and will remember only the good aspect of things, which also exists if one is willing to observe it. But I must nevertheless try to build myself up a little, because I need all my energy.</p>
+<p rend="indent" xml:id="p.en.24" n="24">Shaking your hand</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.25" n="25">Vincent </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Letter headed: ‘Bruxelles 15 Oct. 1880’.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh is drawing from Bargue’s <hi rend="italics">Exercices au fusain</hi> and <hi rend="italics">Cours de dessin</hi> (<ref target="let156.xml">156</ref> and <ref target="let158.xml">158</ref>)</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+    
+<p>Van Gogh had meanwhile installed himself in Brussels in a small lodging-house at 72 boulevard du Midi (Zuidlaan). He was not registered at this address, however. For a photo of this location (from the Archives de la Ville de Bruxelles), see Tralbaut 1969, p. 74.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>Theo had visited Vincent in August 1879; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let154.xml">see letter 154</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Vincent’s mention of the third part of <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin</hi></ref> actually refers to the second part, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Modèles d’après les maîtres de toutes les époques et de toutes les écoles</hi>; he took <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_202">Exercices au fusain</ref></hi> to be the first part, even though it appeared independently. The second part of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Cours de dessin</hi> contains many portraits, the majority of which (at least 22) are after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1090">Hans Holbein</rs>. The copy consulted by the Van Gogh Museum contains a total of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">60</hi> sample sheets (this series appeared from October 1868 to April 1870), but there must have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">67</hi>. Three drawings by Van Gogh after Holbein are known; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let160.xml#n-12">see letter 160, n. 12</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let169.xml">letter 169</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>Cf. the saying ‘l’union fait la force’ (strength through unity). </p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>It is not certain which woodcut after <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1226">Millet</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The woodcutter </hi>Theo sent; perhaps it was the print of ‘an old woodcutter alone in the wood’, about which Vincent had enquired a month earlier (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let157.xml#n-28">see letter 157, n. 28</ref>).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Ruisdael</rs>’s <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1717"><hi rend="italics">The bush</hi></rs>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let035.xml#n-5">see letter 35, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+    
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_851">Charles Bargue</rs>’s <ref target="biblio.xml#lit_170"><hi rend="italics">Cours de dessin</hi></ref> contained two sample drawings of the head of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_569">Dante Alighieri</rs>. In vol. 1, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Modèles d’après la bosse</hi> (‘Heads in profile’), no. 34 is a drawing from a plaster cast. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1897">Ill. 1897</rs>. In vol. 2, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Modèles d’après les maîtres de toutes les époques et de toutes les écoles</hi>, no. 32 is Raphael’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Head of Dante Alighieri</hi> (after <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The disputation of the Holy Sacrament </hi>in the Vatican). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1898">Ill. 1898</rs>. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Académie Royale des Beaux-Arts de la Ville de Bruxelles (Royal Academy of Fine Arts of the City of Brussels). On this academy, see De Bodt 1995, pp. 49-56.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>It is not certain exactly which course by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_417">Auguste Allongé</rs> Van Gogh is referring to here. By this time there were several on the market, in both book and loose-leaf form, such as the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_554">Collection de 30 paysages au fusain par A. Allongé</ref></hi>. Paris 1877; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_555">Collection de 18 facsimilés d’après A. Allongé</ref></hi>. Paris 1877; and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_556">La forêt de Fontainebleau. Douze compositions facsimilés par Allongé</ref></hi>. Paris 1879. There was, moreover, an advertisement in Karl Robert, <ref target="biblio.xml#lit_211"><hi rend="italics">Le fusain sans maitre: Traité pratique et complet sur l’étude du paysage au fusain</hi></ref>. Followed by lessons reproduced by means of heliogravure by the house of Goupil &amp; Cie after Allongé, with the ‘Spécialité de l’étude du Paysage au fusain par M.M. Allongé &amp; Karl Robert’, including <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le fusain</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La forêt de Fontainebleau</hi> (4th ed. Paris 1879).</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_624">Schmidt</rs> had his shop at rue du Marché aux Herbes 89; he himself moved house on 12 December 1880 from Hofbergstraat 58 to Ukkel (<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">SAB</hi>). For the location of his shop, see the photograph in De Bodt 1995, ill. 39.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

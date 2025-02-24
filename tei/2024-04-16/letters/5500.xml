@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Antwerp, Monday, 28 December 1885.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let550"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b482 a-c V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>550</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>442</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>553</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1885-12-28">Monday, 28 December 1885</date>
+                            <placeName>Antwerp</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 a" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000651_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000651_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000651_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 a" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000651_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000651_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000651_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 b" xml:id="surf-pb-2r">
+<graphic url="https://example.com/iiif/VGM001000652_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2r-5">
+<graphic url="https://example.com/iiif/VGM001000652_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 b" xml:id="surf-pb-2v">
+<graphic url="https://example.com/iiif/VGM001000652_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-2v-6">
+<graphic url="https://example.com/iiif/VGM001000652_02_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 c" xml:id="surf-pb-3r">
+<graphic url="https://example.com/iiif/VGM001000653_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3r-7">
+<graphic url="https://example.com/iiif/VGM001000653_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0482 c" xml:id="surf-pb-3v">
+<graphic url="https://example.com/iiif/VGM001000653_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-3v-8">
+<graphic url="https://example.com/iiif/VGM001000653_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+
+<p xml:id="p.nl.2" n="2">het is meer dan tijd dat ik U bedank voor de gezonden frs 50 die mij in staat stellen de maand door te komen<c type="kk">/</c> al is het dat van heden te beginnen het zoo ongeveer ’t zelfde is<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Maar – er zijn weer een paar studies binnen en zooveel als ik schilder<c type="kk">/</c> zooveel meen ik ook te vorderen<c type="kp">_</c>– Ik heb zoodra ik het geld ontving eens een mooi model genomen en er een kop van geschilderd op levensgrootte<c type="kp">_</c> Het is geheel licht behalve ’t zwarte haar<c type="kp">_</c> Toch komt de kop zelf toonig uit tegen een fond waar ik gezocht heb een goudachtig schijnsel van licht in te brengen<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ziehier overigens de kleurgamma – een toonige vleeschkleur<c type="kk">/</c> in den hals meer bronsachtig<c type="kp">_</c> Gitzwart haar – zwart dat ik maken moest met karmijn en pruissisch blaauw<c type="kk">/</c> groezelig wit voor het jakje<c type="kk">/</c> licht geel<c type="kk">/</c> veel lichter dan ’t wit voor ’t fond<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Een noot vuurrood in ’t gitzwarte haar en een tweede vuurrooden strik in het groezelig wit.<ptr target="#note-t-1"/> Het is een meid uit een café chantant en toch is de expressie die ik zocht ietwat ecce homo achtig<c type="kp">_</c> Daar echter juist wat expressie betreft ik<c type="kk">/</c> al denk ik er bij<c type="kk">/</c> toch <hi rend="italics">waar</hi> zoek te blijven<c type="kk">/</c> ziehier wat ik er in wilde<c type="kp">_</c>– Toen het model bij mij kwam had zij blijkbaar een paar nachten het nog al druk gehad – zij zeide toen iets wat nog al karakteristiek was – pour moi le champagne ne m’égaye pas<c type="kk">/</c> il me rend tout triste<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.6" n="6">Toen had ik het mijne en ik zocht iets tegelijk voluptueus en genavreerd<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.7" n="7">Van de zelfde heb ik nu een tweede studie aangezet<c type="kk">/</c> de profil.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.8" n="8">Verder heb ik het bewuste portret gemaakt dat ik U zeide ik mee in besprek was<c type="kk">/</c><ptr target="#note-t-3"/> en een studie van die kop voor me zelf<c type="kp">_</c>–<ptr target="#note-t-4"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.nl.9" n="9">En nu hoop ik deze laatste dagen van de maand nog een manskop te schilderen<c type="kp">_</c>– Wat ’t werk betreft vooral voel ik mij zeer opgewekt en het is nuttig voor me hier te zijn<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.10" n="10">Ik verbeeld mij zoo dat wat er ook zij van de meiden<c type="kk">/</c> men toch er zijn geld uit kan halen<c type="kk">/</c> nog eer dan op eenige andere manier<c type="kp">_</c>– Er is niet tegen te zeggen dat zij verdomd mooi kunnen zijn en dat het in den geest van den tijd is dat het juist dat soort schilderijen zijn die veld winnen<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.11" n="11">Er is ook uit het hoogst mogelijk genomen artistiek oogpunt niets tegen te zeggen – <hi rend="italics">menschen</hi> schilderen<c type="kk">/</c> dat was de oude italjaansche kunst<c type="kk">/</c> dat was Millet en dat is Breton<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.12" n="12">De vraag is maar of men al dan niet de ziel of de kleeren tot zijn uitgangspunt neemt en of men den vorm laat dienen bij wijze van kapstok voor strikken &amp; linten<c type="kk">/</c> dan wel of men den vorm beschouwe als middel om een impressie<c type="kk">/</c> een sentiment uit te drukken<c type="kk">/</c> dan wel of men modeleere om te modeleeren omdat ’t uit zich zelf zoo oneindig mooi is<c type="kp">_</c>–<ptr target="#note-t-5"/> Het eerste alleen is vergankelijk en de twee laatsten zijn beiden hooge kunst.</p>
+
+<p rend="indent" xml:id="p.nl.13" n="13">Wat me nu nog al pleizier deed is – dat de meid die voor me geposeerd heeft een portret voor zich van me wil hebben. liefst net als ’t geen ik maakte<c type="kp">_</c>–</p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.nl.14" n="14">En dat zij mij heeft beloofd<c type="kk">/</c> zoodra zij kan me bij haar een studie te laten schilderen in een costuum van danseuse<c type="kp">_</c> Wat nu dadelijk niet kan omdat de man van het café waar zij is er op tegen is dat zij poseert<c type="kk">/</c> maar daar zij met een andere meid op kamers gaat wonen zoude zoowel zij als die andere meid dan portretten willen hebben<c type="kp">_</c>–<ptr target="#note-t-6"/> En ik hoop regt hartelijk dat het er van komen zal dat ik haar terug krijg want zij heeft een eigenaardigen kop en is geestig<c type="kp">_</c> Ik moet me echter oefenen want dat het op handigheid aankomt is zeker – tijd of geduld hebben zij niet veel – overigens het werk hoeft er niet minder om te zijn als ’t betrekkelijk in eens er opgezet is en men moet ook kunnen werken al zit het model niet stijf stil<c type="kp">_</c> Enfin. ge ziet dat ik met animo aan den gang ben<c type="kp">_</c>– Als ik wat verkocht zoo dat ik wat meer verdiende<c type="kk">/</c> zou ik nog meer kracht er achter zetten<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.15" n="15">Wat Portier betreft – ik geef den moed nog niet op – maar de armoede zit mij op de hielen en de handelaars laboreeren allemaal tegenwoordig wel een beetje aan ’t zelfde euvel<c type="kk">/</c> dat van min of meer te wezen une nation retirée du monde<c type="kp">_</c> zij hebben te veel ’t spleen en hoe kan men erg geanimeerd zijn om in die onverschilligheid en dat doffe te gaan scharrelen – te meer daar deze ziekte niet onbesmettelijk is<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.16" n="16">Want dat er niets te doen zou zijn is maar larie<c type="kk">/</c> maar men moet werken quand bien même<c type="kk">/</c> met aplomb en met enthousiasme<c type="kk">/</c> enfin met een zeker warm gevoel<c type="kp">_</c></p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.nl.17" n="17">En wat Portier betreft – gij zelf schreeft mij dat hij ’t eerst de exposities der impressionisten begon &amp; door Durand Ruel overdonderd werd<c type="kp">_</c>–<ptr target="#note-t-7"/> Welnu dat hij dus initiatief heeft niet alleen om iets te <hi rend="italics">zeggen</hi> maar om iets te <hi rend="italics">doen</hi><c type="kk">/</c> zou men toch daaruit af leiden moeten<c type="kp">_</c>– Maar ’t kan aan zijn 60 jaar<ptr target="#note-t-8"/> liggen – en – overigens is zijn geval een uit die vele gevallen misschien dat in den tijd toen er rage was in de schilderijen en den handel goed ging<c type="kk">/</c> er een massa intelligente personen op zij gezet zijn in brooddronkenheid<c type="kk">/</c> als of ze niets beteekenden en niets konden – waar zij niet van zich konden verkrijgen de duurzaamheid der vlaag van schilderijenrage en de enorme rijzing van veel prijzen geheel te vertrouwen<c type="kp">_</c>– NU – waar de zaken traîneeren<c type="kk">/</c> ziet men diezelfde handelaars die eenige jaren geleden – laat ons zeggen een 10tal jaren geleden – zeer entreprenant waren – eenigermate worden une nation retirée du monde<c type="kp">_</c>– En wij zijn nog niet aan ’t eind<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.18" n="18">Persoonlijk initiatief met een klein of zonder kapitaal is misschien de kiem voor de toekomst<c type="kp">_</c> Enfin<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.19" n="19">Ik zag gisteren een groote phot<c type="kp">_</c> naar een Rembrandt die ik niet kende – die mij verbazend frappeerde – ’t was een vrouwekop<c type="kp">_</c>– ’t licht viel op borst<c type="kk">/</c> hals<c type="kk">/</c> kin en de tip van den neus – de onderkaak.</p>
+
+<p rend="indent" xml:id="p.nl.20" n="20">Voorhoofd en oogen in schaduw van een grooten hoed met denkelijk roode pluimen<c type="kp">_</c>– Denkelijk ook rood of een geel in het gedecolleteerde jakje<c type="kp">_</c>– Donker fonds<c type="kp">_</c><ptr target="#note-t-9"/> De expressie een mysterieuse lach als die van Rembrandt zelf in zijn eigen portret waar Saskia op zijn knie zit en hij een glas wijn in de hand heeft<c type="kp">_</c>–<ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.nl.21" n="21">Ik ben vol van Rembrandt en Hals tegenwoordig in mijn gedachten<c type="kk">/</c> niet omdat ik veel schilderijen van hen zie maar omdat ik onder ’t volk van hier zooveel types zie die mij aan dien tijd doen denken<c type="kp">_</c>– Ik ga nog steeds dikwijls naar die bals populaires om die vrouwenkoppen en matrozen- of soldatenkoppen te zien<c type="kp">_</c>– Men betaalt een 20 of 30 centimes entree en drinkt een glas bier – want er wordt weinig gedronken – en kan er een heelen avond zich uitmuntend amuseeren – ten minste ik voor mij – met te kijken naar ’t entrain van die luidjes<c type="kp">_</c></p>
+<pb f="2r" n="5" xml:id="pb-orig-2r-5" facs="#zone-pb-2r-5"/>
+
+<p rend="indent" xml:id="p.nl.22" n="22">Veel werken met model is wat ik moet doen en het eenige wat secuur vooruithelpen kan<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.23" n="23">Ik merk dat mijn eetlust wat te lang geserreerd is geweest en dat ik toen ik ’t geld van U ontving geen eten verdragen kon – maar ik zal het wel zien te redresseeren<c type="kp">_</c> Dat neemt niet weg dat als ik aan ’t werk ben ik al mijn energie en helderheid heb<c type="kp">_</c> Maar als ik buiten ben is mij het werken in de lucht te kras en word ik te slap<c type="kp">_</c>– Enfin het schilderen is een ding waar men van verslijt<c type="kp">_</c> Van der Loo heeft mij echter gezegd<c type="kk">/</c> toen ik kort voor ik hier heen ging bij hem was<c type="kk">/</c> dat ik après tout redelijk sterk ben<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.24" n="24">Dat ik niet hoefde te desespereeren den leeftijd te halen die voor het produceeren van een werk noodig is<c type="kp">_</c>– Ik sprak hem er van dat ik verscheiden schilders wist die met al hun zenuwachtigheid enz<c type="kp">_</c> 60<c type="kk">/</c> zelfs 70 haalden gelukkigerwijs voor hun zelf<c type="kk">/</c> en dat ik wel wou ik ook dat halen kon<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.25" n="25">Dan geloof ik dat als men sereniteit zoekt en levenslust houdt<c type="kk">/</c> de stemming waarin men is veel helpt. En ik heb in dat opzigt gewonnen door naar hier te gaan want ik heb nieuwe idees en ik heb nieuwe middelen om uit te drukken wat ik wil<c type="kk">/</c> door dat betere kwasten me zullen helpen en ik met die twee kleuren carmijn &amp; cobalt ga dweepen.</p>
+
+<p rend="indent" xml:id="p.nl.26" n="26">Cobalt – is een goddelijke kleur en er is niets zoo mooi als dat om lucht om de dingen te brengen<c type="kp">_</c> Carmijn is het rood van wijn en het is warm<c type="kk">/</c> geestig als wijn.</p>
+
+<p rend="indent" xml:id="p.nl.27" n="27">Zoo smaragdgroen ook<c type="kp">_</c>– Het is geen zuinigheid ze zich te onthouden<c type="kk">/</c> die kleuren<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.28" n="28">Cadmium eveneens<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.29" n="29">Iets wat betreffende mijn gestel mij heel veel pleizier heeft gedaan is dat een dokter in Amsterdam<c type="kk">/</c> die ik ook eens sprak over een paar dingen die mij soms deden denken dat ik ’t niet zou houden 
+<pb f="2v" n="6" xml:id="pb-orig-2v-6" facs="#zone-pb-2v-6"/>en wiens opinie ik niet direkt vroeg maar juist om de eerste impressie te weten van een die me absoluut niet kende – profiteerende van een kleine malaise die ik had om toen in den loop van ’t gesprek het op mijn gestel in ’t algemeen te brengen –</p>
+
+<p xml:id="p.nl.30" n="30">het deed mij enorm veel pleizier dat deze dokter mij voor een gewoon ouvrier aanzag<c type="kk">/</c> zeide “je werkt zeker in ’t ijzer van je beroep”<c type="kp">_</c>– Ziedaar wat ik juist heb zoeken te veranderen in mijzelf – jonger zijnde was het mij aan te zien dat ik intellectueel me overspande en nu zie ik er uit als een schipper of een die in ’t ijzer werkt<c type="kp">_</c>– En zijn gestel om te zetten zóó dat men “le cuir dur” krijgt is geen makkelijke zaak. Ik moet echter toch op blijven passen en zien te houden wat ik heb<c type="kk">/</c> en nog bij te winnen.</p>
+
+<p rend="indent" xml:id="p.nl.31" n="31">Gij moet toch vooral mij eens schrijven of ’t idee U zoo absurd voorkomt dat men eens wat meer moed zou scheppen als men eens een kiem voor een zaak plantte<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.32" n="32">Wat mijn werk betreft van nu<c type="kk">/</c> ik voel dat ik iets beters kan – ik heb echter wat meer lucht en ruimte noodig<c type="kp">_</c> ik moet<c type="kk">/</c> bedoel ik<c type="kk">/</c> ’t een beetje kunnen uitbreiden<c type="kp">_</c> Vooral vooral<c type="kk">/</c> ik heb nog geen model genoeg<c type="kp">_</c>– Ik kan werk van een hooger kwaliteit produceeren maar mijn onkosten zouden zwaarder wezen<c type="kp">_</c>– Maar is het niet zoo – moet men niet zoeken naar iets hoogs – naar het echte<c type="kk">/</c> naar iets gedistingueerds<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.33" n="33">De vrouwenfiguren die ik onder ’t volk zie hier maken een fameusen indruk op me – veel meer om ze te schilderen dan ze te hebben<c type="kk">/</c> ofschoon wel degelijk ik ’t allebei zou wenschen<c type="kp">_</c>– Ik herlees alweer het boek van de Goncourt<c type="kk">/</c> het is uitmuntend.<ptr target="#note-t-11"/> In de voorrede van Cherie<c type="kk">/</c> dat gij lezen zult – staat een relaas van wat de de Goncourts al hebben doorgemaakt – en van hoe aan ’t eind van hun leven zij ja – somber waren – maar zeker van hun zaak zich voelden – voelende dat zij <hi rend="italics">iets gedaan</hi> hadden<c type="kk">/</c> dat hun werk blijven zou.<ptr target="#note-t-12"/> Wat zijn dat kerels geweest<c type="kp">_</c> als wij accordeerden meer dan nu<c type="kk">/</c> meer ’t eens konden zijn – waarom dan niet – <hi>wij ook</hi><c type="kp">_</c></p>
+<pb f="3r" n="7" xml:id="pb-orig-3r-7" facs="#zone-pb-3r-7"/>
+
+<p rend="indent" xml:id="p.nl.34" n="34">à propos – wegens ik après tout aan ’t eind van dit jaar een stuk of 4 of 5 vastendagen heb van zoowat alles – stuur uw brief weg 1 Januarij en niet later<c type="kp">_</c>– Ge zult ’t mogelijk U niet kunnen begrijpen maar ’t is zoo – als ik geld ontvang is mijn grootste honger niet<c type="kk">/</c> al heb ik gevast<c type="kk">/</c> het eten<c type="kk">/</c> maar het schilderen is nog sterker – en ik ga direkt op de modellenjagt en ik ga door tot het op is<c type="kp">_</c>– Terwijl ’t lijntje waar ik me aan vasthoud is<c type="kk">/</c> mijn ontbijt bij de menschen waar ik woon en s’avonds een kop koffij en brood in de crêmerie<c type="kp">_</c>– Aangevuld als ik ’t heb door nog een tweede kop koffij &amp; brood in de cremerie voor mijn diner en anders een roggebrood dat ik in mijn koffer heb.</p>
+
+<p rend="indent" xml:id="p.nl.35" n="35">Zoolang ik schilder is ’t me ook meer dan voldoende<c type="kk">/</c> maar als mijn modellen weg zijn komt er een gevoel van slapheid<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.36" n="36">Ik hecht aan de modellen van hier omdat zij zoo heel anders zijn dan de modellen buiten<c type="kp">_</c>– En omdat vooral het karakter zoo heel iets anders is<c type="kp">_</c>– En het contrast mij nieuwe idees geeft juist voor de vleeschkleuren<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.nl.37" n="37">En wat ik in mijn laatste kop nu heb is – nog niet datgene waar ik zelf mee content ben maar iets anders dan de vroegere koppen. Ik geloof dat gij genoeg de belangrijkheid van <hi rend="italics">waar</hi> zijn<ptr target="#note-t-13"/> beseft dan dat ik vrij uit tegen U kan spreken<c type="kp">_</c>– Om dezelfde motieven dat als ik boerinnen schilder ik wil ’t boerinnen zijn – om de zelfde reden als ’t hoeren zijn wil ik een hoerenexpressie<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.38" n="38">Daarom frappeerde mij een hoerenkop van Rembrandt<ptr target="#note-t-14"/> juist nu zoo enorm<c type="kp">_</c>– 
+<pb f="3v" n="8" xml:id="pb-orig-3v-8" facs="#zone-pb-3v-8"/>Omdat hij dien mysterieusen glimlach zoo oneindig mooi gesnapt had met een serieux als hij alleen – de magicien der magiciens<ptr target="#note-t-15"/> – kan. Dit nu is voor mij iets nieuws en ik wil ’t persé<c type="kp">_</c> Manet heeft ’t gedaan en Courbet – wel sacrebleu<c type="kk">/</c> ik heb de zelfde ambitie omdat bovendien ik te zeer in merg en been gevoeld heb het oneindig mooie der vrouwen analyses van de heel hooge lui in de litteratuur<c type="kk">/</c> een Zola<c type="kk">/</c> Daudet<c type="kk">/</c> de Goncourt<c type="kk">/</c> Balzac<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.39" n="39">Zelfs Stevens voldoet me niet omdat zijn vrouwen niet die zijn waar ik iets persoonlijk van weet<c type="kp">_</c>–<ptr target="#note-t-16"/> En ik vind die hij kiest niet de interessantste die er zijn<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.40" n="40">Enfin wat er van zij – ik wil vooruit à tout prix en – ik wil mezelf zijn<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.41" n="41">Ik voel dan ook obstinatie en ik ben er over heen<c type="kk">/</c> over wat de lui van mij of mijn werk zeggen<c type="kp">_</c>– Naakt model te krijgen schijnt moeielijk te gaan hier – althans de meid die ik gehad heb wou niet<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.42" n="42">Natuurlijk is dat – wou niet – denkelijk betrekkelijk<c type="kk">/</c> maar althans ’t gaat niet van zelf<c type="kp">_</c>– Er is nu dat zij echter fameus zou zijn. Uit een oogpunt van zaken kan ik niet anders zeggen dan dat – we zijn in wat men reeds begint te noemen la fin d’un siècle – de vrouwen een charme hebben als in een revolutietijd – trouwens evenveel te zeggen – en dat men retiré du monde zou wezen indien men buiten haar om werkte<c type="kp">_</c>–</p>
+
+<p rend="indent" xml:id="p.nl.43" n="43">’t Is overal ’t zelfde<c type="kk">/</c> buiten zoowel als in stad – men moet met de vrouwen rekening houden wil men van zijn tijd zijn<c type="kp">_</c> adieu<c type="kk">/</c> gelukgewenscht in ’t Nieuwe jaar. met een handdruk<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.44" n="44">b. à t<c type="kp">_</c></p>
+
+<p xml:id="p.nl.45" n="45">Vincent</p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">It’s high time that I thanked you for the 50 francs you sent, which enable me to get through the month, even if starting from today it’s pretty much the same again.</p>
+<p rend="indent" xml:id="p.en.3" n="3">But — there are a few more studies done, and I believe that as much as I paint, I also progress by as much. As soon as I received the money I got an attractive model and painted a life-size head. It’s all light except for the black hair. Even so, the head itself stands out in tone against a background in which I’ve tried to get a golden gleam of light.</p>
+<p rend="indent" xml:id="p.en.4" n="4">Here, by the way, is the colour spectrum — a tonal flesh colour, more bronzy in the neck. Jet-black hair — black that I had to make with carmine and Prussian blue, dingy white for the jacket, light yellow, much lighter than the white, for the background.</p>
+<p rend="indent" xml:id="p.en.5" n="5">A touch of flame red in the jet-black hair and a second flame-red bow in the dingy white.<ptr target="#note-t-1"/> She’s a girl from a café chantant and yet the expression I was looking for is a little Ecce Homo-like. But precisely as to expression, although I add my own thoughts, I nonetheless endeavour to remain <hi rend="italics">true</hi>, see what I wanted to get into it. When the model came to me, she’d evidently had a few busy nights — she said something that was entirely typical — for my part, champagne doesn’t cheer me up, it makes me very sad.</p>
+<p rend="indent" xml:id="p.en.6" n="6">Then I knew what to do, and I tried to get something voluptuous and sad at the same time.</p>
+<p rend="indent" xml:id="p.en.7" n="7">I’ve now started a second study of the same one, in profile.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.8" n="8">Furthermore, I’ve done that particular portrait that I told you I was in discussions about,<ptr target="#note-t-3"/> and a study of that head for myself.<ptr target="#note-t-4"/>
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.9" n="9">And now I hope to paint a man’s head too, during these last days of the month. I’m in really good spirits, particularly as regards the work, and it’s useful for me to be here.</p>
+<p rend="indent" xml:id="p.en.10" n="10">I imagine that, no matter what these girls may be, one can make one’s money out of them like this sooner than in any other way. There’s no gainsaying that they can be damned beautiful, and it’s in keeping with the spirit of the age that this is the very kind of painting that wins the day.</p>
+<p rend="indent" xml:id="p.en.11" n="11">From the most elevated artistic viewpoint possible, there’s likewise nothing to be said against — painting <hi rend="italics">people</hi>, that was the old Italian art, that was <rs type="person" ref="bio.xml#_1226">Millet</rs> and that is <rs type="person" ref="bio.xml#_899">Breton</rs>.</p>
+<p rend="indent" xml:id="p.en.12" n="12">The question is simply whether one takes the soul or the clothes as one’s starting-point, and whether one allows the form to serve as a clothes-horse for bows and ribbons, or whether one should regard the form as a means of expressing an impression, a sentiment, or whether one models for modelling’s sake because it’s so infinitely beautiful in itself. Only the first is transitory, and the two latter are both high art.<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.13" n="13">Something that pleased me greatly is — that the girl who posed for me wants a portrait from me for herself, preferably just like the one I did.
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.14" n="14">And that she’s promised to let me paint a study of her in a dancer’s costume in her room, as soon as she can. Which isn’t possible right now because the man at the café where she works is opposed to her posing, but since she and another girl are going to share rooms, both she and this other girl will want their portraits.<ptr target="#note-t-6"/> And I sincerely hope that it turns out that I do get her back, because she has a remarkable head and is lively. I have to practise, though, because it certainly comes down to dexterity — they don’t have much time or patience — for that matter, the work doesn’t have to be any the worse if it’s put down virtually in one go, and one has to be able to work even when the model doesn’t sit stock still. Anyway. You see that I’m working with a will. If I sold something so that I earned a little more, I’d be able to put even more strength behind it.</p>
+<p rend="indent" xml:id="p.en.15" n="15">As to <rs type="person" ref="bio.xml#_601">Portier</rs> — I’m not abandoning hope yet — but poverty is snapping at my heels and at the moment the dealers are all suffering somewhat from the same ill, that of being more or less a breed withdrawn from the world. They’re all too sunk in gloom, and how can one be very inspired to go scratching around in that indifference and that apathy — particularly since this disease is contagious.</p>
+<p rend="indent" xml:id="p.en.16" n="16">For it’s just nonsense to say that there’s nothing to be done, but one has to work all the same with aplomb and with enthusiasm, in short with a certain fire.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </p>
+<p rend="indent" xml:id="p.en.17" n="17">And as to <rs type="person" ref="bio.xml#_601">Portier</rs> — you told me yourself that he began the first of the exhibitions of the Impressionists and was overwhelmed by <rs type="person" ref="bio.xml#_359">Durand-Ruel</rs>.<ptr target="#note-t-7"/> Well, one would have to infer from this that he has the initiative not just to <hi rend="italics">say</hi> something but to <hi rend="italics">do</hi> something. But it could be to do with his being 60<ptr target="#note-t-8"/> — and — anyhow perhaps his case is one of the many cases when, at the time when there was a craze for paintings and trade was good, a mass of intelligent people were pushed aside in the jubilation, as if they signified nothing and could do nothing — because they couldn’t bring themselves to wholly trust the sustainability of the sudden painting craze and the huge rise in many prices. NOW — when business is slow, one sees the same dealers who, a few years ago — let’s say 10 years ago — were very enterprising — to some extent becoming a breed withdrawn from the world. And we aren’t at the end yet.</p>
+<p rend="indent" xml:id="p.en.18" n="18">Personal initiative with little or no capital is perhaps the seed for the future. Anyway.</p>
+<p rend="indent" xml:id="p.en.19" n="19">Yesterday I saw a large photo of a <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> I didn’t know — which struck me amazingly — it was the head of a woman. The light fell on breast, neck, chin and the tip of the nose — the lower jaw.</p>
+<p rend="indent" xml:id="p.en.20" n="20">Forehead and eyes in shadow from a large hat with feathers, probably red. Probably also red or a yellow in the little décolleté jacket. Dark background.<ptr target="#note-t-9"/> The expression a mysterious smile like that of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> himself in his own portrait where Saskia sits on his knee and he has a glass of wine in his hand.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.21" n="21">My thoughts are full of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> and <rs type="person" ref="bio.xml#_1073">Hals</rs> at the moment, not because I see many paintings by them but because I see so many types among the people here who remind me of that age. I still often go to the dance halls to see these women’s heads and sailors’ or soldiers’ heads. One pays 20 or 30 centimes to go in and drinks a glass of beer — for there’s little drinking — and can amuse oneself exceedingly for a whole evening — at least I can — watching the folk’s high spirits.
+<pb f="2r" n="5" xml:id="pb-trans-2r-5" facs="#zone-pb-2r-5"/></p>
+<p rend="indent" xml:id="p.en.22" n="22">What I have to do, and the only thing that can be sure to help me progress, is work a great deal with models.</p>
+<p rend="indent" xml:id="p.en.23" n="23">I notice that my appetite has been kept in check for rather too long and that when I received the money from you I couldn’t stomach any food — but I’ll see about remedying it. That doesn’t alter the fact that I have all my energy and clarity when I’m working. But when I’m outdoors, working in the open air is too much for me and I get too weak. Painting is something that wears one down anyway. <rs type="person" ref="bio.xml#_495">Van de Loo</rs> told me, though, when I went to see him shortly before I came here, that I’m reasonably strong after all.</p>
+<p rend="indent" xml:id="p.en.24" n="24">That I needn’t despair of reaching the age that’s necessary for producing a body of work. I told him that I knew several painters who, despite all their nerves etc., had reached 60, even 70, fortunately for them, and that I would like to reach that too.</p>
+<p rend="indent" xml:id="p.en.25" n="25">Then I believe that if one seeks serenity and retains a zest for life, the frame of mind one’s in helps a lot. And in this respect I’ve gained by coming here, because I have new ideas and I have new means of expressing what I want, because better brushes will help me, and I’m really carried away by those two colours, carmine and cobalt.</p>
+<p rend="indent" xml:id="p.en.26" n="26">Cobalt — is a divine colour, and there’s nothing so fine as that for putting space around things. Carmine is the red of wine, and it’s warm, spirited as wine.</p>
+<p rend="indent" xml:id="p.en.27" n="27">So too is emerald green. It’s false economy to do without them, those colours.</p>
+<p rend="indent" xml:id="p.en.28" n="28">Cadmium likewise.</p>
+<p rend="indent" xml:id="p.en.29" n="29">Something regarding my constitution that has pleased me very much is that a doctor in Amsterdam, whom I also once spoke to about a few things that sometimes made me think that I wouldn’t last long 
+<pb f="2v" n="6" xml:id="pb-trans-2v-6" facs="#zone-pb-2v-6"/> and whose opinion I didn’t ask directly, but just to find out the first impression of one who didn’t know me at all — taking advantage of a minor illness that I had to turn things to my constitution in general during the course of the conversation — it pleased me very much indeed that this doctor took me for an ordinary workman, said ‘you must be an ironworker by trade’. You see precisely what I’ve been trying to change in myself — when I was younger it could be seen that I over-exerted myself intellectually, and now I look like a bargee or someone who works in the iron trade. And changing one’s constitution such that one becomes ‘as tough as nails’ is no easy matter. I must take care, though, and see that I keep what I have, and gain still more.</p>
+<p rend="indent" xml:id="p.en.30" n="30">You really must still write and tell me whether it seems such an absurd idea to you that one might create a bit more courage if one were to plant a seed for a business.</p>
+<p rend="indent" xml:id="p.en.31" n="31">As regards the work I’m doing now — I feel that I can do something better — I need more air and space, though. I mean I must be able to expand it a bit. Above all, above all, I still haven’t got enough models. I can produce work of a higher quality, but my expenses would be heavier. But isn’t it so — shouldn’t one search for something high — for the real, for something distinguished?</p>
+<p rend="indent" xml:id="p.en.32" n="32">The women’s figures I see among the people here make an enormous impression on me — far more to paint them than to have them, although I’d actually really like both. I’m re-reading the book by <rs type="person" ref="bio.xml#_617 bio.xml#_618">De Goncourt</rs> again, it’s excellent.<ptr target="#note-t-11"/> In the preface to Chérie, which you’ll read — there’s an account of everything that the De Goncourts experienced — and of how, at the end of their lives, they, yes — were pessimistic — but certainly felt sure of their ground — felt that they’d <hi rend="italics">done something</hi>, that their work would last.<ptr target="#note-t-12"/> What fellows they were! If we could get on more than now, could be more in agreement — why not then — <hi>us too</hi>?
+<pb f="3r" n="7" xml:id="pb-trans-3r-7" facs="#zone-pb-3r-7"/></p>
+<p rend="indent" xml:id="p.en.33" n="33">Apropos — on account of I will, after all, have some 4 or 5 fast days of pretty well everything at the end of this year — send your letter off 1 January and no later. You might not be able to understand it, but it’s true — when I receive money, my greatest hunger, even if I’ve fasted, isn’t for food, but is even stronger for painting — and I set out hunting models right away, and I carry on until it’s gone. Meanwhile, the lifeline I cling to is my breakfast with the people where I live, and a cup of coffee and bread in the <hi rend="italics">crémerie</hi> in the evening. Supplemented, when I have it, by a second cup of coffee and bread in the <hi rend="italics">crémerie</hi> for my dinner, and otherwise some rye bread that I have in my case.</p>
+<p rend="indent" xml:id="p.en.34" n="34">As long as I’m painting it’s more than enough for me, but when my models have gone, a feeling of weakness comes over me.</p>
+<p rend="indent" xml:id="p.en.35" n="35">I really like the models here because they’re so very different from the models in the country. And above all because the character is something so very different. And the contrast gives me new ideas, particularly for the flesh tones.</p>
+<p rend="indent" xml:id="p.en.36" n="36">And what I’ve now got in my last head is — not yet what I myself am content with but something different from the earlier heads. I believe that you sufficiently realize the importance of being <hi rend="italics">true</hi><ptr target="#note-t-13"/> so that I can speak freely to you. For the same motives that when I paint peasant women, I want them to be peasant women — for the same reason, when they’re whores, I want a whore’s expression.</p>
+<p rend="indent" xml:id="p.en.37" n="37">That’s precisely why I was so enormously struck by a whore’s head by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>,<ptr target="#note-t-14"/> 
+<pb f="3v" n="8" xml:id="pb-trans-3v-8" facs="#zone-pb-3v-8"/> because he had caught that mysterious smile so infinitely well with a gravity that he alone — the magician of magicians<ptr target="#note-t-15"/> — can achieve. Now this is something new to me, and I want to get it at any price. <rs type="person" ref="bio.xml#_1182">Manet</rs> did it and <rs type="person" ref="bio.xml#_962">Courbet</rs> — well, confound it, I have the same ambition because, moreover, I’ve felt to the core the infinite beauty of the studies of women by the very great people in literature, <rs type="person" ref="bio.xml#_836">Zola</rs>, <rs type="person" ref="bio.xml#_583">Daudet</rs>, <rs type="person" ref="bio.xml#_617 bio.xml#_618">De Goncourt</rs>, <rs type="person" ref="bio.xml#_519">Balzac</rs>.</p>
+<p rend="indent" xml:id="p.en.38" n="38">Even <rs type="person" ref="bio.xml#_1368">Stevens</rs> doesn’t satisfy me because his women aren’t those whom I personally know anything about.<ptr target="#note-t-16"/> And I think that he doesn’t pick the most interesting there are.</p>
+<p rend="indent" xml:id="p.en.39" n="39">Anyway, be that as it may — I want to make progress at all costs, and — I want to be myself.</p>
+<p rend="indent" xml:id="p.en.40" n="40">I’m feeling obstinate, too, and I’ve got over caring what people say about me or my work. It seems to be difficult to get a nude model here — at least the girl I’ve had wouldn’t do it.</p>
+<p rend="indent" xml:id="p.en.41" n="41">Obviously that — wouldn’t — is probably relative, but at any rate it can’t be taken as a matter of course. The thing is, though, she would be splendid. From the point of view of business, I can’t say anything other than that — we’re in what people are already beginning to call ‘the end of an era’ — the women have a charm as in a time of revolution — and just as much to say, for that matter — and that one would be withdrawn from the world if one worked without them.</p>
+<p rend="indent" xml:id="p.en.42" n="42">It’s the same everywhere, in the country and in the city — one must take women into account if one wants to keep up with the times. Adieu, best wishes for the New Year. With a handshake.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.43" n="43">Yours truly,</p>
+<p xml:id="p.en.44" n="44">Vincent </p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">When Vincent wrote the letter, he had received Theo’s extra allowance of 50 francs several days earlier <ref target="#l-1">(ll. 1-4)</ref>. He implies in the same sentence that he has already spent a considerable proportion of it, and later in the letter acknowledges that he will have ‘some 4 or 5 fast days’ before the end of the month <ref target="#l-224">(ll. 224-225)</ref>. Since Jo van Gogh-Bonger gave the date as 28 December in <hi rend="italics">Brieven</hi> 1914 and she may have had a postmark to go on, we have dated the letter Monday, 28 December 1885.</p>
+                    	</note>
+                    
+                    
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh paints a portrait (<ref target="let549.xml">549</ref>)</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Portier’s indifferent attitude (<ref target="let546.xml">546</ref>)</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>This ‘head’ of a woman is not known.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Woman with a scarlet bow in her hair</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2543">F 207 / JH 979</rs>).</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>
+      <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Portrait of a woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_631">F 207a / JH 1204</rs>) may have been a study for this portrait. See cat. Amsterdam 2011.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>This may have been <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Head of a woman</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_632">F 206 / JH 972</rs>). See cat. Amsterdam 2011.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>An allusion to the theme of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_197">Sartor Resartus</ref></hi> by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_563">Thomas Carlyle</rs>; cf. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let325.xml#n-34">letter 325, n. 34.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>Van Gogh refers to these two women again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let553.xml">letter 553</ref>, where it emerges that they are sisters.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>In 1879 <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_601">Alphonse Portier</rs> was the <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">gérant</hi> (organizer) of the Impressionists’ fourth group exhibition. The second, in 1876, had been held in the gallery of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_359">Paul Durand-Ruel</rs>, who emerged in the years that followed as the most important dealer in the work of these painters. See Distel 1989, pp. 25, 43. </p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_601">Portier</rs> was only 44 in 1885; it may be that Van Gogh was confusing him with <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_359">Durand-Ruel</rs> – born in 1831 – whom he also mentions here.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>This was probably a photo of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Bust of a young woman smiling (possibly the artist´s wife Saskia van Uylenburgh</hi>), 1633 (Dresden, Staatliche Kunstsammlungen Dresden, Gemäldegalerie Alte Meister). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_376">Ill. 376</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The prodigal son in the tavern</hi> (formerly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Rembrandt and Saskia</hi>), <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">c</hi>. 1635 (Dresden, Staatliche Kunstsammlungen Dresden, Gemäldegalerie Alte Meister). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_378">Ill. 378</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617 bio.xml#_618">Jules and Edmond de Goncourt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_426">L’art du dix-huitième siècle</ref></hi>; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let535.xml">see letters 535</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let545.xml">545</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>At the end of his preface to his novel <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_422">Chérie</ref></hi> (1884), <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_617">Edmond de Goncourt</rs> looks back at his achievements and those of his brother <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_618">Jules</rs>, who had died in 1870. ‘Now I have battled, I have toiled and I have fought for more than thirty years; for years my brother and I were all alone, taking the knocks from everyone. I am tired, I have had enough and I will let others take over’ (Il y a aujourd’hui plus de trente ans que je lutte, que je peine, que je combats, et pendant nombre d’années, nous étions, mon frère et moi, tout seuls, sous les coups de tout le monde. Je suis fatigué, j’en ai assez, je laisse place aux autres). For a description of their contribution to the art and literature of their day he quotes his brother Jules: ‘the search for <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">truth</hi> in literature, the revival of eighteenth-century art, the triumph of Japonism: these are ... the three great literary and artistic movements of the second half of the nineteenth century… and we will have led them, these three movements… us, poor unknown us. Well! when you have done that … it will be really difficult not to be <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">someone</hi> in the future’ (la recherche du <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">vrai</hi> en littérature, la résurrection de l’art du XVIIIe siècle, la victoire du japonisme: ce sont ... les trois grands mouvements littéraires et artistiques de la seconde moitié du XIXe siècle... et nous les aurons menés, ces trois mouvements... nous, pauvres obscurs. Eh bien! quand on a fait cela... c’est vraiment difficile de n’être pas <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">quelqu’un</hi> dans l’avenir). See Goncourt 1884, pp. <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">x</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xv</hi>-<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">xvi</hi>. Van Gogh may possibly have alluded to this again in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let655.xml">letters 655</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let656.xml">656</ref>.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>This emphasis on ‘truth’ in a work of art is also discussed in the introduction to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_422">Chérie</ref></hi> and was something Van Gogh was to repeat several times; see also the previous note.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p>Van Gogh is referring here to the <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs> portrait referred to above; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="#n-9">see n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>Derived from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_707">Michelet</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_11">L´amour</ref></hi>. <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let534.xml#n-16">See letter 534, n. 16.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1368">Alfred Stevens</rs> was known for his elegant portraits of women of the bourgeoisie; cf. Van Gogh’s opinion of him in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let500.xml">letter 500</ref>.</p>
+<space unit="lines" quantity="1"/>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

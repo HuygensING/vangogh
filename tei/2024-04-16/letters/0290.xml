@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. London, between Monday, 4 January and Friday, 5 March 1875.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let029"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b22 V/1962</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>029</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>22</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>029</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1875-01-04">between Monday, 4 January and Friday, 5 March 1875</date>
+                            <placeName>London</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0022" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000023_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000023_01_n/full/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0022 V/1962" xml:id="surf-extra-1v">
+<graphic url="https://example.com/iiif/VGM001000023_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-extra-1">
+<graphic url="https://example.com/iiif/VGM001000023_02_n/full/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="nl" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.nl.1" n="1">Waarde Theo,</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.2" n="2">Je boekje heb ik volgeschreven<ptr target="#note-t-1"/> &amp; ik geloof dat het goed geworden is. Stuur mij bij gelegenheid eens La Falaise van Jules Breton.<ptr target="#note-t-2"/></p>
+
+<p rend="indent" xml:id="p.nl.3" n="3">Onze galery is nu klaar &amp; is mooi,<ptr target="#note-t-3"/> wij hebben veel moois op t’oogenblik: Jules Dupré, Michel, Daubigny, Maris,<ptr target="#note-t-4"/> Israels, Mauve, Bisschop, &amp;c. In April zullen wij eene tentoonstelling hou<c type="shy">-</c>den.<ptr target="#note-t-5"/> Mr Boussod<ptr target="#note-t-6"/> heeft beloofd ons daarvoor ’t beste wat te krijgen is te zenden; de Malaria van Hebert,<ptr target="#note-t-7"/> Falaise van J. Breton &amp;c.<ptr target="#note-t-8"/></p>
+
+<p rend="indent" xml:id="p.nl.4" n="4">Ik zou je zoo graag eens hier hebben, wij moeten zien dat dat eens gebeurt.─ Ik zou je zoo graag mijne kamer &amp;c. laten zien. Er is eene mooie tentoonstelling van oude kunst hier;<ptr target="#note-t-9"/> o.a<c type="kp">_</c> eene groote afne<c type="shy">-</c>ming van het kruis van Rembrandt<c type="kk">/</c> 5 groote figuren, in de schemering,<ptr target="#note-t-10"/> ge kunt denken wat een sentiment. 5 Ruysdaels,<ptr target="#note-t-11"/> 1 Frans Hals,<ptr target="#note-t-12"/> van Dyck.<ptr target="#note-t-13"/> een landschap met figuren van Rubens<c type="kk">/</c><ptr target="#note-t-14"/> een landschap, herfstavond, van Titiaan.<ptr target="#note-t-15"/> 2 portretten van Tintoretto<ptr target="#note-t-16"/> &amp; mooie oude Engelsche kunst<c type="kk">/</c> Reynolds<c type="kk">/</c> Romney &amp; <hi rend="italics">Old Crome</hi><c type="kk">/</c> landschap,<ptr target="#note-t-17"/> prachtig mooi.─</p>
+
+<p rend="indent" xml:id="p.nl.5" n="5">Adieu, je boekje stuur ik je per eerste gelegenheid.─<ptr target="#note-t-18"/> Schrijf mij eens spoedig.</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.nl.6" n="6">Vincent</p>
+<space unit="lines" quantity="1"/></div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.2" n="2">I’ve filled your little book<ptr target="#note-t-1"/> and I believe it’s turned out well. Send me The cliff by <rs type="person" ref="bio.xml#_899">Jules Breton</rs> when you get the chance.<ptr target="#note-t-2"/></p>
+<p rend="indent" xml:id="p.en.3" n="3">Our gallery is now finished and it’s beautiful<ptr target="#note-t-3"/>, we have many beautiful things at the moment: <rs type="person" ref="bio.xml#_986">Jules Dupré</rs>, <rs type="person" ref="bio.xml#_1228">Michel</rs>, <rs type="person" ref="bio.xml#_976">Daubigny</rs>, <rs type="person" ref="bio.xml#_1203">Maris</rs>,<ptr target="#note-t-4"/> <rs type="person" ref="bio.xml#_1107">Israëls</rs>, <rs type="person" ref="bio.xml#_323">Mauve</rs>, <rs type="person" ref="bio.xml#_874">Bisschop</rs>, &amp;c. We’re going to hold an exhibition in April.<ptr target="#note-t-5"/> <rs type="person" ref="bio.xml#_303">Mr Boussod</rs><ptr target="#note-t-6"/> has promised to send us the best that can be had: Malaria by <rs type="person" ref="bio.xml#_1085">Hébert</rs>,<ptr target="#note-t-7"/> The cliff by <rs type="person" ref="bio.xml#_899">J. Breton</rs>, &amp;c.<ptr target="#note-t-8"/></p>
+<p rend="indent" xml:id="p.en.4" n="4">I’d like so much to have you here, we must make sure that it happens sometime. I’d like so much to show you my room &amp;c. There’s a beautiful exhibition of old art here,<ptr target="#note-t-9"/> including a large Descent from the Cross by <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, 5 large figures at twilight,<ptr target="#note-t-10"/> you can imagine the sentiment. 5 <rs type="person" ref="bio.xml#_1333">Ruisdaels</rs>,<ptr target="#note-t-11"/> 1 <rs type="person" ref="bio.xml#_1073">Frans Hals</rs>,<ptr target="#note-t-12"/> <rs type="person" ref="bio.xml#_1008">Van Dyck</rs>.<ptr target="#note-t-13"/> A landscape with figures by <rs type="person" ref="bio.xml#_1336">Rubens</rs>,<ptr target="#note-t-14"/> a landscape, an autumn evening, by <rs type="person" ref="bio.xml#_1393">Titian</rs>.<ptr target="#note-t-15"/> 2 portraits by <rs type="person" ref="bio.xml#_1395">Tintoretto</rs><ptr target="#note-t-16"/> and beautiful old English art, <rs type="person" ref="bio.xml#_1296">Reynolds</rs>, <rs type="person" ref="bio.xml#_1327">Romney</rs> and <hi rend="italics">Old <rs type="person" ref="bio.xml#_960">Crome</rs></hi>, landscape,<ptr target="#note-t-17"/> magnificent.</p>
+<p rend="indent" xml:id="p.en.5" n="5">Adieu, I’ll send your little book at the first opportunity.<ptr target="#note-t-18"/> Write to me soon.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.6" n="6">Vincent</p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter can be dated only roughly. ‘Febr <hi rend="italics">1875</hi>’ is written on the manuscript in another hand, but we prefer to allow for a somewhat wider margin. The letter was written after Sunday, 3 January 1875, because the Annual Winter Exhibition <ref target="#l-21">(l. 21)</ref> opened on 4 January, and before 6 March, the day the album was sent to Theo (<ref target="let030.xml">see letter 30</ref>).</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">‘Mr. Th. van Gogh’ is written on the back of the letter; which indicates that it was enclosed in a shipment sent from Goupil’s.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+
+<p>Vincent had copied in a notebook for Theo a collection of poems and prose excerpts (FR b3049). He had previously made a similar album for Theo, regarding which, see Pabst 1988.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p>A photogravure of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>’s painting <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La falaise </hi>(The cliff) was reproduced in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Salon de 1874</hi>, a publication of Goupil &amp; Co. (ill. 57). Goupil sold the painting in 1876. Later the photogravure was included in Eugène Montrosier, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Les artistes modernes</hi>, part 3. Paris 1882, p. 52. <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1665">Ill. 1665</rs>. See exhib. cat. Omaha 1982, pp. 92-93, cat. no. 38.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>In early January Goupil had taken over the art and print dealership of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1791">Holloway &amp; Sons</rs> at 25 Bedford Street, and the English branch of his firm moved to that address. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Art Journal</hi> 14 (1875), NS, p. 30.</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1203">Jacob Maris</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>An advertisement in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Athenaeum</hi> of 22 May 1875 announced the opening of the exhibition on Monday, 24 May: ‘An Exhibition of high-class continental pictures will open on Monday the 24th inst., containing specimens of Gérôme, Meissonier, Jules Breton, Hébert, Millet, Corot, Troyon, Fortuny, Agrasot, Villegas, Serbi, &amp;c. – Admission, 1s.’ There were 160 paintings which were written about not only in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Athenaeum</hi> but also in <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The</hi> <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Art Journal</hi> 14 (1875), NS, pp. 245-246, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Le Moniteur des Arts</hi>, 4 juni 1875 (p. 1). Presumably no copies of the catalogue have survived. See exhib. cat. London 1992, pp. 29, 32-33, 35 (n. 2).</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_303">Léon Boussod</rs>, who had joined <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_436">Adolphe Goupil</rs> (both were ‘éditeur de gravures’) and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_423">Uncle Vincent van Gogh</rs> (dealer in paintings) on 1 January 1861 to become associates in the firm of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_825">Goupil</rs> &amp; Co.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>The version mentioned here of <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">La Mal’aria </hi>(Malaria) must have been the replica made by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1085">Ernest Hébert</rs> of the painting of the same name from 1849 (Chantilly, Musée Condé). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1666">Ill. 1666</rs>. The original was to be found in the Musée du Luxembourg; now Paris, Musée d’Orsay.</p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_899">Jules Breton</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The cliff</hi>, 1874 (Eric and Renée Weider Collection). <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The cliff</hi> was included in Goupil’s catalogue under the title <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">On the cliffs</hi> (no. 105), according to <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Art Journal</hi> 14 (1875), NS, p. 246, which speaks of ‘a lusty, life-sized fisher-lass of Brittany lying on a grassgrown rock, gazing, heedless of her distaff which lies near her, far out to sea’. See also exhib. cat. Arras 2002, pp. 151-152.</p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>The Annual Winter Exhibition of works by old masters and deceased British artists held in the Royal Academy (Burlington House) from the first Monday in January until the second Saturday in March. See Graves 1913-1915, vol. 3, in which the works referred to by Van Gogh are catalogued; and exhib. cat. Nottingham 1974, p. 14.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Lamentation</hi>, 1650 (Sarasota, Florida; Bequest of John Ringling, Collection of the John and Mable Ringling Museum of Art, the State Art Museum of Florida). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1667">Ill. 1667</rs>. The painting, which measures 180.3 x 198.7 cm, is now considered ‘School of Rembrandt’.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>The five works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1333">Jacob van Ruisdael</rs> were <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_33"><hi rend="italics">Landscape</hi></rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_34"><hi rend="italics">Grove of trees</hi></rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_35"><hi rend="italics">Entrance to a wood</hi></rs>, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_36"><hi rend="italics">Landscape: water and old castle</hi></rs> and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_37"><hi rend="italics">Hill and distant plain</hi></rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Three works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1073">Frans Hals</rs> were included in the exhibition.</p>
+                        </note>
+                        
+                    
+                        <note n="13" xml:id="note-t-13">
+                            
+
+<p>Fourteen works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1008">Anthony van Dyck</rs> were on display.</p>
+                        </note>
+                        
+                    
+                        <note n="14" xml:id="note-t-14">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1336">Peter Paul Rubens</rs>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Flat landscape with clouds</hi>, after 1635 (Birmingham, The Barber Institute of Fine Arts). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1668">Ill. 1668</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="15" xml:id="note-t-15">
+                            
+
+<p>This work, which is now no longer considered part of the oeuvre of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1393">Titiano Vecellio (Titian)</rs>, has not been identified. Bearing the title <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Venetian youth and lady</hi>, it was included in Graves 1913-1915, vol. 3, under no. 127. Its authorship was disputed already at the time of this exhibition, as evidenced by an anonymous review: ‘There are a number of Titians ... A landscape (127) is also a work of great beauty, whether by Titian or not’. See ‘The Royal Academy. Exhibition of works by old masters’, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">The Art Journal</hi> 14 (1875), NS, pp. 90-92, quotation on p. 91. The other works by Titian on display were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Diana and Actaeon</hi>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Peter Martyr (study)</hi>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Disciples at Emmaus</hi>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Triumph of Love</hi>; <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Queen of the gypsies</hi> and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">A Magdalen</hi>.</p>
+                        </note>
+                        
+                    
+                        <note n="16" xml:id="note-t-16">
+                            
+
+<p>The two portraits by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1395">Jacopo Tintoretto</rs> were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Portrait of a Venetian procurator</hi>, now considered ‘Circle of Tintoretto’ (New York, Frick Collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1669">Ill. 1669</rs>; and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Portrait of a Venetian patrician</hi> (Rochester, New York; Memorial Art Gallery of the University of Rochester, The George Eastman Collection). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_1670">Ill. 1670</rs>. See also <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Memorial art gallery. An introduction to the collection</hi>. Ed. Susan Dodge Peters. Rochester and New York 1988, p. 75, which admits of the possibility that <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_221">Domenico Tintoretto</rs> is not actually the author of the work.</p>
+                        </note>
+                        
+                    
+                        <note n="17" xml:id="note-t-17">
+                            
+    
+<p>There were twenty-five works by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1296">Reynolds</rs> in the exhibition, and seven by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1327">Romney</rs>. Seven paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_960">John Crome</rs>, nicknamed Old Crome, were also exhibited, several of which were landscapes. Cf. also exhib. cat. Nottingham 1974, p. 14.</p>
+                        </note>
+                        
+                    
+                        <note n="18" xml:id="note-t-18">
+                            
+
+<p>The next shipment sent from <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_825">Goupil</rs>’s; <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let030.xml">see letter 30</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    

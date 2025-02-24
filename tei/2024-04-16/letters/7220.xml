@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            This XML is the result of a conversion of the Van Gogh letter XML to another format. 
+            It is work in progress. 
+            The conversion was done at 2024-04-04T13:28:07.787066+02:00 
+        -->
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+        <?xml-model href="https://xmlschema.huygens.knaw.nl/MD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <?editem template="letter" adaptation="vg"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:md="http://mondrian.huygens.knaw.nl/" xmlns:file="http://expath.org/ns/file" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title>To Theo van Gogh. Arles, on or about Wednesday, 21 November 1888.</title>
+<editor>Leo Jansen</editor>
+<editor>Hans Luijten</editor>
+<editor>Nienke Bakker</editor></titleStmt>
+                    
+
+                    <publicationStmt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<publisher><name>Huygens Instituut voor Nederlandse Geschiedenis (KNAW)</name></publisher>
+<publisher>Van Gogh Museum</publisher>
+<pubPlace>Amsterdam</pubPlace>
+<date type="first" when="2009">2009</date>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">
+<p>Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) </p></licence></availability>
+<ptr target="http://vangoghletters.org/orig/let722"/></publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                
+                                
+                                        <settlement>Amsterdam</settlement>
+                                        <institution>Van Gogh Museum</institution>
+                                        
+                                        <idno>b604 V/1968</idno>
+                                    
+                                
+                                    
+
+                                    <altIdentifier type="jlb"><idno>722</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="collectedletters"><idno>558a</idno></altIdentifier>
+                                
+                                    
+
+                                    <altIdentifier type="brieven1990"><idno>727</idno></altIdentifier>
+                                
+                            </msIdentifier>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <profileDesc>
+                    <correspDesc>
+                        <correspAction type="sent">
+                            
+                            <rs ref="bio.xml#_0" type="person">Vincent van Gogh</rs>
+                            <date when="1888-12-21">on or about Wednesday, 21 November 1888</date>
+                            <placeName>Arles</placeName>
+                        </correspAction>
+                        <correspAction type="received">
+                            <rs ref="bio.xml#_0" type="person">Theo van Gogh</rs>
+                        </correspAction>
+                    </correspDesc>
+                </profileDesc>
+            </teiHeader>
+            
+            <facsimile>
+                
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0604" xml:id="surf-pb-1r">
+<graphic url="https://example.com/iiif/VGM001000824_01_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1r-1">
+<graphic url="https://example.com/iiif/VGM001000824_01_n/pct:50,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1r-4">
+<graphic url="https://example.com/iiif/VGM001000824_01_n/pct:0,0,50,100/max/0/default.jpg"/></zone></surface>
+<surface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="b 0604" xml:id="surf-pb-1v">
+<graphic url="https://example.com/iiif/VGM001000824_02_n/full/max/0/default.jpg"/>
+<zone xml:id="zone-pb-1v-2">
+<graphic url="https://example.com/iiif/VGM001000824_02_n/pct:0,0,50,100/max/0/default.jpg"/></zone>
+<zone xml:id="zone-pb-1v-3">
+<graphic url="https://example.com/iiif/VGM001000824_02_n/pct:50,0,50,100/max/0/default.jpg"/></zone></surface>
+            </facsimile>
+            
+            <text>
+                <body>
+                    <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="fr" type="original">
+<pb f="1r" n="1" xml:id="pb-orig-1r-1" facs="#zone-pb-1r-1"/>
+
+<p xml:id="p.fr.1" n="1">Mon cher Theo,</p>
+
+<p xml:id="p.fr.2" n="2">merci de ta bonne lettre et du billet de 100 fr<c type="kp">_</c> qu’elle contenait. Suis très content de ce que le succès de Gauguin en tant que quant à la vente continue<c type="kp">_</c><ptr target="#note-t-1"/> Si d’ici un an il pouvait réaliser assez pour exécuter son plan d’aller se fixer à la Martinique je croirais sa fortune faite<c type="kp">_</c> Seulement<c type="kk">/</c> selon moi il ne saurait risquer d’y retourner avant qu’il aye 5 mille de côté<c type="kk">/</c> selon lui il faudrait 2000. Mais dans mon idée alors il ne partirait pas seul mais avec un autre ou des autres. et là-bas fonderait un atelier durable.–</p>
+
+<p rend="indent" xml:id="p.fr.3" n="3">Enfin d’ici là il coulera encore de l’eau sous le pont.</p>
+
+<p rend="indent" xml:id="p.fr.4" n="4">Ce que tu écris des Hollandais m’intéresse beaucoup. J’espère un jour les connaitre tous les deux personellement<c type="kp">_</c> Quel âge ont-ils?<ptr target="#note-t-2"/> J’ose croire qu’ils s’en trouveront bien d’être venus ici en France au bout du compte.</p>
+
+<p rend="indent" xml:id="p.fr.5" n="5">Le mal qu’ils ont pour la couleur – bigre – cela ne m’étonne pas<c type="kp">_</c>– l’étude <hi rend="italics">sérieuse</hi> de Rembrandt dont font preuve les deux dessins de de Haan que j’ai sous les yeux<c type="kk">/</c> qu’il ne la lâche pas!<ptr target="#note-t-3"/></p>
+<pb f="1v" n="2" xml:id="pb-orig-1v-2" facs="#zone-pb-1v-2"/>
+
+<p rend="indent" xml:id="p.fr.6" n="6">Est ce qu’ils ont lu le livre de Silvestre sur Eug<c type="kp">_</c> Delacroix<ptr target="#note-t-4"/> ainsi que l’article sur <hi rend="italics">la couleur</hi> dans la grammaire des arts du dessin de Ch. Blanc.<ptr target="#note-t-5"/></p>
+
+<p rend="indent" xml:id="p.fr.7" n="7">Demandes leur donc cela de ma part et s’ils n’ont pas lu cela qu’ils le lisent. Je pense moi à Rembrandt plus qu’il ne peut paraitre dans mes études.</p>
+<space unit="lines" quantity="1"/><figure facs="zone-sketch-1" n="A"/>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.8" n="8">Voici croquis de ma dernière toile en train<c type="kk">/</c> encore un semeur. Immense disque citron comme soleil. Ciel vert jaune à nuages roses. le terrain violet<c type="kk">/</c> le semeur et l’arbre bleu de prusse. toile de 30<c type="kp">_</c><ptr target="#note-t-6"/></p>
+<pb f="1v" n="3" xml:id="pb-orig-1v-3" facs="#zone-pb-1v-3"/>
+
+<p rend="indent" xml:id="p.fr.9" n="9">Attendons tranquillement pour exposer jusqu’à que j’aie une trentaine de toiles de 30.</p>
+
+<p rend="indent" xml:id="p.fr.10" n="10">Alors nous les exposerons une fois dans ton appartement pour les amis<c type="kk">/</c> et encore en n’insistant pas.–</p>
+
+<p rend="indent" xml:id="p.fr.11" n="11">Et ne ferons rien d’autre<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.12" n="12">Il y a bien des raisons pour ne pas bouger maintenant. D’ailleurs cela ne sera pas long<c type="kk">/</c> je crois qu’à l’époque de l’exposition ou un peu après je pourrai t’envoyer cela. En attendant cela sèchera à fond ici et je pourrai encore reprendre toutes les toiles une fois bien sèches à fond jusque dans les empâtements<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.13" n="13">Si à quarante ans je fais un tableau de figures ou des portraits tel que je le sens<c type="kk">/</c> je crois que cela vaudra mieux qu’un succès plus ou moins sérieux maintenant<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.14" n="14">As tu vu les études que Bernard a rapportées de Bretagne. Gauguin m’en a racconté bien des chôses. Lui en a une qui est simplement magistrale.<ptr target="#note-t-7"/> Je crois qu’en lui en achetant une<c type="kk">/</c> à Bernard<c type="kk">/</c> on lui rendrait service et qu’il le mérite réellement.</p>
+
+<p rend="indent" xml:id="p.fr.15" n="15">Seulement faut pas oublier qu’à soit nouvel an soit mois de mars il faudra encore rendre à Gauguin l’argent qu’il pourrait avoir deboursé pour par exemple des draps ou des chôses qui resteraient à l’atelier<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.16" n="16">Car des deux côtés on s’en trouvera bien je crois<c type="kk">/</c> de ne rien<c type="kk">/</c> absolument rien changer à l’arrangement d’argent tel qu’on l’a établi.<ptr target="#note-t-8"/> Si au bout d’un an on continue de s’en trouver bien<c type="kk">/</c> qui vivra alors verra.</p>
+<pb f="1r" n="4" xml:id="pb-orig-1r-4" facs="#zone-pb-1r-4"/>
+
+<p rend="indent" xml:id="p.fr.17" n="17">Gauguin a en train un très beau tableau de laveuses<ptr target="#note-t-9"/> et aussi une grande nature morte de potiron orangé et des pommes et du linge blanc sur fond et avantplan jaune<c type="kp">_</c><ptr target="#note-t-10"/></p>
+
+<p rend="indent" xml:id="p.fr.18" n="18">Le temps ici est froid mais on voit néamoins de bien belles choses. Ainsi hier soir un coucher de soleil citron malade<c type="kk">/</c> mysterieux<c type="kk">/</c> d’extraordinaire beauté – des cyprès bleu de prusse<c type="kk">/</c> des arbres à feuilles mortes de tous les tons rompus là contre<c type="kk">/</c> c’était pas piqué des vers<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.19" n="19">Tu ne saurais t’imaginer combien je suis content que tu aies des peintres avec toi et ne restes pas seul dans l’apartement ainsi qu’aussi pour moi je suis fort content d’avoir une aussi bonne compagnie que celle de Gauguin<c type="kp">_</c></p>
+
+<p rend="indent" xml:id="p.fr.20" n="20">à bientôt et encore une fois merci de ta bonne lettre<c type="kp">_</c></p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.21" n="21">t. à t<c type="kp">_</c></p>
+
+<p xml:id="p.fr.22" n="22">Vincent</p>
+<space unit="lines" quantity="1"/>
+
+<p xml:id="p.fr.23" n="23">Que disent de Monticelli de Haan et Isaäcson? en ont-ils vu d’autres que ce qui est chez toi<c type="kp">_</c>–<ptr target="#note-t-11"/> Tu sais que moi j’ai toujours la pretention de continuer la besogne que Monticelli a commencé ici.–<ptr target="#note-t-12"/></p>
+<space unit="lines" quantity="1"/>
+</div>
+
+                    <div type="translation" xml:lang="en">
+                        <pb f="1r" n="1" xml:id="pb-trans-1r-1" facs="#zone-pb-1r-1"/>
+<p xml:id="p.en.1" n="1">My dear Theo,</p>
+<p xml:id="p.en.2" n="2">Thanks for your kind letter and for the 100-franc note it contained. Am very happy that <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s success as regards selling continues.<ptr target="#note-t-1"/> If in a year’s time he could have made enough to carry out his plan of going and setting himself up in Martinique, I’d think that his fortune would be made. Only, to my mind he shouldn’t risk going back there before he has 5 thousand put aside, according to him he would need 2,000. But then to my mind he wouldn’t leave alone but with one other or several others, and would found a lasting studio there.</p>
+<p rend="indent" xml:id="p.en.3" n="3">Anyhow, a lot more water will flow under the bridge before then.</p>
+<p rend="indent" xml:id="p.en.4" n="4">What you write about the <rs type="person" ref="bio.xml#_1075 bio.xml#_1103">Dutchmen</rs> interests me greatly. I hope one day to get to know both of them personally. How old are they?<ptr target="#note-t-2"/> I dare to believe that in the final reckoning they’ll feel their coming to France was a good thing.</p>
+<p rend="indent" xml:id="p.en.5" n="5">The trouble they’re having with colour — my goodness — that doesn’t surprise me. May <rs type="person" ref="bio.xml#_1075">De Haan</rs> never lose touch with the <hi rend="italics">serious</hi> study of <rs type="person" ref="bio.xml#_1295">Rembrandt</rs>, to which the two drawings of his that I’m currently looking at testify!<ptr target="#note-t-3"/> 
+<pb f="1v" n="2" xml:id="pb-trans-1v-2" facs="#zone-pb-1v-2"/></p>
+<p rend="indent" xml:id="p.en.6" n="6">Have they read <rs type="person" ref="bio.xml#_742">Silvestre</rs>’s book on <rs type="person" ref="bio.xml#_982">E. Delacroix</rs>,<ptr target="#note-t-4"/> and the article on <hi rend="italics">colour</hi> in <rs type="person" ref="bio.xml#_546">C. Blanc</rs>’s Grammaire des arts du dessin?<ptr target="#note-t-5"/></p>
+<p rend="indent" xml:id="p.en.7" n="7">So ask them that on my behalf, and if they haven’t read it they should. As for me, I think more about <rs type="person" ref="bio.xml#_1295">Rembrandt</rs> than may appear from my studies.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.8" n="8"><figure facs="zone-sketch-1" n="A"/></p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.9" n="9">Here’s a croquis of the latest canvas I’m working on, another sower. Immense lemon yellow disc for the sun. Green-yellow sky with pink clouds. The field is violet, the sower and the tree Prussian Blue. No. 30 canvas.<ptr target="#note-t-6"/> 
+<pb f="1v" n="3" xml:id="pb-trans-1v-3" facs="#zone-pb-1v-3"/></p>
+<p rend="indent" xml:id="p.en.10" n="10">Let’s calmly wait to exhibit until I have around thirty no. 30 canvases.</p>
+<p rend="indent" xml:id="p.en.11" n="11">Then we’ll exhibit them once in your apartment for the friends, and not exerting any pressure even then.</p>
+<p rend="indent" xml:id="p.en.12" n="12">And let’s not do anything else.</p>
+<p rend="indent" xml:id="p.en.13" n="13">There are lots of reasons for not stirring now. Besides, it won’t take long, I think I’ll be able to send it to you at the time of the exhibition or a little later. In the meantime it will dry thoroughly here, and I can go over all the canvases again once they’re thoroughly dry, even the impasted areas.</p>
+<p rend="indent" xml:id="p.en.14" n="14">If at the age of forty I do a painting of figures or portraits the way I feel it, I think that will be worth more than a more or less serious success now.</p>
+<p rend="indent" xml:id="p.en.15" n="15">Have you seen the studies that <rs type="person" ref="bio.xml#_831">Bernard</rs> brought back from Brittany? <rs type="person" ref="bio.xml#_1039">Gauguin</rs> has told me many things about them. He himself has one which is simply masterly.<ptr target="#note-t-7"/> I think that buying one from him, from Bernard, would be doing him a service, and that he really deserves it.</p>
+<p rend="indent" xml:id="p.en.16" n="16">Only we mustn’t forget that either at New Year or in March, <rs type="person" ref="bio.xml#_1039">Gauguin</rs> will have to be repaid the money he may have laid out, for example for sheets or things that would remain in the studio.</p>
+<p rend="indent" xml:id="p.en.17" n="17">For on both sides I think we’ll find it best to change nothing, absolutely nothing, in the financial arrangement we’ve established.<ptr target="#note-t-8"/> If at the end of a year we continue to find it satisfactory, time will tell.
+<pb f="1r" n="4" xml:id="pb-trans-1r-4" facs="#zone-pb-1r-4"/> </p>
+<p rend="indent" xml:id="p.en.18" n="18"><rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s working on a very beautiful painting of washerwomen,<ptr target="#note-t-9"/> and also a big still life of an orange pumpkin and some apples and white linen on a yellow background and foreground.<ptr target="#note-t-10"/></p>
+<p rend="indent" xml:id="p.en.19" n="19">The weather here is cold, but we see some really beautiful things all the same. Such as yesterday evening, a sickly lemon yellow sunset, mysterious, of extraordinary beauty — Prussian blue cypresses, trees with dead leaves in every broken tone against that, not half bad.</p>
+<p rend="indent" xml:id="p.en.20" n="20">You couldn’t imagine how pleased I am that you have painters with you and aren’t staying alone in the apartment, just as I too am very pleased to have such good company as <rs type="person" ref="bio.xml#_1039">Gauguin</rs>’s.</p>
+<p rend="indent" xml:id="p.en.21" n="21">More soon, and thanks once again for your kind letter.</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.22" n="22">Ever yours,</p>
+<p xml:id="p.en.23" n="23">Vincent</p><space unit="lines" quantity="1"/>
+<p xml:id="p.en.24" n="24">What do <rs type="person" ref="bio.xml#_1075">De Haan</rs> and <rs type="person" ref="bio.xml#_1103">Isaäcson</rs> say about <rs type="person" ref="bio.xml#_1240">Monticelli</rs>? Have they seen any of his paintings other than the ones at your place?<ptr target="#note-t-11"/> You know that I still lay claim to continuing the job that Monticelli began here.<ptr target="#note-t-12"/></p>
+                    </div>
+                </body>
+            </text>
+            <standOff>
+                <listAnnotation xml:lang="en" type="typednotes">
+                    
+                    	<note xml:id="n_transcrSource" type="transcrSource">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Original manuscript</p>
+                    	</note>
+                    
+                    
+                    	<note xml:id="n_dating" type="dating">
+                    	    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Vincent thanks Theo for the 100 francs he sent, which must have been the third instalment of his November allowance. For this reason we have dated the letter to about Wednesday, 21 November 1888.</p>
+                    	</note>
+                    
+                    
+                    
+                    	<note xml:id="n_remarks" type="remarks">
+                    	    
+                                    
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">The letter was bought by the Librairie de l'Abbaye, M. Lambert in Paris on 2 April 1963 at the sale held at the Hôtel Drouot in Paris. V.W. van Gogh bought it on 17 July 1963. Before this it belonged to Robert Rey, formerly a curator at the Musée du Luxembourg.</p>
+                                    
+                                
+                    	</note>
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="ogtnotes">
+                    
+                        <note n="1" xml:id="ogt_1">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Gauguin’s plan to return to the tropics <ref target="let716.xml">(716)</ref></p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="ogt_2">
+                            
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Van Gogh’s ambition to show work at the 1889 World Exhibition <ref target="let590.xml">(590)</ref></p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+                <listAnnotation xml:lang="en" type="notes">
+                    
+                        <note n="1" xml:id="note-t-1">
+                            
+      
+<p>On 13 November Theo informed <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> that he had sold two of his canvases. See <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Correspondance Gauguin </hi>1984, p. 280. These were <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_777">Dogs running in a meadow</rs></hi> (W282/W265), sold on 10 November 1888 to Cheret for 300 francs, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_778">Inlet opposite the fishing port of Pont-Aven</rs></hi> (W276/W266), sold on 12 November 1888 to Dupuis for 500 francs.</p>
+
+<p rend="indent">In his letter (for which Vincent thanks him here), Theo undoubtedly wrote about the sale on 13 November of a third painting by Gauguin: the ledgers of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_797">Boussod, Valadon &amp; Cie</rs> record that on that day <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">View of Pont-Aven</hi> was sold to Dupuis for 500 francs. This was possibly <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_786">Mount Sainte-Marguerite seen from the vicinity of the presbytery</rs></hi>, 1886 (W227/W195). See Wildenstein 2001, p. 284. Soon after this, on 4 December, Theo sold another painting by Gauguin: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_787">Breton fishermen</rs></hi>, 1888 (W275/W262), to Léon Clapisson for 400 francs. See Wildenstein 2001, pp. 384-385.</p>
+                        </note>
+                        
+                    
+                        <note n="2" xml:id="note-t-2">
+                            
+
+<p><rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> was 36 years old, <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1103">Isaäcson</rs> 29.</p>
+                        </note>
+                        
+                    
+                        <note n="3" xml:id="note-t-3">
+                            
+
+<p>Theo had sent two unspecified photographs of drawings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1075">De Haan</rs> (<ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let708.xml">see letter 708</ref>). On 6 December 1888 he wrote to <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_407">Willemien</rs> about De Haan: ‘His earlier work somewhat resembles Vincent’s work from Nuenen, although it does not have Vincent’s fury but instead something resigned and <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1295">Rembrandt</rs>esque that is indeed worthwhile’ (FR b916).</p>
+                        </note>
+                        
+                    
+                        <note n="4" xml:id="note-t-4">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_742">Silvestre</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_415">Eugène Delacroix. Documents nouveaux</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let526.xml#n-2">see letter 526, n. 2.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="5" xml:id="note-t-5">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_546">Blanc</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><ref target="biblio.xml#lit_48">Grammaire des arts du dessin</ref></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let454.xml#n-17">see letter 454, n. 17.</ref> Van Gogh’s reference to the ‘article on colour’ could mean either the brief explanation of the basic principles of art in ‘Du dessin et de la couleur’ (On drawing and colour), or ‘Colour being what more particularly distinguishes painting from the other arts, it is indispensable to the painter to know the laws of colour insofar as they are quintessential and absolute’ (Le coloris étant ce qui distingue plus particulièrement la peinture des autres arts, il est indispensable au peintre de connaître les lois de la couleur dans ce qu’elles ont d’essentiel et d’absolu) – ‘Principes’ (Principles) and ‘Peinture’ (Painting), chapter 5 and chapter 13, respectively. See Blanc 1870, pp. 22-26, 601-617.</p>
+                        </note>
+                        
+                    
+                        <note n="6" xml:id="note-t-6">
+                            
+
+<p>The letter sketch <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Sower with setting sun </hi>(<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#_206">F - JH 1628</rs>) was made after the painting of the same name (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2746">F 450 / JH 1627</rs>). There is also a smaller work of the same subject (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_788">F 451 / JH 1629</rs>), which was assumed to have preceded the no. 30 canvas. Technical examination has however shown that Van Gogh painted it afterwards. See exhib. cat. Amsterdam 1988, pp. 182-185, and exhib. cat. Chicago 2001, p. 217.</p>
+                        </note>
+                        
+                    
+                        <note n="7" xml:id="note-t-7">
+                            
+
+<p>For <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_831">Bernard</rs>’s <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#ill_2236">Breton women in the meadow</rs></hi>, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let712.xml#n-4">see letter 712, n. 4.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="8" xml:id="note-t-8">
+                            
+
+<p>Regarding the financial arrangement, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml">see letter 717</ref>, <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Date</hi> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let717.xml#n-9">n. 9.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="9" xml:id="note-t-9">
+                            
+
+<p>In this period <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1039">Gauguin</rs> made two paintings of washerwomen: <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Washerwomen on the bank of a canal</hi>, 1888 (W322/W302) (New York, The William S. Paley Collection at the Museum of Modern Art). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_2263">Ill. 2263</rs>, and <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Washerwomen</hi>, 1888 (W325/W303) (Bilbao, Museo de Bellas Artes). <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#ill_119">Ill. 119</rs>.</p>
+                        </note>
+                        
+                    
+                        <note n="10" xml:id="note-t-10">
+                            
+
+<p>This lost still life is most likely depicted in part in Van Gogh’s portrait <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics">Paul Gauguin (Man in a red beret)</hi> (<rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="artwork" ref="artwork.xml#noill_789">F 546 / JH -</rs>), in which the painter sits at his easel, on which a yellow canvas stands. See exhib. cat. Chicago 2001, p. 236 and Van Tilborgh and Hendriks 2001, p. 39. Wildenstein assumes that <hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"><rs type="artwork" ref="artwork.xml#noill_942">The little cat</rs></hi> (W294/W321), 1888 (private collection) is a surviving fragment of the partly overpainted still life; it displays yellow and orange fruits on a yellow background. See Wildenstein<hi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rend="italics"> </hi>2001, p. 533.</p>
+                        </note>
+                        
+                    
+                        <note n="11" xml:id="note-t-11">
+                            
+
+<p>On the paintings by <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs> owned by Theo and Vincent in 1888, <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let578.xml#n-5">see letter 578, n. 5.</ref></p>
+                        </note>
+                        
+                    
+                        <note n="12" xml:id="note-t-12">
+                            
+
+<p>Vincent had written to Theo about the continuation of <rs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" type="person" ref="bio.xml#_1240">Monticelli</rs>’s work in <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let689.xml">letters 689</ref> and <ref xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" target="let702.xml">702</ref>.</p>
+                        </note>
+                        
+                            
+
+                        
+                    
+                </listAnnotation>
+            </standOff>
+
+        </TEI>    
+    
