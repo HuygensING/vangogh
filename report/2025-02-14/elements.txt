@@ -8,181 +8,485 @@ Contains the following sections:
 
 Formatting Attributes
 
-	<hi>               rend=           199x italics
-	                                    23x super
+	<hi>               rend=             1x bold
+	                                 24141x italics
+	                                     1x ss
+	                                  1061x super
 
-	<p>                rend=           371x indent
+	<p>                rend=         29114x indent
+
+	<title>            level=         1314x m
 
 Keyword Attributes
 
-	<altIdentifier>    type=            24x brieven1990
-	                                    24x collectedletters
-	                                    24x jlb
+	<altIdentifier>    type=           928x brieven1990
+	                                   928x collectedletters
+	                                   928x jlb
 
-	<c>                type=            88x kk
-	                                    54x kp
-	                                    98x shy
+	<c>                type=         28429x kk
+	                                 16847x kp
+	                                   757x shy
 
-	<correspAction>    type=            24x received
-	                                    24x sent
+	<correspAction>    type=           928x received
+	                                   928x sent
 
-	<date>             type=            24x first
+	<date>             type=          1244x creation
+	                                   928x first
 
-	<div>              lang=            24x en
-	                                    24x nl
-	                   type=            24x original
-	                                    24x translation
+	<div>              lang=           938x en
+	                                   327x fr
+	                                   591x nl
+	                   type=           928x original
+	                                   928x translation
 
-	<listAnnotation>   lang=            72x en
-	                   type=            24x notes
-	                                    24x ogtnotes
-	                                    24x typednotes
+	<figure>           facs=           280x zone-sketch-1
+	                                     2x zone-sketch-10
+	                                     2x zone-sketch-11
+	                                     2x zone-sketch-12
+	                                   112x zone-sketch-2
+	                                    54x zone-sketch-3
+	                                    20x zone-sketch-4
+	                                    10x zone-sketch-5
+	                                     7x zone-sketch-6
+	                                     4x zone-sketch-7
+	                                     4x zone-sketch-8
+	                                     2x zone-sketch-9
 
-	<note>             type=            24x dating
-	                                     5x remarks
-	                                    24x transcrSource
+	<graphic>          type=          1952x 500px
+	                                  1952x thumb
 
-	<pb>               facs=            48x #zone-pb-1r-1
-	                                     2x #zone-pb-1r-2
-	                                    22x #zone-pb-1r-4
-	                                    44x #zone-pb-1v-2
-	                                    28x #zone-pb-1v-3
-	                                     2x #zone-pb-1v-4
-	                                     8x #zone-pb-2r-5
-	                                     2x #zone-pb-2r-7
-	                                     2x #zone-pb-2r-8
-	                                     8x #zone-pb-2v-6
-	                                     2x #zone-pb-2v-7
-	                                     2x #zone-pb-3r-8
-	                                     2x #zone-pb-3v-9
+	<head>             lang=          2920x en
 
-	<rs>               type=            53x artwork
+	<listAnnotation>   lang=          2784x en
+	                   type=           928x notes
+	                                   928x ogtnotes
+	                                   928x typednotes
+
+	<measure>          unit=          1274x cm
+
+	<note>             type=          1901x collection
+	                                   919x dating
+	                                   269x remarks
+	                                  1783x shortdesc
+	                                   650x technique
+	                                   925x transcrSource
+
+	<p>                lang=            75x en
+	                                   934x fr
+
+	<pb>               facs=             2x #surf-pb-2r-3
+	                                     2x #surf-pb-2v-4
+	                                     2x #zone-extra-b1-1r1
+	                                     2x #zone-extra-b1-1v2
+	                                     2x #zone-extra-b2-1r1
+	                                     2x #zone-extra-b2-1v2
+	                                     2x #zone-extra-b3-1r1
+	                                     2x #zone-extra-b3-1v2
+	                                     2x #zone-extra-b3-1v3
+	                                  1856x #zone-pb-1r-1
+	                                   122x #zone-pb-1r-2
+	                                    10x #zone-pb-1r-3
+	                                  1158x #zone-pb-1r-4
+	                                     2x #zone-pb-1r-5
+	                                     2x #zone-pb-1r-8
+	                                  1650x #zone-pb-1v-2
+	                                  1446x #zone-pb-1v-3
+	                                    62x #zone-pb-1v-4
+	                                     2x #zone-pb-1v-6
+	                                     2x #zone-pb-2r-1
+	                                     4x #zone-pb-2r-2
+	                                    50x #zone-pb-2r-3
+	                                    20x #zone-pb-2r-4
+	                                   488x #zone-pb-2r-5
+	                                    10x #zone-pb-2r-6
+	                                    12x #zone-pb-2r-7
+	                                   200x #zone-pb-2r-8
+	                                    36x #zone-pb-2v-4
+	                                    26x #zone-pb-2v-5
+	                                   444x #zone-pb-2v-6
+	                                   226x #zone-pb-2v-7
+	                                     2x #zone-pb-2v-8
+	                                    14x #zone-pb-3r-10
+	                                     2x #zone-pb-3r-11
+	                                    18x #zone-pb-3r-12
+	                                     4x #zone-pb-3r-4
+	                                     8x #zone-pb-3r-5
+	                                    10x #zone-pb-3r-6
+	                                    64x #zone-pb-3r-7
+	                                    10x #zone-pb-3r-8
+	                                    58x #zone-pb-3r-9
+	                                    54x #zone-pb-3v-10
+	                                    18x #zone-pb-3v-11
+	                                     6x #zone-pb-3v-6
+	                                     4x #zone-pb-3v-7
+	                                    56x #zone-pb-3v-8
+	                                    22x #zone-pb-3v-9
+	                                     2x #zone-pb-4r-10
+	                                    12x #zone-pb-4r-11
+	                                     2x #zone-pb-4r-13
+	                                     4x #zone-pb-4r-14
+	                                     2x #zone-pb-4r-16
+	                                     2x #zone-pb-4r-5
+	                                     2x #zone-pb-4r-8
+	                                     8x #zone-pb-4r-9
+	                                     8x #zone-pb-4v-10
+	                                    10x #zone-pb-4v-12
+	                                     4x #zone-pb-4v-13
+	                                     2x #zone-pb-4v-14
+	                                     2x #zone-pb-4v-15
+	                                     2x #zone-pb-5r-11
+	                                     2x #zone-pb-5v-12
+
+	<rs>               type=          6000x artwork
 	                                     3x location
-	                                   552x person
+	                                 23424x person
 
-	<space>            unit=           237x lines
+	<space>            unit=          7296x lines
 
 Remaining Attributes and Elements
 
-	<TEI>                               24x 
+	<TEI>                              931x 
 
-	<availability>     status=          24x restricted
+	<artwork>          id=            2920x X
 
-	<body>                              24x 
+	<availability>     status=         928x restricted
 
-	<correspDesc>                       24x 
+	<bibl>             id=            1260x X
 
-	<date>             when=            24x NNNN
-	                                     2x NNNN-NN
-	                                    22x NNNN-NN-NN
+	<birth>            when=             1x NN
+	                                     3x NN BC
+	                                     2x NNN
+	                                     3x NNN BC
+	                                     1x NNN/NNN BC
+	                                  1578x NNNN
+	                                     1x NNNN or NNNN
+	                                    27x NNNN/NN
+	                                     2x NNNN?
+	                                     1x active NNNN
+	                                     1x c. N BC
+	                                     2x c. NN
+	                                     2x c. NNN BC
+	                                     1x c. NNN/NN BC
+	                                    12x c. NNNN
+	                                     4x c. NNNN/NN
+	                                     1x c. NNNN/NNNN
+	                                     2x c.NNNN
+	                                     1x c.NNNN/NN
+	                                    22x fl. NNNN
+	                                     1x fl. c. NNNN
 
-	<editor>                            72x 
+	<body>                             931x 
 
-	<facsimile>                         24x 
+	<correspDesc>                      928x 
 
-	<fileDesc>                          24x 
+	<date>             when=           930x NNNN
+	                                    33x NNNN-NN
+	                                   893x NNNN-NN-NN
 
-	<graphic>          url=            140x VGMNNNNNNNNN_NN_n
+	<death>            when=             2x AD NN
+	                                     1x N BC
+	                                     2x NN
+	                                     1x NN AD
+	                                     1x NN BC
+	                                     2x NNN
+	                                     4x NNN BC
+	                                  1579x NNNN
+	                                     1x NNNN/NN
+	                                     1x NNNN/NN?
+	                                     1x NNNN/NNNN
+	                                     1x NNNN?
+	                                    30x after NNNN
+	                                     2x between NNNN and NNNN
+	                                     1x c. NNN
+	                                     2x c. NNN BC
+	                                     7x c. NNNN
+	                                     1x c. NNNN/NN
+	                                     1x fl. NNNN
+
+	<editor>                          2784x 
+
+	<facsimile>                        928x 
+
+	<figure>           n=              280x A
+	                                   112x B
+	                                    54x C
+	                                    20x D
+	                                    10x E
+	                                     7x F
+	                                     4x G
+	                                     4x H
+	                                     2x I
+	                                     2x J
+	                                     2x K
+	                                     2x L
+
+	<fileDesc>                         931x 
+
+	<forename>                        1791x 
+
+	<graphic>          url=              5x 
+	                                   115x NNN_Nr
+	                                     2x NNN_NrL
+	                                     6x NNN_NrR
+	                                   115x NNN_Nv
+	                                     4x NNN_NvL
+	                                     2x NNN_NvR
+	                                     3x NNN_r_rec
+	                                     3x NNN_v_rec
+	                                  6432x VGMNNNNNNNNN_NN_n
+	                                     2x VGMNNNNNNNNNr_NN_n
+	                                     2x briefNN-Nr
+	                                     2x briefNN-Nv-l
+	                                     4x briefNNN-Nr
 	                                     2x briefNa-Nr
 	                                     3x briefNa-Nv
+	                                     1x https://vangoghletters.org/vg/illustrations/.jpg
+	                                     2x https://vangoghletters.org/vg/illustrations/N.jpg
+	                                    43x https://vangoghletters.org/vg/illustrations/NN.jpg
+	                                   412x https://vangoghletters.org/vg/illustrations/NNN.jpg
+	                                  1494x https://vangoghletters.org/vg/illustrations/NNNN.jpg
+	                                  1494x https://vangoghletters.org/vg/illustrations/NNNNt.jpg
+	                                   412x https://vangoghletters.org/vg/illustrations/NNNt.jpg
+	                                    43x https://vangoghletters.org/vg/illustrations/NNt.jpg
+	                                     2x https://vangoghletters.org/vg/illustrations/Nt.jpg
+	                                     1x https://vangoghletters.org/vg/illustrations/t.jpg
+	                                   102x unknown
 
-	<hi>                                 6x 
+	<head>                               2x 
 
-	<idno>                              96x 
+	<hi>                              1054x 
 
-	<institution>                       24x 
+	<idno>                            3705x 
 
-	<lb>               id=            1933x X
-	                   n=              216x N
-	                                  1324x NN
-	                                     3x NN »
-	                                   386x NNN
-	                                     5x NNa
-	                                     2x NNb
+	<institution>                      928x 
 
-	<licence>          target=          24x X
+	<label>                           1260x 
 
-	<msDesc>                            24x 
+	<lb>               id=          119978x X
+	                   n=             8303x N
+	                                   440x N*
+	                                 68237x NN
+	                                    22x NN »
+	                                   137x NN*
+	                                     5x NN**
+	                                     1x NN*» 
+	                                 41727x NNN
+	                                    19x NNN »
+	                                   262x NNN*
+	                                    27x NNN**
+	                                     1x NNNN
+	                                   236x NNNa
+	                                    71x NNNb
+	                                     1x NNNb*
+	                                    26x NNNc
+	                                     1x NNNd
+	                                    10x NNN»
+	                                   354x NNa
+	                                     1x NNaa
+	                                   118x NNb
+	                                     1x NNbb
+	                                    35x NNc
+	                                     1x NNcc
+	                                    17x NNd
+	                                     1x NNdd
+	                                     7x NNe
+	                                     1x NNee
+	                                     4x NNf
+	                                     1x NNff
+	                                     4x NNg
+	                                     1x NNgg
+	                                     2x NNh
+	                                     1x NNhh
+	                                     2x NNi
+	                                     1x NNii
+	                                     1x NNj
+	                                     1x NNk
+	                                     1x NNl
+	                                     1x NNm
+	                                     1x NNn
+	                                     1x NNo
+	                                     1x NNp
+	                                     1x NNq
+	                                     1x NNr
+	                                     1x NNt
+	                                     1x NNu
+	                                     1x NNv
+	                                     1x NNw
+	                                     1x NNx
+	                                     1x NNy
+	                                     1x NNz
+	                                    20x NN»
+	                                    19x Na
+	                                     2x Nb
+	                                     2x Nc
+	                                     1x Nd
 
-	<msIdentifier>                      24x 
+	<licence>          target=         928x X
 
-	<name>                              24x 
+	<listBibl>                           1x 
 
-	<note>             id=             285x X
-	                   n=              172x N
-	                                    56x NN
-	                                     3x a
-	                                     1x b
+	<listObject>                         1x 
 
-	<p>                                313x 
-	                   id=            1209x X
-	                   n=              424x N
-	                                   697x NN
-	                                    88x NNN
+	<listPerson>                         1x 
 
-	<pb>               f=               86x Nr
-	                                    86x Nv
-	                   id=             172x X
-	                   n=              172x N
+	<measure>          commodity=      637x size-hor
+	                                   637x size-ver
+	                   quantity=         3x N
+	                                     4x N.N
+	                                   753x NN
+	                                   493x NN.N
+	                                    18x NNN
+	                                     3x NNN.N
 
-	<placeName>                         24x 
+	<msDesc>                           928x 
 
-	<profileDesc>                       24x 
+	<msIdentifier>                     928x 
 
-	<ptr>              target=         468x X
+	<name>                             928x 
 
-	<pubPlace>                          24x 
+	<note>             id=           15555x X
+	                   n=             8024x N
+	                                  4742x NN
+	                                    29x NNN
+	                                   401x a
+	                                   162x b
+	                                    53x c
+	                                    17x d
+	                                     9x e
+	                                     4x f
+	                                     1x g
 
-	<publicationStmt>                   24x 
+	<p>                              17042x 
+	                   id=           45012x X
+	                   n=            16154x N
+	                                 27101x NN
+	                                  1757x NNN
 
-	<publisher>                         48x 
+	<pb>               f=             4168x Nr
+	                                  4092x Nv
+	                   id=            8260x X
+	                   n=             8102x N
+	                                   158x NN
 
-	<ref>              target=          90x X
+	<persName>         full=          1791x yes
 
-	<rs>               ref=             10x artwork.xml#ill_NNN
-	                                    18x artwork.xml#ill_NNNN
+	<person>           id=            1791x X
+	                   sex=           1791x N
+
+	<placeName>                        928x 
+
+	<profileDesc>                      928x 
+
+	<ptr>              target=       24436x X
+
+	<pubPlace>                         928x 
+
+	<publicationStmt>                  931x 
+
+	<publisher>                       1856x 
+
+	<ref>              target=       11894x X
+
+	<relation>         name=          2694x creator
+	                   ref=             66x bio.xml#_NN
+	                                  1493x bio.xml#_NNN
+	                                  1135x bio.xml#_NNNN
+
+	<rs>               ref=              5x artwork.xml#_N
+	                                    62x artwork.xml#_NN
+	                                   120x artwork.xml#_NNN
+	                                     2x artwork.xml#_NNN artwork.xml#_NNN
+	                                     5x artwork.xml#ill_N
+	                                    83x artwork.xml#ill_NN
+	                                   628x artwork.xml#ill_NNN
+	                                     1x artwork.xml#ill_NNN artwork.xml#ill_NNNN
+	                                  3943x artwork.xml#ill_NNNN
+	                                     4x artwork.xml#ill_NNNN artwork.xml#ill_NNNN
+	                                     1x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNN
+	                                     1x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN
+	                                    14x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN
+	                                     3x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNN artwork.xml#ill_NNN artwork.xml#ill_NNNN
+	                                     1x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN
+	                                     1x artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN artwork.xml#ill_NNNN
 	                                     9x artwork.xml#noill_N
-	                                    16x artwork.xml#noill_NN
-	                                    49x bio.xml#_N
-	                                    20x bio.xml#_NN
-	                                     1x bio.xml#_NN bio.xml#_NN
-	                                   277x bio.xml#_NNN
-	                                    38x bio.xml#_NNN bio.xml#_NNN
-	                                   164x bio.xml#_NNNN
-	                                     2x bio.xml#_NNNN bio.xml#_NNNN
-	                                     1x bio.xml#_NNNN bio.xml#_NNNN bio.xml#_NNNN
+	                                    97x artwork.xml#noill_NN
+	                                  1020x artwork.xml#noill_NNN
+	                                  1870x bio.xml#_N
+	                                   271x bio.xml#_NN
+	                                    36x bio.xml#_NN bio.xml#_NN
+	                                     2x bio.xml#_NN bio.xml#_NN bio.xml#_NN bio.xml#_NN bio.xml#_NNN
+	                                     3x bio.xml#_NN bio.xml#_NNN
+	                                 12669x bio.xml#_NNN
+	                                     7x bio.xml#_NNN bio.xml#_NN
+	                                   629x bio.xml#_NNN bio.xml#_NNN
+	                                    20x bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN
+	                                     2x bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN
+	                                     2x bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN bio.xml#_NN bio.xml#_NNN
+	                                     4x bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN bio.xml#_NNN
+	                                    11x bio.xml#_NNN bio.xml#_NNNN
+	                                     2x bio.xml#_NNN bio.xml#_NNNN bio.xml#_NNNN
+	                                  7820x bio.xml#_NNNN
+	                                     5x bio.xml#_NNNN bio.xml#_NNN
+	                                     1x bio.xml#_NNNN bio.xml#_NNN bio.xml#_NNNN
+	                                    60x bio.xml#_NNNN bio.xml#_NNNN
+	                                     1x bio.xml#_NNNN bio.xml#_NNNN bio.xml#_NN
+	                                     8x bio.xml#_NNNN bio.xml#_NNNN bio.xml#_NNNN
+	                                     1x bio.xml#_NNNN bio.xml#_NNNN bio.xml#_NNNN bio.xml#_NNNN
 	                                     3x location.xml#_N
 
-	<settlement>                        24x 
+	<settlement>                       921x 
 
-	<sourceDesc>                        24x 
+	<sourceDesc>                       931x 
 
-	<space>            quantity=       237x N
+	<space>            quantity=      7296x N
 
-	<standOff>                          24x 
+	<standOff>                         928x 
 
-	<supplied>                           8x 
+	<supplied>                         172x 
 
-	<surface>          id=              58x X
-	                   n=               46x b NNNN
-	                                     2x b NNNN a
-	                                     2x b NNNN b
+	<surface>          id=            2585x X
+	                   n=                1x Auction Sotheby's New York, NN November NNNN
+	                                     1x Collection Jan Krugier
+	                                     1x Envelope not found.
+	                                     1x NNN Nr
+	                                     1x NNN Nv
+	                                   144x Sheet number N not found.
+	                                  1228x b NNNN
+	                                     4x b NNNN - NNNN V/NNNN
+	                                    70x b NNNN V/NNNN
+	                                   464x b NNNN a
+	                                   448x b NNNN b
+	                                    89x b NNNN c
+	                                    17x b NNNN d
 	                                     3x b NNNN r
 	                                     3x b NNNN v
-	                                     2x b NNNNb V/NNNN
+	                                     1x b NNNNa V/NNNN
+	                                    21x b NNNNb V/NNNN
+	                                     7x b NNNNc V/NNNN
+	                                     1x b NNNNd V/NNNN
+	                                     2x b NNNNe V/NNNN
+	                                     8x brief van elders
+	                                    30x d NNNN
+	                                    25x d NNNN V/NNNN
+	                                     3x present whereabouts unknown
+	                                     3x private collection
+	                                     6x van elders
+	                                     3x whereabouts unknown
 
-	<teiHeader>                         24x 
+	<surname>                         1791x 
 
-	<text>                              24x 
+	<teiHeader>                        931x 
 
-	<title>                             24x 
+	<text>                             931x 
 
-	<titleStmt>                         24x 
+	<title>                            931x 
 
-	<zone>             id=              87x X
-	                   lrx=             31x NN
-	                                    36x NNN
-	                   lry=             67x NNN
-	                   ulx=             31x N
-	                                    36x NN
-	                   uly=             67x N
+	<titleStmt>                        931x 
+
+	<zone>             id=            4219x X
+	                   lrx=           1686x NN
+	                                  1848x NNN
+	                   lry=           3534x NNN
+	                   ulx=           1686x N
+	                                  1848x NN
+	                   uly=           3534x N
