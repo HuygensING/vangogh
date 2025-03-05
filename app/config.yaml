@@ -17,6 +17,7 @@ docs:
   featurePage: transcription
 interfaceDefaults:
   fmt: layout-orig-full
+  showGraphics: true
 provenanceSpec:
   corpus: '{org} - {repo}{relative}'
   doi: 10.5281/zenodo.notyet
@@ -28,5 +29,8 @@ provenanceSpec:
   webUrl: '{webBase}/<1>/<2>/<3>&version={version}'
   webUrlLex: '{webBase}/word?version={version}&id=<lid>'
   branch: main
-typeDisplay: {}
+  graphicsRelative: thumb
+typeDisplay:
+  page:
+    graphics: true
 writing: ''
