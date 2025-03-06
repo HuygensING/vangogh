@@ -17,10 +17,12 @@ constants:
   provLogoWidth: 664
   ext: 'jpg'
   iiifRoot: '«server»/iiif/3/'
-  iiifParams: '/{region}/max/{rot}/default'
+  iiifParams: '/{region}/max/0/default'
   manifestRoot: '«server»/files/manifests/'
   logoRoot: '«server»/files/logo'
   metaRoot: '«server»/files/meta'
+
+zoneBased: true
 
 macros:
   manifestUrl: '«manifestRoot»letters.json'
@@ -35,17 +37,17 @@ scans:
   canvasUrl:
     page:
       vars:
-        page: facs
+        page: facsfile
       value: '<canvasUrl>' 
     file:
         vars:
-          page: '-page.facs'
+          page: '-page.facsfile'
         value: '<canvasUrl>'
   pageUrl:
     page:
       vars:
-        page: facs
-        rot: rend
+        page: facsfile
+        region: facsregion
       value: '<pageUrl>' 
   prev:
     page:
