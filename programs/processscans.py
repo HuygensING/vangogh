@@ -23,10 +23,9 @@ _REPODIR = expanduser(f"~/{BACKEND}/{ORG}/{REPO}")
 _DATADIR = f"{_REPODIR}/_local"
 _REPORTDIR = f"{_REPODIR}/report"
 SCANDIR = f"{_REPODIR}/scans"
-LOGODIR = f"{SCANDIR}/{LOGO}"
-PAGEDIR = f"{SCANDIR}/{PAGES}"
 THUMBDIR = f"{_REPODIR}/thumb"
 THUMBPAGEDIR = f"{THUMBDIR}/{PAGES}"
+LOGODIR = f"{THUMBDIR}/{LOGO}"
 
 REPORT_SCANDIR = f"{_REPORTDIR}/scanreports"
 REPORT_SCANERRORS = f"{REPORT_SCANDIR}/scanerrors.txt"
