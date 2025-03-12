@@ -10,7 +10,7 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=VGM (Van Gogh Museum) Amsterdam
 @language=nl
-@levelConstraints=note < chunk, p; salute < opener, closer; fileDesc < chunk; space < chunk; facsimile < chunk; p < chunk; profileDesc < chunk; standOff < chunk
+@levelConstraints=note < chunk, p; salute < opener, closer; facsimile < chunk; space < chunk; profileDesc < chunk; standOff < chunk; p < chunk; fileDesc < chunk
 @schema=TEI + editem-letter + artwork + bio + biblio
 @sectionFeatures=folder,file,chunk
 @sectionTypes=folder,file,chunk
@@ -19,5 +19,5 @@
 @title=Letters
 @version=0.0.1s
 @writtenBy=Text-Fabric
-@dateWritten=2025-03-06T15:48:10+00:00Z
+@dateWritten=2025-03-12T09:03:00+00:00Z
 
