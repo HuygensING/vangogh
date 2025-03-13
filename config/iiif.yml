@@ -1,8 +1,10 @@
 switches:
   dev:
-    server: 'https://editem.dev.diginfra.org'
+    server: 'http://localhost:8888'
+    iiifPath: '[pid]%2F[org]%2F[repo]%2Fthumb%2F'
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
+    iiifPath: ''
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -16,7 +18,7 @@ constants:
   provLogoHeight: 270
   provLogoWidth: 288
   ext: 'jpg'
-  iiifRoot: '«server»/iiif/3/'
+  iiifRoot: '«server»/iiif/3/«iiifPath»'
   iiifParams: '/{region}/max/0/default'
   manifestRoot: '«server»/files/manifests/'
   logoRoot: '«server»/files/logo'
