@@ -67,17 +67,17 @@
 
 ## `version`
 
-`0.0.1`
+`0.0.2`
 
 
 ## `teiVersion`
 
-`2025-02-14`
+`2025-03-12`
 
 
 ## `schema`
 
-`TEI + editem-letter + artwork + bio + biblio`
+`TEI + editem + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist`
 
 
 ## Conversion

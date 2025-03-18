@@ -1,0 +1,29 @@
+@node
+@author=Vincent van Gogh
+@contributors1=Hennie Brugman, Hayco de Jong, Bram Buitendijk, Sebastiaan van Daalen, Dirk Roorda
+@contributors2=Leo Jansen, Peter Boot, Beatrice Nava, Mariken Teeuwen
+@contributors3="N.N."
+@conversionCode=tf
+@conversionMethod=literal-composed
+@converter=Dirk Roorda (Text-Fabric)
+@description=whether text is to be rendered as sub
+@descriptionTf=Critical edition
+@institute1=HuC (Humanities Cluster) Amsterdam
+@institute2=Huygens Instituut Amsterdam
+@institute3=VGM (Van Gogh Museum) Amsterdam
+@language=nl
+@schema=TEI + editem + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist
+@sourceFormat=TEI
+@teiVersion=2025-03-12
+@title=Letters
+@valueType=int
+@version=0.0.2
+@writtenBy=Text-Fabric
+@dateWritten=2025-03-17T15:54:14+00:00Z
+
+83175	1
+83436	1
+84109	1
+84127	1
+87458	1
+89384	1

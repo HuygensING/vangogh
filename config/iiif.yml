@@ -1,11 +1,16 @@
 switches:
   dev:
-    # server: 'http://localhost:8087'
-    server: 'http://preview.dev.diginfra.org'
-    iiifPath: '[pid]%2F[org]%2F[repo]%2Fthumb%2F'
+    server: 'http://localhost:8087'
+    iiifPath: ''
+    iiifPathEsc: ''
+  preview:
+    server: 'https://preview.dev.diginfra.org'
+    iiifPath: '[pid]/[org]/[repo]/'
+    iiifPathEsc: '[pid]|[org]|[repo]|'
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
     iiifPath: ''
+    iiifPathEsc: ''
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -19,18 +24,18 @@ constants:
   provLogoHeight: 270
   provLogoWidth: 288
   ext: 'jpg'
-  iiifRoot: '«server»/iiif/3/«iiifPath»'
+  iiifRoot: '«server»/iiif/3/«iiifPathEsc»thumb|'
   iiifParams: '/{region}/max/0/default'
-  manifestRoot: '«server»/files/manifests/'
-  logoRoot: '«server»/files/logo'
-  metaRoot: '«server»/files/meta'
+  manifestRoot: '«server»/files/«iiifPath»static/manifests/'
+  logoRoot: '«server»/files/«iiifPath»static/logo'
+  metaRoot: '«server»/files/«iiifPath»static/meta'
 
 zoneBased: true
 
 macros:
   manifestUrl: '«manifestRoot»letters.json'
-  canvasUrl: '«manifestRoot»letters.json/canvas/pages%2F{page}'
-  pageUrl: '«iiifRoot»pages%2F{page}.«ext»«iiifParams».«ext»'
+  canvasUrl: '«manifestRoot»letters.json/canvas/«iiifPath»pages/{page}'
+  pageUrl: '«iiifRoot»pages|{page}.«ext»«iiifParams».«ext»'
 
 scans:
   manifestUrl:
@@ -96,7 +101,6 @@ templates:
       type: Agent
       label:
       - en: '«providerLabelEn»'
-      - it: '«providerLabelIt»'
       homepage:
         - id: '«provHomepageId»'
           type: Text
@@ -132,7 +136,7 @@ templates:
           height: '{height}'
           width: '{width}'
           service:
-          - '@id': '«iiifRoot»pages%2F{page}.«ext»'
+          - '@id': '«iiifRoot»pages|{page}.«ext»'
             '@type': ImageService2
             profile: '«profile»'
           format: image/jpeg

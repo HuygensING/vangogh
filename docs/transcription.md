@@ -156,7 +156,7 @@ Note that edges can be traversed in both directions, see the
 ## Extra features
 
 
-## `msid`
+## `msId`
 
 The manuscript identifier of a letter; 
 The values of this feature have type str.
@@ -172,7 +172,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `letterid`
+## `letterId`
 
 The identifier of a letter; 
 The values of this feature have type str.
@@ -212,7 +212,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `periodlong`
+## `periodLong`
 
 The date of the letter as description; 
 The values of this feature have type str.
@@ -228,7 +228,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `personref`
+## `personRef`
 
 Reference key to the details of a person; 
 The values of this feature have type str.
@@ -236,7 +236,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `artref`
+## `artRef`
 
 Reference key to the details of an artwork; 
 The values of this feature have type str.
@@ -472,7 +472,7 @@ with element / attribute names of the TEI.
 
             # Additional features
 
-            ## `msid`
+            ## `msId`
 
 The manuscript identifier of a letter; «base»
 The values of this feature have type str.
@@ -488,7 +488,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `letterid`
+## `letterId`
 
 The identifier of a letter; «base»
 The values of this feature have type str.
@@ -528,7 +528,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `periodlong`
+## `periodLong`
 
 The date of the letter as description; «base»
 The values of this feature have type str.
@@ -544,7 +544,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `personref`
+## `personRef`
 
 Reference key to the details of a person; «base»
 The values of this feature have type str.
@@ -552,7 +552,7 @@ The values of this feature have type str.
 *   `conversionCode`: `tt`
 
 
-## `artref`
+## `artRef`
 
 Reference key to the details of an artwork; «base»
 The values of this feature have type str.
