@@ -25,7 +25,7 @@ constants:
   provLogoWidth: 288
   ext: 'jpg'
   iiifRoot: '«server»/iiif/3/«iiifPathEsc»thumb|'
-  iiifParams: '/{region}/max/0/default'
+  iiifParams: '/full/max/0/default'
   manifestRoot: '«server»/files/«iiifPath»static/manifests/'
   logoRoot: '«server»/files/«iiifPath»static/logo'
   metaRoot: '«server»/files/«iiifPath»static/meta'
@@ -34,22 +34,28 @@ manifestLevel: file
 zoneBased: true
 
 macros:
-  manifestUrl: '«manifestRoot»letters.json'
-  canvasUrl: '«manifestRoot»letters.json/canvas/«iiifPath»pages/{page}'
+  manifestUrl: '«manifestRoot»{folder}/{file}.json'
+  canvasUrl: '«manifestRoot»{folder}/{file}.json/canvas/«iiifPath»pages/{page}'
   pageUrl: '«iiifRoot»pages|{page}.«ext»«iiifParams».«ext»'
 
 scans:
   manifestUrl:
-    folder:
-      vars: {}
+    letter:
+      vars:
+        folder: folder.folder
+        file: file.file
       value: '<manifestUrl>'
   canvasUrl:
     page:
       vars:
+        folder: folder.folder
+        file: file.file
         page: facsfile
       value: '<canvasUrl>' 
-    file:
+    letter:
         vars:
+          folder: folder.folder
+          file: file.file
           page: '-page.facsfile'
         value: '<canvasUrl>'
   pageUrl:
@@ -58,12 +64,18 @@ scans:
         page: facsfile
         region: facsregion
       value: '<pageUrl>' 
+  xywh:
+    page:
+      vars:
+        page: facsfile
+        region: facsregion
+      value: 'px:|{page}|{region}'
   prev:
     page:
       vars:
         node: '=-1'
       value: '{node}' 
-    file:
+    letter:
       vars:
         node: '=-1'
       value: '{node}' 
@@ -72,7 +84,7 @@ scans:
       vars:
         node: '=+1'
       value: '{node}' 
-    file:
+    letter:
       vars:
         node: '=+1'
       value: '{node}' 
@@ -92,7 +104,7 @@ templates:
         - Filename
       value:
         en:
-        - 'letters.json'
+        - '{folder}/{file}.json'
     summary:
       en:
       - 'Letters'
@@ -111,7 +123,7 @@ templates:
       logo:
         - id: '«logoRoot»/«provLogoId»'
           type: Image
-          format: text/html
+          format: image/png
           height: '«provLogoHeight»'
           width: '«provLogoWidth»'
 
@@ -137,8 +149,8 @@ templates:
           height: '{height}'
           width: '{width}'
           service:
-          - '@id': '«iiifRoot»pages|{page}.«ext»'
-            '@type': ImageService2
+          - 'id': '«iiifRoot»pages|{page}.«ext»'
+            'type': ImageService3
             profile: '«profile»'
           format: image/jpeg
         target: '<canvasUrl>'

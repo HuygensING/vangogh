@@ -1,6 +1,6 @@
 {
  "@context": "http://iiif.io/api/presentation/3/context.json",
- "manifestInventory": "http://localhost:8087/files/static/manifests/letters.json",
+ "manifestInventory": "http://localhost:8087/files/static/manifests/letters/let887.json",
  "type": "Manifest",
  "label": {
   "en": [
@@ -16,7 +16,7 @@
    },
    "value": {
     "en": [
-     "letters.json"
+     "letters/let887.json"
     ]
    }
   }
@@ -52,7 +52,7 @@
     {
      "id": "http://localhost:8087/files/static/logo/providerlogo.png",
      "type": "Image",
-     "format": "text/html",
+     "format": "image/png",
      "height": 270,
      "width": 288
     }
@@ -61,7 +61,7 @@
  ],
  "items": [
   {
-   "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR",
+   "id": "http://localhost:8087/files/static/manifests/letters/let887.json/canvas/pages/887_1rR",
    "type": "Canvas",
    "label": {
     "en": [
@@ -72,67 +72,28 @@
    "width": 1065,
    "items": [
     {
-     "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR/annotationpage",
+     "id": "http://localhost:8087/files/static/manifests/letters/let887.json/canvas/pages/887_1rR/annotationpage",
      "type": "AnnotationPage",
      "items": [
       {
-       "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR/anno",
+       "id": "http://localhost:8087/files/static/manifests/letters/let887.json/canvas/pages/887_1rR/anno",
        "type": "Annotation",
        "motivation": "painting",
        "body": {
-        "id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg/pct:50,0,50,100/max/0/default.jpg",
+        "id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg/full/max/0/default.jpg",
         "type": "Image",
         "height": 1379,
         "width": 1065,
         "service": [
          {
-          "@id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg",
-          "@type": "ImageService2",
+          "id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg",
+          "type": "ImageService3",
           "profile": "http://iiif.io/api/image/3/level1.json"
          }
         ],
         "format": "image/jpeg"
        },
-       "target": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR",
-   "type": "Canvas",
-   "label": {
-    "en": [
-     "887_1rR"
-    ]
-   },
-   "height": 1379,
-   "width": 1065,
-   "items": [
-    {
-     "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR/annotationpage",
-     "type": "AnnotationPage",
-     "items": [
-      {
-       "id": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR/anno",
-       "type": "Annotation",
-       "motivation": "painting",
-       "body": {
-        "id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg/pct:50,0,50,100/max/0/default.jpg",
-        "type": "Image",
-        "height": 1379,
-        "width": 1065,
-        "service": [
-         {
-          "@id": "http://localhost:8087/iiif/3/thumb|pages|887_1rR.jpg",
-          "@type": "ImageService2",
-          "profile": "http://iiif.io/api/image/3/level1.json"
-         }
-        ],
-        "format": "image/jpeg"
-       },
-       "target": "http://localhost:8087/files/static/manifests/letters.json/canvas/pages/887_1rR"
+       "target": "http://localhost:8087/files/static/manifests/letters/let887.json/canvas/pages/887_1rR"
       }
      ]
     }
