@@ -4,19 +4,22 @@ switches:
     iiifPath: ''
     iiifPathEsc: ''
     ext: 'jpg'
+    extm: 'jpeg'
     hilo: 'thumb'
   preview:
     server: 'https://preview.dev.diginfra.org'
     iiifPath: '[pid]/[org]/[repo]/'
     iiifPathEsc: '[pid]|[org]|[repo]|'
     ext: 'png'
-    hilo: 'scan'
+    extm: 'png'
+    hilo: 'scans'
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
     iiifPath: ''
     iiifPathEsc: ''
     ext: 'png'
-    hilo: 'scan'
+    extm: 'png'
+    hilo: 'scans'
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -60,13 +63,13 @@ scans:
         folder: folder.folder
         file: file.file
         page: facsfile
-      value: '<canvasUrl>' 
+      value: 'checkPage:‖{file}‖<canvasUrl>' 
     letter:
         vars:
           folder: folder.folder
           file: file.file
           page: '-page.facsfile'
-        value: '<canvasUrl>'
+        value: 'checkPage:‖{file}‖<canvasUrl>' 
   pageUrl:
     page:
       vars:
@@ -133,7 +136,7 @@ templates:
       logo:
         - id: '«logoRoot»/«provLogoId»'
           type: Image
-          format: image/png
+          format: image/«extm»
           height: '«provLogoHeight»'
           width: '«provLogoWidth»'
 
@@ -162,5 +165,5 @@ templates:
           - 'id': '«iiifRoot»pages|{page}.«ext»'
             'type': ImageService3
             profile: '«profile»'
-          format: image/jpeg
+          format: image/«extm»
         target: '<canvasUrl>'
