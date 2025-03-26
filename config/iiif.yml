@@ -3,14 +3,20 @@ switches:
     server: 'http://localhost:8087'
     iiifPath: ''
     iiifPathEsc: ''
+    ext: 'jpg'
+    hilo: 'thumb'
   preview:
     server: 'https://preview.dev.diginfra.org'
     iiifPath: '[pid]/[org]/[repo]/'
     iiifPathEsc: '[pid]|[org]|[repo]|'
+    ext: 'png'
+    hilo: 'scan'
   prod:
     server: 'https://data.vangogh.huygens.knaw.nl'
     iiifPath: ''
     iiifPathEsc: ''
+    ext: 'png'
+    hilo: 'scan'
 
 constants:
   context: 'http://iiif.io/api/presentation/3/context.json'
@@ -23,8 +29,7 @@ constants:
   provLogoId: 'providerlogo.png'
   provLogoHeight: 270
   provLogoWidth: 288
-  ext: 'jpg'
-  iiifRoot: '«server»/iiif/3/«iiifPathEsc»thumb|'
+  iiifRoot: '«server»/iiif/3/«iiifPathEsc»«hilo»|'
   iiifParams: '/full/max/0/default'
   manifestRoot: '«server»/files/«iiifPath»static/manifests/'
   logoRoot: '«server»/files/«iiifPath»static/logo'
@@ -37,6 +42,10 @@ macros:
   manifestUrl: '«manifestRoot»{folder}/{file}.json'
   canvasUrl: '«manifestRoot»{folder}/{file}.json/canvas/«iiifPath»pages/{page}'
   pageUrl: '«iiifRoot»pages|{page}.«ext»«iiifParams».«ext»'
+
+mirador:
+  manifests: '«server»/files/[pid]/[org]/[repo]/static/manifests/letters/'
+  example: 'let172.json'
 
 scans:
   manifestUrl:
@@ -61,15 +70,16 @@ scans:
   pageUrl:
     page:
       vars:
+        file: file.file
         page: facsfile
         region: facsregion
-      value: '<pageUrl>' 
+      value: 'checkPage:‖{file}‖<pageUrl>' 
   xywh:
     page:
       vars:
         page: facsfile
         region: facsregion
-      value: 'px:|{page}|{region}'
+      value: 'px:‖{page}‖{region}'
   prev:
     page:
       vars:

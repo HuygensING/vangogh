@@ -11,25 +11,18 @@ from tf.core.files import (
     fileRemove,
     expanduser,
 )
+from tff.convert.iiif import FILE_NOT_FOUND
 
 
 ORG = "HuygensING"
 REPO = "vangogh"
 BACKEND = "github"
 LOGO = "logo"
-
 PAGES = "pages"
-_REPODIR = expanduser(f"~/{BACKEND}/{ORG}/{REPO}")
-_DATADIR = f"{_REPODIR}/_local"
-_REPORTDIR = f"{_REPODIR}/report"
-SCANDIR = f"{_REPODIR}/scans"
-THUMBDIR = f"{_REPODIR}/thumb"
-THUMBPAGEDIR = f"{THUMBDIR}/{PAGES}"
-LOGODIR = f"{THUMBDIR}/{LOGO}"
-
-REPORT_SCANDIR = f"{_REPORTDIR}/scanreports"
-REPORT_SCANERRORS = f"{REPORT_SCANDIR}/scanerrors.txt"
-
+REPODIR = expanduser(f"~/{BACKEND}/{ORG}/{REPO}")
+SCANDIR = f"{REPODIR}/scans"
+THUMBDIR = f"{REPODIR}/thumb"
+THUMBLOGODIR = f"{THUMBDIR}/{LOGO}"
 
 SCAN_QUALITY = "15%"
 SCAN_RESIZE = "35%"
@@ -45,9 +38,9 @@ DS_STORE = ".DS_Store"
 
 
 class Scans:
-    def __init__(self, subset=False, silent=False, force=False):
-        scanDir = "scans-subset" if subset else "scans"
-        srcImageDir = f"{_DATADIR}/{scanDir}"
+    def __init__(self, silent=False, force=False):
+        scanDir = "scans"
+        srcImageDir = f"{REPODIR}/{scanDir}"
         pageInDir = f"{srcImageDir}/{PAGES}"
         logoInDir = f"{srcImageDir}/{LOGO}"
 
@@ -55,66 +48,10 @@ class Scans:
         self.pageInDir = pageInDir
         self.logoInDir = logoInDir
 
-        initTree(_REPORTDIR, fresh=False)
-        initTree(REPORT_SCANDIR, fresh=False)
-
         self.silent = silent
         self.force = force
         self.errors = {}
         self.error = False
-
-    def ingest(self, dry=False):
-        if self.error:
-            return
-
-        silent = self.silent
-        force = self.force
-
-        self.ingestLogo(dry=dry)
-
-        dstDir = f"{SCANDIR}/{PAGES}"
-
-        if dirExists(dstDir) and not force and not dry:
-            if not silent:
-                console(
-                    f"\tAlready ingested {PAGES}. "
-                    f"Remove {dstDir} or pass --force to ingest again"
-                )
-        else:
-            self.ingestPages(dry=dry)
-
-    def ingestPages(self, dry=False):
-        if self.error:
-            return
-
-        pageInDir = self.pageInDir
-        silent = self.silent
-        scanExt = SCAN_EXT[0]
-        pageFiles = dirContents(pageInDir)[0]
-
-        if not silent:
-            console(f"{len(pageFiles):>4} files")
-
-        n = 0
-
-        for file in pageFiles:
-            if extNm(file) != scanExt:
-                continue
-
-            n += 1
-
-        if not silent:
-            console(f"{n:>4} {SCAN_EXT[0]} files")
-
-    def ingestLogo(self, dry=False):
-        if self.error:
-            return
-
-        logoInDir = self.logoInDir
-
-        if not dry:
-            dirRemove(LOGODIR)
-            dirCopy(logoInDir, LOGODIR)
 
     def process(self, force=False):
         if self.error:
@@ -125,25 +62,50 @@ class Scans:
 
         silent = self.silent
         srcImageDir = self.srcImageDir
+        logoInDir = self.logoInDir
 
         plabel = "originals"
         dlabel = "thumbnails"
 
         srcDir = f"{srcImageDir}/{PAGES}"
-        destDir = f"{THUMBDIR}/{PAGES}"
-        sizesFile = f"{THUMBDIR}/sizes_{PAGES}.tsv"
+        dstDir = f"{THUMBDIR}/{PAGES}"
+        sizesFileThumb = f"{THUMBDIR}/sizes_{PAGES}.tsv"
+        sizesFileScans = f"{SCANDIR}/sizes_{PAGES}.tsv"
 
-        if force or not dirExists(destDir):
-            self.doThumb(srcDir, destDir, *SCAN_EXT, plabel, dlabel)
+        if force or not dirExists(THUMBLOGODIR):
+            dirRemove(THUMBLOGODIR)
+            dirCopy(logoInDir, THUMBLOGODIR)
+
+        if force or not dirExists(dstDir):
+            self.doThumb(srcDir, dstDir, *SCAN_EXT, plabel, dlabel)
         else:
             if not silent:
                 console(f"Already present: {dlabel} ({PAGES})")
 
-        if force or not fileExists(sizesFile):
-            self.doSizes(destDir, SCAN_EXT[1], sizesFile, dlabel)
+        if force or not fileExists(sizesFileThumb):
+            self.doSizes(dstDir, SCAN_EXT[1], sizesFileThumb, dlabel)
         else:
             if not silent:
                 console(f"Already present: sizes file {dlabel} ({PAGES})")
+
+        if force or not fileExists(sizesFileScans):
+            self.doSizes(srcDir, SCAN_EXT[0], sizesFileScans, plabel)
+        else:
+            if not silent:
+                console(f"Already present: sizes file {plabel} ({PAGES})")
+
+        for folder, label, ext in (
+            (srcDir, plabel, SCAN_EXT[0]),
+            (dstDir, dlabel, SCAN_EXT[1]),
+        ):
+            notFound = f"{FILE_NOT_FOUND}.{ext}"
+            files = [
+                f
+                for f in dirContents(folder)[0]
+                if f not in {DS_STORE, notFound} and extNm(f) == ext
+            ]
+            nFiles = len(files)
+            console(f"{label}: {nFiles}")
 
     def doSizes(self, imDir, ext, sizesFile, label):
         if self.error:

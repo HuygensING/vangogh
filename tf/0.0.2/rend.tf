@@ -12,14 +12,14 @@
 @institute2=Huygens Instituut Amsterdam
 @institute3=VGM (Van Gogh Museum) Amsterdam
 @language=nl
-@schema=TEI + editem + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist
+@schema=TEI + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist
 @sourceFormat=TEI
 @teiVersion=2025-03-12
 @title=Letters
 @valueType=str
 @version=0.0.2
 @writtenBy=Text-Fabric
-@dateWritten=2025-03-18T15:59:17+00:00Z
+@dateWritten=2025-03-26T07:20:06+00:00Z
 
 3746778	italics
 italics

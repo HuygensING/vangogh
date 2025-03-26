@@ -77,7 +77,7 @@
 
 ## `schema`
 
-`TEI + editem + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist`
+`TEI + editem-about + editem-letter + editem-artworklist + editem-biolist + editem-bibliolist`
 
 
 ## Conversion

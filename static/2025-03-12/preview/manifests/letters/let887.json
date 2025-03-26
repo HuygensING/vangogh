@@ -1,0 +1,103 @@
+{
+ "@context": "http://iiif.io/api/presentation/3/context.json",
+ "manifestInventory": "http://localhost:8087/files/[pid]/[org]/[repo]/static/manifests/letters/let887.json",
+ "type": "Manifest",
+ "label": {
+  "en": [
+   "Letters"
+  ]
+ },
+ "metadata": [
+  {
+   "label": {
+    "en": [
+     "Filename"
+    ]
+   },
+   "value": {
+    "en": [
+     "letters/let887.json"
+    ]
+   }
+  }
+ ],
+ "summary": {
+  "en": [
+   "Letters"
+  ]
+ },
+ "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
+ "provider": [
+  {
+   "id": "https://www.vangoghmuseum.nl",
+   "type": "Agent",
+   "label": [
+    {
+     "en": "Van Gogh Museum"
+    }
+   ],
+   "homepage": [
+    {
+     "id": "https://www.vangoghmuseum.nl/en",
+     "type": "Text",
+     "label": [
+      {
+       "en": "Homepage of the Van Gogh Museum"
+      }
+     ],
+     "format": "text/html"
+    }
+   ],
+   "logo": [
+    {
+     "id": "http://localhost:8087/files/[pid]/[org]/[repo]/static/logo/providerlogo.png",
+     "type": "Image",
+     "format": "image/png",
+     "height": 270,
+     "width": 288
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "http://localhost:8087/files/[pid]/[org]/[repo]/static/manifests/letters/let887.json/canvas/[pid]/[org]/[repo]/pages/887_1rR",
+   "type": "Canvas",
+   "label": {
+    "en": [
+     "887_1rR"
+    ]
+   },
+   "height": 3939,
+   "width": 3044,
+   "items": [
+    {
+     "id": "http://localhost:8087/files/[pid]/[org]/[repo]/static/manifests/letters/let887.json/canvas/[pid]/[org]/[repo]/pages/887_1rR/annotationpage",
+     "type": "AnnotationPage",
+     "items": [
+      {
+       "id": "http://localhost:8087/files/[pid]/[org]/[repo]/static/manifests/letters/let887.json/canvas/[pid]/[org]/[repo]/pages/887_1rR/anno",
+       "type": "Annotation",
+       "motivation": "painting",
+       "body": {
+        "id": "http://localhost:8087/iiif/3/[pid]|[org]|[repo]|scan|pages|887_1rR.png/full/max/0/default.png",
+        "type": "Image",
+        "height": 3939,
+        "width": 3044,
+        "service": [
+         {
+          "id": "http://localhost:8087/iiif/3/[pid]|[org]|[repo]|scan|pages|887_1rR.png",
+          "type": "ImageService3",
+          "profile": "http://iiif.io/api/image/3/level1.json"
+         }
+        ],
+        "format": "image/jpeg"
+       },
+       "target": "http://localhost:8087/files/[pid]/[org]/[repo]/static/manifests/letters/let887.json/canvas/[pid]/[org]/[repo]/pages/887_1rR"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
