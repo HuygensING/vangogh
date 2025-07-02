@@ -1,8 +1,9 @@
 import types
 from tf.advanced.app import App
 
+from tf.advanced.find import loadModule
 
-KNOWN_RENDS = {'italic', 'spaced', 'b', 'above', 'spat', 'i', 'h5', 'below', 'ul', 'large', 'h2', 'bold', 'underline', 'super', 'center', 'h4', 'h1', 'h3', 'sup', 'smallcaps', 'margin', 'sub', 'small_caps', 'h6', 'sc', 'italics'}
+KNOWN_RENDS = {'h4', 'sc', 'below', 'sub', 'italics', 'bold', 'h1', 'ul', 'h2', 'spaced', 'underline', 'margin', 'h3', 'center', 'smallcaps', 'super', 'h6', 'sup', 'spat', 'italic', 'small_caps', 'b', 'h5', 'i', 'above', 'large'}
 
 
 def fmt_layout(app, n, **kwargs):
@@ -18,6 +19,9 @@ class TfApp(App):
         )
         app.isFeatures = tuple(f for f in app.api.Fall() if f.startswith("is_"))
 
+        app.image = loadModule("image", *args)
+        app.image.getImagery(app, app.silent, checkout=kwargs.get("checkout", ""))
+        app.reinit()
 
     def _wrapHtml(app, n):
         rendFeatures = app.rendFeatures
@@ -36,4 +40,22 @@ class TfApp(App):
             material = f'<span class="{rClses} {iClses}">{material}</span>'
         return material
 
+    # GRAPHICS Support
+
+    def getGraphics(app, isPretty, n, nType, outer):
+        result = ""
+
+        theGraphics = app.image.getImage(
+            app,
+            n,
+            _asString=True,
+            warning=False,
+        )
+        if theGraphics:
+            result = f"<div>{theGraphics}</div>" if isPretty else f" {theGraphics}"
+
+        return result
+
+    def imagery(app):
+        return set(app._imagery)
 
